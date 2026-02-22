@@ -118,6 +118,12 @@ def build_backend(domain_id, cfg):
         "               status TEXT DEFAULT 'active',\n"
         "               created_at DATETIME DEFAULT CURRENT_TIMESTAMP)''')\n"
         "    db.commit()\n\n"
+        "@app.route('/', methods=['GET'])\n"
+        "def index():\n"
+        "    from flask import send_file\n"
+        "    import os\n"
+        "    p = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../frontend/index.html')\n"
+        "    return send_file(p)\n\n"
         "@app.route('/api/health', methods=['GET'])\n"
         "def health():\n"
         "    return jsonify({'status': 'healthy', 'app': '" + app_name + "', 'timestamp': datetime.now().isoformat()})\n\n"
@@ -170,6 +176,7 @@ def build_backend(domain_id, cfg):
     return code
 
 def build_frontend(cfg):
+    """Single HTML file — no Node, no React, works in any browser"""
     name = cfg.get("name", "App")
     entity = cfg.get("entity", "Record")
     entities = cfg.get("entities", "Records")
@@ -179,126 +186,284 @@ def build_frontend(cfg):
     icon = cfg.get("icon", "")
     table_cols = cfg.get("table_cols", fields[:4])
     accent = random.choice(["#2563eb","#7c3aed","#059669","#dc2626","#d97706"])
-    default_page = nav[1][0] if len(nav) > 1 else "dashboard"
 
+    # Form fields HTML
     form_fields = ""
     for f in fields:
         form_fields += (
-            "        <div style={{marginBottom:8}}>\n"
-            "          <label style={{display:'block',fontSize:12,marginBottom:4}}>" + f[1] + "</label>\n"
-            "          <input type='" + f[2] + "' style={{width:'100%',padding:'8px',border:'1px solid #e2e8f0',borderRadius:4,boxSizing:'border-box'}}\n"
-            "            value={formData['" + f[0] + "'] || ''}\n"
-            "            onChange={e => setFormData({...formData, '" + f[0] + "': e.target.value})}/>\n"
-            "        </div>\n"
+            "<div style=\"margin-bottom:12px\">"
+            "<label style=\"display:block;font-size:12px;font-weight:600;margin-bottom:4px;color:#374151\">" + f[1] + "</label>"
+            "<input type=\"" + f[2] + "\" id=\"field_" + f[0] + "\" "
+            "style=\"width:100%;padding:8px;border:1px solid #d1d5db;border-radius:4px;box-sizing:border-box;font-size:14px\" />"
+            "</div>"
         )
 
+    # Table headers
     headers = ""
     for c in table_cols:
         label = c[1] if len(c) > 1 else c[0]
-        headers += "              <th style={{padding:'8px',textAlign:'left'}}>" + label + "</th>\n"
-    headers += "              <th style={{padding:'8px'}}>Actions</th>\n"
+        headers += "<th style=\"padding:10px 12px;text-align:left;font-weight:600;color:#374151\">" + label + "</th>"
+    headers += "<th style=\"padding:10px 12px\">Actions</th>"
 
-    cells = ""
-    for c in table_cols:
-        cells += "              <td style={{padding:'8px'}}>{row['" + c[0] + "']}</td>\n"
-    cells += "              <td style={{padding:'8px'}}><button onClick={()=>deleteItem(row.id)} style={{background:'#fee2e2',color:'#dc2626',border:'none',padding:'4px 8px',borderRadius:4,cursor:'pointer'}}>Delete</button></td>\n"
-
+    # Nav items JS
     nav_items = ""
     for n in nav:
         nav_items += (
-            "        <div style={{padding:'10px 16px',cursor:'pointer',borderRadius:6,\n"
-            "          background:page==='" + n[0] + "'?'" + accent + "':'transparent'}}\n"
-            "          onClick={()=>setPage('" + n[0] + "')}>\n"
-            "          " + n[1] + " " + n[2] + "\n"
-            "        </div>\n"
+            "document.getElementById('nav_" + n[0] + "').onclick = function() { setPage('" + n[0] + "')" + "; };\n"
         )
 
-    code = (
-        "import React, {useState, useEffect} from 'react';\n\n"
-        "const API = 'http://localhost:5000/api';\n\n"
-        "function App() {\n"
-        "  const [page, setPage] = useState('" + default_page + "');\n"
-        "  const [items, setItems] = useState([]);\n"
-        "  const [formData, setFormData] = useState({});\n"
-        "  const [showForm, setShowForm] = useState(false);\n"
-        "  const [loading, setLoading] = useState(false);\n"
-        "  const [message, setMessage] = useState('');\n\n"
-        "  useEffect(() => { loadItems(); }, [page]);\n\n"
-        "  const loadItems = async () => {\n"
-        "    setLoading(true);\n"
-        "    try {\n"
-        "      const res = await fetch(API + '/" + table + "');\n"
-        "      const data = await res.json();\n"
-        "      setItems(Array.isArray(data) ? data : []);\n"
-        "    } catch(e) { setMessage('Connection error'); }\n"
-        "    setLoading(false);\n"
-        "  };\n\n"
-        "  const saveItem = async () => {\n"
-        "    try {\n"
-        "      const res = await fetch(API + '/" + table + "', {\n"
-        "        method: 'POST',\n"
-        "        headers: {'Content-Type': 'application/json'},\n"
-        "        body: JSON.stringify(formData)\n"
-        "      });\n"
-        "      const data = await res.json();\n"
-        "      if (res.ok) { setMessage('" + entity + " saved!'); setShowForm(false); setFormData({}); loadItems(); }\n"
-        "      else { setMessage(data.error || 'Error saving'); }\n"
-        "    } catch(e) { setMessage('Connection error'); }\n"
-        "  };\n\n"
-        "  const deleteItem = async (id) => {\n"
-        "    if (!window.confirm('Delete?')) return;\n"
-        "    await fetch(API + '/" + table + "/' + id, {method: 'DELETE'});\n"
-        "    loadItems();\n"
-        "  };\n\n"
-        "  return (\n"
-        "    <div style={{display:'flex',height:'100vh',fontFamily:'system-ui,sans-serif',background:'#f8fafc'}}>\n"
-        "      <div style={{width:220,background:'#1e293b',color:'white',padding:16}}>\n"
-        "        <div style={{fontSize:20,fontWeight:'bold',marginBottom:24,color:'" + accent + "'}}>" + icon + " " + name + "</div>\n"
-        + nav_items +
-        "      </div>\n"
-        "      <div style={{flex:1,padding:24,overflow:'auto'}}>\n"
-        "        <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:16}}>\n"
-        "          <h2 style={{margin:0}}>" + entities + "</h2>\n"
-        "          <button onClick={()=>setShowForm(true)}\n"
-        "            style={{background:'" + accent + "',color:'white',border:'none',padding:'8px 16px',borderRadius:6,cursor:'pointer'}}>\n"
-        "            + New " + entity + "\n"
-        "          </button>\n"
-        "        </div>\n"
-        "        {message && <div style={{background:'#dcfce7',padding:8,borderRadius:4,marginBottom:12}}>{message}</div>}\n"
-        "        {showForm && (\n"
-        "          <div style={{background:'white',padding:24,borderRadius:8,marginBottom:16,boxShadow:'0 2px 8px rgba(0,0,0,0.1)'}}>\n"
-        "            <h3 style={{marginTop:0}}>New " + entity + "</h3>\n"
-        + form_fields +
-        "            <div style={{marginTop:16,display:'flex',gap:8}}>\n"
-        "              <button onClick={saveItem} style={{background:'" + accent + "',color:'white',border:'none',padding:'8px 20px',borderRadius:6,cursor:'pointer'}}>Save</button>\n"
-        "              <button onClick={()=>setShowForm(false)} style={{background:'#e2e8f0',border:'none',padding:'8px 20px',borderRadius:6,cursor:'pointer'}}>Cancel</button>\n"
-        "            </div>\n"
-        "          </div>\n"
-        "        )}\n"
-        "        {loading ? <p>Loading...</p> : (\n"
-        "          <div style={{background:'white',borderRadius:8,overflow:'hidden',boxShadow:'0 1px 4px rgba(0,0,0,0.1)'}}>\n"
-        "            <table style={{width:'100%',borderCollapse:'collapse'}}>\n"
-        "              <thead style={{background:'#f1f5f9'}}><tr>\n"
-        + headers +
-        "              </tr></thead>\n"
-        "              <tbody>\n"
-        "                {items.map(row => (\n"
-        "                  <tr key={row.id} style={{borderTop:'1px solid #e2e8f0'}}>\n"
-        + cells +
-        "                  </tr>\n"
-        "                ))}\n"
-        "                {items.length === 0 && <tr><td colSpan={99} style={{padding:16,textAlign:'center',color:'#94a3b8'}}>No " + entities.lower() + " yet</td></tr>}\n"
-        "              </tbody>\n"
-        "            </table>\n"
-        "          </div>\n"
-        "        )}\n"
-        "      </div>\n"
-        "    </div>\n"
-        "  );\n"
-        "}\n\n"
-        "export default App;\n"
-    )
-    return code
+    nav_html = ""
+    for n in nav:
+        nav_html += (
+            "<div id=\"nav_" + n[0] + "\" class=\"nav-item\" data-page=\"" + n[0] + "\" "
+            "style=\"padding:10px 16px;cursor:pointer;border-radius:6px;margin-bottom:4px\">"
+            + n[1] + " " + n[2] +
+            "</div>"
+        )
+
+    # Field names for JS form collection
+    field_names_js = "[" + ",".join(['"' + f[0] + '"' for f in fields]) + "]"
+    col_names_js = "[" + ",".join(['"' + c[0] + '"' for c in table_cols]) + "]"
+
+    html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>""" + name + """</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #f8fafc; }
+  .nav-item:hover { background: rgba(255,255,255,0.1); }
+  .nav-active { background: """ + accent + """ !important; }
+  table { width: 100%; border-collapse: collapse; }
+  th { background: #f1f5f9; }
+  tr:not(:first-child) { border-top: 1px solid #e2e8f0; }
+  tr:hover { background: #f8fafc; }
+  input, select { outline: none; }
+  input:focus { border-color: """ + accent + """ !important; }
+  .btn-primary { background: """ + accent + """; color: white; border: none; padding: 8px 20px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+  .btn-secondary { background: #e2e8f0; color: #374151; border: none; padding: 8px 20px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+  .btn-danger { background: #fee2e2; color: #dc2626; border: none; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+  .card { background: white; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); overflow: hidden; }
+  .toast { position: fixed; top: 16px; right: 16px; padding: 12px 20px; border-radius: 6px; background: #dcfce7; color: #166534; font-size: 14px; display: none; z-index: 999; }
+</style>
+</head>
+<body>
+<div style="display:flex;height:100vh;">
+
+  <!-- Sidebar -->
+  <div id="topbar" style="display:none;position:fixed;top:0;left:0;right:0;height:50px;background:#1e293b;z-index:200;align-items:center;padding:0 16px;">
+    <button onclick="toggleMenu()" style="background:none;border:none;color:white;font-size:26px;cursor:pointer;line-height:1;">&#9776;</button>
+    <span style="color:""" + accent + """;font-weight:bold;margin-left:12px;font-size:16px;">""" + icon + " " + name + """</span>
+  </div>
+  <div id="overlay" onclick="toggleMenu()" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:201;"></div>
+  <div id="sidebar" style="width:220px;background:#1e293b;color:white;padding:16px;position:fixed;top:0;bottom:0;left:0;z-index:202;overflow-y:auto;transform:translateX(-100%);transition:transform 0.3s;">
+    <div style="font-size:18px;font-weight:bold;margin-bottom:24px;color:""" + accent + """;">""" + icon + " " + name + """</div>
+""" + nav_html + """
+  </div>
+
+  <!-- Main -->
+  <div id="main_content" style="flex:1;padding:24px;overflow:auto;">
+    <div id="page_dashboard" class="page">
+      <h2 style="margin-bottom:16px;">Dashboard</h2>
+      <div class="card" style="padding:24px;">
+        <p style="color:#6b7280;">Welcome to """ + name + """. Use the sidebar to navigate.</p>
+        <p style="margin-top:12px;color:#6b7280;">Total records: <strong id="dash_count">...</strong></p>
+      </div>
+    </div>
+
+    <div id="page_""" + (nav[1][0] if len(nav) > 1 else "records") + """" class="page" style="display:none;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+        <h2>""" + entities + """</h2>
+        <button class="btn-primary" onclick="showForm(true)">+ New """ + entity + """</button>
+      </div>
+
+      <!-- Form -->
+      <div id="record_form" class="card" style="padding:24px;margin-bottom:16px;display:none;">
+        <h3 style="margin-bottom:16px;">New """ + entity + """</h3>
+""" + form_fields + """
+        <div style="display:flex;gap:8px;margin-top:8px;">
+          <button class="btn-primary" onclick="saveRecord()">Save</button>
+          <button class="btn-secondary" onclick="showForm(false)">Cancel</button>
+        </div>
+      </div>
+
+      <!-- Table -->
+      <div class="card" id="loading" style="padding:24px;text-align:center;color:#9ca3af;">Loading...</div>
+      <div class="card" id="table_wrap" style="display:none;">
+        <table>
+          <thead><tr>""" + headers + """</tr></thead>
+          <tbody id="table_body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="page_reports" class="page" style="display:none;">
+      <h2 style="margin-bottom:16px;">Reports</h2>
+      <div class="card" style="padding:24px;">
+        <p>Total """ + entities.lower() + """: <strong id="report_count">...</strong></p>
+      </div>
+    </div>
+
+    <div id="page_settings" class="page" style="display:none;">
+      <h2 style="margin-bottom:16px;">Settings</h2>
+      <div class="card" style="padding:24px;">
+        <p style="color:#6b7280;">""" + name + """ v1.0</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const API = '/api';
+const FIELDS = """ + field_names_js + """;
+const COLS = """ + col_names_js + """;
+
+function toast(msg, ok) {
+  var t = document.getElementById('toast');
+  t.textContent = msg;
+  t.style.background = ok === false ? '#fee2e2' : '#dcfce7';
+  t.style.color = ok === false ? '#991b1b' : '#166534';
+  t.style.display = 'block';
+  setTimeout(function() { t.style.display = 'none'; }, 3000);
+}
+
+function setPage(page) {
+  document.querySelectorAll('.page').forEach(function(p) { p.style.display = 'none'; });
+  document.querySelectorAll('.nav-item').forEach(function(n) { n.classList.remove('nav-active'); });
+  var pg = document.getElementById('page_' + page);
+  if (pg) pg.style.display = 'block';
+  var nav = document.querySelector('[data-page="' + page + '"]');
+  if (nav) nav.classList.add('nav-active');
+  if (page === '""" + (nav[1][0] if len(nav) > 1 else "records") + """') loadRecords();
+  if (page === 'dashboard') loadDash();
+  if (page === 'reports') loadReports();
+}
+
+function loadDash() {
+  fetch(API + '/""" + table + """').then(function(r) { return r.json(); }).then(function(d) {
+    document.getElementById('dash_count').textContent = Array.isArray(d) ? d.length : 0;
+  });
+}
+
+function loadReports() {
+  fetch(API + '/""" + table + """').then(function(r) { return r.json(); }).then(function(d) {
+    document.getElementById('report_count').textContent = Array.isArray(d) ? d.length : 0;
+  });
+}
+
+function loadRecords() {
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('table_wrap').style.display = 'none';
+  fetch(API + '/""" + table + """').then(function(r) { return r.json(); }).then(function(items) {
+    var tbody = document.getElementById('table_body');
+    tbody.innerHTML = '';
+    if (!Array.isArray(items) || items.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="99" style="padding:16px;text-align:center;color:#9ca3af;">No """ + entities.lower() + """ yet. Click + New """ + entity + """ to add one.</td></tr>';
+    } else {
+      items.forEach(function(row) {
+        var tr = document.createElement('tr');
+        var cells = COLS.map(function(c) {
+          return '<td style="padding:10px 12px;">' + (row[c] || '') + '</td>';
+        }).join('');
+        cells += '<td style="padding:10px 12px;"><button class="btn-danger" onclick="deleteRecord(' + row.id + ')">Delete</button></td>';
+        tr.innerHTML = cells;
+        tbody.appendChild(tr);
+      });
+    }
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('table_wrap').style.display = 'block';
+  }).catch(function() {
+    document.getElementById('loading').textContent = 'Could not connect to backend.';
+  });
+}
+
+function showForm(show) {
+  document.getElementById('record_form').style.display = show ? 'block' : 'none';
+  if (!show) FIELDS.forEach(function(f) {
+    var el = document.getElementById('field_' + f);
+    if (el) el.value = '';
+  });
+}
+
+function saveRecord() {
+  var data = {};
+  FIELDS.forEach(function(f) {
+    var el = document.getElementById('field_' + f);
+    if (el) data[f] = el.value;
+  });
+  fetch(API + '/""" + table + """', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(data)
+  }).then(function(r) { return r.json(); }).then(function(d) {
+    if (d.id) {
+      toast('""" + entity + """ saved!');
+      showForm(false);
+      loadRecords();
+    } else {
+      toast(d.error || 'Error saving', false);
+    }
+  }).catch(function() { toast('Connection error', false); });
+}
+
+function deleteRecord(id) {
+  if (!confirm('Delete this record?')) return;
+  fetch(API + '/""" + table + """/' + id, {method: 'DELETE'}).then(function() {
+    toast('Deleted');
+    loadRecords();
+  });
+}
+
+// Mobile menu
+function toggleMenu() {
+  var sb = document.getElementById('sidebar');
+  var ov = document.getElementById('overlay');
+  var open = sb.style.transform === 'translateX(0px)' || sb.style.transform === 'translateX(0%)';
+  sb.style.transform = open ? 'translateX(-100%)' : 'translateX(0%)';
+  ov.style.display = open ? 'none' : 'block';
+}
+
+function initLayout() {
+  var topbar = document.getElementById('topbar');
+  var sidebar = document.getElementById('sidebar');
+  var main = document.getElementById('main_content');
+  if (window.innerWidth < 768) {
+    topbar.style.display = 'flex';
+    main.style.marginTop = '50px';
+    main.style.marginLeft = '0';
+  } else {
+    topbar.style.display = 'none';
+    sidebar.style.transform = 'translateX(0%)';
+    sidebar.style.position = 'relative';
+    sidebar.style.flexShrink = '0';
+    main.style.marginLeft = '0';
+    main.style.marginTop = '0';
+  }
+}
+
+window.addEventListener('resize', initLayout);
+initLayout();
+
+// Nav click handlers
+""" + nav_items + """
+
+// Start
+setPage('dashboard');
+</script>
+</body>
+</html>"""
+    return html
+
+def build_frontend_files(cfg, path):
+    """Write single HTML file served by Flask"""
+    html = build_frontend(cfg)
+    (path / "frontend").mkdir(exist_ok=True)
+    (path / "frontend" / "index.html").write_text(html)
+
 
 class AutonomousOrganism:
     def __init__(self):
