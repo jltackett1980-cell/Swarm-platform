@@ -128,6 +128,19 @@ def delete_donors(item_id):
         return jsonify({'error': str(e)}), 500
 
 
+@app.route('/api/donors/search', methods=['GET'])
+def search_donors():
+    try:
+        q = request.args.get('q', '')
+        with get_db() as db:
+            rows = db.execute(
+                "SELECT * FROM donors WHERE name LIKE ?",
+                (f'%{q}%',)
+            ).fetchall()
+        return jsonify([dict(r) for r in rows])
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 
 
 if __name__ == '__main__':
