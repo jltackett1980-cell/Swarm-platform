@@ -462,7 +462,7 @@ def build_frontend_files(cfg, path):
     """Write single HTML file served by Flask"""
     html = build_frontend(cfg)
     (path / "frontend").mkdir(exist_ok=True)
-    (path / "frontend" / "index.html").write_text(html)
+    (path / "frontend" / "index.html").write_text(build_frontend(cfg))
 
 
 class AutonomousOrganism:
@@ -478,33 +478,9 @@ class AutonomousOrganism:
         path = home / app_id
         path.mkdir(parents=True, exist_ok=True)
         (path / "backend").mkdir(exist_ok=True)
-        (path / "frontend" / "src").mkdir(parents=True, exist_ok=True)
-        (path / "frontend" / "public").mkdir(exist_ok=True)
-
-        (path / "backend" / "app.py").write_text(build_backend(domain_id, cfg))
-        (path / "backend" / "requirements.txt").write_text("flask\nflask-cors\nwerkzeug\npyjwt\n")
-        (path / "frontend" / "src" / "App.js").write_text(build_frontend(cfg))
-        (path / "frontend" / "src" / "index.js").write_text(
-            "import React from 'react';\n"
-            "import ReactDOM from 'react-dom/client';\n"
-            "import App from './App';\n"
-            "const root = ReactDOM.createRoot(document.getElementById('root'));\n"
-            "root.render(<React.StrictMode><App /></React.StrictMode>);\n"
-        )
-        (path / "frontend" / "public" / "index.html").write_text(
-            '<!DOCTYPE html><html><head><meta charset="utf-8"/><title>' + cfg["name"] + '</title></head>'
-            '<body><div id="root"></div></body></html>\n'
-        )
-        (path / "frontend" / "package.json").write_text(json.dumps({
-            "name": domain_id,
-            "version": "1.0.0",
-            "dependencies": {
-                "react": "^18.2.0",
-                "react-dom": "^18.2.0",
-                "react-scripts": "5.0.1"
-            },
-            "scripts": {"start": "react-scripts start", "build": "react-scripts build"}
-        }, indent=2))
+        (path / "backend").mkdir(exist_ok=True)
+        (path / "frontend").mkdir(exist_ok=True)
+        (path / "frontend" / "index.html").write_text(build_frontend(cfg))
         return app_id
 
     def life_cycle(self):
