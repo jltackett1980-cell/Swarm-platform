@@ -127,15 +127,19 @@ def delete_cases(item_id):
         return jsonify({'error': str(e)}), 500
 
 
-
-@app.route('/api/stats', methods=['GET'])
-def stats():
+@app.route('/api/cases/search', methods=['GET'])
+def search_cases():
     try:
+        q = request.args.get('q', '')
         with get_db() as db:
-            count = db.execute("SELECT COUNT(*) FROM cases").fetchone()[0]
-        return jsonify({'total': count, 'domain': 'law'})
+            rows = db.execute(
+                "SELECT * FROM cases WHERE client LIKE ?",
+                (f'%{q}%',)
+            ).fetchall()
+        return jsonify([dict(r) for r in rows])
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
 
 
 if __name__ == '__main__':
