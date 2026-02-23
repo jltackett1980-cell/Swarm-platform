@@ -1,139 +1,158 @@
-import os
-import sqlite3
-from datetime import datetime
-from flask import Flask, request, jsonify, g
+#!/usr/bin/env python3
+from flask import Flask, jsonify, request, send_file
 from flask_cors import CORS
+from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
-import jwt
+import sqlite3, jwt, os
 
 app = Flask(__name__)
 CORS(app)
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'dev-key-change-me')
-app.config['DATABASE'] = 'app.db'
+SECRET_KEY = 'swarm-pharmacy-secret'
+DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'pharmacy.db')
 
 def get_db():
-    db = getattr(g, '_database', None)
-    if db is None:
-        db = g._database = sqlite3.connect(app.config['DATABASE'])
-        db.row_factory = sqlite3.Row
-    return db
-
-@app.teardown_appcontext
-def close_db(error):
-    db = getattr(g, '_database', None)
-    if db is not None:
-        db.close()
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    return conn
 
 def init_db():
-    db = get_db()
-    db.execute("CREATE TABLE IF NOT EXISTS users ("
-               "id INTEGER PRIMARY KEY AUTOINCREMENT,"
-               "email TEXT UNIQUE NOT NULL,"
-               "username TEXT UNIQUE NOT NULL,"
-               "password_hash TEXT NOT NULL,"
-               "role TEXT DEFAULT 'user',"
-               "created_at DATETIME DEFAULT CURRENT_TIMESTAMP"
-               ")")
-    db.commit()
-    db.execute("CREATE TABLE IF NOT EXISTS medications ("
-               "id INTEGER PRIMARY KEY AUTOINCREMENT,"
-               "name TEXT NOT NULL,"
-               "details TEXT,"
-               "status TEXT DEFAULT 'active',"
-               "created_at DATETIME DEFAULT CURRENT_TIMESTAMP"
-               ")")
-    db.execute("CREATE TABLE IF NOT EXISTS prescriptions ("
-               "id INTEGER PRIMARY KEY AUTOINCREMENT,"
-               "name TEXT NOT NULL,"
-               "details TEXT,"
-               "status TEXT DEFAULT 'active',"
-               "created_at DATETIME DEFAULT CURRENT_TIMESTAMP"
-               ")")
-    db.execute("CREATE TABLE IF NOT EXISTS patients ("
-               "id INTEGER PRIMARY KEY AUTOINCREMENT,"
-               "name TEXT NOT NULL,"
-               "details TEXT,"
-               "status TEXT DEFAULT 'active',"
-               "created_at DATETIME DEFAULT CURRENT_TIMESTAMP"
-               ")")
-    db.commit()
+    with get_db() as db:
+        db.execute('''CREATE TABLE IF NOT EXISTS users (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT UNIQUE NOT NULL,
+            password TEXT NOT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )''')
+        db.execute('''CREATE TABLE IF NOT EXISTS prescriptions (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            patient TEXT,
+            medication TEXT,
+            dosage TEXT,
+            doctor TEXT,
+            refills REAL,
+            expires DATE,
+            status TEXT DEFAULT 'active',
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )''')
+        db.commit()
+
+@app.route('/', methods=['GET'])
+def index():
+    p = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../frontend/index.html')
+    return send_file(p)
 
 @app.route('/api/health', methods=['GET'])
 def health():
-    return jsonify({'status': 'healthy', 'timestamp': datetime.now().isoformat()})
+    return jsonify({'status': 'healthy', 'app': 'Pharmacy Manager', 'timestamp': datetime.now().isoformat()})
 
 @app.route('/api/auth/register', methods=['POST'])
 def register():
-    data = request.get_json()
-    db = get_db()
-    
-    if db.execute('SELECT id FROM users WHERE email = ?', (data['email'],)).fetchone():
-        return jsonify({'error': 'Email exists'}), 409
-    
-    password_hash = generate_password_hash(data['password'])
-    cursor = db.execute('INSERT INTO users (email, username, password_hash) VALUES (?, ?, ?)',
-                       (data['email'], data.get('username', data['email']), password_hash))
-    db.commit()
-    return jsonify({'message': 'User created', 'user_id': cursor.lastrowid}), 201
+    try:
+        data = request.get_json()
+        hashed = generate_password_hash(data['password'])
+        with get_db() as db:
+            db.execute("INSERT INTO users (username, password) VALUES (?, ?)", (data['username'], hashed))
+            db.commit()
+        return jsonify({'message': 'User created'})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
 
 @app.route('/api/auth/login', methods=['POST'])
 def login():
-    data = request.get_json()
-    db = get_db()
-    
-    user = db.execute('SELECT * FROM users WHERE email = ?', (data['username'],)).fetchone()
-    if user and check_password_hash(user['password_hash'], data['password']):
-        token = jwt.encode({'user_id': user['id']}, app.config['SECRET_KEY'], algorithm='HS256')
-        return jsonify({'token': token, 'user': dict(user)})
-    return jsonify({'error': 'Invalid credentials'}), 401
-
-if __name__ == '__main__':
-    with app.app_context():
-        init_db()
-    app.run(host='0.0.0.0', port=5000, debug=True)
-
-
-@app.route('/api/medications', methods=['GET'])
-def get_medications():
-    db = get_db()
-    items = db.execute('SELECT * FROM medications').fetchall()
-    return jsonify([dict(i) for i in items])
-
-@app.route('/api/medications', methods=['POST'])
-def create_medications():
-    data = request.get_json()
-    db = get_db()
-    cursor = db.execute('INSERT INTO medications (name, details) VALUES (?, ?)',
-                       (data.get('name'), data.get('details')))
-    db.commit()
-    return jsonify({'id': cursor.lastrowid, 'message': 'Created'}), 201
+    try:
+        data = request.get_json()
+        with get_db() as db:
+            user = db.execute("SELECT * FROM users WHERE username=?", (data['username'],)).fetchone()
+        if user and check_password_hash(user['password'], data['password']):
+            token = jwt.encode({'user': data['username']}, SECRET_KEY, algorithm='HS256')
+            return jsonify({'token': token})
+        return jsonify({'error': 'Invalid credentials'}), 401
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 @app.route('/api/prescriptions', methods=['GET'])
 def get_prescriptions():
-    db = get_db()
-    items = db.execute('SELECT * FROM prescriptions').fetchall()
-    return jsonify([dict(i) for i in items])
+    try:
+        with get_db() as db:
+            rows = db.execute("SELECT * FROM prescriptions ORDER BY created_at DESC").fetchall()
+        return jsonify([dict(r) for r in rows])
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 @app.route('/api/prescriptions', methods=['POST'])
 def create_prescriptions():
-    data = request.get_json()
-    db = get_db()
-    cursor = db.execute('INSERT INTO prescriptions (name, details) VALUES (?, ?)',
-                       (data.get('name'), data.get('details')))
-    db.commit()
-    return jsonify({'id': cursor.lastrowid, 'message': 'Created'}), 201
+    try:
+        data = request.get_json()
+        with get_db() as db:
+            cursor = db.execute(
+                "INSERT INTO prescriptions (patient, medication, dosage, doctor, refills, expires) VALUES (?, ?, ?, ?, ?, ?)",
+                (data.get('patient'), data.get('medication'), data.get('dosage'), data.get('doctor'), data.get('refills'), data.get('expires'),)
+            )
+            db.commit()
+        return jsonify({'id': cursor.lastrowid, 'message': 'Created'})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
-@app.route('/api/refills', methods=['GET'])
-def get_refills():
-    db = get_db()
-    items = db.execute('SELECT * FROM refills').fetchall()
-    return jsonify([dict(i) for i in items])
+@app.route('/api/prescriptions/<int:item_id>', methods=['GET'])
+def get_prescriptions_item(item_id):
+    try:
+        with get_db() as db:
+            row = db.execute("SELECT * FROM prescriptions WHERE id=?", (item_id,)).fetchone()
+        if not row:
+            return jsonify({'error': 'Not found'}), 404
+        return jsonify(dict(row))
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
-@app.route('/api/refills', methods=['POST'])
-def create_refills():
-    data = request.get_json()
-    db = get_db()
-    cursor = db.execute('INSERT INTO refills (name, details) VALUES (?, ?)',
-                       (data.get('name'), data.get('details')))
-    db.commit()
-    return jsonify({'id': cursor.lastrowid, 'message': 'Created'}), 201
+@app.route('/api/prescriptions/<int:item_id>', methods=['PUT'])
+def update_prescriptions(item_id):
+    try:
+        data = request.get_json()
+        sets = ", ".join([f"{k}=?" for k in data.keys()])
+        vals = list(data.values()) + [item_id]
+        with get_db() as db:
+            db.execute(f"UPDATE prescriptions SET {sets} WHERE id=?", vals)
+            db.commit()
+        return jsonify({'message': 'Updated'})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/prescriptions/<int:item_id>', methods=['DELETE'])
+def delete_prescriptions(item_id):
+    try:
+        with get_db() as db:
+            db.execute("DELETE FROM prescriptions WHERE id=?", (item_id,))
+            db.commit()
+        return jsonify({'message': 'Deleted'})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/prescriptions/search', methods=['GET'])
+def search_prescriptions():
+    try:
+        q = request.args.get('q', '')
+        with get_db() as db:
+            rows = db.execute(
+                "SELECT * FROM prescriptions WHERE patient LIKE ?",
+                (f'%{q}%',)
+            ).fetchall()
+        return jsonify([dict(r) for r in rows])
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/stats', methods=['GET'])
+def stats():
+    try:
+        with get_db() as db:
+            count = db.execute("SELECT COUNT(*) FROM prescriptions").fetchone()[0]
+        return jsonify({'total': count, 'domain': 'pharmacy'})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+if __name__ == '__main__':
+    init_db()
+    print(f'Starting Pharmacy Manager on http://localhost:5000')
+    app.run(debug=False, host='0.0.0.0', port=5000)
