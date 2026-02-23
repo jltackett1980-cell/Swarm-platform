@@ -156,22 +156,22 @@ def check_new_apps(configs):
         key=lambda p: p.stat().st_mtime, reverse=True)[:10]
 
     for app_path in new_apps:
+        html = app_path / "frontend" / "index.html"
         app_js = app_path / "frontend" / "src" / "App.js"
-        if not app_js.exists():
+        if html.exists():
+            content = html.read_text()
+        elif app_js.exists():
+            content = app_js.read_text()
+        else:
             continue
-        content = app_js.read_text()
 
-        # Identify domain from APP_NAME
+        # Identify domain from title tag
         domain_id = None
         domain_config = None
-        for line in content.split('\n'):
-            if 'APP_NAME' in line and "'" in line:
-                app_name = line.split("'")[1] if "'" in line else ""
-                for did, cfg in configs.items():
-                    if cfg.get('name','') == app_name:
-                        domain_id = did
-                        domain_config = cfg
-                        break
+        for did, cfg in configs.items():
+            if cfg.get("name","") in content:
+                domain_id = did
+                domain_config = cfg
                 break
 
         if not domain_id:
