@@ -12,7 +12,7 @@ CONFIGS_FILE = HOME / "organism_templates" / "domain_configs.json"
 CHAMPIONS_DIR = HOME / "ORGANISM_ARMY" / "champions"
 APPS_DIR = HOME
 LOG_FILE = HOME / "turbo_evolve.log"
-TARGET_GENERATIONS = 100
+TARGET_GENERATIONS = 200
 
 def log(msg):
     line = f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {msg}"
@@ -568,14 +568,136 @@ def save_champion(domain_id, cfg, score, breakdown, app_path, generation):
     (champ_dir / "champion.json").write_text(json.dumps(champ, indent=2))
     return generation
 
+def discover_new_domains(configs):
+    """Discover new domains by cross-pollinating existing ones"""
+    new_domains = {
+        "telehealth": {
+            "name": "TeleHealth",
+            "icon": "💻",
+            "entity": "Consultation",
+            "entities": "Consultations",
+            "nav": [["dashboard","📊","Dashboard"],["consultations","💻","consultations"],["patients","👤","patients"],["prescriptions","💊","prescriptions"]],
+            "fields": [["patient","Patient","text"],["doctor","Doctor","text"],["date","Date","date"],["time","Time","time"],["type","Type","text"],["diagnosis","Diagnosis","text"],["prescription","Prescription","text"]],
+            "table_cols": [["patient","Patient"],["doctor","Doctor"],["date","Date"],["type","Type"]],
+            "prompt": "telehealth video consultation platform with patient records, doctor scheduling, prescriptions and follow-ups"
+        },
+        "esports": {
+            "name": "EsportsHub",
+            "icon": "🏆",
+            "entity": "Tournament",
+            "entities": "Tournaments",
+            "nav": [["dashboard","📊","Dashboard"],["tournaments","🏆","tournaments"],["teams","👥","teams"],["players","🎮","players"]],
+            "fields": [["name","Tournament Name","text"],["game","Game","text"],["teams","Team Count","number"],["prize","Prize Pool","number"],["start_date","Start Date","date"],["status","Status","text"],["winner","Winner","text"]],
+            "table_cols": [["name","Tournament"],["game","Game"],["prize","Prize Pool"],["status","Status"]],
+            "prompt": "esports tournament management with team registration, brackets, prize pools, player stats and live scoring"
+        },
+        "drone_delivery": {
+            "name": "DroneOps",
+            "icon": "🚁",
+            "entity": "Delivery",
+            "entities": "Deliveries",
+            "nav": [["dashboard","📊","Dashboard"],["deliveries","🚁","deliveries"],["drones","🤖","drones"],["routes","🗺️","routes"]],
+            "fields": [["package_id","Package ID","text"],["drone_id","Drone ID","text"],["origin","Origin","text"],["destination","Destination","text"],["weight","Weight kg","number"],["status","Status","text"],["eta","ETA","time"]],
+            "table_cols": [["package_id","Package"],["drone_id","Drone"],["destination","Destination"],["status","Status"]],
+            "prompt": "drone delivery fleet management with route optimization, package tracking, drone status monitoring and delivery confirmation"
+        },
+        "smart_farm": {
+            "name": "SmartFarm",
+            "icon": "🌱",
+            "entity": "Crop",
+            "entities": "Crops",
+            "nav": [["dashboard","📊","Dashboard"],["crops","🌱","crops"],["livestock","🐄","livestock"],["equipment","🚜","equipment"]],
+            "fields": [["crop_name","Crop","text"],["field","Field","text"],["planted","Planted","date"],["harvest_date","Harvest Date","date"],["yield_kg","Yield kg","number"],["soil_ph","Soil pH","number"],["status","Status","text"]],
+            "table_cols": [["crop_name","Crop"],["field","Field"],["planted","Planted"],["status","Status"]],
+            "prompt": "smart farm management with crop tracking, soil monitoring, livestock management, equipment scheduling and yield analytics"
+        },
+        "vr_studio": {
+            "name": "VRStudio",
+            "icon": "🥽",
+            "entity": "Experience",
+            "entities": "Experiences",
+            "nav": [["dashboard","📊","Dashboard"],["experiences","🥽","experiences"],["sessions","🎮","sessions"],["users","👤","users"]],
+            "fields": [["title","Experience Title","text"],["type","Type","text"],["duration","Duration min","number"],["max_users","Max Users","number"],["platform","Platform","text"],["rating","Rating","number"],["status","Status","text"]],
+            "table_cols": [["title","Experience"],["type","Type"],["duration","Duration"],["platform","Platform"]],
+            "prompt": "VR studio management with experience catalog, session booking, user progress tracking, platform management and performance analytics"
+        },
+        "crypto_exchange": {
+            "name": "CryptoDesk",
+            "icon": "₿",
+            "entity": "Transaction",
+            "entities": "Transactions",
+            "nav": [["dashboard","📊","Dashboard"],["transactions","₿","transactions"],["wallets","👛","wallets"],["markets","📈","markets"]],
+            "fields": [["tx_id","Transaction ID","text"],["from_wallet","From","text"],["to_wallet","To","text"],["amount","Amount","number"],["currency","Currency","text"],["fee","Fee","number"],["status","Status","text"]],
+            "table_cols": [["tx_id","TX ID"],["currency","Currency"],["amount","Amount"],["status","Status"]],
+            "prompt": "crypto exchange management with wallet tracking, transaction history, market data, fee management and compliance reporting"
+        },
+        "fleet_management": {
+            "name": "FleetCore",
+            "icon": "🚛",
+            "entity": "Vehicle",
+            "entities": "Vehicles",
+            "nav": [["dashboard","📊","Dashboard"],["vehicles","🚛","vehicles"],["drivers","👤","drivers"],["maintenance","🔧","maintenance"]],
+            "fields": [["plate","Plate Number","text"],["driver","Driver","text"],["type","Vehicle Type","text"],["fuel","Fuel %","number"],["mileage","Mileage","number"],["last_service","Last Service","date"],["status","Status","text"]],
+            "table_cols": [["plate","Plate"],["driver","Driver"],["fuel","Fuel"],["status","Status"]],
+            "prompt": "fleet management system with vehicle tracking, driver assignment, fuel monitoring, maintenance scheduling and route optimization"
+        },
+        "music_studio": {
+            "name": "StudioFlow",
+            "icon": "🎵",
+            "entity": "Track",
+            "entities": "Tracks",
+            "nav": [["dashboard","📊","Dashboard"],["tracks","🎵","tracks"],["artists","🎤","artists"],["sessions","🎛️","sessions"]],
+            "fields": [["title","Track Title","text"],["artist","Artist","text"],["genre","Genre","text"],["duration","Duration","number"],["bpm","BPM","number"],["key","Key","text"],["status","Status","text"]],
+            "table_cols": [["title","Track"],["artist","Artist"],["genre","Genre"],["status","Status"]],
+            "prompt": "music studio management with track catalog, artist management, recording sessions, mixing workflow and release scheduling"
+        },
+        "supply_chain": {
+            "name": "ChainTrack",
+            "icon": "⛓️",
+            "entity": "Shipment",
+            "entities": "Shipments",
+            "nav": [["dashboard","📊","Dashboard"],["shipments","⛓️","shipments"],["suppliers","🏭","suppliers"],["warehouses","🏪","warehouses"]],
+            "fields": [["shipment_id","Shipment ID","text"],["supplier","Supplier","text"],["destination","Destination","text"],["items","Items","number"],["weight","Weight kg","number"],["departure","Departure","date"],["status","Status","text"]],
+            "table_cols": [["shipment_id","Shipment"],["supplier","Supplier"],["destination","Destination"],["status","Status"]],
+            "prompt": "supply chain management with shipment tracking, supplier management, warehouse inventory, delivery scheduling and analytics"
+        },
+        "mental_wellness": {
+            "name": "MindSpace",
+            "icon": "🧘",
+            "entity": "Session",
+            "entities": "Sessions",
+            "nav": [["dashboard","📊","Dashboard"],["sessions","🧘","sessions"],["users","👤","users"],["programs","📋","programs"]],
+            "fields": [["user","User","text"],["program","Program","text"],["type","Type","text"],["duration","Duration min","number"],["mood_before","Mood Before","number"],["mood_after","Mood After","number"],["notes","Notes","text"]],
+            "table_cols": [["user","User"],["program","Program"],["type","Type"],["mood_after","Mood"]],
+            "prompt": "mental wellness platform with meditation tracking, mood journaling, guided programs, progress analytics and therapist connection"
+        }
+    }
+    
+    added = 0
+    configs_path = Path.home() / "organism_templates" / "domain_configs.json"
+    for domain_id, config in new_domains.items():
+        if domain_id not in configs:
+            configs[domain_id] = config
+            added += 1
+            print(f"  🌱 New domain discovered: {config['name']} ({domain_id})")
+    
+    if added:
+        with open(configs_path, "w") as f:
+            json.dump(configs, f, indent=2)
+        print(f"  ✅ {added} new domains seeded")
+    
+    return configs
+
 def main():
     log("="*60)
-    log("TURBO EVOLUTION - 100 GENERATIONS")
+    log("TURBO EVOLUTION - 200 GENERATIONS + DOMAIN DISCOVERY")
     log("="*60)
     
     configs = load_configs()
+    log("🔍 Discovering new domains...")
+    configs = discover_new_domains(configs)
     domains = list(configs.keys())
-    
+    log(f"📊 Total domains after discovery: {len(domains)}")
     total_generated = 0
     total_crowned = 0
     generation_scores = {}
