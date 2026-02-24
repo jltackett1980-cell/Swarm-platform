@@ -148,6 +148,38 @@ def score_app(path, domain_config=None):
         except Exception as e:
             log(f"WARNING: Could not score frontend: {e}")
 
+    # Game domain bonus scoring
+    if domain_config:
+        domain_id = domain_config.get("name", "").lower()
+        is_game = any(k in domain_id for k in ["forge", "engine", "core", "quest", "arena", "race", "command", "puzzle"]) or                   (domain_config.get("entity","").lower() in ["level","character","match","puzzle","race","campaign"])
+        if is_game and backend.exists():
+            try:
+                game_content = backend.read_text()
+                game_bonus = {}
+                # Game mechanics - leaderboard, scoring, lives
+                if "leaderboard" in game_content.lower() or "high_score" in game_content.lower():
+                    game_bonus["leaderboard"] = 10
+                # Level/progression system
+                if "level" in game_content.lower() and "difficulty" in game_content.lower():
+                    game_bonus["progression"] = 10
+                # Game state management
+                if "status" in game_content.lower() and ("active" in game_content.lower() or "complete" in game_content.lower()):
+                    game_bonus["game_state"] = 10
+                # Multiplayer/players table
+                if "player" in game_content.lower() and "CREATE TABLE" in game_content.upper():
+                    game_bonus["multiplayer"] = 10
+                # Stats tracking
+                if any(k in game_content.lower() for k in ["kills","score","time","points","health","experience"]):
+                    game_bonus["stats"] = 10
+                # Save system
+                if "created_at" in game_content and "updated_at" in game_content.lower() or "save" in game_content.lower():
+                    game_bonus["saves"] = 10
+                for k, v in game_bonus.items():
+                    breakdown[k] = v
+                log(f"  🎮 Game bonuses: {game_bonus}")
+            except Exception as e:
+                log(f"WARNING: Could not score game features: {e}")
+
     score = sum(v for k, v in breakdown.items())
     breakdown["total"] = score
     return score, breakdown
