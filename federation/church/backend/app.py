@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
+"""
+ChurchDesk - Generation 4
+Turbo Evolved | Domain: church
+"""
 from flask import Flask, jsonify, request, send_file
 from flask_cors import CORS
 from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
-import sqlite3, jwt, os
+import sqlite3, jwt, os, re
 
 app = Flask(__name__)
 CORS(app)
-SECRET_KEY = 'swarm-church-secret'
+SECRET_KEY = 'swarm-church-secret-gen4'
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'church.db')
 
 def get_db():
@@ -21,7 +25,9 @@ def init_db():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             username TEXT UNIQUE NOT NULL,
             password TEXT NOT NULL,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            role TEXT DEFAULT "user",
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )''')
         db.execute('''CREATE TABLE IF NOT EXISTS members (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -30,129 +36,173 @@ def init_db():
             phone TEXT,
             group TEXT,
             role TEXT,
-            joined DATE,
-            status TEXT DEFAULT 'active',
+            joined TEXT,
+            status TEXT DEFAULT "active",
+            notes TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (id) REFERENCES users(id)
+        )''')
+        db.execute('''CREATE TABLE IF NOT EXISTS activity_log (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            user_id INTEGER,
+            action TEXT,
+            entity_id INTEGER,
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )''')
         db.commit()
 
-@app.route('/', methods=['GET'])
+def token_required(f):
+    from functools import wraps
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        token = request.headers.get("Authorization", "").replace("Bearer ", "")
+        if not token:
+            return jsonify({"error": "No token"}), 401
+        try:
+            data = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
+            request.user = data
+        except:
+            return jsonify({"error": "Invalid token"}), 401
+        return f(*args, **kwargs)
+    return decorated
+
+@app.route("/", methods=["GET"])
 def index():
-    p = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../frontend/index.html')
+    p = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../frontend/index.html")
     return send_file(p)
 
-@app.route('/api/health', methods=['GET'])
+@app.route("/api/health", methods=["GET"])
 def health():
-    return jsonify({'status': 'healthy', 'app': 'ChurchDesk', 'timestamp': datetime.now().isoformat()})
+    return jsonify({"status": "healthy", "app": "ChurchDesk", "generation": 4, "timestamp": datetime.now().isoformat()})
 
-@app.route('/api/auth/register', methods=['POST'])
+@app.route("/api/auth/register", methods=["POST"])
 def register():
     try:
         data = request.get_json()
-        hashed = generate_password_hash(data['password'])
+        if not data.get("username") or not data.get("password"):
+            return jsonify({"error": "Username and password required"}), 400
+        hashed = generate_password_hash(data["password"])
         with get_db() as db:
-            db.execute("INSERT INTO users (username, password) VALUES (?, ?)", (data['username'], hashed))
+            db.execute("INSERT INTO users (username, password) VALUES (?, ?)", (data["username"], hashed))
             db.commit()
-        return jsonify({'message': 'User created'})
+        return jsonify({"message": "User created successfully"})
     except Exception as e:
-        return jsonify({'error': str(e)}), 400
+        return jsonify({"error": str(e)}), 400
 
-@app.route('/api/auth/login', methods=['POST'])
+@app.route("/api/auth/login", methods=["POST"])
 def login():
     try:
         data = request.get_json()
         with get_db() as db:
-            user = db.execute("SELECT * FROM users WHERE username=?", (data['username'],)).fetchone()
-        if user and check_password_hash(user['password'], data['password']):
-            token = jwt.encode({'user': data['username']}, SECRET_KEY, algorithm='HS256')
-            return jsonify({'token': token})
-        return jsonify({'error': 'Invalid credentials'}), 401
+            user = db.execute("SELECT * FROM users WHERE username=?", (data["username"],)).fetchone()
+        if user and check_password_hash(user["password"], data["password"]):
+            token = jwt.encode({"user": data["username"], "role": user["role"]}, SECRET_KEY, algorithm="HS256")
+            return jsonify({"token": token, "username": data["username"]})
+        return jsonify({"error": "Invalid credentials"}), 401
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({"error": str(e)}), 500
 
-@app.route('/api/members', methods=['GET'])
+@app.route("/api/members", methods=["GET"])
+@token_required
 def get_members():
     try:
+        search = request.args.get("search", "")
         with get_db() as db:
-            rows = db.execute("SELECT * FROM members ORDER BY created_at DESC").fetchall()
+            if search:
+                rows = db.execute(
+                    "SELECT * FROM members WHERE " + 
+                    search_where +
+                    " ORDER BY created_at DESC",
+                    [f"%{search}%" for _ in range(3)]
+                ).fetchall()
+            else:
+                rows = db.execute("SELECT * FROM members ORDER BY created_at DESC").fetchall()
         return jsonify([dict(r) for r in rows])
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({"error": str(e)}), 500
 
-@app.route('/api/members', methods=['POST'])
-def create_members():
+@app.route("/api/members", methods=["POST"])
+@token_required
+def create_member():
     try:
         data = request.get_json()
+        if not data:
+            return jsonify({"error": "No data provided"}), 400
         with get_db() as db:
-            cursor = db.execute(
+            db.execute(
                 "INSERT INTO members (name, email, phone, group, role, joined) VALUES (?, ?, ?, ?, ?, ?)",
-                (data.get('name'), data.get('email'), data.get('phone'), data.get('group'), data.get('role'), data.get('joined'),)
+                [data.get(fn, "") for fn in field_names]
             )
             db.commit()
-        return jsonify({'id': cursor.lastrowid, 'message': 'Created'})
+        return jsonify({"message": "Member created successfully"})
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({"error": str(e)}), 400
 
-@app.route('/api/members/<int:item_id>', methods=['GET'])
-def get_members_item(item_id):
+@app.route("/api/members/<int:item_id>", methods=["GET"])
+@token_required
+def get_member(item_id):
     try:
         with get_db() as db:
             row = db.execute("SELECT * FROM members WHERE id=?", (item_id,)).fetchone()
         if not row:
-            return jsonify({'error': 'Not found'}), 404
+            return jsonify({"error": "Member not found"}), 404
         return jsonify(dict(row))
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({"error": str(e)}), 500
 
-@app.route('/api/members/<int:item_id>', methods=['PUT'])
-def update_members(item_id):
+@app.route("/api/members/<int:item_id>", methods=["PUT"])
+@token_required
+def update_member(item_id):
     try:
         data = request.get_json()
-        sets = ", ".join([f"{k}=?" for k in data.keys()])
-        vals = list(data.values()) + [item_id]
         with get_db() as db:
-            db.execute(f"UPDATE members SET {sets} WHERE id=?", vals)
+            db.execute(
+                "UPDATE members SET name=?, email=?, phone=?, group=?, role=?, joined=?, updated_at=? WHERE id=?",
+                [data.get(fn, "") for fn in field_names] + [datetime.now().isoformat(), item_id]
+            )
             db.commit()
-        return jsonify({'message': 'Updated'})
+        return jsonify({"message": "Member updated"})
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({"error": str(e)}), 400
 
-@app.route('/api/members/<int:item_id>', methods=['DELETE'])
-def delete_members(item_id):
+@app.route("/api/members/<int:item_id>", methods=["DELETE"])
+@token_required
+def delete_member(item_id):
     try:
         with get_db() as db:
             db.execute("DELETE FROM members WHERE id=?", (item_id,))
             db.commit()
-        return jsonify({'message': 'Deleted'})
+        return jsonify({"message": "Member deleted"})
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({"error": str(e)}), 500
 
-
-@app.route('/api/members/search', methods=['GET'])
+@app.route("/api/members/search", methods=["GET"])
+@token_required  
 def search_members():
     try:
-        q = request.args.get('q', '')
+        q = request.args.get("q", "")
         with get_db() as db:
             rows = db.execute(
-                "SELECT * FROM members WHERE name LIKE ?",
-                (f'%{q}%',)
+                "SELECT * FROM members WHERE status LIKE ? ORDER BY created_at DESC LIMIT 50",
+                (f"%{q}%",)
             ).fetchall()
         return jsonify([dict(r) for r in rows])
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({"error": str(e)}), 500
 
-
-@app.route('/api/stats', methods=['GET'])
+@app.route("/api/stats", methods=["GET"])
+@token_required
 def stats():
     try:
         with get_db() as db:
-            count = db.execute("SELECT COUNT(*) FROM members").fetchone()[0]
-        return jsonify({'total': count, 'domain': 'church'})
+            total = db.execute("SELECT COUNT(*) as count FROM members").fetchone()["count"]
+            active = db.execute("SELECT COUNT(*) as count FROM members WHERE status='active'").fetchone()["count"]
+            recent = db.execute("SELECT COUNT(*) as count FROM members WHERE date(created_at) = date('now')").fetchone()["count"]
+        return jsonify({"total": total, "active": active, "today": recent, "domain": "church", "generation": 4})
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({"error": str(e)}), 500
 
-
-if __name__ == '__main__':
-    init_db()
-    print(f'Starting ChurchDesk on http://localhost:5000')
-    app.run(debug=False, host='0.0.0.0', port=5000)
+init_db()
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=False)
