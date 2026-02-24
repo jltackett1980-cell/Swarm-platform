@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MissionBase - Generation 4
+MissionBase - Generation 5
 Turbo Evolved | Domain: nonprofit
 """
 from flask import Flask, jsonify, request, send_file
@@ -11,7 +11,7 @@ import sqlite3, jwt, os, re
 
 app = Flask(__name__)
 CORS(app)
-SECRET_KEY = 'swarm-nonprofit-secret-gen4'
+SECRET_KEY = 'swarm-nonprofit-secret-gen5'
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'nonprofit.db')
 
 def get_db():
@@ -74,7 +74,7 @@ def index():
 
 @app.route("/api/health", methods=["GET"])
 def health():
-    return jsonify({"status": "healthy", "app": "MissionBase", "generation": 4, "timestamp": datetime.now().isoformat()})
+    return jsonify({"status": "healthy", "app": "MissionBase", "generation": 5, "timestamp": datetime.now().isoformat()})
 
 @app.route("/api/auth/register", methods=["POST"])
 def register():
@@ -191,6 +191,52 @@ def search_donors():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+# ── TIER 2 FEATURES ──────────────────────────────────────
+
+@app.route("/api/v1/donors", methods=["GET"])
+@token_required
+def get_donors_v1():
+    """API v1 versioned endpoint"""
+    try:
+        page = int(request.args.get("page", 1))
+        limit = int(request.args.get("limit", 20))
+        offset = (page - 1) * limit
+        with get_db() as db:
+            total = db.execute("SELECT COUNT(*) as count FROM donors").fetchone()["count"]
+            rows = db.execute("SELECT * FROM donors ORDER BY created_at DESC LIMIT ? OFFSET ?", (limit, offset)).fetchall()
+        return jsonify({
+            "data": [dict(r) for r in rows],
+            "page": page,
+            "limit": limit,
+            "total": total,
+            "pages": (total + limit - 1) // limit
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/audit", methods=["GET"])
+@token_required
+def audit_log():
+    """Audit trail endpoint"""
+    try:
+        with get_db() as db:
+            rows = db.execute("SELECT * FROM activity_log ORDER BY created_at DESC LIMIT 100").fetchall()
+        return jsonify([dict(r) for r in rows])
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.errorhandler(404)
+def not_found(e):
+    return jsonify({"error": "Not found", "code": 404}), 404
+
+@app.errorhandler(400)
+def bad_request(e):
+    return jsonify({"error": "Bad request", "code": 400}), 400
+
+@app.errorhandler(500)
+def server_error(e):
+    return jsonify({"error": "Server error", "code": 500}), 500
+
 @app.route("/api/stats", methods=["GET"])
 @token_required
 def stats():
@@ -199,7 +245,7 @@ def stats():
             total = db.execute("SELECT COUNT(*) as count FROM donors").fetchone()["count"]
             active = db.execute("SELECT COUNT(*) as count FROM donors WHERE status='active'").fetchone()["count"]
             recent = db.execute("SELECT COUNT(*) as count FROM donors WHERE date(created_at) = date('now')").fetchone()["count"]
-        return jsonify({"total": total, "active": active, "today": recent, "domain": "nonprofit", "generation": 4})
+        return jsonify({"total": total, "active": active, "today": recent, "domain": "nonprofit", "generation": 5})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
