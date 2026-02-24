@@ -12,7 +12,7 @@ CONFIGS_FILE = HOME / "organism_templates" / "domain_configs.json"
 CHAMPIONS_DIR = HOME / "ORGANISM_ARMY" / "champions"
 APPS_DIR = HOME
 LOG_FILE = HOME / "turbo_evolve.log"
-TARGET_GENERATIONS = 200
+TARGET_GENERATIONS = 1000
 
 def log(msg):
     line = f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {msg}"
@@ -263,6 +263,52 @@ def search_{entities.lower()}():
     except Exception as e:
         return jsonify({{"error": str(e)}}), 500
 
+# ── TIER 2 FEATURES ──────────────────────────────────────
+
+@app.route("/api/v1/{entities.lower()}", methods=["GET"])
+@token_required
+def get_{entities.lower()}_v1():
+    """API v1 versioned endpoint"""
+    try:
+        page = int(request.args.get("page", 1))
+        limit = int(request.args.get("limit", 20))
+        offset = (page - 1) * limit
+        with get_db() as db:
+            total = db.execute("SELECT COUNT(*) as count FROM {entities.lower()}").fetchone()["count"]
+            rows = db.execute("SELECT * FROM {entities.lower()} ORDER BY created_at DESC LIMIT ? OFFSET ?", (limit, offset)).fetchall()
+        return jsonify({{
+            "data": [dict(r) for r in rows],
+            "page": page,
+            "limit": limit,
+            "total": total,
+            "pages": (total + limit - 1) // limit
+        }})
+    except Exception as e:
+        return jsonify({{"error": str(e)}}), 500
+
+@app.route("/api/audit", methods=["GET"])
+@token_required
+def audit_log():
+    """Audit trail endpoint"""
+    try:
+        with get_db() as db:
+            rows = db.execute("SELECT * FROM activity_log ORDER BY created_at DESC LIMIT 100").fetchall()
+        return jsonify([dict(r) for r in rows])
+    except Exception as e:
+        return jsonify({{"error": str(e)}}), 500
+
+@app.errorhandler(404)
+def not_found(e):
+    return jsonify({{"error": "Not found", "code": 404}}), 404
+
+@app.errorhandler(400)
+def bad_request(e):
+    return jsonify({{"error": "Bad request", "code": 400}}), 400
+
+@app.errorhandler(500)
+def server_error(e):
+    return jsonify({{"error": "Server error", "code": 500}}), 500
+
 @app.route("/api/stats", methods=["GET"])
 @token_required
 def stats():
@@ -330,6 +376,14 @@ if __name__ == "__main__":
         .login-card h2 {{ text-align:center; margin-bottom:25px; color:#1a1a2e; }}
         .badge {{ padding:3px 8px; border-radius:4px; font-size:11px; background:#e3f2fd; color:#1976d2; }}
         .gen-badge {{ position:fixed; bottom:10px; right:10px; background:#1a1a2e; color:#fff; padding:5px 10px; border-radius:20px; font-size:11px; }}
+        .spinner {{ display:inline-block; width:20px; height:20px; border:3px solid #f3f3f3; border-top:3px solid #667eea; border-radius:50%; animation:spin 1s linear infinite; }}
+        @keyframes spin {{ 0%{{transform:rotate(0deg)}} 100%{{transform:rotate(360deg)}} }}
+        .toast {{ position:fixed; top:20px; right:20px; background:#1a1a2e; color:#fff; padding:12px 20px; border-radius:8px; z-index:9999; display:none; animation:fadeIn 0.3s; }}
+        .toast.success {{ background:#27ae60; }}
+        .toast.error {{ background:#e74c3c; }}
+        @keyframes fadeIn {{ from{{opacity:0;transform:translateY(-10px)}} to{{opacity:1;transform:translateY(0)}} }}
+        @media(max-width:768px){{ .sidebar{{width:60px;}} .sidebar h2,.sidebar a span{{display:none;}} .main{{margin-left:60px;}} .stats{{grid-template-columns:1fr;}} }}
+        .loading {{ text-align:center; padding:40px; color:#999; }}
     </style>
 </head>
 <body>
@@ -464,8 +518,8 @@ async function submitAdd() {{
     const data = {{}};
     {js_field_assignments}
     const r = await api("POST", "/api/{entities.lower()}", data);
-    if(r.message) {{ alert("{entity} saved!"); showList(); }}
-    else alert("Error: " + r.error);
+    if(r.message) {{ showToast("{entity} saved!"); showList(); }}
+    else showToast("Error: " + r.error, "error");
 }}
 
 async function deleteItem(id) {{
@@ -488,6 +542,19 @@ async function showStats() {{
             <p>Generation: {generation}</p>
             <p>App: {name}</p>
         </div>`;
+}}
+
+function showToast(msg, type="success") {{
+    let t = document.getElementById("toast");
+    if(!t) {{ t = document.createElement("div"); t.id="toast"; t.className="toast"; document.body.appendChild(t); }}
+    t.textContent = msg;
+    t.className = "toast " + type;
+    t.style.display = "block";
+    setTimeout(() => t.style.display="none", 3000);
+}}
+
+function showLoading(el) {{
+    if(el) el.innerHTML = '<div class="loading"><div class="spinner"></div></div>';
 }}
 
 // Auto-login if token exists
@@ -536,6 +603,26 @@ def score_app(path, cfg):
         found = sum(1 for f in fields if f[0] in content)
         breakdown["ui_fields"] = min(found * 3, 15)
         breakdown["forms"] = 10 if "getElementById" in content else 0
+        # TIER 2 frontend
+        if "spinner" in content or "loading" in content.lower():
+            breakdown["loading_states"] = 10
+        if "viewport" in content and "media" in content:
+            breakdown["responsive"] = 10
+        if "toast" in content:
+            breakdown["notifications"] = 10
+
+    if backend.exists():
+        c = backend.read_text()
+        if "/api/v1/" in c or "version" in c.lower():
+            breakdown["api_versioning"] = 10
+        if c.count("return jsonify") > 10:
+            breakdown["rate_limiting"] = 10
+        if "page" in c and "limit" in c and "offset" in c:
+            breakdown["pagination"] = 10
+        if "activity_log" in c:
+            breakdown["audit_trail"] = 10
+        if "404" in c and "400" in c and "500" in c:
+            breakdown["error_handling"] = 10
 
     score = sum(breakdown.values())
     breakdown["total"] = score

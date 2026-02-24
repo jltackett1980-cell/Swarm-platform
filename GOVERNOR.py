@@ -180,6 +180,36 @@ def score_app(path, domain_config=None):
             except Exception as e:
                 log(f"WARNING: Could not score game features: {e}")
 
+    # TIER 2 SCORING - Advanced criteria
+    if backend.exists():
+        try:
+            content_t2 = backend.read_text()
+            # API versioning
+            if "/api/v1/" in content_t2 or "version" in content_t2.lower():
+                breakdown["api_versioning"] = 10
+            if "rate_limit" in content_t2.lower() or content_t2.count("return jsonify") > 10:
+                breakdown["rate_limiting"] = 10
+            if "page" in content_t2 and "limit" in content_t2 and "offset" in content_t2:
+                breakdown["pagination"] = 10
+            if "activity_log" in content_t2:
+                breakdown["audit_trail"] = 10
+            if "404" in content_t2 and "400" in content_t2 and "500" in content_t2:
+                breakdown["error_handling"] = 10
+        except:
+            pass
+
+    if frontend_content:
+        try:
+            # Loading states
+            if "spinner" in frontend_content or "loading" in frontend_content.lower():
+                breakdown["loading_states"] = 10
+            if "viewport" in frontend_content and "media" in frontend_content:
+                breakdown["responsive"] = 10
+            if "toast" in frontend_content:
+                breakdown["notifications"] = 10
+        except:
+            pass
+
     score = sum(v for k, v in breakdown.items())
     breakdown["total"] = score
     return score, breakdown
