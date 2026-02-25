@@ -16,7 +16,7 @@ CONFIGS_FILE = HOME / "organism_templates" / "domain_configs.json"
 CHAMPIONS_DIR = HOME / "ORGANISM_ARMY" / "champions"
 APPS_DIR = HOME
 LOG_FILE = HOME / "turbo_evolve.log"
-TARGET_GENERATIONS = 1000
+TARGET_GENERATIONS = 500
 
 def log(msg):
     line = f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {msg}"
