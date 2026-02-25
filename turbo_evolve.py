@@ -14,6 +14,7 @@ from pathlib import Path
 from datetime import datetime
 sys.path.insert(0, str(Path(__file__).parent))
 from human_insight_engine import HumanInsightEngine
+from wisdom_engine import wisdom_brief, get_wisdom_profile
 _insight_engine = HumanInsightEngine()
 
 HOME = Path.home()
@@ -358,6 +359,12 @@ if __name__ == "__main__":
     # ═══════════════════════════════════════════
     # THINK FIRST — Human Insight Engine
     # ═══════════════════════════════════════
+    # WISDOM LAYER — ancient truth shapes design decisions
+    wisdom = get_wisdom_profile(domain_id)
+    print(f"\n📜 WISDOM: {wisdom['core_truth']}")
+    print(f"   Skip:   {wisdom['what_to_skip']}")
+    print(f"   Lead:   {wisdom['lead_with']}")
+    
     insight = _insight_engine.think(domain_id, cfg)
     color   = insight["decisions"]["color"]
     tone    = insight["decisions"]["tone"]
