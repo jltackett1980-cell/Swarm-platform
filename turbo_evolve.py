@@ -388,10 +388,13 @@ if __name__ == "__main__":
         nav button.active { color:VAR_COLOR; border-bottom-color:VAR_COLOR; font-weight:700; }
         .main { padding:14px; max-width:960px; margin:0 auto; }
         """.replace("VAR_COLOR", color)
-        nav_html = "<nav>" + "".join([
-            f'<button onclick="showPage(\'{t[0]}\', this)">{t[1]} {t[2]}</button>'
-            for t in nav_tabs
-        ]) + "</nav>"
+        first = True
+        nav_buttons = []
+        for t in nav_tabs:
+            cls = ' class="active"' if first else ''
+            nav_buttons.append(f'<button{cls} onclick="showPage(\'{t[0]}\', this)">{t[1]} {t[2]}</button>')
+            first = False
+        nav_html = "<nav>" + "".join(nav_buttons) + "</nav>"
         layout_css = ""
     else:
         nav_css = """
