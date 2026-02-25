@@ -1,0 +1,581 @@
+#!/usr/bin/env python3
+import json
+import sqlite3
+import time
+import random
+import sys
+from pathlib import Path
+import re
+import subprocess
+from datetime import datetime
+
+# Load human insights for enhanced scoring
+def load_human_insights():
+    insights_file = Path.home() / "human_insights.json"
+    if insights_file.exists():
+        try:
+            with open(insights_file) as f:
+                return json.load(f)
+        except:
+            return {}
+    return {}
+
+HUMAN_INSIGHTS = load_human_insights()
+
+def score_app(path, domain_config=None):
+    """Enhanced scoring function with human-centric criteria"""
+    score = 0
+    breakdown = {
+        "domain_fields": 0, "routes": 0, "auth": 0,
+        "relationships": 0, "validation": 0, "search": 0,
+        "api_calls": 0, "ui_fields": 0, "forms": 0,
+        "loading_states": 0, "responsive": 0, "notifications": 0,
+        "api_versioning": 0, "rate_limiting": 0, "pagination": 0,
+        "audit_trail": 0, "error_handling": 0,
+        # NEW HUMAN-CENTRIC CATEGORIES
+        "persona_alignment": 0,
+        "pain_resolution": 0,
+        "lead_with": 0,
+        "one_tap_actions": 0,
+        "offline_capability": 0,
+        "mobile_ux": 0,
+        "no_cruft": 0,
+        "tone_alignment": 0
+    }
+    
+    path = Path(path)
+    backend = path / "backend" / "app.py"
+    html_file = path / "frontend" / "index.html"
+    app_js = path / "frontend" / "src" / "App.js"
+    manifest_file = path / "frontend" / "manifest.json"
+    css_files = list((path / "frontend" / "src").glob("*.css"))
+    
+    frontend_content = ""
+    if html_file.exists():
+        frontend_content = html_file.read_text()
+    elif app_js.exists():
+        frontend_content = app_js.read_text()
+    
+    # Get domain name for human insights
+    domain_name = "unknown"
+    if domain_config:
+        domain_name = domain_config.get("name", "unknown")
+    insight = HUMAN_INSIGHTS.get(domain_name, {})
+    
+    # ========== ORIGINAL BACKEND SCORING ==========
+    if backend.exists():
+        try:
+            content = backend.read_text()
+            
+            if domain_config:
+                expected = [f[0] for f in domain_config.get("fields", [])]
+                reserved = {"name", "details", "status", "id", "created_at"}
+                real = [f for f in expected if f not in reserved]
+                if real:
+                    found = sum(1 for f in real if f in content)
+                    breakdown["domain_fields"] = int((found / len(real)) * 60)
+            
+            routes = len(re.findall(r"@app\.route\(", content))
+            breakdown["routes"] = min(routes * 5, 30)
+            
+            auth = 0
+            if "jwt" in content.lower():
+                auth += 10
+            if "login" in content and "password" in content:
+                auth += 10
+            breakdown["auth"] = auth
+            
+            if "JOIN" in content.upper() or "FOREIGN KEY" in content.upper():
+                breakdown["relationships"] = 20
+            elif content.count("CREATE TABLE") > 2:
+                breakdown["relationships"] = 10
+            
+            if "try:" in content and "except" in content:
+                breakdown["validation"] = 5
+            if "get_json()" in content and "400" in content:
+                breakdown["validation"] = 10
+            
+            if "LIKE" in content or "search" in content.lower():
+                breakdown["search"] = 10
+                
+        except Exception as e:
+            print(f"WARNING: Could not score backend: {e}")
+    
+    # ========== ORIGINAL FRONTEND SCORING ==========
+    if frontend_content:
+        try:
+            if "fetch(" in frontend_content:
+                breakdown["api_calls"] += 10
+            if "axios" in frontend_content:
+                breakdown["api_calls"] += 10
+            
+            if domain_config:
+                expected = [f[0] for f in domain_config.get("fields", [])]
+                found_ui = sum(1 for f in expected if f in frontend_content)
+                breakdown["ui_fields"] = int((found_ui / len(expected)) * 15) if expected else 0
+            
+            if "<form" in frontend_content or "form>" in frontend_content:
+                breakdown["forms"] = 10
+            
+            if "loading" in frontend_content.lower() or "spinner" in frontend_content.lower():
+                breakdown["loading_states"] = 10
+            
+            if "viewport" in frontend_content or "@media" in frontend_content:
+                breakdown["responsive"] = 10
+            
+            if "toast" in frontend_content or "alert" in frontend_content:
+                breakdown["notifications"] = 10
+            
+            if "/api/v1" in frontend_content or "/v1/" in frontend_content:
+                breakdown["api_versioning"] = 10
+            
+            if "X-RateLimit" in frontend_content:
+                breakdown["rate_limiting"] = 10
+            
+            if ".slice" in frontend_content or ".limit" in frontend_content:
+                breakdown["pagination"] = 10
+            
+            if "audit" in frontend_content.lower() or "log" in frontend_content.lower():
+                breakdown["audit_trail"] = 10
+            
+            if "try" in frontend_content and "catch" in frontend_content:
+                breakdown["error_handling"] = 10
+                
+        except Exception as e:
+            print(f"WARNING: Could not score frontend: {e}")
+    
+    # ========== HUMAN-CENTRIC SCORING ==========
+    
+    # 1. PERSONA ALIGNMENT (30 pts)
+    persona_score = 0
+    who = insight.get("who", "").lower()
+    
+    if "nurse" in who or "coordinator" in who:
+        if "patient lookup" in frontend_content.lower() or "search" in frontend_content.lower():
+            persona_score += 10
+        if "today" in frontend_content.lower() or "appointment" in frontend_content.lower():
+            persona_score += 10
+        if "quick" in frontend_content.lower() and "onclick=" in frontend_content:
+            persona_score += 10
+    
+    elif "owner" in who or "cook" in who or "manager" in who:
+        if "order" in frontend_content.lower() and "table" in frontend_content.lower():
+            persona_score += 10
+        if "kitchen" in frontend_content.lower() or "status" in frontend_content.lower():
+            persona_score += 10
+        if "large" in frontend_content.lower() or "big button" in frontend_content.lower():
+            persona_score += 10
+    
+    elif "pharmacist" in who:
+        if "prescription" in frontend_content.lower() or "rx" in frontend_content.lower():
+            persona_score += 10
+        if "ready" in frontend_content.lower() and "pending" in frontend_content.lower():
+            persona_score += 10
+        if "queue" in frontend_content.lower() or "waiting" in frontend_content.lower():
+            persona_score += 10
+    
+    elif "gym" in who or "trainer" in who:
+        if "member" in frontend_content.lower() or "client" in frontend_content.lower():
+            persona_score += 10
+        if "check-in" in frontend_content.lower() or "attendance" in frontend_content.lower():
+            persona_score += 10
+        if "session" in frontend_content.lower() or "class" in frontend_content.lower():
+            persona_score += 10
+    
+    breakdown["persona_alignment"] = min(30, persona_score)
+    
+    # 2. PAIN RESOLUTION (30 pts)
+    pain_score = 0
+    pain = insight.get("pain", "").lower()
+    
+    if "can't find" in pain or "looking for" in pain:
+        if "search" in frontend_content.lower() and "filter" in frontend_content.lower():
+            pain_score += 15
+        if "recent" in frontend_content.lower() or "history" in frontend_content.lower():
+            pain_score += 15
+    
+    elif "rush" in pain or "busy" in pain or "behind" in pain:
+        if "quick" in frontend_content.lower() and ("click" in frontend_content.lower() or "tap" in frontend_content.lower()):
+            pain_score += 15
+        if "shortcut" in frontend_content.lower() or "fast" in frontend_content.lower():
+            pain_score += 15
+    
+    elif "cancel" in pain or "no-show" in pain:
+        if "calendar" in frontend_content.lower() or "schedule" in frontend_content.lower():
+            pain_score += 15
+        if "remind" in frontend_content.lower() or "alert" in frontend_content.lower():
+            pain_score += 15
+    
+    elif "waiting" in pain or "queue" in pain:
+        if "queue" in frontend_content.lower() or "line" in frontend_content.lower():
+            pain_score += 15
+        if "estimated" in frontend_content.lower() or "eta" in frontend_content.lower():
+            pain_score += 15
+    
+    breakdown["pain_resolution"] = min(30, pain_score)
+    
+    # 3. LEAD WITH WHAT MATTERS (20 pts)
+    lead_score = 0
+    lead = insight.get("lead_with", "").lower()
+    first_part = frontend_content[:500].lower()
+    
+    if "today" in lead:
+        if "today" in first_part: lead_score += 10
+        if "upcoming" in first_part: lead_score += 5
+        if "schedule" in first_part: lead_score += 5
+    
+    elif "order" in lead or "table" in lead:
+        if "order" in first_part: lead_score += 10
+        if "table" in first_part: lead_score += 5
+        if "status" in first_part: lead_score += 5
+    
+    elif "queue" in lead or "prescription" in lead:
+        if "queue" in first_part: lead_score += 10
+        if "waiting" in first_part: lead_score += 5
+        if "ready" in first_part: lead_score += 5
+    
+    elif "member" in lead or "check-in" in lead:
+        if "member" in first_part: lead_score += 10
+        if "check" in first_part: lead_score += 5
+        if "today" in first_part: lead_score += 5
+    
+    breakdown["lead_with"] = lead_score
+    
+    # 4. ONE-TAP ACTIONS (15 pts)
+    one_tap_score = 0
+    onclick_count = len(re.findall(r"onclick=", frontend_content))
+    one_tap_score = min(onclick_count * 3, 12)
+    
+    critical_actions = ["delete", "complete", "confirm", "cancel", "check-in", "ready"]
+    for action in critical_actions:
+        if f"onclick=\"{action}" in frontend_content or f"onclick='{action}" in frontend_content:
+            one_tap_score = min(one_tap_score + 1, 15)
+    
+    breakdown["one_tap_actions"] = one_tap_score
+    
+    # 5. OFFLINE CAPABILITY (25 pts)
+    offline_score = 0
+    
+    if "localStorage" in frontend_content:
+        offline_score += 10
+    if "sessionStorage" in frontend_content:
+        offline_score += 5
+    
+    if "serviceWorker" in frontend_content:
+        offline_score += 10
+    
+    if manifest_file.exists():
+        offline_score += 5
+    
+    if "offline" in frontend_content.lower() or "disconnected" in frontend_content.lower():
+        offline_score += 5
+    
+    breakdown["offline_capability"] = min(25, offline_score)
+    
+    # 6. MOBILE UX (15 pts)
+    mobile_score = 0
+    
+    if '<meta name="viewport"' in frontend_content:
+        mobile_score += 5
+    
+    for css_file in css_files:
+        if css_file.exists():
+            css = css_file.read_text()
+            if "min-height: 44px" in css or "min-width: 44px" in css:
+                mobile_score += 5
+            if "@media" in css:
+                mobile_score += 3
+    
+    if "font-size: 16px" in frontend_content or "font-size:1rem" in frontend_content:
+        mobile_score += 3
+    
+    if "apple-mobile-web-app" in frontend_content:
+        mobile_score += 2
+    
+    breakdown["mobile_ux"] = min(15, mobile_score)
+    
+    # 7. NO CRUFT (10 pts)
+    skip_score = 10
+    skip = insight.get("skip", "").lower()
+    
+    if "reports" in skip:
+        if "report" in frontend_content.lower(): skip_score -= 3
+        if "analytics" in frontend_content.lower(): skip_score -= 3
+        if "chart" in frontend_content.lower() or "graph" in frontend_content.lower(): skip_score -= 2
+    
+    if "analytics" in skip:
+        if "analytics" in frontend_content.lower(): skip_score -= 5
+        if "statistics" in frontend_content.lower(): skip_score -= 3
+    
+    if "complex" in skip or "programming" in skip:
+        complex_terms = ["workout builder", "exercise library", "custom routine", "script", "code"]
+        for term in complex_terms:
+            if term in frontend_content.lower():
+                skip_score -= 2
+    
+    if "login" in skip and ("login" in frontend_content.lower() or "sign in" in frontend_content.lower()):
+        skip_score -= 5
+    
+    breakdown["no_cruft"] = max(0, skip_score)
+    
+    # 8. TONE ALIGNMENT (10 pts)
+    tone_score = 0
+    tone = insight.get("tone", "").lower()
+    
+    all_content = frontend_content.lower()
+    colors_found = []
+    color_patterns = {
+        "blue": ["blue", "#3498db", "#2980b9", "#007bff"],
+        "red": ["red", "#e74c3c", "#c0392b", "#dc3545"],
+        "green": ["green", "#2ecc71", "#27ae60", "#28a745"],
+        "yellow": ["yellow", "#f1c40f", "#ffc107"],
+        "orange": ["orange", "#e67e22", "#fd7e14"],
+        "gray": ["gray", "#6c757d", "#95a5a6"]
+    }
+    
+    for color, patterns in color_patterns.items():
+        for pattern in patterns:
+            if pattern in all_content:
+                colors_found.append(color)
+                break
+    
+    if "calm" in tone:
+        if "blue" in colors_found or "green" in colors_found or "gray" in colors_found:
+            tone_score += 10
+    elif "urgent" in tone:
+        if "red" in colors_found or "yellow" in colors_found or "orange" in colors_found:
+            tone_score += 10
+    elif "energetic" in tone:
+        if "orange" in colors_found or "red" in colors_found or "yellow" in colors_found:
+            tone_score += 10
+    elif "trustworthy" in tone:
+        if "blue" in colors_found or "gray" in colors_found or "green" in colors_found:
+            tone_score += 10
+    elif "clinical" in tone or "precise" in tone:
+        if "blue" in colors_found or "white" in all_content:
+            tone_score += 10
+    
+    breakdown["tone_alignment"] = tone_score
+    
+    # Calculate total
+    total = 0
+    for key, value in breakdown.items():
+        if key != "total":
+            total += value
+        
+        breakdown["total"] = total
+        return total, breakdown
+    
+    # Keep the rest of the file exactly as is...
+    # (The rest of GOVERNOR.py continues here)
+    elif app_js.exists():
+            frontend_content = app_js.read_text()
+    
+        if backend.exists():
+            try:
+            content = backend.read_text()
+            if domain_config:
+                expected = [f[0] for f in domain_config.get("fields", [])]
+                reserved = {"name", "details", "status", "id", "created_at"}
+                real = [f for f in expected if f not in reserved]
+                if real:
+                    found = sum(1 for f in real if f in content)
+                    breakdown["domain_fields"] = int((found / len(real)) * 60)
+            routes = len(re.findall(r"@app\.route\(", content))
+            breakdown["routes"] = min(routes * 5, 30)
+            auth = 0
+            if "jwt" in content.lower():
+                auth += 10
+            if "login" in content and "password" in content:
+                auth += 10
+            breakdown["auth"] = auth
+            if "JOIN" in content.upper() or "FOREIGN KEY" in content.upper():
+                breakdown["relationships"] = 20
+            elif content.count("CREATE TABLE") > 2:
+                breakdown["relationships"] = 10
+            if "try:" in content and "except" in content:
+                breakdown["validation"] = 5
+            if "get_json()" in content and "400" in content:
+                breakdown["validation"] = 10
+            if "LIKE" in content or "search" in content.lower():
+                breakdown["search"] = 10
+        except Exception as e:
+            log(f"WARNING: Could not score backend: {e}")
+
+    if frontend_content:
+        try:
+            if "fetch(" in frontend_content:
+                breakdown["api_calls"] += 10
+            if "/api/" in frontend_content:
+                breakdown["api_calls"] = min(breakdown["api_calls"] + 10, 20)
+            if domain_config:
+                expected = [f[0] for f in domain_config.get("fields", [])]
+                found = sum(1 for f in expected if f in frontend_content)
+                breakdown["ui_fields"] = min(found * 3, 15)
+            if "onChange" in frontend_content or "getElementById" in frontend_content:
+                breakdown["forms"] += 5
+            if "useState" in frontend_content or "getElementById" in frontend_content:
+                breakdown["forms"] = min(breakdown["forms"] + 5, 10)
+        except Exception as e:
+            log(f"WARNING: Could not score frontend: {e}")
+
+    # Game domain bonus scoring
+    if domain_config:
+        domain_id = domain_config.get("name", "").lower()
+        is_game = any(k in domain_id for k in ["forge", "engine", "core", "quest", "arena", "race", "command", "puzzle"]) or                   (domain_config.get("entity","").lower() in ["level","character","match","puzzle","race","campaign"])
+        if is_game and backend.exists():
+            try:
+                game_content = backend.read_text()
+                game_bonus = {}
+                # Game mechanics - leaderboard, scoring, lives
+                if "leaderboard" in game_content.lower() or "high_score" in game_content.lower():
+                    game_bonus["leaderboard"] = 10
+                # Level/progression system
+                if "level" in game_content.lower() and "difficulty" in game_content.lower():
+                    game_bonus["progression"] = 10
+                # Game state management
+                if "status" in game_content.lower() and ("active" in game_content.lower() or "complete" in game_content.lower()):
+                    game_bonus["game_state"] = 10
+                # Multiplayer/players table
+                if "player" in game_content.lower() and "CREATE TABLE" in game_content.upper():
+                    game_bonus["multiplayer"] = 10
+                # Stats tracking
+                if any(k in game_content.lower() for k in ["kills","score","time","points","health","experience"]):
+                    game_bonus["stats"] = 10
+                # Save system
+                if "created_at" in game_content and "updated_at" in game_content.lower() or "save" in game_content.lower():
+                    game_bonus["saves"] = 10
+                for k, v in game_bonus.items():
+                    breakdown[k] = v
+                log(f"  🎮 Game bonuses: {game_bonus}")
+            except Exception as e:
+                log(f"WARNING: Could not score game features: {e}")
+
+    # TIER 2 SCORING - Advanced criteria
+    if backend.exists():
+        try:
+            content_t2 = backend.read_text()
+            # API versioning
+            if "/api/v1/" in content_t2 or "version" in content_t2.lower():
+                breakdown["api_versioning"] = 10
+            if "rate_limit" in content_t2.lower() or content_t2.count("return jsonify") > 10:
+                breakdown["rate_limiting"] = 10
+            if "page" in content_t2 and "limit" in content_t2 and "offset" in content_t2:
+                breakdown["pagination"] = 10
+            if "activity_log" in content_t2:
+                breakdown["audit_trail"] = 10
+            if "404" in content_t2 and "400" in content_t2 and "500" in content_t2:
+                breakdown["error_handling"] = 10
+        except:
+            pass
+
+    if frontend_content:
+        try:
+            # Loading states
+            if "spinner" in frontend_content or "loading" in frontend_content.lower():
+                breakdown["loading_states"] = 10
+            if "viewport" in frontend_content and "media" in frontend_content:
+                breakdown["responsive"] = 10
+            if "toast" in frontend_content:
+                breakdown["notifications"] = 10
+        except:
+            pass
+
+    score = sum(v for k, v in breakdown.items())
+    breakdown["total"] = score
+    return score, breakdown
+
+
+def check_new_apps(configs):
+    try:
+        new_apps = sorted(
+            HOME.glob("professional_app_*"),
+            key=lambda p: p.stat().st_mtime,
+            reverse=True
+        )[:10]
+        crowned = 0
+        for app_path in new_apps:
+            try:
+                html = app_path / "frontend" / "index.html"
+                app_js = app_path / "frontend" / "src" / "App.js"
+                if html.exists():
+                    content = html.read_text()
+                elif app_js.exists():
+                    content = app_js.read_text()
+                else:
+                    continue
+                domain_id = None
+                domain_config = None
+                for did, cfg in configs.items():
+                    if cfg.get("name", "") in content:
+                        domain_id = did
+                        domain_config = cfg
+                        break
+                if not domain_id:
+                    continue
+                new_score, breakdown = score_app(app_path, domain_config)
+                champ = get_champion(domain_id)
+                current_score = champ.get("score", 0) if champ else 0
+                if new_score > current_score:
+                    generation = save_champion(domain_id, domain_config, new_score, breakdown, app_path)
+                    log(f"👑 NEW CHAMPION: {domain_config.get('name')} gen {generation} | "
+                        f"score {new_score} > {current_score} | {breakdown}")
+                    crowned += 1
+                else:
+                    log(f"  ↩ {domain_config.get('name')} scored {new_score} — champion holds at {current_score}")
+            except Exception as e:
+                log(f"WARNING: Could not process {app_path.name}: {e}")
+                continue
+        return crowned
+    except Exception as e:
+        log(f"ERROR in check_new_apps: {e}")
+        return 0
+
+
+def display_status(configs):
+    try:
+        log("")
+        log("=== DOMAIN ARMY STATUS ===")
+        crowned = 0
+        for domain_id, cfg in configs.items():
+            champ = get_champion(domain_id)
+            icon = cfg.get("icon", "")
+            name = cfg.get("name", domain_id)
+            if champ:
+                score = champ.get("score", 0)
+                gen = champ.get("generation", 1)
+                breakdown = champ.get("breakdown", {})
+                log(f"  {icon} {name:25} Score: {score:4} | Gen: {gen} | {breakdown}")
+                crowned += 1
+            else:
+                log(f"  {icon} {name:25} No champion yet")
+        log(f"\n  Crowned: {crowned}/{len(configs)} domains")
+        log("=" * 40)
+    except Exception as e:
+        log(f"ERROR in display_status: {e}")
+
+
+def run():
+    CHAMPIONS_DIR.mkdir(parents=True, exist_ok=True)
+    log("👑 GOVERNOR ONLINE - Real Scoring Active")
+    configs = load_configs()
+    log(f"   Overseeing {len(configs)} domains")
+    display_status(configs)
+    cycle = 0
+    while True:
+        try:
+            time.sleep(300)
+            cycle += 1
+            configs = load_configs()
+            log(f"\n--- Governor cycle {cycle} ---")
+            crowned = check_new_apps(configs)
+            if crowned:
+                log(f"  Crowned {crowned} new champion(s) this cycle")
+            display_status(configs)
+        except Exception as e:
+            log(f"ERROR in governor cycle: {e}")
+            time.sleep(60)
+
+
+if __name__ == "__main__":
+    run()

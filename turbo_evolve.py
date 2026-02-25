@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+sys.path.append(str(Path.home() / "swarm-platform"))
+from GOVERNOR import score_app
+
 #!/usr/bin/env python3
 """
 TURBO EVOLUTION - 100 generations, no rest, full speed
@@ -327,6 +332,13 @@ def stats():
 
 init_db()
 if __name__ == "__main__":
+    import sys
+    # Override default generations from command line
+    if "--generations" in sys.argv:
+        idx = sys.argv.index("--generations") + 1
+        if idx < len(sys.argv):
+            TARGET_GENERATIONS = int(sys.argv[idx])
+            print(f"🚀 Overriding generations to: {TARGET_GENERATIONS}")
     app.run(host="0.0.0.0", port=5000, debug=False)
 '''
 
@@ -1014,4 +1026,11 @@ def main():
     log(f"  Report: ~/turbo_evolution_report.json")
 
 if __name__ == "__main__":
+    import sys
+    # Override default generations from command line
+    if "--generations" in sys.argv:
+        idx = sys.argv.index("--generations") + 1
+        if idx < len(sys.argv):
+            TARGET_GENERATIONS = int(sys.argv[idx])
+            print(f"🚀 Overriding generations to: {TARGET_GENERATIONS}")
     main()

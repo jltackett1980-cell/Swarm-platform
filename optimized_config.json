@@ -1,0 +1,13 @@
+{
+  "mutation_rate": 0.7,
+  "tournament_size": 3,
+  "crossover_rate": 0.6,
+  "elitism": 10,
+  "strategy_weights": {
+    "recovery_diversity_injection": 0.25,
+    "recovery_tournament_shrink": 0.245,
+    "recovery_random_immigrants": 0.243,
+    "recovery_hyper_mutation": 0.24
+  },
+  "notes": "Optimized based on 42,046 generation champion run"
+}
