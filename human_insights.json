@@ -1,0 +1,284 @@
+{
+  "healthcare": {
+    "domain": "healthcare",
+    "human": {
+      "who": "A nurse or front desk coordinator, probably underpaid, handling 40+ patients a day",
+      "hardest_moment": "A patient calls asking about their appointment and she can't find the record fast enough",
+      "relief_moment": "Everything she needs is on one screen without scrolling",
+      "early_morning": "Pulling up yesterday's no-shows before the doctor arrives"
+    },
+    "decisions": {
+      "lead_with": "Today's appointments and alerts \u2014 not a login screen",
+      "most_important_feature": "Quick patient lookup \u2014 she needs it in 3 seconds",
+      "skip": "Complex reports nobody reads",
+      "tone": "Calm, clinical, trustworthy",
+      "color": "#2563eb",
+      "mobile_first": true,
+      "no_login": true
+    },
+    "navigation": {
+      "tabs": [],
+      "first_tab_purpose": "Today's appointments and alerts \u2014 not a login screen",
+      "max_tabs": 6,
+      "mobile_bottom_nav": true
+    },
+    "dashboard_priority": {
+      "show_alerts_first": true,
+      "show_today_count": true,
+      "show_pending_actions": true,
+      "hide_on_dashboard": [
+        "graphs",
+        "financial_summary",
+        "admin_tools"
+      ],
+      "lead_message": "Everything she needs is on one screen without scrolling"
+    },
+    "alert_conditions": [
+      "appointment_no_show",
+      "prescription_overdue",
+      "patient_not_seen"
+    ],
+    "tone_words": [
+      "Ready",
+      "Confirmed",
+      "Scheduled",
+      "On track"
+    ],
+    "generated_at": "2026-02-25T05:04:16.259632"
+  },
+  "nutrition_center": {
+    "domain": "nutrition_center",
+    "human": {
+      "who": "One dedicated person running a meal program for elderly neighbors, often a volunteer or low-paid coordinator",
+      "hardest_moment": "Realizing she doesn't know if Mrs. Hayes answered the door yesterday",
+      "relief_moment": "Every client accounted for before she goes home",
+      "early_morning": "Counting how many meals to prep before the kitchen starts"
+    },
+    "decisions": {
+      "lead_with": "Wellness alerts and today's delivery route",
+      "most_important_feature": "One-tap wellness check logging",
+      "skip": "Revenue tracking \u2014 this is a service not a business",
+      "tone": "Caring, community, warm",
+      "color": "#e07b39",
+      "mobile_first": true,
+      "no_login": true
+    },
+    "navigation": {
+      "tabs": [],
+      "first_tab_purpose": "Wellness alerts and today's delivery route",
+      "max_tabs": 6,
+      "mobile_bottom_nav": true
+    },
+    "dashboard_priority": {
+      "show_alerts_first": true,
+      "show_today_count": true,
+      "show_pending_actions": true,
+      "hide_on_dashboard": [
+        "graphs",
+        "financial_summary",
+        "admin_tools"
+      ],
+      "lead_message": "Every client accounted for before she goes home"
+    },
+    "alert_conditions": [
+      "delivery_no_answer",
+      "client_not_seen_2days",
+      "inventory_low"
+    ],
+    "tone_words": [
+      "Safe",
+      "Checked in",
+      "Accounted for",
+      "Cared for"
+    ],
+    "generated_at": "2026-02-25T05:04:16.259917"
+  },
+  "salon": {
+    "domain": "salon",
+    "human": {
+      "who": "A stylist who owns her own chair or small shop, doing everything alone",
+      "hardest_moment": "A client shows up and she forgot about the appointment \u2014 another client is in the chair",
+      "relief_moment": "Her phone buzzes 30 min before each client so she's never caught off guard",
+      "early_morning": "Checking who's coming in today while drinking coffee"
+    },
+    "decisions": {
+      "lead_with": "Today's schedule \u2014 big, clear, impossible to miss",
+      "most_important_feature": "Add appointment in under 10 seconds",
+      "skip": "Inventory management \u2014 she knows her products",
+      "tone": "Warm, personal, friendly",
+      "color": "#7c3aed",
+      "mobile_first": true,
+      "no_login": true
+    },
+    "navigation": {
+      "tabs": [],
+      "first_tab_purpose": "Today's schedule \u2014 big, clear, impossible to miss",
+      "max_tabs": 6,
+      "mobile_bottom_nav": true
+    },
+    "dashboard_priority": {
+      "show_alerts_first": true,
+      "show_today_count": true,
+      "show_pending_actions": true,
+      "hide_on_dashboard": [
+        "graphs",
+        "financial_summary",
+        "admin_tools"
+      ],
+      "lead_message": "Her phone buzzes 30 min before each client so she's never caught off guard"
+    },
+    "alert_conditions": [
+      "appointment_in_30min",
+      "client_no_show",
+      "double_booking_risk"
+    ],
+    "tone_words": [
+      "Welcome",
+      "All set",
+      "Looking good",
+      "Great"
+    ],
+    "generated_at": "2026-02-25T05:04:16.260069"
+  },
+  "agriculture": {
+    "domain": "agriculture",
+    "human": {
+      "who": "A farmer who wakes up at 5am and makes 50 decisions before breakfast",
+      "hardest_moment": "Finding out the field needed irrigation 3 days ago when it's too late",
+      "relief_moment": "Knowing exactly what needs attention without walking every field",
+      "early_morning": "Checking weather and field status before getting in the truck"
+    },
+    "decisions": {
+      "lead_with": "Alerts and today's priorities \u2014 not charts",
+      "most_important_feature": "Quick field status at a glance",
+      "skip": "Complex financial modeling",
+      "tone": "Practical, direct, no-nonsense",
+      "color": "#2d6a4f",
+      "mobile_first": true,
+      "no_login": true
+    },
+    "navigation": {
+      "tabs": [],
+      "first_tab_purpose": "Alerts and today's priorities \u2014 not charts",
+      "max_tabs": 6,
+      "mobile_bottom_nav": true
+    },
+    "dashboard_priority": {
+      "show_alerts_first": true,
+      "show_today_count": true,
+      "show_pending_actions": true,
+      "hide_on_dashboard": [
+        "graphs",
+        "financial_summary",
+        "admin_tools"
+      ],
+      "lead_message": "Knowing exactly what needs attention without walking every field"
+    },
+    "alert_conditions": [
+      "soil_moisture_low",
+      "frost_risk",
+      "equipment_service_due"
+    ],
+    "tone_words": [
+      "Done",
+      "Check",
+      "Good",
+      "On it"
+    ],
+    "generated_at": "2026-02-25T05:04:16.260296"
+  },
+  "rf_sensing": {
+    "domain": "rf_sensing",
+    "human": {
+      "who": "A technician or security officer monitoring signals in real time",
+      "hardest_moment": "An unknown device appears on the network and he can't identify it fast enough",
+      "relief_moment": "Immediate visual alert with device fingerprint already identified",
+      "early_morning": "Scanning overnight logs for anomalies before the shift starts"
+    },
+    "decisions": {
+      "lead_with": "Live signal map and anomaly alerts",
+      "most_important_feature": "Unknown device detection and fingerprinting",
+      "skip": "Historical trend charts \u2014 act now first",
+      "tone": "Alert, technical, urgent",
+      "color": "#4f46e5",
+      "mobile_first": false,
+      "no_login": false
+    },
+    "navigation": {
+      "tabs": [],
+      "first_tab_purpose": "Live signal map and anomaly alerts",
+      "max_tabs": 6,
+      "mobile_bottom_nav": false
+    },
+    "dashboard_priority": {
+      "show_alerts_first": true,
+      "show_today_count": true,
+      "show_pending_actions": true,
+      "hide_on_dashboard": [
+        "graphs",
+        "financial_summary",
+        "admin_tools"
+      ],
+      "lead_message": "Immediate visual alert with device fingerprint already identified"
+    },
+    "alert_conditions": [
+      "unknown_device_detected",
+      "signal_anomaly",
+      "frequency_violation"
+    ],
+    "tone_words": [
+      "Detected",
+      "Monitoring",
+      "Alert",
+      "Scanning"
+    ],
+    "generated_at": "2026-02-25T05:04:16.260367"
+  },
+  "robotics": {
+    "domain": "robotics",
+    "human": {
+      "who": "An engineer or operator monitoring robot systems in real time",
+      "hardest_moment": "A robot arm goes out of tolerance and he doesn't catch it until parts are damaged",
+      "relief_moment": "Predictive alert before the failure \u2014 not after",
+      "early_morning": "System health check before production run starts"
+    },
+    "decisions": {
+      "lead_with": "System health and predictive alerts",
+      "most_important_feature": "Real-time tolerance monitoring with MPC prediction",
+      "skip": "Administrative scheduling",
+      "tone": "Precise, technical, reliable",
+      "color": "#1d4ed8",
+      "mobile_first": false,
+      "no_login": false
+    },
+    "navigation": {
+      "tabs": [],
+      "first_tab_purpose": "System health and predictive alerts",
+      "max_tabs": 6,
+      "mobile_bottom_nav": false
+    },
+    "dashboard_priority": {
+      "show_alerts_first": true,
+      "show_today_count": true,
+      "show_pending_actions": true,
+      "hide_on_dashboard": [
+        "graphs",
+        "financial_summary",
+        "admin_tools"
+      ],
+      "lead_message": "Predictive alert before the failure \u2014 not after"
+    },
+    "alert_conditions": [
+      "tolerance_exceeded",
+      "predictive_failure_warning",
+      "system_offline"
+    ],
+    "tone_words": [
+      "Nominal",
+      "Within tolerance",
+      "Predictive",
+      "Stable"
+    ],
+    "generated_at": "2026-02-25T05:04:16.260486"
+  }
+}

@@ -4,8 +4,12 @@ TURBO EVOLUTION - 100 generations, no rest, full speed
 Runs alongside the normal organism, targeting uncovered domains
 """
 import os, json, re, shutil, random
+import sys
 from pathlib import Path
 from datetime import datetime
+sys.path.insert(0, str(Path(__file__).parent))
+from human_insight_engine import HumanInsightEngine
+_insight_engine = HumanInsightEngine()
 
 HOME = Path.home()
 CONFIGS_FILE = HOME / "organism_templates" / "domain_configs.json"
@@ -339,230 +343,370 @@ if __name__ == "__main__":
                     <input type="{f[2]}" id="field_{f[0]}" placeholder="{f[1]}" />
                 </div>''' for f in fields])
 
+    # ═══════════════════════════════════════════
+    # THINK FIRST — Human Insight Engine
+    # ═══════════════════════════════════════
+    insight = _insight_engine.think(domain_id, cfg)
+    color   = insight["decisions"]["color"]
+    tone    = insight["decisions"]["tone"]
+    lead    = insight["decisions"]["lead_with"]
+    key_feat= insight["decisions"]["most_important_feature"]
+    who     = insight["human"]["who"]
+    relief  = insight["human"]["relief_moment"]
+    mobile  = insight["decisions"]["mobile_first"]
+    no_login= insight["decisions"]["no_login"]
+    alerts  = insight["alert_conditions"]
+    tone_words = insight["tone_words"]
+    ready_word = tone_words[0] if tone_words else "Ready"
+
+    # Build nav tabs from config
+    # Nav tabs MUST match page div IDs exactly
+    nav_tabs = [
+        ["dashboard", icon,  "Dashboard"],
+        ["list",      "📋",  entities],
+        ["add",       "➕",  f"Add {entity}"],
+        ["reports",   "📊",  "Reports"]
+    ]
+    
+    # Mobile nav or sidebar based on insight
+    if mobile:
+        nav_css = """
+        nav { background:#fff; border-bottom:2px solid #e8e8e8; display:flex; overflow-x:auto; -webkit-overflow-scrolling:touch; position:sticky; top:0; z-index:100; }
+        nav button { padding:11px 14px; border:none; background:none; cursor:pointer; font-size:12px; color:#666; white-space:nowrap; border-bottom:3px solid transparent; margin-bottom:-2px; font-weight:500; flex-shrink:0; }
+        nav button.active { color:VAR_COLOR; border-bottom-color:VAR_COLOR; font-weight:700; }
+        .main { padding:14px; max-width:960px; margin:0 auto; }
+        """.replace("VAR_COLOR", color)
+        nav_html = "<nav>" + "".join([
+            f'<button onclick="showPage(\'{t[0]}\', this)">{t[1]} {t[2]}</button>'
+            for t in nav_tabs
+        ]) + "</nav>"
+        layout_css = ""
+    else:
+        nav_css = """
+        .sidebar { width:220px; height:100vh; background:linear-gradient(180deg,#1a1a2e,#16213e); position:fixed; left:0; top:0; padding:20px; }
+        .sidebar h2 { color:#fff; font-size:16px; margin-bottom:24px; }
+        .sidebar a { display:block; color:#aaa; text-decoration:none; padding:10px; border-radius:8px; margin-bottom:4px; }
+        .sidebar a.active { background:rgba(255,255,255,0.15); color:#fff; }
+        .main { margin-left:220px; padding:24px; }
+        """
+        nav_html = f'''<div class="sidebar">
+            <h2>{icon} {name}</h2>
+            {chr(10).join([f'<a href="#" onclick="showPage(\"{t[0]}\", this)">{t[1]} {t[2]}</a>' for t in nav_tabs])}
+        </div>'''
+        layout_css = ""
+
+    # Alert banner based on domain insight
+    alert_html = f'''
+    <div class="alert-banner" id="insight-alert" style="display:none">
+        <div class="alert-icon">⚠️</div>
+        <div class="alert-text"><strong>Action Required</strong><span id="alert-msg">Check pending items</span></div>
+        <button onclick="document.getElementById('insight-alert').style.display='none'" style="background:none;border:none;color:inherit;cursor:pointer;font-size:18px">×</button>
+    </div>'''
+
+    # Build field inputs
+    field_inputs = "".join([f'''
+        <div class="form-row">
+            <label>{f[1]}</label>
+            <input type="{f[2]}" id="field_{f[0]}" placeholder="{f[1]}"/>
+        </div>''' for f in fields])
+
+    # Build table
+    col_headers = "".join([f"<th>{c[1]}</th>" for c in table_cols])
+    col_data = "".join([f'<td>${{item.{c[0]}}}</td>' for c in table_cols])
+
     frontend = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>{name}</title>
-    <style>
-        * {{ margin:0; padding:0; box-sizing:border-box; }}
-        body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:#f0f2f5; }}
-        .sidebar {{ width:240px; height:100vh; background:linear-gradient(180deg,#1a1a2e,#16213e); position:fixed; left:0; top:0; padding:20px; }}
-        .sidebar h2 {{ color:#fff; font-size:18px; margin-bottom:30px; }}
-        .sidebar a {{ display:block; color:#aaa; text-decoration:none; padding:10px; border-radius:8px; margin-bottom:5px; transition:all 0.2s; }}
-        .sidebar a:hover, .sidebar a.active {{ background:rgba(255,255,255,0.1); color:#fff; }}
-        .main {{ margin-left:240px; padding:30px; }}
-        .header {{ display:flex; justify-content:space-between; align-items:center; margin-bottom:30px; }}
-        .header h1 {{ font-size:24px; color:#1a1a2e; }}
-        .stats {{ display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-bottom:30px; }}
-        .stat-card {{ background:#fff; border-radius:12px; padding:20px; box-shadow:0 2px 10px rgba(0,0,0,0.08); }}
-        .stat-card h3 {{ color:#666; font-size:12px; text-transform:uppercase; margin-bottom:8px; }}
-        .stat-card p {{ font-size:32px; font-weight:700; color:#1a1a2e; }}
-        .card {{ background:#fff; border-radius:12px; padding:20px; box-shadow:0 2px 10px rgba(0,0,0,0.08); margin-bottom:20px; }}
-        .btn {{ padding:10px 20px; border:none; border-radius:8px; cursor:pointer; font-size:14px; font-weight:600; }}
-        .btn-primary {{ background:linear-gradient(135deg,#667eea,#764ba2); color:#fff; }}
-        .btn-danger {{ background:#ff4757; color:#fff; }}
-        table {{ width:100%; border-collapse:collapse; }}
-        th {{ background:#f8f9fa; padding:12px; text-align:left; font-size:12px; text-transform:uppercase; color:#666; }}
-        td {{ padding:12px; border-bottom:1px solid #f0f2f5; }}
-        tr:hover {{ background:#f8f9fa; }}
-        .form-group {{ margin-bottom:15px; }}
-        .form-group label {{ display:block; margin-bottom:5px; font-size:13px; font-weight:600; color:#444; }}
-        .form-group input {{ width:100%; padding:10px; border:1px solid #ddd; border-radius:8px; font-size:14px; }}
-        .search-box {{ padding:10px; border:1px solid #ddd; border-radius:8px; width:300px; margin-bottom:20px; }}
-        #login-screen {{ display:flex; justify-content:center; align-items:center; height:100vh; background:linear-gradient(135deg,#667eea,#764ba2); }}
-        .login-card {{ background:#fff; padding:40px; border-radius:16px; width:360px; box-shadow:0 20px 60px rgba(0,0,0,0.3); }}
-        .login-card h2 {{ text-align:center; margin-bottom:25px; color:#1a1a2e; }}
-        .badge {{ padding:3px 8px; border-radius:4px; font-size:11px; background:#e3f2fd; color:#1976d2; }}
-        .gen-badge {{ position:fixed; bottom:10px; right:10px; background:#1a1a2e; color:#fff; padding:5px 10px; border-radius:20px; font-size:11px; }}
-        .spinner {{ display:inline-block; width:20px; height:20px; border:3px solid #f3f3f3; border-top:3px solid #667eea; border-radius:50%; animation:spin 1s linear infinite; }}
-        @keyframes spin {{ 0%{{transform:rotate(0deg)}} 100%{{transform:rotate(360deg)}} }}
-        .toast {{ position:fixed; top:20px; right:20px; background:#1a1a2e; color:#fff; padding:12px 20px; border-radius:8px; z-index:9999; display:none; animation:fadeIn 0.3s; }}
-        .toast.success {{ background:#27ae60; }}
-        .toast.error {{ background:#e74c3c; }}
-        @keyframes fadeIn {{ from{{opacity:0;transform:translateY(-10px)}} to{{opacity:1;transform:translateY(0)}} }}
-        @media(max-width:768px){{ .sidebar{{width:60px;}} .sidebar h2,.sidebar a span{{display:none;}} .main{{margin-left:60px;}} .stats{{grid-template-columns:1fr;}} }}
-        .loading {{ text-align:center; padding:40px; color:#999; }}
-    </style>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>{name}</title>
+<style>
+:root {{ --primary:{color}; --bg:#f8f9fa; --card:#fff; --muted:#666; --border:#e8e8e8; }}
+* {{ margin:0; padding:0; box-sizing:border-box; }}
+body {{ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:var(--bg); color:#1a1a1a; }}
+header {{ background:var(--primary); color:#fff; padding:14px 16px; display:flex; align-items:center; justify-content:space-between; }}
+header h1 {{ font-size:18px; font-weight:700; }}
+header p {{ font-size:11px; opacity:0.8; margin-top:2px; }}
+{nav_css}
+{layout_css}
+.page {{ display:none; padding:14px; }}
+.page.active {{ display:block; }}
+.page.active {{ display:block; }}
+.card {{ background:var(--card); border-radius:12px; padding:16px; margin-bottom:14px; box-shadow:0 2px 8px rgba(0,0,0,0.06); }}
+.card h3 {{ font-size:14px; font-weight:700; color:var(--primary); margin-bottom:12px; }}
+.stat-grid {{ display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }}
+.stat {{ background:var(--bg); border-radius:10px; padding:14px; text-align:center; }}
+.stat .val {{ font-size:30px; font-weight:700; color:var(--primary); }}
+.stat .lbl {{ font-size:11px; color:var(--muted); margin-top:4px; }}
+.row {{ display:flex; align-items:center; gap:10px; padding:10px 0; border-bottom:1px solid var(--border); }}
+.row:last-child {{ border-bottom:none; }}
+.row-info {{ flex:1; }}
+.row-name {{ font-weight:600; font-size:14px; }}
+.row-sub {{ font-size:12px; color:var(--muted); margin-top:2px; }}
+.badge {{ padding:3px 10px; border-radius:20px; font-size:11px; font-weight:600; }}
+.badge.green {{ background:#d8f3dc; color:#1b4332; }}
+.badge.orange {{ background:#fff3cd; color:#856404; }}
+.badge.red {{ background:#ffe0e0; color:#842029; }}
+.badge.blue {{ background:#dbeafe; color:#1e40af; }}
+.form-row {{ margin-bottom:12px; }}
+.form-row label {{ display:block; font-size:12px; font-weight:600; color:var(--muted); margin-bottom:5px; text-transform:uppercase; }}
+.form-row input, .form-row select, .form-row textarea {{ width:100%; padding:10px 12px; border:1.5px solid var(--border); border-radius:8px; font-size:14px; font-family:inherit; }}
+.form-row input:focus {{ outline:none; border-color:var(--primary); }}
+.btn {{ border:none; padding:12px 20px; border-radius:8px; font-size:14px; font-weight:600; cursor:pointer; font-family:inherit; width:100%; margin-top:6px; }}
+.btn-primary {{ background:var(--primary); color:#fff; }}
+.alert-banner {{ background:#fff3cd; border-radius:10px; padding:12px 14px; margin:14px 14px 0; display:flex; gap:10px; align-items:center; border-left:4px solid #f59e0b; }}
+.alert-icon {{ font-size:20px; }}
+.alert-text {{ flex:1; font-size:13px; }}
+.alert-text strong {{ display:block; color:#856404; }}
+table {{ width:100%; border-collapse:collapse; font-size:14px; }}
+th {{ background:var(--bg); padding:10px; text-align:left; font-size:11px; text-transform:uppercase; color:var(--muted); }}
+td {{ padding:10px; border-bottom:1px solid var(--border); }}
+.insight-badge {{ position:fixed; bottom:8px; right:8px; background:#1a1a2e; color:#fff; padding:4px 10px; border-radius:20px; font-size:10px; opacity:0.7; }}
+.toast {{ position:fixed; top:20px; right:20px; background:#1a1a2e; color:#fff; padding:12px 20px; border-radius:8px; z-index:9999; display:none; }}
+.toast.success {{ background:#27ae60; }}
+.toast.error {{ background:#e74c3c; }}
+</style>
 </head>
 <body>
-<div id="login-screen">
-    <div class="login-card">
-        <h2>{icon} {name}</h2>
-        <div class="form-group">
-            <label>Username</label>
-            <input type="text" id="login-user" placeholder="Username"/>
-        </div>
-        <div class="form-group">
-            <label>Password</label>
-            <input type="password" id="login-pass" placeholder="Password"/>
-        </div>
-        <button class="btn btn-primary" style="width:100%" onclick="login()">Login</button>
-        <p style="text-align:center;margin-top:10px;font-size:12px;color:#999">Generation {generation}</p>
+
+<header>
+  <div>
+    <h1>{icon} {name}</h1>
+    <p>{relief[:60]}</p>
+  </div>
+  <div id="clock" style="font-size:11px;opacity:0.8;text-align:right"></div>
+</header>
+
+{alert_html}
+{nav_html}
+
+<div id="dashboard" class="page active">
+  <div class="card">
+    <h3>📊 {lead}</h3>
+    <div class="stat-grid">
+      <div class="stat"><div class="val" id="stat-total">—</div><div class="lbl">Total {entities}</div></div>
+      <div class="stat"><div class="val" id="stat-today">—</div><div class="lbl">Added Today</div></div>
+      <div class="stat"><div class="val" id="stat-active">—</div><div class="lbl">Active</div></div>
+      <div class="stat"><div class="val" id="stat-pending">—</div><div class="lbl">Pending</div></div>
     </div>
+  </div>
+  <div class="card">
+    <h3>⚡ Quick Actions</h3>
+    <div class="row">
+      <div class="row-info"><div class="row-name">{key_feat}</div><div class="row-sub">{tone}</div></div>
+      <span class="badge green">{ready_word}</span>
+    </div>
+  </div>
 </div>
 
-<div id="app" style="display:none">
-    <div class="sidebar">
-        <h2>{icon} {name}</h2>
-        <a href="#" class="active" onclick="showDashboard()">📊 Dashboard</a>
-        <a href="#" onclick="showList()">📋 {entities}</a>
-        <a href="#" onclick="showAdd()">➕ Add {entity}</a>
-        <a href="#" onclick="showStats()">📈 Reports</a>
-        <a href="#" onclick="logout()" style="margin-top:auto;color:#ff6b6b">🚪 Logout</a>
-    </div>
-    <div class="main">
-        <div class="header">
-            <h1 id="page-title">Dashboard</h1>
-            <button class="btn btn-primary" onclick="showAdd()">+ Add {entity}</button>
-        </div>
-        <div id="content"></div>
-    </div>
+<div id="list" class="page">
+  <div class="card">
+    <h3>📋 {entities}</h3>
+    <input type="text" placeholder="Search {entities.lower()}..." id="search-box"
+      style="width:100%;padding:10px;border:1.5px solid var(--border);border-radius:8px;margin-bottom:12px;font-size:14px"
+      oninput="searchItems(this.value)"/>
+    <div id="list-content"><p style="color:var(--muted);padding:20px;text-align:center">Loading...</p></div>
+  </div>
 </div>
-<div class="gen-badge">Gen {generation} | {name}</div>
+
+<div id="add" class="page">
+  <div class="card">
+    <h3>➕ Add {entity}</h3>
+    {field_inputs}
+    <button class="btn btn-primary" onclick="submitAdd()">Save {entity}</button>
+  </div>
+</div>
+
+<div id="reports" class="page">
+  <div class="card">
+    <h3>📊 Reports</h3>
+    <div class="stat-grid">
+      <div class="stat"><div class="val" id="rep-total">—</div><div class="lbl">Total {entities}</div></div>
+      <div class="stat"><div class="val" id="rep-today">—</div><div class="lbl">Today</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>ℹ️ Platform</h3>
+    <div class="row"><div class="row-info"><div class="row-name">Domain</div></div><span class="badge blue">{domain_id}</span></div>
+    <div class="row"><div class="row-info"><div class="row-name">Generation</div></div><span class="badge blue">{generation}</span></div>
+    <div class="row"><div class="row-info"><div class="row-name">Built for</div></div><span class="badge green">{who[:40]}</span></div>
+  </div>
+</div>
+
+<div class="insight-badge">Gen {generation} · {domain_id}</div>
+<div id="toast" class="toast"></div>
 
 <script>
-let token = localStorage.getItem("token") || "";
-let currentData = [];
 const API = "";
+let token = localStorage.getItem("auth_token") || "demo";
+
+// ═══════════════════════════════════════
+// DUAL MODE — Online or Offline
+// Detects backend. Falls back to localStorage.
+// ═══════════════════════════════════════
+let OFFLINE_MODE = true; // Start offline, upgrade if server found
+const STORE_KEY = "{domain_id}_data";
+
+function getStore() {{
+  try {{ return JSON.parse(localStorage.getItem(STORE_KEY)) || []; }}
+  catch {{ return []; }}
+}}
+
+function saveStore(items) {{
+  localStorage.setItem(STORE_KEY, JSON.stringify(items));
+}}
 
 async function api(method, path, body) {{
-    const r = await fetch(API+path, {{
-        method, headers: {{"Content-Type":"application/json", "Authorization":"Bearer "+token}},
-        body: body ? JSON.stringify(body) : undefined
+  if(OFFLINE_MODE) return offlineApi(method, path, body);
+  try {{
+    const r = await fetch(API + path, {{
+      method,
+      headers: {{"Content-Type":"application/json","Authorization":"Bearer "+token}},
+      body: body ? JSON.stringify(body) : undefined
+    }});
+    if(!r.ok) throw new Error("offline");
+    return r.json();
+  }} catch(e) {{
+    OFFLINE_MODE = true;
+    showToast("Running offline — data saved locally", "success");
+    return offlineApi(method, path, body);
+  }}
+}}
+
+function offlineApi(method, path, body) {{
+  const items = getStore();
+  if(method === "GET") {{
+    if(path.includes("/stats")) {{
+      const today = new Date().toDateString();
+      return {{
+        total: items.length,
+        today: items.filter(i => new Date(i._created).toDateString() === today).length,
+        active: items.length,
+        pending: 0
+      }};
+    }}
+    if(path.includes("/search")) {{
+      const q = new URLSearchParams(path.split("?")[1]).get("q").toLowerCase();
+      return items.filter(i => JSON.stringify(i).toLowerCase().includes(q));
+    }}
+    return items;
+  }}
+  if(method === "POST") {{
+    const item = {{...body, id: Date.now(), _created: new Date().toISOString()}};
+    items.push(item);
+    saveStore(items);
+    return {{message: "saved", id: item.id}};
+  }}
+  if(method === "DELETE") {{
+    const id = parseInt(path.split("/").pop());
+    saveStore(items.filter(i => i.id !== id));
+    return {{message: "deleted"}};
+  }}
+  return {{}};
+}}
+
+function updateClock() {{
+  const now = new Date();
+  document.getElementById("clock").innerHTML =
+    now.toLocaleDateString("en-US",{{weekday:"short",month:"short",day:"numeric"}}) + "<br>" +
+    now.toLocaleTimeString("en-US",{{hour:"2-digit",minute:"2-digit"}});
+}}
+updateClock(); setInterval(updateClock, 30000);
+
+function showPage(id, btn) {{
+  document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
+  document.querySelectorAll("nav button, .sidebar a").forEach(b => b.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+  if(btn) btn.classList.add("active");
+  if(id === "list") loadList();
+  if(id === "dashboard") loadStats();
+  if(id === "reports") loadStats();
+}}
+
+async function api(method, path, body) {{
+  try {{
+    const r = await fetch(API + path, {{
+      method,
+      headers: {{"Content-Type":"application/json","Authorization":"Bearer "+token}},
+      body: body ? JSON.stringify(body) : undefined
     }});
     return r.json();
+  }} catch(e) {{
+    return {{}};
+  }}
 }}
 
-async function login() {{
-    const u = document.getElementById("login-user").value;
-    const p = document.getElementById("login-pass").value;
-    const r = await fetch("/api/auth/login", {{
-        method:"POST", headers:{{"Content-Type":"application/json"}},
-        body: JSON.stringify({{username:u, password:p}})
-    }});
-    const d = await r.json();
-    if(d.token) {{
-        token = d.token;
-        localStorage.setItem("token", token);
-        document.getElementById("login-screen").style.display = "none";
-        document.getElementById("app").style.display = "block";
-        showDashboard();
-    }} else {{
-        alert("Login failed: " + (d.error || "Unknown error"));
-    }}
+async function loadStats() {{
+  const stats = await api("GET", "/api/stats");
+  const total = stats.total || 0;
+  document.getElementById("stat-total").textContent = total;
+  document.getElementById("stat-today").textContent = stats.today || 0;
+  document.getElementById("stat-active").textContent = stats.active || total;
+  document.getElementById("stat-pending").textContent = stats.pending || 0;
+  if(document.getElementById("rep-total")) {{
+    document.getElementById("rep-total").textContent = total;
+    document.getElementById("rep-today").textContent = stats.today || 0;
+  }}
+  if(total > 0) {{
+    document.getElementById("insight-alert").style.display = "flex";
+    document.getElementById("alert-msg").textContent = total + " {entities.lower()} in system — {ready_word}";
+  }}
 }}
 
-function logout() {{
-    token = "";
-    localStorage.removeItem("token");
-    document.getElementById("login-screen").style.display = "flex";
-    document.getElementById("app").style.display = "none";
-}}
-
-async function showDashboard() {{
-    document.getElementById("page-title").textContent = "Dashboard";
-    const stats = await api("GET", "/api/stats");
-    document.getElementById("content").innerHTML = `
-        <div class="stats">
-            <div class="stat-card"><h3>Total {entities}</h3><p>${{stats.total || 0}}</p></div>
-            <div class="stat-card"><h3>Active</h3><p>${{stats.active || 0}}</p></div>
-            <div class="stat-card"><h3>Today</h3><p>${{stats.today || 0}}</p></div>
-        </div>
-        <div class="card">
-            <h3 style="margin-bottom:15px">Recent {entities}</h3>
-            <div id="recent-list"></div>
-        </div>`;
-    const items = await api("GET", "/api/{entities.lower()}");
-    currentData = items;
-    renderTable(items.slice(0,5), document.getElementById("recent-list"));
-}}
-
-async function showList() {{
-    document.getElementById("page-title").textContent = "{entities}";
-    document.getElementById("content").innerHTML = `
-        <div class="card">
-            <input class="search-box" placeholder="Search {entities.lower()}..." oninput="searchItems(this.value)"/>
-            <div id="list-table"></div>
-        </div>`;
-    const items = await api("GET", "/api/{entities.lower()}");
-    currentData = items;
-    renderTable(items, document.getElementById("list-table"));
+async function loadList() {{
+  const el = document.getElementById("list-content");
+  el.innerHTML = "<p style='color:var(--muted);text-align:center;padding:20px'>Loading...</p>";
+  const items = await api("GET", "/api/{entities.lower()}");
+  if(!items || !items.length) {{
+    el.innerHTML = "<p style='color:var(--muted);padding:20px;text-align:center'>No {entities.lower()} yet. Add your first one!</p>";
+    return;
+  }}
+  el.innerHTML = `<table><tr>{col_headers}<th>Actions</th></tr>` +
+    items.map(item => `<tr>{col_data}
+      <td><button onclick="deleteItem(${{item.id}})" style="background:#ffe0e0;color:#842029;border:none;padding:5px 10px;border-radius:6px;cursor:pointer;font-size:12px">Delete</button></td>
+    </tr>`).join("") + "</table>";
 }}
 
 async function searchItems(q) {{
-    const items = await api("GET", "/api/{entities.lower()}?search="+q);
-    renderTable(items, document.getElementById("list-table"));
-}}
-
-function renderTable(items, el) {{
-    if(!items || !items.length) {{ el.innerHTML="<p style='color:#999;padding:20px'>No {entities.lower()} found</p>"; return; }}
-    el.innerHTML = `<table><tr>{col_headers}<th>Actions</th></tr>` +
-        items.map(item => `<tr>{col_data}
-            <td><button class="btn btn-danger" onclick="deleteItem(${{item.id}})" style="padding:5px 10px;font-size:12px">Delete</button></td>
-        </tr>`).join("") + "</table>";
-}}
-
-function showAdd() {{
-    document.getElementById("page-title").textContent = "Add {entity}";
-    document.getElementById("content").innerHTML = `
-        <div class="card" style="max-width:600px">
-            <h3 style="margin-bottom:20px">New {entity}</h3>
-            {field_inputs}
-            <button class="btn btn-primary" onclick="submitAdd()">Save {entity}</button>
-        </div>`;
+  if(!q) {{ loadList(); return; }}
+  const items = await api("GET", "/api/{entities.lower()}/search?q="+encodeURIComponent(q));
+  const el = document.getElementById("list-content");
+  if(!items || !items.length) {{
+    el.innerHTML = "<p style='color:var(--muted);padding:20px;text-align:center'>No results for \""+q+"\"</p>";
+    return;
+  }}
+  el.innerHTML = `<table><tr>{col_headers}</tr>` +
+    items.map(item => `<tr>{col_data}</tr>`).join("") + "</table>";
 }}
 
 async function submitAdd() {{
-    const data = {{}};
-    {js_field_assignments}
-    const r = await api("POST", "/api/{entities.lower()}", data);
-    if(r.message) {{ showToast("{entity} saved!"); showList(); }}
-    else showToast("Error: " + r.error, "error");
+  const data = {{}};
+  {js_field_assignments}
+  const r = await api("POST", "/api/{entities.lower()}", data);
+  if(r.message || r.id) {{ showToast("{entity} saved!"); showPage("list", null); loadList(); }}
+  else showToast("Error saving {entity.lower()}", "error");
 }}
 
 async function deleteItem(id) {{
-    if(!confirm("Delete this {entity.lower()}?")) return;
-    await api("DELETE", "/api/{entities.lower()}/"+id);
-    showList();
-}}
-
-async function showStats() {{
-    document.getElementById("page-title").textContent = "Reports";
-    const stats = await api("GET", "/api/stats");
-    document.getElementById("content").innerHTML = `
-        <div class="stats">
-            <div class="stat-card"><h3>Total {entities}</h3><p>${{stats.total||0}}</p></div>
-            <div class="stat-card"><h3>Active</h3><p>${{stats.active||0}}</p></div>
-            <div class="stat-card"><h3>Added Today</h3><p>${{stats.today||0}}</p></div>
-        </div>
-        <div class="card"><h3>Platform Info</h3>
-            <p style="margin-top:10px">Domain: {domain_id}</p>
-            <p>Generation: {generation}</p>
-            <p>App: {name}</p>
-        </div>`;
+  if(!confirm("Delete this {entity.lower()}?")) return;
+  await api("DELETE", "/api/{entities.lower()}/"+id);
+  loadList();
 }}
 
 function showToast(msg, type="success") {{
-    let t = document.getElementById("toast");
-    if(!t) {{ t = document.createElement("div"); t.id="toast"; t.className="toast"; document.body.appendChild(t); }}
-    t.textContent = msg;
-    t.className = "toast " + type;
-    t.style.display = "block";
-    setTimeout(() => t.style.display="none", 3000);
+  const t = document.getElementById("toast");
+  t.textContent = msg; t.className = "toast " + type;
+  t.style.display = "block";
+  setTimeout(() => t.style.display="none", 3000);
 }}
 
-function showLoading(el) {{
-    if(el) el.innerHTML = '<div class="loading"><div class="spinner"></div></div>';
-}}
-
-// Auto-login if token exists
-if(token) {{
-    document.getElementById("login-screen").style.display = "none";
-    document.getElementById("app").style.display = "block";
-    showDashboard();
-}}
+// Start in offline mode immediately
+OFFLINE_MODE = true;
+loadStats();
+// Try to connect to server in background
+fetch("/api/stats").then(r => {{
+  if(r.ok) {{ OFFLINE_MODE = false; loadStats(); }}
+}}).catch(() => {{}});
 </script>
 </body>
 </html>'''
