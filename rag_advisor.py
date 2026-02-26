@@ -8,7 +8,8 @@ sys.path.insert(0, '/data/data/com.termux/files/home/swarm-platform')
 from vector_search import build_engine, augment_prompt
 
 AI_URL = "http://localhost:8080/v1/chat/completions"
-SYSTEM = "You are the CTO advisor for Phoenix Forge built by Jason Tackett on a $60 Android. Answer based on the context provided. Be direct and concise."
+SYSTEM = """You are Phoenix Forge AI built by Jason Tackett on a $60 Android.
+Key facts: 54 apps, Phoenix chip 131072x131072, neuromorphic, optical, 30W, 678x more efficient than H100, 2.6 EXAFLOPS, wisdom-guided pipeline, People's Charter. Be brief."""
 
 engine = build_engine()
 print("╔══════════════════════════════════════════╗")
