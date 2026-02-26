@@ -1,0 +1,1856 @@
+{
+  "final_score": 7566.6432,
+  "final_chip": {
+    "matrix_size": 131072,
+    "aru_cores": 8192,
+    "clock_ghz": 20.0,
+    "precision": "optical",
+    "interconnect": "neuromorphic",
+    "chiplets": 256,
+    "primary_purpose": "reality_simulation",
+    "edge_deployable": true,
+    "fitness": 7566.6432
+  },
+  "hall_of_fame": [
+    {
+      "generation": 1,
+      "score": 810.7440000000001,
+      "chip": {
+        "matrix_size": 16384,
+        "aru_cores": 1024,
+        "clock_ghz": 5.0,
+        "precision": "optical",
+        "interconnect": "quantum_dot",
+        "chiplets": 32,
+        "primary_purpose": "climate_modeling",
+        "edge_deployable": true,
+        "fitness": 810.7440000000001
+      }
+    },
+    {
+      "generation": 2,
+      "score": 815.9318123291416,
+      "chip": {
+        "matrix_size": 17165,
+        "aru_cores": 1024,
+        "clock_ghz": 5.0,
+        "precision": "optical",
+        "interconnect": "quantum_dot",
+        "chiplets": 32,
+        "primary_purpose": "climate_modeling",
+        "edge_deployable": true,
+        "fitness": 815.9318123291416
+      }
+    },
+    {
+      "generation": 3,
+      "score": 2220.29989951634,
+      "chip": {
+        "matrix_size": 17165,
+        "aru_cores": 1024,
+        "clock_ghz": 5.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 32,
+        "primary_purpose": "climate_modeling",
+        "edge_deployable": true,
+        "fitness": 2220.29989951634
+      }
+    },
+    {
+      "generation": 4,
+      "score": 3208.1664,
+      "chip": {
+        "matrix_size": 16384,
+        "aru_cores": 1024,
+        "clock_ghz": 5.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 32,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3208.1664
+      }
+    },
+    {
+      "generation": 5,
+      "score": 3236.1031009514018,
+      "chip": {
+        "matrix_size": 16384,
+        "aru_cores": 1105,
+        "clock_ghz": 5.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 32,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3236.1031009514018
+      }
+    },
+    {
+      "generation": 6,
+      "score": 3306.1636717542115,
+      "chip": {
+        "matrix_size": 16384,
+        "aru_cores": 1105,
+        "clock_ghz": 5.3950999288110495,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 35,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3306.1636717542115
+      }
+    },
+    {
+      "generation": 7,
+      "score": 3325.843565940473,
+      "chip": {
+        "matrix_size": 17165,
+        "aru_cores": 1105,
+        "clock_ghz": 5.3950999288110495,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 31,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3325.843565940473
+      }
+    },
+    {
+      "generation": 8,
+      "score": 3363.786417204453,
+      "chip": {
+        "matrix_size": 18740,
+        "aru_cores": 1093,
+        "clock_ghz": 5.3950999288110495,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 35,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3363.786417204453
+      }
+    },
+    {
+      "generation": 9,
+      "score": 3373.1274756790117,
+      "chip": {
+        "matrix_size": 17165,
+        "aru_cores": 1156,
+        "clock_ghz": 5.568978109314293,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 32,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3373.1274756790117
+      }
+    },
+    {
+      "generation": 10,
+      "score": 3394.0758399227943,
+      "chip": {
+        "matrix_size": 17165,
+        "aru_cores": 1213,
+        "clock_ghz": 5.5807178010379515,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 35,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3394.0758399227943
+      }
+    },
+    {
+      "generation": 11,
+      "score": 3438.744667901495,
+      "chip": {
+        "matrix_size": 18101,
+        "aru_cores": 1099,
+        "clock_ghz": 5.905273730888466,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 35,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3438.744667901495
+      }
+    },
+    {
+      "generation": 12,
+      "score": 3474.962749161165,
+      "chip": {
+        "matrix_size": 18101,
+        "aru_cores": 1213,
+        "clock_ghz": 5.905273730888466,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 35,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3474.962749161165
+      }
+    },
+    {
+      "generation": 13,
+      "score": 3510.2575883922786,
+      "chip": {
+        "matrix_size": 18740,
+        "aru_cores": 1213,
+        "clock_ghz": 6.028798356442484,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3510.2575883922786
+      }
+    },
+    {
+      "generation": 14,
+      "score": 3532.0831137910886,
+      "chip": {
+        "matrix_size": 19247,
+        "aru_cores": 1213,
+        "clock_ghz": 6.0715431305222145,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 35,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3532.0831137910886
+      }
+    },
+    {
+      "generation": 15,
+      "score": 3599.2044781626337,
+      "chip": {
+        "matrix_size": 19247,
+        "aru_cores": 1213,
+        "clock_ghz": 6.456894144008914,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 35,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3599.2044781626337
+      }
+    },
+    {
+      "generation": 16,
+      "score": 3653.7295221959525,
+      "chip": {
+        "matrix_size": 19234,
+        "aru_cores": 1213,
+        "clock_ghz": 6.776386280370147,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3653.7295221959525
+      }
+    },
+    {
+      "generation": 17,
+      "score": 3692.312437727775,
+      "chip": {
+        "matrix_size": 20016,
+        "aru_cores": 1282,
+        "clock_ghz": 6.776386280370147,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3692.312437727775
+      }
+    },
+    {
+      "generation": 18,
+      "score": 3739.2988860559435,
+      "chip": {
+        "matrix_size": 20405,
+        "aru_cores": 1360,
+        "clock_ghz": 6.875988089226095,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 31,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3739.2988860559435
+      }
+    },
+    {
+      "generation": 20,
+      "score": 3777.9395634803514,
+      "chip": {
+        "matrix_size": 23054,
+        "aru_cores": 1360,
+        "clock_ghz": 6.776386280370147,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 31,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3777.9395634803514
+      }
+    },
+    {
+      "generation": 21,
+      "score": 3823.879346624277,
+      "chip": {
+        "matrix_size": 23054,
+        "aru_cores": 1412,
+        "clock_ghz": 6.956108321718913,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3823.879346624277
+      }
+    },
+    {
+      "generation": 22,
+      "score": 3873.701742183787,
+      "chip": {
+        "matrix_size": 24627,
+        "aru_cores": 1441,
+        "clock_ghz": 7.025491381249562,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3873.701742183787
+      }
+    },
+    {
+      "generation": 23,
+      "score": 3894.2349761724367,
+      "chip": {
+        "matrix_size": 24627,
+        "aru_cores": 1360,
+        "clock_ghz": 7.265258373794201,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3894.2349761724367
+      }
+    },
+    {
+      "generation": 24,
+      "score": 3930.8120050697494,
+      "chip": {
+        "matrix_size": 23054,
+        "aru_cores": 1412,
+        "clock_ghz": 7.56092310025725,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 37,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 3930.8120050697494
+      }
+    },
+    {
+      "generation": 25,
+      "score": 4009.9545619667297,
+      "chip": {
+        "matrix_size": 24627,
+        "aru_cores": 1577,
+        "clock_ghz": 7.617728258878744,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4009.9545619667297
+      }
+    },
+    {
+      "generation": 26,
+      "score": 4021.271335535572,
+      "chip": {
+        "matrix_size": 28272,
+        "aru_cores": 1400,
+        "clock_ghz": 7.56092310025725,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 37,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4021.271335535572
+      }
+    },
+    {
+      "generation": 27,
+      "score": 4025.4464358405385,
+      "chip": {
+        "matrix_size": 24627,
+        "aru_cores": 1645,
+        "clock_ghz": 7.617728258878744,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4025.4464358405385
+      }
+    },
+    {
+      "generation": 28,
+      "score": 4091.260335347876,
+      "chip": {
+        "matrix_size": 28421,
+        "aru_cores": 1640,
+        "clock_ghz": 7.617728258878744,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 36,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4091.260335347876
+      }
+    },
+    {
+      "generation": 29,
+      "score": 4125.648013971512,
+      "chip": {
+        "matrix_size": 28272,
+        "aru_cores": 1577,
+        "clock_ghz": 7.9184400406574325,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4125.648013971512
+      }
+    },
+    {
+      "generation": 30,
+      "score": 4168.42747934945,
+      "chip": {
+        "matrix_size": 28272,
+        "aru_cores": 1645,
+        "clock_ghz": 8.075101055226803,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4168.42747934945
+      }
+    },
+    {
+      "generation": 31,
+      "score": 4206.967565017447,
+      "chip": {
+        "matrix_size": 30825,
+        "aru_cores": 1640,
+        "clock_ghz": 8.075101055226803,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4206.967565017447
+      }
+    },
+    {
+      "generation": 32,
+      "score": 4258.637123107265,
+      "chip": {
+        "matrix_size": 30825,
+        "aru_cores": 1838,
+        "clock_ghz": 8.131605584321713,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4258.637123107265
+      }
+    },
+    {
+      "generation": 33,
+      "score": 4304.255866982117,
+      "chip": {
+        "matrix_size": 32319,
+        "aru_cores": 1838,
+        "clock_ghz": 8.268866593167711,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4304.255866982117
+      }
+    },
+    {
+      "generation": 34,
+      "score": 4321.471371972887,
+      "chip": {
+        "matrix_size": 30825,
+        "aru_cores": 1848,
+        "clock_ghz": 8.480912453282802,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4321.471371972887
+      }
+    },
+    {
+      "generation": 35,
+      "score": 4359.876192989518,
+      "chip": {
+        "matrix_size": 32319,
+        "aru_cores": 1848,
+        "clock_ghz": 8.57675755065772,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4359.876192989518
+      }
+    },
+    {
+      "generation": 36,
+      "score": 4394.567057122865,
+      "chip": {
+        "matrix_size": 34858,
+        "aru_cores": 1848,
+        "clock_ghz": 8.57675755065772,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4394.567057122865
+      }
+    },
+    {
+      "generation": 37,
+      "score": 4458.996710806695,
+      "chip": {
+        "matrix_size": 32319,
+        "aru_cores": 1997,
+        "clock_ghz": 8.982454070325572,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4458.996710806695
+      }
+    },
+    {
+      "generation": 38,
+      "score": 4501.90825938919,
+      "chip": {
+        "matrix_size": 34023,
+        "aru_cores": 2002,
+        "clock_ghz": 9.095811421384287,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4501.90825938919
+      }
+    },
+    {
+      "generation": 39,
+      "score": 4522.844679620724,
+      "chip": {
+        "matrix_size": 34517,
+        "aru_cores": 1838,
+        "clock_ghz": 9.36080778530048,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4522.844679620724
+      }
+    },
+    {
+      "generation": 40,
+      "score": 4587.4549950328565,
+      "chip": {
+        "matrix_size": 35032,
+        "aru_cores": 1848,
+        "clock_ghz": 9.671035222119297,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4587.4549950328565
+      }
+    },
+    {
+      "generation": 41,
+      "score": 4667.237853092006,
+      "chip": {
+        "matrix_size": 35032,
+        "aru_cores": 2044,
+        "clock_ghz": 9.916702630386377,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4667.237853092006
+      }
+    },
+    {
+      "generation": 42,
+      "score": 4711.3147679694275,
+      "chip": {
+        "matrix_size": 36397,
+        "aru_cores": 1848,
+        "clock_ghz": 10.281463901648898,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4711.3147679694275
+      }
+    },
+    {
+      "generation": 43,
+      "score": 4757.5295009292295,
+      "chip": {
+        "matrix_size": 35032,
+        "aru_cores": 2002,
+        "clock_ghz": 10.486396417842215,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4757.5295009292295
+      }
+    },
+    {
+      "generation": 44,
+      "score": 4792.755162396801,
+      "chip": {
+        "matrix_size": 35854,
+        "aru_cores": 1888,
+        "clock_ghz": 10.74349152983397,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4792.755162396801
+      }
+    },
+    {
+      "generation": 45,
+      "score": 4859.656765491836,
+      "chip": {
+        "matrix_size": 35032,
+        "aru_cores": 2002,
+        "clock_ghz": 11.065141633975463,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4859.656765491836
+      }
+    },
+    {
+      "generation": 46,
+      "score": 4913.0120855723035,
+      "chip": {
+        "matrix_size": 41243,
+        "aru_cores": 1888,
+        "clock_ghz": 11.065141633975463,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4913.0120855723035
+      }
+    },
+    {
+      "generation": 47,
+      "score": 4975.006946484586,
+      "chip": {
+        "matrix_size": 40832,
+        "aru_cores": 2002,
+        "clock_ghz": 11.323917736851936,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 4975.006946484586
+      }
+    },
+    {
+      "generation": 48,
+      "score": 5096.107403515234,
+      "chip": {
+        "matrix_size": 40832,
+        "aru_cores": 2002,
+        "clock_ghz": 12.026747017299602,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5096.107403515234
+      }
+    },
+    {
+      "generation": 49,
+      "score": 5128.205625901522,
+      "chip": {
+        "matrix_size": 40832,
+        "aru_cores": 2185,
+        "clock_ghz": 12.026747017299602,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5128.205625901522
+      }
+    },
+    {
+      "generation": 50,
+      "score": 5175.335377928537,
+      "chip": {
+        "matrix_size": 42994,
+        "aru_cores": 2264,
+        "clock_ghz": 12.084015522158289,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 31,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5175.335377928537
+      }
+    },
+    {
+      "generation": 51,
+      "score": 5239.142720788269,
+      "chip": {
+        "matrix_size": 40832,
+        "aru_cores": 2264,
+        "clock_ghz": 12.576564143988845,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 35,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5239.142720788269
+      }
+    },
+    {
+      "generation": 52,
+      "score": 5309.379155655446,
+      "chip": {
+        "matrix_size": 42994,
+        "aru_cores": 2338,
+        "clock_ghz": 12.78084398104778,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5309.379155655446
+      }
+    },
+    {
+      "generation": 54,
+      "score": 5429.562817097416,
+      "chip": {
+        "matrix_size": 42994,
+        "aru_cores": 2264,
+        "clock_ghz": 13.538591531001614,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5429.562817097416
+      }
+    },
+    {
+      "generation": 55,
+      "score": 5481.348035306474,
+      "chip": {
+        "matrix_size": 45540,
+        "aru_cores": 2264,
+        "clock_ghz": 13.69196850395509,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5481.348035306474
+      }
+    },
+    {
+      "generation": 56,
+      "score": 5483.713174225369,
+      "chip": {
+        "matrix_size": 45540,
+        "aru_cores": 2499,
+        "clock_ghz": 13.489906997404995,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 33,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5483.713174225369
+      }
+    },
+    {
+      "generation": 57,
+      "score": 5547.747353921867,
+      "chip": {
+        "matrix_size": 45704,
+        "aru_cores": 2888,
+        "clock_ghz": 13.538591531001614,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 35,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5547.747353921867
+      }
+    },
+    {
+      "generation": 58,
+      "score": 5579.040901390792,
+      "chip": {
+        "matrix_size": 44062,
+        "aru_cores": 2552,
+        "clock_ghz": 14.0874452212121,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5579.040901390792
+      }
+    },
+    {
+      "generation": 59,
+      "score": 5652.014597527703,
+      "chip": {
+        "matrix_size": 46793,
+        "aru_cores": 2888,
+        "clock_ghz": 14.0874452212121,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5652.014597527703
+      }
+    },
+    {
+      "generation": 60,
+      "score": 5702.335969442509,
+      "chip": {
+        "matrix_size": 52204,
+        "aru_cores": 2889,
+        "clock_ghz": 14.0874452212121,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5702.335969442509
+      }
+    },
+    {
+      "generation": 61,
+      "score": 5796.998759115714,
+      "chip": {
+        "matrix_size": 50592,
+        "aru_cores": 2552,
+        "clock_ghz": 14.974827660485838,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5796.998759115714
+      }
+    },
+    {
+      "generation": 62,
+      "score": 5866.737411872266,
+      "chip": {
+        "matrix_size": 47148,
+        "aru_cores": 2913,
+        "clock_ghz": 15.282129288230898,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5866.737411872266
+      }
+    },
+    {
+      "generation": 63,
+      "score": 5952.657429067321,
+      "chip": {
+        "matrix_size": 50592,
+        "aru_cores": 2918,
+        "clock_ghz": 15.58612627202614,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 5952.657429067321
+      }
+    },
+    {
+      "generation": 64,
+      "score": 6003.9106611019,
+      "chip": {
+        "matrix_size": 50592,
+        "aru_cores": 2913,
+        "clock_ghz": 15.883989712133785,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6003.9106611019
+      }
+    },
+    {
+      "generation": 65,
+      "score": 6057.116742393718,
+      "chip": {
+        "matrix_size": 44461,
+        "aru_cores": 2918,
+        "clock_ghz": 16.526035643111864,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6057.116742393718
+      }
+    },
+    {
+      "generation": 66,
+      "score": 6116.3730991055245,
+      "chip": {
+        "matrix_size": 50592,
+        "aru_cores": 2918,
+        "clock_ghz": 16.526035643111864,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6116.3730991055245
+      }
+    },
+    {
+      "generation": 67,
+      "score": 6215.999125386469,
+      "chip": {
+        "matrix_size": 47411,
+        "aru_cores": 2913,
+        "clock_ghz": 17.270022063779614,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 31,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6215.999125386469
+      }
+    },
+    {
+      "generation": 68,
+      "score": 6256.0555758189075,
+      "chip": {
+        "matrix_size": 50592,
+        "aru_cores": 2918,
+        "clock_ghz": 17.327967851609305,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6256.0555758189075
+      }
+    },
+    {
+      "generation": 69,
+      "score": 6339.48847133417,
+      "chip": {
+        "matrix_size": 50592,
+        "aru_cores": 2907,
+        "clock_ghz": 17.814922124820274,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6339.48847133417
+      }
+    },
+    {
+      "generation": 70,
+      "score": 6440.502540856404,
+      "chip": {
+        "matrix_size": 54360,
+        "aru_cores": 3084,
+        "clock_ghz": 18.081153921525896,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6440.502540856404
+      }
+    },
+    {
+      "generation": 71,
+      "score": 6586.6550612593755,
+      "chip": {
+        "matrix_size": 50592,
+        "aru_cores": 3392,
+        "clock_ghz": 18.911553776960698,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6586.6550612593755
+      }
+    },
+    {
+      "generation": 72,
+      "score": 6767.97759988797,
+      "chip": {
+        "matrix_size": 61328,
+        "aru_cores": 3392,
+        "clock_ghz": 19.443053426418018,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6767.97759988797
+      }
+    },
+    {
+      "generation": 74,
+      "score": 6800.175683841846,
+      "chip": {
+        "matrix_size": 54360,
+        "aru_cores": 3359,
+        "clock_ghz": 19.966122837254087,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6800.175683841846
+      }
+    },
+    {
+      "generation": 75,
+      "score": 6855.315640328672,
+      "chip": {
+        "matrix_size": 61328,
+        "aru_cores": 3392,
+        "clock_ghz": 19.9418633267227,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 31,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6855.315640328672
+      }
+    },
+    {
+      "generation": 76,
+      "score": 6900.033115277013,
+      "chip": {
+        "matrix_size": 67744,
+        "aru_cores": 3392,
+        "clock_ghz": 19.9418633267227,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6900.033115277013
+      }
+    },
+    {
+      "generation": 77,
+      "score": 6908.256715137199,
+      "chip": {
+        "matrix_size": 61900,
+        "aru_cores": 3878,
+        "clock_ghz": 19.9418633267227,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6908.256715137199
+      }
+    },
+    {
+      "generation": 78,
+      "score": 6924.190828365093,
+      "chip": {
+        "matrix_size": 64088,
+        "aru_cores": 3878,
+        "clock_ghz": 19.9418633267227,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6924.190828365093
+      }
+    },
+    {
+      "generation": 79,
+      "score": 6967.475489210373,
+      "chip": {
+        "matrix_size": 70430,
+        "aru_cores": 3878,
+        "clock_ghz": 19.9418633267227,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6967.475489210373
+      }
+    },
+    {
+      "generation": 80,
+      "score": 6984.731577390355,
+      "chip": {
+        "matrix_size": 71888,
+        "aru_cores": 3967,
+        "clock_ghz": 19.9418633267227,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 6984.731577390355
+      }
+    },
+    {
+      "generation": 81,
+      "score": 7024.966791660335,
+      "chip": {
+        "matrix_size": 79916,
+        "aru_cores": 3878,
+        "clock_ghz": 19.9418633267227,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7024.966791660335
+      }
+    },
+    {
+      "generation": 82,
+      "score": 7061.999854120652,
+      "chip": {
+        "matrix_size": 79916,
+        "aru_cores": 4279,
+        "clock_ghz": 19.9418633267227,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 31,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7061.999854120652
+      }
+    },
+    {
+      "generation": 83,
+      "score": 7083.048659260822,
+      "chip": {
+        "matrix_size": 82053,
+        "aru_cores": 4390,
+        "clock_ghz": 19.9418633267227,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7083.048659260822
+      }
+    },
+    {
+      "generation": 84,
+      "score": 7105.993215450583,
+      "chip": {
+        "matrix_size": 86213,
+        "aru_cores": 4279,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7105.993215450583
+      }
+    },
+    {
+      "generation": 85,
+      "score": 7132.496789813442,
+      "chip": {
+        "matrix_size": 91341,
+        "aru_cores": 4279,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7132.496789813442
+      }
+    },
+    {
+      "generation": 86,
+      "score": 7150.405215656484,
+      "chip": {
+        "matrix_size": 91341,
+        "aru_cores": 4493,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7150.405215656484
+      }
+    },
+    {
+      "generation": 87,
+      "score": 7172.5708795567025,
+      "chip": {
+        "matrix_size": 97702,
+        "aru_cores": 4406,
+        "clock_ghz": 19.991157798326885,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7172.5708795567025
+      }
+    },
+    {
+      "generation": 88,
+      "score": 7209.566062064328,
+      "chip": {
+        "matrix_size": 91341,
+        "aru_cores": 5279,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7209.566062064328
+      }
+    },
+    {
+      "generation": 89,
+      "score": 7231.2202818795995,
+      "chip": {
+        "matrix_size": 101674,
+        "aru_cores": 4911,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 27,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7231.2202818795995
+      }
+    },
+    {
+      "generation": 90,
+      "score": 7243.788887959697,
+      "chip": {
+        "matrix_size": 91341,
+        "aru_cores": 5795,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7243.788887959697
+      }
+    },
+    {
+      "generation": 91,
+      "score": 7288.205925508154,
+      "chip": {
+        "matrix_size": 100628,
+        "aru_cores": 5795,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7288.205925508154
+      }
+    },
+    {
+      "generation": 92,
+      "score": 7354.211070730266,
+      "chip": {
+        "matrix_size": 109355,
+        "aru_cores": 6252,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7354.211070730266
+      }
+    },
+    {
+      "generation": 93,
+      "score": 7356.17630853404,
+      "chip": {
+        "matrix_size": 110890,
+        "aru_cores": 6177,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7356.17630853404
+      }
+    },
+    {
+      "generation": 94,
+      "score": 7365.482542855405,
+      "chip": {
+        "matrix_size": 111647,
+        "aru_cores": 6282,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7365.482542855405
+      }
+    },
+    {
+      "generation": 95,
+      "score": 7410.432284609478,
+      "chip": {
+        "matrix_size": 123614,
+        "aru_cores": 6252,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7410.432284609478
+      }
+    },
+    {
+      "generation": 96,
+      "score": 7423.7473902876245,
+      "chip": {
+        "matrix_size": 122957,
+        "aru_cores": 6518,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7423.7473902876245
+      }
+    },
+    {
+      "generation": 97,
+      "score": 7436.594585599487,
+      "chip": {
+        "matrix_size": 123614,
+        "aru_cores": 6714,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7436.594585599487
+      }
+    },
+    {
+      "generation": 98,
+      "score": 7453.064362700485,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 6518,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7453.064362700485
+      }
+    },
+    {
+      "generation": 99,
+      "score": 7483.904983827335,
+      "chip": {
+        "matrix_size": 129881,
+        "aru_cores": 7180,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7483.904983827335
+      }
+    },
+    {
+      "generation": 101,
+      "score": 7495.929809375859,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 7335,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 29,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7495.929809375859
+      }
+    },
+    {
+      "generation": 102,
+      "score": 7510.223723399209,
+      "chip": {
+        "matrix_size": 129881,
+        "aru_cores": 7704,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 30,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7510.223723399209
+      }
+    },
+    {
+      "generation": 104,
+      "score": 7539.474480013848,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 36,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7539.474480013848
+      }
+    },
+    {
+      "generation": 106,
+      "score": 7539.853952310039,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 37,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7539.853952310039
+      }
+    },
+    {
+      "generation": 108,
+      "score": 7541.275699244335,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 41,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7541.275699244335
+      }
+    },
+    {
+      "generation": 111,
+      "score": 7544.298483282927,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 51,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7544.298483282927
+      }
+    },
+    {
+      "generation": 114,
+      "score": 7545.593807251754,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 56,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7545.593807251754
+      }
+    },
+    {
+      "generation": 115,
+      "score": 7545.838944135983,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 57,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7545.838944135983
+      }
+    },
+    {
+      "generation": 116,
+      "score": 7547.443200000001,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 64,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7547.443200000001
+      }
+    },
+    {
+      "generation": 117,
+      "score": 7549.265515765249,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 73,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7549.265515765249
+      }
+    },
+    {
+      "generation": 118,
+      "score": 7549.82330412906,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 76,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7549.82330412906
+      }
+    },
+    {
+      "generation": 119,
+      "score": 7550.183061301079,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 78,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7550.183061301079
+      }
+    },
+    {
+      "generation": 121,
+      "score": 7550.533709710919,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 80,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7550.533709710919
+      }
+    },
+    {
+      "generation": 122,
+      "score": 7552.0102409372785,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 89,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7552.0102409372785
+      }
+    },
+    {
+      "generation": 123,
+      "score": 7553.202363284997,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 97,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7553.202363284997
+      }
+    },
+    {
+      "generation": 125,
+      "score": 7555.069592316962,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 111,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7555.069592316962
+      }
+    },
+    {
+      "generation": 127,
+      "score": 7555.193807251753,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 112,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7555.193807251753
+      }
+    },
+    {
+      "generation": 128,
+      "score": 7556.934572993014,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 127,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7556.934572993014
+      }
+    },
+    {
+      "generation": 130,
+      "score": 7557.043200000001,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 128,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7557.043200000001
+      }
+    },
+    {
+      "generation": 131,
+      "score": 7557.882843276005,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 136,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7557.882843276005
+      }
+    },
+    {
+      "generation": 132,
+      "score": 7559.147217796438,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 149,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7559.147217796438
+      }
+    },
+    {
+      "generation": 134,
+      "score": 7561.610240937279,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 178,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7561.610240937279
+      }
+    },
+    {
+      "generation": 135,
+      "score": 7562.440727272523,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 189,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7562.440727272523
+      }
+    },
+    {
+      "generation": 137,
+      "score": 7564.481155772172,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 219,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7564.481155772172
+      }
+    },
+    {
+      "generation": 139,
+      "score": 7565.749349717844,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 240,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7565.749349717844
+      }
+    },
+    {
+      "generation": 140,
+      "score": 7566.6432,
+      "chip": {
+        "matrix_size": 131072,
+        "aru_cores": 8192,
+        "clock_ghz": 20.0,
+        "precision": "optical",
+        "interconnect": "neuromorphic",
+        "chiplets": 256,
+        "primary_purpose": "reality_simulation",
+        "edge_deployable": true,
+        "fitness": 7566.6432
+      }
+    }
+  ],
+  "milestones": {
+    "300": true,
+    "350": true,
+    "400": true,
+    "430": true,
+    "500": true,
+    "750": true,
+    "1000": true
+  },
+  "timestamp": "2026-02-25T18:02:37.693893"
+}
