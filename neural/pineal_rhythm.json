@@ -1,9 +1,9 @@
 {
   "current_phase": "sprint",
-  "phase_generation": 4,
-  "total_generation": 4,
+  "phase_generation": 9,
+  "total_generation": 9,
   "last_best_score": 574.0,
-  "stagnation_counter": 4,
+  "stagnation_counter": 9,
   "rest_cycles_done": 0,
   "phase_history": [],
   "score_history": [
@@ -26,6 +26,31 @@
       "score": 574,
       "gen": 3,
       "timestamp": "2026-02-28T11:38:28.772793"
+    },
+    {
+      "score": 574,
+      "gen": 4,
+      "timestamp": "2026-02-28T12:43:24.203914"
+    },
+    {
+      "score": 574,
+      "gen": 5,
+      "timestamp": "2026-02-28T12:45:38.626148"
+    },
+    {
+      "score": 574,
+      "gen": 6,
+      "timestamp": "2026-02-28T12:47:04.646322"
+    },
+    {
+      "score": 433,
+      "gen": 7,
+      "timestamp": "2026-02-28T12:58:48.881763"
+    },
+    {
+      "score": 549,
+      "gen": 8,
+      "timestamp": "2026-02-28T13:00:49.752489"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "scanned_at": "2026-02-28T11:38:28.569323",
-  "domains_scanned": 54,
+  "scanned_at": "2026-02-28T13:00:49.502328",
+  "domains_scanned": 105,
   "pain_domains": 0,
-  "connection_domains": 54,
-  "avg_pain_level": 0.466,
+  "connection_domains": 105,
+  "avg_pain_level": 0.289,
   "cortisol_fired": false,
   "oxytocin_fired": true,
   "top_pain": [],
@@ -22,6 +22,50 @@
           "signature": "forgiveness",
           "feeling": "safety \u2014 it won't punish me for trying",
           "weight": 0.7
+        },
+        {
+          "signature": "dignity",
+          "feeling": "dignity \u2014 it speaks to me like a person",
+          "weight": 0.8
+        },
+        {
+          "signature": "presence",
+          "feeling": "presence \u2014 it's here with me, not in a vacuum",
+          "weight": 0.75
+        }
+      ]
+    },
+    {
+      "domain": "addiction_support",
+      "connection": 0.6125,
+      "score": 574,
+      "signals": [
+        {
+          "signature": "immediate_relief",
+          "feeling": "relief \u2014 it knew what I needed before I asked",
+          "weight": 0.9
+        },
+        {
+          "signature": "dignity",
+          "feeling": "dignity \u2014 it speaks to me like a person",
+          "weight": 0.8
+        },
+        {
+          "signature": "presence",
+          "feeling": "presence \u2014 it's here with me, not in a vacuum",
+          "weight": 0.75
+        }
+      ]
+    },
+    {
+      "domain": "anger_management",
+      "connection": 0.6125,
+      "score": 574,
+      "signals": [
+        {
+          "signature": "immediate_relief",
+          "feeling": "relief \u2014 it knew what I needed before I asked",
+          "weight": 0.9
         },
         {
           "signature": "dignity",
@@ -64,60 +108,6 @@
     },
     {
       "domain": "autorepair",
-      "connection": 0.7875000000000001,
-      "score": 575,
-      "signals": [
-        {
-          "signature": "immediate_relief",
-          "feeling": "relief \u2014 it knew what I needed before I asked",
-          "weight": 0.9
-        },
-        {
-          "signature": "forgiveness",
-          "feeling": "safety \u2014 it won't punish me for trying",
-          "weight": 0.7
-        },
-        {
-          "signature": "dignity",
-          "feeling": "dignity \u2014 it speaks to me like a person",
-          "weight": 0.8
-        },
-        {
-          "signature": "presence",
-          "feeling": "presence \u2014 it's here with me, not in a vacuum",
-          "weight": 0.75
-        }
-      ]
-    },
-    {
-      "domain": "bakery",
-      "connection": 0.7875000000000001,
-      "score": 575,
-      "signals": [
-        {
-          "signature": "immediate_relief",
-          "feeling": "relief \u2014 it knew what I needed before I asked",
-          "weight": 0.9
-        },
-        {
-          "signature": "forgiveness",
-          "feeling": "safety \u2014 it won't punish me for trying",
-          "weight": 0.7
-        },
-        {
-          "signature": "dignity",
-          "feeling": "dignity \u2014 it speaks to me like a person",
-          "weight": 0.8
-        },
-        {
-          "signature": "presence",
-          "feeling": "presence \u2014 it's here with me, not in a vacuum",
-          "weight": 0.75
-        }
-      ]
-    },
-    {
-      "domain": "catering",
       "connection": 0.7875000000000001,
       "score": 575,
       "signals": [

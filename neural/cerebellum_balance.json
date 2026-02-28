@@ -44,16 +44,54 @@
       "min_score": 543,
       "max_score": 590,
       "timestamp": "2026-02-28T11:38:28.767380"
-    }
-  ],
-  "generation": 5,
-  "evolution_priorities": [
+    },
     {
-      "domain": "healthcare",
-      "score": 577,
-      "reason": "Can learn from: pharmacy (585/600)",
-      "priority": 3
+      "generation": 5,
+      "avg": 574.2,
+      "stddev": 6.5,
+      "balance_score": 0.84,
+      "min_score": 543,
+      "max_score": 590,
+      "timestamp": "2026-02-28T12:43:24.195224"
+    },
+    {
+      "generation": 6,
+      "avg": 574.2,
+      "stddev": 6.5,
+      "balance_score": 0.84,
+      "min_score": 543,
+      "max_score": 590,
+      "timestamp": "2026-02-28T12:45:38.619114"
+    },
+    {
+      "generation": 7,
+      "avg": 574.2,
+      "stddev": 6.5,
+      "balance_score": 0.84,
+      "min_score": 543,
+      "max_score": 590,
+      "timestamp": "2026-02-28T12:47:04.636151"
+    },
+    {
+      "generation": 8,
+      "avg": 432.9,
+      "stddev": 163.2,
+      "balance_score": 0.0,
+      "min_score": 275,
+      "max_score": 600,
+      "timestamp": "2026-02-28T12:58:48.874606"
+    },
+    {
+      "generation": 9,
+      "avg": 548.5,
+      "stddev": 0.5,
+      "balance_score": 0.99,
+      "min_score": 548,
+      "max_score": 549,
+      "timestamp": "2026-02-28T13:00:49.748272"
     }
   ],
-  "current_balance": 0.84
+  "generation": 10,
+  "evolution_priorities": [],
+  "current_balance": 0.99
 }

@@ -14,41 +14,6 @@ import sys
 import time
 import argparse
 
-# ── Phoenix Forge Patch: Human Scoring ──────────────────────
-import sys as _sys
-_sys.path.insert(0, str(__import__('pathlib').Path(__file__).parent))
-try:
-    from human_score_engine import HumanScoreEngine as _HumanScoreEngine
-    _human_engine = _HumanScoreEngine()
-    _human_scoring_available = True
-    print("✅ HumanScoreEngine loaded — scoring 500pt system active")
-except Exception as _e:
-    _human_scoring_available = False
-    print(f"⚠️  HumanScoreEngine not available: {_e} — using 275pt fallback")
-
-try:
-    from pathlib import Path as _Path
-    import json as _json
-    _domain_configs_path = _Path.home() / "organism_templates" / "domain_configs.json"
-    _domain_configs = _json.loads(_domain_configs_path.read_text()) if _domain_configs_path.exists() else {}
-except:
-    _domain_configs = {}
-
-def _get_human_score(app_path, domain_id):
-    """Get human score for an app. Returns (human_score, grade)"""
-    if not _human_scoring_available:
-        return 0, "N/A"
-    try:
-        cfg = _domain_configs.get(domain_id, {})
-        result = _human_engine.score(_Path(app_path), domain_id, cfg)
-        return result["human_score"], result["grade"]
-    except Exception as e:
-        return 0, "N/A"
-
-CROWN_THRESHOLD = 400
-CROWN_THRESHOLD_TECH_ONLY = 250
-# ────────────────────────────────────────────────────────────
-
 class AdaptiveEvolution:
     def __init__(self, initial_mutation_rate=0.5, initial_tournament_size=15):
         self.mutation_rate = initial_mutation_rate
@@ -469,11 +434,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     enhanced_evolution(args)
-
-# ── Phoenix Forge: Wisdom Score Hook (Phase 2) ──────────────
-# When wisdom_engine.py is ready, import it here:
-# from wisdom_engine import WisdomEngine
-# _wisdom_engine = WisdomEngine()
-# wisdom_score = _wisdom_engine.score(app_path, domain_id)
-# Total will become: tech(275) + human(225) + wisdom(100) = 600pt
-# ─────────────────────────────────────────────────────────────

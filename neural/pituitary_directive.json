@@ -25,9 +25,34 @@
       "directive": "GROW",
       "avg_score": 574.2,
       "timestamp": "2026-02-28T11:38:28.791573"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 574.2,
+      "timestamp": "2026-02-28T12:43:24.225389"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 574.2,
+      "timestamp": "2026-02-28T12:45:38.647922"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 574.2,
+      "timestamp": "2026-02-28T12:47:04.673366"
+    },
+    {
+      "directive": "MAINTAIN",
+      "avg_score": 432.9,
+      "timestamp": "2026-02-28T12:58:48.911337"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T13:00:49.781936"
     }
   ],
-  "generation": 5,
+  "generation": 10,
   "last": {
     "directive": "GROW",
     "meaning": "Platform mature \u2014 expand to new domains, increase scope",
@@ -36,17 +61,17 @@
     ],
     "hormone_emitted": "growth_hormone",
     "organism": {
-      "avg_score": 574.2,
-      "domains": 58,
-      "balance": 0.84,
-      "pain_level": 0.46620370370370406,
+      "avg_score": 548.5,
+      "domains": 105,
+      "balance": 0.99,
+      "pain_level": 0.2888095238095244,
       "stagnation": 0,
       "phase": "sprint"
     },
     "active_hormones": {
       "serotonin": {
-        "count": 3,
-        "avg_intensity": 0.84,
+        "count": 7,
+        "avg_intensity": 0.86,
         "top_context": {
           "avg_score": 574.2,
           "stddev": 6.5,
@@ -73,12 +98,10 @@
       "priority": "high",
       "created_at": "2026-02-27T23:07:18.523664"
     },
-    "next_evolution_priority": {
-      "domain": "healthcare",
-      "score": 577,
-      "reason": "Can learn from: pharmacy (585/600)",
-      "priority": 3
-    },
-    "generated_at": "2026-02-28T11:38:28.791548"
-  }
+    "next_evolution_priority": null,
+    "generated_at": "2026-02-28T13:00:49.781899"
+  },
+  "current_domains": 105,
+  "target_domains": 108,
+  "unbuilt_count": 3
 }
