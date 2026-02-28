@@ -20,9 +20,14 @@
       "directive": "GROW",
       "avg_score": 574.2,
       "timestamp": "2026-02-27T23:15:46.195387"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 574.2,
+      "timestamp": "2026-02-28T11:38:28.791573"
     }
   ],
-  "generation": 4,
+  "generation": 5,
   "last": {
     "directive": "GROW",
     "meaning": "Platform mature \u2014 expand to new domains, increase scope",
@@ -40,7 +45,7 @@
     },
     "active_hormones": {
       "serotonin": {
-        "count": 2,
+        "count": 3,
         "avg_intensity": 0.84,
         "top_context": {
           "avg_score": 574.2,
@@ -74,6 +79,6 @@
       "reason": "Can learn from: pharmacy (585/600)",
       "priority": 3
     },
-    "generated_at": "2026-02-27T23:15:46.195364"
+    "generated_at": "2026-02-28T11:38:28.791548"
   }
 }

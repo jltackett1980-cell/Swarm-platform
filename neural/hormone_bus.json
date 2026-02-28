@@ -1,6 +1,6 @@
 {
-  "generation": 4,
-  "active_count": 48,
+  "generation": 5,
+  "active_count": 58,
   "signals": [
     {
       "id": "oxytocin_1772255238425",
@@ -13,7 +13,7 @@
         "hippocampus"
       ],
       "intensity": 0.7875000000000001,
-      "duration": 4,
+      "duration": 3,
       "effect": "amplify_cross_domain_insight_transfer",
       "context": {
         "domain": "accounting",
@@ -39,7 +39,7 @@
         "hippocampus"
       ],
       "intensity": 0.7875000000000001,
-      "duration": 4,
+      "duration": 3,
       "effect": "amplify_cross_domain_insight_transfer",
       "context": {
         "domain": "autonomous_vehicle",
@@ -65,7 +65,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 6,
+      "duration": 5,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "dental",
@@ -97,7 +97,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 6,
+      "duration": 5,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "gym",
@@ -129,7 +129,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 6,
+      "duration": 5,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "pharmacy",
@@ -161,7 +161,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 6,
+      "duration": 5,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "restaurant",
@@ -193,7 +193,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 6,
+      "duration": 5,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "salon",
@@ -226,7 +226,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 6,
+      "duration": 5,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "transfer_from": "salon",
@@ -252,7 +252,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 6,
+      "duration": 5,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "transfer_from": "salon",
@@ -278,7 +278,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 6,
+      "duration": 5,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "transfer_from": "gym",
@@ -303,7 +303,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 3,
+      "duration": 2,
       "effect": "explore_novel_domain_space",
       "context": {
         "exploring": "score_gap_salon_vs_events_backup_score35",
@@ -324,7 +324,7 @@
         "evolution_engine"
       ],
       "intensity": 0.9,
-      "duration": 3,
+      "duration": 2,
       "effect": "explore_novel_domain_space",
       "context": {
         "exploring": "domestic_violence_shelter",
@@ -333,33 +333,6 @@
       },
       "emitted_at": "2026-02-27T23:07:18.550174",
       "consumed_by": [],
-      "active": true
-    },
-    {
-      "id": "cortisol_1772255238583",
-      "type": "cortisol",
-      "color": "\ud83d\udd34",
-      "meaning": "Urgency \u2014 human pain detected, everything else secondary",
-      "source": "cerebellum",
-      "targets": [
-        "prefrontal",
-        "evolution_engine",
-        "cerebellum"
-      ],
-      "intensity": 0.85,
-      "duration": 1,
-      "effect": "reprioritize_toward_pain_relief",
-      "context": {
-        "imbalance": true,
-        "stddev": 47.2,
-        "worst_domain": "events_backup_score35",
-        "worst_score": 353,
-        "action": "Urgently evolve events_backup_score35 \u2014 353/600 drags the platform"
-      },
-      "emitted_at": "2026-02-27T23:07:18.583875",
-      "consumed_by": [
-        "prefrontal"
-      ],
       "active": true
     },
     {
@@ -373,7 +346,7 @@
         "hippocampus"
       ],
       "intensity": 0.7875000000000001,
-      "duration": 5,
+      "duration": 4,
       "effect": "amplify_cross_domain_insight_transfer",
       "context": {
         "domain": "accounting",
@@ -399,7 +372,7 @@
         "hippocampus"
       ],
       "intensity": 0.7875000000000001,
-      "duration": 5,
+      "duration": 4,
       "effect": "amplify_cross_domain_insight_transfer",
       "context": {
         "domain": "autonomous_vehicle",
@@ -425,7 +398,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 7,
+      "duration": 6,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "dental",
@@ -457,7 +430,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 7,
+      "duration": 6,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "gym",
@@ -489,7 +462,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 7,
+      "duration": 6,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "pharmacy",
@@ -521,7 +494,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 7,
+      "duration": 6,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "restaurant",
@@ -553,7 +526,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 7,
+      "duration": 6,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "salon",
@@ -586,7 +559,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 7,
+      "duration": 6,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "transfer_from": "salon",
@@ -612,7 +585,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 7,
+      "duration": 6,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "transfer_from": "salon",
@@ -638,7 +611,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 7,
+      "duration": 6,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "transfer_from": "gym",
@@ -663,7 +636,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 4,
+      "duration": 3,
       "effect": "explore_novel_domain_space",
       "context": {
         "exploring": "score_gap_salon_vs_ministry",
@@ -684,7 +657,7 @@
         "evolution_engine"
       ],
       "intensity": 0.9,
-      "duration": 4,
+      "duration": 3,
       "effect": "explore_novel_domain_space",
       "context": {
         "exploring": "domestic_violence_shelter",
@@ -707,7 +680,7 @@
         "cerebellum"
       ],
       "intensity": 0.85,
-      "duration": 2,
+      "duration": 1,
       "effect": "reprioritize_toward_pain_relief",
       "context": {
         "imbalance": true,
@@ -733,7 +706,7 @@
         "hippocampus"
       ],
       "intensity": 0.7875000000000001,
-      "duration": 6,
+      "duration": 5,
       "effect": "amplify_cross_domain_insight_transfer",
       "context": {
         "domain": "accounting",
@@ -757,7 +730,7 @@
         "hippocampus"
       ],
       "intensity": 0.7875000000000001,
-      "duration": 6,
+      "duration": 5,
       "effect": "amplify_cross_domain_insight_transfer",
       "context": {
         "domain": "autonomous_vehicle",
@@ -781,7 +754,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 8,
+      "duration": 7,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "dental",
@@ -813,7 +786,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 8,
+      "duration": 7,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "gym",
@@ -845,7 +818,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 8,
+      "duration": 7,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "pharmacy",
@@ -877,7 +850,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 8,
+      "duration": 7,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "restaurant",
@@ -909,7 +882,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 8,
+      "duration": 7,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "salon",
@@ -941,7 +914,7 @@
         "evolution_engine"
       ],
       "intensity": 0.47,
-      "duration": 5,
+      "duration": 4,
       "effect": "explore_novel_domain_space",
       "context": {
         "exploring": "score_gap_salon_vs_law",
@@ -962,7 +935,7 @@
         "evolution_engine"
       ],
       "intensity": 0.9,
-      "duration": 5,
+      "duration": 4,
       "effect": "explore_novel_domain_space",
       "context": {
         "exploring": "domestic_violence_shelter",
@@ -984,7 +957,7 @@
         "pineal"
       ],
       "intensity": 0.8364456120734074,
-      "duration": 18,
+      "duration": 17,
       "effect": "maintain_steady_evolution_rate",
       "context": {
         "avg_score": 574.2,
@@ -1009,7 +982,7 @@
         "cerebellum"
       ],
       "intensity": 0.7,
-      "duration": 48,
+      "duration": 47,
       "effect": "expand_domain_coverage",
       "context": {
         "directive": "GROW",
@@ -1033,7 +1006,7 @@
         "hippocampus"
       ],
       "intensity": 0.7875000000000001,
-      "duration": 7,
+      "duration": 6,
       "effect": "amplify_cross_domain_insight_transfer",
       "context": {
         "domain": "accounting",
@@ -1057,7 +1030,7 @@
         "hippocampus"
       ],
       "intensity": 0.7875000000000001,
-      "duration": 7,
+      "duration": 6,
       "effect": "amplify_cross_domain_insight_transfer",
       "context": {
         "domain": "autonomous_vehicle",
@@ -1081,7 +1054,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 9,
+      "duration": 8,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "dental",
@@ -1113,7 +1086,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 9,
+      "duration": 8,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "gym",
@@ -1145,7 +1118,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 9,
+      "duration": 8,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "pharmacy",
@@ -1177,7 +1150,7 @@
         "evolution_engine"
       ],
       "intensity": 0.8333333333333334,
-      "duration": 9,
+      "duration": 8,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "restaurant",
@@ -1209,7 +1182,7 @@
         "evolution_engine"
       ],
       "intensity": 1.0,
-      "duration": 9,
+      "duration": 8,
       "effect": "increase_mutation_toward_successful_pattern",
       "context": {
         "domain": "salon",
@@ -1241,7 +1214,7 @@
         "evolution_engine"
       ],
       "intensity": 0.47,
-      "duration": 6,
+      "duration": 5,
       "effect": "explore_novel_domain_space",
       "context": {
         "exploring": "score_gap_salon_vs_law",
@@ -1262,7 +1235,7 @@
         "evolution_engine"
       ],
       "intensity": 0.9,
-      "duration": 6,
+      "duration": 5,
       "effect": "explore_novel_domain_space",
       "context": {
         "exploring": "domestic_violence_shelter",
@@ -1284,7 +1257,7 @@
         "pineal"
       ],
       "intensity": 0.8364456120734074,
-      "duration": 19,
+      "duration": 18,
       "effect": "maintain_steady_evolution_rate",
       "context": {
         "avg_score": 574.2,
@@ -1309,7 +1282,7 @@
         "cerebellum"
       ],
       "intensity": 0.7,
-      "duration": 49,
+      "duration": 48,
       "effect": "expand_domain_coverage",
       "context": {
         "directive": "GROW",
@@ -1319,6 +1292,306 @@
         "action": "Expand platform \u2014 build next high-pain domain"
       },
       "emitted_at": "2026-02-27T23:15:46.190257",
+      "consumed_by": [],
+      "active": true
+    },
+    {
+      "id": "oxytocin_1772300308561",
+      "type": "oxytocin",
+      "color": "\ud83d\udc97",
+      "meaning": "Empathy \u2014 deep human connection found, share across domains",
+      "source": "amygdala",
+      "targets": [
+        "corpus_callosum",
+        "hippocampus"
+      ],
+      "intensity": 0.7875000000000001,
+      "duration": 7,
+      "effect": "amplify_cross_domain_insight_transfer",
+      "context": {
+        "domain": "accounting",
+        "pattern": "immediate_relief",
+        "feeling": "relief \u2014 it knew what I needed before I asked",
+        "insight": "accounting knows how to make people feel safe",
+        "action": "Transfer accounting connection pattern to struggling domains"
+      },
+      "emitted_at": "2026-02-28T11:38:28.561466",
+      "consumed_by": [],
+      "active": true
+    },
+    {
+      "id": "oxytocin_1772300308566",
+      "type": "oxytocin",
+      "color": "\ud83d\udc97",
+      "meaning": "Empathy \u2014 deep human connection found, share across domains",
+      "source": "amygdala",
+      "targets": [
+        "corpus_callosum",
+        "hippocampus"
+      ],
+      "intensity": 0.7875000000000001,
+      "duration": 7,
+      "effect": "amplify_cross_domain_insight_transfer",
+      "context": {
+        "domain": "autonomous_vehicle",
+        "pattern": "immediate_relief",
+        "feeling": "relief \u2014 it knew what I needed before I asked",
+        "insight": "autonomous_vehicle knows how to make people feel safe",
+        "action": "Transfer autonomous_vehicle connection pattern to struggling domains"
+      },
+      "emitted_at": "2026-02-28T11:38:28.566139",
+      "consumed_by": [],
+      "active": true
+    },
+    {
+      "id": "dopamine_1772300308613",
+      "type": "dopamine",
+      "color": "\ud83d\udfe1",
+      "meaning": "Reward \u2014 that pattern worked, seek it again",
+      "source": "hippocampus",
+      "targets": [
+        "prefrontal",
+        "evolution_engine"
+      ],
+      "intensity": 0.8333333333333334,
+      "duration": 9,
+      "effect": "increase_mutation_toward_successful_pattern",
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "emitted_at": "2026-02-28T11:38:28.613514",
+      "consumed_by": [
+        "prefrontal"
+      ],
+      "active": true
+    },
+    {
+      "id": "dopamine_1772300308628",
+      "type": "dopamine",
+      "color": "\ud83d\udfe1",
+      "meaning": "Reward \u2014 that pattern worked, seek it again",
+      "source": "hippocampus",
+      "targets": [
+        "prefrontal",
+        "evolution_engine"
+      ],
+      "intensity": 0.8333333333333334,
+      "duration": 9,
+      "effect": "increase_mutation_toward_successful_pattern",
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "emitted_at": "2026-02-28T11:38:28.628880",
+      "consumed_by": [
+        "prefrontal"
+      ],
+      "active": true
+    },
+    {
+      "id": "dopamine_1772300308641",
+      "type": "dopamine",
+      "color": "\ud83d\udfe1",
+      "meaning": "Reward \u2014 that pattern worked, seek it again",
+      "source": "hippocampus",
+      "targets": [
+        "prefrontal",
+        "evolution_engine"
+      ],
+      "intensity": 0.8333333333333334,
+      "duration": 9,
+      "effect": "increase_mutation_toward_successful_pattern",
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "emitted_at": "2026-02-28T11:38:28.641254",
+      "consumed_by": [
+        "prefrontal"
+      ],
+      "active": true
+    },
+    {
+      "id": "dopamine_1772300308649",
+      "type": "dopamine",
+      "color": "\ud83d\udfe1",
+      "meaning": "Reward \u2014 that pattern worked, seek it again",
+      "source": "hippocampus",
+      "targets": [
+        "prefrontal",
+        "evolution_engine"
+      ],
+      "intensity": 0.8333333333333334,
+      "duration": 9,
+      "effect": "increase_mutation_toward_successful_pattern",
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "emitted_at": "2026-02-28T11:38:28.649066",
+      "consumed_by": [
+        "prefrontal"
+      ],
+      "active": true
+    },
+    {
+      "id": "dopamine_1772300308655",
+      "type": "dopamine",
+      "color": "\ud83d\udfe1",
+      "meaning": "Reward \u2014 that pattern worked, seek it again",
+      "source": "hippocampus",
+      "targets": [
+        "prefrontal",
+        "evolution_engine"
+      ],
+      "intensity": 1.0,
+      "duration": 9,
+      "effect": "increase_mutation_toward_successful_pattern",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "emitted_at": "2026-02-28T11:38:28.655069",
+      "consumed_by": [
+        "prefrontal"
+      ],
+      "active": true
+    },
+    {
+      "id": "testosterone_1772300308718",
+      "type": "testosterone",
+      "color": "\ud83d\udd25",
+      "meaning": "Exploration \u2014 unknown territory, push into new domains",
+      "source": "prefrontal",
+      "targets": [
+        "evolution_engine"
+      ],
+      "intensity": 0.47,
+      "duration": 6,
+      "effect": "explore_novel_domain_space",
+      "context": {
+        "exploring": "score_gap_salon_vs_law",
+        "gap": 47,
+        "action": "Evolve law using salon patterns"
+      },
+      "emitted_at": "2026-02-28T11:38:28.718054",
+      "consumed_by": [],
+      "active": true
+    },
+    {
+      "id": "testosterone_1772300308721",
+      "type": "testosterone",
+      "color": "\ud83d\udd25",
+      "meaning": "Exploration \u2014 unknown territory, push into new domains",
+      "source": "prefrontal",
+      "targets": [
+        "evolution_engine"
+      ],
+      "intensity": 0.9,
+      "duration": 6,
+      "effect": "explore_novel_domain_space",
+      "context": {
+        "exploring": "domestic_violence_shelter",
+        "reason": "High human pain, unbuilt domain",
+        "action": "Build domestic_violence_shelter \u2014 design from fear outward"
+      },
+      "emitted_at": "2026-02-28T11:38:28.721992",
+      "consumed_by": [],
+      "active": true
+    },
+    {
+      "id": "serotonin_1772300308763",
+      "type": "serotonin",
+      "color": "\ud83d\udfe2",
+      "meaning": "Stability \u2014 balance achieved, grow steadily",
+      "source": "cerebellum",
+      "targets": [
+        "pituitary",
+        "pineal"
+      ],
+      "intensity": 0.8364456120734074,
+      "duration": 19,
+      "effect": "maintain_steady_evolution_rate",
+      "context": {
+        "avg_score": 574.2,
+        "stddev": 6.5,
+        "balance_score": 0.84,
+        "message": "Organism in balance \u2014 steady growth"
+      },
+      "emitted_at": "2026-02-28T11:38:28.763276",
+      "consumed_by": [
+        "pituitary"
+      ],
+      "active": true
+    },
+    {
+      "id": "growth_hormone_1772300308785",
+      "type": "growth_hormone",
+      "color": "\ud83d\udfe0",
+      "meaning": "Expansion \u2014 organism mature enough, add new domains",
+      "source": "pituitary",
+      "targets": [
+        "evolution_engine",
+        "cerebellum"
+      ],
+      "intensity": 0.7,
+      "duration": 49,
+      "effect": "expand_domain_coverage",
+      "context": {
+        "directive": "GROW",
+        "current_domains": 58,
+        "target_domains": 108,
+        "growth_score": "4/5",
+        "action": "Expand platform \u2014 build next high-pain domain"
+      },
+      "emitted_at": "2026-02-28T11:38:28.785932",
       "consumed_by": [],
       "active": true
     }
@@ -2101,7 +2374,187 @@
         "action": "Expand platform \u2014 build next high-pain domain"
       },
       "time": "2026-02-27T23:15:46.190257"
+    },
+    {
+      "generation": 4,
+      "type": "oxytocin",
+      "source": "amygdala",
+      "intensity": 0.7875000000000001,
+      "context": {
+        "domain": "accounting",
+        "pattern": "immediate_relief",
+        "feeling": "relief \u2014 it knew what I needed before I asked",
+        "insight": "accounting knows how to make people feel safe",
+        "action": "Transfer accounting connection pattern to struggling domains"
+      },
+      "time": "2026-02-28T11:38:28.561466"
+    },
+    {
+      "generation": 4,
+      "type": "oxytocin",
+      "source": "amygdala",
+      "intensity": 0.7875000000000001,
+      "context": {
+        "domain": "autonomous_vehicle",
+        "pattern": "immediate_relief",
+        "feeling": "relief \u2014 it knew what I needed before I asked",
+        "insight": "autonomous_vehicle knows how to make people feel safe",
+        "action": "Transfer autonomous_vehicle connection pattern to struggling domains"
+      },
+      "time": "2026-02-28T11:38:28.566139"
+    },
+    {
+      "generation": 4,
+      "type": "dopamine",
+      "source": "hippocampus",
+      "intensity": 0.8333333333333334,
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "time": "2026-02-28T11:38:28.613514"
+    },
+    {
+      "generation": 4,
+      "type": "dopamine",
+      "source": "hippocampus",
+      "intensity": 0.8333333333333334,
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "time": "2026-02-28T11:38:28.628880"
+    },
+    {
+      "generation": 4,
+      "type": "dopamine",
+      "source": "hippocampus",
+      "intensity": 0.8333333333333334,
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "time": "2026-02-28T11:38:28.641254"
+    },
+    {
+      "generation": 4,
+      "type": "dopamine",
+      "source": "hippocampus",
+      "intensity": 0.8333333333333334,
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "time": "2026-02-28T11:38:28.649066"
+    },
+    {
+      "generation": 4,
+      "type": "dopamine",
+      "source": "hippocampus",
+      "intensity": 1.0,
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "time": "2026-02-28T11:38:28.655069"
+    },
+    {
+      "generation": 4,
+      "type": "testosterone",
+      "source": "prefrontal",
+      "intensity": 0.47,
+      "context": {
+        "exploring": "score_gap_salon_vs_law",
+        "gap": 47,
+        "action": "Evolve law using salon patterns"
+      },
+      "time": "2026-02-28T11:38:28.718054"
+    },
+    {
+      "generation": 4,
+      "type": "testosterone",
+      "source": "prefrontal",
+      "intensity": 0.9,
+      "context": {
+        "exploring": "domestic_violence_shelter",
+        "reason": "High human pain, unbuilt domain",
+        "action": "Build domestic_violence_shelter \u2014 design from fear outward"
+      },
+      "time": "2026-02-28T11:38:28.721992"
+    },
+    {
+      "generation": 4,
+      "type": "serotonin",
+      "source": "cerebellum",
+      "intensity": 0.8364456120734074,
+      "context": {
+        "avg_score": 574.2,
+        "stddev": 6.5,
+        "balance_score": 0.84,
+        "message": "Organism in balance \u2014 steady growth"
+      },
+      "time": "2026-02-28T11:38:28.763276"
+    },
+    {
+      "generation": 4,
+      "type": "growth_hormone",
+      "source": "pituitary",
+      "intensity": 0.7,
+      "context": {
+        "directive": "GROW",
+        "current_domains": 58,
+        "target_domains": 108,
+        "growth_score": "4/5",
+        "action": "Expand platform \u2014 build next high-pain domain"
+      },
+      "time": "2026-02-28T11:38:28.785932"
     }
   ],
-  "saved_at": "2026-02-27T23:15:46.196987"
+  "saved_at": "2026-02-28T11:38:28.793612"
 }
