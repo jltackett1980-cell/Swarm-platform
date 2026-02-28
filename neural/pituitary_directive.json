@@ -1,0 +1,79 @@
+{
+  "current": "GROW",
+  "history": [
+    {
+      "directive": "MAINTAIN",
+      "avg_score": 560.6,
+      "timestamp": "2026-02-27T23:07:18.604000"
+    },
+    {
+      "directive": "MAINTAIN",
+      "avg_score": 564.2,
+      "timestamp": "2026-02-27T23:13:24.459400"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 574.2,
+      "timestamp": "2026-02-27T23:15:16.835264"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 574.2,
+      "timestamp": "2026-02-27T23:15:46.195387"
+    }
+  ],
+  "generation": 4,
+  "last": {
+    "directive": "GROW",
+    "meaning": "Platform mature \u2014 expand to new domains, increase scope",
+    "reasoning": [
+      "Growth criteria met: 4/5"
+    ],
+    "hormone_emitted": "growth_hormone",
+    "organism": {
+      "avg_score": 574.2,
+      "domains": 58,
+      "balance": 0.84,
+      "pain_level": 0.46620370370370406,
+      "stagnation": 0,
+      "phase": "sprint"
+    },
+    "active_hormones": {
+      "serotonin": {
+        "count": 2,
+        "avg_intensity": 0.84,
+        "top_context": {
+          "avg_score": 574.2,
+          "stddev": 6.5,
+          "balance_score": 0.84,
+          "message": "Organism in balance \u2014 steady growth"
+        }
+      }
+    },
+    "next_question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+    "next_transfer": {
+      "from_domain": "salon",
+      "to_domain": "beauty",
+      "score_gap": 165,
+      "from_score": 590,
+      "to_score": 425,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to beauty"
+        }
+      ],
+      "priority": "high",
+      "created_at": "2026-02-27T23:07:18.523664"
+    },
+    "next_evolution_priority": {
+      "domain": "healthcare",
+      "score": 577,
+      "reason": "Can learn from: pharmacy (585/600)",
+      "priority": 3
+    },
+    "generated_at": "2026-02-27T23:15:46.195364"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "history": [
+    {
+      "generation": 0,
+      "avg": 560.6,
+      "stddev": 47.2,
+      "balance_score": 0.0,
+      "min_score": 353,
+      "max_score": 590,
+      "timestamp": "2026-02-27T23:07:18.585427"
+    },
+    {
+      "generation": 1,
+      "avg": 564.2,
+      "stddev": 38.7,
+      "balance_score": 0.03,
+      "min_score": 425,
+      "max_score": 590,
+      "timestamp": "2026-02-27T23:13:24.445779"
+    },
+    {
+      "generation": 2,
+      "avg": 574.2,
+      "stddev": 6.5,
+      "balance_score": 0.84,
+      "min_score": 543,
+      "max_score": 590,
+      "timestamp": "2026-02-27T23:15:16.815616"
+    },
+    {
+      "generation": 3,
+      "avg": 574.2,
+      "stddev": 6.5,
+      "balance_score": 0.84,
+      "min_score": 543,
+      "max_score": 590,
+      "timestamp": "2026-02-27T23:15:46.174570"
+    }
+  ],
+  "generation": 4,
+  "evolution_priorities": [
+    {
+      "domain": "healthcare",
+      "score": 577,
+      "reason": "Can learn from: pharmacy (585/600)",
+      "priority": 3
+    }
+  ],
+  "current_balance": 0.84
+}

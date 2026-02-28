@@ -1,0 +1,1473 @@
+{
+  "queue": [
+    {
+      "question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:07:18.548739"
+    },
+    {
+      "question": "Why does gym score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:07:18.548810"
+    },
+    {
+      "question": "Why does pharmacy score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:07:18.548849"
+    },
+    {
+      "question": "Why does restaurant score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:07:18.548870"
+    },
+    {
+      "question": "Why does salon score 590 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'human_greeting', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:07:18.548909"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "beauty",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to beauty in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:07:18.548925"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "fitness",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:07:18.548955"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "gym",
+        "transfer_to": "fitness",
+        "score_gap": 160,
+        "key_transfer": "gym scores 585 \u2014 study its approach",
+        "action": "Apply gym insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:07:18.548976"
+    },
+    {
+      "question": "Score gap of 237 points: salon(590) vs events_backup_score35(353) \u2014 what one change would close this gap fastest?",
+      "source": "self",
+      "priority": "high",
+      "type": "close_score_gap",
+      "generated_at": "2026-02-27T23:07:18.549007"
+    },
+    {
+      "question": "'domestic_violence_shelter' is unbuilt \u2014 what does this user fear most at their worst moment? Start there.",
+      "source": "self",
+      "priority": "critical",
+      "type": "new_domain",
+      "domain": "domestic_violence_shelter",
+      "generated_at": "2026-02-27T23:07:18.550150"
+    },
+    {
+      "question": "At what score does an app stop managing problems and start relieving suffering?",
+      "source": "philosophy",
+      "priority": "medium",
+      "type": "philosophical",
+      "generated_at": "2026-02-27T23:07:18.551375"
+    },
+    {
+      "question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419489"
+    },
+    {
+      "question": "Why does gym score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419559"
+    },
+    {
+      "question": "Why does pharmacy score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419593"
+    },
+    {
+      "question": "Why does restaurant score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419628"
+    },
+    {
+      "question": "Why does salon score 590 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'human_greeting', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419657"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "beauty",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to beauty in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419691"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "fitness",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419704"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "gym",
+        "transfer_to": "fitness",
+        "score_gap": 160,
+        "key_transfer": "gym scores 585 \u2014 study its approach",
+        "action": "Apply gym insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419715"
+    },
+    {
+      "question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419729"
+    },
+    {
+      "question": "Why does gym score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419743"
+    },
+    {
+      "question": "Why does pharmacy score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419756"
+    },
+    {
+      "question": "Why does restaurant score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419769"
+    },
+    {
+      "question": "Why does salon score 590 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'human_greeting', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419782"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "beauty",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to beauty in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419806"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "fitness",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419819"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "gym",
+        "transfer_to": "fitness",
+        "score_gap": 160,
+        "key_transfer": "gym scores 585 \u2014 study its approach",
+        "action": "Apply gym insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:13:24.419829"
+    },
+    {
+      "question": "The worst moment for a unknown user is: 'unknown moment' \u2014 what would make that moment disappear?",
+      "source": "cortisol",
+      "priority": "critical",
+      "urgency": 0.5,
+      "context": {
+        "imbalance": true,
+        "stddev": 47.2,
+        "worst_domain": "events_backup_score35",
+        "worst_score": 353,
+        "action": "Urgently evolve events_backup_score35 \u2014 353/600 drags the platform"
+      },
+      "type": "relieve_pain",
+      "generated_at": "2026-02-27T23:13:24.419842"
+    },
+    {
+      "question": "Score gap of 165 points: salon(590) vs ministry(425) \u2014 what one change would close this gap fastest?",
+      "source": "self",
+      "priority": "high",
+      "type": "close_score_gap",
+      "generated_at": "2026-02-27T23:13:24.419857"
+    },
+    {
+      "question": "'domestic_violence_shelter' is unbuilt \u2014 what does this user fear most at their worst moment? Start there.",
+      "source": "self",
+      "priority": "critical",
+      "type": "new_domain",
+      "domain": "domestic_violence_shelter",
+      "generated_at": "2026-02-27T23:13:24.421826"
+    },
+    {
+      "question": "What would Marcus Aurelius think of the gap between our best and worst app?",
+      "source": "philosophy",
+      "priority": "medium",
+      "type": "philosophical",
+      "generated_at": "2026-02-27T23:13:24.423594"
+    },
+    {
+      "question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785406"
+    },
+    {
+      "question": "Why does gym score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785479"
+    },
+    {
+      "question": "Why does pharmacy score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785519"
+    },
+    {
+      "question": "Why does restaurant score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785566"
+    },
+    {
+      "question": "Why does salon score 590 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'human_greeting', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785585"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "beauty",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to beauty in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785608"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "fitness",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785621"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "gym",
+        "transfer_to": "fitness",
+        "score_gap": 160,
+        "key_transfer": "gym scores 585 \u2014 study its approach",
+        "action": "Apply gym insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785653"
+    },
+    {
+      "question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785678"
+    },
+    {
+      "question": "Why does gym score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785700"
+    },
+    {
+      "question": "Why does pharmacy score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785715"
+    },
+    {
+      "question": "Why does restaurant score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785741"
+    },
+    {
+      "question": "Why does salon score 590 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'human_greeting', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785756"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "beauty",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to beauty in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785774"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "fitness",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785786"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "gym",
+        "transfer_to": "fitness",
+        "score_gap": 160,
+        "key_transfer": "gym scores 585 \u2014 study its approach",
+        "action": "Apply gym insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785807"
+    },
+    {
+      "question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785821"
+    },
+    {
+      "question": "Why does gym score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785847"
+    },
+    {
+      "question": "Why does pharmacy score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785871"
+    },
+    {
+      "question": "Why does restaurant score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785890"
+    },
+    {
+      "question": "Why does salon score 590 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'human_greeting', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:16.785910"
+    },
+    {
+      "question": "The worst moment for a unknown user is: 'unknown moment' \u2014 what would make that moment disappear?",
+      "source": "cortisol",
+      "priority": "critical",
+      "urgency": 0.5,
+      "context": {
+        "imbalance": true,
+        "stddev": 47.2,
+        "worst_domain": "events_backup_score35",
+        "worst_score": 353,
+        "action": "Urgently evolve events_backup_score35 \u2014 353/600 drags the platform"
+      },
+      "type": "relieve_pain",
+      "generated_at": "2026-02-27T23:15:16.785925"
+    },
+    {
+      "question": "The worst moment for a unknown user is: 'unknown moment' \u2014 what would make that moment disappear?",
+      "source": "cortisol",
+      "priority": "critical",
+      "urgency": 0.5,
+      "context": {
+        "imbalance": true,
+        "stddev": 38.7,
+        "worst_domain": "education",
+        "worst_score": 425,
+        "action": "Urgently evolve education \u2014 425/600 drags the platform"
+      },
+      "type": "relieve_pain",
+      "generated_at": "2026-02-27T23:15:16.785950"
+    },
+    {
+      "question": "Score gap of 47 points: salon(590) vs law(543) \u2014 what one change would close this gap fastest?",
+      "source": "self",
+      "priority": "high",
+      "type": "close_score_gap",
+      "generated_at": "2026-02-27T23:15:16.785972"
+    },
+    {
+      "question": "'domestic_violence_shelter' is unbuilt \u2014 what does this user fear most at their worst moment? Start there.",
+      "source": "self",
+      "priority": "critical",
+      "type": "new_domain",
+      "domain": "domestic_violence_shelter",
+      "generated_at": "2026-02-27T23:15:16.788662"
+    },
+    {
+      "question": "Does the organism know what it's for? Does each app know who it's for?",
+      "source": "philosophy",
+      "priority": "medium",
+      "type": "philosophical",
+      "generated_at": "2026-02-27T23:15:16.791216"
+    },
+    {
+      "question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.142996"
+    },
+    {
+      "question": "Why does gym score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143071"
+    },
+    {
+      "question": "Why does pharmacy score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143107"
+    },
+    {
+      "question": "Why does restaurant score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143122"
+    },
+    {
+      "question": "Why does salon score 590 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'human_greeting', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143135"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "beauty",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to beauty in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143146"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "fitness",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143172"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "gym",
+        "transfer_to": "fitness",
+        "score_gap": 160,
+        "key_transfer": "gym scores 585 \u2014 study its approach",
+        "action": "Apply gym insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143183"
+    },
+    {
+      "question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143195"
+    },
+    {
+      "question": "Why does gym score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143208"
+    },
+    {
+      "question": "Why does pharmacy score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143220"
+    },
+    {
+      "question": "Why does restaurant score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143231"
+    },
+    {
+      "question": "Why does salon score 590 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'human_greeting', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143265"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "beauty",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to beauty in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143283"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "salon",
+        "transfer_to": "fitness",
+        "score_gap": 165,
+        "key_transfer": "salon scores 590 \u2014 study its approach",
+        "action": "Apply salon insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143306"
+    },
+    {
+      "question": "Why does unknown score ? \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "transfer_from": "gym",
+        "transfer_to": "fitness",
+        "score_gap": 160,
+        "key_transfer": "gym scores 585 \u2014 study its approach",
+        "action": "Apply gym insight to fitness in next evolution"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143328"
+    },
+    {
+      "question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143349"
+    },
+    {
+      "question": "Why does gym score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143378"
+    },
+    {
+      "question": "Why does pharmacy score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143408"
+    },
+    {
+      "question": "Why does restaurant score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143432"
+    },
+    {
+      "question": "Why does salon score 590 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'human_greeting', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143454"
+    },
+    {
+      "question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "dental",
+        "score": 580,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate dental pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143473"
+    },
+    {
+      "question": "Why does gym score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "gym",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate gym pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143494"
+    },
+    {
+      "question": "Why does pharmacy score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "pharmacy",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate pharmacy pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143515"
+    },
+    {
+      "question": "Why does restaurant score 585 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "restaurant",
+        "score": 585,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate restaurant pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143534"
+    },
+    {
+      "question": "Why does salon score 590 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'human_greeting', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why_it_works": [
+          "wu_wei_flow",
+          "offline_first",
+          "human_greeting",
+          "today_focus",
+          "domain_color",
+          "no_login_wall"
+        ],
+        "key_pattern": "wu_wei_flow",
+        "action": "Replicate salon pattern cluster in lower-scoring domains"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-02-27T23:15:46.143553"
+    },
+    {
+      "question": "The worst moment for a unknown user is: 'unknown moment' \u2014 what would make that moment disappear?",
+      "source": "cortisol",
+      "priority": "critical",
+      "urgency": 0.5,
+      "context": {
+        "imbalance": true,
+        "stddev": 47.2,
+        "worst_domain": "events_backup_score35",
+        "worst_score": 353,
+        "action": "Urgently evolve events_backup_score35 \u2014 353/600 drags the platform"
+      },
+      "type": "relieve_pain",
+      "generated_at": "2026-02-27T23:15:46.143571"
+    },
+    {
+      "question": "The worst moment for a unknown user is: 'unknown moment' \u2014 what would make that moment disappear?",
+      "source": "cortisol",
+      "priority": "critical",
+      "urgency": 0.5,
+      "context": {
+        "imbalance": true,
+        "stddev": 38.7,
+        "worst_domain": "education",
+        "worst_score": 425,
+        "action": "Urgently evolve education \u2014 425/600 drags the platform"
+      },
+      "type": "relieve_pain",
+      "generated_at": "2026-02-27T23:15:46.143590"
+    },
+    {
+      "question": "Score gap of 47 points: salon(590) vs law(543) \u2014 what one change would close this gap fastest?",
+      "source": "self",
+      "priority": "high",
+      "type": "close_score_gap",
+      "generated_at": "2026-02-27T23:15:46.143621"
+    },
+    {
+      "question": "'domestic_violence_shelter' is unbuilt \u2014 what does this user fear most at their worst moment? Start there.",
+      "source": "self",
+      "priority": "critical",
+      "type": "new_domain",
+      "domain": "domestic_violence_shelter",
+      "generated_at": "2026-02-27T23:15:46.146700"
+    },
+    {
+      "question": "What is the organism curious about that hasn't been asked yet?",
+      "source": "philosophy",
+      "priority": "medium",
+      "type": "philosophical",
+      "generated_at": "2026-02-27T23:15:46.149682"
+    }
+  ],
+  "answered": [],
+  "generated": 88
+}

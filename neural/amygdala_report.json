@@ -1,0 +1,147 @@
+{
+  "scanned_at": "2026-02-27T23:15:46.035526",
+  "domains_scanned": 54,
+  "pain_domains": 0,
+  "connection_domains": 54,
+  "avg_pain_level": 0.466,
+  "cortisol_fired": false,
+  "oxytocin_fired": true,
+  "top_pain": [],
+  "top_connection": [
+    {
+      "domain": "accounting",
+      "connection": 0.7875000000000001,
+      "score": 575,
+      "signals": [
+        {
+          "signature": "immediate_relief",
+          "feeling": "relief \u2014 it knew what I needed before I asked",
+          "weight": 0.9
+        },
+        {
+          "signature": "forgiveness",
+          "feeling": "safety \u2014 it won't punish me for trying",
+          "weight": 0.7
+        },
+        {
+          "signature": "dignity",
+          "feeling": "dignity \u2014 it speaks to me like a person",
+          "weight": 0.8
+        },
+        {
+          "signature": "presence",
+          "feeling": "presence \u2014 it's here with me, not in a vacuum",
+          "weight": 0.75
+        }
+      ]
+    },
+    {
+      "domain": "autonomous_vehicle",
+      "connection": 0.7875000000000001,
+      "score": 558,
+      "signals": [
+        {
+          "signature": "immediate_relief",
+          "feeling": "relief \u2014 it knew what I needed before I asked",
+          "weight": 0.9
+        },
+        {
+          "signature": "forgiveness",
+          "feeling": "safety \u2014 it won't punish me for trying",
+          "weight": 0.7
+        },
+        {
+          "signature": "dignity",
+          "feeling": "dignity \u2014 it speaks to me like a person",
+          "weight": 0.8
+        },
+        {
+          "signature": "presence",
+          "feeling": "presence \u2014 it's here with me, not in a vacuum",
+          "weight": 0.75
+        }
+      ]
+    },
+    {
+      "domain": "autorepair",
+      "connection": 0.7875000000000001,
+      "score": 575,
+      "signals": [
+        {
+          "signature": "immediate_relief",
+          "feeling": "relief \u2014 it knew what I needed before I asked",
+          "weight": 0.9
+        },
+        {
+          "signature": "forgiveness",
+          "feeling": "safety \u2014 it won't punish me for trying",
+          "weight": 0.7
+        },
+        {
+          "signature": "dignity",
+          "feeling": "dignity \u2014 it speaks to me like a person",
+          "weight": 0.8
+        },
+        {
+          "signature": "presence",
+          "feeling": "presence \u2014 it's here with me, not in a vacuum",
+          "weight": 0.75
+        }
+      ]
+    },
+    {
+      "domain": "bakery",
+      "connection": 0.7875000000000001,
+      "score": 575,
+      "signals": [
+        {
+          "signature": "immediate_relief",
+          "feeling": "relief \u2014 it knew what I needed before I asked",
+          "weight": 0.9
+        },
+        {
+          "signature": "forgiveness",
+          "feeling": "safety \u2014 it won't punish me for trying",
+          "weight": 0.7
+        },
+        {
+          "signature": "dignity",
+          "feeling": "dignity \u2014 it speaks to me like a person",
+          "weight": 0.8
+        },
+        {
+          "signature": "presence",
+          "feeling": "presence \u2014 it's here with me, not in a vacuum",
+          "weight": 0.75
+        }
+      ]
+    },
+    {
+      "domain": "catering",
+      "connection": 0.7875000000000001,
+      "score": 575,
+      "signals": [
+        {
+          "signature": "immediate_relief",
+          "feeling": "relief \u2014 it knew what I needed before I asked",
+          "weight": 0.9
+        },
+        {
+          "signature": "forgiveness",
+          "feeling": "safety \u2014 it won't punish me for trying",
+          "weight": 0.7
+        },
+        {
+          "signature": "dignity",
+          "feeling": "dignity \u2014 it speaks to me like a person",
+          "weight": 0.8
+        },
+        {
+          "signature": "presence",
+          "feeling": "presence \u2014 it's here with me, not in a vacuum",
+          "weight": 0.75
+        }
+      ]
+    }
+  ]
+}
