@@ -2,66 +2,6 @@
   "current": "GROW",
   "history": [
     {
-      "directive": "MAINTAIN",
-      "avg_score": 560.6,
-      "timestamp": "2026-02-27T23:07:18.604000"
-    },
-    {
-      "directive": "MAINTAIN",
-      "avg_score": 564.2,
-      "timestamp": "2026-02-27T23:13:24.459400"
-    },
-    {
-      "directive": "GROW",
-      "avg_score": 574.2,
-      "timestamp": "2026-02-27T23:15:16.835264"
-    },
-    {
-      "directive": "GROW",
-      "avg_score": 574.2,
-      "timestamp": "2026-02-27T23:15:46.195387"
-    },
-    {
-      "directive": "GROW",
-      "avg_score": 574.2,
-      "timestamp": "2026-02-28T11:38:28.791573"
-    },
-    {
-      "directive": "GROW",
-      "avg_score": 574.2,
-      "timestamp": "2026-02-28T12:43:24.225389"
-    },
-    {
-      "directive": "GROW",
-      "avg_score": 574.2,
-      "timestamp": "2026-02-28T12:45:38.647922"
-    },
-    {
-      "directive": "GROW",
-      "avg_score": 574.2,
-      "timestamp": "2026-02-28T12:47:04.673366"
-    },
-    {
-      "directive": "MAINTAIN",
-      "avg_score": 432.9,
-      "timestamp": "2026-02-28T12:58:48.911337"
-    },
-    {
-      "directive": "GROW",
-      "avg_score": 548.5,
-      "timestamp": "2026-02-28T13:00:49.781936"
-    },
-    {
-      "directive": "GROW",
-      "avg_score": 548.5,
-      "timestamp": "2026-02-28T13:02:14.440368"
-    },
-    {
-      "directive": "GROW",
-      "avg_score": 548.5,
-      "timestamp": "2026-02-28T13:07:15.041266"
-    },
-    {
       "directive": "GROW",
       "avg_score": 548.5,
       "timestamp": "2026-02-28T19:51:46.623129"
@@ -460,9 +400,109 @@
       "directive": "GROW",
       "avg_score": 548.5,
       "timestamp": "2026-02-28T19:54:35.705450"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:54:38.469095"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:54:40.811918"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:54:43.140592"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:54:45.499815"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:54:47.921603"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:54:50.441422"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:54:52.822666"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:54:55.219333"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:54:57.594307"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:54:59.983923"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:55:02.406509"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:55:04.852747"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:55:07.263101"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:55:09.657758"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:55:12.096847"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:55:14.541030"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:55:17.021748"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:55:19.499130"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:55:21.965582"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:55:24.442912"
     }
   ],
-  "generation": 92,
+  "generation": 112,
   "last": {
     "directive": "GROW",
     "meaning": "Platform mature \u2014 expand to new domains, increase scope",
@@ -493,7 +533,7 @@
     "next_question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
     "next_transfer": null,
     "next_evolution_priority": null,
-    "generated_at": "2026-02-28T19:54:35.705427"
+    "generated_at": "2026-02-28T19:55:24.442887"
   },
   "current_domains": 105,
   "target_domains": 108,

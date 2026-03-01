@@ -1,0 +1,39 @@
+{
+  "id": "a8a52708",
+  "name": "ForgeStill",
+  "generation": 5401,
+  "created_at": "2026-02-28T19:54:54.546290",
+  "pain": "tremor",
+  "population": 10000000,
+  "problem": "10M with essential tremor can't hold a pen or eat without spilling",
+  "physics": "electromagnetic",
+  "physics_desc": "Pulsed electric/magnetic fields",
+  "physics_proven": true,
+  "comparable_devices": [
+    "TENS units",
+    "PEMF therapy"
+  ],
+  "form_factor": "wrist stabilizer",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0042,
+    "size_cm": 4.2,
+    "cost_usd": 152.88,
+    "battery_hours": 117.5
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
