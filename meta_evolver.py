@@ -263,6 +263,22 @@ def main():
     print(f"  META-EVOLUTION COMPLETE")
     print(f"  ══════════════════════════════════════════════════")
     print(f"  Phase 2 — Rules evolved: v{new_rules.get('version', 1)}")
+
+    # Load and display Phase 3 results (if any)
+    arch_path = META / "evolved_architecture.json"
+    if arch_path.exists():
+        arch = json.loads(arch_path.read_text())
+        print(f"  Phase 3 — New domains:   {len(arch.get('new_domains', []))}")
+        print(f"  Phase 3 — New components: {len(arch.get('new_brain_components', []))}")
+        if arch.get('new_domains'):
+            print("  New domains proposed:")
+            for d in arch['new_domains']:
+                print(f"    • {d['name']} — {d['population']:,} people")
+        if arch.get('new_brain_components'):
+            print("  New brain components:")
+            for c in arch['new_brain_components']:
+                print(f"    • {c['name']}")
+
     print(f"  Constitutional hash:      {charter_hash[:16]}...")
     print(f"  ══════════════════════════════════════════════════\n")
 
