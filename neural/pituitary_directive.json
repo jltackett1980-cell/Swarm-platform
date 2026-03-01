@@ -50,9 +50,19 @@
       "directive": "GROW",
       "avg_score": 548.5,
       "timestamp": "2026-02-28T13:00:49.781936"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T13:02:14.440368"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T13:07:15.041266"
     }
   ],
-  "generation": 10,
+  "generation": 12,
   "last": {
     "directive": "GROW",
     "meaning": "Platform mature \u2014 expand to new domains, increase scope",
@@ -70,8 +80,8 @@
     },
     "active_hormones": {
       "serotonin": {
-        "count": 7,
-        "avg_intensity": 0.86,
+        "count": 9,
+        "avg_intensity": 0.89,
         "top_context": {
           "avg_score": 574.2,
           "stddev": 6.5,
@@ -99,7 +109,7 @@
       "created_at": "2026-02-27T23:07:18.523664"
     },
     "next_evolution_priority": null,
-    "generated_at": "2026-02-28T13:00:49.781899"
+    "generated_at": "2026-02-28T13:07:15.041241"
   },
   "current_domains": 105,
   "target_domains": 108,
