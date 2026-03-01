@@ -1,0 +1,39 @@
+{
+  "id": "53ea808b",
+  "name": "HavenDiagnose",
+  "generation": 33496,
+  "created_at": "2026-02-28T20:39:41.411927",
+  "pain": "rural_no_doctor",
+  "population": 60000000,
+  "problem": "60M in rural areas \u2014 no nearby physician, diagnosis delayed",
+  "physics": "electrochemical",
+  "physics_desc": "Electrochemical reactions for sensing and delivery",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Continuous glucose monitors",
+    "Insulin pumps"
+  ],
+  "form_factor": "handheld diagnostic",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0017,
+    "size_cm": 3.8,
+    "cost_usd": 222.24,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "TeleHealth",
+  "companion_domain": "telehealth",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
