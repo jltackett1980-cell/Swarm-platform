@@ -1,0 +1,123 @@
+{
+  "device_name": "EmberRestore",
+  "condition": "traumatic_brain",
+  "score": 0,
+  "generation": 12,
+  "generated_at": "2026-02-28T20:57:40.607997",
+  "physics_principle": "electromagnetic",
+  "engineering": {
+    "mcu": {
+      "part": "STM32L476RG",
+      "description": "ARM Cortex-M4 80MHz, ultra-low power, 1MB Flash",
+      "cost_usd": 3.8,
+      "datasheet": "st.com/resource/en/datasheet/stm32l476rg.pdf"
+    },
+    "drive_circuit": [
+      {
+        "part": "DRV8835",
+        "function": "Dual H-bridge motor/coil driver",
+        "cost_usd": 1.2
+      },
+      {
+        "part": "INA219",
+        "function": "Current sense for coil monitoring",
+        "cost_usd": 0.9
+      },
+      {
+        "part": "Custom air-core coil",
+        "function": "PEMF generation 1-100Hz",
+        "cost_usd": 3.5
+      }
+    ],
+    "sensors": [
+      {
+        "part": "MLX90393",
+        "function": "3-axis magnetometer for field verification",
+        "cost_usd": 2.2
+      },
+      {
+        "part": "LM35",
+        "function": "Temperature monitor \u2014 safety cutoff",
+        "cost_usd": 0.8
+      }
+    ],
+    "power": {
+      "battery": "Li-Po 800mAh 3.7V",
+      "charger": "TP4056 with protection",
+      "regulator": "XC6220 LDO 3.3V",
+      "estimated_life_hours": 48,
+      "cost_usd": 4.5
+    },
+    "pcb": {
+      "layers": 2,
+      "size_mm": "40x25",
+      "thickness_mm": 1.0,
+      "process": "HASL lead-free",
+      "estimated_cost_usd": 1.8
+    },
+    "enclosure": {
+      "material": "ABS medical grade",
+      "ip_rating": "IP54",
+      "size_mm": "80x50x15",
+      "estimated_cost_usd": 5.0
+    },
+    "firmware": {
+      "rtos": "FreeRTOS",
+      "frequency_range_hz": "1-100Hz programmable",
+      "waveform": "Sinusoidal, square, sawtooth \u2014 programmable",
+      "intensity_mt": "0.1-2.0 mT field strength at skin surface",
+      "safety": "Auto-shutoff at 40C skin temp. Max 20min session. 4hr lockout.",
+      "algorithm": "PEMF protocol library: bone healing (75Hz), pain (10Hz), sleep (delta 0.5-4Hz), inflammation (50Hz)"
+    },
+    "signal_processing": {
+      "field_verification": "Magnetometer feedback loop confirms field strength within 5%",
+      "thermal_monitor": "PID temperature controller limits coil current if skin temp exceeds 38C",
+      "session_timer": "Hardware watchdog enforces session limits"
+    },
+    "fda_pathway": {
+      "device_class": "Class II",
+      "submission_type": "510(k)",
+      "predicate_devices": [
+        "Orthofix Physio-Stim",
+        "EarthPulse PEMF",
+        "Bioelectronics ActiPatch"
+      ],
+      "estimated_timeline_months": 18,
+      "estimated_cost_usd": 75000
+    }
+  },
+  "firmware_notes": {
+    "rtos": "FreeRTOS",
+    "frequency_range_hz": "1-100Hz programmable",
+    "waveform": "Sinusoidal, square, sawtooth \u2014 programmable",
+    "intensity_mt": "0.1-2.0 mT field strength at skin surface",
+    "safety": "Auto-shutoff at 40C skin temp. Max 20min session. 4hr lockout.",
+    "algorithm": "PEMF protocol library: bone healing (75Hz), pain (10Hz), sleep (delta 0.5-4Hz), inflammation (50Hz)"
+  },
+  "fda_pathway": {
+    "device_class": "Class II",
+    "submission_type": "510(k)",
+    "predicate_devices": [
+      "Orthofix Physio-Stim",
+      "EarthPulse PEMF",
+      "Bioelectronics ActiPatch"
+    ],
+    "estimated_timeline_months": 18,
+    "estimated_cost_usd": 75000
+  },
+  "estimated_bom_cost_usd": 23.7,
+  "assembly_notes": [
+    "IPC-A-610 Class 2 assembly",
+    "Conformal coating required for moisture resistance",
+    "RF testing required for wireless modules",
+    "Calibration required before final assembly",
+    "Hermetic seal verification for IP67 devices"
+  ],
+  "testing_requirements": [
+    "Electrical safety test (IEC 60601-1)",
+    "EMC/EMI testing (IEC 60601-1-2)",
+    "Biocompatibility (ISO 10993-5, -10) for skin contact",
+    "Environmental testing (temperature, humidity, shock)",
+    "Clinical validation required for FDA submission"
+  ]
+}
