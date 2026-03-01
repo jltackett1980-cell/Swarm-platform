@@ -1,0 +1,512 @@
+[
+  {
+    "id": "01b4bbfe3ea2",
+    "generation": 1,
+    "problem_id": "wound_regeneration",
+    "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 wha...",
+    "domain": "biology",
+    "population": 2100000,
+    "confidence": 0.3495428179647245,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000001_01b4bbfe3ea2.json"
+  },
+  {
+    "id": "a3060d7cce3b",
+    "generation": 2,
+    "problem_id": "ai_energy_efficiency",
+    "problem": "Why does biological neural computation use 20W while AI uses...",
+    "domain": "computing",
+    "population": 8000000000,
+    "confidence": 0.6770210572160318,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000002_a3060d7cce3b.json"
+  },
+  {
+    "id": "963b6cf44a3e",
+    "generation": 3,
+    "problem_id": "autism_connectivity",
+    "problem": "What neural connectivity differences cause autism spectrum c...",
+    "domain": "neuroscience",
+    "population": 75000000,
+    "confidence": 0.34773495003561283,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000003_963b6cf44a3e.json"
+  },
+  {
+    "id": "42ce89502e87",
+    "generation": 4,
+    "problem_id": "microbiome_brain",
+    "problem": "How does gut microbiome composition directly affect brain ch...",
+    "domain": "biology",
+    "population": 300000000,
+    "confidence": 0.4762408616372571,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000004_42ce89502e87.json"
+  },
+  {
+    "id": "2800f71cf769",
+    "generation": 5,
+    "problem_id": "cryptography_quantum",
+    "problem": "What encryption survives quantum computer attacks \u2014 post-qua...",
+    "domain": "computing",
+    "population": 4000000000,
+    "confidence": 0.3210467470641905,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000005_2800f71cf769.json"
+  },
+  {
+    "id": "a362041885da",
+    "generation": 6,
+    "problem_id": "high_temp_battery",
+    "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic...",
+    "domain": "physics",
+    "population": 2000000000,
+    "confidence": 0.44059698811754,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000006_a362041885da.json"
+  },
+  {
+    "id": "d88b694a9e81",
+    "generation": 7,
+    "problem_id": "graphene_production",
+    "problem": "How to produce defect-free large-area graphene at low cost?...",
+    "domain": "materials",
+    "population": 3000000000,
+    "confidence": 0.6674265977967679,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000007_d88b694a9e81.json"
+  },
+  {
+    "id": "d66a69885e92",
+    "generation": 8,
+    "problem_id": "co2_capture_catalyst",
+    "problem": "What catalyst efficiently converts atmospheric CO2 to useful...",
+    "domain": "environment",
+    "population": 8000000000,
+    "confidence": 0.3967904023497514,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000008_d66a69885e92.json"
+  },
+  {
+    "id": "ecd715e5e400",
+    "generation": 9,
+    "problem_id": "water_desalination_energy",
+    "problem": "How to desalinate seawater at dramatically lower energy cost...",
+    "domain": "environment",
+    "population": 2200000000,
+    "confidence": 0.4928221544242077,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000009_ecd715e5e400.json"
+  },
+  {
+    "id": "7c5f7952f8bd",
+    "generation": 10,
+    "problem_id": "addiction_rewiring",
+    "problem": "Can addiction-related neural pathway changes be reversed wit...",
+    "domain": "neuroscience",
+    "population": 21000000,
+    "confidence": 0.38449493319521755,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000010_7c5f7952f8bd.json"
+  },
+  {
+    "id": "e92c1b8e6373",
+    "generation": 11,
+    "problem_id": "water_filtration_membrane",
+    "problem": "What membrane material filters all contaminants from water a...",
+    "domain": "materials",
+    "population": 2200000000,
+    "confidence": 0.6305375494451453,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000011_e92c1b8e6373.json"
+  },
+  {
+    "id": "75840a3b407d",
+    "generation": 12,
+    "problem_id": "prion_folding",
+    "problem": "What causes normal proteins to misfold into prions and sprea...",
+    "domain": "biology",
+    "population": 1000000,
+    "confidence": 0.6006966878845355,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000012_75840a3b407d.json"
+  },
+  {
+    "id": "caeaaf6e7487",
+    "generation": 13,
+    "problem_id": "sleep_function",
+    "problem": "Why do all animals sleep \u2014 what is the essential biological ...",
+    "domain": "neuroscience",
+    "population": 8000000000,
+    "confidence": 0.5938748271897039,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000013_caeaaf6e7487.json"
+  },
+  {
+    "id": "c644fecc3adc",
+    "generation": 14,
+    "problem_id": "protein_folding_speed",
+    "problem": "Can protein structure be predicted from sequence in real tim...",
+    "domain": "computing",
+    "population": 8000000000,
+    "confidence": 0.39619715051321275,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000014_c644fecc3adc.json"
+  },
+  {
+    "id": "ffcc4a8aee48",
+    "generation": 15,
+    "problem_id": "nitrogen_fixation",
+    "problem": "How to achieve biological nitrogen fixation in non-legume cr...",
+    "domain": "environment",
+    "population": 500000000,
+    "confidence": 0.7288119603951392,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000015_ffcc4a8aee48.json"
+  },
+  {
+    "id": "93f7b3ad7cd8",
+    "generation": 16,
+    "problem_id": "schizophrenia_dopamine",
+    "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014...",
+    "domain": "neuroscience",
+    "population": 24000000,
+    "confidence": 0.3596542353382903,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000016_93f7b3ad7cd8.json"
+  },
+  {
+    "id": "cdf31a82c0e2",
+    "generation": 17,
+    "problem_id": "neural_interface_material",
+    "problem": "What material is biocompatible, conductive, and flexible eno...",
+    "domain": "materials",
+    "population": 5400000,
+    "confidence": 0.39263854798466924,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000017_cdf31a82c0e2.json"
+  },
+  {
+    "id": "2c960c262bf8",
+    "generation": 18,
+    "problem_id": "pain_chronification",
+    "problem": "Why does acute pain become chronic in some people \u2014 what neu...",
+    "domain": "biology",
+    "population": 50000000,
+    "confidence": 0.4626692174451508,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000018_2c960c262bf8.json"
+  },
+  {
+    "id": "3dcc670fcf28",
+    "generation": 19,
+    "problem_id": "zero_point_energy",
+    "problem": "Is zero-point vacuum energy extractable as usable power \u2014 qu...",
+    "domain": "physics",
+    "population": 8000000000,
+    "confidence": 0.4175876408340351,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000019_3dcc670fcf28.json"
+  },
+  {
+    "id": "1adc32189356",
+    "generation": 20,
+    "problem_id": "hydrogen_storage",
+    "problem": "What material stores hydrogen fuel at high density without s...",
+    "domain": "materials",
+    "population": 3000000000,
+    "confidence": 0.36664871373165714,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000020_1adc32189356.json"
+  },
+  {
+    "id": "e0a3395b19d2",
+    "generation": 21,
+    "problem_id": "chronic_fatigue_cause",
+    "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mecha...",
+    "domain": "biology",
+    "population": 17000000,
+    "confidence": 0.41529452230786923,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000021_e0a3395b19d2.json"
+  },
+  {
+    "id": "28c90b9d006b",
+    "generation": 22,
+    "problem_id": "gravity_quantum",
+    "problem": "How does gravity behave at quantum scales \u2014 quantum gravity ...",
+    "domain": "physics",
+    "population": 8000000000,
+    "confidence": 0.7172588894865104,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000022_28c90b9d006b.json"
+  },
+  {
+    "id": "65c083ec7601",
+    "generation": 23,
+    "problem_id": "ocean_acidification",
+    "problem": "Can ocean acidification be safely reversed \u2014 what biochemica...",
+    "domain": "environment",
+    "population": 3000000000,
+    "confidence": 0.4922100221208684,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000023_65c083ec7601.json"
+  },
+  {
+    "id": "a0cbc178802b",
+    "generation": 24,
+    "problem_id": "depression_neurobiology",
+    "problem": "What is the actual neurobiological mechanism of depression \u2014...",
+    "domain": "neuroscience",
+    "population": 280000000,
+    "confidence": 0.674420058872155,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000024_a0cbc178802b.json"
+  },
+  {
+    "id": "264486fb7e80",
+    "generation": 25,
+    "problem_id": "neuroplasticity_limit",
+    "problem": "What limits adult neuroplasticity \u2014 can those limits be safe...",
+    "domain": "neuroscience",
+    "population": 200000000,
+    "confidence": 0.5965785931954237,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000025_264486fb7e80.json"
+  },
+  {
+    "id": "d2a631f904ae",
+    "generation": 26,
+    "problem_id": "electromagnetic_thrust",
+    "problem": "Can electromagnetic fields generate sustained thrust without...",
+    "domain": "physics",
+    "population": 8000000000,
+    "confidence": 0.5751549221814085,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000026_d2a631f904ae.json"
+  },
+  {
+    "id": "052e63804c49",
+    "generation": 27,
+    "problem_id": "drug_discovery_speed",
+    "problem": "How to predict drug-receptor binding affinity from molecular...",
+    "domain": "computing",
+    "population": 8000000000,
+    "confidence": 0.6000806759063382,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000027_052e63804c49.json"
+  },
+  {
+    "id": "2589010054e6",
+    "generation": 28,
+    "problem_id": "chronic_pain_central",
+    "problem": "How does central sensitization maintain chronic pain without...",
+    "domain": "neuroscience",
+    "population": 50000000,
+    "confidence": 0.3292599759611363,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000028_2589010054e6.json"
+  },
+  {
+    "id": "a42a0eb0944d",
+    "generation": 29,
+    "problem_id": "bone_scaffold_material",
+    "problem": "What synthetic material perfectly mimics bone's mechanical a...",
+    "domain": "materials",
+    "population": 10000000,
+    "confidence": 0.7621042249251793,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000029_a42a0eb0944d.json"
+  },
+  {
+    "id": "7a19a63395ab",
+    "generation": 30,
+    "problem_id": "epigenetic_inheritance",
+    "problem": "How are trauma and stress responses inherited epigenetically...",
+    "domain": "biology",
+    "population": 500000000,
+    "confidence": 0.35741559564716,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000030_7a19a63395ab.json"
+  },
+  {
+    "id": "083ec3f6ba5e",
+    "generation": 31,
+    "problem_id": "solar_energy_storage",
+    "problem": "How to store solar energy at grid scale without chemical bat...",
+    "domain": "physics",
+    "population": 3000000000,
+    "confidence": 0.7544343642436293,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000031_083ec3f6ba5e.json"
+  },
+  {
+    "id": "26be12dc58d3",
+    "generation": 32,
+    "problem_id": "np_vs_p",
+    "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs ...",
+    "domain": "computing",
+    "population": 8000000000,
+    "confidence": 0.5187565982694435,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000032_26be12dc58d3.json"
+  },
+  {
+    "id": "74a4afc40e70",
+    "generation": 33,
+    "problem_id": "soil_microbiome_restore",
+    "problem": "How to restore depleted agricultural soil microbiome rapidly...",
+    "domain": "environment",
+    "population": 500000000,
+    "confidence": 0.7871447866205115,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000033_74a4afc40e70.json"
+  },
+  {
+    "id": "0f32d327867f",
+    "generation": 34,
+    "problem_id": "flexible_electronics",
+    "problem": "What substrate allows silicon-level performance in fully fle...",
+    "domain": "materials",
+    "population": 500000000,
+    "confidence": 0.766200085541541,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000034_0f32d327867f.json"
+  },
+  {
+    "id": "7abc0924d2d4",
+    "generation": 35,
+    "problem_id": "room_temp_superconductor",
+    "problem": "Can superconductivity be achieved at room temperature \u2014 what...",
+    "domain": "physics",
+    "population": 8000000000,
+    "confidence": 0.7555559164098014,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000035_7abc0924d2d4.json"
+  },
+  {
+    "id": "802da71c9bca",
+    "generation": 36,
+    "problem_id": "alzheimers_mechanism",
+    "problem": "Why do amyloid plaques form in Alzheimer's and can they be c...",
+    "domain": "biology",
+    "population": 55000000,
+    "confidence": 0.3017528854174031,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000036_802da71c9bca.json"
+  },
+  {
+    "id": "4ab48a338480",
+    "generation": 37,
+    "problem_id": "antibiotic_resistance",
+    "problem": "What material surface coating prevents bacterial biofilm for...",
+    "domain": "materials",
+    "population": 700000000,
+    "confidence": 0.616149943416011,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000037_4ab48a338480.json"
+  },
+  {
+    "id": "df7f99da1df6",
+    "generation": 38,
+    "problem_id": "cancer_metastasis",
+    "problem": "What triggers cancer cells to leave primary tumor and coloni...",
+    "domain": "biology",
+    "population": 19000000,
+    "confidence": 0.5519300339488672,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000038_df7f99da1df6.json"
+  },
+  {
+    "id": "1d92c41c5ab4",
+    "generation": 39,
+    "problem_id": "dark_matter_nature",
+    "problem": "What is dark matter composed of \u2014 27% of universe is unknown...",
+    "domain": "physics",
+    "population": 8000000000,
+    "confidence": 0.6984334129796292,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000039_1d92c41c5ab4.json"
+  },
+  {
+    "id": "b5edcf80aaf8",
+    "generation": 40,
+    "problem_id": "solar_cell_efficiency",
+    "problem": "Why do perovskite solar cells degrade \u2014 what material instab...",
+    "domain": "materials",
+    "population": 3000000000,
+    "confidence": 0.7677985407154009,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000040_b5edcf80aaf8.json"
+  },
+  {
+    "id": "df8ae423c8e8",
+    "generation": 41,
+    "problem_id": "ptsd_memory_lock",
+    "problem": "Why do traumatic memories become locked and intrusive \u2014 what...",
+    "domain": "neuroscience",
+    "population": 12000000,
+    "confidence": 0.4892115584040271,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000041_df8ae423c8e8.json"
+  },
+  {
+    "id": "1401b9c41e22",
+    "generation": 42,
+    "problem_id": "autoimmune_trigger",
+    "problem": "Why does the immune system attack the body's own tissue in a...",
+    "domain": "biology",
+    "population": 50000000,
+    "confidence": 0.6802957286172874,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000042_1401b9c41e22.json"
+  },
+  {
+    "id": "d72fbb952b97",
+    "generation": 43,
+    "problem_id": "self_healing_material",
+    "problem": "How to engineer materials that autonomously repair microcrac...",
+    "domain": "materials",
+    "population": 1000000000,
+    "confidence": 0.6481901682473676,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000043_d72fbb952b97.json"
+  },
+  {
+    "id": "9aac44dd90ab",
+    "generation": 44,
+    "problem_id": "consciousness_basis",
+    "problem": "What physical process in the brain produces subjective consc...",
+    "domain": "neuroscience",
+    "population": 8000000000,
+    "confidence": 0.6388196836485149,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000044_9aac44dd90ab.json"
+  },
+  {
+    "id": "639a87750a4d",
+    "generation": 45,
+    "problem_id": "memory_storage",
+    "problem": "How are long-term memories physically encoded in neural tiss...",
+    "domain": "neuroscience",
+    "population": 8000000000,
+    "confidence": 0.47320956414709603,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000045_639a87750a4d.json"
+  },
+  {
+    "id": "89daa5251f01",
+    "generation": 46,
+    "problem_id": "plastic_biodegradation",
+    "problem": "What enzyme or organism efficiently degrades all plastic typ...",
+    "domain": "materials",
+    "population": 8000000000,
+    "confidence": 0.6565745374275344,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000046_89daa5251f01.json"
+  },
+  {
+    "id": "87cb36d68036",
+    "generation": 47,
+    "problem_id": "quantum_decoherence",
+    "problem": "Why does quantum superposition collapse \u2014 can decoherence be...",
+    "domain": "physics",
+    "population": 8000000000,
+    "confidence": 0.3269502981742395,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000047_87cb36d68036.json"
+  },
+  {
+    "id": "0b59c9d11810",
+    "generation": 48,
+    "problem_id": "aging_mechanism",
+    "problem": "What is the primary molecular cause of biological aging \u2014 ca...",
+    "domain": "biology",
+    "population": 8000000000,
+    "confidence": 0.37711879759578715,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000048_0b59c9d11810.json"
+  },
+  {
+    "id": "2278fec5b560",
+    "generation": 49,
+    "problem_id": "turbulence_math",
+    "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 N...",
+    "domain": "physics",
+    "population": 1000000000,
+    "confidence": 0.648761654866313,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000049_2278fec5b560.json"
+  },
+  {
+    "id": "7c595f7982db",
+    "generation": 50,
+    "problem_id": "fusion_ignition",
+    "problem": "How to achieve sustained net-positive nuclear fusion at comm...",
+    "domain": "physics",
+    "population": 8000000000,
+    "confidence": 0.7158803926640128,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000050_7c595f7982db.json"
+  },
+  {
+    "id": "37abe08942c3",
+    "generation": 51,
+    "problem_id": "protein_folding_speed",
+    "problem": "Can protein structure be predicted from sequence in real tim...",
+    "domain": "computing",
+    "population": 8000000000,
+    "confidence": 0.5209660958113098,
+    "file": "/data/data/com.termux/files/home/swarm-platform/science/discoveries/gen_000051_37abe08942c3.json"
+  }
+]
