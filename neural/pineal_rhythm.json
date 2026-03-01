@@ -1,9 +1,9 @@
 {
   "current_phase": "emergency",
-  "phase_generation": 24,
-  "total_generation": 1467,
+  "phase_generation": 32,
+  "total_generation": 1475,
   "last_best_score": 574.0,
-  "stagnation_counter": 23,
+  "stagnation_counter": 31,
   "rest_cycles_done": 0,
   "phase_history": [
     {
@@ -92,46 +92,6 @@
     }
   ],
   "score_history": [
-    {
-      "score": 549,
-      "gen": 1267,
-      "timestamp": "2026-03-01T08:16:49.234417"
-    },
-    {
-      "score": 549,
-      "gen": 1268,
-      "timestamp": "2026-03-01T08:17:40.793544"
-    },
-    {
-      "score": 549,
-      "gen": 1269,
-      "timestamp": "2026-03-01T08:18:29.575624"
-    },
-    {
-      "score": 549,
-      "gen": 1270,
-      "timestamp": "2026-03-01T08:18:44.394001"
-    },
-    {
-      "score": 549,
-      "gen": 1271,
-      "timestamp": "2026-03-01T08:18:54.033267"
-    },
-    {
-      "score": 549,
-      "gen": 1272,
-      "timestamp": "2026-03-01T08:19:48.468884"
-    },
-    {
-      "score": 549,
-      "gen": 1273,
-      "timestamp": "2026-03-01T08:20:12.357588"
-    },
-    {
-      "score": 549,
-      "gen": 1274,
-      "timestamp": "2026-03-01T08:20:25.050825"
-    },
     {
       "score": 549,
       "gen": 1275,
@@ -1091,6 +1051,46 @@
       "score": 549,
       "gen": 1466,
       "timestamp": "2026-03-01T08:59:58.115496"
+    },
+    {
+      "score": 549,
+      "gen": 1467,
+      "timestamp": "2026-03-01T09:00:22.156748"
+    },
+    {
+      "score": 549,
+      "gen": 1468,
+      "timestamp": "2026-03-01T09:00:35.347810"
+    },
+    {
+      "score": 549,
+      "gen": 1469,
+      "timestamp": "2026-03-01T09:00:48.274276"
+    },
+    {
+      "score": 549,
+      "gen": 1470,
+      "timestamp": "2026-03-01T09:01:01.355095"
+    },
+    {
+      "score": 549,
+      "gen": 1471,
+      "timestamp": "2026-03-01T09:01:14.196302"
+    },
+    {
+      "score": 549,
+      "gen": 1472,
+      "timestamp": "2026-03-01T09:01:27.252410"
+    },
+    {
+      "score": 549,
+      "gen": 1473,
+      "timestamp": "2026-03-01T09:01:39.230607"
+    },
+    {
+      "score": 549,
+      "gen": 1474,
+      "timestamp": "2026-03-01T09:01:54.022103"
     }
   ]
 }
