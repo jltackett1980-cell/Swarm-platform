@@ -1,0 +1,32 @@
+{
+  "id": "5a374bc9dd06",
+  "generation": 10162,
+  "created_at": "2026-03-01T05:45:50.156394",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "The key to Can superconductivity be achieved at room temperature \u2014 what material structure? is Bose-Einstein condensate at higher temperature \u2014 specifically Bose-Einstein condensate at \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 3,
+    "estimated_cost_usd": 63112,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1726740927,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 15,
+    "economic_value_usd": 69069637080000
+  },
+  "confidence": 0.5477196436500028,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

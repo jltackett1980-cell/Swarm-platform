@@ -1,0 +1,32 @@
+{
+  "id": "a2c26a8d6701",
+  "generation": 10060,
+  "created_at": "2026-03-01T05:45:24.079990",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Combining Telomerase activation/inhibition in target cells with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 20,
+    "estimated_cost_usd": 970517,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 27538659,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 10,
+    "economic_value_usd": 1101546360000
+  },
+  "confidence": 0.6656118727596412,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

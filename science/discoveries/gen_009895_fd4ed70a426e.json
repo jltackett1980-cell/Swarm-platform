@@ -1,0 +1,32 @@
+{
+  "id": "fd4ed70a426e",
+  "generation": 9895,
+  "created_at": "2026-03-01T05:44:42.871724",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "The key to Why does acute pain become chronic in some people \u2014 what neural change occurs? is CRISPR gene editing targeting specific pathway \u2014 specifically CRISPR gene editing \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 11,
+    "estimated_cost_usd": 485804,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 18478926,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 8,
+    "economic_value_usd": 1293524820000
+  },
+  "confidence": 0.6347644754651676,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

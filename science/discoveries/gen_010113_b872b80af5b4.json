@@ -1,0 +1,32 @@
+{
+  "id": "b872b80af5b4",
+  "generation": 10113,
+  "created_at": "2026-03-01T05:45:37.579542",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "The key to How to produce defect-free large-area graphene at low cost? is Liquid crystal elastomer actuation \u2014 specifically Liquid crystal elastomer \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 32,
+    "estimated_cost_usd": 461827,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1013934889,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 29,
+    "economic_value_usd": 91254140010000
+  },
+  "confidence": 0.3545130028808778,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

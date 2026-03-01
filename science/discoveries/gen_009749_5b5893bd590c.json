@@ -1,0 +1,32 @@
+{
+  "id": "5b5893bd590c",
+  "generation": 9749,
+  "created_at": "2026-03-01T05:44:06.953156",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "If Monoclonal antibody blocking protein-protein interaction is applied to they, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 28,
+    "estimated_cost_usd": 1246902,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 18990023,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 18,
+    "economic_value_usd": 949501150000
+  },
+  "confidence": 0.46597562611011584,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

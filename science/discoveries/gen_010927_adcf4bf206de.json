@@ -1,0 +1,32 @@
+{
+  "id": "adcf4bf206de",
+  "generation": 10927,
+  "created_at": "2026-03-01T05:49:10.026800",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "The key to What is the primary molecular cause of biological aging \u2014 can it be slowed? is Optogenetic control of specific neuron populations \u2014 specifically Optogenetic control of \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 7,
+    "estimated_cost_usd": 331954,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1196297448,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 23,
+    "economic_value_usd": 35888923440000
+  },
+  "confidence": 0.3915197656489589,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

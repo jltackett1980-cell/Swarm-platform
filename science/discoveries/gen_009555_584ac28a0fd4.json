@@ -1,0 +1,32 @@
+{
+  "id": "584ac28a0fd4",
+  "generation": 9555,
+  "created_at": "2026-03-01T05:43:20.737424",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Neuromorphic spike-timing dependent plasticity",
+  "hypothesis": "If Neuromorphic spike-timing dependent plasticity is applied to alphafold, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 5,
+    "estimated_cost_usd": 21369,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1590219871,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 13,
+    "economic_value_usd": 143119788390000
+  },
+  "confidence": 0.4783545012282653,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

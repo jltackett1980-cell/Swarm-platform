@@ -1,0 +1,32 @@
+{
+  "id": "966fc1f4b407",
+  "generation": 9921,
+  "created_at": "2026-03-01T05:44:49.380807",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "The key to What membrane material filters all contaminants from water at low energy cost? is Liquid crystal elastomer actuation \u2014 specifically Liquid crystal elastomer \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 33,
+    "estimated_cost_usd": 641387,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 329192840,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 26,
+    "economic_value_usd": 16459642000000
+  },
+  "confidence": 0.6051216772361878,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

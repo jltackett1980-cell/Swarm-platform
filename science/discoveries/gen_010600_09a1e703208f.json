@@ -1,0 +1,32 @@
+{
+  "id": "09a1e703208f",
+  "generation": 10600,
+  "created_at": "2026-03-01T05:47:42.135840",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "What physical process in the brain produces subjective conscious experience? remains unsolved because previous research missed the role of Dopamine/serotonin. Dopamine/serotonin reuptake inhibition with specificity directly addresses this.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 25,
+    "estimated_cost_usd": 869540,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3378741627,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 30,
+    "economic_value_usd": 67574832540000
+  },
+  "confidence": 0.6019505291246074,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

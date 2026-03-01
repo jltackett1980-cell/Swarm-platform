@@ -1,0 +1,32 @@
+{
+  "id": "02d4165fe31f",
+  "generation": 9656,
+  "created_at": "2026-03-01T05:43:45.294877",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "How are trauma and stress responses inherited epigenetically across generations? remains unsolved because previous research missed the role of Epigenetic. Epigenetic methylation/demethylation of regulatory region directly addresses this.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 33,
+    "estimated_cost_usd": 1421133,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 106844404,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 17,
+    "economic_value_usd": 2136888080000
+  },
+  "confidence": 0.6158300769548788,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

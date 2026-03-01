@@ -1,0 +1,32 @@
+{
+  "id": "15e1ad857b20",
+  "generation": 10328,
+  "created_at": "2026-03-01T05:46:33.025003",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "If Neuroinflammation reduction via microglial targeting is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 27,
+    "estimated_cost_usd": 823630,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 519,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 18924878,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 11,
+    "economic_value_usd": 1513990240000
+  },
+  "confidence": 0.6487875319430967,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

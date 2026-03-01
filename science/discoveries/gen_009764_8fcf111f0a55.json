@@ -1,0 +1,32 @@
+{
+  "id": "8fcf111f0a55",
+  "generation": 9764,
+  "created_at": "2026-03-01T05:44:10.662055",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "The key to What membrane material filters all contaminants from water at low energy cost? is Bacteriophage surface display for targeting \u2014 specifically Bacteriophage surface display \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 28,
+    "estimated_cost_usd": 376504,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1087887114,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 20,
+    "economic_value_usd": 97909840260000
+  },
+  "confidence": 0.3612360104900122,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}
