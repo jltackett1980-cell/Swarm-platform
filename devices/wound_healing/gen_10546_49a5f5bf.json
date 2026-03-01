@@ -1,0 +1,39 @@
+{
+  "id": "49a5f5bf",
+  "name": "HavenHeal",
+  "generation": 10546,
+  "created_at": "2026-02-28T19:59:39.853925",
+  "pain": "wound_healing",
+  "population": 8700000,
+  "problem": "8.7M with chronic wounds \u2014 slow healing costs billions",
+  "physics": "electromagnetic",
+  "physics_desc": "Pulsed electric/magnetic fields",
+  "physics_proven": true,
+  "comparable_devices": [
+    "TENS units",
+    "PEMF therapy"
+  ],
+  "form_factor": "adhesive patch",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0077,
+    "size_cm": 2.3,
+    "cost_usd": 241.2,
+    "battery_hours": 105.6
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
