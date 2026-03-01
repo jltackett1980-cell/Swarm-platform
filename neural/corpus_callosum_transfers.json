@@ -1,159 +1,6 @@
 {
   "transfers": [
     {
-      "from_domain": "salon",
-      "to_domain": "spa",
-      "score_gap": 15,
-      "from_score": 590,
-      "to_score": 575,
-      "transfers": [
-        {
-          "template": "score_pattern",
-          "what": "salon scores 590 \u2014 study its approach",
-          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
-          "apply_as": "Apply salon patterns to spa"
-        }
-      ],
-      "priority": "medium",
-      "created_at": "2026-02-27T23:07:18.523586"
-    },
-    {
-      "from_domain": "salon",
-      "to_domain": "beauty",
-      "score_gap": 165,
-      "from_score": 590,
-      "to_score": 425,
-      "transfers": [
-        {
-          "template": "score_pattern",
-          "what": "salon scores 590 \u2014 study its approach",
-          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
-          "apply_as": "Apply salon patterns to beauty"
-        }
-      ],
-      "priority": "high",
-      "created_at": "2026-02-27T23:07:18.523664"
-    },
-    {
-      "from_domain": "salon",
-      "to_domain": "yoga",
-      "score_gap": 15,
-      "from_score": 590,
-      "to_score": 575,
-      "transfers": [
-        {
-          "template": "score_pattern",
-          "what": "salon scores 590 \u2014 study its approach",
-          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
-          "apply_as": "Apply salon patterns to yoga"
-        }
-      ],
-      "priority": "medium",
-      "created_at": "2026-02-27T23:07:18.524589"
-    },
-    {
-      "from_domain": "salon",
-      "to_domain": "gym",
-      "score_gap": 5,
-      "from_score": 590,
-      "to_score": 585,
-      "transfers": [
-        {
-          "template": "score_pattern",
-          "what": "salon scores 590 \u2014 study its approach",
-          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
-          "apply_as": "Apply salon patterns to gym"
-        }
-      ],
-      "priority": "medium",
-      "created_at": "2026-02-27T23:07:18.524651"
-    },
-    {
-      "from_domain": "salon",
-      "to_domain": "fitness",
-      "score_gap": 165,
-      "from_score": 590,
-      "to_score": 425,
-      "transfers": [
-        {
-          "template": "score_pattern",
-          "what": "salon scores 590 \u2014 study its approach",
-          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
-          "apply_as": "Apply salon patterns to fitness"
-        }
-      ],
-      "priority": "high",
-      "created_at": "2026-02-27T23:07:18.524788"
-    },
-    {
-      "from_domain": "gym",
-      "to_domain": "yoga",
-      "score_gap": 10,
-      "from_score": 585,
-      "to_score": 575,
-      "transfers": [
-        {
-          "template": "score_pattern",
-          "what": "gym scores 585 \u2014 study its approach",
-          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
-          "apply_as": "Apply gym patterns to yoga"
-        }
-      ],
-      "priority": "medium",
-      "created_at": "2026-02-27T23:07:18.525711"
-    },
-    {
-      "from_domain": "gym",
-      "to_domain": "fitness",
-      "score_gap": 160,
-      "from_score": 585,
-      "to_score": 425,
-      "transfers": [
-        {
-          "template": "score_pattern",
-          "what": "gym scores 585 \u2014 study its approach",
-          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
-          "apply_as": "Apply gym patterns to fitness"
-        }
-      ],
-      "priority": "high",
-      "created_at": "2026-02-27T23:07:18.525783"
-    },
-    {
-      "from_domain": "gym",
-      "to_domain": "spa",
-      "score_gap": 10,
-      "from_score": 585,
-      "to_score": 575,
-      "transfers": [
-        {
-          "template": "score_pattern",
-          "what": "gym scores 585 \u2014 study its approach",
-          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
-          "apply_as": "Apply gym patterns to spa"
-        }
-      ],
-      "priority": "medium",
-      "created_at": "2026-02-27T23:07:18.526745"
-    },
-    {
-      "from_domain": "restaurant",
-      "to_domain": "bakery",
-      "score_gap": 10,
-      "from_score": 585,
-      "to_score": 575,
-      "transfers": [
-        {
-          "template": "score_pattern",
-          "what": "restaurant scores 585 \u2014 study its approach",
-          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
-          "apply_as": "Apply restaurant patterns to bakery"
-        }
-      ],
-      "priority": "medium",
-      "created_at": "2026-02-27T23:07:18.526802"
-    },
-    {
       "from_domain": "restaurant",
       "to_domain": "catering",
       "score_gap": 10,
@@ -168,7 +15,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:07:18.526890"
+      "created_at": "2026-02-28T19:51:48.257351"
     },
     {
       "from_domain": "restaurant",
@@ -185,7 +32,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:07:18.526927"
+      "created_at": "2026-02-28T19:51:48.257363"
     },
     {
       "from_domain": "salon",
@@ -202,14 +49,14 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:13:24.400197"
+      "created_at": "2026-02-28T19:51:49.992777"
     },
     {
       "from_domain": "salon",
       "to_domain": "beauty",
-      "score_gap": 165,
+      "score_gap": 20,
       "from_score": 590,
-      "to_score": 425,
+      "to_score": 570,
       "transfers": [
         {
           "template": "score_pattern",
@@ -218,8 +65,8 @@
           "apply_as": "Apply salon patterns to beauty"
         }
       ],
-      "priority": "high",
-      "created_at": "2026-02-27T23:13:24.400286"
+      "priority": "medium",
+      "created_at": "2026-02-28T19:51:49.992816"
     },
     {
       "from_domain": "salon",
@@ -236,7 +83,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:13:24.401925"
+      "created_at": "2026-02-28T19:51:49.992833"
     },
     {
       "from_domain": "salon",
@@ -253,14 +100,14 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:13:24.402003"
+      "created_at": "2026-02-28T19:51:49.992847"
     },
     {
       "from_domain": "salon",
       "to_domain": "fitness",
-      "score_gap": 165,
+      "score_gap": 20,
       "from_score": 590,
-      "to_score": 425,
+      "to_score": 570,
       "transfers": [
         {
           "template": "score_pattern",
@@ -269,8 +116,8 @@
           "apply_as": "Apply salon patterns to fitness"
         }
       ],
-      "priority": "high",
-      "created_at": "2026-02-27T23:13:24.402034"
+      "priority": "medium",
+      "created_at": "2026-02-28T19:51:49.992860"
     },
     {
       "from_domain": "gym",
@@ -287,14 +134,14 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:13:24.403710"
+      "created_at": "2026-02-28T19:51:49.992874"
     },
     {
       "from_domain": "gym",
       "to_domain": "fitness",
-      "score_gap": 160,
+      "score_gap": 15,
       "from_score": 585,
-      "to_score": 425,
+      "to_score": 570,
       "transfers": [
         {
           "template": "score_pattern",
@@ -303,8 +150,8 @@
           "apply_as": "Apply gym patterns to fitness"
         }
       ],
-      "priority": "high",
-      "created_at": "2026-02-27T23:13:24.403778"
+      "priority": "medium",
+      "created_at": "2026-02-28T19:51:49.992887"
     },
     {
       "from_domain": "gym",
@@ -321,7 +168,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:13:24.405460"
+      "created_at": "2026-02-28T19:51:49.992898"
     },
     {
       "from_domain": "restaurant",
@@ -338,7 +185,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:13:24.405517"
+      "created_at": "2026-02-28T19:51:49.992911"
     },
     {
       "from_domain": "restaurant",
@@ -355,7 +202,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:13:24.405554"
+      "created_at": "2026-02-28T19:51:49.992923"
     },
     {
       "from_domain": "restaurant",
@@ -372,7 +219,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:13:24.405593"
+      "created_at": "2026-02-28T19:51:49.992935"
     },
     {
       "from_domain": "salon",
@@ -389,7 +236,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:16.769380"
+      "created_at": "2026-02-28T19:51:51.738565"
     },
     {
       "from_domain": "salon",
@@ -406,7 +253,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:16.769453"
+      "created_at": "2026-02-28T19:51:51.738603"
     },
     {
       "from_domain": "salon",
@@ -423,7 +270,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:16.769501"
+      "created_at": "2026-02-28T19:51:51.738621"
     },
     {
       "from_domain": "salon",
@@ -440,7 +287,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:16.769551"
+      "created_at": "2026-02-28T19:51:51.738634"
     },
     {
       "from_domain": "salon",
@@ -457,7 +304,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:16.769590"
+      "created_at": "2026-02-28T19:51:51.738647"
     },
     {
       "from_domain": "gym",
@@ -474,7 +321,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:16.769652"
+      "created_at": "2026-02-28T19:51:51.738662"
     },
     {
       "from_domain": "gym",
@@ -491,7 +338,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:16.769687"
+      "created_at": "2026-02-28T19:51:51.738674"
     },
     {
       "from_domain": "gym",
@@ -508,7 +355,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:16.769738"
+      "created_at": "2026-02-28T19:51:51.738686"
     },
     {
       "from_domain": "restaurant",
@@ -525,7 +372,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:16.769796"
+      "created_at": "2026-02-28T19:51:51.738699"
     },
     {
       "from_domain": "restaurant",
@@ -542,7 +389,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:16.769847"
+      "created_at": "2026-02-28T19:51:51.738712"
     },
     {
       "from_domain": "restaurant",
@@ -559,7 +406,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:16.769891"
+      "created_at": "2026-02-28T19:51:51.738840"
     },
     {
       "from_domain": "salon",
@@ -576,7 +423,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:46.127310"
+      "created_at": "2026-02-28T19:51:53.474986"
     },
     {
       "from_domain": "salon",
@@ -593,7 +440,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:46.127378"
+      "created_at": "2026-02-28T19:51:53.475026"
     },
     {
       "from_domain": "salon",
@@ -610,7 +457,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:46.127421"
+      "created_at": "2026-02-28T19:51:53.475046"
     },
     {
       "from_domain": "salon",
@@ -627,7 +474,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:46.127458"
+      "created_at": "2026-02-28T19:51:53.475060"
     },
     {
       "from_domain": "salon",
@@ -644,7 +491,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:46.127492"
+      "created_at": "2026-02-28T19:51:53.475072"
     },
     {
       "from_domain": "gym",
@@ -661,7 +508,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:46.127526"
+      "created_at": "2026-02-28T19:51:53.475086"
     },
     {
       "from_domain": "gym",
@@ -678,7 +525,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:46.127559"
+      "created_at": "2026-02-28T19:51:53.475099"
     },
     {
       "from_domain": "gym",
@@ -695,7 +542,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:46.127592"
+      "created_at": "2026-02-28T19:51:53.475110"
     },
     {
       "from_domain": "restaurant",
@@ -712,7 +559,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:46.127625"
+      "created_at": "2026-02-28T19:51:53.475123"
     },
     {
       "from_domain": "restaurant",
@@ -729,7 +576,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:46.127694"
+      "created_at": "2026-02-28T19:51:53.475134"
     },
     {
       "from_domain": "restaurant",
@@ -746,7 +593,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-27T23:15:46.127739"
+      "created_at": "2026-02-28T19:51:53.475146"
     },
     {
       "from_domain": "salon",
@@ -763,7 +610,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T11:38:28.693155"
+      "created_at": "2026-02-28T19:51:55.256019"
     },
     {
       "from_domain": "salon",
@@ -780,7 +627,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T11:38:28.693226"
+      "created_at": "2026-02-28T19:51:55.256058"
     },
     {
       "from_domain": "salon",
@@ -797,7 +644,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T11:38:28.693271"
+      "created_at": "2026-02-28T19:51:55.256076"
     },
     {
       "from_domain": "salon",
@@ -814,7 +661,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T11:38:28.693307"
+      "created_at": "2026-02-28T19:51:55.256089"
     },
     {
       "from_domain": "salon",
@@ -831,7 +678,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T11:38:28.693341"
+      "created_at": "2026-02-28T19:51:55.256102"
     },
     {
       "from_domain": "gym",
@@ -848,7 +695,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T11:38:28.693486"
+      "created_at": "2026-02-28T19:51:55.256116"
     },
     {
       "from_domain": "gym",
@@ -865,7 +712,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T11:38:28.693529"
+      "created_at": "2026-02-28T19:51:55.256128"
     },
     {
       "from_domain": "gym",
@@ -882,7 +729,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T11:38:28.693577"
+      "created_at": "2026-02-28T19:51:55.256141"
     },
     {
       "from_domain": "restaurant",
@@ -899,7 +746,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T11:38:28.693620"
+      "created_at": "2026-02-28T19:51:55.256153"
     },
     {
       "from_domain": "restaurant",
@@ -916,7 +763,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T11:38:28.693668"
+      "created_at": "2026-02-28T19:51:55.256165"
     },
     {
       "from_domain": "restaurant",
@@ -933,7 +780,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T11:38:28.693707"
+      "created_at": "2026-02-28T19:51:55.256177"
     },
     {
       "from_domain": "salon",
@@ -950,7 +797,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:43:24.116022"
+      "created_at": "2026-02-28T19:51:57.053288"
     },
     {
       "from_domain": "salon",
@@ -967,7 +814,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:43:24.116107"
+      "created_at": "2026-02-28T19:51:57.053326"
     },
     {
       "from_domain": "salon",
@@ -984,7 +831,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:43:24.116165"
+      "created_at": "2026-02-28T19:51:57.053344"
     },
     {
       "from_domain": "salon",
@@ -1001,7 +848,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:43:24.116221"
+      "created_at": "2026-02-28T19:51:57.053358"
     },
     {
       "from_domain": "salon",
@@ -1018,7 +865,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:43:24.116256"
+      "created_at": "2026-02-28T19:51:57.053371"
     },
     {
       "from_domain": "gym",
@@ -1035,7 +882,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:43:24.116300"
+      "created_at": "2026-02-28T19:51:57.053385"
     },
     {
       "from_domain": "gym",
@@ -1052,7 +899,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:43:24.116332"
+      "created_at": "2026-02-28T19:51:57.053398"
     },
     {
       "from_domain": "gym",
@@ -1069,7 +916,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:43:24.116370"
+      "created_at": "2026-02-28T19:51:57.053410"
     },
     {
       "from_domain": "restaurant",
@@ -1086,7 +933,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:43:24.116403"
+      "created_at": "2026-02-28T19:51:57.053423"
     },
     {
       "from_domain": "restaurant",
@@ -1103,7 +950,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:43:24.116440"
+      "created_at": "2026-02-28T19:51:57.053435"
     },
     {
       "from_domain": "restaurant",
@@ -1120,7 +967,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:43:24.116470"
+      "created_at": "2026-02-28T19:51:57.053446"
     },
     {
       "from_domain": "salon",
@@ -1137,7 +984,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:45:38.534600"
+      "created_at": "2026-02-28T19:51:58.844534"
     },
     {
       "from_domain": "salon",
@@ -1154,7 +1001,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:45:38.534660"
+      "created_at": "2026-02-28T19:51:58.844593"
     },
     {
       "from_domain": "salon",
@@ -1171,7 +1018,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:45:38.534691"
+      "created_at": "2026-02-28T19:51:58.844613"
     },
     {
       "from_domain": "salon",
@@ -1188,7 +1035,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:45:38.534718"
+      "created_at": "2026-02-28T19:51:58.844630"
     },
     {
       "from_domain": "salon",
@@ -1205,7 +1052,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:45:38.534754"
+      "created_at": "2026-02-28T19:51:58.844642"
     },
     {
       "from_domain": "gym",
@@ -1222,7 +1069,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:45:38.534793"
+      "created_at": "2026-02-28T19:51:58.844657"
     },
     {
       "from_domain": "gym",
@@ -1239,7 +1086,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:45:38.534816"
+      "created_at": "2026-02-28T19:51:58.844670"
     },
     {
       "from_domain": "gym",
@@ -1256,7 +1103,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:45:38.534839"
+      "created_at": "2026-02-28T19:51:58.844682"
     },
     {
       "from_domain": "restaurant",
@@ -1273,7 +1120,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:45:38.534888"
+      "created_at": "2026-02-28T19:51:58.844695"
     },
     {
       "from_domain": "restaurant",
@@ -1290,7 +1137,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:45:38.534913"
+      "created_at": "2026-02-28T19:51:58.844707"
     },
     {
       "from_domain": "restaurant",
@@ -1307,7 +1154,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:45:38.534935"
+      "created_at": "2026-02-28T19:51:58.844719"
     },
     {
       "from_domain": "salon",
@@ -1324,7 +1171,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:47:04.545433"
+      "created_at": "2026-02-28T19:52:00.665183"
     },
     {
       "from_domain": "salon",
@@ -1341,7 +1188,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:47:04.545530"
+      "created_at": "2026-02-28T19:52:00.665220"
     },
     {
       "from_domain": "salon",
@@ -1358,7 +1205,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:47:04.545619"
+      "created_at": "2026-02-28T19:52:00.665238"
     },
     {
       "from_domain": "salon",
@@ -1375,7 +1222,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:47:04.545668"
+      "created_at": "2026-02-28T19:52:00.665253"
     },
     {
       "from_domain": "salon",
@@ -1392,7 +1239,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:47:04.545719"
+      "created_at": "2026-02-28T19:52:00.665267"
     },
     {
       "from_domain": "gym",
@@ -1409,7 +1256,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:47:04.545787"
+      "created_at": "2026-02-28T19:52:00.665282"
     },
     {
       "from_domain": "gym",
@@ -1426,7 +1273,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:47:04.545832"
+      "created_at": "2026-02-28T19:52:00.665295"
     },
     {
       "from_domain": "gym",
@@ -1443,7 +1290,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:47:04.545934"
+      "created_at": "2026-02-28T19:52:00.665307"
     },
     {
       "from_domain": "restaurant",
@@ -1460,7 +1307,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:47:04.546024"
+      "created_at": "2026-02-28T19:52:00.665320"
     },
     {
       "from_domain": "restaurant",
@@ -1477,7 +1324,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:47:04.546075"
+      "created_at": "2026-02-28T19:52:00.665332"
     },
     {
       "from_domain": "restaurant",
@@ -1494,7 +1341,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:47:04.546110"
+      "created_at": "2026-02-28T19:52:00.665344"
     },
     {
       "from_domain": "salon",
@@ -1511,7 +1358,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:58:48.702451"
+      "created_at": "2026-02-28T19:52:02.503626"
     },
     {
       "from_domain": "salon",
@@ -1528,7 +1375,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:58:48.702533"
+      "created_at": "2026-02-28T19:52:02.503664"
     },
     {
       "from_domain": "salon",
@@ -1545,7 +1392,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:58:48.702570"
+      "created_at": "2026-02-28T19:52:02.503683"
     },
     {
       "from_domain": "salon",
@@ -1562,7 +1409,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:58:48.702599"
+      "created_at": "2026-02-28T19:52:02.503696"
     },
     {
       "from_domain": "salon",
@@ -1579,7 +1426,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:58:48.702625"
+      "created_at": "2026-02-28T19:52:02.503709"
     },
     {
       "from_domain": "gym",
@@ -1596,7 +1443,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:58:48.702652"
+      "created_at": "2026-02-28T19:52:02.503723"
     },
     {
       "from_domain": "gym",
@@ -1613,7 +1460,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:58:48.702678"
+      "created_at": "2026-02-28T19:52:02.503735"
     },
     {
       "from_domain": "gym",
@@ -1630,7 +1477,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:58:48.702703"
+      "created_at": "2026-02-28T19:52:02.503748"
     },
     {
       "from_domain": "restaurant",
@@ -1647,7 +1494,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:58:48.702728"
+      "created_at": "2026-02-28T19:52:02.503761"
     },
     {
       "from_domain": "restaurant",
@@ -1664,7 +1511,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:58:48.702753"
+      "created_at": "2026-02-28T19:52:02.503773"
     },
     {
       "from_domain": "restaurant",
@@ -1681,7 +1528,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T12:58:48.702777"
+      "created_at": "2026-02-28T19:52:02.503784"
     },
     {
       "from_domain": "salon",
@@ -1698,7 +1545,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:00:49.665510"
+      "created_at": "2026-02-28T19:52:04.308911"
     },
     {
       "from_domain": "salon",
@@ -1715,7 +1562,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:00:49.665577"
+      "created_at": "2026-02-28T19:52:04.308950"
     },
     {
       "from_domain": "salon",
@@ -1732,7 +1579,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:00:49.665615"
+      "created_at": "2026-02-28T19:52:04.308968"
     },
     {
       "from_domain": "salon",
@@ -1749,7 +1596,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:00:49.665645"
+      "created_at": "2026-02-28T19:52:04.308983"
     },
     {
       "from_domain": "salon",
@@ -1766,7 +1613,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:00:49.665673"
+      "created_at": "2026-02-28T19:52:04.308995"
     },
     {
       "from_domain": "gym",
@@ -1783,7 +1630,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:00:49.665703"
+      "created_at": "2026-02-28T19:52:04.309011"
     },
     {
       "from_domain": "gym",
@@ -1800,7 +1647,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:00:49.665730"
+      "created_at": "2026-02-28T19:52:04.309023"
     },
     {
       "from_domain": "gym",
@@ -1817,7 +1664,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:00:49.665756"
+      "created_at": "2026-02-28T19:52:04.309035"
     },
     {
       "from_domain": "restaurant",
@@ -1834,7 +1681,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:00:49.665783"
+      "created_at": "2026-02-28T19:52:04.309047"
     },
     {
       "from_domain": "restaurant",
@@ -1851,7 +1698,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:00:49.665809"
+      "created_at": "2026-02-28T19:52:04.309059"
     },
     {
       "from_domain": "restaurant",
@@ -1868,7 +1715,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:00:49.665835"
+      "created_at": "2026-02-28T19:52:04.309070"
     },
     {
       "from_domain": "salon",
@@ -1885,7 +1732,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:02:14.326447"
+      "created_at": "2026-02-28T19:52:06.152213"
     },
     {
       "from_domain": "salon",
@@ -1902,7 +1749,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:02:14.326542"
+      "created_at": "2026-02-28T19:52:06.152250"
     },
     {
       "from_domain": "salon",
@@ -1919,7 +1766,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:02:14.326601"
+      "created_at": "2026-02-28T19:52:06.152269"
     },
     {
       "from_domain": "salon",
@@ -1936,7 +1783,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:02:14.326672"
+      "created_at": "2026-02-28T19:52:06.152283"
     },
     {
       "from_domain": "salon",
@@ -1953,7 +1800,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:02:14.326702"
+      "created_at": "2026-02-28T19:52:06.152297"
     },
     {
       "from_domain": "gym",
@@ -1970,7 +1817,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:02:14.326733"
+      "created_at": "2026-02-28T19:52:06.152311"
     },
     {
       "from_domain": "gym",
@@ -1987,7 +1834,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:02:14.326760"
+      "created_at": "2026-02-28T19:52:06.152323"
     },
     {
       "from_domain": "gym",
@@ -2004,7 +1851,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:02:14.326832"
+      "created_at": "2026-02-28T19:52:06.152335"
     },
     {
       "from_domain": "restaurant",
@@ -2021,7 +1868,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:02:14.326878"
+      "created_at": "2026-02-28T19:52:06.152347"
     },
     {
       "from_domain": "restaurant",
@@ -2038,7 +1885,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:02:14.326925"
+      "created_at": "2026-02-28T19:52:06.152358"
     },
     {
       "from_domain": "restaurant",
@@ -2055,7 +1902,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:02:14.326965"
+      "created_at": "2026-02-28T19:52:06.152370"
     },
     {
       "from_domain": "salon",
@@ -2072,7 +1919,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:07:14.900900"
+      "created_at": "2026-02-28T19:52:08.027035"
     },
     {
       "from_domain": "salon",
@@ -2089,7 +1936,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:07:14.900965"
+      "created_at": "2026-02-28T19:52:08.027075"
     },
     {
       "from_domain": "salon",
@@ -2106,7 +1953,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:07:14.900997"
+      "created_at": "2026-02-28T19:52:08.027094"
     },
     {
       "from_domain": "salon",
@@ -2123,7 +1970,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:07:14.901022"
+      "created_at": "2026-02-28T19:52:08.027109"
     },
     {
       "from_domain": "salon",
@@ -2140,7 +1987,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:07:14.901078"
+      "created_at": "2026-02-28T19:52:08.027121"
     },
     {
       "from_domain": "gym",
@@ -2157,7 +2004,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:07:14.901111"
+      "created_at": "2026-02-28T19:52:08.027136"
     },
     {
       "from_domain": "gym",
@@ -2174,7 +2021,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:07:14.901189"
+      "created_at": "2026-02-28T19:52:08.027149"
     },
     {
       "from_domain": "gym",
@@ -2191,7 +2038,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:07:14.901222"
+      "created_at": "2026-02-28T19:52:08.027161"
     },
     {
       "from_domain": "restaurant",
@@ -2208,7 +2055,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:07:14.901326"
+      "created_at": "2026-02-28T19:52:08.027173"
     },
     {
       "from_domain": "restaurant",
@@ -2225,7 +2072,7 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:07:14.901380"
+      "created_at": "2026-02-28T19:52:08.027186"
     },
     {
       "from_domain": "restaurant",
@@ -2242,10 +2089,1319 @@
         }
       ],
       "priority": "medium",
-      "created_at": "2026-02-28T13:07:14.901434"
+      "created_at": "2026-02-28T19:52:08.027198"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "spa",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:09.951680"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "beauty",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to beauty"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:09.951718"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "yoga",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:09.951736"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "gym",
+      "score_gap": 5,
+      "from_score": 590,
+      "to_score": 585,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to gym"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:09.951750"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "fitness",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:09.951764"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "yoga",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:09.951778"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "fitness",
+      "score_gap": 15,
+      "from_score": 585,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:09.951790"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "spa",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:09.951802"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "bakery",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to bakery"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:09.951814"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "catering",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to catering"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:09.951826"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "nutrition_center",
+      "score_gap": 11,
+      "from_score": 585,
+      "to_score": 574,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to nutrition_center"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:09.951839"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "spa",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:11.898857"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "beauty",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to beauty"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:11.898894"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "yoga",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:11.898912"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "gym",
+      "score_gap": 5,
+      "from_score": 590,
+      "to_score": 585,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to gym"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:11.898927"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "fitness",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:11.898940"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "yoga",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:11.898955"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "fitness",
+      "score_gap": 15,
+      "from_score": 585,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:11.898967"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "spa",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:11.898979"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "bakery",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to bakery"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:11.898991"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "catering",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to catering"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:11.899003"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "nutrition_center",
+      "score_gap": 11,
+      "from_score": 585,
+      "to_score": 574,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to nutrition_center"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:11.899014"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "spa",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:13.918648"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "beauty",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to beauty"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:13.918686"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "yoga",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:13.918706"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "gym",
+      "score_gap": 5,
+      "from_score": 590,
+      "to_score": 585,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to gym"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:13.918719"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "fitness",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:13.918733"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "yoga",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:13.918748"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "fitness",
+      "score_gap": 15,
+      "from_score": 585,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:13.918761"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "spa",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:13.918773"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "bakery",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to bakery"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:13.918786"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "catering",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to catering"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:13.918798"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "nutrition_center",
+      "score_gap": 11,
+      "from_score": 585,
+      "to_score": 574,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to nutrition_center"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:13.918810"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "spa",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:15.757876"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "beauty",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to beauty"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:15.757917"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "yoga",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:15.757937"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "gym",
+      "score_gap": 5,
+      "from_score": 590,
+      "to_score": 585,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to gym"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:15.757952"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "fitness",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:15.757966"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "yoga",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:15.757981"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "fitness",
+      "score_gap": 15,
+      "from_score": 585,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:15.757994"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "spa",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:15.758007"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "bakery",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to bakery"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:15.758020"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "catering",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to catering"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:15.758032"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "nutrition_center",
+      "score_gap": 11,
+      "from_score": 585,
+      "to_score": 574,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to nutrition_center"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:15.758045"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "spa",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:17.622513"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "beauty",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to beauty"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:17.622552"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "yoga",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:17.622570"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "gym",
+      "score_gap": 5,
+      "from_score": 590,
+      "to_score": 585,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to gym"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:17.622585"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "fitness",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:17.622598"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "yoga",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:17.622613"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "fitness",
+      "score_gap": 15,
+      "from_score": 585,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:17.622626"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "spa",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:17.622638"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "bakery",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to bakery"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:17.622651"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "catering",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to catering"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:17.622663"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "nutrition_center",
+      "score_gap": 11,
+      "from_score": 585,
+      "to_score": 574,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to nutrition_center"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:17.622675"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "spa",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:19.506644"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "beauty",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to beauty"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:19.506682"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "yoga",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:19.506702"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "gym",
+      "score_gap": 5,
+      "from_score": 590,
+      "to_score": 585,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to gym"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:19.506716"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "fitness",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:19.506728"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "yoga",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:19.506743"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "fitness",
+      "score_gap": 15,
+      "from_score": 585,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:19.506755"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "spa",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:19.506766"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "bakery",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to bakery"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:19.506778"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "catering",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to catering"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:19.506790"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "nutrition_center",
+      "score_gap": 11,
+      "from_score": 585,
+      "to_score": 574,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to nutrition_center"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:19.506801"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "spa",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:21.444947"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "beauty",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to beauty"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:21.444987"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "yoga",
+      "score_gap": 15,
+      "from_score": 590,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:21.445007"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "gym",
+      "score_gap": 5,
+      "from_score": 590,
+      "to_score": 585,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to gym"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:21.445022"
+    },
+    {
+      "from_domain": "salon",
+      "to_domain": "fitness",
+      "score_gap": 20,
+      "from_score": 590,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "salon scores 590 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
+          "apply_as": "Apply salon patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:21.445035"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "yoga",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to yoga"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:21.445051"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "fitness",
+      "score_gap": 15,
+      "from_score": 585,
+      "to_score": 570,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to fitness"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:21.445064"
+    },
+    {
+      "from_domain": "gym",
+      "to_domain": "spa",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "gym scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/gym/frontend/index.html",
+          "apply_as": "Apply gym patterns to spa"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:21.445077"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "bakery",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to bakery"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:21.445089"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "catering",
+      "score_gap": 10,
+      "from_score": 585,
+      "to_score": 575,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to catering"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:21.445101"
+    },
+    {
+      "from_domain": "restaurant",
+      "to_domain": "nutrition_center",
+      "score_gap": 11,
+      "from_score": 585,
+      "to_score": 574,
+      "transfers": [
+        {
+          "template": "score_pattern",
+          "what": "restaurant scores 585 \u2014 study its approach",
+          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/restaurant/frontend/index.html",
+          "apply_as": "Apply restaurant patterns to nutrition_center"
+        }
+      ],
+      "priority": "medium",
+      "created_at": "2026-02-28T19:52:21.445113"
     }
   ],
-  "generation": 12,
-  "last_run": "2026-02-28T13:07:14.901533",
+  "generation": 32,
+  "last_run": "2026-02-28T19:52:21.445149",
   "pending_count": 0
 }

@@ -60,9 +60,109 @@
       "directive": "GROW",
       "avg_score": 548.5,
       "timestamp": "2026-02-28T13:07:15.041266"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:51:46.623129"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:51:48.361479"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:51:50.098130"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:51:51.847131"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:51:53.585634"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:51:55.366490"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:51:57.167659"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:51:58.960068"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:00.782495"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:02.621506"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:04.428395"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:06.274846"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:08.149563"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:10.074295"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:12.023543"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:14.048427"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:15.888188"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:17.754186"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:19.653821"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.5,
+      "timestamp": "2026-02-28T19:52:21.581001"
     }
   ],
-  "generation": 12,
+  "generation": 32,
   "last": {
     "directive": "GROW",
     "meaning": "Platform mature \u2014 expand to new domains, increase scope",
@@ -76,40 +176,24 @@
       "balance": 0.99,
       "pain_level": 0.2888095238095244,
       "stagnation": 0,
-      "phase": "sprint"
+      "phase": "emergency"
     },
     "active_hormones": {
       "serotonin": {
-        "count": 9,
-        "avg_intensity": 0.89,
+        "count": 20,
+        "avg_intensity": 0.99,
         "top_context": {
-          "avg_score": 574.2,
-          "stddev": 6.5,
-          "balance_score": 0.84,
+          "avg_score": 548.5,
+          "stddev": 0.5,
+          "balance_score": 0.99,
           "message": "Organism in balance \u2014 steady growth"
         }
       }
     },
     "next_question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
-    "next_transfer": {
-      "from_domain": "salon",
-      "to_domain": "beauty",
-      "score_gap": 165,
-      "from_score": 590,
-      "to_score": 425,
-      "transfers": [
-        {
-          "template": "score_pattern",
-          "what": "salon scores 590 \u2014 study its approach",
-          "example_from": "See /data/data/com.termux/files/home/swarm-platform/federation/salon/frontend/index.html",
-          "apply_as": "Apply salon patterns to beauty"
-        }
-      ],
-      "priority": "high",
-      "created_at": "2026-02-27T23:07:18.523664"
-    },
+    "next_transfer": null,
     "next_evolution_priority": null,
-    "generated_at": "2026-02-28T13:07:15.041241"
+    "generated_at": "2026-02-28T19:52:21.580975"
   },
   "current_domains": 105,
   "target_domains": 108,
