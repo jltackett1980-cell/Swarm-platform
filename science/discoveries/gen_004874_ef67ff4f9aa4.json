@@ -1,0 +1,32 @@
+{
+  "id": "ef67ff4f9aa4",
+  "generation": 4874,
+  "created_at": "2026-03-01T05:29:30.290377",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Optical neural network for speed-of-light inference",
+  "hypothesis": "How to predict drug-receptor binding affinity from molecular structure without wet lab? remains unsolved because previous research missed the role of Optical. Optical neural network for speed-of-light inference directly addresses this.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 6,
+    "estimated_cost_usd": 27336,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1809018349,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 18,
+    "economic_value_usd": 162811651410000
+  },
+  "confidence": 0.5674794246824082,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

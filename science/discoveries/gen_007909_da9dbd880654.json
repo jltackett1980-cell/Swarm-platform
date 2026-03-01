@@ -1,0 +1,32 @@
+{
+  "id": "da9dbd880654",
+  "generation": 7909,
+  "created_at": "2026-03-01T05:37:12.823119",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "Vagus nerve stimulation modulating brain-gut axis may resolve What limits adult neuroplasticity \u2014 can those limits be safely removed? by activating at the systems level.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 13,
+    "estimated_cost_usd": 313492,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 360,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 77293547,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 8,
+    "economic_value_usd": 3091741880000
+  },
+  "confidence": 0.722104079786142,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

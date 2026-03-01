@@ -1,0 +1,32 @@
+{
+  "id": "08970822901c",
+  "generation": 1916,
+  "created_at": "2026-03-01T05:25:42.889207",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "Reservoir computing with physical substrate may resolve Can protein structure be predicted from sequence in real time without AlphaFold compute cost? by activating at the systems level.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 11,
+    "estimated_cost_usd": 42529,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2140688964,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 26,
+    "economic_value_usd": 21406889640000
+  },
+  "confidence": 0.335791245537664,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

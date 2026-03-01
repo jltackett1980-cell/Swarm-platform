@@ -1,0 +1,32 @@
+{
+  "id": "34c78ca29141",
+  "generation": 3984,
+  "created_at": "2026-03-01T05:27:57.170805",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "If BDNF upregulation to promote neurogenesis is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 23,
+    "estimated_cost_usd": 560174,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4966442,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 19,
+    "economic_value_usd": 99328840000
+  },
+  "confidence": 0.667427265768729,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "0738209a3720",
+  "generation": 5820,
+  "created_at": "2026-03-01T05:31:28.475369",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "The key to What triggers cancer cells to leave primary tumor and colonize new tissue? is CRISPR gene editing targeting specific pathway \u2014 specifically CRISPR gene editing \u2014 which would help 19,000,000 people affected.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 24,
+    "estimated_cost_usd": 943866,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 489,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11243413,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 20,
+    "economic_value_usd": 562170650000
+  },
+  "confidence": 0.5679837996872105,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

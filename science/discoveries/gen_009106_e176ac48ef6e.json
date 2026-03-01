@@ -1,0 +1,32 @@
+{
+  "id": "e176ac48ef6e",
+  "generation": 9106,
+  "created_at": "2026-03-01T05:41:28.110819",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "The key to What synthetic material perfectly mimics bone's mechanical and biological properties? is Self-assembled monolayer for surface functionalization \u2014 specifically Self-assembled monolayer for \u2014 which would help 10,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 20,
+    "estimated_cost_usd": 279344,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4019412,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 11,
+    "economic_value_usd": 241164720000
+  },
+  "confidence": 0.3871224850225886,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

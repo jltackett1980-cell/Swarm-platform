@@ -1,0 +1,32 @@
+{
+  "id": "f9066da67327",
+  "generation": 1360,
+  "created_at": "2026-03-01T05:25:24.340600",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "Microbiome modulation via targeted bacteriophage therapy may resolve What triggers cancer cells to leave primary tumor and colonize new tissue? by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 26,
+    "estimated_cost_usd": 1214772,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 10491363,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 22,
+    "economic_value_usd": 209827260000
+  },
+  "confidence": 0.6282695468006039,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

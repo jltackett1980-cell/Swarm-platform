@@ -1,0 +1,32 @@
+{
+  "id": "9ba73f0578b0",
+  "generation": 8505,
+  "created_at": "2026-03-01T05:39:01.725136",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "Synaptic plasticity modulation via NMDA receptor may resolve What neural connectivity differences cause autism spectrum characteristics? by activating at the systems level.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 15,
+    "estimated_cost_usd": 479962,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 41372485,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 6,
+    "economic_value_usd": 2068624250000
+  },
+  "confidence": 0.4397993748786025,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

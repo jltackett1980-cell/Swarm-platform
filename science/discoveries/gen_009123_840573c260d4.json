@@ -1,0 +1,32 @@
+{
+  "id": "840573c260d4",
+  "generation": 9123,
+  "created_at": "2026-03-01T05:41:32.863217",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved remains unsolved because previous research missed the role of Attention. Attention mechanism with linear complexity directly addresses this.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 1,
+    "estimated_cost_usd": 4735,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3625896955,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 19,
+    "economic_value_usd": 253812786850000
+  },
+  "confidence": 0.4577975768986897,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

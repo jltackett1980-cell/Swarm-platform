@@ -1,0 +1,32 @@
+{
+  "id": "f985eeb31598",
+  "generation": 1799,
+  "created_at": "2026-03-01T05:25:38.452630",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "Can ocean acidification be safely reversed \u2014 what biochemical approach? remains unsolved because previous research missed the role of Biochar. Biochar amendment for soil carbon sequestration directly addresses this.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 1,
+    "estimated_cost_usd": 13155,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 606811919,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 28,
+    "economic_value_usd": 48544953520000
+  },
+  "confidence": 0.7070515697447208,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

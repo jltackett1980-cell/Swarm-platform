@@ -1,0 +1,32 @@
+{
+  "id": "22c7eb87acc4",
+  "generation": 5271,
+  "created_at": "2026-03-01T05:30:18.364599",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "Deep brain stimulation of subthalamic nucleus may resolve What neural connectivity differences cause autism spectrum characteristics? by activating at the systems level.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 31,
+    "estimated_cost_usd": 1054164,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 58772124,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 24,
+    "economic_value_usd": 3526327440000
+  },
+  "confidence": 0.6608440441532573,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

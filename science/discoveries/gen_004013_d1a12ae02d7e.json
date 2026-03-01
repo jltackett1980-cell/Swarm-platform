@@ -1,0 +1,32 @@
+{
+  "id": "d1a12ae02d7e",
+  "generation": 4013,
+  "created_at": "2026-03-01T05:27:59.964481",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "Viral vector delivery of therapeutic gene may resolve What triggers cancer cells to leave primary tumor and colonize new tissue? by activating at the molecular level.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 31,
+    "estimated_cost_usd": 1172427,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 12287047,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 6,
+    "economic_value_usd": 737222820000
+  },
+  "confidence": 0.3029962853321227,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "50641ba35cde",
+  "generation": 6797,
+  "created_at": "2026-03-01T05:33:49.915534",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "If Nanoparticle delivery to cross blood-brain barrier is applied to they, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 16,
+    "estimated_cost_usd": 774789,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 400,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 41546132,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 28,
+    "economic_value_usd": 415461320000
+  },
+  "confidence": 0.44267234029532465,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "15d151069625",
+  "generation": 4347,
+  "created_at": "2026-03-01T05:28:32.960964",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "The key to Why does the immune system attack the body's own tissue in autoimmune disease? is Stem cell differentiation into target tissue type \u2014 specifically Stem cell differentiation \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 31,
+    "estimated_cost_usd": 1249644,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16980063,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 12,
+    "economic_value_usd": 509401890000
+  },
+  "confidence": 0.7324077464060272,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

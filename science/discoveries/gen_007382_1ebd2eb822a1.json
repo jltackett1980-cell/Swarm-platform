@@ -1,0 +1,32 @@
+{
+  "id": "1ebd2eb822a1",
+  "generation": 7382,
+  "created_at": "2026-03-01T05:35:32.427119",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "If Viral vector delivery of therapeutic gene is applied to they, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 30,
+    "estimated_cost_usd": 1398347,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 20646363,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 16,
+    "economic_value_usd": 1858172670000
+  },
+  "confidence": 0.3063171247627036,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

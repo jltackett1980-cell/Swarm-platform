@@ -1,0 +1,32 @@
+{
+  "id": "788890dee950",
+  "generation": 6132,
+  "created_at": "2026-03-01T05:32:09.399783",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Telomerase activation/inhibition in target cells may resolve How are trauma and stress responses inherited epigenetically across generations? by blocking at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 14,
+    "estimated_cost_usd": 597886,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 60456366,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 16,
+    "economic_value_usd": 5441072940000
+  },
+  "confidence": 0.6132249284945483,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

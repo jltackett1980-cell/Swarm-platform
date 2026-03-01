@@ -1,0 +1,32 @@
+{
+  "id": "37c0afc49f59",
+  "generation": 6675,
+  "created_at": "2026-03-01T05:33:29.694673",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "Combining Small molecule inhibitor of enzyme active site with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 11,
+    "estimated_cost_usd": 395147,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 20672112,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 15,
+    "economic_value_usd": 206721120000
+  },
+  "confidence": 0.31075869529277417,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

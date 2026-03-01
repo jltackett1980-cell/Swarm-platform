@@ -1,0 +1,32 @@
+{
+  "id": "448879b08f17",
+  "generation": 2959,
+  "created_at": "2026-03-01T05:26:38.440997",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "How does central sensitization maintain chronic pain without tissue damage? remains unsolved because previous research missed the role of Transcranial. Transcranial magnetic stimulation of specific cortical area directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 21,
+    "estimated_cost_usd": 580760,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 29155311,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 14,
+    "economic_value_usd": 291553110000
+  },
+  "confidence": 0.751972826995861,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "de759d3fa263",
+  "generation": 5801,
+  "created_at": "2026-03-01T05:31:25.751277",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "The key to Why do amyloid plaques form in Alzheimer's and can they be cleared? is Mitochondrial membrane potential modulation \u2014 specifically Mitochondrial membrane potential \u2014 which would help 55,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 24,
+    "estimated_cost_usd": 871921,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 489,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 18374741,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 5,
+    "economic_value_usd": 918737050000
+  },
+  "confidence": 0.5408126667429489,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

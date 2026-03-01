@@ -1,0 +1,32 @@
+{
+  "id": "49e5365efd8b",
+  "generation": 8165,
+  "created_at": "2026-03-01T05:37:57.814072",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "DNA computing for massively parallel search",
+  "hypothesis": "DNA computing for massively parallel search may resolve How to predict drug-receptor binding affinity from molecular structure without wet lab? by activating at the systems level.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 4,
+    "estimated_cost_usd": 19218,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Benchmark on standard dataset with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1539549196,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 25,
+    "economic_value_usd": 76977459800000
+  },
+  "confidence": 0.61812416506746,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "b485b3a70d4e",
+  "generation": 7030,
+  "created_at": "2026-03-01T05:34:29.474962",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "Psychedelic-induced neuroplasticity via 5-HT2A receptor may resolve Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? by activating at the systems level.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 17,
+    "estimated_cost_usd": 486670,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 15747468,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 7,
+    "economic_value_usd": 472424040000
+  },
+  "confidence": 0.5702725981628818,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

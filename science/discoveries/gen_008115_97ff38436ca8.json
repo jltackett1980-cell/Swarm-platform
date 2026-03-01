@@ -1,0 +1,32 @@
+{
+  "id": "97ff38436ca8",
+  "generation": 8115,
+  "created_at": "2026-03-01T05:37:49.660878",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? remains unsolved because previous research missed the role of Fear. Fear memory reconsolidation interference via timing directly addresses this.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 20,
+    "estimated_cost_usd": 500220,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9172735,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 15,
+    "economic_value_usd": 733818800000
+  },
+  "confidence": 0.6416220286203498,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

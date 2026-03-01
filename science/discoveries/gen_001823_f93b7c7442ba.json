@@ -1,0 +1,32 @@
+{
+  "id": "f93b7c7442ba",
+  "generation": 1823,
+  "created_at": "2026-03-01T05:25:39.334892",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "The key to Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics is Thermoelectric Seebeck coefficient maximization \u2014 specifically Thermoelectric Seebeck coefficient \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 1,
+    "estimated_cost_usd": 19591,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3534589453,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 29,
+    "economic_value_usd": 70691789060000
+  },
+  "confidence": 0.5469046551182833,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

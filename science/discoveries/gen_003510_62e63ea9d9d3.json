@@ -1,0 +1,32 @@
+{
+  "id": "62e63ea9d9d3",
+  "generation": 3510,
+  "created_at": "2026-03-01T05:27:14.763560",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "If Federated learning without data centralization is applied to vs, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 10,
+    "estimated_cost_usd": 36663,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Theoretical complexity proof with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1473806117,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 12,
+    "economic_value_usd": 73690305850000
+  },
+  "confidence": 0.4671414585704416,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

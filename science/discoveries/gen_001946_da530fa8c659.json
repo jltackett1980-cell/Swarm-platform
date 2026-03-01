@@ -1,0 +1,32 @@
+{
+  "id": "da530fa8c659",
+  "generation": 1946,
+  "created_at": "2026-03-01T05:25:44.100188",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway? remains unsolved because previous research missed the role of mRNA. mRNA therapy to upregulate/downregulate gene expression directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 33,
+    "estimated_cost_usd": 1273885,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1152131,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 15,
+    "economic_value_usd": 57606550000
+  },
+  "confidence": 0.796020095414683,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "3ab834b9e5d6",
+  "generation": 6391,
+  "created_at": "2026-03-01T05:32:44.079270",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "If Synaptic plasticity modulation via NMDA receptor is applied to without, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 20,
+    "estimated_cost_usd": 578807,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 23423940,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 23,
+    "economic_value_usd": 234239400000
+  },
+  "confidence": 0.6811206716114218,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

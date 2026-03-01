@@ -1,0 +1,32 @@
+{
+  "id": "c90aee12c084",
+  "generation": 3834,
+  "created_at": "2026-03-01T05:27:43.289175",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "Combining Phytoremediation with hyperaccumulator plant species with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 9,
+    "estimated_cost_usd": 121741,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 763487781,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 18,
+    "economic_value_usd": 30539511240000
+  },
+  "confidence": 0.6874725139946138,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

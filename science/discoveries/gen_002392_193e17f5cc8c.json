@@ -1,0 +1,32 @@
+{
+  "id": "193e17f5cc8c",
+  "generation": 2392,
+  "created_at": "2026-03-01T05:26:06.433449",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "If Transcranial magnetic stimulation of specific cortical area is applied to reversed, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 9,
+    "estimated_cost_usd": 268163,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13803113,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 20,
+    "economic_value_usd": 276062260000
+  },
+  "confidence": 0.36066966814013507,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

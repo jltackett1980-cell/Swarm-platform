@@ -1,0 +1,32 @@
+{
+  "id": "11b71eb14adf",
+  "generation": 9283,
+  "created_at": "2026-03-01T05:42:09.976704",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "Why do amyloid plaques form in Alzheimer's and can they be cleared? remains unsolved because previous research missed the role of Stem. Stem cell differentiation into target tissue type directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 31,
+    "estimated_cost_usd": 1230566,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 32099184,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 8,
+    "economic_value_usd": 962975520000
+  },
+  "confidence": 0.6961579350685757,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

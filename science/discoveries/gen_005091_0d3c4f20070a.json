@@ -1,0 +1,32 @@
+{
+  "id": "0d3c4f20070a",
+  "generation": 5091,
+  "created_at": "2026-03-01T05:29:55.856565",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "Electrocoagulation for suspended particle removal may resolve What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? by activating at the systems level.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 11,
+    "estimated_cost_usd": 126828,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1252560359,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 25,
+    "economic_value_usd": 12525603590000
+  },
+  "confidence": 0.7705117389895815,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

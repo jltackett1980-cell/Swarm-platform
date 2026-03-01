@@ -1,0 +1,32 @@
+{
+  "id": "94e6a63f7b06",
+  "generation": 7251,
+  "created_at": "2026-03-01T05:35:08.510742",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "If Psychedelic-induced neuroplasticity via 5-HT2A receptor is applied to in, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 25,
+    "estimated_cost_usd": 807235,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2580274186,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 24,
+    "economic_value_usd": 25802741860000
+  },
+  "confidence": 0.5428557229375781,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

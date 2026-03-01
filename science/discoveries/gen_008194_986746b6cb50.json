@@ -1,0 +1,32 @@
+{
+  "id": "986746b6cb50",
+  "generation": 8194,
+  "created_at": "2026-03-01T05:38:02.561550",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "The key to How are trauma and stress responses inherited epigenetically across generations? is Stem cell differentiation into target tissue type \u2014 specifically Stem cell differentiation \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 11,
+    "estimated_cost_usd": 421031,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 188775510,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 24,
+    "economic_value_usd": 11326530600000
+  },
+  "confidence": 0.4397609820879355,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

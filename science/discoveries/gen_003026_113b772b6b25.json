@@ -1,0 +1,32 @@
+{
+  "id": "113b772b6b25",
+  "generation": 3026,
+  "created_at": "2026-03-01T05:26:42.207502",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "The key to Why do perovskite solar cells degrade \u2014 what material instability causes it? is Metal-organic framework with specific pore geometry \u2014 specifically Metal-organic framework with \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 15,
+    "estimated_cost_usd": 284722,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 401542265,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 23,
+    "economic_value_usd": 24092535900000
+  },
+  "confidence": 0.5266246188729473,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

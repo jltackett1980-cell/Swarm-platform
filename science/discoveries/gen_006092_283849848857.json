@@ -1,0 +1,32 @@
+{
+  "id": "283849848857",
+  "generation": 6092,
+  "created_at": "2026-03-01T05:32:04.566952",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "Combining Optogenetic control of specific neuron populations with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 17,
+    "estimated_cost_usd": 817681,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 38357050,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 30,
+    "economic_value_usd": 2684993500000
+  },
+  "confidence": 0.38276174410595704,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

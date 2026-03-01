@@ -1,0 +1,32 @@
+{
+  "id": "a314bca5b589",
+  "generation": 4602,
+  "created_at": "2026-03-01T05:28:59.713115",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "Combining Photonic bandgap manipulation in metamaterial with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 12,
+    "estimated_cost_usd": 216276,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1701565808,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 23,
+    "economic_value_usd": 153140922720000
+  },
+  "confidence": 0.723604304117075,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "f096317b9fb5",
+  "generation": 7502,
+  "created_at": "2026-03-01T05:35:54.677394",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "The key to How to predict drug-receptor binding affinity from molecular structure without wet lab? is Federated learning without data centralization \u2014 specifically Federated learning without \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 1,
+    "estimated_cost_usd": 4510,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1909636925,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 12,
+    "economic_value_usd": 57289107750000
+  },
+  "confidence": 0.630148135710959,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

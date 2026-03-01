@@ -1,0 +1,32 @@
+{
+  "id": "74ceeff75dd1",
+  "generation": 6981,
+  "created_at": "2026-03-01T05:34:21.081050",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "If Mitochondrial membrane potential modulation is applied to it, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 25,
+    "estimated_cost_usd": 1052037,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2350179301,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 25,
+    "economic_value_usd": 164512551070000
+  },
+  "confidence": 0.5083360010994842,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

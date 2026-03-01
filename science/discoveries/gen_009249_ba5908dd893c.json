@@ -1,0 +1,32 @@
+{
+  "id": "ba5908dd893c",
+  "generation": 9249,
+  "created_at": "2026-03-01T05:42:02.071771",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "Deep brain stimulation of subthalamic nucleus may resolve What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient by activating at the systems level.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 32,
+    "estimated_cost_usd": 1030313,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 124622153,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 22,
+    "economic_value_usd": 7477329180000
+  },
+  "confidence": 0.7494364788827934,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "91a718ee4f36",
+  "generation": 1862,
+  "created_at": "2026-03-01T05:25:40.776357",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "The key to How to engineer materials that autonomously repair microcracks before failure? is Metal-organic framework with specific pore geometry \u2014 specifically Metal-organic framework with \u2014 which would help 1,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 21,
+    "estimated_cost_usd": 334266,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 118316502,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 16,
+    "economic_value_usd": 9465320160000
+  },
+  "confidence": 0.7262804547472191,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

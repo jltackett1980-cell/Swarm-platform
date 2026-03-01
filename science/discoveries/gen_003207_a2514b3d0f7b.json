@@ -1,0 +1,32 @@
+{
+  "id": "a2514b3d0f7b",
+  "generation": 3207,
+  "created_at": "2026-03-01T05:26:52.877003",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "The key to What enzyme or organism efficiently degrades all plastic types at scale? is Shape memory alloy phase transition \u2014 specifically Shape memory alloy \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 25,
+    "estimated_cost_usd": 384035,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2931071967,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 11,
+    "economic_value_usd": 58621439340000
+  },
+  "confidence": 0.4818204655684486,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

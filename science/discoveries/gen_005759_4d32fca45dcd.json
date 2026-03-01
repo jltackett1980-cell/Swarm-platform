@@ -1,0 +1,32 @@
+{
+  "id": "4d32fca45dcd",
+  "generation": 5759,
+  "created_at": "2026-03-01T05:31:19.765295",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "Sleep-dependent memory consolidation in hippocampus may resolve Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? by activating at the systems level.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 4,
+    "estimated_cost_usd": 118895,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6039326,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 28,
+    "economic_value_usd": 422752820000
+  },
+  "confidence": 0.668606165520004,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

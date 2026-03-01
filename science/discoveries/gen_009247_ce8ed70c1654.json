@@ -1,0 +1,32 @@
+{
+  "id": "ce8ed70c1654",
+  "generation": 9247,
+  "created_at": "2026-03-01T05:42:01.614343",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "If Reservoir computing with physical substrate is applied to without, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 10,
+    "estimated_cost_usd": 35855,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1751125775,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 13,
+    "economic_value_usd": 70045031000000
+  },
+  "confidence": 0.48011734224332564,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

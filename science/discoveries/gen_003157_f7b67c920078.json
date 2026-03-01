@@ -1,0 +1,32 @@
+{
+  "id": "f7b67c920078",
+  "generation": 3157,
+  "created_at": "2026-03-01T05:26:49.841709",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Telomerase activation/inhibition in target cells may resolve What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified by blocking at the molecular level.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 29,
+    "estimated_cost_usd": 985492,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11258593,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 29,
+    "economic_value_usd": 450343720000
+  },
+  "confidence": 0.7261769275340719,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

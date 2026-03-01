@@ -1,0 +1,32 @@
+{
+  "id": "4973c4d77295",
+  "generation": 2470,
+  "created_at": "2026-03-01T05:26:10.430227",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "If Autophagy activation to clear misfolded proteins is applied to colonize, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 3,
+    "estimated_cost_usd": 115379,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6931781,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 9,
+    "economic_value_usd": 415906860000
+  },
+  "confidence": 0.45370633469294225,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

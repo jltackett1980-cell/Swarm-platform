@@ -1,0 +1,32 @@
+{
+  "id": "2756efd55694",
+  "generation": 9299,
+  "created_at": "2026-03-01T05:42:13.731805",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "If Aerogel porosity for thermal/acoustic insulation is applied to and, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 6,
+    "estimated_cost_usd": 102864,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4213829,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 5,
+    "economic_value_usd": 252829740000
+  },
+  "confidence": 0.7084562539732175,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

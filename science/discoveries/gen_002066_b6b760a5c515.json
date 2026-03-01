@@ -1,0 +1,32 @@
+{
+  "id": "b6b760a5c515",
+  "generation": 2066,
+  "created_at": "2026-03-01T05:25:49.540249",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "Can addiction-related neural pathway changes be reversed without withdrawal? remains unsolved because previous research missed the role of BDNF. BDNF upregulation to promote neurogenesis directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 17,
+    "estimated_cost_usd": 516499,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13523387,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 22,
+    "economic_value_usd": 270467740000
+  },
+  "confidence": 0.4328774852358363,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

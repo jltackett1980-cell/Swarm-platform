@@ -1,0 +1,32 @@
+{
+  "id": "f567c0afdb24",
+  "generation": 4480,
+  "created_at": "2026-03-01T05:28:46.332310",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "Combining Sleep-dependent memory consolidation in hippocampus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 34,
+    "estimated_cost_usd": 990975,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7972224,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 20,
+    "economic_value_usd": 159444480000
+  },
+  "confidence": 0.5293545566813634,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

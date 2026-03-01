@@ -1,0 +1,32 @@
+{
+  "id": "defdf7a891b5",
+  "generation": 3880,
+  "created_at": "2026-03-01T05:27:47.560870",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "Piezoelectric coupling in novel crystal structure may resolve Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 4,
+    "estimated_cost_usd": 92386,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3903941845,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 15,
+    "economic_value_usd": 78078836900000
+  },
+  "confidence": 0.38040342053642784,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

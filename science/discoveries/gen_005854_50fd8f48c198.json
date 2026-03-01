@@ -1,0 +1,32 @@
+{
+  "id": "50fd8f48c198",
+  "generation": 5854,
+  "created_at": "2026-03-01T05:31:33.351456",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "Mitochondrial membrane potential modulation may resolve How does gut microbiome composition directly affect brain chemistry and mood? by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 10,
+    "estimated_cost_usd": 376396,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 83441668,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 26,
+    "economic_value_usd": 1668833360000
+  },
+  "confidence": 0.7974740763458854,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

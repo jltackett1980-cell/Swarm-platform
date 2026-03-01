@@ -1,0 +1,32 @@
+{
+  "id": "0d33da7b5330",
+  "generation": 2160,
+  "created_at": "2026-03-01T05:25:54.207290",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Thermoelectric Seebeck coefficient maximization may resolve Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 10,
+    "estimated_cost_usd": 187812,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3359571147,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 10,
+    "economic_value_usd": 100787134410000
+  },
+  "confidence": 0.7191591908812596,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

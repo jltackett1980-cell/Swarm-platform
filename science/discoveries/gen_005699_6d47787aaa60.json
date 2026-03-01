@@ -1,0 +1,32 @@
+{
+  "id": "6d47787aaa60",
+  "generation": 5699,
+  "created_at": "2026-03-01T05:31:11.254295",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Biochar. Biochar amendment for soil carbon sequestration directly addresses this.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 1,
+    "estimated_cost_usd": 12603,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 106674065,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 19,
+    "economic_value_usd": 8533925200000
+  },
+  "confidence": 0.6525999531252997,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

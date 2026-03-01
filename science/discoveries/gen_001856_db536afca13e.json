@@ -1,0 +1,32 @@
+{
+  "id": "db536afca13e",
+  "generation": 1856,
+  "created_at": "2026-03-01T05:25:40.553062",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "Small molecule inhibitor of enzyme active site may resolve Why does the immune system attack the body's own tissue in autoimmune disease? by blocking at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 5,
+    "estimated_cost_usd": 185057,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 23082143,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 12,
+    "economic_value_usd": 2077392870000
+  },
+  "confidence": 0.38664491731652617,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

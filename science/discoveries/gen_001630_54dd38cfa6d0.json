@@ -1,0 +1,32 @@
+{
+  "id": "54dd38cfa6d0",
+  "generation": 1630,
+  "created_at": "2026-03-01T05:25:32.574825",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "If Ketamine-like NMDA antagonism without dissociation is applied to essential, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 21,
+    "estimated_cost_usd": 703287,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1117881965,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 29,
+    "economic_value_usd": 100609376850000
+  },
+  "confidence": 0.4009794305208868,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

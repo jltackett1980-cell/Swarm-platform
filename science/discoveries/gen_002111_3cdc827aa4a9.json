@@ -1,0 +1,32 @@
+{
+  "id": "3cdc827aa4a9",
+  "generation": 2111,
+  "created_at": "2026-03-01T05:25:51.747063",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "The key to What synthetic material perfectly mimics bone's mechanical and biological properties? is Bacteriophage surface display for targeting \u2014 specifically Bacteriophage surface display \u2014 which would help 10,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 13,
+    "estimated_cost_usd": 209602,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3105040,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 12,
+    "economic_value_usd": 186302400000
+  },
+  "confidence": 0.3894537826365412,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

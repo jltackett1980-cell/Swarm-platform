@@ -1,0 +1,32 @@
+{
+  "id": "d1ef28e34a1b",
+  "generation": 2531,
+  "created_at": "2026-03-01T05:26:13.668041",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "BDNF upregulation to promote neurogenesis may resolve Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? by activating at the systems level.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 31,
+    "estimated_cost_usd": 754190,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9123800,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 6,
+    "economic_value_usd": 91238000000
+  },
+  "confidence": 0.6331906105619294,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

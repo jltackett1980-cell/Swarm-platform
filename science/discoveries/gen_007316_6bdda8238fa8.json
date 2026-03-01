@@ -1,0 +1,32 @@
+{
+  "id": "6bdda8238fa8",
+  "generation": 7316,
+  "created_at": "2026-03-01T05:35:20.255360",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "If Atomic layer deposition of conformal coating is applied to low, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 23,
+    "estimated_cost_usd": 328055,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1024278859,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 21,
+    "economic_value_usd": 61456731540000
+  },
+  "confidence": 0.7562848709674546,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

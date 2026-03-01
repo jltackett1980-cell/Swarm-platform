@@ -1,0 +1,32 @@
+{
+  "id": "b965681ad476",
+  "generation": 2360,
+  "created_at": "2026-03-01T05:26:04.894663",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "The key to What neural connectivity differences cause autism spectrum characteristics? is Deep brain stimulation of subthalamic nucleus \u2014 specifically Deep brain stimulation \u2014 which would help 75,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 3,
+    "estimated_cost_usd": 86537,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 41496059,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 7,
+    "economic_value_usd": 2904724130000
+  },
+  "confidence": 0.5182745977387924,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

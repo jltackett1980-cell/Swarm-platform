@@ -1,0 +1,32 @@
+{
+  "id": "5749b8186b55",
+  "generation": 1976,
+  "created_at": "2026-03-01T05:25:45.436503",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Optical neural network for speed-of-light inference",
+  "hypothesis": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost? remains unsolved because previous research missed the role of Optical. Optical neural network for speed-of-light inference directly addresses this.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 8,
+    "estimated_cost_usd": 33140,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3311581441,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 22,
+    "economic_value_usd": 231810700870000
+  },
+  "confidence": 0.7499026126705337,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

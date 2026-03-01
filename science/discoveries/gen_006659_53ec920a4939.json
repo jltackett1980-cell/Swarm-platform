@@ -1,0 +1,32 @@
+{
+  "id": "53ec920a4939",
+  "generation": 6659,
+  "created_at": "2026-03-01T05:33:27.058927",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "How to predict drug-receptor binding affinity from molecular structure without wet lab? remains unsolved because previous research missed the role of Monte. Monte Carlo tree search with learned heuristics directly addresses this.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 7,
+    "estimated_cost_usd": 25618,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2100427132,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 16,
+    "economic_value_usd": 21004271320000
+  },
+  "confidence": 0.4692998867879169,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "275ee80d5597",
+  "generation": 7907,
+  "created_at": "2026-03-01T05:37:12.427130",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "What substrate allows silicon-level performance in fully flexible electronics? remains unsolved because previous research missed the role of Hydrogel. Hydrogel swelling/shrinking response directly addresses this.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 25,
+    "estimated_cost_usd": 397842,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 119684943,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 28,
+    "economic_value_usd": 2393698860000
+  },
+  "confidence": 0.5513588603013048,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

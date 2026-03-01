@@ -1,0 +1,32 @@
+{
+  "id": "d645386785f3",
+  "generation": 4083,
+  "created_at": "2026-03-01T05:28:06.714393",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "The key to What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? is Photocatalytic oxidation under visible light \u2014 specifically Photocatalytic oxidation under \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 6,
+    "estimated_cost_usd": 78163,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3004341491,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 24,
+    "economic_value_usd": 150217074550000
+  },
+  "confidence": 0.7092390755349216,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

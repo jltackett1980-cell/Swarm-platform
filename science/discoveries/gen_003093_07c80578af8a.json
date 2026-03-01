@@ -1,0 +1,32 @@
+{
+  "id": "07c80578af8a",
+  "generation": 3093,
+  "created_at": "2026-03-01T05:26:46.052761",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "The key to What limits adult neuroplasticity \u2014 can those limits be safely removed? is Transcranial magnetic stimulation of specific cortical area \u2014 specifically Transcranial magnetic stimulation \u2014 which would help 200,000,000 people affected.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 19,
+    "estimated_cost_usd": 647155,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 93077157,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 9,
+    "economic_value_usd": 6515400990000
+  },
+  "confidence": 0.7153056474174552,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

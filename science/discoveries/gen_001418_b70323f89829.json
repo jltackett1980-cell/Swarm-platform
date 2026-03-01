@@ -1,0 +1,32 @@
+{
+  "id": "b70323f89829",
+  "generation": 1418,
+  "created_at": "2026-03-01T05:25:25.986419",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "The key to Can ocean acidification be safely reversed \u2014 what biochemical approach? is Enzymatic depolymerization of specific polymer \u2014 specifically Enzymatic depolymerization of \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 4,
+    "estimated_cost_usd": 59013,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1409332487,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 21,
+    "economic_value_usd": 112746598960000
+  },
+  "confidence": 0.46783117228312376,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

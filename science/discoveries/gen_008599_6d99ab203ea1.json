@@ -1,0 +1,32 @@
+{
+  "id": "6d99ab203ea1",
+  "generation": 8599,
+  "created_at": "2026-03-01T05:39:22.152615",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "How to predict drug-receptor binding affinity from molecular structure without wet lab? remains unsolved because previous research missed the role of Federated. Federated learning without data centralization directly addresses this.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 4,
+    "estimated_cost_usd": 17496,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 873863690,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 20,
+    "economic_value_usd": 43693184500000
+  },
+  "confidence": 0.6921624410144154,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

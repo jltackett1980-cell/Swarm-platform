@@ -1,0 +1,32 @@
+{
+  "id": "67fd48553fd1",
+  "generation": 5430,
+  "created_at": "2026-03-01T05:30:36.111840",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "Small molecule inhibitor of enzyme active site may resolve What triggers cancer cells to leave primary tumor and colonize new tissue? by blocking at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 14,
+    "estimated_cost_usd": 526613,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6472471,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 12,
+    "economic_value_usd": 258898840000
+  },
+  "confidence": 0.4446429990101125,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

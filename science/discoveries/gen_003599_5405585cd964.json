@@ -1,0 +1,32 @@
+{
+  "id": "5405585cd964",
+  "generation": 3599,
+  "created_at": "2026-03-01T05:27:22.231423",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "If Mitochondrial membrane potential modulation is applied to chemistry, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 33,
+    "estimated_cost_usd": 1525026,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 136756616,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 21,
+    "economic_value_usd": 9572963120000
+  },
+  "confidence": 0.32577306867825884,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

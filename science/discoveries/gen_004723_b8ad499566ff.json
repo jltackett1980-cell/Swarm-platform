@@ -1,0 +1,32 @@
+{
+  "id": "b8ad499566ff",
+  "generation": 4723,
+  "created_at": "2026-03-01T05:29:13.264589",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Quantum annealing for optimization problems",
+  "hypothesis": "If Quantum annealing for optimization problems is applied to without, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 9,
+    "estimated_cost_usd": 39563,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Security audit with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1182745064,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 21,
+    "economic_value_usd": 106447055760000
+  },
+  "confidence": 0.33478953020201163,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

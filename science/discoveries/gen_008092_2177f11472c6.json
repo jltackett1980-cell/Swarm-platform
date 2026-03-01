@@ -1,0 +1,32 @@
+{
+  "id": "2177f11472c6",
+  "generation": 8092,
+  "created_at": "2026-03-01T05:37:45.921484",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Neuromorphic spike-timing dependent plasticity",
+  "hypothesis": "Neuromorphic spike-timing dependent plasticity may resolve How to predict drug-receptor binding affinity from molecular structure without wet lab? by activating at the systems level.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 3,
+    "estimated_cost_usd": 14927,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2645115767,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 8,
+    "economic_value_usd": 52902315340000
+  },
+  "confidence": 0.5300821595755054,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

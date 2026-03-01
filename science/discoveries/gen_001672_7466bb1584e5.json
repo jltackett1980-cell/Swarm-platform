@@ -1,0 +1,32 @@
+{
+  "id": "7466bb1584e5",
+  "generation": 1672,
+  "created_at": "2026-03-01T05:25:33.969953",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "The key to How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? is Electrocoagulation for suspended particle removal \u2014 specifically Electrocoagulation for suspended \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 1,
+    "estimated_cost_usd": 14463,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 59090008,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 18,
+    "economic_value_usd": 1181800160000
+  },
+  "confidence": 0.5339568594863053,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

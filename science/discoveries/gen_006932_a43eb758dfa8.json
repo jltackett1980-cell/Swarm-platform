@@ -1,0 +1,32 @@
+{
+  "id": "a43eb758dfa8",
+  "generation": 6932,
+  "created_at": "2026-03-01T05:34:12.721634",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "The key to What enzyme or organism efficiently degrades all plastic types at scale? is Two-dimensional material stacking (van der Waals heterostructure) \u2014 specifically Two-dimensional material stacking \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 16,
+    "estimated_cost_usd": 239706,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3424005704,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 24,
+    "economic_value_usd": 136960228160000
+  },
+  "confidence": 0.6598056852144949,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

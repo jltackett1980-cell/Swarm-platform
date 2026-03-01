@@ -1,0 +1,32 @@
+{
+  "id": "904cd5f38117",
+  "generation": 3059,
+  "created_at": "2026-03-01T05:26:44.088839",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "The key to Can addiction-related neural pathway changes be reversed without withdrawal? is BDNF upregulation to promote neurogenesis \u2014 specifically BDNF upregulation to \u2014 which would help 21,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 9,
+    "estimated_cost_usd": 214686,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 14086868,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 9,
+    "economic_value_usd": 563474720000
+  },
+  "confidence": 0.6882415628758345,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

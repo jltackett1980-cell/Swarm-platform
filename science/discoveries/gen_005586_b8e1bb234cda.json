@@ -1,0 +1,32 @@
+{
+  "id": "b8e1bb234cda",
+  "generation": 5586,
+  "created_at": "2026-03-01T05:30:55.480451",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "If Psychedelic-induced neuroplasticity via 5-HT2A receptor is applied to autism, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 27,
+    "estimated_cost_usd": 853715,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 519,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 24410510,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 25,
+    "economic_value_usd": 488210200000
+  },
+  "confidence": 0.6751378677254356,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "1d791c6ddd1a",
+  "generation": 1780,
+  "created_at": "2026-03-01T05:25:37.763450",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "The key to What material stores hydrogen fuel at high density without safety risk? is Metal-organic framework with specific pore geometry \u2014 specifically Metal-organic framework with \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 33,
+    "estimated_cost_usd": 536960,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1202603377,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 19,
+    "economic_value_usd": 36078101310000
+  },
+  "confidence": 0.41428536393356974,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "aaf9c27fc0fd",
+  "generation": 6912,
+  "created_at": "2026-03-01T05:34:09.315893",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "If Enzymatic depolymerization of specific polymer is applied to rapidly, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 5,
+    "estimated_cost_usd": 60024,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 84373405,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 26,
+    "economic_value_usd": 3374936200000
+  },
+  "confidence": 0.4974489674109516,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

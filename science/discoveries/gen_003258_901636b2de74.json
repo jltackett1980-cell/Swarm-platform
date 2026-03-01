@@ -1,0 +1,32 @@
+{
+  "id": "901636b2de74",
+  "generation": 3258,
+  "created_at": "2026-03-01T05:26:56.013103",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "The key to What enzyme or organism efficiently degrades all plastic types at scale? is Bacteriophage surface display for targeting \u2014 specifically Bacteriophage surface display \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 35,
+    "estimated_cost_usd": 674206,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3660588789,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 28,
+    "economic_value_usd": 36605887890000
+  },
+  "confidence": 0.5515597217910113,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

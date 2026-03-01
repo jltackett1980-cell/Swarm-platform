@@ -1,0 +1,32 @@
+{
+  "id": "ff04124bb66e",
+  "generation": 1706,
+  "created_at": "2026-03-01T05:25:35.133179",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "Combining Sleep-dependent memory consolidation in hippocampus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 7,
+    "estimated_cost_usd": 182562,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2533762027,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 9,
+    "economic_value_usd": 101350481080000
+  },
+  "confidence": 0.7051075982546753,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

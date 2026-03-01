@@ -1,0 +1,32 @@
+{
+  "id": "602999f86db6",
+  "generation": 3210,
+  "created_at": "2026-03-01T05:26:53.060355",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "Dopamine/serotonin reuptake inhibition with specificity may resolve What physical process in the brain produces subjective conscious experience? by blocking at the systems level.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 9,
+    "estimated_cost_usd": 266809,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2705839277,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 28,
+    "economic_value_usd": 216467142160000
+  },
+  "confidence": 0.37689139947488065,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

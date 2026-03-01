@@ -1,0 +1,32 @@
+{
+  "id": "9daa26e723a5",
+  "generation": 6228,
+  "created_at": "2026-03-01T05:32:21.099835",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? remains unsolved because previous research missed the role of Fear. Fear memory reconsolidation interference via timing directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 4,
+    "estimated_cost_usd": 96489,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7559236,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 20,
+    "economic_value_usd": 529146520000
+  },
+  "confidence": 0.739577820615991,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

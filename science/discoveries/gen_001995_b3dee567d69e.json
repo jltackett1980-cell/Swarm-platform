@@ -1,0 +1,32 @@
+{
+  "id": "b3dee567d69e",
+  "generation": 1995,
+  "created_at": "2026-03-01T05:25:46.171768",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "DNA computing for massively parallel search",
+  "hypothesis": "The key to Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different? is DNA computing for massively parallel search \u2014 specifically DNA computing for \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 6,
+    "estimated_cost_usd": 20448,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3485394453,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 29,
+    "economic_value_usd": 34853944530000
+  },
+  "confidence": 0.3196696408632156,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

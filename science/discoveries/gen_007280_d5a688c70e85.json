@@ -1,0 +1,32 @@
+{
+  "id": "d5a688c70e85",
+  "generation": 7280,
+  "created_at": "2026-03-01T05:35:13.730181",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "The key to What limits adult neuroplasticity \u2014 can those limits be safely removed? is BDNF upregulation to promote neurogenesis \u2014 specifically BDNF upregulation to \u2014 which would help 200,000,000 people affected.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 26,
+    "estimated_cost_usd": 909361,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 64872719,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 15,
+    "economic_value_usd": 5189817520000
+  },
+  "confidence": 0.34019593654002606,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

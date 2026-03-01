@@ -1,0 +1,32 @@
+{
+  "id": "302c8c1555ee",
+  "generation": 2084,
+  "created_at": "2026-03-01T05:25:50.412696",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Quantum annealing for optimization problems",
+  "hypothesis": "If Quantum annealing for optimization problems is applied to without, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 7,
+    "estimated_cost_usd": 29049,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1320665888,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 8,
+    "economic_value_usd": 13206658880000
+  },
+  "confidence": 0.6910535009207825,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

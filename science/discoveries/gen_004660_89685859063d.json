@@ -1,0 +1,32 @@
+{
+  "id": "89685859063d",
+  "generation": 4660,
+  "created_at": "2026-03-01T05:29:06.193381",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "What is the primary molecular cause of biological aging \u2014 can it be slowed? remains unsolved because previous research missed the role of Microbiome. Microbiome modulation via targeted bacteriophage therapy directly addresses this.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 35,
+    "estimated_cost_usd": 1377922,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1408518811,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 23,
+    "economic_value_usd": 126766692990000
+  },
+  "confidence": 0.64995038183291,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

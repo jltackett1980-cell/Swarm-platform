@@ -1,0 +1,32 @@
+{
+  "id": "ea3fc6fbd378",
+  "generation": 9274,
+  "created_at": "2026-03-01T05:42:07.885343",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "If Thermoelectric Seebeck coefficient maximization is applied to \u2014, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 7,
+    "estimated_cost_usd": 168959,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1581786489,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 18,
+    "economic_value_usd": 15817864890000
+  },
+  "confidence": 0.7113146024606839,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ada4b766f563",
+  "generation": 6061,
+  "created_at": "2026-03-01T05:32:00.845254",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "Combining Psychedelic-induced neuroplasticity via 5-HT2A receptor with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 4,
+    "estimated_cost_usd": 108570,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16966164,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 16,
+    "economic_value_usd": 848308200000
+  },
+  "confidence": 0.688314478944869,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "b982475a5816",
+  "generation": 8446,
+  "created_at": "2026-03-01T05:38:49.305570",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "Acoustic levitation for contactless manipulation may resolve Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 5,
+    "estimated_cost_usd": 120576,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2995251963,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 28,
+    "economic_value_usd": 59905039260000
+  },
+  "confidence": 0.5223568181167997,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

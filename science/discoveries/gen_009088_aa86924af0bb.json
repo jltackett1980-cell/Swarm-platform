@@ -1,0 +1,32 @@
+{
+  "id": "aa86924af0bb",
+  "generation": 9088,
+  "created_at": "2026-03-01T05:41:23.629127",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "Combining Optogenetic control of specific neuron populations with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 33,
+    "estimated_cost_usd": 1291326,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 29205986,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 23,
+    "economic_value_usd": 2628538740000
+  },
+  "confidence": 0.4798881680665878,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

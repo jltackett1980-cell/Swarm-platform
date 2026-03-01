@@ -1,0 +1,32 @@
+{
+  "id": "f829f8e0652a",
+  "generation": 1130,
+  "created_at": "2026-03-01T05:25:18.524784",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "What causes normal proteins to misfold into prions and spread through tissue? remains unsolved because previous research missed the role of Photodynamic. Photodynamic therapy targeting specific cell receptors directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 3,
+    "estimated_cost_usd": 111379,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 729711,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 5,
+    "economic_value_usd": 29188440000
+  },
+  "confidence": 0.7548942747837099,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

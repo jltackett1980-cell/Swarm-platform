@@ -1,0 +1,32 @@
+{
+  "id": "a23635990953",
+  "generation": 5301,
+  "created_at": "2026-03-01T05:30:22.159963",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "If Shape memory alloy phase transition is applied to fully, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 5,
+    "estimated_cost_usd": 70746,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 236884986,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 24,
+    "economic_value_usd": 11844249300000
+  },
+  "confidence": 0.48848089357856117,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

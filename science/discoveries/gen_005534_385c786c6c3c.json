@@ -1,0 +1,32 @@
+{
+  "id": "385c786c6c3c",
+  "generation": 5534,
+  "created_at": "2026-03-01T05:30:48.425847",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "The key to Why do all animals sleep \u2014 what is the essential biological function? is Fear memory reconsolidation interference via timing \u2014 specifically Fear memory reconsolidation \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 10,
+    "estimated_cost_usd": 264064,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2582163902,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 20,
+    "economic_value_usd": 77464917060000
+  },
+  "confidence": 0.3373587717092558,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

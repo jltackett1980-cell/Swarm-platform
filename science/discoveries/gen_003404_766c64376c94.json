@@ -1,0 +1,32 @@
+{
+  "id": "766c64376c94",
+  "generation": 3404,
+  "created_at": "2026-03-01T05:27:06.212198",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "If Default mode network connectivity measurement via fMRI is applied to autism, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 17,
+    "estimated_cost_usd": 556296,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 46542701,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 8,
+    "economic_value_usd": 465427010000
+  },
+  "confidence": 0.4509623334820669,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

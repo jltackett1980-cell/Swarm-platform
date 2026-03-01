@@ -1,0 +1,32 @@
+{
+  "id": "b2710423cb4e",
+  "generation": 6562,
+  "created_at": "2026-03-01T05:33:11.266050",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "If Transcranial magnetic stimulation of specific cortical area is applied to subjective, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 35,
+    "estimated_cost_usd": 957149,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3964145458,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 23,
+    "economic_value_usd": 79282909160000
+  },
+  "confidence": 0.44216987368346705,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

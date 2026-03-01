@@ -1,0 +1,32 @@
+{
+  "id": "120fc58d0b9f",
+  "generation": 3982,
+  "created_at": "2026-03-01T05:27:56.979551",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Constructed. Constructed wetland for water filtration directly addresses this.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 5,
+    "estimated_cost_usd": 60237,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 150020330,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 5,
+    "economic_value_usd": 12001626400000
+  },
+  "confidence": 0.6019410116674142,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

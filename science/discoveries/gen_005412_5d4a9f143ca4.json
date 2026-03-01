@@ -1,0 +1,32 @@
+{
+  "id": "5d4a9f143ca4",
+  "generation": 5412,
+  "created_at": "2026-03-01T05:30:34.191033",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "What triggers cancer cells to leave primary tumor and colonize new tissue? remains unsolved because previous research missed the role of Viral. Viral vector delivery of therapeutic gene directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 17,
+    "estimated_cost_usd": 605078,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13195089,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 27,
+    "economic_value_usd": 395852670000
+  },
+  "confidence": 0.45370977414035635,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

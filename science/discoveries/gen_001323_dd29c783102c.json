@@ -1,0 +1,32 @@
+{
+  "id": "dd29c783102c",
+  "generation": 1323,
+  "created_at": "2026-03-01T05:25:23.327666",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "Microbiome modulation via targeted bacteriophage therapy may resolve What causes normal proteins to misfold into prions and spread through tissue? by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 21,
+    "estimated_cost_usd": 866927,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 441972,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 19,
+    "economic_value_usd": 13259160000
+  },
+  "confidence": 0.5959900406047758,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

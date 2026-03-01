@@ -1,0 +1,32 @@
+{
+  "id": "5bf6ab58853d",
+  "generation": 9170,
+  "created_at": "2026-03-01T05:41:44.018981",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "Transcranial magnetic stimulation of specific cortical area may resolve What neural connectivity differences cause autism spectrum characteristics? by activating at the systems level.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 6,
+    "estimated_cost_usd": 186062,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 39652543,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 24,
+    "economic_value_usd": 793050860000
+  },
+  "confidence": 0.5288037137701653,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

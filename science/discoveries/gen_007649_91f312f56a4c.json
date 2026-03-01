@@ -1,0 +1,32 @@
+{
+  "id": "91f312f56a4c",
+  "generation": 7649,
+  "created_at": "2026-03-01T05:36:22.694851",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "Combining Epigenetic methylation/demethylation of regulatory region with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 7,
+    "estimated_cost_usd": 320433,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 826823,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 7,
+    "economic_value_usd": 33072920000
+  },
+  "confidence": 0.7254521599788004,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

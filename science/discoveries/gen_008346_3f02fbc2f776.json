@@ -1,0 +1,32 @@
+{
+  "id": "3f02fbc2f776",
+  "generation": 8346,
+  "created_at": "2026-03-01T05:38:27.753859",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "The key to Why does acute pain become chronic in some people \u2014 what neural change occurs? is Nanoparticle delivery to cross blood-brain barrier \u2014 specifically Nanoparticle delivery to \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 26,
+    "estimated_cost_usd": 1208694,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 33596905,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 10,
+    "economic_value_usd": 1679845250000
+  },
+  "confidence": 0.33211445270321976,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

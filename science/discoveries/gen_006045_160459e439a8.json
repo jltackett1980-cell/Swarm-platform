@@ -1,0 +1,32 @@
+{
+  "id": "160459e439a8",
+  "generation": 6045,
+  "created_at": "2026-03-01T05:31:58.929508",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "If Enzymatic depolymerization of specific polymer is applied to rapidly, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 10,
+    "estimated_cost_usd": 116176,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 157302429,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 30,
+    "economic_value_usd": 11011170030000
+  },
+  "confidence": 0.7352267448768319,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "7fc79946af1b",
+  "generation": 8141,
+  "created_at": "2026-03-01T05:37:53.894299",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "The key to What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified is Small molecule inhibitor of enzyme active site \u2014 specifically Small molecule inhibitor \u2014 which would help 17,000,000 people affected.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 11,
+    "estimated_cost_usd": 549816,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11960041,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 6,
+    "economic_value_usd": 358801230000
+  },
+  "confidence": 0.6729997386135959,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

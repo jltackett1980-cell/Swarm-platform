@@ -1,0 +1,32 @@
+{
+  "id": "c31bd9eda781",
+  "generation": 5131,
+  "created_at": "2026-03-01T05:30:00.783956",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "The key to Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved is Homomorphic encryption for private computation \u2014 specifically Homomorphic encryption for \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 1,
+    "estimated_cost_usd": 4993,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2725344363,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 23,
+    "economic_value_usd": 136267218150000
+  },
+  "confidence": 0.6499907332209567,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

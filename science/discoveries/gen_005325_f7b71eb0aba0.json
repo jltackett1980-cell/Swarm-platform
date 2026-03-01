@@ -1,0 +1,32 @@
+{
+  "id": "f7b71eb0aba0",
+  "generation": 5325,
+  "created_at": "2026-03-01T05:30:25.137762",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "The key to What membrane material filters all contaminants from water at low energy cost? is Shape memory alloy phase transition \u2014 specifically Shape memory alloy \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 35,
+    "estimated_cost_usd": 625028,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 859620106,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 18,
+    "economic_value_usd": 60173407420000
+  },
+  "confidence": 0.6262607085827088,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

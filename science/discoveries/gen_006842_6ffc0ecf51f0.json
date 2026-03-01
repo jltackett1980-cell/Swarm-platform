@@ -1,0 +1,32 @@
+{
+  "id": "6ffc0ecf51f0",
+  "generation": 6842,
+  "created_at": "2026-03-01T05:33:57.457352",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "The key to Why does acute pain become chronic in some people \u2014 what neural change occurs? is Viral vector delivery of therapeutic gene \u2014 specifically Viral vector delivery \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 4,
+    "estimated_cost_usd": 161192,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 30389494,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 15,
+    "economic_value_usd": 303894940000
+  },
+  "confidence": 0.7709820837472936,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

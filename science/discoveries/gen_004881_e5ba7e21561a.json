@@ -1,0 +1,32 @@
+{
+  "id": "e5ba7e21561a",
+  "generation": 4881,
+  "created_at": "2026-03-01T05:29:31.092846",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "If Rhizobium inoculation for nitrogen fixation is applied to to, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 2,
+    "estimated_cost_usd": 26140,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 155921016,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 27,
+    "economic_value_usd": 12473681280000
+  },
+  "confidence": 0.46457244173379175,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

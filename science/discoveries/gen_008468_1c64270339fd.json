@@ -1,0 +1,32 @@
+{
+  "id": "1c64270339fd",
+  "generation": 8468,
+  "created_at": "2026-03-01T05:38:53.857963",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "Microbiome modulation via targeted bacteriophage therapy may resolve What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 23,
+    "estimated_cost_usd": 798901,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8625222,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 11,
+    "economic_value_usd": 86252220000
+  },
+  "confidence": 0.689166695568254,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

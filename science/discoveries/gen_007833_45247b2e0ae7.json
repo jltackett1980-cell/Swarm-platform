@@ -1,0 +1,32 @@
+{
+  "id": "45247b2e0ae7",
+  "generation": 7833,
+  "created_at": "2026-03-01T05:36:57.991038",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "The key to How to store solar energy at grid scale without chemical battery degradation? is Plasma confinement via magnetic mirror geometry \u2014 specifically Plasma confinement via \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 6,
+    "estimated_cost_usd": 116227,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 696229574,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 6,
+    "economic_value_usd": 55698365920000
+  },
+  "confidence": 0.7934217374115509,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

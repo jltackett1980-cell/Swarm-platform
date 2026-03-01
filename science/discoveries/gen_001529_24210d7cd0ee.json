@@ -1,0 +1,32 @@
+{
+  "id": "24210d7cd0ee",
+  "generation": 1529,
+  "created_at": "2026-03-01T05:25:29.326221",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "If Deep brain stimulation of subthalamic nucleus is applied to in, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 5,
+    "estimated_cost_usd": 168898,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1645251647,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 20,
+    "economic_value_usd": 115167615290000
+  },
+  "confidence": 0.569542253259505,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

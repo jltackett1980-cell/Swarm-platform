@@ -1,0 +1,32 @@
+{
+  "id": "5696cc24e9bc",
+  "generation": 8930,
+  "created_at": "2026-03-01T05:40:47.590986",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "The key to How are long-term memories physically encoded in neural tissue? is Default mode network connectivity measurement via fMRI \u2014 specifically Default mode network \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 28,
+    "estimated_cost_usd": 881001,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2228374013,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 5,
+    "economic_value_usd": 89134960520000
+  },
+  "confidence": 0.5593831172818553,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

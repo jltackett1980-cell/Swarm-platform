@@ -1,0 +1,32 @@
+{
+  "id": "33abcbaad707",
+  "generation": 9087,
+  "created_at": "2026-03-01T05:41:23.402827",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "Why do all animals sleep \u2014 what is the essential biological function? remains unsolved because previous research missed the role of BDNF. BDNF upregulation to promote neurogenesis directly addresses this.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 29,
+    "estimated_cost_usd": 956578,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2662670695,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 13,
+    "economic_value_usd": 26626706950000
+  },
+  "confidence": 0.5048588353295612,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

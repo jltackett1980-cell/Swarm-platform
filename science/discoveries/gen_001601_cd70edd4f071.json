@@ -1,0 +1,32 @@
+{
+  "id": "cd70edd4f071",
+  "generation": 1601,
+  "created_at": "2026-03-01T05:25:31.620925",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "The key to What substrate allows silicon-level performance in fully flexible electronics? is Metal-organic framework with specific pore geometry \u2014 specifically Metal-organic framework with \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 11,
+    "estimated_cost_usd": 153819,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 207471780,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 29,
+    "economic_value_usd": 10373589000000
+  },
+  "confidence": 0.5019210847902374,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

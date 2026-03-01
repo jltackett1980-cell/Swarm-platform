@@ -1,0 +1,32 @@
+{
+  "id": "12a564331570",
+  "generation": 2379,
+  "created_at": "2026-03-01T05:26:05.804342",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "Combining Epigenetic methylation/demethylation of regulatory region with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 7,
+    "estimated_cost_usd": 264961,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1540634876,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 11,
+    "economic_value_usd": 15406348760000
+  },
+  "confidence": 0.7838861314952875,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

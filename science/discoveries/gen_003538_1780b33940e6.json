@@ -1,0 +1,32 @@
+{
+  "id": "1780b33940e6",
+  "generation": 3538,
+  "created_at": "2026-03-01T05:27:17.065126",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Telomerase activation/inhibition in target cells may resolve Why do amyloid plaques form in Alzheimer's and can they be cleared? by blocking at the molecular level.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 35,
+    "estimated_cost_usd": 1716240,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 27383816,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 13,
+    "economic_value_usd": 1916867120000
+  },
+  "confidence": 0.7918516145974195,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

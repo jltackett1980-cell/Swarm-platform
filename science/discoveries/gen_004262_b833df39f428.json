@@ -1,0 +1,32 @@
+{
+  "id": "b833df39f428",
+  "generation": 4262,
+  "created_at": "2026-03-01T05:28:24.543833",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "The key to How to engineer materials that autonomously repair microcracks before failure? is Aerogel porosity for thermal/acoustic insulation \u2014 specifically Aerogel porosity for \u2014 which would help 1,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 3,
+    "estimated_cost_usd": 43112,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 183010661,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 18,
+    "economic_value_usd": 1830106610000
+  },
+  "confidence": 0.6068428692818226,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

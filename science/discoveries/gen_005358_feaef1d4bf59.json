@@ -1,0 +1,32 @@
+{
+  "id": "feaef1d4bf59",
+  "generation": 5358,
+  "created_at": "2026-03-01T05:30:28.567395",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "The key to Can superconductivity be achieved at room temperature \u2014 what material structure? is Topological insulator surface state conduction \u2014 specifically Topological insulator surface \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 1,
+    "estimated_cost_usd": 19520,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2625163388,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 25,
+    "economic_value_usd": 26251633880000
+  },
+  "confidence": 0.4132406720501627,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

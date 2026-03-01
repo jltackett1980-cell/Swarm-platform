@@ -1,0 +1,32 @@
+{
+  "id": "177808650261",
+  "generation": 6208,
+  "created_at": "2026-03-01T05:32:18.644553",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "BDNF upregulation to promote neurogenesis may resolve Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? by activating at the systems level.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 3,
+    "estimated_cost_usd": 95756,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11258259,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 24,
+    "economic_value_usd": 112582590000
+  },
+  "confidence": 0.6937367118483235,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "f3649d255bb3",
+  "generation": 9252,
+  "created_at": "2026-03-01T05:42:02.766675",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "Why do all animals sleep \u2014 what is the essential biological function? remains unsolved because previous research missed the role of Sleep-dependent. Sleep-dependent memory consolidation in hippocampus directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 20,
+    "estimated_cost_usd": 531143,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3486373368,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 9,
+    "economic_value_usd": 174318668400000
+  },
+  "confidence": 0.5856847473125444,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

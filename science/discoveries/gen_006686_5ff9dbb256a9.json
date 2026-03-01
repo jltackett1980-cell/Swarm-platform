@@ -1,0 +1,32 @@
+{
+  "id": "5ff9dbb256a9",
+  "generation": 6686,
+  "created_at": "2026-03-01T05:33:31.512225",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "Combining Dopamine/serotonin reuptake inhibition with specificity with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 19,
+    "estimated_cost_usd": 500387,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 14007582,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 15,
+    "economic_value_usd": 560303280000
+  },
+  "confidence": 0.6219764264730506,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

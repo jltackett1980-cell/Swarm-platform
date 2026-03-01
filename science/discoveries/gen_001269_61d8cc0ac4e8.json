@@ -1,0 +1,32 @@
+{
+  "id": "61d8cc0ac4e8",
+  "generation": 1269,
+  "created_at": "2026-03-01T05:25:21.897587",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "If Ketamine-like NMDA antagonism without dissociation is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 35,
+    "estimated_cost_usd": 1102743,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11893773,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 6,
+    "economic_value_usd": 832564110000
+  },
+  "confidence": 0.4328072061754848,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

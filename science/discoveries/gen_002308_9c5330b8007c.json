@@ -1,0 +1,32 @@
+{
+  "id": "9c5330b8007c",
+  "generation": 2308,
+  "created_at": "2026-03-01T05:26:02.078537",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Optical rectenna for direct photon-to-electron conversion may resolve Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 4,
+    "estimated_cost_usd": 87870,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 286658919,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 10,
+    "economic_value_usd": 20066124330000
+  },
+  "confidence": 0.31977570702686864,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "783ca58acee8",
+  "generation": 5870,
+  "created_at": "2026-03-01T05:31:35.687855",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "The key to What is the primary molecular cause of biological aging \u2014 can it be slowed? is Mitochondrial membrane potential modulation \u2014 specifically Mitochondrial membrane potential \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 4,
+    "estimated_cost_usd": 135463,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1666363455,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 28,
+    "economic_value_usd": 49990903650000
+  },
+  "confidence": 0.6176767126459619,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

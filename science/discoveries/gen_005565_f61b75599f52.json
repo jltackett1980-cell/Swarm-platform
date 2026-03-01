@@ -1,0 +1,32 @@
+{
+  "id": "f61b75599f52",
+  "generation": 5565,
+  "created_at": "2026-03-01T05:30:52.615337",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "The key to What material is biocompatible, conductive, and flexible enough for long-term brain implants? is Atomic layer deposition of conformal coating \u2014 specifically Atomic layer deposition \u2014 which would help 5,400,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 19,
+    "estimated_cost_usd": 270769,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2255500,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 29,
+    "economic_value_usd": 135330000000
+  },
+  "confidence": 0.5924299962398929,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "e37ffaa2ae33",
+  "generation": 3324,
+  "created_at": "2026-03-01T05:27:00.387675",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Resonant inductive coupling for wireless power",
+  "hypothesis": "The key to How to store solar energy at grid scale without chemical battery degradation? is Resonant inductive coupling for wireless power \u2014 specifically Resonant inductive coupling \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 11,
+    "estimated_cost_usd": 225055,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 407902437,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 22,
+    "economic_value_usd": 28553170590000
+  },
+  "confidence": 0.516323453073868,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

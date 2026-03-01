@@ -1,0 +1,32 @@
+{
+  "id": "ae6a70895444",
+  "generation": 1496,
+  "created_at": "2026-03-01T05:25:28.310002",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "If Optogenetic control of specific neuron populations is applied to chemistry, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 17,
+    "estimated_cost_usd": 605540,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 78941330,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 19,
+    "economic_value_usd": 4736479800000
+  },
+  "confidence": 0.7421522862060257,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

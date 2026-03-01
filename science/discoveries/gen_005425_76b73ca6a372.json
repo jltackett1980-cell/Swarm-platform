@@ -1,0 +1,32 @@
+{
+  "id": "76b73ca6a372",
+  "generation": 5425,
+  "created_at": "2026-03-01T05:30:35.576272",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "Synaptic plasticity modulation via NMDA receptor may resolve Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? by activating at the systems level.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 34,
+    "estimated_cost_usd": 1046787,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7273064,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 26,
+    "economic_value_usd": 218191920000
+  },
+  "confidence": 0.7709407311348437,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

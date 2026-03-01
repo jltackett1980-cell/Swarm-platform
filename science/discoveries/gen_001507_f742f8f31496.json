@@ -1,0 +1,32 @@
+{
+  "id": "f742f8f31496",
+  "generation": 1507,
+  "created_at": "2026-03-01T05:25:28.645790",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "The key to Can addiction-related neural pathway changes be reversed without withdrawal? is Neuroinflammation reduction via microglial targeting \u2014 specifically Neuroinflammation reduction via \u2014 which would help 21,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 14,
+    "estimated_cost_usd": 348435,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9372534,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 17,
+    "economic_value_usd": 281176020000
+  },
+  "confidence": 0.7683444677008536,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

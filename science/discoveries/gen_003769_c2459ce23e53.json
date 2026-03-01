@@ -1,0 +1,32 @@
+{
+  "id": "c2459ce23e53",
+  "generation": 3769,
+  "created_at": "2026-03-01T05:27:37.318498",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "Reservoir computing with physical substrate may resolve Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved by activating at the systems level.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 7,
+    "estimated_cost_usd": 28788,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3023780747,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 18,
+    "economic_value_usd": 151189037350000
+  },
+  "confidence": 0.38004082983736,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

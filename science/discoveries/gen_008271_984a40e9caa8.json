@@ -1,0 +1,32 @@
+{
+  "id": "984a40e9caa8",
+  "generation": 8271,
+  "created_at": "2026-03-01T05:38:15.253018",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "The key to How to predict drug-receptor binding affinity from molecular structure without wet lab? is Federated learning without data centralization \u2014 specifically Federated learning without \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 3,
+    "estimated_cost_usd": 11626,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1537481228,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 16,
+    "economic_value_usd": 76874061400000
+  },
+  "confidence": 0.33766991619866144,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

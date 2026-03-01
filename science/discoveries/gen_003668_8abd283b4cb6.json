@@ -1,0 +1,32 @@
+{
+  "id": "8abd283b4cb6",
+  "generation": 3668,
+  "created_at": "2026-03-01T05:27:28.251695",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "Cortical spreading depression mechanism in migraine may resolve Can addiction-related neural pathway changes be reversed without withdrawal? by activating at the systems level.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 9,
+    "estimated_cost_usd": 285447,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11021755,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 22,
+    "economic_value_usd": 551087750000
+  },
+  "confidence": 0.4260801128221253,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

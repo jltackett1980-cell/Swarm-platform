@@ -1,0 +1,32 @@
+{
+  "id": "f42126a81c8c",
+  "generation": 7184,
+  "created_at": "2026-03-01T05:34:56.510034",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "The key to What is the primary molecular cause of biological aging \u2014 can it be slowed? is Photodynamic therapy targeting specific cell receptors \u2014 specifically Photodynamic therapy targeting \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 28,
+    "estimated_cost_usd": 1013863,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2389373733,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 10,
+    "economic_value_usd": 191149898640000
+  },
+  "confidence": 0.7954807215037427,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2963f916753e",
+  "generation": 4230,
+  "created_at": "2026-03-01T05:28:21.270024",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Electrospun nanofiber scaffold for tissue engineering \u2014 specifically Electrospun nanofiber scaffold \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 27,
+    "estimated_cost_usd": 478586,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 284009774,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 8,
+    "economic_value_usd": 25560879660000
+  },
+  "confidence": 0.7546265442878465,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

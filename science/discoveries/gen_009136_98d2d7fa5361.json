@@ -1,0 +1,32 @@
+{
+  "id": "98d2d7fa5361",
+  "generation": 9136,
+  "created_at": "2026-03-01T05:41:35.847161",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Lattice-based cryptography for quantum resistance",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of Lattice-based. Lattice-based cryptography for quantum resistance directly addresses this.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 8,
+    "estimated_cost_usd": 38619,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 986470499,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 19,
+    "economic_value_usd": 78917639920000
+  },
+  "confidence": 0.6648469268958002,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

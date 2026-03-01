@@ -1,0 +1,32 @@
+{
+  "id": "ec6bdd7f0558",
+  "generation": 7042,
+  "created_at": "2026-03-01T05:34:31.542597",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "The key to What is the primary molecular cause of biological aging \u2014 can it be slowed? is Small molecule inhibitor of enzyme active site \u2014 specifically Small molecule inhibitor \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 36,
+    "estimated_cost_usd": 1624922,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1957735887,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 16,
+    "economic_value_usd": 19577358870000
+  },
+  "confidence": 0.5014705557770647,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

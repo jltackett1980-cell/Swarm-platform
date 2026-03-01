@@ -1,0 +1,32 @@
+{
+  "id": "4315b0350e9b",
+  "generation": 5681,
+  "created_at": "2026-03-01T05:31:08.701277",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "The key to How does central sensitization maintain chronic pain without tissue damage? is Fear memory reconsolidation interference via timing \u2014 specifically Fear memory reconsolidation \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 31,
+    "estimated_cost_usd": 1001304,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 25449869,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 24,
+    "economic_value_usd": 1017994760000
+  },
+  "confidence": 0.6569103011059241,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

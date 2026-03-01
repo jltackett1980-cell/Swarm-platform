@@ -1,0 +1,32 @@
+{
+  "id": "2d5a08917c52",
+  "generation": 1493,
+  "created_at": "2026-03-01T05:25:28.219163",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "If Bioelectrochemical system for pollutant conversion is applied to to, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 8,
+    "estimated_cost_usd": 103403,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 174933403,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 6,
+    "economic_value_usd": 10496004180000
+  },
+  "confidence": 0.6576534868279724,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

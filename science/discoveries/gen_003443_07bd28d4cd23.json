@@ -1,0 +1,32 @@
+{
+  "id": "07bd28d4cd23",
+  "generation": 3443,
+  "created_at": "2026-03-01T05:27:09.336708",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "What causes normal proteins to misfold into prions and spread through tissue? remains unsolved because previous research missed the role of Small. Small molecule inhibitor of enzyme active site directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 14,
+    "estimated_cost_usd": 548724,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 409280,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 23,
+    "economic_value_usd": 20464000000
+  },
+  "confidence": 0.47035501373192484,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

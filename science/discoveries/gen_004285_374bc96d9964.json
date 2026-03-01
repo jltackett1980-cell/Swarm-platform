@@ -1,0 +1,32 @@
+{
+  "id": "374bc96d9964",
+  "generation": 4285,
+  "created_at": "2026-03-01T05:28:26.897231",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "Combining Stem cell differentiation into target tissue type with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 24,
+    "estimated_cost_usd": 860493,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 489,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 35857191,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 16,
+    "economic_value_usd": 3227147190000
+  },
+  "confidence": 0.5389194302838731,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

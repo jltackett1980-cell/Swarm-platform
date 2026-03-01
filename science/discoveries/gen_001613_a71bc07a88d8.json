@@ -1,0 +1,32 @@
+{
+  "id": "a71bc07a88d8",
+  "generation": 1613,
+  "created_at": "2026-03-01T05:25:32.014690",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "The key to What neural connectivity differences cause autism spectrum characteristics? is Ketamine-like NMDA antagonism without dissociation \u2014 specifically Ketamine-like NMDA antagonism \u2014 which would help 75,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 26,
+    "estimated_cost_usd": 628837,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 59304853,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 10,
+    "economic_value_usd": 5337436770000
+  },
+  "confidence": 0.5634948418619639,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

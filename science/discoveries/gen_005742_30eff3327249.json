@@ -1,0 +1,32 @@
+{
+  "id": "30eff3327249",
+  "generation": 5742,
+  "created_at": "2026-03-01T05:31:17.398372",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "The key to Why do all animals sleep \u2014 what is the essential biological function? is Vagus nerve stimulation modulating brain-gut axis \u2014 specifically Vagus nerve stimulation \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 6,
+    "estimated_cost_usd": 203037,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2017736825,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 6,
+    "economic_value_usd": 141241577750000
+  },
+  "confidence": 0.3422723689830741,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

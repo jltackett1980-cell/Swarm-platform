@@ -1,0 +1,32 @@
+{
+  "id": "d15e6109af22",
+  "generation": 2086,
+  "created_at": "2026-03-01T05:25:50.511329",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "If Homomorphic encryption for private computation is applied to vs, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 4,
+    "estimated_cost_usd": 16953,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3082502789,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 14,
+    "economic_value_usd": 215775195230000
+  },
+  "confidence": 0.42693666858004264,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

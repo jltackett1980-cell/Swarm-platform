@@ -1,0 +1,32 @@
+{
+  "id": "12ef073b9312",
+  "generation": 4183,
+  "created_at": "2026-03-01T05:28:16.637564",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Enzymatic. Enzymatic depolymerization of specific polymer directly addresses this.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 5,
+    "estimated_cost_usd": 50441,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 67691548,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 19,
+    "economic_value_usd": 1353830960000
+  },
+  "confidence": 0.6661916510575474,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

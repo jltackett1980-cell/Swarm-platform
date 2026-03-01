@@ -1,0 +1,32 @@
+{
+  "id": "ecd419c73606",
+  "generation": 7281,
+  "created_at": "2026-03-01T05:35:13.912254",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "If Viral vector delivery of therapeutic gene is applied to or, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 33,
+    "estimated_cost_usd": 1223982,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9458237,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 15,
+    "economic_value_usd": 94582370000
+  },
+  "confidence": 0.7298373869287355,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "197dcac09fe3",
+  "generation": 4990,
+  "created_at": "2026-03-01T05:29:43.713653",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "Monte Carlo tree search with learned heuristics may resolve Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved by activating at the systems level.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 1,
+    "estimated_cost_usd": 4662,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1461006654,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 27,
+    "economic_value_usd": 116880532320000
+  },
+  "confidence": 0.7672591601100052,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

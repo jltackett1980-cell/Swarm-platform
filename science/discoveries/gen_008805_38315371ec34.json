@@ -1,0 +1,32 @@
+{
+  "id": "38315371ec34",
+  "generation": 8805,
+  "created_at": "2026-03-01T05:40:13.393686",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "The key to How to restore depleted agricultural soil microbiome rapidly at scale? is Photocatalytic oxidation under visible light \u2014 specifically Photocatalytic oxidation under \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 7,
+    "estimated_cost_usd": 96639,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 188114322,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 13,
+    "economic_value_usd": 5643429660000
+  },
+  "confidence": 0.5201394464370783,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

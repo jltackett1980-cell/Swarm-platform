@@ -1,0 +1,32 @@
+{
+  "id": "1db593b8f494",
+  "generation": 8582,
+  "created_at": "2026-03-01T05:39:18.483676",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "The key to What is the primary molecular cause of biological aging \u2014 can it be slowed? is Epigenetic methylation/demethylation of regulatory region \u2014 specifically Epigenetic methylation/demethylation of \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 20,
+    "estimated_cost_usd": 961605,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 805756026,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 13,
+    "economic_value_usd": 16115120520000
+  },
+  "confidence": 0.6609567982278655,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

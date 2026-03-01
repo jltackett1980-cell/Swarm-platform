@@ -1,0 +1,32 @@
+{
+  "id": "6e52bc0a66c1",
+  "generation": 2162,
+  "created_at": "2026-03-01T05:25:54.309835",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "If Autophagy activation to clear misfolded proteins is applied to it, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 18,
+    "estimated_cost_usd": 643494,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 424,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1834733483,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 30,
+    "economic_value_usd": 36694669660000
+  },
+  "confidence": 0.3399299265973482,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "5ddc99448461",
+  "generation": 1587,
+  "created_at": "2026-03-01T05:25:31.164855",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "The key to Why do perovskite solar cells degrade \u2014 what material instability causes it? is Biomimetic surface structure (lotus, shark skin, gecko) \u2014 specifically Biomimetic surface structure \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 16,
+    "estimated_cost_usd": 297801,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1269164103,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 23,
+    "economic_value_usd": 50766564120000
+  },
+  "confidence": 0.775349330951528,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

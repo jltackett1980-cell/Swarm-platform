@@ -1,0 +1,32 @@
+{
+  "id": "c8c0d81b6f6c",
+  "generation": 5690,
+  "created_at": "2026-03-01T05:31:09.974874",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "If Autophagy activation to clear misfolded proteins is applied to or, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 10,
+    "estimated_cost_usd": 420075,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7314470,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 7,
+    "economic_value_usd": 512012900000
+  },
+  "confidence": 0.37589180656517474,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

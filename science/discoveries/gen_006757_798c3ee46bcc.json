@@ -1,0 +1,32 @@
+{
+  "id": "798c3ee46bcc",
+  "generation": 6757,
+  "created_at": "2026-03-01T05:33:43.258620",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "Why does the immune system attack the body's own tissue in autoimmune disease? remains unsolved because previous research missed the role of CRISPR. CRISPR gene editing targeting specific pathway directly addresses this.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 20,
+    "estimated_cost_usd": 908412,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 19585008,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 8,
+    "economic_value_usd": 391700160000
+  },
+  "confidence": 0.49294747130581457,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

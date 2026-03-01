@@ -1,0 +1,32 @@
+{
+  "id": "e3e4b55db9bc",
+  "generation": 8613,
+  "created_at": "2026-03-01T05:39:25.163041",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "Optogenetic control of specific neuron populations may resolve How are trauma and stress responses inherited epigenetically across generations? by activating at the molecular level.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 22,
+    "estimated_cost_usd": 1062907,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 51807898,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 15,
+    "economic_value_usd": 4662710820000
+  },
+  "confidence": 0.5581932370327438,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

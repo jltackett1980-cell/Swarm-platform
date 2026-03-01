@@ -1,0 +1,32 @@
+{
+  "id": "b06b2c382f68",
+  "generation": 4656,
+  "created_at": "2026-03-01T05:29:05.743220",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "The key to Why does the immune system attack the body's own tissue in autoimmune disease? is Epigenetic methylation/demethylation of regulatory region \u2014 specifically Epigenetic methylation/demethylation of \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 3,
+    "estimated_cost_usd": 111851,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 37842315,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 24,
+    "economic_value_usd": 2648962050000
+  },
+  "confidence": 0.7648319668554233,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

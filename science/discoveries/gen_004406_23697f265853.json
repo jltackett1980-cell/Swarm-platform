@@ -1,0 +1,32 @@
+{
+  "id": "23697f265853",
+  "generation": 4406,
+  "created_at": "2026-03-01T05:28:38.937299",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "Combining Monoclonal antibody blocking protein-protein interaction with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 6,
+    "estimated_cost_usd": 202128,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 944694,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 11,
+    "economic_value_usd": 56681640000
+  },
+  "confidence": 0.6843951053975281,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

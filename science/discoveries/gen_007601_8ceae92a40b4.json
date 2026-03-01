@@ -1,0 +1,32 @@
+{
+  "id": "8ceae92a40b4",
+  "generation": 7601,
+  "created_at": "2026-03-01T05:36:13.475709",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "Why do amyloid plaques form in Alzheimer's and can they be cleared? remains unsolved because previous research missed the role of Nanoparticle. Nanoparticle delivery to cross blood-brain barrier directly addresses this.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 13,
+    "estimated_cost_usd": 530825,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 360,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 43667339,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 9,
+    "economic_value_usd": 2183366950000
+  },
+  "confidence": 0.7607810862497294,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

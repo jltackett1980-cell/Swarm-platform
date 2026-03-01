@@ -1,0 +1,32 @@
+{
+  "id": "0239f708f6c9",
+  "generation": 7462,
+  "created_at": "2026-03-01T05:35:47.218860",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "If Rhizobium inoculation for nitrogen fixation is applied to to, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 7,
+    "estimated_cost_usd": 86921,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 110367773,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 22,
+    "economic_value_usd": 9933099570000
+  },
+  "confidence": 0.594891583251014,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

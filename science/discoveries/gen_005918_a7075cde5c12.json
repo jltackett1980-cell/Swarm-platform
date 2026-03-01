@@ -1,0 +1,32 @@
+{
+  "id": "a7075cde5c12",
+  "generation": 5918,
+  "created_at": "2026-03-01T05:31:42.748151",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "Combining Reservoir computing with physical substrate with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 7,
+    "estimated_cost_usd": 32886,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Theoretical complexity proof with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1508857501,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 5,
+    "economic_value_usd": 135797175090000
+  },
+  "confidence": 0.465720439960137,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

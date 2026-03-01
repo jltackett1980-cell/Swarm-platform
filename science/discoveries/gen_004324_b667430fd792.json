@@ -1,0 +1,32 @@
+{
+  "id": "b667430fd792",
+  "generation": 4324,
+  "created_at": "2026-03-01T05:28:30.706357",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "If Viral vector delivery of therapeutic gene is applied to it, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 6,
+    "estimated_cost_usd": 202653,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1807999286,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 5,
+    "economic_value_usd": 54239978580000
+  },
+  "confidence": 0.6274726505739245,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

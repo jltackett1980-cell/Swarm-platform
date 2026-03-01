@@ -1,0 +1,32 @@
+{
+  "id": "5340eacaf8df",
+  "generation": 6210,
+  "created_at": "2026-03-01T05:32:18.890050",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "Stem cell differentiation into target tissue type may resolve What is the primary molecular cause of biological aging \u2014 can it be slowed? by activating at the molecular level.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 7,
+    "estimated_cost_usd": 288758,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3091990448,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 8,
+    "economic_value_usd": 61839808960000
+  },
+  "confidence": 0.661881876376972,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

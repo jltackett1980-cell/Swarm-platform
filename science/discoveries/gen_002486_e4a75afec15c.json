@@ -1,0 +1,32 @@
+{
+  "id": "e4a75afec15c",
+  "generation": 2486,
+  "created_at": "2026-03-01T05:26:11.221971",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "If Neuroinflammation reduction via microglial targeting is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 3,
+    "estimated_cost_usd": 102664,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4587959,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 11,
+    "economic_value_usd": 367036720000
+  },
+  "confidence": 0.30149607158859987,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

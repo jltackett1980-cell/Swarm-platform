@@ -1,0 +1,32 @@
+{
+  "id": "13f283ff1026",
+  "generation": 7916,
+  "created_at": "2026-03-01T05:37:14.196618",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "The key to How to engineer materials that autonomously repair microcracks before failure? is Hydrogel swelling/shrinking response \u2014 specifically Hydrogel swelling/shrinking response \u2014 which would help 1,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 15,
+    "estimated_cost_usd": 245603,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 301629972,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 14,
+    "economic_value_usd": 9048899160000
+  },
+  "confidence": 0.7601561415837048,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

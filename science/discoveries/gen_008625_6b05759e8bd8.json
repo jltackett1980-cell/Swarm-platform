@@ -1,0 +1,32 @@
+{
+  "id": "6b05759e8bd8",
+  "generation": 8625,
+  "created_at": "2026-03-01T05:39:27.739645",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "Combining Optogenetic control of specific neuron populations with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 12,
+    "estimated_cost_usd": 430417,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 64741910,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 19,
+    "economic_value_usd": 647419100000
+  },
+  "confidence": 0.6234846871873658,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

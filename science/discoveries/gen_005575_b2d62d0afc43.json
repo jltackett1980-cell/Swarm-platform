@@ -1,0 +1,32 @@
+{
+  "id": "b2d62d0afc43",
+  "generation": 5575,
+  "created_at": "2026-03-01T05:30:53.989198",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "If Mitochondrial membrane potential modulation is applied to chemistry, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 22,
+    "estimated_cost_usd": 954952,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 144546229,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 11,
+    "economic_value_usd": 10118236030000
+  },
+  "confidence": 0.5918639916158706,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

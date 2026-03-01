@@ -1,0 +1,32 @@
+{
+  "id": "050067e15e5e",
+  "generation": 5344,
+  "created_at": "2026-03-01T05:30:27.145089",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "Combining Homomorphic encryption for private computation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 8,
+    "estimated_cost_usd": 35648,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3929486598,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 5,
+    "economic_value_usd": 39294865980000
+  },
+  "confidence": 0.3420604599231047,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

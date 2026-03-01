@@ -1,0 +1,32 @@
+{
+  "id": "f169f6c402f3",
+  "generation": 6093,
+  "created_at": "2026-03-01T05:32:04.687624",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "The key to What causes normal proteins to misfold into prions and spread through tissue? is Mitochondrial membrane potential modulation \u2014 specifically Mitochondrial membrane potential \u2014 which would help 1,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 5,
+    "estimated_cost_usd": 181687,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 525532,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 22,
+    "economic_value_usd": 36787240000
+  },
+  "confidence": 0.7115996230186601,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

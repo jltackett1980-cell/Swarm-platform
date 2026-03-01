@@ -1,0 +1,32 @@
+{
+  "id": "52f54ec4d676",
+  "generation": 8878,
+  "created_at": "2026-03-01T05:40:33.295796",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "The key to How to predict drug-receptor binding affinity from molecular structure without wet lab? is Monte Carlo tree search with learned heuristics \u2014 specifically Monte Carlo tree \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 3,
+    "estimated_cost_usd": 13515,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1910640961,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 23,
+    "economic_value_usd": 171957686490000
+  },
+  "confidence": 0.6718649310436764,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

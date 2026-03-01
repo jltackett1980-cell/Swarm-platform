@@ -1,0 +1,32 @@
+{
+  "id": "ef96f17d6b69",
+  "generation": 5206,
+  "created_at": "2026-03-01T05:30:10.175545",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of Federated. Federated learning without data centralization directly addresses this.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 2,
+    "estimated_cost_usd": 9122,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Security audit with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1830160872,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 16,
+    "economic_value_usd": 146412869760000
+  },
+  "confidence": 0.5579525693671333,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

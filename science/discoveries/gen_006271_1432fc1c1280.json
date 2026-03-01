@@ -1,0 +1,32 @@
+{
+  "id": "1432fc1c1280",
+  "generation": 6271,
+  "created_at": "2026-03-01T05:32:26.397201",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "The key to How does gut microbiome composition directly affect brain chemistry and mood? is Monoclonal antibody blocking protein-protein interaction \u2014 specifically Monoclonal antibody blocking \u2014 which would help 300,000,000 people affected.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 11,
+    "estimated_cost_usd": 494692,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 122926528,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 26,
+    "economic_value_usd": 9834122240000
+  },
+  "confidence": 0.7865128938401551,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

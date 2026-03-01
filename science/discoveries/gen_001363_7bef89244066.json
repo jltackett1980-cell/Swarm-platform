@@ -1,0 +1,32 @@
+{
+  "id": "7bef89244066",
+  "generation": 1363,
+  "created_at": "2026-03-01T05:25:24.424401",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "If Telomerase activation/inhibition in target cells is applied to it, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 29,
+    "estimated_cost_usd": 1409247,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2435154446,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 21,
+    "economic_value_usd": 48703088920000
+  },
+  "confidence": 0.7271359050773474,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

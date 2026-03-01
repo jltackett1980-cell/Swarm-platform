@@ -1,0 +1,32 @@
+{
+  "id": "908b3effc6ab",
+  "generation": 2096,
+  "created_at": "2026-03-01T05:25:51.003632",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "How does central sensitization maintain chronic pain without tissue damage? remains unsolved because previous research missed the role of Vagus. Vagus nerve stimulation modulating brain-gut axis directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 36,
+    "estimated_cost_usd": 1171567,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 33888255,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 23,
+    "economic_value_usd": 1016647650000
+  },
+  "confidence": 0.6241399887198578,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

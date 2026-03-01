@@ -1,0 +1,32 @@
+{
+  "id": "4a525239977b",
+  "generation": 3042,
+  "created_at": "2026-03-01T05:26:43.119162",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "The key to What material stores hydrogen fuel at high density without safety risk? is Shape memory alloy phase transition \u2014 specifically Shape memory alloy \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 27,
+    "estimated_cost_usd": 475479,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 947717114,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 25,
+    "economic_value_usd": 56863026840000
+  },
+  "confidence": 0.7665440490547877,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

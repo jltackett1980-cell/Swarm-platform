@@ -1,0 +1,32 @@
+{
+  "id": "34ad0481e004",
+  "generation": 4479,
+  "created_at": "2026-03-01T05:28:46.224550",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "Combining Glial cell activation/suppression in target brain region with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 19,
+    "estimated_cost_usd": 663504,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 928795317,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 9,
+    "economic_value_usd": 83591578530000
+  },
+  "confidence": 0.7359893182645059,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

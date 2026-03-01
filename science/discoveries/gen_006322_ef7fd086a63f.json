@@ -1,0 +1,32 @@
+{
+  "id": "ef7fd086a63f",
+  "generation": 6322,
+  "created_at": "2026-03-01T05:32:33.322000",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "The key to Can superconductivity be achieved at room temperature \u2014 what material structure? is Optical rectenna for direct photon-to-electron conversion \u2014 specifically Optical rectenna for \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 2,
+    "estimated_cost_usd": 39719,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3871154428,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 9,
+    "economic_value_usd": 38711544280000
+  },
+  "confidence": 0.4062767976259464,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

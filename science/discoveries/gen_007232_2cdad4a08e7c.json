@@ -1,0 +1,32 @@
+{
+  "id": "2cdad4a08e7c",
+  "generation": 7232,
+  "created_at": "2026-03-01T05:35:05.096430",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified remains unsolved because previous research missed the role of Microbiome. Microbiome modulation via targeted bacteriophage therapy directly addresses this.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 17,
+    "estimated_cost_usd": 626879,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 10835041,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 18,
+    "economic_value_usd": 433401640000
+  },
+  "confidence": 0.5305619240946867,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

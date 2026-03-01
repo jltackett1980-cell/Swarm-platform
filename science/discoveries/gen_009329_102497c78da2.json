@@ -1,0 +1,32 @@
+{
+  "id": "102497c78da2",
+  "generation": 9329,
+  "created_at": "2026-03-01T05:42:20.817264",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "Combining Bioelectrochemical system for pollutant conversion with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 10,
+    "estimated_cost_usd": 101345,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 226858887,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 17,
+    "economic_value_usd": 20417299830000
+  },
+  "confidence": 0.694303413420684,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ab761c0831ab",
+  "generation": 1868,
+  "created_at": "2026-03-01T05:25:41.001759",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Lattice-based cryptography for quantum resistance",
+  "hypothesis": "The key to What encryption survives quantum computer attacks \u2014 post-quantum cryptography is Lattice-based cryptography for quantum resistance \u2014 specifically Lattice-based cryptography for \u2014 which would help 4,000,000,000 people affected.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 5,
+    "estimated_cost_usd": 23412,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Theoretical complexity proof with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1382022067,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 12,
+    "economic_value_usd": 96741544690000
+  },
+  "confidence": 0.38926971446454905,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

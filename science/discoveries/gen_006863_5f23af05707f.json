@@ -1,0 +1,32 @@
+{
+  "id": "5f23af05707f",
+  "generation": 6863,
+  "created_at": "2026-03-01T05:34:01.002722",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "The key to What synthetic material perfectly mimics bone's mechanical and biological properties? is Hydrogel swelling/shrinking response \u2014 specifically Hydrogel swelling/shrinking response \u2014 which would help 10,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 13,
+    "estimated_cost_usd": 248933,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4292021,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 19,
+    "economic_value_usd": 128760630000
+  },
+  "confidence": 0.43322249171612504,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

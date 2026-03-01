@@ -1,0 +1,32 @@
+{
+  "id": "21125cb52190",
+  "generation": 6881,
+  "created_at": "2026-03-01T05:34:04.046437",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Optical neural network for speed-of-light inference",
+  "hypothesis": "The key to How to predict drug-receptor binding affinity from molecular structure without wet lab? is Optical neural network for speed-of-light inference \u2014 specifically Optical neural network \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 4,
+    "estimated_cost_usd": 19530,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 848394933,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 15,
+    "economic_value_usd": 76355543970000
+  },
+  "confidence": 0.7937658541219161,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

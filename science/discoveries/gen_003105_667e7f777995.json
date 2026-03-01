@@ -1,0 +1,32 @@
+{
+  "id": "667e7f777995",
+  "generation": 3105,
+  "created_at": "2026-03-01T05:26:46.753740",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "The key to What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient is Ketamine-like NMDA antagonism without dissociation \u2014 specifically Ketamine-like NMDA antagonism \u2014 which would help 280,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 6,
+    "estimated_cost_usd": 170990,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 133715542,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 8,
+    "economic_value_usd": 9360087940000
+  },
+  "confidence": 0.4637804398002816,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

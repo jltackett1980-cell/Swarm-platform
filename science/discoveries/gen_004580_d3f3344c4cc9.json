@@ -1,0 +1,32 @@
+{
+  "id": "d3f3344c4cc9",
+  "generation": 4580,
+  "created_at": "2026-03-01T05:28:57.280100",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "What neural connectivity differences cause autism spectrum characteristics? remains unsolved because previous research missed the role of Neuroinflammation. Neuroinflammation reduction via microglial targeting directly addresses this.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 18,
+    "estimated_cost_usd": 552060,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 424,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 57312484,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 7,
+    "economic_value_usd": 1719374520000
+  },
+  "confidence": 0.7515287104680917,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

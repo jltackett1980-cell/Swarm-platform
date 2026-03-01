@@ -1,0 +1,32 @@
+{
+  "id": "fa1f78df7f4f",
+  "generation": 3246,
+  "created_at": "2026-03-01T05:26:55.269778",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "How does gut microbiome composition directly affect brain chemistry and mood? remains unsolved because previous research missed the role of Nanoparticle. Nanoparticle delivery to cross blood-brain barrier directly addresses this.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 22,
+    "estimated_cost_usd": 1048212,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 118520696,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 16,
+    "economic_value_usd": 1185206960000
+  },
+  "confidence": 0.41138527358762145,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

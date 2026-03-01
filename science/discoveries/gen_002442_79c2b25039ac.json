@@ -1,0 +1,32 @@
+{
+  "id": "79c2b25039ac",
+  "generation": 2442,
+  "created_at": "2026-03-01T05:26:08.878654",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "The key to What neural connectivity differences cause autism spectrum characteristics? is Ketamine-like NMDA antagonism without dissociation \u2014 specifically Ketamine-like NMDA antagonism \u2014 which would help 75,000,000 people affected.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 5,
+    "estimated_cost_usd": 164663,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 25627093,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 19,
+    "economic_value_usd": 1537625580000
+  },
+  "confidence": 0.3567704379840615,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

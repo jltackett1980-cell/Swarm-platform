@@ -1,0 +1,32 @@
+{
+  "id": "9cdb5deea59a",
+  "generation": 8465,
+  "created_at": "2026-03-01T05:38:53.340301",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "The key to Can ocean acidification be safely reversed \u2014 what biochemical approach? is Biochar amendment for soil carbon sequestration \u2014 specifically Biochar amendment for \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 5,
+    "estimated_cost_usd": 51050,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 887567891,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 7,
+    "economic_value_usd": 44378394550000
+  },
+  "confidence": 0.5773971167561683,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

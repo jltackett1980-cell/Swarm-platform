@@ -1,0 +1,32 @@
+{
+  "id": "cced38baca9f",
+  "generation": 8294,
+  "created_at": "2026-03-01T05:38:19.052069",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "What is the primary molecular cause of biological aging \u2014 can it be slowed? remains unsolved because previous research missed the role of Nanoparticle. Nanoparticle delivery to cross blood-brain barrier directly addresses this.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 29,
+    "estimated_cost_usd": 1056720,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3626208796,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 5,
+    "economic_value_usd": 290096703680000
+  },
+  "confidence": 0.76515732654201,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

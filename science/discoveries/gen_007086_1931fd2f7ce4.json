@@ -1,0 +1,32 @@
+{
+  "id": "1931fd2f7ce4",
+  "generation": 7086,
+  "created_at": "2026-03-01T05:34:39.184398",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "mRNA therapy to upregulate/downregulate gene expression may resolve What is the primary molecular cause of biological aging \u2014 can it be slowed? by activating at the molecular level.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 31,
+    "estimated_cost_usd": 1423650,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3858758540,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 27,
+    "economic_value_usd": 270113097800000
+  },
+  "confidence": 0.5944001987442602,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

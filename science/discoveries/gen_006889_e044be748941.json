@@ -1,0 +1,32 @@
+{
+  "id": "e044be748941",
+  "generation": 6889,
+  "created_at": "2026-03-01T05:34:05.401774",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Quantum annealing for optimization problems",
+  "hypothesis": "Combining Quantum annealing for optimization problems with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 1,
+    "estimated_cost_usd": 4700,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Theoretical complexity proof with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 839201045,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 10,
+    "economic_value_usd": 33568041800000
+  },
+  "confidence": 0.40802493251181676,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "dd12ba464131",
+  "generation": 1243,
+  "created_at": "2026-03-01T05:25:21.228662",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "The key to Can addiction-related neural pathway changes be reversed without withdrawal? is Fear memory reconsolidation interference via timing \u2014 specifically Fear memory reconsolidation \u2014 which would help 21,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 3,
+    "estimated_cost_usd": 70470,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11189903,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 27,
+    "economic_value_usd": 111899030000
+  },
+  "confidence": 0.6968869480093062,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "7232e5f70d1b",
+  "generation": 3498,
+  "created_at": "2026-03-01T05:27:13.787653",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? remains unsolved because previous research missed the role of Dopamine/serotonin. Dopamine/serotonin reuptake inhibition with specificity directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 36,
+    "estimated_cost_usd": 1200098,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8138487,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 12,
+    "economic_value_usd": 732463830000
+  },
+  "confidence": 0.4560263107621672,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

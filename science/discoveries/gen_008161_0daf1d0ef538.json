@@ -1,0 +1,32 @@
+{
+  "id": "0daf1d0ef538",
+  "generation": 8161,
+  "created_at": "2026-03-01T05:37:57.161128",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost? remains unsolved because previous research missed the role of Federated. Federated learning without data centralization directly addresses this.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 8,
+    "estimated_cost_usd": 29894,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2319130023,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 14,
+    "economic_value_usd": 162339101610000
+  },
+  "confidence": 0.4809199375736706,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

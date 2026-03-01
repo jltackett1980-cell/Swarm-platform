@@ -1,0 +1,32 @@
+{
+  "id": "4a4c061b43f8",
+  "generation": 9128,
+  "created_at": "2026-03-01T05:41:33.999019",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "How does gut microbiome composition directly affect brain chemistry and mood? remains unsolved because previous research missed the role of Mitochondrial. Mitochondrial membrane potential modulation directly addresses this.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 8,
+    "estimated_cost_usd": 382549,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 282,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 32660613,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 13,
+    "economic_value_usd": 2939455170000
+  },
+  "confidence": 0.6333414791615422,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

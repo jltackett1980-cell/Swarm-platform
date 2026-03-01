@@ -1,0 +1,32 @@
+{
+  "id": "24b39e31474f",
+  "generation": 6094,
+  "created_at": "2026-03-01T05:32:04.807490",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "The key to Why do amyloid plaques form in Alzheimer's and can they be cleared? is Autophagy activation to clear misfolded proteins \u2014 specifically Autophagy activation to \u2014 which would help 55,000,000 people affected.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 8,
+    "estimated_cost_usd": 270588,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 282,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 30273524,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 25,
+    "economic_value_usd": 302735240000
+  },
+  "confidence": 0.5546253971940345,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

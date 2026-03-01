@@ -1,0 +1,32 @@
+{
+  "id": "1bfdb2171976",
+  "generation": 3550,
+  "created_at": "2026-03-01T05:27:18.056788",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "The key to Why does quantum superposition collapse \u2014 can decoherence be prevented at scale? is Bose-Einstein condensate at higher temperature \u2014 specifically Bose-Einstein condensate at \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 6,
+    "estimated_cost_usd": 124092,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1428278198,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 18,
+    "economic_value_usd": 42848345940000
+  },
+  "confidence": 0.7642621677635661,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

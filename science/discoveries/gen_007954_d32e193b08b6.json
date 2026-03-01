@@ -1,0 +1,32 @@
+{
+  "id": "d32e193b08b6",
+  "generation": 7954,
+  "created_at": "2026-03-01T05:37:21.654715",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "BDNF upregulation to promote neurogenesis may resolve Why do all animals sleep \u2014 what is the essential biological function? by activating at the systems level.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 6,
+    "estimated_cost_usd": 149287,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1174430450,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 17,
+    "economic_value_usd": 35232913500000
+  },
+  "confidence": 0.3450304442346983,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

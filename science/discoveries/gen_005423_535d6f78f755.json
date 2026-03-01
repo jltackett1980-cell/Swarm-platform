@@ -1,0 +1,32 @@
+{
+  "id": "535d6f78f755",
+  "generation": 5423,
+  "created_at": "2026-03-01T05:30:35.362313",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "The key to What limits adult neuroplasticity \u2014 can those limits be safely removed? is Dopamine/serotonin reuptake inhibition with specificity \u2014 specifically Dopamine/serotonin reuptake inhibition \u2014 which would help 200,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 30,
+    "estimated_cost_usd": 717868,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 78309371,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 7,
+    "economic_value_usd": 4698562260000
+  },
+  "confidence": 0.4324064984773901,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

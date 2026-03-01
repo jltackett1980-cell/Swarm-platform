@@ -1,0 +1,32 @@
+{
+  "id": "1bce36202ec4",
+  "generation": 5912,
+  "created_at": "2026-03-01T05:31:41.858919",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "If Mitochondrial membrane potential modulation is applied to neural, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 30,
+    "estimated_cost_usd": 1435764,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 39836284,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 17,
+    "economic_value_usd": 2788539880000
+  },
+  "confidence": 0.6158810784714218,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

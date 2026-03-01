@@ -1,0 +1,32 @@
+{
+  "id": "395d3209697b",
+  "generation": 2179,
+  "created_at": "2026-03-01T05:25:55.188832",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "If Monte Carlo tree search with learned heuristics is applied to without, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 6,
+    "estimated_cost_usd": 26228,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1256053910,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 11,
+    "economic_value_usd": 113044851900000
+  },
+  "confidence": 0.5873469749094975,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

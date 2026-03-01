@@ -1,0 +1,32 @@
+{
+  "id": "d50082dd233a",
+  "generation": 7732,
+  "created_at": "2026-03-01T05:36:38.635918",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "The key to Why does the immune system attack the body's own tissue in autoimmune disease? is Optogenetic control of specific neuron populations \u2014 specifically Optogenetic control of \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 14,
+    "estimated_cost_usd": 632926,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 32342135,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 10,
+    "economic_value_usd": 2263949450000
+  },
+  "confidence": 0.5969264197244013,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

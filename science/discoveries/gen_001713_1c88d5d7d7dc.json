@@ -1,0 +1,32 @@
+{
+  "id": "1c88d5d7d7dc",
+  "generation": 1713,
+  "created_at": "2026-03-01T05:25:35.375370",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "If Shape memory alloy phase transition is applied to long-term, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 20,
+    "estimated_cost_usd": 356465,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3508805,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 26,
+    "economic_value_usd": 210528300000
+  },
+  "confidence": 0.7047948708639734,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

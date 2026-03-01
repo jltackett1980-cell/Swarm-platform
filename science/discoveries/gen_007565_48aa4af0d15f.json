@@ -1,0 +1,32 @@
+{
+  "id": "48aa4af0d15f",
+  "generation": 7565,
+  "created_at": "2026-03-01T05:36:06.608077",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "The key to What synthetic material perfectly mimics bone's mechanical and biological properties? is Metal-organic framework with specific pore geometry \u2014 specifically Metal-organic framework with \u2014 which would help 10,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 24,
+    "estimated_cost_usd": 347882,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6771057,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 28,
+    "economic_value_usd": 473973990000
+  },
+  "confidence": 0.7167519339627744,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

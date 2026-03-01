@@ -1,0 +1,32 @@
+{
+  "id": "1c8d978815d9",
+  "generation": 9207,
+  "created_at": "2026-03-01T05:41:52.414714",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "Dopamine/serotonin reuptake inhibition with specificity may resolve Why do all animals sleep \u2014 what is the essential biological function? by blocking at the systems level.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 28,
+    "estimated_cost_usd": 770237,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1985349459,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 23,
+    "economic_value_usd": 178681451310000
+  },
+  "confidence": 0.38226269592531914,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

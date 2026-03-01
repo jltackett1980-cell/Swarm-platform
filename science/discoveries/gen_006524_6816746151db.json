@@ -1,0 +1,32 @@
+{
+  "id": "6816746151db",
+  "generation": 6524,
+  "created_at": "2026-03-01T05:33:05.094241",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "How are long-term memories physically encoded in neural tissue? remains unsolved because previous research missed the role of Default. Default mode network connectivity measurement via fMRI directly addresses this.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 10,
+    "estimated_cost_usd": 308012,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3993094010,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 28,
+    "economic_value_usd": 199654700500000
+  },
+  "confidence": 0.5170162918206045,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

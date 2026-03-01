@@ -1,0 +1,32 @@
+{
+  "id": "2775c189e280",
+  "generation": 8022,
+  "created_at": "2026-03-01T05:37:34.623949",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "Neuroinflammation reduction via microglial targeting may resolve How are long-term memories physically encoded in neural tissue? by activating at the systems level.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 15,
+    "estimated_cost_usd": 371921,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2913923198,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 23,
+    "economic_value_usd": 233113855840000
+  },
+  "confidence": 0.3130830091272338,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

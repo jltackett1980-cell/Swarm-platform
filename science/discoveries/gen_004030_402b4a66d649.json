@@ -1,0 +1,32 @@
+{
+  "id": "402b4a66d649",
+  "generation": 4030,
+  "created_at": "2026-03-01T05:28:01.608118",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "The key to Can protein structure be predicted from sequence in real time without AlphaFold compute cost? is Federated learning without data centralization \u2014 specifically Federated learning without \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 6,
+    "estimated_cost_usd": 27797,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Theoretical complexity proof with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2174787461,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 16,
+    "economic_value_usd": 65243623830000
+  },
+  "confidence": 0.5213382735313543,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "9f01d234d151",
+  "generation": 8919,
+  "created_at": "2026-03-01T05:40:44.508927",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "The key to What is the primary molecular cause of biological aging \u2014 can it be slowed? is Autophagy activation to clear misfolded proteins \u2014 specifically Autophagy activation to \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 29,
+    "estimated_cost_usd": 1407062,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1796156987,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 20,
+    "economic_value_usd": 71846279480000
+  },
+  "confidence": 0.3215050943932727,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

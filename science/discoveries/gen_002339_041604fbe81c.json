@@ -1,0 +1,32 @@
+{
+  "id": "041604fbe81c",
+  "generation": 2339,
+  "created_at": "2026-03-01T05:26:03.808908",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "If Vagus nerve stimulation modulating brain-gut axis is applied to be, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 32,
+    "estimated_cost_usd": 749910,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 92883272,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 29,
+    "economic_value_usd": 7430661760000
+  },
+  "confidence": 0.42015242871699304,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

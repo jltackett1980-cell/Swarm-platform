@@ -1,0 +1,32 @@
+{
+  "id": "ac204e01c7f8",
+  "generation": 5124,
+  "created_at": "2026-03-01T05:29:59.917090",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "The key to Why does acute pain become chronic in some people \u2014 what neural change occurs? is Photodynamic therapy targeting specific cell receptors \u2014 specifically Photodynamic therapy targeting \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 4,
+    "estimated_cost_usd": 185239,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 39141022,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 19,
+    "economic_value_usd": 1957051100000
+  },
+  "confidence": 0.5107896479294008,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

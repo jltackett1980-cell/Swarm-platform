@@ -1,0 +1,32 @@
+{
+  "id": "ea0e4ac67d1c",
+  "generation": 9189,
+  "created_at": "2026-03-01T05:41:48.406381",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "The key to Why does the immune system attack the body's own tissue in autoimmune disease? is Mitochondrial membrane potential modulation \u2014 specifically Mitochondrial membrane potential \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 30,
+    "estimated_cost_usd": 1298417,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 24104739,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 5,
+    "economic_value_usd": 723142170000
+  },
+  "confidence": 0.5223153454772742,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

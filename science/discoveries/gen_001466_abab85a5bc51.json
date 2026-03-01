@@ -1,0 +1,32 @@
+{
+  "id": "abab85a5bc51",
+  "generation": 1466,
+  "created_at": "2026-03-01T05:25:27.397608",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "If Telomerase activation/inhibition in target cells is applied to what, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 27,
+    "estimated_cost_usd": 1051725,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 519,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 804703,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 12,
+    "economic_value_usd": 48282180000
+  },
+  "confidence": 0.46371735378371975,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

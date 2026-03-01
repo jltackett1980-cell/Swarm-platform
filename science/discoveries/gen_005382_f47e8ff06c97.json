@@ -1,0 +1,32 @@
+{
+  "id": "f47e8ff06c97",
+  "generation": 5382,
+  "created_at": "2026-03-01T05:30:31.013016",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "If Psychedelic-induced neuroplasticity via 5-HT2A receptor is applied to reversed, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 36,
+    "estimated_cost_usd": 930367,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 14625552,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 22,
+    "economic_value_usd": 585022080000
+  },
+  "confidence": 0.7154253710630625,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

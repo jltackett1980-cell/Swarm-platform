@@ -1,0 +1,32 @@
+{
+  "id": "acd57f720ef8",
+  "generation": 1716,
+  "created_at": "2026-03-01T05:25:35.479747",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of Homomorphic. Homomorphic encryption for private computation directly addresses this.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 5,
+    "estimated_cost_usd": 17400,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1637171225,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 12,
+    "economic_value_usd": 114601985750000
+  },
+  "confidence": 0.33211666483169794,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

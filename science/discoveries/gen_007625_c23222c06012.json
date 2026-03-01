@@ -1,0 +1,32 @@
+{
+  "id": "c23222c06012",
+  "generation": 7625,
+  "created_at": "2026-03-01T05:36:18.082021",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "Combining Photodynamic therapy targeting specific cell receptors with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 21,
+    "estimated_cost_usd": 1019158,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 189418497,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 26,
+    "economic_value_usd": 3788369940000
+  },
+  "confidence": 0.7649907296010644,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

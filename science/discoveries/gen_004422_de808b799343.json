@@ -1,0 +1,32 @@
+{
+  "id": "de808b799343",
+  "generation": 4422,
+  "created_at": "2026-03-01T05:28:40.618776",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "How to achieve sustained net-positive nuclear fusion at commercial scale? remains unsolved because previous research missed the role of Acoustic. Acoustic levitation for contactless manipulation directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 10,
+    "estimated_cost_usd": 245401,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3502227312,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 26,
+    "economic_value_usd": 210133638720000
+  },
+  "confidence": 0.6799621123424324,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

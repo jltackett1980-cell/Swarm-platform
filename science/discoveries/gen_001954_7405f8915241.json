@@ -1,0 +1,32 @@
+{
+  "id": "7405f8915241",
+  "generation": 1954,
+  "created_at": "2026-03-01T05:25:44.407973",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "Deep brain stimulation of subthalamic nucleus may resolve What limits adult neuroplasticity \u2014 can those limits be safely removed? by activating at the systems level.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 20,
+    "estimated_cost_usd": 494659,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 36847747,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 17,
+    "economic_value_usd": 2579342290000
+  },
+  "confidence": 0.6998953097519514,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

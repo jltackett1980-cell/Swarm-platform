@@ -1,0 +1,32 @@
+{
+  "id": "bf8f4c7b39e7",
+  "generation": 6770,
+  "created_at": "2026-03-01T05:33:45.425395",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Neuromorphic spike-timing dependent plasticity",
+  "hypothesis": "If Neuromorphic spike-timing dependent plasticity is applied to alphafold, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 10,
+    "estimated_cost_usd": 34313,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1730766330,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 27,
+    "economic_value_usd": 121153643100000
+  },
+  "confidence": 0.6753057857222755,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

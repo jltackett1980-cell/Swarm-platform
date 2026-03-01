@@ -1,0 +1,32 @@
+{
+  "id": "401a6e2e90ac",
+  "generation": 4268,
+  "created_at": "2026-03-01T05:28:25.155824",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "Combining Synaptic plasticity modulation via NMDA receptor with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 20,
+    "estimated_cost_usd": 681651,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5056686,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 29,
+    "economic_value_usd": 101133720000
+  },
+  "confidence": 0.5833048151525111,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

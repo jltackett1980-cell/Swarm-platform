@@ -1,0 +1,32 @@
+{
+  "id": "4c9b36a00d60",
+  "generation": 1945,
+  "created_at": "2026-03-01T05:25:44.063573",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? remains unsolved because previous research missed the role of Forward. Forward osmosis using draw solution gradient directly addresses this.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 12,
+    "estimated_cost_usd": 169694,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 220507585,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 22,
+    "economic_value_usd": 6615227550000
+  },
+  "confidence": 0.520467529670045,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

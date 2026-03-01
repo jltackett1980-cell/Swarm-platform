@@ -1,0 +1,32 @@
+{
+  "id": "9575caa9a4f5",
+  "generation": 8118,
+  "created_at": "2026-03-01T05:37:50.149630",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "The key to Why do amyloid plaques form in Alzheimer's and can they be cleared? is Mitochondrial membrane potential modulation \u2014 specifically Mitochondrial membrane potential \u2014 which would help 55,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 35,
+    "estimated_cost_usd": 1462347,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 40983187,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 10,
+    "economic_value_usd": 1639327480000
+  },
+  "confidence": 0.3744204946981892,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

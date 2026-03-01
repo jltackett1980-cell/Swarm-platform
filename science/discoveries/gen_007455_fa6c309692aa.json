@@ -1,0 +1,32 @@
+{
+  "id": "fa6c309692aa",
+  "generation": 7455,
+  "created_at": "2026-03-01T05:35:45.911959",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "Combining Mitochondrial membrane potential modulation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 26,
+    "estimated_cost_usd": 1278901,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3903075400,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 8,
+    "economic_value_usd": 351276786000000
+  },
+  "confidence": 0.33314881695985377,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

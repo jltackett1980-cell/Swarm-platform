@@ -1,0 +1,32 @@
+{
+  "id": "b37cea045c45",
+  "generation": 3696,
+  "created_at": "2026-03-01T05:27:30.740648",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "What triggers cancer cells to leave primary tumor and colonize new tissue? remains unsolved because previous research missed the role of Nanoparticle. Nanoparticle delivery to cross blood-brain barrier directly addresses this.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 23,
+    "estimated_cost_usd": 1093741,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13198509,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 18,
+    "economic_value_usd": 659925450000
+  },
+  "confidence": 0.5424656003260209,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

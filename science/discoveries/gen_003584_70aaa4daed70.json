@@ -1,0 +1,32 @@
+{
+  "id": "70aaa4daed70",
+  "generation": 3584,
+  "created_at": "2026-03-01T05:27:20.956252",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "Small molecule inhibitor of enzyme active site may resolve What is the primary molecular cause of biological aging \u2014 can it be slowed? by blocking at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 9,
+    "estimated_cost_usd": 435002,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1558761033,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 20,
+    "economic_value_usd": 109113272310000
+  },
+  "confidence": 0.6420370180910342,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

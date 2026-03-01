@@ -1,0 +1,32 @@
+{
+  "id": "27bcca34ed8e",
+  "generation": 7413,
+  "created_at": "2026-03-01T05:35:38.133656",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "The key to How does central sensitization maintain chronic pain without tissue damage? is Dopamine/serotonin reuptake inhibition with specificity \u2014 specifically Dopamine/serotonin reuptake inhibition \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 26,
+    "estimated_cost_usd": 833380,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16186109,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 16,
+    "economic_value_usd": 1294888720000
+  },
+  "confidence": 0.3477568676130811,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}
