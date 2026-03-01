@@ -1,0 +1,39 @@
+{
+  "id": "efcfcf03",
+  "name": "ClarityCalm",
+  "generation": 64554,
+  "created_at": "2026-03-01T08:21:25.931989",
+  "pain": "anxiety_crisis",
+  "population": 40000000,
+  "problem": "40M with anxiety \u2014 panic attacks have no real-time wearable intervention",
+  "physics": "biofeedback_neural",
+  "physics_desc": "Reads body signals, responds in real time",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Neurofeedback",
+    "Vagus nerve stimulation"
+  ],
+  "form_factor": "wrist band",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0081,
+    "size_cm": 1.2,
+    "cost_usd": 155.56,
+    "battery_hours": 95.1
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "MindSpace",
+  "companion_domain": "mental_wellness",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
