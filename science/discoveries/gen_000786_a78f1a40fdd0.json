@@ -1,0 +1,32 @@
+{
+  "id": "a78f1a40fdd0",
+  "generation": 786,
+  "created_at": "2026-03-01T05:20:00.355458",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different? remains unsolved because previous research missed the role of Monte. Monte Carlo tree search with learned heuristics directly addresses this.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 1,
+    "estimated_cost_usd": 4249,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 911984449,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 18,
+    "economic_value_usd": 82078600410000
+  },
+  "confidence": 0.5139288734222353,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

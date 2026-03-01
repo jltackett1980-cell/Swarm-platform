@@ -1,0 +1,32 @@
+{
+  "id": "14cfb1cbd685",
+  "generation": 256,
+  "created_at": "2026-03-01T05:19:54.201255",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Lattice-based cryptography for quantum resistance",
+  "hypothesis": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved remains unsolved because previous research missed the role of Lattice-based. Lattice-based cryptography for quantum resistance directly addresses this.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 4,
+    "estimated_cost_usd": 18117,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3191646135,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 14,
+    "economic_value_usd": 31916461350000
+  },
+  "confidence": 0.694853024680093,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

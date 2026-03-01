@@ -1,0 +1,32 @@
+{
+  "id": "51b616410407",
+  "generation": 618,
+  "created_at": "2026-03-01T05:19:57.827718",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "If BDNF upregulation to promote neurogenesis is applied to in, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 28,
+    "estimated_cost_usd": 915418,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3630151342,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 21,
+    "economic_value_usd": 290412107360000
+  },
+  "confidence": 0.741931942799797,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "0739d76eb4e8",
+  "generation": 893,
+  "created_at": "2026-03-01T05:20:02.323999",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "The key to What is the primary molecular cause of biological aging \u2014 can it be slowed? is Microbiome modulation via targeted bacteriophage therapy \u2014 specifically Microbiome modulation via \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 30,
+    "estimated_cost_usd": 1047127,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 985776617,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 26,
+    "economic_value_usd": 9857766170000
+  },
+  "confidence": 0.7989227405437995,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

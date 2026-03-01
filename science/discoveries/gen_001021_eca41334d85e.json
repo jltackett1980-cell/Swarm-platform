@@ -1,0 +1,32 @@
+{
+  "id": "eca41334d85e",
+  "generation": 1021,
+  "created_at": "2026-03-01T05:20:04.890906",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "The key to Can addiction-related neural pathway changes be reversed without withdrawal? is Sleep-dependent memory consolidation in hippocampus \u2014 specifically Sleep-dependent memory consolidation \u2014 which would help 21,000,000 people affected.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 13,
+    "estimated_cost_usd": 416569,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 360,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6500325,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 25,
+    "economic_value_usd": 195009750000
+  },
+  "confidence": 0.6040313252738405,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

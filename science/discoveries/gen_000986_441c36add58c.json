@@ -1,0 +1,32 @@
+{
+  "id": "441c36add58c",
+  "generation": 986,
+  "created_at": "2026-03-01T05:20:04.158854",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "If Microbiome modulation via targeted bacteriophage therapy is applied to or, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 34,
+    "estimated_cost_usd": 1348141,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8335022,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 23,
+    "economic_value_usd": 750151980000
+  },
+  "confidence": 0.4433451741233688,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

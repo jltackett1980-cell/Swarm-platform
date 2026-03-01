@@ -1,0 +1,32 @@
+{
+  "id": "d268f4c5199f",
+  "generation": 780,
+  "created_at": "2026-03-01T05:20:00.255022",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "How are long-term memories physically encoded in neural tissue? remains unsolved because previous research missed the role of Synaptic. Synaptic plasticity modulation via NMDA receptor directly addresses this.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 5,
+    "estimated_cost_usd": 127511,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1896789601,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 24,
+    "economic_value_usd": 170711064090000
+  },
+  "confidence": 0.7176083190652118,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

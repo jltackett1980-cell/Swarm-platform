@@ -1,0 +1,32 @@
+{
+  "id": "27c499bafc0c",
+  "generation": 118,
+  "created_at": "2026-03-01T05:19:53.535056",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "The key to How to engineer materials that autonomously repair microcracks before failure? is Liquid crystal elastomer actuation \u2014 specifically Liquid crystal elastomer \u2014 which would help 1,000,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 25,
+    "estimated_cost_usd": 461792,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 499388928,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 7,
+    "economic_value_usd": 44945003520000
+  },
+  "confidence": 0.49877648434930183,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}
