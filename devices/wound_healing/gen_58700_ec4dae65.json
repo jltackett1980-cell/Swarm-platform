@@ -1,0 +1,39 @@
+{
+  "id": "ec4dae65",
+  "name": "PhoenixHeal",
+  "generation": 58700,
+  "created_at": "2026-03-01T07:45:36.089062",
+  "pain": "wound_healing",
+  "population": 8700000,
+  "problem": "8.7M with chronic wounds \u2014 slow healing costs billions",
+  "physics": "acoustic_ultrasound",
+  "physics_desc": "Sound waves above 20kHz for tissue effects",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Therapeutic ultrasound",
+    "HIFU"
+  ],
+  "form_factor": "adhesive patch",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.6492,
+    "size_cm": 9.0,
+    "cost_usd": 227.22,
+    "battery_hours": 43.6
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
