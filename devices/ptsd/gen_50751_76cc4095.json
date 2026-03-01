@@ -1,0 +1,39 @@
+{
+  "id": "76cc4095",
+  "name": "ForgeSafe",
+  "generation": 50751,
+  "created_at": "2026-03-01T07:22:58.441549",
+  "pain": "ptsd",
+  "population": 12000000,
+  "problem": "12M with PTSD \u2014 nightmares disrupt sleep nightly with no passive intervention",
+  "physics": "biofeedback_neural",
+  "physics_desc": "Reads body signals, responds in real time",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Neurofeedback",
+    "Vagus nerve stimulation"
+  ],
+  "form_factor": "chest patch",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0027,
+    "size_cm": 3.9,
+    "cost_usd": 236.28,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "VetPath",
+  "companion_domain": "veteran_support",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
