@@ -1,11 +1,18 @@
 {
   "current_phase": "emergency",
-  "phase_generation": 82,
-  "total_generation": 111,
+  "phase_generation": 1,
+  "total_generation": 131,
   "last_best_score": 574.0,
-  "stagnation_counter": 81,
+  "stagnation_counter": 0,
   "rest_cycles_done": 0,
-  "phase_history": [],
+  "phase_history": [
+    {
+      "from": "emergency",
+      "to": "sprint",
+      "gen": 129,
+      "timestamp": "2026-02-28T19:56:12.862162"
+    }
+  ],
   "score_history": [
     {
       "score": 564,
@@ -561,6 +568,106 @@
       "score": 549,
       "gen": 110,
       "timestamp": "2026-02-28T19:55:24.401841"
+    },
+    {
+      "score": 549,
+      "gen": 111,
+      "timestamp": "2026-02-28T19:55:27.328410"
+    },
+    {
+      "score": 549,
+      "gen": 112,
+      "timestamp": "2026-02-28T19:55:29.768955"
+    },
+    {
+      "score": 549,
+      "gen": 113,
+      "timestamp": "2026-02-28T19:55:32.228250"
+    },
+    {
+      "score": 549,
+      "gen": 114,
+      "timestamp": "2026-02-28T19:55:34.730676"
+    },
+    {
+      "score": 549,
+      "gen": 115,
+      "timestamp": "2026-02-28T19:55:37.210705"
+    },
+    {
+      "score": 549,
+      "gen": 116,
+      "timestamp": "2026-02-28T19:55:39.698329"
+    },
+    {
+      "score": 549,
+      "gen": 117,
+      "timestamp": "2026-02-28T19:55:42.267703"
+    },
+    {
+      "score": 549,
+      "gen": 118,
+      "timestamp": "2026-02-28T19:55:44.786765"
+    },
+    {
+      "score": 549,
+      "gen": 119,
+      "timestamp": "2026-02-28T19:55:47.284784"
+    },
+    {
+      "score": 549,
+      "gen": 120,
+      "timestamp": "2026-02-28T19:55:49.804430"
+    },
+    {
+      "score": 549,
+      "gen": 121,
+      "timestamp": "2026-02-28T19:55:52.326257"
+    },
+    {
+      "score": 549,
+      "gen": 122,
+      "timestamp": "2026-02-28T19:55:54.867502"
+    },
+    {
+      "score": 549,
+      "gen": 123,
+      "timestamp": "2026-02-28T19:55:57.404002"
+    },
+    {
+      "score": 549,
+      "gen": 124,
+      "timestamp": "2026-02-28T19:55:59.925803"
+    },
+    {
+      "score": 549,
+      "gen": 125,
+      "timestamp": "2026-02-28T19:56:02.476825"
+    },
+    {
+      "score": 549,
+      "gen": 126,
+      "timestamp": "2026-02-28T19:56:05.030529"
+    },
+    {
+      "score": 549,
+      "gen": 127,
+      "timestamp": "2026-02-28T19:56:07.590435"
+    },
+    {
+      "score": 549,
+      "gen": 128,
+      "timestamp": "2026-02-28T19:56:10.153054"
+    },
+    {
+      "score": 549,
+      "gen": 129,
+      "timestamp": "2026-02-28T19:56:12.862138"
+    },
+    {
+      "score": 549,
+      "gen": 130,
+      "timestamp": "2026-02-28T19:56:15.458187"
     }
   ]
 }
