@@ -1,0 +1,32 @@
+{
+  "id": "e58c1612428b",
+  "generation": 11113,
+  "created_at": "2026-03-01T07:18:12.767783",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Can superconductivity be achieved at room temperature \u2014 what material structure? remains unsolved because previous research missed the role of Casimir. Casimir effect between nanoscale surfaces directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 8,
+    "estimated_cost_usd": 190149,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1368322942,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 25,
+    "economic_value_usd": 68416147100000
+  },
+  "confidence": 0.7690922019663271,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "5df225b8f194",
+  "generation": 11171,
+  "created_at": "2026-03-01T07:18:24.808922",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "What material surface coating prevents bacterial biofilm formation on implants? remains unsolved because previous research missed the role of Metal-organic. Metal-organic framework with specific pore geometry directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 8,
+    "estimated_cost_usd": 135387,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 159219063,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 15,
+    "economic_value_usd": 14329715670000
+  },
+  "confidence": 0.4882587316930055,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

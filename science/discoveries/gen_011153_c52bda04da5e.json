@@ -1,0 +1,32 @@
+{
+  "id": "c52bda04da5e",
+  "generation": 11153,
+  "created_at": "2026-03-01T07:18:21.071926",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "Bioelectrochemical system for pollutant conversion may resolve How to restore depleted agricultural soil microbiome rapidly at scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 12,
+    "estimated_cost_usd": 156732,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 140225073,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 30,
+    "economic_value_usd": 12620256570000
+  },
+  "confidence": 0.6923365687671703,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

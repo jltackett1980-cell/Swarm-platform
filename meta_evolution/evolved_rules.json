@@ -1,0 +1,85 @@
+{
+  "version": 14,
+  "evolved_at": "2026-03-01T07:16:01.606277",
+  "fitness_weights": {
+    "population_impact": 0.3,
+    "urgency": 0.25,
+    "affordability": 0.2,
+    "proven_physics": 0.15,
+    "edge_deployable": 0.1
+  },
+  "domain_priority": {
+    "biology": 0.997,
+    "computing": 0.999,
+    "neuroscience": 1.003,
+    "physics": 1.004,
+    "materials": 0.997,
+    "environment": 1.001
+  },
+  "mechanism_scores": {
+    "Phytoremediation with hyperaccumulator plant species": 0.583,
+    "Deep brain stimulation of subthalamic nucleus": 0.577,
+    "Electrospun nanofiber scaffold for tissue engineering": 0.574,
+    "Bose-Einstein condensate at higher temperature": 0.573,
+    "Neuroinflammation reduction via microglial targeting": 0.572,
+    "Monoclonal antibody blocking protein-protein interaction": 0.567,
+    "Thermoelectric Seebeck coefficient maximization": 0.567,
+    "Synaptic plasticity modulation via NMDA receptor": 0.565,
+    "Constructed wetland for water filtration": 0.563,
+    "Electromagnetic induction in moving biological tissue": 0.563
+  },
+  "problem_success_rates": {},
+  "learned_patterns": [
+    {
+      "insight": "Organism discovers highest confidence in: high_temp_battery (57%)",
+      "action": "Prioritize similar problem structures in future generations",
+      "serves": "People with highest-probability-of-solution conditions"
+    },
+    {
+      "insight": "Most effective device physics: rf_sensing (avg score 0.0)",
+      "action": "Weight this physics principle higher in device generation",
+      "serves": "People who need healing devices"
+    },
+    {
+      "insight": "Organism discovers highest confidence in: high_temp_battery (57%)",
+      "action": "Prioritize similar problem structures in future generations",
+      "serves": "People with highest-probability-of-solution conditions"
+    },
+    {
+      "insight": "Most effective device physics: rf_sensing (avg score 0.0)",
+      "action": "Weight this physics principle higher in device generation",
+      "serves": "People who need healing devices"
+    },
+    {
+      "insight": "Organism discovers highest confidence in: high_temp_battery (57%)",
+      "action": "Prioritize similar problem structures in future generations",
+      "serves": "People with highest-probability-of-solution conditions"
+    },
+    {
+      "insight": "Most effective device physics: rf_sensing (avg score 0.0)",
+      "action": "Weight this physics principle higher in device generation",
+      "serves": "People who need healing devices"
+    },
+    {
+      "insight": "Organism discovers highest confidence in: high_temp_battery (57%)",
+      "action": "Prioritize similar problem structures in future generations",
+      "serves": "People with highest-probability-of-solution conditions"
+    },
+    {
+      "insight": "Most effective device physics: rf_sensing (avg score 0.0)",
+      "action": "Weight this physics principle higher in device generation",
+      "serves": "People who need healing devices"
+    },
+    {
+      "insight": "Organism discovers highest confidence in: high_temp_battery (57%)",
+      "action": "Prioritize similar problem structures in future generations",
+      "serves": "People with highest-probability-of-solution conditions"
+    },
+    {
+      "insight": "Most effective device physics: rf_sensing (avg score 0.0)",
+      "action": "Weight this physics principle higher in device generation",
+      "serves": "People who need healing devices"
+    }
+  ],
+  "constitution_hash": "__main__"
+}

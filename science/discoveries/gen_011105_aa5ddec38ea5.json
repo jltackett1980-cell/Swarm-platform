@@ -1,0 +1,32 @@
+{
+  "id": "aa5ddec38ea5",
+  "generation": 11105,
+  "created_at": "2026-03-01T07:18:11.035896",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "If Electrocoagulation for suspended particle removal is applied to to, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 9,
+    "estimated_cost_usd": 117799,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 92748226,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 6,
+    "economic_value_usd": 1854964520000
+  },
+  "confidence": 0.6200596648935063,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

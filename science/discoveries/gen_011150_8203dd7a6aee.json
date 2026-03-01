@@ -1,0 +1,32 @@
+{
+  "id": "8203dd7a6aee",
+  "generation": 11150,
+  "created_at": "2026-03-01T07:18:20.450617",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "Piezoelectric coupling in novel crystal structure may resolve What is dark matter composed of \u2014 27% of universe is unknown by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 4,
+    "estimated_cost_usd": 88698,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2459117082,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 29,
+    "economic_value_usd": 122955854100000
+  },
+  "confidence": 0.4298226581842848,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

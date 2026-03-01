@@ -1,0 +1,32 @@
+{
+  "id": "8125ae5cf66a",
+  "generation": 11188,
+  "created_at": "2026-03-01T07:18:28.323523",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "What enzyme or organism efficiently degrades all plastic types at scale? remains unsolved because previous research missed the role of Metal-organic. Metal-organic framework with specific pore geometry directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 17,
+    "estimated_cost_usd": 309218,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3924354492,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 8,
+    "economic_value_usd": 196217724600000
+  },
+  "confidence": 0.6305741698556612,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

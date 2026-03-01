@@ -1,0 +1,32 @@
+{
+  "id": "1dfb35ce8a46",
+  "generation": 11123,
+  "created_at": "2026-03-01T07:18:14.854090",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "What substrate allows silicon-level performance in fully flexible electronics? remains unsolved because previous research missed the role of Liquid. Liquid crystal elastomer actuation directly addresses this.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 18,
+    "estimated_cost_usd": 301804,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 108205540,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 14,
+    "economic_value_usd": 4328221600000
+  },
+  "confidence": 0.48227728833490496,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

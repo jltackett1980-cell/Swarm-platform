@@ -1,0 +1,32 @@
+{
+  "id": "dc38d5ce1051",
+  "generation": 11120,
+  "created_at": "2026-03-01T07:18:14.225219",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "Electrospun nanofiber scaffold for tissue engineering may resolve What material stores hydrogen fuel at high density without safety risk? by activating at the molecular level.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 30,
+    "estimated_cost_usd": 418476,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1149040565,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 20,
+    "economic_value_usd": 57452028250000
+  },
+  "confidence": 0.40702934330696405,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

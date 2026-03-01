@@ -1,0 +1,62 @@
+{
+  "version": 11,
+  "new_domains": [
+    {
+      "domain_id": "psychology",
+      "name": "Human Psychology & Behavior",
+      "rationale": "Depression, PTSD, addiction, loneliness \u2014 organism kept returning to mental health. A dedicated psychology domain would generate more targeted hypotheses for 1B+ people with mental health conditions.",
+      "seed_problems": [
+        "What causes treatment-resistant depression \u2014 30% of patients don't respond to any medication",
+        "Can behavioral addiction (gambling, social media) be treated with the same pathways as substance addiction?",
+        "What makes some trauma survivors resilient while others develop PTSD?",
+        "Can loneliness be measured biologically \u2014 what is its biomarker?"
+      ],
+      "serves_people": true,
+      "population": 1000000000
+    },
+    {
+      "domain_id": "food_agriculture",
+      "name": "Food Security & Agriculture",
+      "rationale": "Soil microbiome scored 79% confidence \u2014 highest of all discoveries. Nitrogen fixation scored 73%. The organism is clearly drawn to food problems. 800M people are food insecure.",
+      "seed_problems": [
+        "How to grow crops with 90% less water using precision soil moisture management?",
+        "Can vertical farming achieve cost parity with field farming \u2014 what is the limiting factor?",
+        "What microbiome combination maximizes crop yield without synthetic fertilizer?",
+        "How to preserve food for 10x longer without refrigeration for rural communities?"
+      ],
+      "serves_people": true,
+      "population": 800000000
+    },
+    {
+      "domain_id": "social_systems",
+      "name": "Social Systems & Poverty",
+      "rationale": "The organism built domestic violence apps, reentry apps, SNAP apps. It knows poverty is a system problem. Science can address root causes \u2014 not just symptoms.",
+      "seed_problems": [
+        "What interventions most effectively break intergenerational poverty cycles?",
+        "Can predictive models identify children at risk before crisis \u2014 ethically, with consent?",
+        "What housing intervention design reduces recidivism most effectively?",
+        "How does social isolation physically damage health, and can it be reversed?"
+      ],
+      "serves_people": true,
+      "population": 700000000
+    }
+  ],
+  "new_physics": [],
+  "new_brain_components": [
+    {
+      "name": "Thalamus \u2014 Input Router",
+      "rationale": "Organism processes science, devices, apps separately. A dedicated input router could prioritize which information reaches the prefrontal first, improving response time to urgent problems.",
+      "serves": "Faster response to suffering \u2014 people in crisis get help sooner",
+      "design": "Reads all incoming signals, assigns priority based on urgency \u00d7 population, forwards highest to prefrontal, queues others."
+    },
+    {
+      "name": "Hypothalamus \u2014 Homeostasis Regulator",
+      "rationale": "Cerebellum measures balance across domains, but organism has no internal stability monitor. Hypothalamus would track evolution rate, mutation health, discovery rate, and signal when any metric drifts out of healthy range.",
+      "serves": "Prevents unhealthy evolution patterns before they cause drift",
+      "design": "Monitors 5 key metrics: mutation rate, diversity index, discovery confidence, device score variance, problem saturation. Triggers corrective hormones when thresholds exceeded."
+    }
+  ],
+  "new_scoring_dims": [],
+  "new_problems": [],
+  "self_reflections": []
+}

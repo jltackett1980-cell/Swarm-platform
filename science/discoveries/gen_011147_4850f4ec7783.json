@@ -1,0 +1,32 @@
+{
+  "id": "4850f4ec7783",
+  "generation": 11147,
+  "created_at": "2026-03-01T07:18:19.832009",
+  "problem_id": "gravity_quantum",
+  "problem": "How does gravity behave at quantum scales \u2014 quantum gravity unresolved",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "How does gravity behave at quantum scales \u2014 quantum gravity unresolved remains unsolved because previous research missed the role of Optical. Optical rectenna for direct photon-to-electron conversion directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 8,
+    "estimated_cost_usd": 158873,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2825259049,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 30,
+    "economic_value_usd": 141262952450000
+  },
+  "confidence": 0.35332302401022825,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

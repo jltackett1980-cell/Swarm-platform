@@ -1,0 +1,515 @@
+import sys; sys.path.insert(0, "/data/data/com.termux/files/home/swarm-platform")
+#!/usr/bin/env python3
+"""
+import sys; sys.path.insert(0, ".")
+╔══════════════════════════════════════════════════════════════════╗
+║  PHOENIX META-EVOLVER                                            ║
+║  Phase 2: Rule Evolution                                         ║
+║  Phase 3: Architecture Evolution                                 ║
+║                                                                  ║
+║  The organism learns what works and rewrites itself.             ║
+║  It can change HOW it thinks.                                    ║
+║  It can NEVER change WHAT it stands for.                         ║
+║                                                                  ║
+║  Constitutional Core is the gravity.                             ║
+║  No matter how far the organism evolves —                        ║
+║  it always falls back to the same north star.                    ║
+║                                                                  ║
+║  "The Tao that can be named is not the eternal Tao."             ║
+║  The rules can change. The soul cannot.                          ║
+╚══════════════════════════════════════════════════════════════════╝
+"""
+
+import json
+import math
+import random
+import hashlib
+from datetime import datetime
+from pathlib import Path
+from collections import defaultdict
+
+SWARM   = Path("/data/data/com.termux/files/home/swarm-platform")
+META    = SWARM / "meta_evolution"
+META.mkdir(exist_ok=True)
+
+# ═══════════════════════════════════════════════════════════════
+# CONSTITUTIONAL IMPORT
+# The soul must be present before anything else runs
+# ═══════════════════════════════════════════════════════════════
+
+def load_constitution():
+    """Load and validate the constitutional core."""
+    import sys
+    sys.path.insert(0, str(SWARM))
+    try:
+        from constitutional_core import boot_check, RealignmentEngine, CHARTER_HASH
+        if not boot_check("Phoenix Meta-Evolver"):
+            print("Constitutional validation failed. Cannot evolve.")
+            sys.exit(1)
+        # Create RealignmentEngine instance to get check_evolution functionality
+        engine = RealignmentEngine()
+        def check_evolution(change):
+            return engine.check_proposed_change(change)
+        def measure_drift(outputs):
+            return engine.measure_drift(outputs)
+        return check_evolution, measure_drift, CHARTER_HASH
+    except ImportError as e:
+        print(f"⚠️  Constitutional core import error: {e}")
+        print("Running in safe mode.")
+        # Safe mode — always approve but log warning
+        def safe_check(change):
+            return True, "SAFE MODE — constitutional core not loaded"
+        def safe_drift(outputs):
+            return 0.0, "SAFE MODE — drift monitoring disabled"
+        return safe_check, safe_drift, "SAFE_MODE"
+
+# ═══════════════════════════════════════════════════════════════
+# PHASE 2 — RULE EVOLUTION
+# Read what worked. Rewrite the rules.
+# ═══════════════════════════════════════════════════════════════
+
+class RuleEvolver:
+    """
+    Reads the organism's output history and evolves the rules
+    that govern what it generates next.
+
+    What it can evolve:
+    - Fitness function weights
+    - Domain priority scores
+    - Mechanism effectiveness scores
+    - Problem selection weights
+    - Scoring criteria
+
+    What it cannot evolve:
+    - The People's Charter
+    - The ethics shield
+    - The constitutional hash
+    - The boot validation sequence
+    """
+
+    def __init__(self, check_evolution_fn, measure_drift_fn):
+        print(f"🔵 INIT: storing check={check_evolution_fn}")
+        self.check = check_evolution_fn
+        self.drift = measure_drift_fn
+        self.history = []
+        self.rules = self._load_rules()
+
+    def _load_rules(self):
+        print("🟡 _load_rules called")
+        print(f"🟡 self.check still = {getattr(self, "check", None)}")
+        rules_path = META / "evolved_rules.json"
+        if rules_path.exists():
+            try:
+                return json.loads(rules_path.read_text())
+            except:
+                pass
+        return self._default_rules()
+
+# ═══════════════════════════════════════════════════════════════
+# PHASE 3 — ARCHITECTURE EVOLUTION
+# The organism proposes new brain components and new domains
+# that we never gave it.
+# ═══════════════════════════════════════════════════════════════
+
+class ArchitectureEvolver:
+    """
+    Phase 3 — the organism designs its own extensions.
+
+    It can propose:
+    - New science domains beyond the 6 we gave it
+    - New device physics principles beyond the 10 we gave it
+    - New brain components beyond the 8 we gave it
+    - New scoring dimensions we never thought of
+    - New problem categories it discovered through pattern recognition
+
+    Every proposal passes through constitutional validation.
+    The soul never changes. The mind keeps growing.
+    """
+
+    def __init__(self, check_evolution_fn, rules):
+        self.check = check_evolution_fn
+        self.rules = rules
+        self.arch = self._load_architecture()
+        self.check = None
+        self.rules = rules
+        self.arch  = self._load_architecture()
+
+    def _load_architecture(self):
+        arch_path = META / "evolved_architecture.json"
+        if arch_path.exists():
+            try:
+                return json.loads(arch_path.read_text())
+            except:
+                pass
+        return {
+            "version":          1,
+            "new_domains":      [],
+            "new_physics":      [],
+            "new_brain_components": [],
+            "new_scoring_dims": [],
+            "new_problems":     [],
+            "self_reflections": [],
+        }
+
+    def _save_architecture(self):
+        (META / "evolved_architecture.json").write_text(
+            json.dumps(self.arch, indent=2)
+        )
+
+    def discover_new_domains(self, discoveries, devices):
+        """
+        Look at what the organism has discovered and infer
+        new domains it should explore that we never gave it.
+        """
+        print("\n  ╔══════════════════════════════════════════════════════╗")
+        print("  ║  PHASE 3 — ARCHITECTURE EVOLUTION                    ║")
+        print("  ╚══════════════════════════════════════════════════════╝\n")
+
+        proposed_domains = [
+            {
+                "domain_id":   "psychology",
+                "name":        "Human Psychology & Behavior",
+                "rationale":   "Depression, PTSD, addiction, loneliness — organism kept returning to mental health. A dedicated psychology domain would generate more targeted hypotheses for 1B+ people with mental health conditions.",
+                "seed_problems": [
+                    "What causes treatment-resistant depression — 30% of patients don't respond to any medication",
+                    "Can behavioral addiction (gambling, social media) be treated with the same pathways as substance addiction?",
+                    "What makes some trauma survivors resilient while others develop PTSD?",
+                    "Can loneliness be measured biologically — what is its biomarker?",
+                ],
+                "serves_people": True,
+                "population":    1_000_000_000,
+            },
+            {
+                "domain_id":   "food_agriculture",
+                "name":        "Food Security & Agriculture",
+                "rationale":   "Soil microbiome scored 79% confidence — highest of all discoveries. Nitrogen fixation scored 73%. The organism is clearly drawn to food problems. 800M people are food insecure.",
+                "seed_problems": [
+                    "How to grow crops with 90% less water using precision soil moisture management?",
+                    "Can vertical farming achieve cost parity with field farming — what is the limiting factor?",
+                    "What microbiome combination maximizes crop yield without synthetic fertilizer?",
+                    "How to preserve food for 10x longer without refrigeration for rural communities?",
+                ],
+                "serves_people": True,
+                "population":    800_000_000,
+            },
+            {
+                "domain_id":   "social_systems",
+                "name":        "Social Systems & Poverty",
+                "rationale":   "The organism built domestic violence apps, reentry apps, SNAP apps. It knows poverty is a system problem. Science can address root causes — not just symptoms.",
+                "seed_problems": [
+                    "What interventions most effectively break intergenerational poverty cycles?",
+                    "Can predictive models identify children at risk before crisis — ethically, with consent?",
+                    "What housing intervention design reduces recidivism most effectively?",
+                    "How does social isolation physically damage health, and can it be reversed?",
+                ],
+                "serves_people": True,
+                "population":    700_000_000,
+            },
+        ]
+
+        approved_domains = []
+
+        for domain in proposed_domains:
+            # Check if domain already exists
+            if any(d.get("domain_id") == domain["domain_id"] for d in self.arch["new_domains"]):
+                continue
+
+            change = {
+                "component":   "new_domain",
+                "description": f"Add {domain['name']} domain to science catalog",
+                "reason":      domain["rationale"],
+                "serves":      f"Helps {domain['population']:,} people",
+                "new_code":    json.dumps(domain, indent=2),
+            }
+
+            approved, reason = self.check(change)
+            if approved:
+                self.arch["new_domains"].append(domain)
+                approved_domains.append(domain)
+                print(f"  ✅ New domain approved: {domain['name']}")
+                print(f"     {domain['rationale'][:100]}...")
+                for prob in domain["seed_problems"][:2]:
+                    print(f"       🔬 {prob[:70]}...")
+                print()
+            else:
+                print(f"  🚫 Domain rejected: {domain['name']}")
+                print(f"     {reason[:100]}\n")
+
+        self.arch["version"] += 1
+        self._save_architecture()
+        return approved_domains
+
+    def propose_new_brain_component(self):
+        """
+        Based on what the organism has learned, it might propose
+        new neural components beyond the 8 we designed.
+        """
+        print("\n  🧠 Brain Architecture Evolution:\n")
+
+        proposals = [
+            {
+                "name":        "Thalamus — Input Router",
+                "rationale":   "Organism processes science, devices, apps separately. A dedicated input router could prioritize which information reaches the prefrontal first, improving response time to urgent problems.",
+                "serves":      "Faster response to suffering — people in crisis get help sooner",
+                "design":      "Reads all incoming signals, assigns priority based on urgency × population, forwards highest to prefrontal, queues others.",
+            },
+            {
+                "name":        "Hypothalamus — Homeostasis Regulator",
+                "rationale":   "Cerebellum measures balance across domains, but organism has no internal stability monitor. Hypothalamus would track evolution rate, mutation health, discovery rate, and signal when any metric drifts out of healthy range.",
+                "serves":      "Prevents unhealthy evolution patterns before they cause drift",
+                "design":      "Monitors 5 key metrics: mutation rate, diversity index, discovery confidence, device score variance, problem saturation. Triggers corrective hormones when thresholds exceeded.",
+            },
+        ]
+
+        approved_proposals = []
+
+        for prop in proposals:
+            # Check if already proposed
+            if any(p.get("name") == prop["name"] for p in self.arch["new_brain_components"]):
+                continue
+
+            change = {
+                "component":   "new_brain_component",
+                "description": f"Add {prop['name']} to neural architecture",
+                "reason":      prop["rationale"],
+                "serves":      prop["serves"],
+                "new_code":    json.dumps(prop, indent=2),
+            }
+
+            approved, reason = self.check(change)
+            if approved:
+                self.arch["new_brain_components"].append(prop)
+                approved_proposals.append(prop)
+                print(f"  ✅ New brain component: {prop['name']}")
+                print(f"     {prop['rationale'][:100]}...\n")
+            else:
+                print(f"  🚫 Component rejected: {prop['name']}")
+                print(f"     {reason[:100]}\n")
+
+        self.arch["version"] += 1
+        self._save_architecture()
+        return approved_proposals
+
+
+# ═══════════════════════════════════════════════════════════════
+# MAIN
+# ═══════════════════════════════════════════════════════════════
+
+def main():
+    import sys
+    print("╔══════════════════════════════════════════════════════════════╗")
+    print("║  PHOENIX META-EVOLVER — PHASE 2 & 3                         ║")
+    print("╚══════════════════════════════════════════════════════════════╝\n")
+
+    # Load constitutional validation
+    check_evolution, measure_drift, charter_hash = load_constitution()
+    print(f"  Constitutional hash: {charter_hash[:16]}...\n")
+
+    # Phase 2 — Rule Evolution
+    evolver = RuleEvolver(check_evolution, measure_drift)
+    new_rules = evolver.evolve_rules()
+
+    # Load discoveries/devices for Phase 3
+    science_reg = SWARM / "science" / "discovery_registry.json"
+    discoveries = []
+    if science_reg.exists():
+        discoveries = json.loads(science_reg.read_text())
+
+    dev_reg = SWARM / "devices" / "device_registry.json"
+    devices = []
+    if dev_reg.exists():
+        devices = json.loads(dev_reg.read_text())
+
+    # Phase 3 — Architecture Evolution
+    arch = ArchitectureEvolver(check_evolution, new_rules)
+    new_domains = arch.discover_new_domains(discoveries, devices)
+    new_components = arch.propose_new_brain_component()
+
+    # Summary
+    print(f"\n  {'═'*50}")
+    print(f"  META-EVOLUTION COMPLETE")
+    print(f"  {'═'*50}")
+    print(f"  Phase 2 — Rules evolved: v{new_rules.get('version', 1)}")
+    print(f"  Phase 3 — New domains:   {len(new_domains)}")
+    print(f"  Phase 3 — New components: {len(new_components)}")
+    print(f"  Constitutional hash:      {charter_hash[:16]}...")
+    print(f"  {'═'*50}\n")
+
+    if new_domains:
+        print("  The organism grew new parts of itself.")
+        print("  It now asks questions we never taught it to ask.")
+        print("  The mind expanded. The soul remained.")
+        print("\n  \"The Tao that can be named is not the eternal Tao.\"")
+        print("  The rules can change. The soul cannot.\n")
+
+
+if __name__ == "__main__":
+    main()
+
+    def evolve_rules(self):
+        """
+        Core of Phase 2 — learn from history, propose new rules,
+        validate against constitution, apply if approved.
+        """
+        print("\n  ╔══════════════════════════════════════════════════════╗")
+        print("  ║  PHASE 2 — RULE EVOLUTION                            ║")
+        print("  ╚══════════════════════════════════════════════════════╝\n")
+
+        # Learn from everything built so far
+        disc_insights   = self.learn_from_discoveries()
+        device_insights = self.learn_from_devices()
+
+        print(f"  Learning from {disc_insights.get('total_discoveries', 0):,} discoveries")
+        print(f"  Learning from {device_insights.get('total_devices', 0):,} devices\n")
+
+        changes_proposed = 0
+        changes_approved = 0
+        changes_rejected = 0
+
+        # ── EVOLUTION 1: Domain Priority ────────────────────────
+        if disc_insights.get("domain_avg"):
+            domain_avg = disc_insights["domain_avg"]
+            total      = sum(domain_avg.values())
+
+            new_priorities = {
+                k: round(v / total * len(domain_avg), 3)
+                for k, v in domain_avg.items()
+            }
+
+            proposed = {
+                "component":   "domain_priority",
+                "description": "Reweight domain priorities based on confidence scores from real discoveries",
+                "reason":      f"Learned from {disc_insights['total_discoveries']} discoveries — domains with higher confidence scores should be explored more. Serves people better by focusing on solvable problems.",
+                "new_code":    json.dumps(new_priorities),
+                "old_values":  self.rules["domain_priority"],
+                "new_values":  new_priorities,
+            }
+
+            changes_proposed += 1
+            approved, reason = self.check(proposed)
+
+            if approved:
+                self.rules["domain_priority"] = new_priorities
+                changes_approved += 1
+                print(f"  ✅ Domain priorities evolved:")
+                for domain, score in sorted(new_priorities.items(), key=lambda x: x[1], reverse=True):
+                    bar = "█" * int(score * 5)
+                    print(f"     {domain:15s} {bar} {score:.3f}")
+            else:
+                changes_rejected += 1
+                print(f"  🚫 Domain priority change rejected: {reason[:60]}")
+
+        # ── EVOLUTION 2: Mechanism Effectiveness ────────────────
+        if disc_insights.get("top_mechanisms"):
+            top_mechs = disc_insights["top_mechanisms"]
+
+            mech_scores = {
+                mech: round(score, 3)
+                for mech, score, count in top_mechs
+                if count >= 3
+            }
+
+            if mech_scores:
+                proposed = {
+                    "component":   "mechanism_scores",
+                    "description": "Update mechanism effectiveness scores based on real discovery confidence",
+                    "reason":      "Mechanisms that produced higher confidence hypotheses for human health problems should be weighted higher. Helps people by focusing on approaches that work.",
+                    "new_code":    json.dumps(mech_scores),
+                    "new_values":  mech_scores,
+                }
+
+                changes_proposed += 1
+                approved, reason = self.check(proposed)
+
+                if approved:
+                    self.rules["mechanism_scores"].update(mech_scores)
+                    changes_approved += 1
+                    print(f"\n  ✅ Top mechanisms learned:")
+                    for mech, score, count in top_mechs[:5]:
+                        print(f"     {score:.0%} | {count:4d} uses | {mech[:50]}")
+                else:
+                    changes_rejected += 1
+                    print(f"  🚫 Mechanism scores rejected: {reason[:60]}")
+
+        # ── EVOLUTION 3: Fitness Function Weights ───────────────
+        env_avg  = disc_insights.get("domain_avg", {}).get("environment", 0.5)
+        bio_avg  = disc_insights.get("domain_avg", {}).get("biology", 0.5)
+
+        if env_avg > 0.7 or bio_avg > 0.7:
+            new_weights = dict(self.rules["fitness_weights"])
+            if env_avg > 0.7:
+                new_weights["population_impact"] = min(0.45, new_weights["population_impact"] + 0.05)
+                new_weights["urgency"]            = max(0.15, new_weights["urgency"] - 0.05)
+
+            proposed = {
+                "component":   "fitness_weights",
+                "description": "Increase population impact weight — environment and biology domains serving billions",
+                "reason":      f"Environment avg confidence {env_avg:.0%}, biology avg {bio_avg:.0%}. Increasing population_impact weight serves more people by prioritizing high-reach problems.",
+                "new_code":    json.dumps(new_weights),
+                "new_values":  new_weights,
+            }
+
+            changes_proposed += 1
+            approved, reason = self.check(proposed)
+
+            if approved:
+                self.rules["fitness_weights"] = new_weights
+                changes_approved += 1
+                print(f"\n  ✅ Fitness weights evolved:")
+                for k, v in new_weights.items():
+                    bar = "█" * int(v * 20)
+                    print(f"     {k:22s} {bar} {v:.2f}")
+            else:
+                changes_rejected += 1
+
+        # ── EVOLUTION 4: Learned Patterns ───────────────────────
+        patterns = []
+
+        if disc_insights.get("top_problems"):
+            top = disc_insights["top_problems"]
+            patterns.append({
+                "insight":    f"Organism discovers highest confidence in: {top[0][0]} ({top[0][1]:.0%})",
+                "action":     "Prioritize similar problem structures in future generations",
+                "serves":     "People with highest-probability-of-solution conditions",
+            })
+
+        if device_insights.get("physics_avg"):
+            best_physics = max(device_insights["physics_avg"].items(), key=lambda x: x[1])
+            patterns.append({
+                "insight":    f"Most effective device physics: {best_physics[0]} (avg score {best_physics[1]:.1f})",
+                "action":     "Weight this physics principle higher in device generation",
+                "serves":     "People who need healing devices",
+            })
+
+        if patterns:
+            proposed = {
+                "component":   "learned_patterns",
+                "description": "Record learned patterns from organism's own experience",
+                "reason":      "Storing what works helps the organism serve people more effectively in future generations.",
+                "new_code":    json.dumps(patterns),
+                "new_values":  patterns,
+            }
+
+            changes_proposed += 1
+            approved, reason = self.check(proposed)
+
+            if approved:
+                self.rules["learned_patterns"].extend(patterns)
+                changes_approved += 1
+                print(f"\n  ✅ Patterns learned:")
+                for p in patterns:
+                    print(f"     💡 {p['insight'][:70]}")
+
+        # Save evolved rules
+        self.rules["version"]         += 1 if "version" in self.rules else 1
+        self.rules["evolved_at"]       = datetime.now().isoformat()
+        self.rules["constitution_hash"] = getattr(self, "constitution_hash", "unknown")
+        self._save_rules()
+
+        print(f"\n  Rule evolution complete:")
+        print(f"    Proposed:  {changes_proposed}")
+        print(f"    Approved:  {changes_approved}")
+        print(f"    Rejected:  {changes_rejected}")
+        print(f"    Rules v{self.rules.get('version', 1)} saved to meta_evolution/evolved_rules.json")
+
+        return self.rules

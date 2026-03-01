@@ -1,0 +1,32 @@
+{
+  "id": "4fb5b6606434",
+  "generation": 11131,
+  "created_at": "2026-03-01T07:18:16.519173",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "If Photonic bandgap manipulation in metamaterial is applied to at, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 8,
+    "estimated_cost_usd": 184875,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1566685621,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 30,
+    "economic_value_usd": 31333712420000
+  },
+  "confidence": 0.603429147862345,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

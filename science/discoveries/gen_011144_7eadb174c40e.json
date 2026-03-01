@@ -1,0 +1,32 @@
+{
+  "id": "7eadb174c40e",
+  "generation": 11144,
+  "created_at": "2026-03-01T07:18:19.204592",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Resonant inductive coupling for wireless power",
+  "hypothesis": "How to achieve sustained net-positive nuclear fusion at commercial scale? remains unsolved because previous research missed the role of Resonant. Resonant inductive coupling for wireless power directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 8,
+    "estimated_cost_usd": 173687,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2528900411,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 12,
+    "economic_value_usd": 177023028770000
+  },
+  "confidence": 0.7961981943118923,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

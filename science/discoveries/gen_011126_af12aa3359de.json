@@ -1,0 +1,32 @@
+{
+  "id": "af12aa3359de",
+  "generation": 11126,
+  "created_at": "2026-03-01T07:18:15.477219",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "If Forward osmosis using draw solution gradient is applied to to, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 11,
+    "estimated_cost_usd": 115948,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 176385550,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 6,
+    "economic_value_usd": 12346988500000
+  },
+  "confidence": 0.3375616320206889,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}
