@@ -1,0 +1,39 @@
+{
+  "id": "11b25290",
+  "name": "ClarityConnect",
+  "generation": 87374,
+  "created_at": "2026-03-01T10:02:08.327312",
+  "pain": "loneliness",
+  "population": 61000000,
+  "problem": "61M with severe loneliness \u2014 linked to early death, no device addresses this",
+  "physics": "biofeedback_neural",
+  "physics_desc": "Reads body signals, responds in real time",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Neurofeedback",
+    "Vagus nerve stimulation"
+  ],
+  "form_factor": "wrist band",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0027,
+    "size_cm": 2.2,
+    "cost_usd": 85.22,
+    "battery_hours": 84.0
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "WithYou",
+  "companion_domain": "grief_support",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
