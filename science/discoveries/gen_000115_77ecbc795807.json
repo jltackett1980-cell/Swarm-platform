@@ -1,0 +1,32 @@
+{
+  "id": "77ecbc795807",
+  "generation": 115,
+  "created_at": "2026-03-01T19:44:40.322966",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Resonant inductive coupling for wireless power",
+  "hypothesis": "If Resonant inductive coupling for wireless power is applied to quantum, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 9,
+    "estimated_cost_usd": 199254,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1790476396,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 29,
+    "economic_value_usd": 17904763960000
+  },
+  "confidence": 0.7538419284807302,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

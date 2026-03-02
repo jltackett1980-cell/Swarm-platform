@@ -1,0 +1,32 @@
+{
+  "id": "6034aa31ea29",
+  "generation": 55,
+  "created_at": "2026-03-01T19:44:25.499233",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "The key to How does gut microbiome composition directly affect brain chemistry and mood? is Viral vector delivery of therapeutic gene \u2014 specifically Viral vector delivery \u2014 which would help 300,000,000 people affected.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 29,
+    "estimated_cost_usd": 1121244,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 64759076,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 29,
+    "economic_value_usd": 647590760000
+  },
+  "confidence": 0.6971212804015904,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

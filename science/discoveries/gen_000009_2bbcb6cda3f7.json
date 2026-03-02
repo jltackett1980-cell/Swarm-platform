@@ -1,0 +1,32 @@
+{
+  "id": "2bbcb6cda3f7",
+  "generation": 9,
+  "created_at": "2026-03-01T19:44:13.422623",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "Combining Aerogel porosity for thermal/acoustic insulation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 35,
+    "estimated_cost_usd": 652804,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 886267505,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 17,
+    "economic_value_usd": 70901400400000
+  },
+  "confidence": 0.46002924611151846,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

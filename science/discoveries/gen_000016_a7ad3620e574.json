@@ -1,0 +1,32 @@
+{
+  "id": "a7ad3620e574",
+  "generation": 16,
+  "created_at": "2026-03-01T19:44:15.808389",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "If Perovskite crystal structure optimization is applied to long-term, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 15,
+    "estimated_cost_usd": 212183,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4118205,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 10,
+    "economic_value_usd": 82364100000
+  },
+  "confidence": 0.36878446576242485,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

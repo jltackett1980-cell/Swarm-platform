@@ -1,0 +1,32 @@
+{
+  "id": "897343fc8647",
+  "generation": 97,
+  "created_at": "2026-03-01T19:44:35.424575",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "The key to Why does acute pain become chronic in some people \u2014 what neural change occurs? is Optogenetic control of specific neuron populations \u2014 specifically Optogenetic control of \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 6,
+    "estimated_cost_usd": 235174,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 31360492,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 16,
+    "economic_value_usd": 2195234440000
+  },
+  "confidence": 0.5897286448726333,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

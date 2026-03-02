@@ -1,0 +1,32 @@
+{
+  "id": "50485cfcc277",
+  "generation": 79,
+  "created_at": "2026-03-01T19:44:06.209684",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "The key to What neural connectivity differences cause autism spectrum characteristics? is Sleep-dependent memory consolidation in hippocampus \u2014 specifically Sleep-dependent memory consolidation \u2014 which would help 75,000,000 people affected.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 35,
+    "estimated_cost_usd": 1173915,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 42351889,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 5,
+    "economic_value_usd": 2541113340000
+  },
+  "confidence": 0.6049715707432484,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

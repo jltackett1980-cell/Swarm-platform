@@ -1,0 +1,32 @@
+{
+  "id": "4182a282081e",
+  "generation": 90,
+  "created_at": "2026-03-01T19:44:08.635718",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Thermoelectric Seebeck coefficient maximization may resolve What is dark matter composed of \u2014 27% of universe is unknown by activating at the systems level.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 9,
+    "estimated_cost_usd": 179889,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1636478459,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 15,
+    "economic_value_usd": 98188707540000
+  },
+  "confidence": 0.4776821482446184,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

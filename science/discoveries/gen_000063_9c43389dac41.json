@@ -1,0 +1,32 @@
+{
+  "id": "9c43389dac41",
+  "generation": 63,
+  "created_at": "2026-03-01T19:44:01.170283",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "Why does acute pain become chronic in some people \u2014 what neural change occurs? remains unsolved because previous research missed the role of Optogenetic. Optogenetic control of specific neuron populations directly addresses this.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 36,
+    "estimated_cost_usd": 1206546,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16330574,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 8,
+    "economic_value_usd": 816528700000
+  },
+  "confidence": 0.7647119870398251,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

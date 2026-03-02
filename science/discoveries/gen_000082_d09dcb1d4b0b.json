@@ -1,0 +1,32 @@
+{
+  "id": "d09dcb1d4b0b",
+  "generation": 82,
+  "created_at": "2026-03-01T19:44:06.224376",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "What limits adult neuroplasticity \u2014 can those limits be safely removed? remains unsolved because previous research missed the role of BDNF. BDNF upregulation to promote neurogenesis directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 12,
+    "estimated_cost_usd": 286422,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 87087446,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 12,
+    "economic_value_usd": 7837870140000
+  },
+  "confidence": 0.5086041422751483,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

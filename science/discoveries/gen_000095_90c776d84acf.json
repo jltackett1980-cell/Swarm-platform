@@ -1,0 +1,32 @@
+{
+  "id": "90c776d84acf",
+  "generation": 95,
+  "created_at": "2026-03-01T19:44:35.418496",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "DNA computing for massively parallel search",
+  "hypothesis": "Combining DNA computing for massively parallel search with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 6,
+    "estimated_cost_usd": 23478,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3104925903,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 13,
+    "economic_value_usd": 186295554180000
+  },
+  "confidence": 0.6731777729064217,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

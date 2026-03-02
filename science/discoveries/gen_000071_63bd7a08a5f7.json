@@ -1,0 +1,32 @@
+{
+  "id": "63bd7a08a5f7",
+  "generation": 71,
+  "created_at": "2026-03-01T19:44:30.511378",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "The key to Can addiction-related neural pathway changes be reversed without withdrawal? is Neuroinflammation reduction via microglial targeting \u2014 specifically Neuroinflammation reduction via \u2014 which would help 21,000,000 people affected.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 5,
+    "estimated_cost_usd": 123012,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8585093,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 8,
+    "economic_value_usd": 600956510000
+  },
+  "confidence": 0.33800387611347427,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}
