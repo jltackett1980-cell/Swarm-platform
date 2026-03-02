@@ -1,0 +1,32 @@
+{
+  "id": "e800f07d874f",
+  "generation": 2806,
+  "created_at": "2026-03-02T06:02:52.708902",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "Monoclonal antibody blocking protein-protein interaction may resolve How are trauma and stress responses inherited epigenetically across generations? by activating at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 11,
+    "estimated_cost_usd": 530036,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 60235608,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 20,
+    "economic_value_usd": 5421204720000
+  },
+  "confidence": 0.6861385166009569,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

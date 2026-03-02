@@ -1,0 +1,32 @@
+{
+  "id": "310545917d75",
+  "generation": 2757,
+  "created_at": "2026-03-02T06:02:35.444837",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "What causes normal proteins to misfold into prions and spread through tissue? remains unsolved because previous research missed the role of Epigenetic. Epigenetic methylation/demethylation of regulatory region directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 36,
+    "estimated_cost_usd": 1514283,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 310200,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 18,
+    "economic_value_usd": 21714000000
+  },
+  "confidence": 0.5357690142084794,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

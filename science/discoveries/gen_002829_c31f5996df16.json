@@ -1,0 +1,32 @@
+{
+  "id": "c31f5996df16",
+  "generation": 2829,
+  "created_at": "2026-03-02T06:03:00.648536",
+  "problem_id": "gravity_quantum",
+  "problem": "How does gravity behave at quantum scales \u2014 quantum gravity unresolved",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "Quantum tunneling through energy barrier may resolve How does gravity behave at quantum scales \u2014 quantum gravity unresolved by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 11,
+    "estimated_cost_usd": 207948,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1741834476,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 22,
+    "economic_value_usd": 52255034280000
+  },
+  "confidence": 0.47235370610606314,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "f7b68c8d5471",
+  "generation": 2890,
+  "created_at": "2026-03-02T06:03:21.849683",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Lattice-based cryptography for quantum resistance",
+  "hypothesis": "The key to What encryption survives quantum computer attacks \u2014 post-quantum cryptography is Lattice-based cryptography for quantum resistance \u2014 specifically Lattice-based cryptography for \u2014 which would help 4,000,000,000 people affected.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 5,
+    "estimated_cost_usd": 17803,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1252871929,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 14,
+    "economic_value_usd": 100229754320000
+  },
+  "confidence": 0.6837307702121627,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

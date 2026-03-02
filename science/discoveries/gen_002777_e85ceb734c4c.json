@@ -1,0 +1,32 @@
+{
+  "id": "e85ceb734c4c",
+  "generation": 2777,
+  "created_at": "2026-03-02T06:02:41.742543",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "What is the primary molecular cause of biological aging \u2014 can it be slowed? remains unsolved because previous research missed the role of CRISPR. CRISPR gene editing targeting specific pathway directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 21,
+    "estimated_cost_usd": 873241,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3980804671,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 15,
+    "economic_value_usd": 159232186840000
+  },
+  "confidence": 0.38520434932792375,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

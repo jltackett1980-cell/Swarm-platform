@@ -1,0 +1,32 @@
+{
+  "id": "7241c5eddac0",
+  "generation": 2880,
+  "created_at": "2026-03-02T06:03:17.684315",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "The key to Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? is BDNF upregulation to promote neurogenesis \u2014 specifically BDNF upregulation to \u2014 which would help 24,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 7,
+    "estimated_cost_usd": 178685,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9680099,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 22,
+    "economic_value_usd": 387203960000
+  },
+  "confidence": 0.31063283600507985,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

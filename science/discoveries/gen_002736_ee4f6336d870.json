@@ -1,0 +1,32 @@
+{
+  "id": "ee4f6336d870",
+  "generation": 2736,
+  "created_at": "2026-03-02T06:02:27.108336",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "Autophagy activation to clear misfolded proteins may resolve How does gut microbiome composition directly affect brain chemistry and mood? by activating at the molecular level.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 3,
+    "estimated_cost_usd": 147415,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 83559122,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 25,
+    "economic_value_usd": 4177956100000
+  },
+  "confidence": 0.39329632730234426,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

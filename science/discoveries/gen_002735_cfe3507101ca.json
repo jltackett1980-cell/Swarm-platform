@@ -1,0 +1,32 @@
+{
+  "id": "cfe3507101ca",
+  "generation": 2735,
+  "created_at": "2026-03-02T06:02:27.054180",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Mycorrhizal network enhancement for nutrient cycling",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Mycorrhizal. Mycorrhizal network enhancement for nutrient cycling directly addresses this.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 8,
+    "estimated_cost_usd": 85110,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 235376406,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 6,
+    "economic_value_usd": 7061292180000
+  },
+  "confidence": 0.7803955180163757,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

@@ -1,6 +1,6 @@
 {
-  "version": 251,
-  "evolved_at": "2026-03-02T06:02:14.725646",
+  "version": 254,
+  "evolved_at": "2026-03-02T06:03:08.200119",
   "fitness_weights": {
     "population_impact": 0.3,
     "urgency": 0.25,
@@ -9,12 +9,12 @@
     "edge_deployable": 0.1
   },
   "domain_priority": {
-    "computing": 1.004,
-    "materials": 0.996,
+    "computing": 1.008,
+    "materials": 0.995,
     "neuroscience": 1.009,
-    "biology": 0.994,
+    "biology": 0.991,
     "environment": 1.004,
-    "physics": 0.992
+    "physics": 0.993
   },
   "mechanism_scores": {
     "Phytoremediation with hyperaccumulator plant species": 0.583,

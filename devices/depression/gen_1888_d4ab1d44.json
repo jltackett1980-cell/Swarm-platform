@@ -1,0 +1,39 @@
+{
+  "id": "d4ab1d44",
+  "name": "LumenLight",
+  "generation": 1888,
+  "created_at": "2026-03-02T06:02:48.350386",
+  "pain": "depression",
+  "population": 21000000,
+  "problem": "21M with major depression \u2014 no passive monitoring or early warning device",
+  "physics": "biofeedback_neural",
+  "physics_desc": "Reads body signals, responds in real time",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Neurofeedback",
+    "Vagus nerve stimulation"
+  ],
+  "form_factor": "light therapy glasses",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.004,
+    "size_cm": 3.1,
+    "cost_usd": 110.29,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "MindSpace",
+  "companion_domain": "mental_wellness",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

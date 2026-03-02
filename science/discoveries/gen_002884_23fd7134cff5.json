@@ -1,0 +1,32 @@
+{
+  "id": "23fd7134cff5",
+  "generation": 2884,
+  "created_at": "2026-03-02T06:03:19.437363",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "The key to What material is biocompatible, conductive, and flexible enough for long-term brain implants? is Bacteriophage surface display for targeting \u2014 specifically Bacteriophage surface display \u2014 which would help 5,400,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 30,
+    "estimated_cost_usd": 510862,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1907615,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 9,
+    "economic_value_usd": 114456900000
+  },
+  "confidence": 0.6167364517268416,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

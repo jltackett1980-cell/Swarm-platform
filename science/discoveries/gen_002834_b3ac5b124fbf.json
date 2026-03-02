@@ -1,0 +1,32 @@
+{
+  "id": "b3ac5b124fbf",
+  "generation": 2834,
+  "created_at": "2026-03-02T06:03:02.317266",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Neuromorphic spike-timing dependent plasticity",
+  "hypothesis": "If Neuromorphic spike-timing dependent plasticity is applied to without, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 4,
+    "estimated_cost_usd": 19043,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Benchmark on standard dataset with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2717764460,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 13,
+    "economic_value_usd": 190243512200000
+  },
+  "confidence": 0.5797044259918815,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "7e117659762d",
+  "generation": 2810,
+  "created_at": "2026-03-02T06:02:54.253852",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "If Ketamine-like NMDA antagonism without dissociation is applied to reversed, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 33,
+    "estimated_cost_usd": 914699,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13809189,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 10,
+    "economic_value_usd": 1242827010000
+  },
+  "confidence": 0.7534604154981406,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

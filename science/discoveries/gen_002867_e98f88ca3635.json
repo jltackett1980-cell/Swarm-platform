@@ -1,0 +1,32 @@
+{
+  "id": "e98f88ca3635",
+  "generation": 2867,
+  "created_at": "2026-03-02T06:03:12.917984",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "Biochar amendment for soil carbon sequestration may resolve What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? by activating at the systems level.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 10,
+    "estimated_cost_usd": 106229,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3587237088,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 24,
+    "economic_value_usd": 179361854400000
+  },
+  "confidence": 0.39999312724359115,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}
