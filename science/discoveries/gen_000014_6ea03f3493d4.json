@@ -1,0 +1,32 @@
+{
+  "id": "6ea03f3493d4",
+  "generation": 14,
+  "created_at": "2026-03-02T06:04:13.081657",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "The key to How does central sensitization maintain chronic pain without tissue damage? is Deep brain stimulation of subthalamic nucleus \u2014 specifically Deep brain stimulation \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 24,
+    "estimated_cost_usd": 730567,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 489,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 38616637,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 10,
+    "economic_value_usd": 1930831850000
+  },
+  "confidence": 0.5800185217407371,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "e40c7d0906c9",
+  "generation": 3059,
+  "created_at": "2026-03-02T06:04:00.733251",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Telomerase activation/inhibition in target cells may resolve What is the primary molecular cause of biological aging \u2014 can it be slowed? by blocking at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 24,
+    "estimated_cost_usd": 910148,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 489,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3071830064,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 30,
+    "economic_value_usd": 245746405120000
+  },
+  "confidence": 0.6002964142113577,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

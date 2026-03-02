@@ -1,0 +1,32 @@
+{
+  "id": "993afc5c20e0",
+  "generation": 55,
+  "created_at": "2026-03-02T06:04:15.349403",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "The key to What is the primary molecular cause of biological aging \u2014 can it be slowed? is Stem cell differentiation into target tissue type \u2014 specifically Stem cell differentiation \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 36,
+    "estimated_cost_usd": 1720881,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 891777936,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 13,
+    "economic_value_usd": 53506676160000
+  },
+  "confidence": 0.30935478086397605,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

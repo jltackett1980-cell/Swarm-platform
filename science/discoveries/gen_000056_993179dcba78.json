@@ -1,0 +1,32 @@
+{
+  "id": "993179dcba78",
+  "generation": 56,
+  "created_at": "2026-03-02T06:04:15.351410",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "The key to What triggers cancer cells to leave primary tumor and colonize new tissue? is Monoclonal antibody blocking protein-protein interaction \u2014 specifically Monoclonal antibody blocking \u2014 which would help 19,000,000 people affected.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 32,
+    "estimated_cost_usd": 1277028,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 10344506,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 14,
+    "economic_value_usd": 413780240000
+  },
+  "confidence": 0.4498604367154512,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

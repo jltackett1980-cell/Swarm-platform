@@ -1,0 +1,32 @@
+{
+  "id": "0f2a0b7113e9",
+  "generation": 51,
+  "created_at": "2026-03-02T06:04:15.341536",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway? remains unsolved because previous research missed the role of Optogenetic. Optogenetic control of specific neuron populations directly addresses this.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 16,
+    "estimated_cost_usd": 718186,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 400,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1177737,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 9,
+    "economic_value_usd": 35332110000
+  },
+  "confidence": 0.6048881423605744,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}
