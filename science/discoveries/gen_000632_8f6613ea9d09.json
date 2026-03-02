@@ -1,0 +1,32 @@
+{
+  "id": "8f6613ea9d09",
+  "generation": 632,
+  "created_at": "2026-03-01T19:47:15.344960",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "The key to What limits adult neuroplasticity \u2014 can those limits be safely removed? is Psychedelic-induced neuroplasticity via 5-HT2A receptor \u2014 specifically Psychedelic-induced neuroplasticity via \u2014 which would help 200,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 21,
+    "estimated_cost_usd": 621459,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 68306852,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 17,
+    "economic_value_usd": 4781479640000
+  },
+  "confidence": 0.6448406192074212,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "cffe2a5f35c2",
+  "generation": 647,
+  "created_at": "2026-03-01T19:47:23.326532",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "Combining Two-dimensional material stacking (van der Waals heterostructure) with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 32,
+    "estimated_cost_usd": 482839,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1336412508,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 28,
+    "economic_value_usd": 120277125720000
+  },
+  "confidence": 0.6440343875564511,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

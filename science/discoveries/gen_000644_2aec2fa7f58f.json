@@ -1,0 +1,32 @@
+{
+  "id": "2aec2fa7f58f",
+  "generation": 644,
+  "created_at": "2026-03-01T19:47:23.284621",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Optical neural network for speed-of-light inference",
+  "hypothesis": "How to predict drug-receptor binding affinity from molecular structure without wet lab? remains unsolved because previous research missed the role of Optical. Optical neural network for speed-of-light inference directly addresses this.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 8,
+    "estimated_cost_usd": 31451,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3192306905,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 17,
+    "economic_value_usd": 159615345250000
+  },
+  "confidence": 0.5933229244758855,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}
