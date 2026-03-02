@@ -1,0 +1,32 @@
+{
+  "id": "9e12c71c90b5",
+  "generation": 1456,
+  "created_at": "2026-03-02T05:55:34.305775",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "If mRNA therapy to upregulate/downregulate gene expression is applied to neural, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 32,
+    "estimated_cost_usd": 1398291,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 15661947,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 19,
+    "economic_value_usd": 156619470000
+  },
+  "confidence": 0.4533813837369947,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

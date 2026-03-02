@@ -1,0 +1,32 @@
+{
+  "id": "f2165ba6c6f9",
+  "generation": 1604,
+  "created_at": "2026-03-02T05:56:18.370064",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "The key to Why do amyloid plaques form in Alzheimer's and can they be cleared? is Stem cell differentiation into target tissue type \u2014 specifically Stem cell differentiation \u2014 which would help 55,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 20,
+    "estimated_cost_usd": 822541,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 41518008,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 18,
+    "economic_value_usd": 415180080000
+  },
+  "confidence": 0.5816960126293862,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

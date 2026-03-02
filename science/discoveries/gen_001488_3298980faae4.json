@@ -1,0 +1,32 @@
+{
+  "id": "3298980faae4",
+  "generation": 1488,
+  "created_at": "2026-03-02T05:55:42.809687",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Quantum annealing for optimization problems",
+  "hypothesis": "If Quantum annealing for optimization problems is applied to vs, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 12,
+    "estimated_cost_usd": 56380,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2759050905,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 27,
+    "economic_value_usd": 248314581450000
+  },
+  "confidence": 0.7653918923433903,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

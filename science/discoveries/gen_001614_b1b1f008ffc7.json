@@ -1,0 +1,32 @@
+{
+  "id": "b1b1f008ffc7",
+  "generation": 1614,
+  "created_at": "2026-03-02T05:56:21.279594",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "The key to How does gut microbiome composition directly affect brain chemistry and mood? is Optogenetic control of specific neuron populations \u2014 specifically Optogenetic control of \u2014 which would help 300,000,000 people affected.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 22,
+    "estimated_cost_usd": 914951,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 66624575,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 24,
+    "economic_value_usd": 2664983000000
+  },
+  "confidence": 0.5988415979895343,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}
