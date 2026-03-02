@@ -1,0 +1,39 @@
+{
+  "id": "d91185f9",
+  "name": "PulseSound",
+  "generation": 30915,
+  "created_at": "2026-03-02T05:43:20.099969",
+  "pain": "hearing_loss",
+  "population": 48000000,
+  "problem": "48M with hearing loss \u2014 aids cost $3,000-$7,000",
+  "physics": "mechanical_haptic",
+  "physics_desc": "Vibration, pressure, mechanical force",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Haptic feedback",
+    "Vibrotactile devices"
+  ],
+  "form_factor": "behind-ear module",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.5545,
+    "size_cm": 16.4,
+    "cost_usd": 106.78,
+    "battery_hours": 22.0
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
