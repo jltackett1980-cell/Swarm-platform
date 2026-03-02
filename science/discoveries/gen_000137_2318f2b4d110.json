@@ -1,0 +1,32 @@
+{
+  "id": "2318f2b4d110",
+  "generation": 137,
+  "created_at": "2026-03-01T19:44:45.788727",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "The key to What membrane material filters all contaminants from water at low energy cost? is Carbon nanotube alignment in polymer matrix \u2014 specifically Carbon nanotube alignment \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 13,
+    "estimated_cost_usd": 245477,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 298718686,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 12,
+    "economic_value_usd": 26884681740000
+  },
+  "confidence": 0.3786939345042893,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

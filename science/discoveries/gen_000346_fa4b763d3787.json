@@ -1,0 +1,32 @@
+{
+  "id": "fa4b763d3787",
+  "generation": 346,
+  "created_at": "2026-03-01T19:45:38.966609",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "How does gut microbiome composition directly affect brain chemistry and mood? remains unsolved because previous research missed the role of Small. Small molecule inhibitor of enzyme active site directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 8,
+    "estimated_cost_usd": 315015,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 282,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 88441229,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 10,
+    "economic_value_usd": 5306473740000
+  },
+  "confidence": 0.30960390810270666,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

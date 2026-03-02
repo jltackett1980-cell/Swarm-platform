@@ -1,0 +1,32 @@
+{
+  "id": "f45dee41cce6",
+  "generation": 253,
+  "created_at": "2026-03-01T19:45:15.832550",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "If Vagus nerve stimulation modulating brain-gut axis is applied to in, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 14,
+    "estimated_cost_usd": 332002,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3778055919,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 6,
+    "economic_value_usd": 302244473520000
+  },
+  "confidence": 0.7148790347619449,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

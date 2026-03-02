@@ -1,0 +1,32 @@
+{
+  "id": "36b6b587bfd2",
+  "generation": 448,
+  "created_at": "2026-03-01T19:46:04.615142",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "DNA computing for massively parallel search",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of DNA. DNA computing for massively parallel search directly addresses this.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 7,
+    "estimated_cost_usd": 30564,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 503837748,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 21,
+    "economic_value_usd": 25191887400000
+  },
+  "confidence": 0.5296843311648665,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

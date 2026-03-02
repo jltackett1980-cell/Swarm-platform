@@ -1,0 +1,32 @@
+{
+  "id": "288abfb81370",
+  "generation": 487,
+  "created_at": "2026-03-01T19:46:15.012096",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "If mRNA therapy to upregulate/downregulate gene expression is applied to in, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 6,
+    "estimated_cost_usd": 210269,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 34510711,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 12,
+    "economic_value_usd": 3105963990000
+  },
+  "confidence": 0.7611000123805214,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "3a10a8e303d5",
+  "generation": 310,
+  "created_at": "2026-03-01T19:45:30.996887",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "How does central sensitization maintain chronic pain without tissue damage? remains unsolved because previous research missed the role of Psychedelic-induced. Psychedelic-induced neuroplasticity via 5-HT2A receptor directly addresses this.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 29,
+    "estimated_cost_usd": 776457,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 33333556,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 20,
+    "economic_value_usd": 333335560000
+  },
+  "confidence": 0.786960759309361,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

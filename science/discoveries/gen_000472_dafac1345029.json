@@ -1,0 +1,32 @@
+{
+  "id": "dafac1345029",
+  "generation": 472,
+  "created_at": "2026-03-01T19:46:12.059267",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "What neural connectivity differences cause autism spectrum characteristics? remains unsolved because previous research missed the role of Sleep-dependent. Sleep-dependent memory consolidation in hippocampus directly addresses this.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 24,
+    "estimated_cost_usd": 644676,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 489,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 34099783,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 29,
+    "economic_value_usd": 3068980470000
+  },
+  "confidence": 0.33064727766106367,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

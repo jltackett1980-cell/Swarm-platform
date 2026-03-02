@@ -1,0 +1,32 @@
+{
+  "id": "004397d0170c",
+  "generation": 239,
+  "created_at": "2026-03-01T19:45:13.030567",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Combining Spintronics for low-power data storage with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 1,
+    "estimated_cost_usd": 16878,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3710600245,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 21,
+    "economic_value_usd": 296848019600000
+  },
+  "confidence": 0.6250440296509299,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

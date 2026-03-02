@@ -1,0 +1,32 @@
+{
+  "id": "db5e09e07f18",
+  "generation": 290,
+  "created_at": "2026-03-01T19:45:25.917792",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "If Electrocoagulation for suspended particle removal is applied to rapidly, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 7,
+    "estimated_cost_usd": 87336,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 98771353,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 28,
+    "economic_value_usd": 2963140590000
+  },
+  "confidence": 0.6051369253297847,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

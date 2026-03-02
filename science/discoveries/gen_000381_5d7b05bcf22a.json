@@ -1,0 +1,32 @@
+{
+  "id": "5d7b05bcf22a",
+  "generation": 381,
+  "created_at": "2026-03-01T19:45:48.859989",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "Rhizobium inoculation for nitrogen fixation may resolve What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? by activating at the systems level.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 2,
+    "estimated_cost_usd": 24084,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 903312391,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 28,
+    "economic_value_usd": 45165619550000
+  },
+  "confidence": 0.6561848416603356,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

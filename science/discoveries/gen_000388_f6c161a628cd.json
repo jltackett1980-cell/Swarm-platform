@@ -1,0 +1,32 @@
+{
+  "id": "f6c161a628cd",
+  "generation": 388,
+  "created_at": "2026-03-01T19:45:49.238979",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "If mRNA therapy to upregulate/downregulate gene expression is applied to epigenetically, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 12,
+    "estimated_cost_usd": 560910,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 129794037,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 30,
+    "economic_value_usd": 9085582590000
+  },
+  "confidence": 0.49485744962581624,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

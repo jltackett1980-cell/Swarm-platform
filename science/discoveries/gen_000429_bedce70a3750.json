@@ -1,0 +1,32 @@
+{
+  "id": "bedce70a3750",
+  "generation": 429,
+  "created_at": "2026-03-01T19:46:01.613069",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient remains unsolved because previous research missed the role of Default. Default mode network connectivity measurement via fMRI directly addresses this.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 34,
+    "estimated_cost_usd": 877729,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 64999612,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 20,
+    "economic_value_usd": 3249980600000
+  },
+  "confidence": 0.5306494475798129,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

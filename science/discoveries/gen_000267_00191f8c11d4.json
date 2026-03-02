@@ -1,0 +1,32 @@
+{
+  "id": "00191f8c11d4",
+  "generation": 267,
+  "created_at": "2026-03-01T19:45:18.611332",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "The key to Can ocean acidification be safely reversed \u2014 what biochemical approach? is Photocatalytic oxidation under visible light \u2014 specifically Photocatalytic oxidation under \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 9,
+    "estimated_cost_usd": 103540,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1374203072,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 20,
+    "economic_value_usd": 109936245760000
+  },
+  "confidence": 0.434895057222502,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

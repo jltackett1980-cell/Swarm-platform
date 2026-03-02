@@ -1,0 +1,32 @@
+{
+  "id": "e4b14158fe6e",
+  "generation": 435,
+  "created_at": "2026-03-01T19:46:02.039210",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "If Deep brain stimulation of subthalamic nucleus is applied to essential, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 30,
+    "estimated_cost_usd": 838937,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1057173442,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 26,
+    "economic_value_usd": 84573875360000
+  },
+  "confidence": 0.6095845410735437,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

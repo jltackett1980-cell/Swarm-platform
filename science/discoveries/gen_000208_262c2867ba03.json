@@ -1,0 +1,32 @@
+{
+  "id": "262c2867ba03",
+  "generation": 208,
+  "created_at": "2026-03-01T19:45:03.155790",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? remains unsolved because previous research missed the role of Constructed. Constructed wetland for water filtration directly addresses this.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 12,
+    "estimated_cost_usd": 125123,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3928002632,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 19,
+    "economic_value_usd": 78560052640000
+  },
+  "confidence": 0.7234238335057657,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

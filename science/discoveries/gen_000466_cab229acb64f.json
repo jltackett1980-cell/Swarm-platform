@@ -1,0 +1,32 @@
+{
+  "id": "cab229acb64f",
+  "generation": 466,
+  "created_at": "2026-03-01T19:46:09.827399",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "Why do perovskite solar cells degrade \u2014 what material instability causes it? remains unsolved because previous research missed the role of Carbon. Carbon nanotube alignment in polymer matrix directly addresses this.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 36,
+    "estimated_cost_usd": 538278,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 826192561,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 25,
+    "economic_value_usd": 74357330490000
+  },
+  "confidence": 0.6688554803191209,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

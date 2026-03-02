@@ -1,0 +1,32 @@
+{
+  "id": "e517b891bf8a",
+  "generation": 159,
+  "created_at": "2026-03-01T19:44:53.150204",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "Combining Epigenetic methylation/demethylation of regulatory region with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 11,
+    "estimated_cost_usd": 372000,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1941379106,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 23,
+    "economic_value_usd": 155310328480000
+  },
+  "confidence": 0.7709955440797058,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

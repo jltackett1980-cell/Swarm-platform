@@ -1,0 +1,32 @@
+{
+  "id": "a8195eda94ae",
+  "generation": 495,
+  "created_at": "2026-03-01T19:46:17.601372",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "If Microbiome modulation via targeted bacteriophage therapy is applied to neural, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 29,
+    "estimated_cost_usd": 1221668,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 22461267,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 24,
+    "economic_value_usd": 1572288690000
+  },
+  "confidence": 0.45038524482544545,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

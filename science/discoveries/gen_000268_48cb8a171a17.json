@@ -1,0 +1,32 @@
+{
+  "id": "48cb8a171a17",
+  "generation": 268,
+  "created_at": "2026-03-01T19:45:18.618480",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Shape memory alloy phase transition \u2014 specifically Shape memory alloy \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 34,
+    "estimated_cost_usd": 665108,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 84096695,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 19,
+    "economic_value_usd": 7568702550000
+  },
+  "confidence": 0.6440955490210735,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

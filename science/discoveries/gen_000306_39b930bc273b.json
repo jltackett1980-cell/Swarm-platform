@@ -1,0 +1,32 @@
+{
+  "id": "39b930bc273b",
+  "generation": 306,
+  "created_at": "2026-03-01T19:45:28.745097",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "If Viral vector delivery of therapeutic gene is applied to epigenetically, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 3,
+    "estimated_cost_usd": 100846,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 153352083,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 26,
+    "economic_value_usd": 13801687470000
+  },
+  "confidence": 0.5934321892033806,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}
