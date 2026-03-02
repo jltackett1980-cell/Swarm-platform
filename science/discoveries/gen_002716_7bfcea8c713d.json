@@ -1,0 +1,32 @@
+{
+  "id": "7bfcea8c713d",
+  "generation": 2716,
+  "created_at": "2026-03-02T06:02:20.140050",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "Combining Synaptic plasticity modulation via NMDA receptor with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 6,
+    "estimated_cost_usd": 192922,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2161334335,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 9,
+    "economic_value_usd": 108066716750000
+  },
+  "confidence": 0.6669399710233479,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

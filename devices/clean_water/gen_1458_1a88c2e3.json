@@ -1,0 +1,39 @@
+{
+  "id": "1a88c2e3",
+  "name": "LumenPure",
+  "generation": 1458,
+  "created_at": "2026-03-02T06:02:12.547362",
+  "pain": "clean_water",
+  "population": 2200000,
+  "problem": "2.2M Americans lack access to safe drinking water",
+  "physics": "electrochemical",
+  "physics_desc": "Electrochemical reactions for sensing and delivery",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Continuous glucose monitors",
+    "Insulin pumps"
+  ],
+  "form_factor": "inline sensor",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0108,
+    "size_cm": 2.5,
+    "cost_usd": 117.24,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
