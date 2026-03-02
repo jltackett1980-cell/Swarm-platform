@@ -1,0 +1,39 @@
+{
+  "id": "768d25af",
+  "name": "PulseConnect",
+  "generation": 31395,
+  "created_at": "2026-03-02T05:44:31.240328",
+  "pain": "loneliness",
+  "population": 61000000,
+  "problem": "61M with severe loneliness \u2014 linked to early death, no device addresses this",
+  "physics": "mechanical_haptic",
+  "physics_desc": "Vibration, pressure, mechanical force",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Haptic feedback",
+    "Vibrotactile devices"
+  ],
+  "form_factor": "wrist band",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.6637,
+    "size_cm": 23.2,
+    "cost_usd": 139.33,
+    "battery_hours": 25.9
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "WithYou",
+  "companion_domain": "grief_support",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
