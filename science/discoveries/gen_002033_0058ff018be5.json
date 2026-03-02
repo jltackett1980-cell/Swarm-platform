@@ -1,0 +1,32 @@
+{
+  "id": "0058ff018be5",
+  "generation": 2033,
+  "created_at": "2026-03-02T05:58:31.161643",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "The key to Why do perovskite solar cells degrade \u2014 what material instability causes it? is Metal-organic framework with specific pore geometry \u2014 specifically Metal-organic framework with \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 8,
+    "estimated_cost_usd": 117005,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 618860995,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 22,
+    "economic_value_usd": 55697489550000
+  },
+  "confidence": 0.5485038259216826,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}
