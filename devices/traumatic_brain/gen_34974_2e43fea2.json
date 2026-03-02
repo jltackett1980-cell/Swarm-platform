@@ -1,0 +1,39 @@
+{
+  "id": "2e43fea2",
+  "name": "ClarityRestore",
+  "generation": 34974,
+  "created_at": "2026-03-02T05:53:00.883031",
+  "pain": "traumatic_brain",
+  "population": 5300000,
+  "problem": "5.3M living with TBI \u2014 limited affordable recovery tools",
+  "physics": "biofeedback_neural",
+  "physics_desc": "Reads body signals, responds in real time",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Neurofeedback",
+    "Vagus nerve stimulation"
+  ],
+  "form_factor": "headband",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.004,
+    "size_cm": 2.9,
+    "cost_usd": 260.12,
+    "battery_hours": 53.5
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
