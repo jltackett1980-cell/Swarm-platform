@@ -1,0 +1,32 @@
+{
+  "id": "ebde1a0c18af",
+  "generation": 594,
+  "created_at": "2026-03-01T19:46:56.859203",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "Combining Bacteriophage surface display for targeting with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 12,
+    "estimated_cost_usd": 203767,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1493437930,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 16,
+    "economic_value_usd": 134409413700000
+  },
+  "confidence": 0.6197465641630894,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

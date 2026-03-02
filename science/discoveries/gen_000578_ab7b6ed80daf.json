@@ -1,0 +1,32 @@
+{
+  "id": "ab7b6ed80daf",
+  "generation": 578,
+  "created_at": "2026-03-01T19:46:46.555214",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "The key to What membrane material filters all contaminants from water at low energy cost? is Biomimetic surface structure (lotus, shark skin, gecko) \u2014 specifically Biomimetic surface structure \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 22,
+    "estimated_cost_usd": 330726,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 993129955,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 19,
+    "economic_value_usd": 59587797300000
+  },
+  "confidence": 0.6082630933791208,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

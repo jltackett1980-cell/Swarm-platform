@@ -1,0 +1,32 @@
+{
+  "id": "5376a162cd32",
+  "generation": 610,
+  "created_at": "2026-03-01T19:47:04.806581",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "The key to What physical process in the brain produces subjective conscious experience? is Default mode network connectivity measurement via fMRI \u2014 specifically Default mode network \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 31,
+    "estimated_cost_usd": 823383,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3036152534,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 26,
+    "economic_value_usd": 30361525340000
+  },
+  "confidence": 0.5617368922867629,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

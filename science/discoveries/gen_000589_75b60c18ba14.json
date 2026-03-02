@@ -1,0 +1,32 @@
+{
+  "id": "75b60c18ba14",
+  "generation": 589,
+  "created_at": "2026-03-01T19:46:54.267866",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "How to produce defect-free large-area graphene at low cost? remains unsolved because previous research missed the role of Perovskite. Perovskite crystal structure optimization directly addresses this.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 3,
+    "estimated_cost_usd": 49479,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 605895011,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 10,
+    "economic_value_usd": 42412650770000
+  },
+  "confidence": 0.5858449786572006,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

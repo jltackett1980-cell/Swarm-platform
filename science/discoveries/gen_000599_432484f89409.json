@@ -1,0 +1,32 @@
+{
+  "id": "432484f89409",
+  "generation": 599,
+  "created_at": "2026-03-01T19:46:59.470463",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Combining Default mode network connectivity measurement via fMRI with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 21,
+    "estimated_cost_usd": 628797,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1830096325,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 19,
+    "economic_value_usd": 73203853000000
+  },
+  "confidence": 0.3178957899747394,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

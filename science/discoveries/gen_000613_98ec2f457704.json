@@ -1,0 +1,32 @@
+{
+  "id": "98ec2f457704",
+  "generation": 613,
+  "created_at": "2026-03-01T19:47:04.844516",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "Liquid crystal elastomer actuation may resolve What material surface coating prevents bacterial biofilm formation on implants? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 12,
+    "estimated_cost_usd": 228208,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 130698348,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 13,
+    "economic_value_usd": 3920950440000
+  },
+  "confidence": 0.43544835532582055,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

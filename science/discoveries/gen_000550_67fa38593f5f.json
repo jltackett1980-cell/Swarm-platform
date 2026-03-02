@@ -1,0 +1,32 @@
+{
+  "id": "67fa38593f5f",
+  "generation": 550,
+  "created_at": "2026-03-01T19:46:33.573908",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "What material surface coating prevents bacterial biofilm formation on implants? remains unsolved because previous research missed the role of Bacteriophage. Bacteriophage surface display for targeting directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 13,
+    "estimated_cost_usd": 183369,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 286928014,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 26,
+    "economic_value_usd": 8607840420000
+  },
+  "confidence": 0.4631003393053132,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

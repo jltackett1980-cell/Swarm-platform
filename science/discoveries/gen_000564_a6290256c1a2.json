@@ -1,0 +1,32 @@
+{
+  "id": "a6290256c1a2",
+  "generation": 564,
+  "created_at": "2026-03-01T19:46:41.386501",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? remains unsolved because previous research missed the role of Biochar. Biochar amendment for soil carbon sequestration directly addresses this.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 7,
+    "estimated_cost_usd": 96953,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 115215984,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 9,
+    "economic_value_usd": 8065118880000
+  },
+  "confidence": 0.407250515225879,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

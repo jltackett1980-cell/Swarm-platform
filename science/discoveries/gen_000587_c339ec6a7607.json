@@ -1,0 +1,32 @@
+{
+  "id": "c339ec6a7607",
+  "generation": 587,
+  "created_at": "2026-03-01T19:46:51.736685",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "If Synaptic plasticity modulation via NMDA receptor is applied to essential, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 12,
+    "estimated_cost_usd": 283290,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 825047080,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 15,
+    "economic_value_usd": 57753295600000
+  },
+  "confidence": 0.6502348179857532,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

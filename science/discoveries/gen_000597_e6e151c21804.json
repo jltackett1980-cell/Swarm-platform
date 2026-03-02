@@ -1,0 +1,32 @@
+{
+  "id": "e6e151c21804",
+  "generation": 597,
+  "created_at": "2026-03-01T19:46:56.897590",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved remains unsolved because previous research missed the role of Piezoelectric. Piezoelectric coupling in novel crystal structure directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 9,
+    "estimated_cost_usd": 171176,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 454868345,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 28,
+    "economic_value_usd": 27292100700000
+  },
+  "confidence": 0.4095930447221118,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}
