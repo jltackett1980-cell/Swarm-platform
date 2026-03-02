@@ -1,0 +1,39 @@
+{
+  "id": "017fbff1",
+  "name": "EmberStill",
+  "generation": 23812,
+  "created_at": "2026-03-02T00:27:47.458017",
+  "pain": "tremor",
+  "population": 10000000,
+  "problem": "10M with essential tremor can't hold a pen or eat without spilling",
+  "physics": "biofeedback_neural",
+  "physics_desc": "Reads body signals, responds in real time",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Neurofeedback",
+    "Vagus nerve stimulation"
+  ],
+  "form_factor": "wrist stabilizer",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0088,
+    "size_cm": 1.4,
+    "cost_usd": 218.73,
+    "battery_hours": 154.3
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
