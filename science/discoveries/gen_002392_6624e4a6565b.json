@@ -1,0 +1,32 @@
+{
+  "id": "6624e4a6565b",
+  "generation": 2392,
+  "created_at": "2026-03-02T06:00:29.758772",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "If Piezoelectric coupling in novel crystal structure is applied to chemical, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 6,
+    "estimated_cost_usd": 148767,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1028299539,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 24,
+    "economic_value_usd": 71980967730000
+  },
+  "confidence": 0.555249201057418,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

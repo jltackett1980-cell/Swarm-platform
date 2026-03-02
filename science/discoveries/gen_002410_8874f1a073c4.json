@@ -1,0 +1,32 @@
+{
+  "id": "8874f1a073c4",
+  "generation": 2410,
+  "created_at": "2026-03-02T06:00:37.332368",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "The key to Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? is Ketamine-like NMDA antagonism without dissociation \u2014 specifically Ketamine-like NMDA antagonism \u2014 which would help 24,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 18,
+    "estimated_cost_usd": 498527,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 424,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 15663067,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 21,
+    "economic_value_usd": 156630670000
+  },
+  "confidence": 0.5965277209003652,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

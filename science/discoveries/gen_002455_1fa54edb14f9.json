@@ -1,0 +1,32 @@
+{
+  "id": "1fa54edb14f9",
+  "generation": 2455,
+  "created_at": "2026-03-02T06:00:52.138863",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "Combining Autophagy activation to clear misfolded proteins with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 30,
+    "estimated_cost_usd": 1359605,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 42797981,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 11,
+    "economic_value_usd": 427979810000
+  },
+  "confidence": 0.5384173932597585,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

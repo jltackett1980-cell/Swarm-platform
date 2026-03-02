@@ -1,0 +1,32 @@
+{
+  "id": "372bdb1258dd",
+  "generation": 2488,
+  "created_at": "2026-03-02T06:01:01.436227",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "The key to How to store solar energy at grid scale without chemical battery degradation? is Topological insulator surface state conduction \u2014 specifically Topological insulator surface \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 3,
+    "estimated_cost_usd": 50396,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1497522645,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 6,
+    "economic_value_usd": 14975226450000
+  },
+  "confidence": 0.6071514505571419,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "fb6efdb36b28",
+  "generation": 2445,
+  "created_at": "2026-03-02T06:00:48.528077",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "Two-dimensional material stacking (van der Waals heterostructure) may resolve Why do perovskite solar cells degrade \u2014 what material instability causes it? by activating at the molecular level.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 20,
+    "estimated_cost_usd": 322145,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 323932601,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 7,
+    "economic_value_usd": 22675282070000
+  },
+  "confidence": 0.3970705853056803,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

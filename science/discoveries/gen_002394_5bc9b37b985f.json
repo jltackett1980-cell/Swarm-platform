@@ -1,0 +1,32 @@
+{
+  "id": "5bc9b37b985f",
+  "generation": 2394,
+  "created_at": "2026-03-02T06:00:31.239799",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "The key to What material stores hydrogen fuel at high density without safety risk? is Aerogel porosity for thermal/acoustic insulation \u2014 specifically Aerogel porosity for \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 20,
+    "estimated_cost_usd": 323937,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 829171919,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 21,
+    "economic_value_usd": 58042034330000
+  },
+  "confidence": 0.5634008456078441,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

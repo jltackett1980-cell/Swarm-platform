@@ -1,0 +1,32 @@
+{
+  "id": "a5567e3ffe0e",
+  "generation": 2475,
+  "created_at": "2026-03-02T06:00:58.349569",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost? remains unsolved because previous research missed the role of Monte. Monte Carlo tree search with learned heuristics directly addresses this.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 10,
+    "estimated_cost_usd": 46999,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2587734266,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 28,
+    "economic_value_usd": 207018741280000
+  },
+  "confidence": 0.37714789834908535,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

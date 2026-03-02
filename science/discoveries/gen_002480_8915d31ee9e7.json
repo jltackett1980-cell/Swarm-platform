@@ -1,0 +1,32 @@
+{
+  "id": "8915d31ee9e7",
+  "generation": 2480,
+  "created_at": "2026-03-02T06:00:59.837153",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? remains unsolved because previous research missed the role of Fear. Fear memory reconsolidation interference via timing directly addresses this.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 33,
+    "estimated_cost_usd": 796983,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8375834,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 18,
+    "economic_value_usd": 83758340000
+  },
+  "confidence": 0.797017735255765,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

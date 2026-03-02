@@ -1,0 +1,32 @@
+{
+  "id": "96eff96759dd",
+  "generation": 2421,
+  "created_at": "2026-03-02T06:00:40.577063",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "The key to Can ocean acidification be safely reversed \u2014 what biochemical approach? is Phytoremediation with hyperaccumulator plant species \u2014 specifically Phytoremediation with hyperaccumulator \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 1,
+    "estimated_cost_usd": 10810,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1205744603,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 11,
+    "economic_value_usd": 108517014270000
+  },
+  "confidence": 0.42251970993062604,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}
