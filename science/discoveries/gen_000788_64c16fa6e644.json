@@ -1,0 +1,32 @@
+{
+  "id": "64c16fa6e644",
+  "generation": 788,
+  "created_at": "2026-03-02T05:51:22.139351",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "The key to Why do amyloid plaques form in Alzheimer's and can they be cleared? is CRISPR gene editing targeting specific pathway \u2014 specifically CRISPR gene editing \u2014 which would help 55,000,000 people affected.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 10,
+    "estimated_cost_usd": 451580,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 39575366,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 17,
+    "economic_value_usd": 2770275620000
+  },
+  "confidence": 0.6942363455080074,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

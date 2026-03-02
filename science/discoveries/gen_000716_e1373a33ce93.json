@@ -1,0 +1,32 @@
+{
+  "id": "e1373a33ce93",
+  "generation": 716,
+  "created_at": "2026-03-02T05:50:51.733834",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Resonant inductive coupling for wireless power",
+  "hypothesis": "Combining Resonant inductive coupling for wireless power with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 6,
+    "estimated_cost_usd": 141652,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3699831076,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 29,
+    "economic_value_usd": 295986486080000
+  },
+  "confidence": 0.5318970357061268,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

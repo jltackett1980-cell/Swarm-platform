@@ -1,0 +1,32 @@
+{
+  "id": "605ce12b0ac3",
+  "generation": 924,
+  "created_at": "2026-03-02T05:52:22.690337",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "The key to What limits adult neuroplasticity \u2014 can those limits be safely removed? is Glial cell activation/suppression in target brain region \u2014 specifically Glial cell activation/suppression \u2014 which would help 200,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 28,
+    "estimated_cost_usd": 819162,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 50903153,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 16,
+    "economic_value_usd": 4581283770000
+  },
+  "confidence": 0.6275700598275399,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

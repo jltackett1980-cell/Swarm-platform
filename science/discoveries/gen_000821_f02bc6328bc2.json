@@ -1,0 +1,32 @@
+{
+  "id": "f02bc6328bc2",
+  "generation": 821,
+  "created_at": "2026-03-02T05:51:37.228740",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "Aerogel porosity for thermal/acoustic insulation may resolve What membrane material filters all contaminants from water at low energy cost? by activating at the molecular level.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 32,
+    "estimated_cost_usd": 488250,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 820783868,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 25,
+    "economic_value_usd": 65662709440000
+  },
+  "confidence": 0.7150383982462609,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

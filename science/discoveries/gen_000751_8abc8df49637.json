@@ -1,0 +1,32 @@
+{
+  "id": "8abc8df49637",
+  "generation": 751,
+  "created_at": "2026-03-02T05:51:06.972567",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "If Sleep-dependent memory consolidation in hippocampus is applied to reversed, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 4,
+    "estimated_cost_usd": 120203,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9860566,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 13,
+    "economic_value_usd": 394422640000
+  },
+  "confidence": 0.36662843555138225,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

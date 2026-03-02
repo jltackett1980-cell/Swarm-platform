@@ -1,0 +1,32 @@
+{
+  "id": "101a8525ebaf",
+  "generation": 962,
+  "created_at": "2026-03-02T05:52:37.963383",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "The key to What material stores hydrogen fuel at high density without safety risk? is Two-dimensional material stacking (van der Waals heterostructure) \u2014 specifically Two-dimensional material stacking \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 23,
+    "estimated_cost_usd": 428853,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 532652575,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 25,
+    "economic_value_usd": 21306103000000
+  },
+  "confidence": 0.6370610443417037,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

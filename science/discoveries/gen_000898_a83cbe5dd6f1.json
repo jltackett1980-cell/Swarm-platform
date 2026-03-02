@@ -1,0 +1,32 @@
+{
+  "id": "a83cbe5dd6f1",
+  "generation": 898,
+  "created_at": "2026-03-02T05:52:09.605875",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "The key to What synthetic material perfectly mimics bone's mechanical and biological properties? is Electrospun nanofiber scaffold for tissue engineering \u2014 specifically Electrospun nanofiber scaffold \u2014 which would help 10,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 5,
+    "estimated_cost_usd": 96493,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5455281,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 29,
+    "economic_value_usd": 272764050000
+  },
+  "confidence": 0.6320622036430714,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

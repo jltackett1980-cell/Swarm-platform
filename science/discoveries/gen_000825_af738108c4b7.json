@@ -1,0 +1,32 @@
+{
+  "id": "af738108c4b7",
+  "generation": 825,
+  "created_at": "2026-03-02T05:51:39.304841",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale? remains unsolved because previous research missed the role of Optical. Optical rectenna for direct photon-to-electron conversion directly addresses this.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 3,
+    "estimated_cost_usd": 50018,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2461899784,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 29,
+    "economic_value_usd": 98475991360000
+  },
+  "confidence": 0.4943879712117409,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

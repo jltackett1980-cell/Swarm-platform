@@ -1,0 +1,32 @@
+{
+  "id": "e0a659acc6f2",
+  "generation": 738,
+  "created_at": "2026-03-02T05:51:00.358212",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "If Piezoelectric coupling in novel crystal structure is applied to what, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 4,
+    "estimated_cost_usd": 75525,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2803916452,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 21,
+    "economic_value_usd": 56078329040000
+  },
+  "confidence": 0.7074004622688996,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

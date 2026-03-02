@@ -1,0 +1,32 @@
+{
+  "id": "cd07b426bcf6",
+  "generation": 888,
+  "created_at": "2026-03-02T05:52:05.389901",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "Constructed wetland for water filtration may resolve How to restore depleted agricultural soil microbiome rapidly at scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 5,
+    "estimated_cost_usd": 57351,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 88836984,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 9,
+    "economic_value_usd": 7995328560000
+  },
+  "confidence": 0.3190299864444634,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

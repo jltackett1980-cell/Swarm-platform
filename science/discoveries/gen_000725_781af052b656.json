@@ -1,0 +1,32 @@
+{
+  "id": "781af052b656",
+  "generation": 725,
+  "created_at": "2026-03-02T05:50:55.803207",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "Combining Bacteriophage surface display for targeting with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 20,
+    "estimated_cost_usd": 332808,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2617707394,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 17,
+    "economic_value_usd": 209416591520000
+  },
+  "confidence": 0.5886111414737275,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

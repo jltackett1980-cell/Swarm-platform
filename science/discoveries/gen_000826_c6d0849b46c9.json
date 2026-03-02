@@ -1,0 +1,32 @@
+{
+  "id": "c6d0849b46c9",
+  "generation": 826,
+  "created_at": "2026-03-02T05:51:39.319931",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "Ketamine-like NMDA antagonism without dissociation may resolve What physical process in the brain produces subjective conscious experience? by activating at the systems level.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 18,
+    "estimated_cost_usd": 505901,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 424,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3182518226,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 7,
+    "economic_value_usd": 127300729040000
+  },
+  "confidence": 0.7685857744736295,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "c284136888ce",
+  "generation": 930,
+  "created_at": "2026-03-02T05:52:24.807245",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "Vagus nerve stimulation modulating brain-gut axis may resolve What neural connectivity differences cause autism spectrum characteristics? by activating at the systems level.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 9,
+    "estimated_cost_usd": 282075,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 39094891,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 30,
+    "economic_value_usd": 2736642370000
+  },
+  "confidence": 0.500384373245564,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

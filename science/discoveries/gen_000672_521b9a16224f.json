@@ -1,0 +1,32 @@
+{
+  "id": "521b9a16224f",
+  "generation": 672,
+  "created_at": "2026-03-02T05:50:31.963539",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "Homomorphic encryption for private computation may resolve What encryption survives quantum computer attacks \u2014 post-quantum cryptography by activating at the systems level.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 2,
+    "estimated_cost_usd": 7310,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 510206686,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 24,
+    "economic_value_usd": 5102066860000
+  },
+  "confidence": 0.37441706738077946,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

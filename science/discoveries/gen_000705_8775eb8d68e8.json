@@ -1,0 +1,32 @@
+{
+  "id": "8775eb8d68e8",
+  "generation": 705,
+  "created_at": "2026-03-02T05:50:47.613766",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "Combining CRISPR gene editing targeting specific pathway with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 28,
+    "estimated_cost_usd": 1186432,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 28874421,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 12,
+    "economic_value_usd": 1443721050000
+  },
+  "confidence": 0.318854952643926,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

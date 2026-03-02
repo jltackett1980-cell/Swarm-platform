@@ -1,0 +1,32 @@
+{
+  "id": "8730d16b0f5f",
+  "generation": 958,
+  "created_at": "2026-03-02T05:52:35.864704",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "mRNA therapy to upregulate/downregulate gene expression may resolve Why do amyloid plaques form in Alzheimer's and can they be cleared? by activating at the molecular level.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 23,
+    "estimated_cost_usd": 948380,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16738110,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 25,
+    "economic_value_usd": 1171667700000
+  },
+  "confidence": 0.7145803697954781,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

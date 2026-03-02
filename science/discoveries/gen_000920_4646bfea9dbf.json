@@ -1,0 +1,32 @@
+{
+  "id": "4646bfea9dbf",
+  "generation": 920,
+  "created_at": "2026-03-02T05:52:20.614819",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "The key to What is the primary molecular cause of biological aging \u2014 can it be slowed? is Optogenetic control of specific neuron populations \u2014 specifically Optogenetic control of \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 3,
+    "estimated_cost_usd": 143095,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2823739426,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 26,
+    "economic_value_usd": 112949577040000
+  },
+  "confidence": 0.6347850196712188,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

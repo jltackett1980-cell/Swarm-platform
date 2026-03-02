@@ -1,0 +1,32 @@
+{
+  "id": "1216cdc72290",
+  "generation": 735,
+  "created_at": "2026-03-02T05:51:00.257323",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "Combining Biomimetic surface structure (lotus, shark skin, gecko) with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 29,
+    "estimated_cost_usd": 452009,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2356298,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 29,
+    "economic_value_usd": 117814900000
+  },
+  "confidence": 0.404965075402737,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "c3540213b79e",
+  "generation": 797,
+  "created_at": "2026-03-02T05:51:26.302734",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "Metal-organic framework with specific pore geometry may resolve What material stores hydrogen fuel at high density without safety risk? by activating at the molecular level.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 7,
+    "estimated_cost_usd": 113718,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 304300329,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 20,
+    "economic_value_usd": 12172013160000
+  },
+  "confidence": 0.36107077776440183,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

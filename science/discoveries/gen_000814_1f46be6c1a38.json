@@ -1,0 +1,32 @@
+{
+  "id": "1f46be6c1a38",
+  "generation": 814,
+  "created_at": "2026-03-02T05:51:35.089551",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "Magnetohydrodynamic flow without moving parts may resolve Can superconductivity be achieved at room temperature \u2014 what material structure? by activating at the systems level.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 5,
+    "estimated_cost_usd": 112499,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3899145645,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 7,
+    "economic_value_usd": 350923108050000
+  },
+  "confidence": 0.6497639350451234,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

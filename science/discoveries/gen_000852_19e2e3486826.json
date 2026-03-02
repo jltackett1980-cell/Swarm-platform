@@ -1,0 +1,32 @@
+{
+  "id": "19e2e3486826",
+  "generation": 852,
+  "created_at": "2026-03-02T05:51:50.243337",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "Combining Shape memory alloy phase transition with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 15,
+    "estimated_cost_usd": 228166,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 155824336,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 5,
+    "economic_value_usd": 3116486720000
+  },
+  "confidence": 0.4358479081997995,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

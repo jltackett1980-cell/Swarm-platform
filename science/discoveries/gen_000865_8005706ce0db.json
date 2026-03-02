@@ -1,0 +1,32 @@
+{
+  "id": "8005706ce0db",
+  "generation": 865,
+  "created_at": "2026-03-02T05:51:56.973147",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Spintronics for low-power data storage may resolve How to achieve sustained net-positive nuclear fusion at commercial scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 5,
+    "estimated_cost_usd": 121672,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1907849543,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 29,
+    "economic_value_usd": 19078495430000
+  },
+  "confidence": 0.35700745200369405,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

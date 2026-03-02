@@ -1,0 +1,32 @@
+{
+  "id": "8110af5bdf8e",
+  "generation": 877,
+  "created_at": "2026-03-02T05:52:01.201619",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "Nanoparticle delivery to cross blood-brain barrier may resolve Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway? by activating at the molecular level.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 33,
+    "estimated_cost_usd": 1171681,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1429832,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 9,
+    "economic_value_usd": 42894960000
+  },
+  "confidence": 0.7063862576255924,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

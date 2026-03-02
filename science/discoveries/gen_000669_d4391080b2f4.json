@@ -1,0 +1,32 @@
+{
+  "id": "d4391080b2f4",
+  "generation": 669,
+  "created_at": "2026-03-02T05:50:31.923401",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "Piezoelectric coupling in novel crystal structure may resolve How to store solar energy at grid scale without chemical battery degradation? by activating at the systems level.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 7,
+    "estimated_cost_usd": 156783,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 605217305,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 15,
+    "economic_value_usd": 6052173050000
+  },
+  "confidence": 0.5864940216205893,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

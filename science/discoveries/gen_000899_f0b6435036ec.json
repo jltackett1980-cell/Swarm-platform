@@ -1,0 +1,32 @@
+{
+  "id": "f0b6435036ec",
+  "generation": 899,
+  "created_at": "2026-03-02T05:52:11.644106",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "If Forward osmosis using draw solution gradient is applied to at, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 6,
+    "estimated_cost_usd": 84660,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1625110937,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 26,
+    "economic_value_usd": 16251109370000
+  },
+  "confidence": 0.5406483277337546,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

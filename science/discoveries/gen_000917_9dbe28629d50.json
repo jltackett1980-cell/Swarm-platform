@@ -1,0 +1,32 @@
+{
+  "id": "9dbe28629d50",
+  "generation": 917,
+  "created_at": "2026-03-02T05:52:18.537551",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "If Thermoelectric Seebeck coefficient maximization is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 5,
+    "estimated_cost_usd": 97064,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1404060750,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 15,
+    "economic_value_usd": 14040607500000
+  },
+  "confidence": 0.5624634194600735,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

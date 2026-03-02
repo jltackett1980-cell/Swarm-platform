@@ -1,0 +1,32 @@
+{
+  "id": "de3893cbc351",
+  "generation": 655,
+  "created_at": "2026-03-02T05:50:23.949704",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics remains unsolved because previous research missed the role of Topological. Topological insulator surface state conduction directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 2,
+    "estimated_cost_usd": 37446,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2597111734,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 13,
+    "economic_value_usd": 233740056060000
+  },
+  "confidence": 0.40217119775009424,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "606bab859a13",
+  "generation": 965,
+  "created_at": "2026-03-02T05:52:40.031752",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "Combining Viral vector delivery of therapeutic gene with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 27,
+    "estimated_cost_usd": 1019046,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 519,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 130592204,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 14,
+    "economic_value_usd": 11753298360000
+  },
+  "confidence": 0.37403703033645747,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}
