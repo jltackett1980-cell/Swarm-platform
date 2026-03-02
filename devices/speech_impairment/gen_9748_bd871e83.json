@@ -1,0 +1,39 @@
+{
+  "id": "bd871e83",
+  "name": "LumenVoice",
+  "generation": 9748,
+  "created_at": "2026-03-01T19:52:26.198364",
+  "pain": "speech_impairment",
+  "population": 7500000,
+  "problem": "7.5M with speech disorders \u2014 AAC devices cost $8,000+",
+  "physics": "biofeedback_neural",
+  "physics_desc": "Reads body signals, responds in real time",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Neurofeedback",
+    "Vagus nerve stimulation"
+  ],
+  "form_factor": "throat patch",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0037,
+    "size_cm": 1.1,
+    "cost_usd": 93.11,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
