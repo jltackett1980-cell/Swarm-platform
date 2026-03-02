@@ -1,0 +1,39 @@
+{
+  "id": "87d72b59",
+  "name": "PulseAir",
+  "generation": 10735,
+  "created_at": "2026-03-01T19:53:26.335376",
+  "pain": "air_quality",
+  "population": 137000000,
+  "problem": "137M in areas with unhealthy air \u2014 no affordable personal monitor",
+  "physics": "electrostatic",
+  "physics_desc": "Static fields for air/water purification and drug delivery",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Air purifiers",
+    "Electrospray"
+  ],
+  "form_factor": "clip-on sensor",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.003,
+    "size_cm": 5.9,
+    "cost_usd": 141.4,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
