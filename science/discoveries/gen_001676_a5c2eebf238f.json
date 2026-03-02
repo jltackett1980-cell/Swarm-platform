@@ -1,0 +1,32 @@
+{
+  "id": "a5c2eebf238f",
+  "generation": 1676,
+  "created_at": "2026-03-02T05:56:40.160860",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "Deep brain stimulation of subthalamic nucleus may resolve Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? by activating at the systems level.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 10,
+    "estimated_cost_usd": 285538,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8101442,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 13,
+    "economic_value_usd": 162028840000
+  },
+  "confidence": 0.5815564366393978,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

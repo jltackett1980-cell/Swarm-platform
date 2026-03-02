@@ -1,0 +1,32 @@
+{
+  "id": "8ebca832611f",
+  "generation": 1760,
+  "created_at": "2026-03-02T05:57:05.920082",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "The key to How are long-term memories physically encoded in neural tissue? is BDNF upregulation to promote neurogenesis \u2014 specifically BDNF upregulation to \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 21,
+    "estimated_cost_usd": 671416,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2801459173,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 30,
+    "economic_value_usd": 28014591730000
+  },
+  "confidence": 0.4110620819807357,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

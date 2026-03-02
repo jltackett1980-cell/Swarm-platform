@@ -1,0 +1,32 @@
+{
+  "id": "b6c3e200133c",
+  "generation": 1745,
+  "created_at": "2026-03-02T05:57:01.070044",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "Combining Photonic bandgap manipulation in metamaterial with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 3,
+    "estimated_cost_usd": 64182,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2315177091,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 29,
+    "economic_value_usd": 23151770910000
+  },
+  "confidence": 0.4785649039232849,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

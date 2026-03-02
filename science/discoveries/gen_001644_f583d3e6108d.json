@@ -1,0 +1,32 @@
+{
+  "id": "f583d3e6108d",
+  "generation": 1644,
+  "created_at": "2026-03-02T05:56:30.308693",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "The key to How to desalinate seawater at dramatically lower energy cost than reverse osmosis? is Phytoremediation with hyperaccumulator plant species \u2014 specifically Phytoremediation with hyperaccumulator \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 4,
+    "estimated_cost_usd": 48500,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 510279241,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 9,
+    "economic_value_usd": 10205584820000
+  },
+  "confidence": 0.5436371688216611,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

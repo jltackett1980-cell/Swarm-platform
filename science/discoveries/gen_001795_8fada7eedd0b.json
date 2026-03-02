@@ -1,0 +1,32 @@
+{
+  "id": "8fada7eedd0b",
+  "generation": 1795,
+  "created_at": "2026-03-02T05:57:16.250954",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "Aerogel porosity for thermal/acoustic insulation may resolve What substrate allows silicon-level performance in fully flexible electronics? by activating at the molecular level.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 22,
+    "estimated_cost_usd": 327674,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 204418638,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 5,
+    "economic_value_usd": 14309304660000
+  },
+  "confidence": 0.6412520995057143,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

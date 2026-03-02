@@ -1,0 +1,32 @@
+{
+  "id": "3ab0d760e917",
+  "generation": 1640,
+  "created_at": "2026-03-02T05:56:28.830364",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "The key to What enzyme or organism efficiently degrades all plastic types at scale? is Atomic layer deposition of conformal coating \u2014 specifically Atomic layer deposition \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 5,
+    "estimated_cost_usd": 84652,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3825032354,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 16,
+    "economic_value_usd": 267752264780000
+  },
+  "confidence": 0.3643557258300555,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

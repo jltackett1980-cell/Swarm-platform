@@ -1,0 +1,32 @@
+{
+  "id": "a9d42804b2e7",
+  "generation": 1769,
+  "created_at": "2026-03-02T05:57:08.834597",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "The key to Can ocean acidification be safely reversed \u2014 what biochemical approach? is Bioelectrochemical system for pollutant conversion \u2014 specifically Bioelectrochemical system for \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 3,
+    "estimated_cost_usd": 36706,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 589676967,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 28,
+    "economic_value_usd": 47174157360000
+  },
+  "confidence": 0.43561154783465433,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

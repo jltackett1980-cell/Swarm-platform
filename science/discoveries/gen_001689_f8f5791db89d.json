@@ -1,0 +1,32 @@
+{
+  "id": "f8f5791db89d",
+  "generation": 1689,
+  "created_at": "2026-03-02T05:56:44.476554",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Casimir effect between nanoscale surfaces may resolve Can superconductivity be achieved at room temperature \u2014 what material structure? by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 1,
+    "estimated_cost_usd": 17824,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2072384121,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 29,
+    "economic_value_usd": 103619206050000
+  },
+  "confidence": 0.3220993093045781,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

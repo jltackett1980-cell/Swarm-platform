@@ -1,0 +1,32 @@
+{
+  "id": "bdc92b3c499c",
+  "generation": 1724,
+  "created_at": "2026-03-02T05:56:55.169231",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "Combining Shape memory alloy phase transition with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 21,
+    "estimated_cost_usd": 300794,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 863733470,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 24,
+    "economic_value_usd": 51824008200000
+  },
+  "confidence": 0.35073097984369606,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

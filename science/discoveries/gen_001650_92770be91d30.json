@@ -1,0 +1,32 @@
+{
+  "id": "92770be91d30",
+  "generation": 1650,
+  "created_at": "2026-03-02T05:56:31.874093",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear remains unsolved because previous research missed the role of Spintronics. Spintronics for low-power data storage directly addresses this.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 2,
+    "estimated_cost_usd": 35648,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 266172967,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 27,
+    "economic_value_usd": 21293837360000
+  },
+  "confidence": 0.6254816660490132,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

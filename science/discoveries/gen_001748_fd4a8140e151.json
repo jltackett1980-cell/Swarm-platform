@@ -1,0 +1,32 @@
+{
+  "id": "fd4a8140e151",
+  "generation": 1748,
+  "created_at": "2026-03-02T05:57:01.163970",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "CRISPR gene editing targeting specific pathway may resolve Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway? by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 5,
+    "estimated_cost_usd": 201700,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 652127,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 18,
+    "economic_value_usd": 39127620000
+  },
+  "confidence": 0.7121607599277966,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

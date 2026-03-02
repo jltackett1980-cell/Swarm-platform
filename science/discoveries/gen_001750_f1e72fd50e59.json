@@ -1,0 +1,32 @@
+{
+  "id": "f1e72fd50e59",
+  "generation": 1750,
+  "created_at": "2026-03-02T05:57:02.547178",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "What enzyme or organism efficiently degrades all plastic types at scale? remains unsolved because previous research missed the role of Two-dimensional. Two-dimensional material stacking (van der Waals heterostructure) directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 4,
+    "estimated_cost_usd": 53383,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 977054744,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 13,
+    "economic_value_usd": 87934926960000
+  },
+  "confidence": 0.3061049872993845,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

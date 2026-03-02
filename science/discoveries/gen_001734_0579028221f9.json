@@ -1,0 +1,32 @@
+{
+  "id": "0579028221f9",
+  "generation": 1734,
+  "created_at": "2026-03-02T05:56:58.100679",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "If Photonic bandgap manipulation in metamaterial is applied to quantum, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 3,
+    "estimated_cost_usd": 53696,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3134265907,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 7,
+    "economic_value_usd": 94027977210000
+  },
+  "confidence": 0.6905304521044138,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

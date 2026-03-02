@@ -1,0 +1,32 @@
+{
+  "id": "bb505cb86c36",
+  "generation": 1721,
+  "created_at": "2026-03-02T05:56:53.771729",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "Combining Topological insulator surface state conduction with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 1,
+    "estimated_cost_usd": 21458,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1177932169,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 14,
+    "economic_value_usd": 11779321690000
+  },
+  "confidence": 0.795097289965208,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

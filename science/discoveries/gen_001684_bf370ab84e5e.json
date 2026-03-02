@@ -1,0 +1,32 @@
+{
+  "id": "bf370ab84e5e",
+  "generation": 1684,
+  "created_at": "2026-03-02T05:56:43.018646",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "If Magnetohydrodynamic flow without moving parts is applied to chemical, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 1,
+    "estimated_cost_usd": 17922,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 539286328,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 14,
+    "economic_value_usd": 21571453120000
+  },
+  "confidence": 0.7432207814653137,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

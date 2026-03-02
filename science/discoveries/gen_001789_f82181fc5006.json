@@ -1,0 +1,32 @@
+{
+  "id": "f82181fc5006",
+  "generation": 1789,
+  "created_at": "2026-03-02T05:57:14.725735",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "If Autophagy activation to clear misfolded proteins is applied to it, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 33,
+    "estimated_cost_usd": 1239030,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2952016533,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 22,
+    "economic_value_usd": 29520165330000
+  },
+  "confidence": 0.5190555761702044,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

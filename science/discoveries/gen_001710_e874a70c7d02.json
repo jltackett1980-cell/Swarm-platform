@@ -1,0 +1,32 @@
+{
+  "id": "e874a70c7d02",
+  "generation": 1710,
+  "created_at": "2026-03-02T05:56:50.810979",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "Combining Photonic bandgap manipulation in metamaterial with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 5,
+    "estimated_cost_usd": 94446,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1675182142,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 27,
+    "economic_value_usd": 117262749940000
+  },
+  "confidence": 0.5544491843482087,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

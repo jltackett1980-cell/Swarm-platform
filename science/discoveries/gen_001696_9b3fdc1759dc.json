@@ -1,0 +1,32 @@
+{
+  "id": "9b3fdc1759dc",
+  "generation": 1696,
+  "created_at": "2026-03-02T05:56:45.994811",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "Combining Bacteriophage surface display for targeting with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 17,
+    "estimated_cost_usd": 328818,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 337519903,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 12,
+    "economic_value_usd": 23626393210000
+  },
+  "confidence": 0.6701645952840605,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

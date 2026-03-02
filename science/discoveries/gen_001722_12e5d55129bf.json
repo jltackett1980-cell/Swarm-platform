@@ -1,0 +1,32 @@
+{
+  "id": "12e5d55129bf",
+  "generation": 1722,
+  "created_at": "2026-03-02T05:56:53.802330",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "Combining Plasma confinement via magnetic mirror geometry with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 11,
+    "estimated_cost_usd": 242296,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 904841112,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 14,
+    "economic_value_usd": 36193644480000
+  },
+  "confidence": 0.7361858191466887,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "dbf8c43bd2cd",
+  "generation": 1801,
+  "created_at": "2026-03-02T05:57:17.759865",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "Aerogel porosity for thermal/acoustic insulation may resolve Why do perovskite solar cells degrade \u2014 what material instability causes it? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 33,
+    "estimated_cost_usd": 513077,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1398363784,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 16,
+    "economic_value_usd": 97885464880000
+  },
+  "confidence": 0.5023704366722328,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

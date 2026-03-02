@@ -1,0 +1,32 @@
+{
+  "id": "b6cbbe0b0fd1",
+  "generation": 1782,
+  "created_at": "2026-03-02T05:57:11.884513",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "Homomorphic encryption for private computation may resolve Can protein structure be predicted from sequence in real time without AlphaFold compute cost? by activating at the systems level.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 1,
+    "estimated_cost_usd": 4444,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3506156774,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 27,
+    "economic_value_usd": 175307838700000
+  },
+  "confidence": 0.5542358045543485,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

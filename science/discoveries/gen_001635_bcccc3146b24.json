@@ -1,0 +1,32 @@
+{
+  "id": "bcccc3146b24",
+  "generation": 1635,
+  "created_at": "2026-03-02T05:56:27.382770",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "The key to How to produce defect-free large-area graphene at low cost? is Shape memory alloy phase transition \u2014 specifically Shape memory alloy \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 26,
+    "estimated_cost_usd": 388609,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1219684150,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 29,
+    "economic_value_usd": 109771573500000
+  },
+  "confidence": 0.4084668424885272,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}
