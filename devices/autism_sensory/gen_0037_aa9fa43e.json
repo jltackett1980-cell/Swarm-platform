@@ -1,0 +1,39 @@
+{
+  "id": "aa9fa43e",
+  "name": "NexusSteady",
+  "generation": 37,
+  "created_at": "2026-03-01T19:43:22.806342",
+  "pain": "autism_sensory",
+  "population": 5400000,
+  "problem": "5.4M autistic adults \u2014 sensory overload has no wearable intervention",
+  "physics": "mechanical_haptic",
+  "physics_desc": "Vibration, pressure, mechanical force",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Haptic feedback",
+    "Vibrotactile devices"
+  ],
+  "form_factor": "compression vest",
+  "complexity": 8,
+  "specs": {
+    "power_watts": 0.3365,
+    "size_cm": 23.0,
+    "cost_usd": 222.93,
+    "battery_hours": 59.0
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

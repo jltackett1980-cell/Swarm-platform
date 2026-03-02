@@ -1,0 +1,32 @@
+{
+  "id": "7c898c21533f",
+  "generation": 38,
+  "created_at": "2026-03-01T19:43:40.103010",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "The key to What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient is Cortical spreading depression mechanism in migraine \u2014 specifically Cortical spreading depression \u2014 which would help 280,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 19,
+    "estimated_cost_usd": 573327,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 131134486,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 26,
+    "economic_value_usd": 7868069160000
+  },
+  "confidence": 0.7748463830374239,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

@@ -347,7 +347,7 @@
       "meaning": "Domain-specific color \u2014 not generic blue"
     },
     "no_login_wall": {
-      "count": 105,
+      "count": 107,
       "domains": [
         "accounting",
         "addiction_support",
@@ -369,6 +369,8 @@
         "confidence_builder",
         "construction",
         "credit_builder",
+        "criminal_defense_attorney",
+        "criminal_law",
         "crypto_exchange",
         "custom__c",
         "custom_build_me_a",
@@ -536,7 +538,7 @@
       "meaning": "Technical language leaking into user interface"
     },
     "horizontal_scroll": {
-      "count": 54,
+      "count": 56,
       "domains": [
         "addiction_support",
         "anger_management",
@@ -551,6 +553,8 @@
         "computer_basics",
         "confidence_builder",
         "credit_builder",
+        "criminal_defense_attorney",
+        "criminal_law",
         "debt_tracker",
         "disaster_prep",
         "domestic_violence_shelter",
@@ -593,8 +597,17 @@
         "walking_habit",
         "workers_rights"
       ],
-      "avg_score_when_present": 573.1,
+      "avg_score_when_present": 573.2,
       "meaning": "No overflow control \u2014 may cause horizontal scroll on mobile"
+    },
+    "no_empty_state": {
+      "count": 2,
+      "domains": [
+        "criminal_defense_attorney",
+        "criminal_law"
+      ],
+      "avg_score_when_present": 574.0,
+      "meaning": "No guidance when data is empty"
     }
   },
   "cross_domain_insights": []

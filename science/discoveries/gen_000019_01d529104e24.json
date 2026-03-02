@@ -1,0 +1,32 @@
+{
+  "id": "01d529104e24",
+  "generation": 19,
+  "created_at": "2026-03-01T19:43:35.272595",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "If Sleep-dependent memory consolidation in hippocampus is applied to essential, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 26,
+    "estimated_cost_usd": 909154,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2938846915,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 24,
+    "economic_value_usd": 205719284050000
+  },
+  "confidence": 0.4735457813568156,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}
