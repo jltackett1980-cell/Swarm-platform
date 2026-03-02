@@ -1,0 +1,39 @@
+{
+  "id": "fdeaceea",
+  "name": "PulseBridge",
+  "generation": 1985,
+  "created_at": "2026-03-02T05:59:54.239180",
+  "pain": "paralysis",
+  "population": 5400000,
+  "problem": "5.4M paralyzed \u2014 neural interfaces cost $50,000+",
+  "physics": "mechanical_haptic",
+  "physics_desc": "Vibration, pressure, mechanical force",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Haptic feedback",
+    "Vibrotactile devices"
+  ],
+  "form_factor": "surface electrode patch",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 1.0378,
+    "size_cm": 29.9,
+    "cost_usd": 150.4,
+    "battery_hours": 11.5
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
