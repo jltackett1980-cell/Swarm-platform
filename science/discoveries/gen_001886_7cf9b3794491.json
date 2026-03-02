@@ -1,0 +1,32 @@
+{
+  "id": "7cf9b3794491",
+  "generation": 1886,
+  "created_at": "2026-03-02T05:57:45.880658",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "Combining Polymer crosslinking under specific stimulus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 33,
+    "estimated_cost_usd": 647707,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 544412532,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 25,
+    "economic_value_usd": 32664751920000
+  },
+  "confidence": 0.7633428061471088,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

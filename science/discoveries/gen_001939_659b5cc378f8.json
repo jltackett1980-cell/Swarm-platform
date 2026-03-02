@@ -1,0 +1,32 @@
+{
+  "id": "659b5cc378f8",
+  "generation": 1939,
+  "created_at": "2026-03-02T05:58:03.118058",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "Federated learning without data centralization may resolve How to predict drug-receptor binding affinity from molecular structure without wet lab? by activating at the systems level.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 2,
+    "estimated_cost_usd": 9082,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1918531364,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 12,
+    "economic_value_usd": 172667822760000
+  },
+  "confidence": 0.5247194252534231,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

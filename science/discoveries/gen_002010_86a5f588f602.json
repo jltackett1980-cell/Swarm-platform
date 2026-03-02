@@ -1,0 +1,32 @@
+{
+  "id": "86a5f588f602",
+  "generation": 2010,
+  "created_at": "2026-03-02T05:58:25.156343",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "Combining Polymer crosslinking under specific stimulus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 8,
+    "estimated_cost_usd": 122580,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 112165600,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 28,
+    "economic_value_usd": 4486624000000
+  },
+  "confidence": 0.4017732208789099,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

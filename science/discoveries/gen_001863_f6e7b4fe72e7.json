@@ -1,0 +1,32 @@
+{
+  "id": "f6e7b4fe72e7",
+  "generation": 1863,
+  "created_at": "2026-03-02T05:57:37.744315",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "If Magnetohydrodynamic flow without moving parts is applied to \u2014, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 8,
+    "estimated_cost_usd": 152785,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1519791800,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 12,
+    "economic_value_usd": 121583344000000
+  },
+  "confidence": 0.6241936480478469,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

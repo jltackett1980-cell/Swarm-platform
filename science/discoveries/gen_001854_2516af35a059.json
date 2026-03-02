@@ -1,0 +1,32 @@
+{
+  "id": "2516af35a059",
+  "generation": 1854,
+  "created_at": "2026-03-02T05:57:35.926572",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "Atomic layer deposition of conformal coating may resolve Why do perovskite solar cells degrade \u2014 what material instability causes it? by activating at the molecular level.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 16,
+    "estimated_cost_usd": 258181,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1400122232,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 16,
+    "economic_value_usd": 126011000880000
+  },
+  "confidence": 0.42785584078266387,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

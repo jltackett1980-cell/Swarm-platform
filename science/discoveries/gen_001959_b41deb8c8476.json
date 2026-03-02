@@ -1,0 +1,32 @@
+{
+  "id": "b41deb8c8476",
+  "generation": 1959,
+  "created_at": "2026-03-02T05:58:09.415960",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "If Federated learning without data centralization is applied to \u2014, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 7,
+    "estimated_cost_usd": 34354,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Theoretical complexity proof with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1315827423,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 30,
+    "economic_value_usd": 92107919610000
+  },
+  "confidence": 0.37029944575119117,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

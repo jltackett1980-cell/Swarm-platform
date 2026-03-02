@@ -1,0 +1,32 @@
+{
+  "id": "50c0b8afce2c",
+  "generation": 2009,
+  "created_at": "2026-03-02T05:58:25.115513",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Resonant inductive coupling for wireless power",
+  "hypothesis": "Resonant inductive coupling for wireless power may resolve How to achieve sustained net-positive nuclear fusion at commercial scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 11,
+    "estimated_cost_usd": 227894,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1777436838,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 12,
+    "economic_value_usd": 142194947040000
+  },
+  "confidence": 0.4690538163699126,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "0eb1a033460f",
+  "generation": 1906,
+  "created_at": "2026-03-02T05:57:52.587569",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "Enzymatic depolymerization of specific polymer may resolve Can ocean acidification be safely reversed \u2014 what biochemical approach? by activating at the systems level.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 10,
+    "estimated_cost_usd": 114433,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 630938236,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 14,
+    "economic_value_usd": 6309382360000
+  },
+  "confidence": 0.36731016582260995,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

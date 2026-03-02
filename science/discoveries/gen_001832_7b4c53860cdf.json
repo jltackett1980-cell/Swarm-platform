@@ -1,0 +1,32 @@
+{
+  "id": "7b4c53860cdf",
+  "generation": 1832,
+  "created_at": "2026-03-02T05:57:27.451446",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "How to store solar energy at grid scale without chemical battery degradation? remains unsolved because previous research missed the role of Acoustic. Acoustic levitation for contactless manipulation directly addresses this.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 1,
+    "estimated_cost_usd": 24355,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1380712451,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 18,
+    "economic_value_usd": 69035622550000
+  },
+  "confidence": 0.7871174698914355,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

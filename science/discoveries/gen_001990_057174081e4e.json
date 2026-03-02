@@ -1,0 +1,32 @@
+{
+  "id": "057174081e4e",
+  "generation": 1990,
+  "created_at": "2026-03-02T05:58:18.046442",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics remains unsolved because previous research missed the role of Photonic. Photonic bandgap manipulation in metamaterial directly addresses this.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 6,
+    "estimated_cost_usd": 106788,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2948631741,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 29,
+    "economic_value_usd": 206404221870000
+  },
+  "confidence": 0.46955546060884,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

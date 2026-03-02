@@ -1,0 +1,32 @@
+{
+  "id": "d527b5b8aee7",
+  "generation": 1904,
+  "created_at": "2026-03-02T05:57:52.512859",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "Mitochondrial membrane potential modulation may resolve What causes normal proteins to misfold into prions and spread through tissue? by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 14,
+    "estimated_cost_usd": 510721,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 796353,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 24,
+    "economic_value_usd": 23890590000
+  },
+  "confidence": 0.3326791673310599,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

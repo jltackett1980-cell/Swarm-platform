@@ -1,0 +1,32 @@
+{
+  "id": "91177bf5f95d",
+  "generation": 1940,
+  "created_at": "2026-03-02T05:58:03.157260",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "Atomic layer deposition of conformal coating may resolve What synthetic material perfectly mimics bone's mechanical and biological properties? by activating at the molecular level.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 8,
+    "estimated_cost_usd": 111578,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3585771,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 6,
+    "economic_value_usd": 322719390000
+  },
+  "confidence": 0.5461052480217872,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

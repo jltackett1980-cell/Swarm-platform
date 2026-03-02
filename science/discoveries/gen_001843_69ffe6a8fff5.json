@@ -1,0 +1,32 @@
+{
+  "id": "69ffe6a8fff5",
+  "generation": 1843,
+  "created_at": "2026-03-02T05:57:30.658435",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "The key to How does central sensitization maintain chronic pain without tissue damage? is Deep brain stimulation of subthalamic nucleus \u2014 specifically Deep brain stimulation \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 20,
+    "estimated_cost_usd": 509999,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 17369294,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 21,
+    "economic_value_usd": 1563236460000
+  },
+  "confidence": 0.30355228328972295,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

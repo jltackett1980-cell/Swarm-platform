@@ -1,0 +1,32 @@
+{
+  "id": "357aee1eea83",
+  "generation": 1857,
+  "created_at": "2026-03-02T05:57:36.035280",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified remains unsolved because previous research missed the role of Mitochondrial. Mitochondrial membrane potential modulation directly addresses this.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 34,
+    "estimated_cost_usd": 1287418,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 12944532,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 9,
+    "economic_value_usd": 647226600000
+  },
+  "confidence": 0.4741711391939158,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

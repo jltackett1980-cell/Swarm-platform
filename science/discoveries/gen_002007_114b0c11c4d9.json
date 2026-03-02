@@ -1,0 +1,32 @@
+{
+  "id": "114b0c11c4d9",
+  "generation": 2007,
+  "created_at": "2026-03-02T05:58:23.748234",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "Quantum tunneling through energy barrier may resolve Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear by activating at the systems level.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 9,
+    "estimated_cost_usd": 150750,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 298484641,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 28,
+    "economic_value_usd": 8954539230000
+  },
+  "confidence": 0.3824115044737769,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

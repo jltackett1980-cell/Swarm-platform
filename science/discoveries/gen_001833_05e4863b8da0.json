@@ -1,0 +1,32 @@
+{
+  "id": "05e4863b8da0",
+  "generation": 1833,
+  "created_at": "2026-03-02T05:57:27.486112",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "The key to Can ocean acidification be safely reversed \u2014 what biochemical approach? is Rhizobium inoculation for nitrogen fixation \u2014 specifically Rhizobium inoculation for \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 7,
+    "estimated_cost_usd": 90351,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1253668147,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 30,
+    "economic_value_usd": 100293451760000
+  },
+  "confidence": 0.6379084311432828,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

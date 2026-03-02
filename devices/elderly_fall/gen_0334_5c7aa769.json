@@ -1,0 +1,39 @@
+{
+  "id": "5c7aa769",
+  "name": "ClarityGuard",
+  "generation": 334,
+  "created_at": "2026-03-02T05:58:17.726751",
+  "pain": "elderly_fall",
+  "population": 36000000,
+  "problem": "36M elderly fall each year \u2014 current alerts require pressing a button",
+  "physics": "rf_sensing",
+  "physics_desc": "Radio frequency for non-contact sensing",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Radar vital signs",
+    "Through-wall sensing"
+  ],
+  "form_factor": "room sensor",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0019,
+    "size_cm": 20.2,
+    "cost_usd": 199.12,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "CareGuide",
+  "companion_domain": "elder_care",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

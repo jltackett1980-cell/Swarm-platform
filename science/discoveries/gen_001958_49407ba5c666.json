@@ -1,0 +1,32 @@
+{
+  "id": "49407ba5c666",
+  "generation": 1958,
+  "created_at": "2026-03-02T05:58:08.155380",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "If Metal-organic framework with specific pore geometry is applied to low, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 9,
+    "estimated_cost_usd": 131546,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 518361815,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 12,
+    "economic_value_usd": 31101708900000
+  },
+  "confidence": 0.449495283300579,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

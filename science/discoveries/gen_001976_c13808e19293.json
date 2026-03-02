@@ -1,0 +1,32 @@
+{
+  "id": "c13808e19293",
+  "generation": 1976,
+  "created_at": "2026-03-02T05:58:13.793159",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "Combining Electrocoagulation for suspended particle removal with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 12,
+    "estimated_cost_usd": 153378,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 215535180,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 6,
+    "economic_value_usd": 19398166200000
+  },
+  "confidence": 0.3239850135592404,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

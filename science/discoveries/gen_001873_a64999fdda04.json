@@ -1,0 +1,32 @@
+{
+  "id": "a64999fdda04",
+  "generation": 1873,
+  "created_at": "2026-03-02T05:57:41.186422",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "If Magnetohydrodynamic flow without moving parts is applied to at, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 7,
+    "estimated_cost_usd": 170782,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3485073573,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 6,
+    "economic_value_usd": 139402942920000
+  },
+  "confidence": 0.32298575936805335,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

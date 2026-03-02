@@ -1,0 +1,32 @@
+{
+  "id": "2d2f4ba9be46",
+  "generation": 1839,
+  "created_at": "2026-03-02T05:57:30.497003",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "Polymer crosslinking under specific stimulus may resolve What synthetic material perfectly mimics bone's mechanical and biological properties? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 23,
+    "estimated_cost_usd": 347148,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6981005,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 7,
+    "economic_value_usd": 139620100000
+  },
+  "confidence": 0.664279778431452,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}
