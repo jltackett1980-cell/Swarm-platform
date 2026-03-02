@@ -1,0 +1,39 @@
+{
+  "id": "591d2967",
+  "name": "ClarityBridge",
+  "generation": 18914,
+  "created_at": "2026-03-01T21:24:59.478250",
+  "pain": "paralysis",
+  "population": 5400000,
+  "problem": "5.4M paralyzed \u2014 neural interfaces cost $50,000+",
+  "physics": "biofeedback_neural",
+  "physics_desc": "Reads body signals, responds in real time",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Neurofeedback",
+    "Vagus nerve stimulation"
+  ],
+  "form_factor": "surface electrode patch",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0054,
+    "size_cm": 3.6,
+    "cost_usd": 139.18,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
