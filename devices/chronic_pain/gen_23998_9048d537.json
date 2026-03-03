@@ -1,0 +1,39 @@
+{
+  "id": "9048d537",
+  "name": "LumenRelief",
+  "generation": 23998,
+  "created_at": "2026-03-03T09:55:01.816681",
+  "pain": "chronic_pain",
+  "population": 50000000,
+  "problem": "50M Americans in daily pain with no affordable relief",
+  "physics": "electromagnetic",
+  "physics_desc": "Pulsed electric/magnetic fields",
+  "physics_proven": true,
+  "comparable_devices": [
+    "TENS units",
+    "PEMF therapy"
+  ],
+  "form_factor": "wearable patch",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0056,
+    "size_cm": 4.9,
+    "cost_usd": 231.97,
+    "battery_hours": 38.1
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "PainLog",
+  "companion_domain": "chronic_pain",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
