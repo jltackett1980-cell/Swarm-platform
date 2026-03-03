@@ -1,0 +1,32 @@
+{
+  "id": "8aeaf9902d83",
+  "generation": 8367,
+  "created_at": "2026-03-02T06:28:35.333614",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "If Biomimetic surface structure (lotus, shark skin, gecko) is applied to without, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 29,
+    "estimated_cost_usd": 573951,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 933172880,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 6,
+    "economic_value_usd": 46658644000000
+  },
+  "confidence": 0.6456913917300631,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

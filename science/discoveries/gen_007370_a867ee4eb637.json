@@ -1,0 +1,32 @@
+{
+  "id": "a867ee4eb637",
+  "generation": 7370,
+  "created_at": "2026-03-02T06:24:09.379422",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "Combining Hydrogel swelling/shrinking response with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 28,
+    "estimated_cost_usd": 442097,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 286588946,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 11,
+    "economic_value_usd": 2865889460000
+  },
+  "confidence": 0.6937408695905525,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

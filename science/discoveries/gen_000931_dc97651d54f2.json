@@ -1,0 +1,32 @@
+{
+  "id": "dc97651d54f2",
+  "generation": 931,
+  "created_at": "2026-03-02T06:05:32.559016",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "If Thermoelectric Seebeck coefficient maximization is applied to chemical, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 5,
+    "estimated_cost_usd": 85685,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1075621430,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 17,
+    "economic_value_usd": 53781071500000
+  },
+  "confidence": 0.4481777734813807,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

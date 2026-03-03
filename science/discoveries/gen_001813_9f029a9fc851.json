@@ -1,0 +1,32 @@
+{
+  "id": "9f029a9fc851",
+  "generation": 1813,
+  "created_at": "2026-03-02T06:07:16.810075",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "The key to What encryption survives quantum computer attacks \u2014 post-quantum cryptography is Reservoir computing with physical substrate \u2014 specifically Reservoir computing with \u2014 which would help 4,000,000,000 people affected.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 5,
+    "estimated_cost_usd": 20820,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Benchmark on standard dataset with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 835059996,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 5,
+    "economic_value_usd": 50103599760000
+  },
+  "confidence": 0.7532907091611263,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

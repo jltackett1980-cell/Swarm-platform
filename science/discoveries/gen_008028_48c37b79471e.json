@@ -1,0 +1,32 @@
+{
+  "id": "48c37b79471e",
+  "generation": 8028,
+  "created_at": "2026-03-02T06:27:00.734464",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "The key to What material is biocompatible, conductive, and flexible enough for long-term brain implants? is Bacteriophage surface display for targeting \u2014 specifically Bacteriophage surface display \u2014 which would help 5,400,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 6,
+    "estimated_cost_usd": 85726,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3777276,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 7,
+    "economic_value_usd": 226636560000
+  },
+  "confidence": 0.4411341390192942,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

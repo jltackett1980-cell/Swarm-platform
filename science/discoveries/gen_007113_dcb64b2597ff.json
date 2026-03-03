@@ -1,0 +1,32 @@
+{
+  "id": "dcb64b2597ff",
+  "generation": 7113,
+  "created_at": "2026-03-02T06:23:06.247701",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "Combining Transcranial magnetic stimulation of specific cortical area with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 5,
+    "estimated_cost_usd": 172376,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1426919033,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 30,
+    "economic_value_usd": 128422712970000
+  },
+  "confidence": 0.6270435026852488,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

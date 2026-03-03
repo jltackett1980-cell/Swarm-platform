@@ -1,0 +1,32 @@
+{
+  "id": "309759947df0",
+  "generation": 6756,
+  "created_at": "2026-03-02T06:21:32.356465",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "If CRISPR gene editing targeting specific pathway is applied to or, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 36,
+    "estimated_cost_usd": 1231498,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6222844,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 21,
+    "economic_value_usd": 311142200000
+  },
+  "confidence": 0.30485815434593033,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "8de94f9881bc",
+  "generation": 1329,
+  "created_at": "2026-03-02T06:06:18.092235",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Combining Default mode network connectivity measurement via fMRI with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 35,
+    "estimated_cost_usd": 1079698,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 10524454,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 9,
+    "economic_value_usd": 841956320000
+  },
+  "confidence": 0.4736068413060955,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "bbba409af3e4",
+  "generation": 3499,
+  "created_at": "2026-03-02T06:11:04.871708",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Resonant inductive coupling for wireless power",
+  "hypothesis": "The key to Can superconductivity be achieved at room temperature \u2014 what material structure? is Resonant inductive coupling for wireless power \u2014 specifically Resonant inductive coupling \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 9,
+    "estimated_cost_usd": 205998,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3773420632,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 11,
+    "economic_value_usd": 188671031600000
+  },
+  "confidence": 0.689455858776828,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

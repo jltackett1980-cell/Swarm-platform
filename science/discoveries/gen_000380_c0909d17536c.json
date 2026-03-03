@@ -1,0 +1,32 @@
+{
+  "id": "c0909d17536c",
+  "generation": 380,
+  "created_at": "2026-03-02T06:04:41.251971",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "What material stores hydrogen fuel at high density without safety risk? remains unsolved because previous research missed the role of Liquid. Liquid crystal elastomer actuation directly addresses this.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 36,
+    "estimated_cost_usd": 548775,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 379480623,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 5,
+    "economic_value_usd": 18974031150000
+  },
+  "confidence": 0.5415926467686373,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

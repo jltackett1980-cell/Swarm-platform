@@ -1,0 +1,32 @@
+{
+  "id": "8bed4b05a81d",
+  "generation": 7786,
+  "created_at": "2026-03-02T06:25:56.974265",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "If Homomorphic encryption for private computation is applied to alphafold, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 6,
+    "estimated_cost_usd": 23604,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3684996528,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 23,
+    "economic_value_usd": 221099791680000
+  },
+  "confidence": 0.3661682989297212,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

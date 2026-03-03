@@ -1,0 +1,32 @@
+{
+  "id": "0ad9b6bbf4d6",
+  "generation": 8069,
+  "created_at": "2026-03-02T06:27:12.384807",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? remains unsolved because previous research missed the role of Phytoremediation. Phytoremediation with hyperaccumulator plant species directly addresses this.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 11,
+    "estimated_cost_usd": 144715,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 187374970,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 12,
+    "economic_value_usd": 14989997600000
+  },
+  "confidence": 0.5203681639662385,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

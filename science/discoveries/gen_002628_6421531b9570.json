@@ -1,7 +1,7 @@
 {
   "id": "6421531b9570",
   "generation": 2628,
-  "created_at": "2026-03-01T05:26:19.168721",
+  "created_at": "2026-03-02T06:08:58.544419",
   "problem_id": "cancer_metastasis",
   "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
   "domain": "biology",
@@ -10,23 +10,23 @@
   "mechanism": "Stem cell differentiation into target tissue type",
   "hypothesis": "Combining Stem cell differentiation into target tissue type with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
   "experiment": {
-    "type": "In vitro cell culture assay",
-    "duration_months": 10,
-    "estimated_cost_usd": 436891,
+    "type": "Retrospective cohort analysis",
+    "duration_months": 20,
+    "estimated_cost_usd": 874676,
     "falsifiable": true,
     "control_required": true,
     "blinding": "double-blind",
-    "sample_size": 316,
-    "outcome_measure": "quantitative biomarker",
-    "protocol": "In vitro cell culture assay with 10 month follow-up. Control group receives placebo/sham."
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 20 month follow-up. Control group receives placebo/sham."
   },
   "impact": {
-    "lives_impacted": 9022470,
-    "quality_of_life_gain_pct": 70,
-    "years_of_benefit": 25,
-    "economic_value_usd": 631572900000
+    "lives_impacted": 7315774,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 21,
+    "economic_value_usd": 658419660000
   },
-  "confidence": 0.3197749036243766,
-  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "confidence": 0.6457249788840308,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
   "status": "proposed"
 }

@@ -1,0 +1,32 @@
+{
+  "id": "ccdb31649a9f",
+  "generation": 8372,
+  "created_at": "2026-03-02T06:28:36.148631",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "If Telomerase activation/inhibition in target cells is applied to they, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 13,
+    "estimated_cost_usd": 553641,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 360,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 19464692,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 5,
+    "economic_value_usd": 1751822280000
+  },
+  "confidence": 0.42901091444105227,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ceedf373f73c",
+  "generation": 6638,
+  "created_at": "2026-03-02T06:21:04.317656",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "Combining Perovskite crystal structure optimization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 35,
+    "estimated_cost_usd": 541741,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 129025095,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 22,
+    "economic_value_usd": 10322007600000
+  },
+  "confidence": 0.3397363830186872,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

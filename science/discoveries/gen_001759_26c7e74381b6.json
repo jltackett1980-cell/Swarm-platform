@@ -1,0 +1,32 @@
+{
+  "id": "26c7e74381b6",
+  "generation": 1759,
+  "created_at": "2026-03-02T06:07:10.186112",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "What substrate allows silicon-level performance in fully flexible electronics? remains unsolved because previous research missed the role of Atomic. Atomic layer deposition of conformal coating directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 23,
+    "estimated_cost_usd": 373435,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 131211301,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 6,
+    "economic_value_usd": 5248452040000
+  },
+  "confidence": 0.6624291430107944,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

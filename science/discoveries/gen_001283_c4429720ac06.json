@@ -1,0 +1,32 @@
+{
+  "id": "c4429720ac06",
+  "generation": 1283,
+  "created_at": "2026-03-02T06:06:13.110357",
+  "problem_id": "gravity_quantum",
+  "problem": "How does gravity behave at quantum scales \u2014 quantum gravity unresolved",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "If Photonic bandgap manipulation in metamaterial is applied to quantum, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 9,
+    "estimated_cost_usd": 193040,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1410696406,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 9,
+    "economic_value_usd": 14106964060000
+  },
+  "confidence": 0.45231173796706203,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "da0db2e68a63",
+  "generation": 5527,
+  "created_at": "2026-03-02T06:17:03.800180",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "Combining Reservoir computing with physical substrate with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 9,
+    "estimated_cost_usd": 30129,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 875314547,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 22,
+    "economic_value_usd": 35012581880000
+  },
+  "confidence": 0.35008442322362326,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

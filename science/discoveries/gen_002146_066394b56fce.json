@@ -1,0 +1,32 @@
+{
+  "id": "066394b56fce",
+  "generation": 2146,
+  "created_at": "2026-03-02T06:07:56.737159",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "Topological insulator surface state conduction may resolve How to store solar energy at grid scale without chemical battery degradation? by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 1,
+    "estimated_cost_usd": 22491,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 681401465,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 6,
+    "economic_value_usd": 34070073250000
+  },
+  "confidence": 0.4030987281903026,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

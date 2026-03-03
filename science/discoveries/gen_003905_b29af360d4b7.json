@@ -1,0 +1,32 @@
+{
+  "id": "b29af360d4b7",
+  "generation": 3905,
+  "created_at": "2026-03-02T06:12:09.656754",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "Sleep-dependent memory consolidation in hippocampus may resolve Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? by activating at the systems level.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 13,
+    "estimated_cost_usd": 387955,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 360,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 15310163,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 14,
+    "economic_value_usd": 1224813040000
+  },
+  "confidence": 0.552648585107155,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

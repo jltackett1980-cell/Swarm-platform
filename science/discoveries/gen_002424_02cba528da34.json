@@ -1,0 +1,32 @@
+{
+  "id": "02cba528da34",
+  "generation": 2424,
+  "created_at": "2026-03-02T06:08:31.890063",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "Combining Aerogel porosity for thermal/acoustic insulation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 32,
+    "estimated_cost_usd": 623582,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1746428,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 28,
+    "economic_value_usd": 122249960000
+  },
+  "confidence": 0.7194830939665229,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "b4c05a96da0f",
+  "generation": 8551,
+  "created_at": "2026-03-02T06:29:26.820933",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Perovskite crystal structure optimization \u2014 specifically Perovskite crystal structure \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 30,
+    "estimated_cost_usd": 512995,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 198656177,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 8,
+    "economic_value_usd": 13905932390000
+  },
+  "confidence": 0.6372825634072663,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

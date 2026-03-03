@@ -1,0 +1,32 @@
+{
+  "id": "7200e9109a19",
+  "generation": 1049,
+  "created_at": "2026-03-02T06:05:46.687277",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "Combining Electrospun nanofiber scaffold for tissue engineering with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 4,
+    "estimated_cost_usd": 57913,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 216873139,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 10,
+    "economic_value_usd": 13012388340000
+  },
+  "confidence": 0.3291117114357819,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

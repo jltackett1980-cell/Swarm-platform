@@ -1,0 +1,32 @@
+{
+  "id": "458ddb4491eb",
+  "generation": 6526,
+  "created_at": "2026-03-02T06:20:39.233236",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis? remains unsolved because previous research missed the role of Phytoremediation. Phytoremediation with hyperaccumulator plant species directly addresses this.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 12,
+    "estimated_cost_usd": 127305,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 629651438,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 16,
+    "economic_value_usd": 18889543140000
+  },
+  "confidence": 0.6670911972150094,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

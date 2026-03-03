@@ -1,0 +1,32 @@
+{
+  "id": "75acab817b50",
+  "generation": 6999,
+  "created_at": "2026-03-02T06:22:37.998402",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "Bioelectrochemical system for pollutant conversion may resolve How to desalinate seawater at dramatically lower energy cost than reverse osmosis? by activating at the systems level.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 11,
+    "estimated_cost_usd": 128751,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 959822813,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 24,
+    "economic_value_usd": 9598228130000
+  },
+  "confidence": 0.44201440367681255,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

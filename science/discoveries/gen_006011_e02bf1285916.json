@@ -1,0 +1,32 @@
+{
+  "id": "e02bf1285916",
+  "generation": 6011,
+  "created_at": "2026-03-02T06:18:45.155234",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "Small molecule inhibitor of enzyme active site may resolve What triggers cancer cells to leave primary tumor and colonize new tissue? by blocking at the molecular level.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 6,
+    "estimated_cost_usd": 206503,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 10757277,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 27,
+    "economic_value_usd": 645436620000
+  },
+  "confidence": 0.4035029134511845,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

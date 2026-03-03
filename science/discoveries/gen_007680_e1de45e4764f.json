@@ -1,0 +1,32 @@
+{
+  "id": "e1de45e4764f",
+  "generation": 7680,
+  "created_at": "2026-03-02T06:25:29.290484",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "What physical process in the brain produces subjective conscious experience? remains unsolved because previous research missed the role of Transcranial. Transcranial magnetic stimulation of specific cortical area directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 32,
+    "estimated_cost_usd": 1084520,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2261643155,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 7,
+    "economic_value_usd": 180931452400000
+  },
+  "confidence": 0.43857459110486346,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

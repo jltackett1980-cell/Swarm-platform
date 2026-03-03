@@ -1,0 +1,32 @@
+{
+  "id": "86e7ad35969a",
+  "generation": 7189,
+  "created_at": "2026-03-02T06:23:24.081740",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "Combining CRISPR gene editing targeting specific pathway with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 29,
+    "estimated_cost_usd": 1297023,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 12375588,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 14,
+    "economic_value_usd": 618779400000
+  },
+  "confidence": 0.4090677461840808,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

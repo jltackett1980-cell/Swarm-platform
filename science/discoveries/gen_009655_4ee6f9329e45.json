@@ -1,0 +1,32 @@
+{
+  "id": "4ee6f9329e45",
+  "generation": 9655,
+  "created_at": "2026-03-02T06:35:20.143473",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Mycorrhizal network enhancement for nutrient cycling",
+  "hypothesis": "Combining Mycorrhizal network enhancement for nutrient cycling with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 4,
+    "estimated_cost_usd": 50130,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1052267126,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 8,
+    "economic_value_usd": 42090685040000
+  },
+  "confidence": 0.7729320452129589,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

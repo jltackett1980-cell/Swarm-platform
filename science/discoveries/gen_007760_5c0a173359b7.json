@@ -1,0 +1,32 @@
+{
+  "id": "5c0a173359b7",
+  "generation": 7760,
+  "created_at": "2026-03-02T06:25:50.405490",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "CRISPR gene editing targeting specific pathway may resolve Why does acute pain become chronic in some people \u2014 what neural change occurs? by activating at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 27,
+    "estimated_cost_usd": 1184138,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 519,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 18462820,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 25,
+    "economic_value_usd": 738512800000
+  },
+  "confidence": 0.6951730463433705,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

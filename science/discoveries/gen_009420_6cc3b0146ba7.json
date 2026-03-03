@@ -1,0 +1,32 @@
+{
+  "id": "6cc3b0146ba7",
+  "generation": 9420,
+  "created_at": "2026-03-02T06:34:07.462496",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Quantum annealing for optimization problems",
+  "hypothesis": "Combining Quantum annealing for optimization problems with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 4,
+    "estimated_cost_usd": 16461,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1750607532,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 28,
+    "economic_value_usd": 122542527240000
+  },
+  "confidence": 0.37729704794592084,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

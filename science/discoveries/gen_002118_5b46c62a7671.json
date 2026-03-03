@@ -1,0 +1,32 @@
+{
+  "id": "5b46c62a7671",
+  "generation": 2118,
+  "created_at": "2026-03-02T06:07:52.928523",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "If Liquid crystal elastomer actuation is applied to without, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 35,
+    "estimated_cost_usd": 691629,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1077597496,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 29,
+    "economic_value_usd": 64655849760000
+  },
+  "confidence": 0.7194557047941739,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

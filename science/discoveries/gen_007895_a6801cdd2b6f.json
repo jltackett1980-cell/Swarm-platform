@@ -1,0 +1,32 @@
+{
+  "id": "a6801cdd2b6f",
+  "generation": 7895,
+  "created_at": "2026-03-02T06:26:26.527741",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Combining Spintronics for low-power data storage with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 1,
+    "estimated_cost_usd": 22316,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 235873762,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 24,
+    "economic_value_usd": 14152425720000
+  },
+  "confidence": 0.7692044836945137,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "d2b04a497e83",
+  "generation": 7378,
+  "created_at": "2026-03-02T06:24:11.383221",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "Combining Aerogel porosity for thermal/acoustic insulation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 29,
+    "estimated_cost_usd": 541076,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 172942572,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 5,
+    "economic_value_usd": 13835405760000
+  },
+  "confidence": 0.7895955813537706,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

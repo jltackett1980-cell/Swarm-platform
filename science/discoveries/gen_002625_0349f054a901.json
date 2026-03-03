@@ -1,0 +1,32 @@
+{
+  "id": "0349f054a901",
+  "generation": 2625,
+  "created_at": "2026-03-02T06:08:58.401325",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "If Photodynamic therapy targeting specific cell receptors is applied to they, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 26,
+    "estimated_cost_usd": 966173,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 22683452,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 18,
+    "economic_value_usd": 907338080000
+  },
+  "confidence": 0.4511462045257594,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

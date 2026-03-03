@@ -1,0 +1,32 @@
+{
+  "id": "09c3f81568cf",
+  "generation": 4998,
+  "created_at": "2026-03-02T06:15:21.215215",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Combining Telomerase activation/inhibition in target cells with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 15,
+    "estimated_cost_usd": 741963,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 96651445,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 9,
+    "economic_value_usd": 2899543350000
+  },
+  "confidence": 0.6169116499232706,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

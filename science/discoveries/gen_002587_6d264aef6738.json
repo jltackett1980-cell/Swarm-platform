@@ -1,0 +1,32 @@
+{
+  "id": "6d264aef6738",
+  "generation": 2587,
+  "created_at": "2026-03-02T06:08:53.007745",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "The key to Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear is Magnetohydrodynamic flow without moving parts \u2014 specifically Magnetohydrodynamic flow without \u2014 which would help 2,000,000,000 people affected.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 6,
+    "estimated_cost_usd": 126006,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 332041411,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 7,
+    "economic_value_usd": 26563312880000
+  },
+  "confidence": 0.3464016514536559,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

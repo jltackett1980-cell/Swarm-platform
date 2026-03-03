@@ -1,0 +1,32 @@
+{
+  "id": "cbf627a77b5e",
+  "generation": 6841,
+  "created_at": "2026-03-02T06:21:51.107950",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "Combining Liquid crystal elastomer actuation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 24,
+    "estimated_cost_usd": 436494,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 163475529,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 25,
+    "economic_value_usd": 1634755290000
+  },
+  "confidence": 0.7115625932491934,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

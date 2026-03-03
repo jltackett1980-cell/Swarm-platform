@@ -1,0 +1,32 @@
+{
+  "id": "924257709640",
+  "generation": 8938,
+  "created_at": "2026-03-02T06:31:37.930492",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "Biochar amendment for soil carbon sequestration may resolve How to desalinate seawater at dramatically lower energy cost than reverse osmosis? by activating at the systems level.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 12,
+    "estimated_cost_usd": 164150,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 502459911,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 10,
+    "economic_value_usd": 30147594660000
+  },
+  "confidence": 0.7377272030289694,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

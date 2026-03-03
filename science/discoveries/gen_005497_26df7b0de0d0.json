@@ -1,0 +1,32 @@
+{
+  "id": "26df7b0de0d0",
+  "generation": 5497,
+  "created_at": "2026-03-02T06:16:58.154066",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "What is dark matter composed of \u2014 27% of universe is unknown remains unsolved because previous research missed the role of Thermoelectric. Thermoelectric Seebeck coefficient maximization directly addresses this.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 4,
+    "estimated_cost_usd": 92609,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2281594410,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 29,
+    "economic_value_usd": 45631888200000
+  },
+  "confidence": 0.7511046972375564,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

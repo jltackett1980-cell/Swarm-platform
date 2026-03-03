@@ -1,0 +1,32 @@
+{
+  "id": "403a9955e472",
+  "generation": 5034,
+  "created_at": "2026-03-02T06:15:27.729672",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "Combining CRISPR gene editing targeting specific pathway with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 19,
+    "estimated_cost_usd": 837704,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 29969879,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 6,
+    "economic_value_usd": 1198795160000
+  },
+  "confidence": 0.3957754405896621,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ff78a0c3e3b7",
+  "generation": 7720,
+  "created_at": "2026-03-02T06:25:39.819601",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Aerogel. Aerogel porosity for thermal/acoustic insulation directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 18,
+    "estimated_cost_usd": 252942,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3892653,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 29,
+    "economic_value_usd": 194632650000
+  },
+  "confidence": 0.5887170544421373,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

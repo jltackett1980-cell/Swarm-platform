@@ -1,0 +1,32 @@
+{
+  "id": "d5aa6797c1f5",
+  "generation": 9441,
+  "created_at": "2026-03-02T06:34:13.147687",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "If mRNA therapy to upregulate/downregulate gene expression is applied to what, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 4,
+    "estimated_cost_usd": 175811,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 708985,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 5,
+    "economic_value_usd": 49628950000
+  },
+  "confidence": 0.7087042370411432,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

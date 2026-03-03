@@ -1,0 +1,32 @@
+{
+  "id": "adb7b3def5e6",
+  "generation": 7757,
+  "created_at": "2026-03-02T06:25:49.957190",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "The key to What causes normal proteins to misfold into prions and spread through tissue? is Viral vector delivery of therapeutic gene \u2014 specifically Viral vector delivery \u2014 which would help 1,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 4,
+    "estimated_cost_usd": 178077,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 447885,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 13,
+    "economic_value_usd": 35830800000
+  },
+  "confidence": 0.7261907030817604,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

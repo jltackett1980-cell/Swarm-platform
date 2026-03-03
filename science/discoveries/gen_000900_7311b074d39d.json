@@ -1,0 +1,32 @@
+{
+  "id": "7311b074d39d",
+  "generation": 900,
+  "created_at": "2026-03-02T06:05:28.801126",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "The key to How to store solar energy at grid scale without chemical battery degradation? is Magnetohydrodynamic flow without moving parts \u2014 specifically Magnetohydrodynamic flow without \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 7,
+    "estimated_cost_usd": 128533,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1009625389,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 6,
+    "economic_value_usd": 10096253890000
+  },
+  "confidence": 0.4749060468542687,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

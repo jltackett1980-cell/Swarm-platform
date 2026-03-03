@@ -1,0 +1,32 @@
+{
+  "id": "6ca6cd432d89",
+  "generation": 6182,
+  "created_at": "2026-03-02T06:19:21.905669",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "The key to Can protein structure be predicted from sequence in real time without AlphaFold compute cost? is Federated learning without data centralization \u2014 specifically Federated learning without \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 6,
+    "estimated_cost_usd": 29040,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1845077895,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 17,
+    "economic_value_usd": 55352336850000
+  },
+  "confidence": 0.6005489688660959,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "78b0da1d4a37",
+  "generation": 9100,
+  "created_at": "2026-03-02T06:32:27.077214",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Mycorrhizal network enhancement for nutrient cycling",
+  "hypothesis": "If Mycorrhizal network enhancement for nutrient cycling is applied to rapidly, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 2,
+    "estimated_cost_usd": 27456,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 242988936,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 17,
+    "economic_value_usd": 17009225520000
+  },
+  "confidence": 0.4991947755246749,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "781d498ee2e9",
+  "generation": 2651,
+  "created_at": "2026-03-02T06:09:01.655749",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "If Bioelectrochemical system for pollutant conversion is applied to what, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 6,
+    "estimated_cost_usd": 89778,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1390132193,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 16,
+    "economic_value_usd": 111210575440000
+  },
+  "confidence": 0.5915674637123997,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

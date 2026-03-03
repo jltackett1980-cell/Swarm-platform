@@ -1,0 +1,32 @@
+{
+  "id": "0226c1551cd0",
+  "generation": 7772,
+  "created_at": "2026-03-02T06:25:53.112737",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "How are long-term memories physically encoded in neural tissue? remains unsolved because previous research missed the role of Neuroinflammation. Neuroinflammation reduction via microglial targeting directly addresses this.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 25,
+    "estimated_cost_usd": 869425,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1712273738,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 20,
+    "economic_value_usd": 51368212140000
+  },
+  "confidence": 0.7373257035238727,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

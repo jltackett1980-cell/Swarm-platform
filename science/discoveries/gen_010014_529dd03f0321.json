@@ -1,0 +1,32 @@
+{
+  "id": "529dd03f0321",
+  "generation": 10014,
+  "created_at": "2026-03-02T06:40:38.928978",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "Combining Plasma confinement via magnetic mirror geometry with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 2,
+    "estimated_cost_usd": 47032,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3412557278,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 16,
+    "economic_value_usd": 170627863900000
+  },
+  "confidence": 0.34415544864694453,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

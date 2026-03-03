@@ -1,0 +1,39 @@
+{
+  "id": "7bacb7ad",
+  "name": "ClarityConnect",
+  "generation": 11894,
+  "created_at": "2026-03-02T16:39:42.779682",
+  "pain": "loneliness",
+  "population": 61000000,
+  "problem": "61M with severe loneliness \u2014 linked to early death, no device addresses this",
+  "physics": "mechanical_haptic",
+  "physics_desc": "Vibration, pressure, mechanical force",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Haptic feedback",
+    "Vibrotactile devices"
+  ],
+  "form_factor": "wrist band",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.551,
+    "size_cm": 19.6,
+    "cost_usd": 202.9,
+    "battery_hours": 39.0
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "WithYou",
+  "companion_domain": "grief_support",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

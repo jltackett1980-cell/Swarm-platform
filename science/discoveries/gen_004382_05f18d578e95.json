@@ -1,0 +1,32 @@
+{
+  "id": "05f18d578e95",
+  "generation": 4382,
+  "created_at": "2026-03-02T06:13:29.237827",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Spintronics for low-power data storage may resolve How to store solar energy at grid scale without chemical battery degradation? by activating at the systems level.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 5,
+    "estimated_cost_usd": 109883,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1054038025,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 12,
+    "economic_value_usd": 52701901250000
+  },
+  "confidence": 0.31950321482328536,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

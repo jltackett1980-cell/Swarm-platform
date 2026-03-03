@@ -1,0 +1,32 @@
+{
+  "id": "00935785e06e",
+  "generation": 5899,
+  "created_at": "2026-03-02T06:18:21.619507",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "Atomic layer deposition of conformal coating may resolve What membrane material filters all contaminants from water at low energy cost? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 5,
+    "estimated_cost_usd": 90814,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 686024446,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 17,
+    "economic_value_usd": 48021711220000
+  },
+  "confidence": 0.5332734306866731,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

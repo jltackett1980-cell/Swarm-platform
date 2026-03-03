@@ -1,0 +1,32 @@
+{
+  "id": "2af13b524942",
+  "generation": 300,
+  "created_at": "2026-03-02T06:04:34.204100",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "The key to What neural connectivity differences cause autism spectrum characteristics? is Glial cell activation/suppression in target brain region \u2014 specifically Glial cell activation/suppression \u2014 which would help 75,000,000 people affected.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 15,
+    "estimated_cost_usd": 482924,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 31391859,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 11,
+    "economic_value_usd": 941755770000
+  },
+  "confidence": 0.7244919693179507,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "806ebf7b2d40",
+  "generation": 5124,
+  "created_at": "2026-03-02T06:15:44.864805",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Telomerase activation/inhibition in target cells may resolve What triggers cancer cells to leave primary tumor and colonize new tissue? by blocking at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 19,
+    "estimated_cost_usd": 880515,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6996216,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 25,
+    "economic_value_usd": 279848640000
+  },
+  "confidence": 0.6910256234594363,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

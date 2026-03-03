@@ -1,0 +1,32 @@
+{
+  "id": "ee06c7bd3659",
+  "generation": 2794,
+  "created_at": "2026-03-02T06:09:21.740673",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Spintronics for low-power data storage may resolve How to achieve sustained net-positive nuclear fusion at commercial scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 3,
+    "estimated_cost_usd": 69446,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1174221481,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 18,
+    "economic_value_usd": 70453288860000
+  },
+  "confidence": 0.7400619469121867,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

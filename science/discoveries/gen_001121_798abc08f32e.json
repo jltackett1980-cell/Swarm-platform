@@ -1,0 +1,32 @@
+{
+  "id": "798abc08f32e",
+  "generation": 1121,
+  "created_at": "2026-03-02T06:05:54.227999",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "Combining Psychedelic-induced neuroplasticity via 5-HT2A receptor with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 20,
+    "estimated_cost_usd": 640976,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9044021,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 25,
+    "economic_value_usd": 813961890000
+  },
+  "confidence": 0.4126485390919327,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

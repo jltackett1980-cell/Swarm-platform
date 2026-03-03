@@ -1,0 +1,32 @@
+{
+  "id": "f715541751ae",
+  "generation": 7356,
+  "created_at": "2026-03-02T06:24:06.524998",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "Why does acute pain become chronic in some people \u2014 what neural change occurs? remains unsolved because previous research missed the role of Autophagy. Autophagy activation to clear misfolded proteins directly addresses this.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 19,
+    "estimated_cost_usd": 946460,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 39544405,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 16,
+    "economic_value_usd": 1977220250000
+  },
+  "confidence": 0.46325274498029767,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

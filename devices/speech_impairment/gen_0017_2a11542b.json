@@ -1,0 +1,39 @@
+{
+  "id": "2a11542b",
+  "name": "NexusVoice",
+  "generation": 17,
+  "created_at": "2026-03-02T17:08:38.028750",
+  "pain": "speech_impairment",
+  "population": 7500000,
+  "problem": "7.5M with speech disorders \u2014 AAC devices cost $8,000+",
+  "physics": "electromagnetic",
+  "physics_desc": "Pulsed electric/magnetic fields",
+  "physics_proven": true,
+  "comparable_devices": [
+    "TENS units",
+    "PEMF therapy"
+  ],
+  "form_factor": "throat patch",
+  "complexity": 4,
+  "specs": {
+    "power_watts": 0.0035,
+    "size_cm": 1.1,
+    "cost_usd": 129.2,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

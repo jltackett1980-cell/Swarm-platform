@@ -1,0 +1,32 @@
+{
+  "id": "c30440d1fe83",
+  "generation": 8615,
+  "created_at": "2026-03-02T06:29:44.819119",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "Bose-Einstein condensate at higher temperature may resolve What is dark matter composed of \u2014 27% of universe is unknown by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 12,
+    "estimated_cost_usd": 288764,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2933726942,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 13,
+    "economic_value_usd": 29337269420000
+  },
+  "confidence": 0.4122219743328698,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

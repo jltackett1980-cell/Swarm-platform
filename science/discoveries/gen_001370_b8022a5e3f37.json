@@ -1,0 +1,32 @@
+{
+  "id": "b8022a5e3f37",
+  "generation": 1370,
+  "created_at": "2026-03-02T06:06:22.805610",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "Combining Viral vector delivery of therapeutic gene with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 5,
+    "estimated_cost_usd": 243551,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1457864,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 5,
+    "economic_value_usd": 43735920000
+  },
+  "confidence": 0.751598212067579,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

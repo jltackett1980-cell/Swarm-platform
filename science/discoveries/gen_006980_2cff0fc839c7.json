@@ -1,0 +1,32 @@
+{
+  "id": "2cff0fc839c7",
+  "generation": 6980,
+  "created_at": "2026-03-02T06:22:32.524941",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "The key to How are long-term memories physically encoded in neural tissue? is Transcranial magnetic stimulation of specific cortical area \u2014 specifically Transcranial magnetic stimulation \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 7,
+    "estimated_cost_usd": 226151,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3564470137,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 8,
+    "economic_value_usd": 106934104110000
+  },
+  "confidence": 0.5684653988854705,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

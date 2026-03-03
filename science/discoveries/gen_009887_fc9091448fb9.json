@@ -1,0 +1,32 @@
+{
+  "id": "fc9091448fb9",
+  "generation": 9887,
+  "created_at": "2026-03-02T06:36:32.255805",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Phytoremediation. Phytoremediation with hyperaccumulator plant species directly addresses this.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 6,
+    "estimated_cost_usd": 81660,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 155851002,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 30,
+    "economic_value_usd": 12468080160000
+  },
+  "confidence": 0.6206755509080915,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

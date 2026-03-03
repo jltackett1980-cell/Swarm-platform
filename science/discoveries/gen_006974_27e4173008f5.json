@@ -1,0 +1,32 @@
+{
+  "id": "27e4173008f5",
+  "generation": 6974,
+  "created_at": "2026-03-02T06:22:31.719705",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "What substrate allows silicon-level performance in fully flexible electronics? remains unsolved because previous research missed the role of Atomic. Atomic layer deposition of conformal coating directly addresses this.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 5,
+    "estimated_cost_usd": 89684,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 185770172,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 7,
+    "economic_value_usd": 1857701720000
+  },
+  "confidence": 0.57787531466947,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

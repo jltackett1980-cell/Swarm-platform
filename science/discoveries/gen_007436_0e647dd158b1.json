@@ -1,0 +1,32 @@
+{
+  "id": "0e647dd158b1",
+  "generation": 7436,
+  "created_at": "2026-03-02T06:24:25.967270",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Mycorrhizal network enhancement for nutrient cycling",
+  "hypothesis": "Combining Mycorrhizal network enhancement for nutrient cycling with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 8,
+    "estimated_cost_usd": 89281,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3421840308,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 15,
+    "economic_value_usd": 34218403080000
+  },
+  "confidence": 0.6169919260703627,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

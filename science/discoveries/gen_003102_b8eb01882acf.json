@@ -1,0 +1,32 @@
+{
+  "id": "b8eb01882acf",
+  "generation": 3102,
+  "created_at": "2026-03-02T06:10:04.773687",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "Liquid crystal elastomer actuation may resolve What material stores hydrogen fuel at high density without safety risk? by activating at the molecular level.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 28,
+    "estimated_cost_usd": 413858,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1416975325,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 27,
+    "economic_value_usd": 28339506500000
+  },
+  "confidence": 0.7435940360778641,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

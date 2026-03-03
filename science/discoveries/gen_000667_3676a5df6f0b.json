@@ -1,0 +1,32 @@
+{
+  "id": "3676a5df6f0b",
+  "generation": 667,
+  "created_at": "2026-03-02T06:05:05.646779",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "Can ocean acidification be safely reversed \u2014 what biochemical approach? remains unsolved because previous research missed the role of Photocatalytic. Photocatalytic oxidation under visible light directly addresses this.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 1,
+    "estimated_cost_usd": 13573,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 793620544,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 27,
+    "economic_value_usd": 55553438080000
+  },
+  "confidence": 0.4784506155553344,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

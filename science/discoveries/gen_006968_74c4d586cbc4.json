@@ -1,0 +1,32 @@
+{
+  "id": "74c4d586cbc4",
+  "generation": 6968,
+  "created_at": "2026-03-02T06:22:30.061553",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient remains unsolved because previous research missed the role of Neuroinflammation. Neuroinflammation reduction via microglial targeting directly addresses this.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 19,
+    "estimated_cost_usd": 531869,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 34476922,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 20,
+    "economic_value_usd": 689538440000
+  },
+  "confidence": 0.6574508558728416,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "342463790950",
+  "generation": 3078,
+  "created_at": "2026-03-02T06:10:01.304353",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? remains unsolved because previous research missed the role of Bioelectrochemical. Bioelectrochemical system for pollutant conversion directly addresses this.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 3,
+    "estimated_cost_usd": 39584,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2696473410,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 27,
+    "economic_value_usd": 80894202300000
+  },
+  "confidence": 0.5763435713699898,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

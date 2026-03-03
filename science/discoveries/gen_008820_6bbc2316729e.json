@@ -1,0 +1,32 @@
+{
+  "id": "6bbc2316729e",
+  "generation": 8820,
+  "created_at": "2026-03-02T06:30:58.573343",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "Combining Optogenetic control of specific neuron populations with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 25,
+    "estimated_cost_usd": 894040,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8830462,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 28,
+    "economic_value_usd": 88304620000
+  },
+  "confidence": 0.5566690018317967,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

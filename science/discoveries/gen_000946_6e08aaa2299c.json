@@ -1,0 +1,32 @@
+{
+  "id": "6e08aaa2299c",
+  "generation": 946,
+  "created_at": "2026-03-02T06:05:35.796297",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "Combining Shape memory alloy phase transition with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 23,
+    "estimated_cost_usd": 321671,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 379843146,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 16,
+    "economic_value_usd": 7596862920000
+  },
+  "confidence": 0.5287734252390056,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

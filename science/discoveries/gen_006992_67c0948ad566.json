@@ -1,0 +1,32 @@
+{
+  "id": "67c0948ad566",
+  "generation": 6992,
+  "created_at": "2026-03-02T06:22:35.047836",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear remains unsolved because previous research missed the role of Spintronics. Spintronics for low-power data storage directly addresses this.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 12,
+    "estimated_cost_usd": 244496,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 399136403,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 8,
+    "economic_value_usd": 31930912240000
+  },
+  "confidence": 0.6736765489724243,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

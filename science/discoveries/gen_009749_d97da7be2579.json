@@ -1,0 +1,32 @@
+{
+  "id": "d97da7be2579",
+  "generation": 9749,
+  "created_at": "2026-03-02T06:35:50.407205",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "Why do perovskite solar cells degrade \u2014 what material instability causes it? remains unsolved because previous research missed the role of Two-dimensional. Two-dimensional material stacking (van der Waals heterostructure) directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 16,
+    "estimated_cost_usd": 281644,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 333178439,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 22,
+    "economic_value_usd": 26654275120000
+  },
+  "confidence": 0.7080454271026058,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

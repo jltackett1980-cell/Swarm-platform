@@ -1,0 +1,32 @@
+{
+  "id": "1416fedcd953",
+  "generation": 9084,
+  "created_at": "2026-03-02T06:32:22.087106",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear remains unsolved because previous research missed the role of Optical. Optical rectenna for direct photon-to-electron conversion directly addresses this.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 2,
+    "estimated_cost_usd": 37327,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 326635063,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 7,
+    "economic_value_usd": 6532701260000
+  },
+  "confidence": 0.5468996835985838,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

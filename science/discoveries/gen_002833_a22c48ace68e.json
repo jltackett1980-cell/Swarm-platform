@@ -1,0 +1,32 @@
+{
+  "id": "a22c48ace68e",
+  "generation": 2833,
+  "created_at": "2026-03-02T06:09:26.797308",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different? remains unsolved because previous research missed the role of Attention. Attention mechanism with linear complexity directly addresses this.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 2,
+    "estimated_cost_usd": 9528,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3477099268,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 8,
+    "economic_value_usd": 173854963400000
+  },
+  "confidence": 0.4932523496630883,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

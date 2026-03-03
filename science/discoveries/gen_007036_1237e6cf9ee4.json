@@ -1,0 +1,32 @@
+{
+  "id": "1237e6cf9ee4",
+  "generation": 7036,
+  "created_at": "2026-03-02T06:22:46.584263",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "Combining mRNA therapy to upregulate/downregulate gene expression with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 4,
+    "estimated_cost_usd": 186303,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11907262,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 10,
+    "economic_value_usd": 952580960000
+  },
+  "confidence": 0.46163397749149176,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

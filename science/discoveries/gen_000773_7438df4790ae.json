@@ -1,0 +1,32 @@
+{
+  "id": "7438df4790ae",
+  "generation": 773,
+  "created_at": "2026-03-02T06:05:16.347813",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "The key to What material stores hydrogen fuel at high density without safety risk? is Atomic layer deposition of conformal coating \u2014 specifically Atomic layer deposition \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 22,
+    "estimated_cost_usd": 356109,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 664752986,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 11,
+    "economic_value_usd": 26590119440000
+  },
+  "confidence": 0.3026998041621815,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

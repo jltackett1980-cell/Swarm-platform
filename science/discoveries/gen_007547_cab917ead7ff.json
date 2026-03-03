@@ -1,0 +1,32 @@
+{
+  "id": "cab917ead7ff",
+  "generation": 7547,
+  "created_at": "2026-03-02T06:24:55.869744",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "Combining Self-assembled monolayer for surface functionalization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 27,
+    "estimated_cost_usd": 516339,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6917296,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 13,
+    "economic_value_usd": 69172960000
+  },
+  "confidence": 0.5792682959785139,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

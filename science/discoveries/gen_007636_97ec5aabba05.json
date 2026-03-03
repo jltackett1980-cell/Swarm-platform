@@ -1,0 +1,32 @@
+{
+  "id": "97ec5aabba05",
+  "generation": 7636,
+  "created_at": "2026-03-02T06:25:17.834659",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "The key to What limits adult neuroplasticity \u2014 can those limits be safely removed? is Neuroinflammation reduction via microglial targeting \u2014 specifically Neuroinflammation reduction via \u2014 which would help 200,000,000 people affected.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 11,
+    "estimated_cost_usd": 318919,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 68174162,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 15,
+    "economic_value_usd": 3408708100000
+  },
+  "confidence": 0.6215470631315051,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

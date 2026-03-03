@@ -1,0 +1,32 @@
+{
+  "id": "0ffe11e0cf08",
+  "generation": 6751,
+  "created_at": "2026-03-02T06:21:30.852614",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "Phytoremediation with hyperaccumulator plant species may resolve What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? by activating at the systems level.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 3,
+    "estimated_cost_usd": 43172,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3828955051,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 13,
+    "economic_value_usd": 76579101020000
+  },
+  "confidence": 0.6395975614472663,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "c77b4d5b43cb",
+  "generation": 5782,
+  "created_at": "2026-03-02T06:17:56.182329",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Thermoelectric Seebeck coefficient maximization may resolve How to store solar energy at grid scale without chemical battery degradation? by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 2,
+    "estimated_cost_usd": 41086,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 398141407,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 20,
+    "economic_value_usd": 35832726630000
+  },
+  "confidence": 0.6966529050745681,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

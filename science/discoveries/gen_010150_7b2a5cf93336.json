@@ -1,0 +1,32 @@
+{
+  "id": "7b2a5cf93336",
+  "generation": 10150,
+  "created_at": "2026-03-02T07:24:53.140842",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "If Deep brain stimulation of subthalamic nucleus is applied to alone, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 9,
+    "estimated_cost_usd": 216021,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 94880238,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 22,
+    "economic_value_usd": 4744011900000
+  },
+  "confidence": 0.7323896477224034,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

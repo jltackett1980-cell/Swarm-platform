@@ -1,0 +1,32 @@
+{
+  "id": "253ec9724e88",
+  "generation": 9119,
+  "created_at": "2026-03-02T06:32:32.904740",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "The key to What membrane material filters all contaminants from water at low energy cost? is Carbon nanotube alignment in polymer matrix \u2014 specifically Carbon nanotube alignment \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 17,
+    "estimated_cost_usd": 264282,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 560535870,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 5,
+    "economic_value_usd": 16816076100000
+  },
+  "confidence": 0.7255603492926943,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

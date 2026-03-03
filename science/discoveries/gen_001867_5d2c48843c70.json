@@ -1,0 +1,32 @@
+{
+  "id": "5d2c48843c70",
+  "generation": 1867,
+  "created_at": "2026-03-02T06:07:22.824888",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "The key to What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? is Rhizobium inoculation for nitrogen fixation \u2014 specifically Rhizobium inoculation for \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 11,
+    "estimated_cost_usd": 164097,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1549366954,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 7,
+    "economic_value_usd": 61974678160000
+  },
+  "confidence": 0.6511895400604564,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

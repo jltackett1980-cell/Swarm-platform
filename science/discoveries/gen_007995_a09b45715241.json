@@ -1,0 +1,32 @@
+{
+  "id": "a09b45715241",
+  "generation": 7995,
+  "created_at": "2026-03-02T06:26:53.006597",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "The key to What causes normal proteins to misfold into prions and spread through tissue? is Nanoparticle delivery to cross blood-brain barrier \u2014 specifically Nanoparticle delivery to \u2014 which would help 1,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 25,
+    "estimated_cost_usd": 913866,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 341450,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 10,
+    "economic_value_usd": 3414500000
+  },
+  "confidence": 0.5514501680052217,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

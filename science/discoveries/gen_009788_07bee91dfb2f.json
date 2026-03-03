@@ -1,0 +1,32 @@
+{
+  "id": "07bee91dfb2f",
+  "generation": 9788,
+  "created_at": "2026-03-02T06:36:01.489974",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "Combining Microbiome modulation via targeted bacteriophage therapy with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 36,
+    "estimated_cost_usd": 1325124,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16086525,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 11,
+    "economic_value_usd": 1286922000000
+  },
+  "confidence": 0.7995375693227749,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

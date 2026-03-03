@@ -1,0 +1,32 @@
+{
+  "id": "4c938dab604a",
+  "generation": 2095,
+  "created_at": "2026-03-02T06:07:50.554156",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Constructed. Constructed wetland for water filtration directly addresses this.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 6,
+    "estimated_cost_usd": 73588,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 192629046,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 18,
+    "economic_value_usd": 5778871380000
+  },
+  "confidence": 0.5064507475829116,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

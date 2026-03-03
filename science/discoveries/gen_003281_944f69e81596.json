@@ -1,0 +1,32 @@
+{
+  "id": "944f69e81596",
+  "generation": 3281,
+  "created_at": "2026-03-02T06:10:31.135637",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "Combining Phytoremediation with hyperaccumulator plant species with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 4,
+    "estimated_cost_usd": 56001,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 108073219,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 20,
+    "economic_value_usd": 9726589710000
+  },
+  "confidence": 0.5702715730309251,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

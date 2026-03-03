@@ -1,0 +1,32 @@
+{
+  "id": "0bade99ed01a",
+  "generation": 1978,
+  "created_at": "2026-03-02T06:07:35.842323",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Polymer. Polymer crosslinking under specific stimulus directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 7,
+    "estimated_cost_usd": 125168,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7859317,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 23,
+    "economic_value_usd": 314372680000
+  },
+  "confidence": 0.5340446563096946,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

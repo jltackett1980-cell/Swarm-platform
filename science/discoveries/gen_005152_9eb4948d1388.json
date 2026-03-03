@@ -1,0 +1,32 @@
+{
+  "id": "9eb4948d1388",
+  "generation": 5152,
+  "created_at": "2026-03-02T06:15:49.884563",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "The key to Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear is Plasma confinement via magnetic mirror geometry \u2014 specifically Plasma confinement via \u2014 which would help 2,000,000,000 people affected.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 11,
+    "estimated_cost_usd": 230136,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 853999852,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 9,
+    "economic_value_usd": 68319988160000
+  },
+  "confidence": 0.3329615706523752,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

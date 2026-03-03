@@ -1,0 +1,32 @@
+{
+  "id": "5dea9c971efe",
+  "generation": 5043,
+  "created_at": "2026-03-02T06:15:30.135883",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "Combining Magnetohydrodynamic flow without moving parts with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 6,
+    "estimated_cost_usd": 131808,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1061405744,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 11,
+    "economic_value_usd": 74298402080000
+  },
+  "confidence": 0.5613722564969645,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

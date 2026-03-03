@@ -1,0 +1,32 @@
+{
+  "id": "b48eba8627ec",
+  "generation": 4227,
+  "created_at": "2026-03-02T06:13:02.960781",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "What triggers cancer cells to leave primary tumor and colonize new tissue? remains unsolved because previous research missed the role of Small. Small molecule inhibitor of enzyme active site directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 29,
+    "estimated_cost_usd": 1380528,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6026932,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 27,
+    "economic_value_usd": 361615920000
+  },
+  "confidence": 0.5268649170994191,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

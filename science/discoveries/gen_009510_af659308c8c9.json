@@ -1,0 +1,32 @@
+{
+  "id": "af659308c8c9",
+  "generation": 9510,
+  "created_at": "2026-03-02T06:34:34.759852",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "Combining Metal-organic framework with specific pore geometry with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 3,
+    "estimated_cost_usd": 54222,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2668772,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 18,
+    "economic_value_usd": 186814040000
+  },
+  "confidence": 0.483036586608371,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

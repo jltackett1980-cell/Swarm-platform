@@ -1,0 +1,32 @@
+{
+  "id": "6d4499b674c6",
+  "generation": 6458,
+  "created_at": "2026-03-02T06:20:23.916420",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "Combining Shape memory alloy phase transition with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 20,
+    "estimated_cost_usd": 306864,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2395136,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 27,
+    "economic_value_usd": 71854080000
+  },
+  "confidence": 0.5725253700505246,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

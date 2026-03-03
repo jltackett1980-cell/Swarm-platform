@@ -1,0 +1,32 @@
+{
+  "id": "e50ab067bc35",
+  "generation": 1885,
+  "created_at": "2026-03-02T06:07:24.971016",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "If Optogenetic control of specific neuron populations is applied to colonize, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 33,
+    "estimated_cost_usd": 1215265,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 12811470,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 17,
+    "economic_value_usd": 1024917600000
+  },
+  "confidence": 0.3441574367083155,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

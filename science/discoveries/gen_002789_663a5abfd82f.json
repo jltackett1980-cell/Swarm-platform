@@ -1,0 +1,32 @@
+{
+  "id": "663a5abfd82f",
+  "generation": 2789,
+  "created_at": "2026-03-02T06:09:20.212764",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "The key to Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear is Plasma confinement via magnetic mirror geometry \u2014 specifically Plasma confinement via \u2014 which would help 2,000,000,000 people affected.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 1,
+    "estimated_cost_usd": 17107,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 518851335,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 11,
+    "economic_value_usd": 46696620150000
+  },
+  "confidence": 0.796711969041293,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

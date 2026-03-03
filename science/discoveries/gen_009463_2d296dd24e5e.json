@@ -1,0 +1,32 @@
+{
+  "id": "2d296dd24e5e",
+  "generation": 9463,
+  "created_at": "2026-03-02T06:34:21.151827",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "Mitochondrial membrane potential modulation may resolve What is the primary molecular cause of biological aging \u2014 can it be slowed? by activating at the molecular level.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 16,
+    "estimated_cost_usd": 588063,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 400,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2600064696,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 21,
+    "economic_value_usd": 26000646960000
+  },
+  "confidence": 0.7096664340657034,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

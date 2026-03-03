@@ -1,0 +1,32 @@
+{
+  "id": "4f7dbdda94cc",
+  "generation": 6299,
+  "created_at": "2026-03-02T06:19:48.421723",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "How does gut microbiome composition directly affect brain chemistry and mood? remains unsolved because previous research missed the role of Viral. Viral vector delivery of therapeutic gene directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 35,
+    "estimated_cost_usd": 1360899,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 34972628,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 30,
+    "economic_value_usd": 1748631400000
+  },
+  "confidence": 0.6205668297570919,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

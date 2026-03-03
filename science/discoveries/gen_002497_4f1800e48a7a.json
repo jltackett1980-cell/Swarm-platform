@@ -1,0 +1,32 @@
+{
+  "id": "4f1800e48a7a",
+  "generation": 2497,
+  "created_at": "2026-03-02T06:08:41.488410",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "Combining Bacteriophage surface display for targeting with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 22,
+    "estimated_cost_usd": 330450,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1189766625,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 10,
+    "economic_value_usd": 95181330000000
+  },
+  "confidence": 0.6186576324040496,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

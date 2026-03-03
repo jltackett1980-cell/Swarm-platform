@@ -1,0 +1,32 @@
+{
+  "id": "165ab4604c4c",
+  "generation": 1792,
+  "created_at": "2026-03-02T06:07:13.502281",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Mycorrhizal network enhancement for nutrient cycling",
+  "hypothesis": "Combining Mycorrhizal network enhancement for nutrient cycling with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 2,
+    "estimated_cost_usd": 29463,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 100664927,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 11,
+    "economic_value_usd": 4026597080000
+  },
+  "confidence": 0.6835527126988424,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

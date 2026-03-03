@@ -1,0 +1,32 @@
+{
+  "id": "5e902b6be2bf",
+  "generation": 1621,
+  "created_at": "2026-03-02T06:06:53.612803",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "What material surface coating prevents bacterial biofilm formation on implants? remains unsolved because previous research missed the role of Biomimetic. Biomimetic surface structure (lotus, shark skin, gecko) directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 12,
+    "estimated_cost_usd": 215710,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 160293725,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 15,
+    "economic_value_usd": 8014686250000
+  },
+  "confidence": 0.5530681222580816,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

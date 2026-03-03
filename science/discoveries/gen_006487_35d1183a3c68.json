@@ -1,0 +1,32 @@
+{
+  "id": "35d1183a3c68",
+  "generation": 6487,
+  "created_at": "2026-03-02T06:20:30.029177",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "If Deep brain stimulation of subthalamic nucleus is applied to essential, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 8,
+    "estimated_cost_usd": 203436,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 282,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2286324712,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 11,
+    "economic_value_usd": 114316235600000
+  },
+  "confidence": 0.6120818795756032,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

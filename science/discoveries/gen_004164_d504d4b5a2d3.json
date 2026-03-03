@@ -1,0 +1,32 @@
+{
+  "id": "d504d4b5a2d3",
+  "generation": 4164,
+  "created_at": "2026-03-02T06:12:52.628095",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "If Psychedelic-induced neuroplasticity via 5-HT2A receptor is applied to essential, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 22,
+    "estimated_cost_usd": 769403,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1644577610,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 30,
+    "economic_value_usd": 82228880500000
+  },
+  "confidence": 0.6890467729798009,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

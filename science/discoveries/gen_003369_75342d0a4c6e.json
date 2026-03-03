@@ -1,0 +1,32 @@
+{
+  "id": "75342d0a4c6e",
+  "generation": 3369,
+  "created_at": "2026-03-02T06:10:44.616276",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "The key to What enzyme or organism efficiently degrades all plastic types at scale? is Polymer crosslinking under specific stimulus \u2014 specifically Polymer crosslinking under \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 15,
+    "estimated_cost_usd": 254947,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2188783980,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 26,
+    "economic_value_usd": 109439199000000
+  },
+  "confidence": 0.6810918453700481,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

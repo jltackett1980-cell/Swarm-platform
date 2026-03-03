@@ -1,0 +1,32 @@
+{
+  "id": "c90cad40552a",
+  "generation": 920,
+  "created_at": "2026-03-02T06:05:31.279989",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "Why do perovskite solar cells degrade \u2014 what material instability causes it? remains unsolved because previous research missed the role of Two-dimensional. Two-dimensional material stacking (van der Waals heterostructure) directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 19,
+    "estimated_cost_usd": 353652,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 977892022,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 6,
+    "economic_value_usd": 19557840440000
+  },
+  "confidence": 0.49823584936318877,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

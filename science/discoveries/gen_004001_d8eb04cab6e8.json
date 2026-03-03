@@ -1,0 +1,32 @@
+{
+  "id": "d8eb04cab6e8",
+  "generation": 4001,
+  "created_at": "2026-03-02T06:12:25.021066",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "If Piezoelectric coupling in novel crystal structure is applied to at, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 12,
+    "estimated_cost_usd": 270520,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3812385547,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 20,
+    "economic_value_usd": 228743132820000
+  },
+  "confidence": 0.3555870118824543,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

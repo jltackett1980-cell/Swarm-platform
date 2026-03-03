@@ -1,0 +1,32 @@
+{
+  "id": "d47495c02f75",
+  "generation": 3864,
+  "created_at": "2026-03-02T06:12:02.943315",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "Combining Rhizobium inoculation for nitrogen fixation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 3,
+    "estimated_cost_usd": 42322,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 233374515,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 27,
+    "economic_value_usd": 2333745150000
+  },
+  "confidence": 0.4941678254014202,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

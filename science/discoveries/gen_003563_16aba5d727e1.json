@@ -1,0 +1,32 @@
+{
+  "id": "16aba5d727e1",
+  "generation": 3563,
+  "created_at": "2026-03-02T06:11:15.189659",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of Reservoir. Reservoir computing with physical substrate directly addresses this.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 1,
+    "estimated_cost_usd": 3375,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1268746726,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 30,
+    "economic_value_usd": 50749869040000
+  },
+  "confidence": 0.7959785189830273,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

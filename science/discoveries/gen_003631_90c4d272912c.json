@@ -1,0 +1,32 @@
+{
+  "id": "90c4d272912c",
+  "generation": 3631,
+  "created_at": "2026-03-02T06:11:24.983862",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "Biochar amendment for soil carbon sequestration may resolve How to desalinate seawater at dramatically lower energy cost than reverse osmosis? by activating at the systems level.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 10,
+    "estimated_cost_usd": 103957,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 521348122,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 8,
+    "economic_value_usd": 15640443660000
+  },
+  "confidence": 0.3552517493359306,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

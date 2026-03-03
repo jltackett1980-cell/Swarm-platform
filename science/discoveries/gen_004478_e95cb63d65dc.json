@@ -1,0 +1,32 @@
+{
+  "id": "e95cb63d65dc",
+  "generation": 4478,
+  "created_at": "2026-03-02T06:13:46.330349",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "How to achieve sustained net-positive nuclear fusion at commercial scale? remains unsolved because previous research missed the role of Thermoelectric. Thermoelectric Seebeck coefficient maximization directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 5,
+    "estimated_cost_usd": 100412,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2735959195,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 16,
+    "economic_value_usd": 82078775850000
+  },
+  "confidence": 0.3611078829210613,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

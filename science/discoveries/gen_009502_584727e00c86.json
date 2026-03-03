@@ -1,0 +1,32 @@
+{
+  "id": "584727e00c86",
+  "generation": 9502,
+  "created_at": "2026-03-02T06:34:32.346985",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "Combining Topological insulator surface state conduction with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 7,
+    "estimated_cost_usd": 149278,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 733593578,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 12,
+    "economic_value_usd": 36679678900000
+  },
+  "confidence": 0.6562346632925717,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "0ec1434d",
+  "name": "ForgeDiagnose",
+  "generation": 1,
+  "created_at": "2026-03-02T17:08:22.791176",
+  "pain": "rural_no_doctor",
+  "population": 60000000,
+  "problem": "60M in rural areas \u2014 no nearby physician, diagnosis delayed",
+  "physics": "electrochemical",
+  "physics_desc": "Electrochemical reactions for sensing and delivery",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Continuous glucose monitors",
+    "Insulin pumps"
+  ],
+  "form_factor": "handheld diagnostic",
+  "complexity": 1,
+  "specs": {
+    "power_watts": 0.0016,
+    "size_cm": 1.4,
+    "cost_usd": 71.86,
+    "battery_hours": 77.1
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "TeleHealth",
+  "companion_domain": "telehealth",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

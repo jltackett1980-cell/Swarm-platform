@@ -1,0 +1,32 @@
+{
+  "id": "f64e56e5b533",
+  "generation": 7366,
+  "created_at": "2026-03-02T06:24:08.813286",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "If Sleep-dependent memory consolidation in hippocampus is applied to be, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 19,
+    "estimated_cost_usd": 607974,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 49590068,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 12,
+    "economic_value_usd": 2479503400000
+  },
+  "confidence": 0.3871079957797239,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

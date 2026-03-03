@@ -1,0 +1,32 @@
+{
+  "id": "f2626d0c9b78",
+  "generation": 4432,
+  "created_at": "2026-03-02T06:13:37.952148",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "Combining mRNA therapy to upregulate/downregulate gene expression with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 7,
+    "estimated_cost_usd": 272070,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8702167,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 8,
+    "economic_value_usd": 522130020000
+  },
+  "confidence": 0.4302647255164743,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

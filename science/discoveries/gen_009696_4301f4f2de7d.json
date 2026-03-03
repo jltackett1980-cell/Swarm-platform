@@ -1,0 +1,32 @@
+{
+  "id": "4301f4f2de7d",
+  "generation": 9696,
+  "created_at": "2026-03-02T06:35:33.981156",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "What membrane material filters all contaminants from water at low energy cost? remains unsolved because previous research missed the role of Perovskite. Perovskite crystal structure optimization directly addresses this.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 35,
+    "estimated_cost_usd": 689391,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 477710951,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 12,
+    "economic_value_usd": 19108438040000
+  },
+  "confidence": 0.47286586144975906,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

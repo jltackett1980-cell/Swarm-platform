@@ -1,0 +1,32 @@
+{
+  "id": "e2c6e5fab104",
+  "generation": 7324,
+  "created_at": "2026-03-02T06:23:58.365529",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "If Microbiome modulation via targeted bacteriophage therapy is applied to chemistry, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 20,
+    "estimated_cost_usd": 819338,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 142643329,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 11,
+    "economic_value_usd": 7132166450000
+  },
+  "confidence": 0.7454857553071259,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

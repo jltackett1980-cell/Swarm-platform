@@ -1,0 +1,32 @@
+{
+  "id": "7eb60e792378",
+  "generation": 8172,
+  "created_at": "2026-03-02T06:27:40.350490",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "Combining Bose-Einstein condensate at higher temperature with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 8,
+    "estimated_cost_usd": 171133,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 625280577,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 22,
+    "economic_value_usd": 37516834620000
+  },
+  "confidence": 0.7622626110685868,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

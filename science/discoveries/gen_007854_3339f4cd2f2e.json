@@ -1,0 +1,32 @@
+{
+  "id": "3339f4cd2f2e",
+  "generation": 7854,
+  "created_at": "2026-03-02T06:26:15.632267",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "Can ocean acidification be safely reversed \u2014 what biochemical approach? remains unsolved because previous research missed the role of Electrocoagulation. Electrocoagulation for suspended particle removal directly addresses this.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 2,
+    "estimated_cost_usd": 27988,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1106582570,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 30,
+    "economic_value_usd": 44263302800000
+  },
+  "confidence": 0.6320836976370399,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

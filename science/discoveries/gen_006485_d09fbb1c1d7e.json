@@ -1,0 +1,32 @@
+{
+  "id": "d09fbb1c1d7e",
+  "generation": 6485,
+  "created_at": "2026-03-02T06:20:29.776432",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear remains unsolved because previous research missed the role of Quantum. Quantum tunneling through energy barrier directly addresses this.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 1,
+    "estimated_cost_usd": 16925,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 707604776,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 12,
+    "economic_value_usd": 7076047760000
+  },
+  "confidence": 0.5023155071441845,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "eb34e5582bb7",
+  "generation": 8422,
+  "created_at": "2026-03-02T06:28:50.294775",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved remains unsolved because previous research missed the role of Attention. Attention mechanism with linear complexity directly addresses this.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 9,
+    "estimated_cost_usd": 42834,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1573151446,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 17,
+    "economic_value_usd": 47194543380000
+  },
+  "confidence": 0.7988899301258928,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

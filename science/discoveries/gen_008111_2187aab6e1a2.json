@@ -1,0 +1,32 @@
+{
+  "id": "2187aab6e1a2",
+  "generation": 8111,
+  "created_at": "2026-03-02T06:27:23.922845",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "Biomimetic surface structure (lotus, shark skin, gecko) may resolve What material is biocompatible, conductive, and flexible enough for long-term brain implants? by activating at the molecular level.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 25,
+    "estimated_cost_usd": 347693,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1914358,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 6,
+    "economic_value_usd": 19143580000
+  },
+  "confidence": 0.5212653901844713,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

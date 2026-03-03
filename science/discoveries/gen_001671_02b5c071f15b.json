@@ -1,0 +1,32 @@
+{
+  "id": "02b5c071f15b",
+  "generation": 1671,
+  "created_at": "2026-03-02T06:06:59.523403",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "If Epigenetic methylation/demethylation of regulatory region is applied to colonize, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 26,
+    "estimated_cost_usd": 894308,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9549132,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 8,
+    "economic_value_usd": 477456600000
+  },
+  "confidence": 0.32608323676237566,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

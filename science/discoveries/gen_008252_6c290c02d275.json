@@ -1,0 +1,32 @@
+{
+  "id": "6c290c02d275",
+  "generation": 8252,
+  "created_at": "2026-03-02T06:28:02.794182",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "If Transcranial magnetic stimulation of specific cortical area is applied to reversed, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 22,
+    "estimated_cost_usd": 661319,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8982545,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 30,
+    "economic_value_usd": 449127250000
+  },
+  "confidence": 0.748277850940757,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

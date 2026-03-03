@@ -1,0 +1,32 @@
+{
+  "id": "0e1845d88463",
+  "generation": 6073,
+  "created_at": "2026-03-02T06:18:59.053281",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "Hydrogel swelling/shrinking response may resolve What material stores hydrogen fuel at high density without safety risk? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 31,
+    "estimated_cost_usd": 420015,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 701459608,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 15,
+    "economic_value_usd": 49102172560000
+  },
+  "confidence": 0.7686558184333879,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,132 @@
+{
+  "device_id": "limb_loss_emg_prosthetic_wearable_patch",
+  "condition": "limb_loss",
+  "physics_principle": "emg_prosthetic",
+  "form_factor": "wearable_patch",
+  "generation": 7,
+  "parent_champion": "HavenReach",
+  "generated_at": "2026-03-02T17:56:33",
+  "engineering": {
+    "mcu": {
+      "part": "RP2040",
+      "description": "Dual Cortex-M0+ 133MHz, PIO",
+      "cost_usd": 1.0
+    },
+    "physics_implementation": {
+      "principle": "emg_prosthetic",
+      "proven": true,
+      "comparable_devices": {
+        "mcu": {
+          "part": "Nordic nRF52840",
+          "description": "ARM Cortex-M4F 64MHz, BLE 5.0, 1MB Flash, 256KB RAM",
+          "cost_usd": 4.2,
+          "datasheet": "infocenter.nordicsemi.com/topic/struct_nrf52/struct/nrf52840.html"
+        },
+        "sensors": [
+          {
+            "part": "AD8232",
+            "function": "Single-lead ECG / heart rate",
+            "cost_usd": 2.8
+          },
+          {
+            "part": "MAX30102",
+            "function": "PPG pulse oximetry + SpO2",
+            "cost_usd": 3.5
+          },
+          {
+            "part": "GSR Grove Sensor",
+            "function": "Galvanic skin response (stress)",
+            "cost_usd": 1.9
+          },
+          {
+            "part": "ICM-42688-P",
+            "function": "6-axis IMU accelerometer+gyro",
+            "cost_usd": 2.1
+          }
+        ],
+        "output": {
+          "part": "DRV2605L",
+          "function": "Haptic feedback driver \u2014 vibrotactile response",
+          "cost_usd": 1.4
+        },
+        "power": {
+          "battery": "Li-Po 500mAh 3.7V",
+          "charger": "MCP73831 single-cell charger",
+          "regulator": "TPS62740 ultra-low-power buck",
+          "estimated_life_hours": 168,
+          "cost_usd": 3.2
+        },
+        "pcb": {
+          "layers": 4,
+          "size_mm": "28x18",
+          "thickness_mm": 0.8,
+          "process": "ENIG (Electroless Nickel Immersion Gold)",
+          "estimated_cost_usd": 2.5
+        },
+        "enclosure": {
+          "material": "Medical-grade silicone overmold + ABS shell",
+          "ip_rating": "IP67",
+          "size_mm": "45x30x8",
+          "estimated_cost_usd": 4.0
+        },
+        "firmware": {
+          "rtos": "Zephyr RTOS",
+          "sampling_rate_hz": 250,
+          "algorithm": "HRV analysis via time-domain RMSSD + frequency-domain LF/HF ratio. Skin conductance threshold detection. IMU gesture recognition via edge ML (TensorFlow Lite Micro).",
+          "ml_model": "TensorFlow Lite Micro \u2014 stress/calm classifier, <50KB model size",
+          "data_protocol": "BLE GATT custom profile, AES-128 encrypted, local storage only"
+        },
+        "signal_processing": {
+          "ecg_filter": "Bandpass 0.5-40Hz, notch 50/60Hz",
+          "ppg_filter": "Low-pass 10Hz, DC removal",
+          "hrv_window": "5-minute rolling window, R-R interval detection via Pan-Tompkins algorithm",
+          "stress_detection": "SVM classifier trained on HRV + GSR + accelerometer fusion"
+        },
+        "fda_pathway": {
+          "device_class": "Class II",
+          "submission_type": "510(k) Premarket Notification",
+          "predicate_devices": [
+            "Garmin HRV Status",
+            "Whoop Strap",
+            "Polar H10"
+          ],
+          "estimated_timeline_months": 12,
+          "estimated_cost_usd": 50000
+        }
+      }
+    },
+    "power": {
+      "battery": "Li-Po 500mAh 3.7V",
+      "charger": "MCP73831 USB-C",
+      "regulator": "TPS62740 buck converter",
+      "estimated_life_hours": 332,
+      "cost_usd": 2.58
+    },
+    "pcb": {
+      "layers": 2,
+      "size_mm": "70x46",
+      "process": "ENIG",
+      "ip_rating": "IP67",
+      "cost_usd": 8.27
+    },
+    "firmware": {
+      "rtos": "Mbed OS",
+      "sampling_hz": 50,
+      "ml_model": "TensorFlow Lite Micro",
+      "connectivity": "BLE 5.0 AES-128",
+      "storage": "local only \u2014 no cloud"
+    }
+  },
+  "fda_pathway": {
+    "device_class": "II",
+    "submission_type": "510(k)",
+    "estimated_timeline_months": 10,
+    "estimated_cost_usd": 45000
+  },
+  "estimated_bom_cost_usd": 11.09,
+  "retail_price_target_usd": 31.12,
+  "peoples_charter": true,
+  "offline_first": true,
+  "no_cloud": true,
+  "wisdom_score": 100
+}

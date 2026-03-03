@@ -1,0 +1,32 @@
+{
+  "id": "584ec48691a0",
+  "generation": 7773,
+  "created_at": "2026-03-02T06:25:54.138865",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "How to store solar energy at grid scale without chemical battery degradation? remains unsolved because previous research missed the role of Plasma. Plasma confinement via magnetic mirror geometry directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 4,
+    "estimated_cost_usd": 90966,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 779204969,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 20,
+    "economic_value_usd": 46752298140000
+  },
+  "confidence": 0.48655688324170865,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "229342ea852a",
+  "generation": 10234,
+  "created_at": "2026-03-02T11:48:37.239444",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "Combining Monte Carlo tree search with learned heuristics with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 5,
+    "estimated_cost_usd": 23468,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3602684334,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 19,
+    "economic_value_usd": 252187903380000
+  },
+  "confidence": 0.676483949903901,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

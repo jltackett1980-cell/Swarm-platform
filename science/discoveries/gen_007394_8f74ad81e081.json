@@ -1,0 +1,32 @@
+{
+  "id": "8f74ad81e081",
+  "generation": 7394,
+  "created_at": "2026-03-02T06:24:16.427197",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "If Electrospun nanofiber scaffold for tissue engineering is applied to microcracks, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 13,
+    "estimated_cost_usd": 209676,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 244663617,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 19,
+    "economic_value_usd": 17126453190000
+  },
+  "confidence": 0.7404611257634028,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

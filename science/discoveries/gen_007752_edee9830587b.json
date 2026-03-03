@@ -1,0 +1,32 @@
+{
+  "id": "edee9830587b",
+  "generation": 7752,
+  "created_at": "2026-03-02T06:25:48.330735",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "If Bacteriophage surface display for targeting is applied to formation, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 16,
+    "estimated_cost_usd": 315654,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 229550661,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 13,
+    "economic_value_usd": 6886519830000
+  },
+  "confidence": 0.6457523019818696,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

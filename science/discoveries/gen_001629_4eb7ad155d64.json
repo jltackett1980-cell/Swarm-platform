@@ -1,0 +1,32 @@
+{
+  "id": "4eb7ad155d64",
+  "generation": 1629,
+  "created_at": "2026-03-02T06:06:54.637920",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "The key to Can addiction-related neural pathway changes be reversed without withdrawal? is Vagus nerve stimulation modulating brain-gut axis \u2014 specifically Vagus nerve stimulation \u2014 which would help 21,000,000 people affected.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 32,
+    "estimated_cost_usd": 882005,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 12784537,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 29,
+    "economic_value_usd": 1150608330000
+  },
+  "confidence": 0.7099315114639273,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

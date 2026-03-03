@@ -1,0 +1,32 @@
+{
+  "id": "09e7f1a47dc3",
+  "generation": 2247,
+  "created_at": "2026-03-02T06:08:09.200414",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "Combining Cortical spreading depression mechanism in migraine with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 7,
+    "estimated_cost_usd": 223040,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 23192036,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 13,
+    "economic_value_usd": 1159601800000
+  },
+  "confidence": 0.7025424179736333,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

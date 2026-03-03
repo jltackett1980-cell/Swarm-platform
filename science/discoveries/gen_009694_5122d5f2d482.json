@@ -1,0 +1,32 @@
+{
+  "id": "5122d5f2d482",
+  "generation": 9694,
+  "created_at": "2026-03-02T06:35:33.562084",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "Photocatalytic oxidation under visible light may resolve How to restore depleted agricultural soil microbiome rapidly at scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 2,
+    "estimated_cost_usd": 29070,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 134914108,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 18,
+    "economic_value_usd": 4047423240000
+  },
+  "confidence": 0.6508945294723268,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

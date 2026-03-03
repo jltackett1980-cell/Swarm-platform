@@ -1,0 +1,32 @@
+{
+  "id": "3524edd27193",
+  "generation": 9527,
+  "created_at": "2026-03-02T06:34:39.715577",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Combining Optical rectenna for direct photon-to-electron conversion with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 1,
+    "estimated_cost_usd": 22029,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1201507867,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 24,
+    "economic_value_usd": 96120629360000
+  },
+  "confidence": 0.6872300099348418,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

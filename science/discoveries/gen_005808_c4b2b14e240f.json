@@ -1,0 +1,32 @@
+{
+  "id": "c4b2b14e240f",
+  "generation": 5808,
+  "created_at": "2026-03-02T06:18:02.357056",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "Combining Small molecule inhibitor of enzyme active site with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 16,
+    "estimated_cost_usd": 590036,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 400,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 14869096,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 12,
+    "economic_value_usd": 594763840000
+  },
+  "confidence": 0.684979896466166,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

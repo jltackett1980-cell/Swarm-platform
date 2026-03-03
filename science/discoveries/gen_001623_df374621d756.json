@@ -1,0 +1,32 @@
+{
+  "id": "df374621d756",
+  "generation": 1623,
+  "created_at": "2026-03-02T06:06:54.430195",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "What is the primary molecular cause of biological aging \u2014 can it be slowed? remains unsolved because previous research missed the role of Telomerase. Telomerase activation/inhibition in target cells directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 19,
+    "estimated_cost_usd": 848161,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3669514913,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 11,
+    "economic_value_usd": 183475745650000
+  },
+  "confidence": 0.7524498409521758,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

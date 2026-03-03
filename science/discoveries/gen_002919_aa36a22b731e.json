@@ -1,0 +1,32 @@
+{
+  "id": "aa36a22b731e",
+  "generation": 2919,
+  "created_at": "2026-03-02T06:09:38.548371",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "If Optical rectenna for direct photon-to-electron conversion is applied to at, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 2,
+    "estimated_cost_usd": 33962,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3520565436,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 16,
+    "economic_value_usd": 211233926160000
+  },
+  "confidence": 0.676073948230379,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

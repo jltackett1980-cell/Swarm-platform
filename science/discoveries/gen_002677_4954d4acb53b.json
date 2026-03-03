@@ -1,0 +1,32 @@
+{
+  "id": "4954d4acb53b",
+  "generation": 2677,
+  "created_at": "2026-03-02T06:09:05.237509",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "How to achieve sustained net-positive nuclear fusion at commercial scale? remains unsolved because previous research missed the role of Plasma. Plasma confinement via magnetic mirror geometry directly addresses this.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 5,
+    "estimated_cost_usd": 99874,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3843541583,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 22,
+    "economic_value_usd": 115306247490000
+  },
+  "confidence": 0.5113013884533846,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

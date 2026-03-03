@@ -1,0 +1,32 @@
+{
+  "id": "3185b1ec0c2e",
+  "generation": 6793,
+  "created_at": "2026-03-02T06:21:41.480700",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "The key to What is the primary molecular cause of biological aging \u2014 can it be slowed? is Photodynamic therapy targeting specific cell receptors \u2014 specifically Photodynamic therapy targeting \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 23,
+    "estimated_cost_usd": 805725,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2084584569,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 28,
+    "economic_value_usd": 187612611210000
+  },
+  "confidence": 0.5747811586447855,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

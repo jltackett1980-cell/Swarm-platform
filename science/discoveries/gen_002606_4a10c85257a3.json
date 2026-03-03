@@ -1,0 +1,32 @@
+{
+  "id": "4a10c85257a3",
+  "generation": 2606,
+  "created_at": "2026-03-02T06:08:55.938357",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Two-dimensional material stacking (van der Waals heterostructure) \u2014 specifically Two-dimensional material stacking \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 19,
+    "estimated_cost_usd": 317813,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 286171620,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 11,
+    "economic_value_usd": 14308581000000
+  },
+  "confidence": 0.37778928042443216,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

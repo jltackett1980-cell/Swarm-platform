@@ -1,0 +1,32 @@
+{
+  "id": "ce828a71862c",
+  "generation": 1779,
+  "created_at": "2026-03-02T06:07:12.324288",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Casimir effect between nanoscale surfaces may resolve Why does quantum superposition collapse \u2014 can decoherence be prevented at scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 11,
+    "estimated_cost_usd": 217498,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3648732102,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 26,
+    "economic_value_usd": 291898568160000
+  },
+  "confidence": 0.34898886447099214,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

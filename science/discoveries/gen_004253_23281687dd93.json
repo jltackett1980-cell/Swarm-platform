@@ -1,0 +1,32 @@
+{
+  "id": "23281687dd93",
+  "generation": 4253,
+  "created_at": "2026-03-02T06:13:08.046707",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "Combining Topological insulator surface state conduction with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 4,
+    "estimated_cost_usd": 85306,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2470656425,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 24,
+    "economic_value_usd": 74119692750000
+  },
+  "confidence": 0.37615047924587736,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

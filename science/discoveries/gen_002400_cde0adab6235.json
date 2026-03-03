@@ -1,0 +1,32 @@
+{
+  "id": "cde0adab6235",
+  "generation": 2400,
+  "created_at": "2026-03-02T06:08:28.556621",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "The key to How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? is Bioelectrochemical system for pollutant conversion \u2014 specifically Bioelectrochemical system for \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 9,
+    "estimated_cost_usd": 95926,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 243616256,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 23,
+    "economic_value_usd": 19489300480000
+  },
+  "confidence": 0.31028424650665126,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

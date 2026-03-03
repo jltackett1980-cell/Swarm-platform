@@ -1,0 +1,32 @@
+{
+  "id": "9f7cb824a481",
+  "generation": 1893,
+  "created_at": "2026-03-02T06:07:26.375666",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "Why does the immune system attack the body's own tissue in autoimmune disease? remains unsolved because previous research missed the role of Microbiome. Microbiome modulation via targeted bacteriophage therapy directly addresses this.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 11,
+    "estimated_cost_usd": 482938,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 28863972,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 10,
+    "economic_value_usd": 577279440000
+  },
+  "confidence": 0.79637098062016,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

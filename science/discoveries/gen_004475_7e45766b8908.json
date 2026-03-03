@@ -1,0 +1,32 @@
+{
+  "id": "7e45766b8908",
+  "generation": 4475,
+  "created_at": "2026-03-02T06:13:46.088084",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "If Bose-Einstein condensate at higher temperature is applied to \u2014, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 8,
+    "estimated_cost_usd": 162666,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 194219945,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 20,
+    "economic_value_usd": 5826598350000
+  },
+  "confidence": 0.7706623385239542,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

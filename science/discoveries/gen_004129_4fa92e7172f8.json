@@ -1,0 +1,32 @@
+{
+  "id": "4fa92e7172f8",
+  "generation": 4129,
+  "created_at": "2026-03-02T06:12:46.145976",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "If Forward osmosis using draw solution gradient is applied to at, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 12,
+    "estimated_cost_usd": 132790,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1363142515,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 6,
+    "economic_value_usd": 68157125750000
+  },
+  "confidence": 0.7654782078204693,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "92df8f21f205",
+  "generation": 8469,
+  "created_at": "2026-03-02T06:29:03.865839",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "If Biomimetic surface structure (lotus, shark skin, gecko) is applied to without, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 5,
+    "estimated_cost_usd": 83637,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 731542510,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 23,
+    "economic_value_usd": 65838825900000
+  },
+  "confidence": 0.4215160347077201,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

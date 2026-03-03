@@ -1,0 +1,32 @@
+{
+  "id": "d52393acff9f",
+  "generation": 7642,
+  "created_at": "2026-03-02T06:25:18.790532",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "Bioelectrochemical system for pollutant conversion may resolve What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? by activating at the systems level.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 1,
+    "estimated_cost_usd": 14238,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3982908832,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 25,
+    "economic_value_usd": 159316353280000
+  },
+  "confidence": 0.44718050081656485,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

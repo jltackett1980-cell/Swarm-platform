@@ -1,0 +1,32 @@
+{
+  "id": "5dfa0765d443",
+  "generation": 1095,
+  "created_at": "2026-03-02T06:05:52.019823",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "If Biomimetic surface structure (lotus, shark skin, gecko) is applied to fully, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 7,
+    "estimated_cost_usd": 124074,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 82841204,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 11,
+    "economic_value_usd": 4142060200000
+  },
+  "confidence": 0.7057911622084391,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

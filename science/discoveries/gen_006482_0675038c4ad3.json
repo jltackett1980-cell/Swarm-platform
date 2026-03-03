@@ -1,0 +1,32 @@
+{
+  "id": "0675038c4ad3",
+  "generation": 6482,
+  "created_at": "2026-03-02T06:20:28.552693",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "Combining Attention mechanism with linear complexity with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 9,
+    "estimated_cost_usd": 34027,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1899842264,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 25,
+    "economic_value_usd": 132988958480000
+  },
+  "confidence": 0.4876047495917895,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

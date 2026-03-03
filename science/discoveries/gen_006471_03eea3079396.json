@@ -1,0 +1,32 @@
+{
+  "id": "03eea3079396",
+  "generation": 6471,
+  "created_at": "2026-03-02T06:20:26.377791",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "Combining Liquid crystal elastomer actuation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 34,
+    "estimated_cost_usd": 650723,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 421473303,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 16,
+    "economic_value_usd": 4214733030000
+  },
+  "confidence": 0.4289060643078792,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

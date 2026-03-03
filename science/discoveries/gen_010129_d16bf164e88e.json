@@ -1,0 +1,32 @@
+{
+  "id": "d16bf164e88e",
+  "generation": 10129,
+  "created_at": "2026-03-02T07:24:48.952181",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "If Casimir effect between nanoscale surfaces is applied to ionic, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 2,
+    "estimated_cost_usd": 36063,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 473034733,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 26,
+    "economic_value_usd": 33112431310000
+  },
+  "confidence": 0.4949687782188532,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

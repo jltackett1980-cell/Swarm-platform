@@ -1,0 +1,32 @@
+{
+  "id": "9d9f3b6d8082",
+  "generation": 3083,
+  "created_at": "2026-03-02T06:10:02.353256",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "Combining Plasma confinement via magnetic mirror geometry with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 7,
+    "estimated_cost_usd": 174147,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 329945205,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 21,
+    "economic_value_usd": 23096164350000
+  },
+  "confidence": 0.5839938532428215,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

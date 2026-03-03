@@ -1,0 +1,32 @@
+{
+  "id": "b6f06da696ca",
+  "generation": 9015,
+  "created_at": "2026-03-02T06:32:01.961724",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "If Phytoremediation with hyperaccumulator plant species is applied to than, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 3,
+    "estimated_cost_usd": 37511,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 511816754,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 16,
+    "economic_value_usd": 46063507860000
+  },
+  "confidence": 0.6129855613326537,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

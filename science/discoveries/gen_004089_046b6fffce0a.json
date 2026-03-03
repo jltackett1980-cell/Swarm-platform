@@ -1,0 +1,32 @@
+{
+  "id": "046b6fffce0a",
+  "generation": 4089,
+  "created_at": "2026-03-02T06:12:39.278464",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "Combining Carbon nanotube alignment in polymer matrix with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 30,
+    "estimated_cost_usd": 517664,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3877834821,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 24,
+    "economic_value_usd": 77556696420000
+  },
+  "confidence": 0.5695726579768288,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

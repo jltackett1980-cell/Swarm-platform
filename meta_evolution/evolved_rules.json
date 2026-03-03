@@ -1,6 +1,6 @@
 {
-  "version": 264,
-  "evolved_at": "2026-03-02T06:04:31.415922",
+  "version": 521,
+  "evolved_at": "2026-03-02T11:55:09.700169",
   "fitness_weights": {
     "population_impact": 0.3,
     "urgency": 0.25,
@@ -9,12 +9,12 @@
     "edge_deployable": 0.1
   },
   "domain_priority": {
-    "environment": 0.922,
-    "biology": 1.072,
-    "neuroscience": 1.048,
-    "computing": 1.019,
-    "physics": 1.013,
-    "materials": 0.926
+    "environment": 1.003,
+    "biology": 1.002,
+    "neuroscience": 1.002,
+    "computing": 1.008,
+    "physics": 0.992,
+    "materials": 0.992
   },
   "mechanism_scores": {
     "Phytoremediation with hyperaccumulator plant species": 0.583,
@@ -81,5 +81,10 @@
       "serves": "People who need healing devices"
     }
   ],
-  "constitution_hash": "__main__"
+  "constitution_hash": "__main__",
+  "freedom_weights": {
+    "removes_survival_fear": 0.4,
+    "enables_creation": 0.4,
+    "reduces_dependency": 0.2
+  }
 }

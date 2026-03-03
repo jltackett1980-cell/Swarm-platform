@@ -1,0 +1,32 @@
+{
+  "id": "82f5573c15bb",
+  "generation": 5319,
+  "created_at": "2026-03-02T06:16:22.107893",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Liquid. Liquid crystal elastomer actuation directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 17,
+    "estimated_cost_usd": 287954,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7181541,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 15,
+    "economic_value_usd": 502707870000
+  },
+  "confidence": 0.5080626030339019,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

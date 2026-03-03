@@ -1,0 +1,32 @@
+{
+  "id": "81398786de32",
+  "generation": 3943,
+  "created_at": "2026-03-02T06:12:16.143720",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "The key to Why do amyloid plaques form in Alzheimer's and can they be cleared? is Small molecule inhibitor of enzyme active site \u2014 specifically Small molecule inhibitor \u2014 which would help 55,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 35,
+    "estimated_cost_usd": 1493510,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 20148451,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 23,
+    "economic_value_usd": 402969020000
+  },
+  "confidence": 0.6447231969395237,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

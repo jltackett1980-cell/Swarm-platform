@@ -1,0 +1,32 @@
+{
+  "id": "5f5b0b7fabb9",
+  "generation": 4913,
+  "created_at": "2026-03-02T06:15:05.496331",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "If Forward osmosis using draw solution gradient is applied to at, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 11,
+    "estimated_cost_usd": 114281,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3770950794,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 30,
+    "economic_value_usd": 263966555580000
+  },
+  "confidence": 0.5914525311890606,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

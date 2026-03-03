@@ -1,0 +1,32 @@
+{
+  "id": "ce8036709e13",
+  "generation": 5964,
+  "created_at": "2026-03-02T06:18:35.609291",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "Photodynamic therapy targeting specific cell receptors may resolve Why does the immune system attack the body's own tissue in autoimmune disease? by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 28,
+    "estimated_cost_usd": 1012408,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 22832707,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 13,
+    "economic_value_usd": 2054943630000
+  },
+  "confidence": 0.5174634484994569,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

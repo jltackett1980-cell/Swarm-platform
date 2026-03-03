@@ -1,0 +1,32 @@
+{
+  "id": "2583c68956df",
+  "generation": 5714,
+  "created_at": "2026-03-02T06:17:42.925151",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "If Microbiome modulation via targeted bacteriophage therapy is applied to chemistry, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 9,
+    "estimated_cost_usd": 444483,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 64821004,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 14,
+    "economic_value_usd": 5185680320000
+  },
+  "confidence": 0.5687402554486294,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "4b03bdc02483",
+  "generation": 5491,
+  "created_at": "2026-03-02T06:16:55.885581",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "Forward osmosis using draw solution gradient may resolve Can ocean acidification be safely reversed \u2014 what biochemical approach? by activating at the systems level.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 2,
+    "estimated_cost_usd": 24815,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 797398480,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 27,
+    "economic_value_usd": 47843908800000
+  },
+  "confidence": 0.390176412736552,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

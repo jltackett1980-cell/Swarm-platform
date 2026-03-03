@@ -1,0 +1,32 @@
+{
+  "id": "047a21e3cb75",
+  "generation": 9176,
+  "created_at": "2026-03-02T06:32:50.697131",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "If Metal-organic framework with specific pore geometry is applied to microcracks, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 18,
+    "estimated_cost_usd": 312363,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 445338741,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 30,
+    "economic_value_usd": 4453387410000
+  },
+  "confidence": 0.44612210184512396,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

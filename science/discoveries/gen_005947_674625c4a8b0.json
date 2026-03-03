@@ -1,0 +1,32 @@
+{
+  "id": "674625c4a8b0",
+  "generation": 5947,
+  "created_at": "2026-03-02T06:18:32.022419",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "The key to Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? is Neuroinflammation reduction via microglial targeting \u2014 specifically Neuroinflammation reduction via \u2014 which would help 24,000,000 people affected.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 7,
+    "estimated_cost_usd": 217199,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 12999801,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 11,
+    "economic_value_usd": 1039984080000
+  },
+  "confidence": 0.7999727345823908,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

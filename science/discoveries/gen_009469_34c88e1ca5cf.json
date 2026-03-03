@@ -1,0 +1,32 @@
+{
+  "id": "34c88e1ca5cf",
+  "generation": 9469,
+  "created_at": "2026-03-02T06:34:22.270726",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "If Constructed wetland for water filtration is applied to than, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 4,
+    "estimated_cost_usd": 49268,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 592102792,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 19,
+    "economic_value_usd": 53289251280000
+  },
+  "confidence": 0.32822327526365075,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

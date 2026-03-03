@@ -1,0 +1,32 @@
+{
+  "id": "aa22fb09efee",
+  "generation": 2249,
+  "created_at": "2026-03-02T06:08:09.282291",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "If Carbon nanotube alignment in polymer matrix is applied to types, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 32,
+    "estimated_cost_usd": 491166,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1190342530,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 7,
+    "economic_value_usd": 71420551800000
+  },
+  "confidence": 0.5667596966053088,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

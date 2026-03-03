@@ -1,105 +1,92 @@
 {
-  "device_name": "PulseDiagnose",
+  "device_name": "SolaceDiagnose",
   "condition": "rural_no_doctor",
   "score": 0,
-  "generation": 15,
-  "generated_at": "2026-02-28T20:57:40.609540",
-  "physics_principle": "acoustic_ultrasound",
+  "generation": 23,
+  "generated_at": "2026-03-02T13:12:14.460624",
+  "physics_principle": "rf_sensing",
   "engineering": {
     "mcu": {
-      "part": "STM32H743",
-      "description": "Cortex-M7 480MHz \u2014 needed for real-time ultrasound processing",
-      "cost_usd": 8.5,
-      "datasheet": "st.com/en/microcontrollers-microprocessors/stm32h743.html"
+      "part": "ESP32-S3",
+      "description": "Xtensa LX7 240MHz, WiFi+BLE, 8MB PSRAM for ML inference",
+      "cost_usd": 3.5,
+      "datasheet": "espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf"
     },
-    "transducer": [
+    "rf_module": [
       {
-        "part": "Piezo transducer 1MHz (custom)",
-        "function": "Ultrasound emission + receive",
-        "cost_usd": 12.0
+        "part": "BGT60TR13C (Infineon)",
+        "function": "60GHz FMCW radar \u2014 micro-motion detection",
+        "cost_usd": 8.5
       },
       {
-        "part": "TC6320 (Texas Instruments)",
-        "function": "Ultrasound AFE \u2014 TX/RX switch + TGC",
-        "cost_usd": 6.5
-      },
-      {
-        "part": "DAC80501",
-        "function": "16-bit DAC for waveform generation",
-        "cost_usd": 2.8
+        "part": "HMC5883L",
+        "function": "Magnetometer for orientation",
+        "cost_usd": 1.2
       }
     ],
     "power": {
-      "battery": "Li-Po 1500mAh 3.7V + boost to 12V for TX",
-      "charger": "BQ25895 USB-C fast charge",
-      "boost": "TPS61230A 12V boost converter",
-      "estimated_life_hours": 8,
-      "cost_usd": 8.0
+      "battery": "Li-Po 2000mAh 3.7V (mains powered option)",
+      "charger": "TP4056",
+      "regulator": "AMS1117-3.3",
+      "estimated_life_hours": 72,
+      "cost_usd": 6.0
     },
     "pcb": {
-      "layers": 6,
-      "size_mm": "70x50",
-      "thickness_mm": 1.0,
-      "process": "ENIG \u2014 high frequency requires controlled impedance",
-      "estimated_cost_usd": 8.0
+      "layers": 4,
+      "size_mm": "55x45",
+      "thickness_mm": 0.8,
+      "process": "ENIG \u2014 RF requires tight impedance control",
+      "estimated_cost_usd": 4.5
     },
     "enclosure": {
-      "material": "Medical-grade ABS + acoustic coupling window",
-      "ip_rating": "IP54",
-      "size_mm": "120x70x30",
-      "estimated_cost_usd": 12.0
+      "material": "ABS with RF-transparent window",
+      "ip_rating": "IP44",
+      "size_mm": "80x60x20",
+      "estimated_cost_usd": 6.0
     },
     "firmware": {
-      "rtos": "FreeRTOS",
-      "frequency_mhz": "1-3MHz programmable",
-      "modes": {
-        "therapeutic": "1MHz CW or pulsed, 0.5-2.0 W/cm\u00b2 SATA",
-        "diagnostic": "3MHz pulse-echo, A-mode imaging",
-        "phonophoresis": "Drug delivery enhancement 1MHz pulsed"
-      },
-      "safety": "BNR verification at startup. Thermal index monitoring. Max 10min continuous.",
-      "algorithm": "Pulse-echo time-of-flight for distance measurement. Doppler shift for flow detection."
+      "rtos": "FreeRTOS + TensorFlow Lite Micro",
+      "radar_config": "FMCW 58-63.5GHz, range 0.2-5m, velocity \u00b13m/s",
+      "sampling_rate_hz": 25,
+      "algorithm": "Range-Doppler processing. Fall detection via sudden velocity spike + absence of periodic breathing motion post-event. Gait analysis via cadence extraction.",
+      "ml_model": "CNN trained on radar signatures of normal gait vs fall events. <200KB model.",
+      "alert": "BLE to phone + optional 4G via SIM800L module"
     },
     "signal_processing": {
-      "tx_waveform": "DDS sine generation, 8-cycle bursts at PRF 1-10kHz",
-      "rx_processing": "TGC amplification, bandpass filter, envelope detection, log compression",
-      "imaging": "A-mode: time-domain waveform. No beamforming needed for point-of-care."
+      "fmcw_processing": "FFT on I/Q samples \u2192 range profile \u2192 Doppler processing \u2192 micro-Doppler spectrogram",
+      "fall_detection": "Threshold: velocity > 1.5m/s + horizontal displacement + cessation of periodic motion for >5s",
+      "breathing_monitor": "0.1-0.5Hz chest movement extraction from static radar return"
     },
     "fda_pathway": {
       "device_class": "Class II",
       "submission_type": "510(k)",
       "predicate_devices": [
-        "Butterfly iQ+",
-        "Clarius L15 HD3",
-        "Sonosite SII"
+        "Google Nest Hub radar sleep",
+        "Vayyar Care fall detection"
       ],
-      "estimated_timeline_months": 24,
-      "estimated_cost_usd": 200000
+      "estimated_timeline_months": 15,
+      "estimated_cost_usd": 60000
     }
   },
   "firmware_notes": {
-    "rtos": "FreeRTOS",
-    "frequency_mhz": "1-3MHz programmable",
-    "modes": {
-      "therapeutic": "1MHz CW or pulsed, 0.5-2.0 W/cm\u00b2 SATA",
-      "diagnostic": "3MHz pulse-echo, A-mode imaging",
-      "phonophoresis": "Drug delivery enhancement 1MHz pulsed"
-    },
-    "safety": "BNR verification at startup. Thermal index monitoring. Max 10min continuous.",
-    "algorithm": "Pulse-echo time-of-flight for distance measurement. Doppler shift for flow detection."
+    "rtos": "FreeRTOS + TensorFlow Lite Micro",
+    "radar_config": "FMCW 58-63.5GHz, range 0.2-5m, velocity \u00b13m/s",
+    "sampling_rate_hz": 25,
+    "algorithm": "Range-Doppler processing. Fall detection via sudden velocity spike + absence of periodic breathing motion post-event. Gait analysis via cadence extraction.",
+    "ml_model": "CNN trained on radar signatures of normal gait vs fall events. <200KB model.",
+    "alert": "BLE to phone + optional 4G via SIM800L module"
   },
   "fda_pathway": {
     "device_class": "Class II",
     "submission_type": "510(k)",
     "predicate_devices": [
-      "Butterfly iQ+",
-      "Clarius L15 HD3",
-      "Sonosite SII"
+      "Google Nest Hub radar sleep",
+      "Vayyar Care fall detection"
     ],
-    "estimated_timeline_months": 24,
-    "estimated_cost_usd": 200000
+    "estimated_timeline_months": 15,
+    "estimated_cost_usd": 60000
   },
-  "estimated_bom_cost_usd": 36.5,
+  "estimated_bom_cost_usd": 20.0,
   "assembly_notes": [
     "IPC-A-610 Class 2 assembly",
     "Conformal coating required for moisture resistance",

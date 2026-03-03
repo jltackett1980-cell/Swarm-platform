@@ -1,0 +1,32 @@
+{
+  "id": "7cbfb1f97750",
+  "generation": 4165,
+  "created_at": "2026-03-02T06:12:52.704001",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Optical rectenna for direct photon-to-electron conversion may resolve How to achieve sustained net-positive nuclear fusion at commercial scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 5,
+    "estimated_cost_usd": 101105,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2083297848,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 25,
+    "economic_value_usd": 166663827840000
+  },
+  "confidence": 0.5480379858790267,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

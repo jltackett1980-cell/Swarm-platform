@@ -1,0 +1,32 @@
+{
+  "id": "13bef64373ff",
+  "generation": 7743,
+  "created_at": "2026-03-02T06:25:46.971128",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "Combining Atomic layer deposition of conformal coating with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 9,
+    "estimated_cost_usd": 127136,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4668294,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 14,
+    "economic_value_usd": 420146460000
+  },
+  "confidence": 0.6534696456070996,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

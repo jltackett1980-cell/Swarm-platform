@@ -1,0 +1,32 @@
+{
+  "id": "4db4ce62a36d",
+  "generation": 2218,
+  "created_at": "2026-03-02T06:08:05.303107",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics remains unsolved because previous research missed the role of Plasma. Plasma confinement via magnetic mirror geometry directly addresses this.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 7,
+    "estimated_cost_usd": 163523,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1586728424,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 16,
+    "economic_value_usd": 95203705440000
+  },
+  "confidence": 0.42826570953441573,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

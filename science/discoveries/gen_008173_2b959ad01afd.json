@@ -1,0 +1,32 @@
+{
+  "id": "2b959ad01afd",
+  "generation": 8173,
+  "created_at": "2026-03-02T06:27:41.364969",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Thermoelectric Seebeck coefficient maximization may resolve Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 8,
+    "estimated_cost_usd": 157905,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2866871889,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 28,
+    "economic_value_usd": 114674875560000
+  },
+  "confidence": 0.5584323549924133,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

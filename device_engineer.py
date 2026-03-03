@@ -612,3 +612,36 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# ── BATCH MODE ADDITION ──────────────────────────────
+if __name__ == "__main__":
+    import sys
+    import argparse
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--device-id', help='Specific device ID to process')
+    parser.add_argument('--condition', help='Condition to process')
+    parser.add_argument('--batch', action='store_true', help='Process all devices')
+    parser.add_argument('--limit', type=int, default=0, help='Limit number of devices')
+    
+    args = parser.parse_args()
+    
+    if args.batch:
+        # Load registry
+        with open('devices/device_registry.json') as f:
+            registry = json.load(f)
+        
+        devices = registry
+        if args.limit > 0:
+            devices = devices[:args.limit]
+        
+        print(f"📊 Processing {len(devices)} devices...")
+        for device in devices:
+            device_id = device.get('id')
+            condition = device.get('pain', device.get('pain_addressed'))
+            print(f"  Processing {condition}...")
+            # Call main with device_id and condition
+            sys.argv = ['device_engineer.py', '--device-id', device_id, '--condition', condition]
+            main()
+    else:
+        main()

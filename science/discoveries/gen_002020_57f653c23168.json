@@ -1,0 +1,32 @@
+{
+  "id": "57f653c23168",
+  "generation": 2020,
+  "created_at": "2026-03-02T06:07:40.832966",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "Optogenetic control of specific neuron populations may resolve Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway? by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 36,
+    "estimated_cost_usd": 1539102,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1429299,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 30,
+    "economic_value_usd": 71464950000
+  },
+  "confidence": 0.6019814311844074,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

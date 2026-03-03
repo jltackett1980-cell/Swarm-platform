@@ -1,0 +1,32 @@
+{
+  "id": "a1b209294bd1",
+  "generation": 2185,
+  "created_at": "2026-03-02T06:08:01.272949",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "Can ocean acidification be safely reversed \u2014 what biochemical approach? remains unsolved because previous research missed the role of Photocatalytic. Photocatalytic oxidation under visible light directly addresses this.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 4,
+    "estimated_cost_usd": 46381,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 544044164,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 13,
+    "economic_value_usd": 10880883280000
+  },
+  "confidence": 0.5638725162688869,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

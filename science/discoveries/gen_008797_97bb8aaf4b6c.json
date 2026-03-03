@@ -1,0 +1,32 @@
+{
+  "id": "97bb8aaf4b6c",
+  "generation": 8797,
+  "created_at": "2026-03-02T06:30:52.112522",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "If Two-dimensional material stacking (van der Waals heterostructure) is applied to microcracks, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 12,
+    "estimated_cost_usd": 234530,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 353357461,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 12,
+    "economic_value_usd": 17667873050000
+  },
+  "confidence": 0.6442191163512383,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

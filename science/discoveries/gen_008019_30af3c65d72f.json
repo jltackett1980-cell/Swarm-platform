@@ -1,0 +1,32 @@
+{
+  "id": "30af3c65d72f",
+  "generation": 8019,
+  "created_at": "2026-03-02T06:26:58.467196",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "If Attention mechanism with linear complexity is applied to without, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 5,
+    "estimated_cost_usd": 18155,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Theoretical complexity proof with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3875170459,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 5,
+    "economic_value_usd": 310013636720000
+  },
+  "confidence": 0.668072504221118,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

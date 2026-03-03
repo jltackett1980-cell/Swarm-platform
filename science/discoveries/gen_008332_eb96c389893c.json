@@ -1,0 +1,32 @@
+{
+  "id": "eb96c389893c",
+  "generation": 8332,
+  "created_at": "2026-03-02T06:28:24.555044",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Optical rectenna for direct photon-to-electron conversion may resolve How to achieve sustained net-positive nuclear fusion at commercial scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 4,
+    "estimated_cost_usd": 82335,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3178281993,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 19,
+    "economic_value_usd": 158914099650000
+  },
+  "confidence": 0.6206425642548788,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

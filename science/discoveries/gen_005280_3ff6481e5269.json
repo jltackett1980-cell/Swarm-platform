@@ -1,0 +1,32 @@
+{
+  "id": "3ff6481e5269",
+  "generation": 5280,
+  "created_at": "2026-03-02T06:16:14.249503",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "If Quantum tunneling through energy barrier is applied to universe, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 11,
+    "estimated_cost_usd": 272246,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2591723891,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 9,
+    "economic_value_usd": 155503433460000
+  },
+  "confidence": 0.5962917269682966,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

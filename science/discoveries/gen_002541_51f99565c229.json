@@ -1,0 +1,32 @@
+{
+  "id": "51f99565c229",
+  "generation": 2541,
+  "created_at": "2026-03-02T06:08:46.603006",
+  "problem_id": "gravity_quantum",
+  "problem": "How does gravity behave at quantum scales \u2014 quantum gravity unresolved",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "If Quantum tunneling through energy barrier is applied to quantum, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 6,
+    "estimated_cost_usd": 135512,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3457034243,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 15,
+    "economic_value_usd": 207422054580000
+  },
+  "confidence": 0.4002501649408796,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

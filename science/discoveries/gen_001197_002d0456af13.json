@@ -1,0 +1,32 @@
+{
+  "id": "002d0456af13",
+  "generation": 1197,
+  "created_at": "2026-03-02T06:06:03.214774",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "What material stores hydrogen fuel at high density without safety risk? remains unsolved because previous research missed the role of Aerogel. Aerogel porosity for thermal/acoustic insulation directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 15,
+    "estimated_cost_usd": 285414,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1426139672,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 23,
+    "economic_value_usd": 85568380320000
+  },
+  "confidence": 0.6097389301401199,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

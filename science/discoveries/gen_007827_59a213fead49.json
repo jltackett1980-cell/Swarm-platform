@@ -1,0 +1,32 @@
+{
+  "id": "59a213fead49",
+  "generation": 7827,
+  "created_at": "2026-03-02T06:26:07.777669",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "Shape memory alloy phase transition may resolve What material stores hydrogen fuel at high density without safety risk? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 23,
+    "estimated_cost_usd": 411560,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1037942153,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 5,
+    "economic_value_usd": 31138264590000
+  },
+  "confidence": 0.6361034664861133,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

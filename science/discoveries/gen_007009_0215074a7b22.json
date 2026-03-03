@@ -1,0 +1,32 @@
+{
+  "id": "0215074a7b22",
+  "generation": 7009,
+  "created_at": "2026-03-02T06:22:40.235066",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "If Two-dimensional material stacking (van der Waals heterostructure) is applied to microcracks, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 34,
+    "estimated_cost_usd": 580471,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 292864298,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 19,
+    "economic_value_usd": 2928642980000
+  },
+  "confidence": 0.3863330143912399,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "a8ccf8922b2c",
+  "generation": 8811,
+  "created_at": "2026-03-02T06:30:55.926629",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Quantum annealing for optimization problems",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of Quantum. Quantum annealing for optimization problems directly addresses this.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 8,
+    "estimated_cost_usd": 35003,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Security audit with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1258475969,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 18,
+    "economic_value_usd": 62923798450000
+  },
+  "confidence": 0.47144751747367836,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

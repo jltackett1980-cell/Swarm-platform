@@ -1,0 +1,32 @@
+{
+  "id": "07a4c74f92ff",
+  "generation": 7208,
+  "created_at": "2026-03-02T06:23:29.512158",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "Perovskite crystal structure optimization may resolve Why do perovskite solar cells degrade \u2014 what material instability causes it? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 13,
+    "estimated_cost_usd": 258889,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1218773505,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 11,
+    "economic_value_usd": 97501880400000
+  },
+  "confidence": 0.6332631909771431,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

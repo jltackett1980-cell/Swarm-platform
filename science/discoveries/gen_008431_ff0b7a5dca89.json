@@ -1,0 +1,32 @@
+{
+  "id": "ff0b7a5dca89",
+  "generation": 8431,
+  "created_at": "2026-03-02T06:28:52.687738",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "If BDNF upregulation to promote neurogenesis is applied to without, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 29,
+    "estimated_cost_usd": 949884,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 22916343,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 13,
+    "economic_value_usd": 2062470870000
+  },
+  "confidence": 0.665420748507193,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

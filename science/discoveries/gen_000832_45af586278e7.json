@@ -1,0 +1,32 @@
+{
+  "id": "45af586278e7",
+  "generation": 832,
+  "created_at": "2026-03-02T06:05:21.497745",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "The key to What material stores hydrogen fuel at high density without safety risk? is Metal-organic framework with specific pore geometry \u2014 specifically Metal-organic framework with \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 14,
+    "estimated_cost_usd": 213226,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 583872151,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 6,
+    "economic_value_usd": 40871050570000
+  },
+  "confidence": 0.5278638773782093,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

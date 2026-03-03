@@ -1,0 +1,32 @@
+{
+  "id": "98e23cef9e70",
+  "generation": 5785,
+  "created_at": "2026-03-02T06:17:57.330506",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "What is dark matter composed of \u2014 27% of universe is unknown remains unsolved because previous research missed the role of Bose-Einstein. Bose-Einstein condensate at higher temperature directly addresses this.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 11,
+    "estimated_cost_usd": 222683,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2487676118,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 23,
+    "economic_value_usd": 124383805900000
+  },
+  "confidence": 0.3393280980354505,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "faced9f4a367",
+  "generation": 7511,
+  "created_at": "2026-03-02T06:24:46.023230",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Telomerase activation/inhibition in target cells may resolve Why does acute pain become chronic in some people \u2014 what neural change occurs? by blocking at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 30,
+    "estimated_cost_usd": 1428529,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 34355385,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 26,
+    "economic_value_usd": 2748430800000
+  },
+  "confidence": 0.3948294374104814,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

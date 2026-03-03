@@ -1,0 +1,32 @@
+{
+  "id": "20aa684bbbe9",
+  "generation": 1528,
+  "created_at": "2026-03-02T06:06:41.929630",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Casimir effect between nanoscale surfaces may resolve How to achieve sustained net-positive nuclear fusion at commercial scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 12,
+    "estimated_cost_usd": 234588,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2256534913,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 28,
+    "economic_value_usd": 90261396520000
+  },
+  "confidence": 0.4082510727473898,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

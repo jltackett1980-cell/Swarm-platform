@@ -1,0 +1,32 @@
+{
+  "id": "8d62d43fd0ca",
+  "generation": 5414,
+  "created_at": "2026-03-02T06:16:41.289612",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Resonant inductive coupling for wireless power",
+  "hypothesis": "Combining Resonant inductive coupling for wireless power with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 7,
+    "estimated_cost_usd": 148444,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 461274243,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 28,
+    "economic_value_usd": 18450969720000
+  },
+  "confidence": 0.5560297750795931,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

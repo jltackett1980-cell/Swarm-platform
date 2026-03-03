@@ -1,0 +1,32 @@
+{
+  "id": "d8641f39d878",
+  "generation": 7505,
+  "created_at": "2026-03-02T06:24:45.154655",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "If Two-dimensional material stacking (van der Waals heterostructure) is applied to formation, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 24,
+    "estimated_cost_usd": 327691,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 329814303,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 18,
+    "economic_value_usd": 16490715150000
+  },
+  "confidence": 0.7352761240601433,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

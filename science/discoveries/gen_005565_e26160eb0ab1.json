@@ -1,0 +1,32 @@
+{
+  "id": "e26160eb0ab1",
+  "generation": 5565,
+  "created_at": "2026-03-02T06:17:11.934732",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "If Forward osmosis using draw solution gradient is applied to at, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 3,
+    "estimated_cost_usd": 32075,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1561382325,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 25,
+    "economic_value_usd": 124910586000000
+  },
+  "confidence": 0.5031490607449944,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

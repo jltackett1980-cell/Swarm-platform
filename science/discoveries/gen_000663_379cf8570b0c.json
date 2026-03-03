@@ -1,0 +1,32 @@
+{
+  "id": "379cf8570b0c",
+  "generation": 663,
+  "created_at": "2026-03-02T06:05:05.587172",
+  "problem_id": "gravity_quantum",
+  "problem": "How does gravity behave at quantum scales \u2014 quantum gravity unresolved",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "If Bose-Einstein condensate at higher temperature is applied to quantum, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 11,
+    "estimated_cost_usd": 193648,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3363871965,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 10,
+    "economic_value_usd": 168193598250000
+  },
+  "confidence": 0.30588441417553225,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

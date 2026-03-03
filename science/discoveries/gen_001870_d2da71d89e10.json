@@ -1,0 +1,32 @@
+{
+  "id": "d2da71d89e10",
+  "generation": 1870,
+  "created_at": "2026-03-02T06:07:22.929364",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "Combining Electrospun nanofiber scaffold for tissue engineering with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 29,
+    "estimated_cost_usd": 541880,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 280127460,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 22,
+    "economic_value_usd": 14006373000000
+  },
+  "confidence": 0.7615616847766619,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

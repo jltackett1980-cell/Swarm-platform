@@ -1,0 +1,32 @@
+{
+  "id": "3a1f53d04b59",
+  "generation": 4816,
+  "created_at": "2026-03-02T06:14:47.431043",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "The key to Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear is Piezoelectric coupling in novel crystal structure \u2014 specifically Piezoelectric coupling in \u2014 which would help 2,000,000,000 people affected.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 4,
+    "estimated_cost_usd": 86642,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 649152435,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 11,
+    "economic_value_usd": 32457621750000
+  },
+  "confidence": 0.7159828074210768,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "c31dc11e8764",
+  "generation": 8819,
+  "created_at": "2026-03-02T06:30:58.386764",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "What enzyme or organism efficiently degrades all plastic types at scale? remains unsolved because previous research missed the role of Bacteriophage. Bacteriophage surface display for targeting directly addresses this.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 15,
+    "estimated_cost_usd": 216160,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1707509344,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 17,
+    "economic_value_usd": 17075093440000
+  },
+  "confidence": 0.4696852564651391,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

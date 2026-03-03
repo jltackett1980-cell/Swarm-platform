@@ -1,0 +1,32 @@
+{
+  "id": "1181fc4c935e",
+  "generation": 1348,
+  "created_at": "2026-03-02T06:06:20.589252",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "If Two-dimensional material stacking (van der Waals heterostructure) is applied to at, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 17,
+    "estimated_cost_usd": 259728,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1226644729,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 19,
+    "economic_value_usd": 12266447290000
+  },
+  "confidence": 0.6223906430992703,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

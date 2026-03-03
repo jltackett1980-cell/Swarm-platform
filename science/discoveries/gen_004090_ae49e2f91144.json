@@ -1,0 +1,32 @@
+{
+  "id": "ae49e2f91144",
+  "generation": 4090,
+  "created_at": "2026-03-02T06:12:39.352811",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "If Nanoparticle delivery to cross blood-brain barrier is applied to epigenetically, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 8,
+    "estimated_cost_usd": 284240,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 282,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 85719901,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 6,
+    "economic_value_usd": 2571597030000
+  },
+  "confidence": 0.5445798870257657,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

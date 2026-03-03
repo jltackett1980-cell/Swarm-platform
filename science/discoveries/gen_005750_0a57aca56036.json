@@ -1,0 +1,32 @@
+{
+  "id": "0a57aca56036",
+  "generation": 5750,
+  "created_at": "2026-03-02T06:17:50.166746",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "Combining Topological insulator surface state conduction with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 12,
+    "estimated_cost_usd": 275117,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3460625473,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 30,
+    "economic_value_usd": 207637528380000
+  },
+  "confidence": 0.743424253406412,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

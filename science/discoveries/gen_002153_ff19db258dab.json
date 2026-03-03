@@ -1,0 +1,32 @@
+{
+  "id": "ff19db258dab",
+  "generation": 2153,
+  "created_at": "2026-03-02T06:07:57.753047",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "BDNF upregulation to promote neurogenesis may resolve How does central sensitization maintain chronic pain without tissue damage? by activating at the systems level.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 20,
+    "estimated_cost_usd": 637758,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 34457381,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 13,
+    "economic_value_usd": 2067442860000
+  },
+  "confidence": 0.7109472192472968,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

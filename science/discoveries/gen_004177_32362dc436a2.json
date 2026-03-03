@@ -1,0 +1,32 @@
+{
+  "id": "32362dc436a2",
+  "generation": 4177,
+  "created_at": "2026-03-02T06:12:54.419705",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Electrospun. Electrospun nanofiber scaffold for tissue engineering directly addresses this.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 4,
+    "estimated_cost_usd": 55365,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6469885,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 28,
+    "economic_value_usd": 452891950000
+  },
+  "confidence": 0.5535882933384002,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

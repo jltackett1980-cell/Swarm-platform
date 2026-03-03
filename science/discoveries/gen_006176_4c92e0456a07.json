@@ -1,0 +1,32 @@
+{
+  "id": "4c92e0456a07",
+  "generation": 6176,
+  "created_at": "2026-03-02T06:19:21.205778",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "If Plasma confinement via magnetic mirror geometry is applied to prevented, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 10,
+    "estimated_cost_usd": 190258,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3350808797,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 19,
+    "economic_value_usd": 67016175940000
+  },
+  "confidence": 0.510721851591571,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

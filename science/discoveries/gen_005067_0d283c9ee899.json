@@ -1,0 +1,32 @@
+{
+  "id": "0d283c9ee899",
+  "generation": 5067,
+  "created_at": "2026-03-02T06:15:33.969202",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "Magnetohydrodynamic flow without moving parts may resolve Can superconductivity be achieved at room temperature \u2014 what material structure? by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 6,
+    "estimated_cost_usd": 117742,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1083013207,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 7,
+    "economic_value_usd": 54150660350000
+  },
+  "confidence": 0.3175389385158754,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "b27d083e2bb8",
+  "generation": 7804,
+  "created_at": "2026-03-02T06:26:02.537419",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "The key to What material is biocompatible, conductive, and flexible enough for long-term brain implants? is Aerogel porosity for thermal/acoustic insulation \u2014 specifically Aerogel porosity for \u2014 which would help 5,400,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 27,
+    "estimated_cost_usd": 528048,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1811863,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 5,
+    "economic_value_usd": 90593150000
+  },
+  "confidence": 0.413189234976294,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

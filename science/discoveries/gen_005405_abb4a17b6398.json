@@ -1,0 +1,32 @@
+{
+  "id": "abb4a17b6398",
+  "generation": 5405,
+  "created_at": "2026-03-02T06:16:39.549331",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Electromagnetic induction in moving biological tissue",
+  "hypothesis": "Electromagnetic induction in moving biological tissue may resolve Can superconductivity be achieved at room temperature \u2014 what material structure? by activating at the systems level.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 2,
+    "estimated_cost_usd": 37035,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2611649369,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 6,
+    "economic_value_usd": 182815455830000
+  },
+  "confidence": 0.7494190733991851,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

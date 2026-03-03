@@ -1,0 +1,32 @@
+{
+  "id": "7f5761ba82a6",
+  "generation": 4050,
+  "created_at": "2026-03-02T06:12:33.187326",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different? remains unsolved because previous research missed the role of Homomorphic. Homomorphic encryption for private computation directly addresses this.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 3,
+    "estimated_cost_usd": 10995,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Benchmark on standard dataset with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1664569536,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 24,
+    "economic_value_usd": 33291390720000
+  },
+  "confidence": 0.5088658787609277,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

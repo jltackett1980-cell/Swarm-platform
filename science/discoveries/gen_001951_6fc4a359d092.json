@@ -1,0 +1,32 @@
+{
+  "id": "6fc4a359d092",
+  "generation": 1951,
+  "created_at": "2026-03-02T06:07:32.585438",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "Aerogel porosity for thermal/acoustic insulation may resolve How to engineer materials that autonomously repair microcracks before failure? by activating at the molecular level.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 4,
+    "estimated_cost_usd": 69561,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 490154570,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 9,
+    "economic_value_usd": 39212365600000
+  },
+  "confidence": 0.47455890433181663,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

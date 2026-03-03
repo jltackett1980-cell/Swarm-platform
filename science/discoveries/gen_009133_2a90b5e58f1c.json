@@ -1,0 +1,32 @@
+{
+  "id": "2a90b5e58f1c",
+  "generation": 9133,
+  "created_at": "2026-03-02T06:32:37.512884",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "Combining Homomorphic encryption for private computation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 11,
+    "estimated_cost_usd": 43906,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 505554145,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 16,
+    "economic_value_usd": 20222165800000
+  },
+  "confidence": 0.5101398970819069,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

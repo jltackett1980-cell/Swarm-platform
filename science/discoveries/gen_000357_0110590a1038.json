@@ -1,0 +1,32 @@
+{
+  "id": "0110590a1038",
+  "generation": 357,
+  "created_at": "2026-03-02T06:04:38.296956",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "Combining Biomimetic surface structure (lotus, shark skin, gecko) with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 13,
+    "estimated_cost_usd": 250091,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 303019057,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 15,
+    "economic_value_usd": 3030190570000
+  },
+  "confidence": 0.548505802445683,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

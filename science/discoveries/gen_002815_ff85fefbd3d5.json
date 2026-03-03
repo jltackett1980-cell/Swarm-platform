@@ -1,0 +1,32 @@
+{
+  "id": "ff85fefbd3d5",
+  "generation": 2815,
+  "created_at": "2026-03-02T06:09:24.349200",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "If Polymer crosslinking under specific stimulus is applied to types, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 18,
+    "estimated_cost_usd": 336758,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2619539737,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 8,
+    "economic_value_usd": 157172384220000
+  },
+  "confidence": 0.5042675684189871,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

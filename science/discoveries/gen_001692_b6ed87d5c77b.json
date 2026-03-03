@@ -1,0 +1,32 @@
+{
+  "id": "b6ed87d5c77b",
+  "generation": 1692,
+  "created_at": "2026-03-02T06:07:01.765293",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "If Nanoparticle delivery to cross blood-brain barrier is applied to it, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 15,
+    "estimated_cost_usd": 506183,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 839053884,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 17,
+    "economic_value_usd": 50343233040000
+  },
+  "confidence": 0.3850558965699882,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

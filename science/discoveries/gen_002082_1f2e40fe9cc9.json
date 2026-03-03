@@ -1,0 +1,32 @@
+{
+  "id": "1f2e40fe9cc9",
+  "generation": 2082,
+  "created_at": "2026-03-02T06:07:48.099636",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "If Bacteriophage surface display for targeting is applied to at, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 35,
+    "estimated_cost_usd": 488979,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 966578924,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 30,
+    "economic_value_usd": 9665789240000
+  },
+  "confidence": 0.6510545984084815,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "8173330d7370",
+  "generation": 4929,
+  "created_at": "2026-03-02T06:15:07.746103",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "Why does acute pain become chronic in some people \u2014 what neural change occurs? remains unsolved because previous research missed the role of Microbiome. Microbiome modulation via targeted bacteriophage therapy directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 7,
+    "estimated_cost_usd": 344765,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 22171571,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 20,
+    "economic_value_usd": 1773725680000
+  },
+  "confidence": 0.5263604428267379,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

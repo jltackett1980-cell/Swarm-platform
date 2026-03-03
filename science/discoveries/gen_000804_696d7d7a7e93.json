@@ -1,0 +1,32 @@
+{
+  "id": "696d7d7a7e93",
+  "generation": 804,
+  "created_at": "2026-03-02T06:05:19.494782",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "Atomic layer deposition of conformal coating may resolve What substrate allows silicon-level performance in fully flexible electronics? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 16,
+    "estimated_cost_usd": 318587,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 81653795,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 8,
+    "economic_value_usd": 4082689750000
+  },
+  "confidence": 0.7337672024651432,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

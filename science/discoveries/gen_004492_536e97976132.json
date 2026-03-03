@@ -1,0 +1,32 @@
+{
+  "id": "536e97976132",
+  "generation": 4492,
+  "created_at": "2026-03-02T06:13:48.251037",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "Synaptic plasticity modulation via NMDA receptor may resolve How does central sensitization maintain chronic pain without tissue damage? by activating at the systems level.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 23,
+    "estimated_cost_usd": 729052,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 21363182,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 18,
+    "economic_value_usd": 640895460000
+  },
+  "confidence": 0.6587459673934617,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

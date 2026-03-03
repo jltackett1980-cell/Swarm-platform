@@ -1,0 +1,32 @@
+{
+  "id": "8d5d8dfb1933",
+  "generation": 10082,
+  "created_at": "2026-03-02T07:18:08.049108",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "What membrane material filters all contaminants from water at low energy cost? remains unsolved because previous research missed the role of Aerogel. Aerogel porosity for thermal/acoustic insulation directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 35,
+    "estimated_cost_usd": 632110,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 938637772,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 14,
+    "economic_value_usd": 18772755440000
+  },
+  "confidence": 0.46453035871175247,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

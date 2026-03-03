@@ -1,0 +1,32 @@
+{
+  "id": "33a04ee38047",
+  "generation": 2163,
+  "created_at": "2026-03-02T06:07:58.891642",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "Polymer crosslinking under specific stimulus may resolve What material stores hydrogen fuel at high density without safety risk? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 28,
+    "estimated_cost_usd": 504231,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 797198991,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 6,
+    "economic_value_usd": 31887959640000
+  },
+  "confidence": 0.3370895719820026,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

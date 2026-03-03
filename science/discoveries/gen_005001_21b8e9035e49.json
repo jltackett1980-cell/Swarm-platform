@@ -1,0 +1,32 @@
+{
+  "id": "21b8e9035e49",
+  "generation": 5001,
+  "created_at": "2026-03-02T06:15:21.493129",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "Polymer crosslinking under specific stimulus may resolve What enzyme or organism efficiently degrades all plastic types at scale? by activating at the molecular level.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 30,
+    "estimated_cost_usd": 587176,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1936707546,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 5,
+    "economic_value_usd": 38734150920000
+  },
+  "confidence": 0.430814391476157,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

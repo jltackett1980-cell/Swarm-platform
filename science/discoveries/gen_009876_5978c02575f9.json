@@ -1,0 +1,32 @@
+{
+  "id": "5978c02575f9",
+  "generation": 9876,
+  "created_at": "2026-03-02T06:36:29.240798",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "Combining Forward osmosis using draw solution gradient with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 12,
+    "estimated_cost_usd": 127413,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1028114710,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 30,
+    "economic_value_usd": 92530323900000
+  },
+  "confidence": 0.39921942834080054,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6e5132abeeee",
+  "generation": 8685,
+  "created_at": "2026-03-02T06:30:03.941721",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "How to produce defect-free large-area graphene at low cost? remains unsolved because previous research missed the role of Shape. Shape memory alloy phase transition directly addresses this.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 34,
+    "estimated_cost_usd": 608609,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 996987866,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 12,
+    "economic_value_usd": 9969878660000
+  },
+  "confidence": 0.7364447424054561,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

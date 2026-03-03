@@ -1,0 +1,32 @@
+{
+  "id": "95f2da454663",
+  "generation": 6731,
+  "created_at": "2026-03-02T06:21:25.673094",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale? remains unsolved because previous research missed the role of Piezoelectric. Piezoelectric coupling in novel crystal structure directly addresses this.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 11,
+    "estimated_cost_usd": 207438,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3329353673,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 13,
+    "economic_value_usd": 133174146920000
+  },
+  "confidence": 0.7444445966603213,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

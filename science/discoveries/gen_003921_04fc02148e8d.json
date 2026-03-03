@@ -1,0 +1,32 @@
+{
+  "id": "04fc02148e8d",
+  "generation": 3921,
+  "created_at": "2026-03-02T06:12:11.581486",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "The key to What synthetic material perfectly mimics bone's mechanical and biological properties? is Self-assembled monolayer for surface functionalization \u2014 specifically Self-assembled monolayer for \u2014 which would help 10,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 36,
+    "estimated_cost_usd": 711211,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5833279,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 7,
+    "economic_value_usd": 291663950000
+  },
+  "confidence": 0.3089040366950982,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

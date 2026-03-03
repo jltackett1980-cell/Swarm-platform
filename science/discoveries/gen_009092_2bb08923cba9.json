@@ -1,0 +1,32 @@
+{
+  "id": "2bb08923cba9",
+  "generation": 9092,
+  "created_at": "2026-03-02T06:32:23.507149",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "The key to How does gut microbiome composition directly affect brain chemistry and mood? is Monoclonal antibody blocking protein-protein interaction \u2014 specifically Monoclonal antibody blocking \u2014 which would help 300,000,000 people affected.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 23,
+    "estimated_cost_usd": 1136524,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 66317949,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 12,
+    "economic_value_usd": 1989538470000
+  },
+  "confidence": 0.53663945098883,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

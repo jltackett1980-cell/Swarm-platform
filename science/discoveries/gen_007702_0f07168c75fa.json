@@ -1,0 +1,32 @@
+{
+  "id": "0f07168c75fa",
+  "generation": 7702,
+  "created_at": "2026-03-02T06:25:35.377458",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "The key to What substrate allows silicon-level performance in fully flexible electronics? is Bacteriophage surface display for targeting \u2014 specifically Bacteriophage surface display \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 15,
+    "estimated_cost_usd": 282736,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 161348452,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 19,
+    "economic_value_usd": 9680907120000
+  },
+  "confidence": 0.7581471134253088,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

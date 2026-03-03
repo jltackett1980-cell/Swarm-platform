@@ -1,0 +1,32 @@
+{
+  "id": "b6dc3de62eae",
+  "generation": 8262,
+  "created_at": "2026-03-02T06:28:05.254916",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "If Metal-organic framework with specific pore geometry is applied to at, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 33,
+    "estimated_cost_usd": 509970,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1115272087,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 8,
+    "economic_value_usd": 55763604350000
+  },
+  "confidence": 0.34707663685383316,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

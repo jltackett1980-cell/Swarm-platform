@@ -1,0 +1,32 @@
+{
+  "id": "aa1c67ad3653",
+  "generation": 6657,
+  "created_at": "2026-03-02T06:21:09.362341",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "Combining Nanoparticle delivery to cross blood-brain barrier with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 15,
+    "estimated_cost_usd": 704933,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 25136644,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 10,
+    "economic_value_usd": 251366440000
+  },
+  "confidence": 0.6509791288757175,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "d31061f83364",
+  "generation": 8582,
+  "created_at": "2026-03-02T06:29:34.597746",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "Combining Monte Carlo tree search with learned heuristics with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 12,
+    "estimated_cost_usd": 53388,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3183822652,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 29,
+    "economic_value_usd": 222867585640000
+  },
+  "confidence": 0.3303448684221535,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

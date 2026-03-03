@@ -1,0 +1,32 @@
+{
+  "id": "cdb5e3b7cf79",
+  "generation": 4870,
+  "created_at": "2026-03-02T06:14:56.964923",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Why does the immune system attack the body's own tissue in autoimmune disease? remains unsolved because previous research missed the role of Telomerase. Telomerase activation/inhibition in target cells directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 34,
+    "estimated_cost_usd": 1228851,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 38430885,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 27,
+    "economic_value_usd": 3458779650000
+  },
+  "confidence": 0.6912895863437865,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

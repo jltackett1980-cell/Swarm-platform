@@ -1,0 +1,32 @@
+{
+  "id": "b8c98ea9194c",
+  "generation": 9153,
+  "created_at": "2026-03-02T06:32:44.396407",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "The key to What membrane material filters all contaminants from water at low energy cost? is Self-assembled monolayer for surface functionalization \u2014 specifically Self-assembled monolayer for \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 6,
+    "estimated_cost_usd": 90480,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 776325752,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 30,
+    "economic_value_usd": 62106060160000
+  },
+  "confidence": 0.6386374328460191,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

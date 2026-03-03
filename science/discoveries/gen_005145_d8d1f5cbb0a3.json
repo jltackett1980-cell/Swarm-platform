@@ -1,0 +1,32 @@
+{
+  "id": "d8d1f5cbb0a3",
+  "generation": 5145,
+  "created_at": "2026-03-02T06:15:49.228702",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved remains unsolved because previous research missed the role of Thermoelectric. Thermoelectric Seebeck coefficient maximization directly addresses this.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 11,
+    "estimated_cost_usd": 191615,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 390185276,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 9,
+    "economic_value_usd": 11705558280000
+  },
+  "confidence": 0.599124200713951,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

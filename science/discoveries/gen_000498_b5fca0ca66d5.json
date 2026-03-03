@@ -1,0 +1,32 @@
+{
+  "id": "b5fca0ca66d5",
+  "generation": 498,
+  "created_at": "2026-03-02T06:04:50.661706",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "Can ocean acidification be safely reversed \u2014 what biochemical approach? remains unsolved because previous research missed the role of Rhizobium. Rhizobium inoculation for nitrogen fixation directly addresses this.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 7,
+    "estimated_cost_usd": 74222,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1422482102,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 30,
+    "economic_value_usd": 99573747140000
+  },
+  "confidence": 0.5066586197105769,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

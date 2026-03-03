@@ -1,0 +1,32 @@
+{
+  "id": "11a82ef7440f",
+  "generation": 9963,
+  "created_at": "2026-03-02T06:36:59.296122",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "Combining Neuroinflammation reduction via microglial targeting with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 7,
+    "estimated_cost_usd": 171824,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2690263609,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 25,
+    "economic_value_usd": 107610544360000
+  },
+  "confidence": 0.33028250065917897,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

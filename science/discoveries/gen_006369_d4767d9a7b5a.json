@@ -1,0 +1,32 @@
+{
+  "id": "d4767d9a7b5a",
+  "generation": 6369,
+  "created_at": "2026-03-02T06:20:03.591967",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "Combining Bioelectrochemical system for pollutant conversion with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 9,
+    "estimated_cost_usd": 94324,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 874560887,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 13,
+    "economic_value_usd": 26236826610000
+  },
+  "confidence": 0.5506879291100899,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

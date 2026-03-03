@@ -1,0 +1,32 @@
+{
+  "id": "a64a67e80946",
+  "generation": 9319,
+  "created_at": "2026-03-02T06:33:36.495562",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "Autophagy activation to clear misfolded proteins may resolve How does gut microbiome composition directly affect brain chemistry and mood? by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 3,
+    "estimated_cost_usd": 131538,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 86012320,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 30,
+    "economic_value_usd": 3440492800000
+  },
+  "confidence": 0.7352844638390534,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "30f152a50c4d",
+  "generation": 4803,
+  "created_at": "2026-03-02T06:14:45.489074",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "The key to How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? is Photocatalytic oxidation under visible light \u2014 specifically Photocatalytic oxidation under \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 11,
+    "estimated_cost_usd": 129499,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 114329772,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 17,
+    "economic_value_usd": 2286595440000
+  },
+  "confidence": 0.3367252571870512,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

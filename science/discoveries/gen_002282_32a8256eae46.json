@@ -1,0 +1,32 @@
+{
+  "id": "32a8256eae46",
+  "generation": 2282,
+  "created_at": "2026-03-02T06:08:12.957989",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "Homomorphic encryption for private computation may resolve What encryption survives quantum computer attacks \u2014 post-quantum cryptography by activating at the systems level.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 3,
+    "estimated_cost_usd": 12504,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1566649631,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 25,
+    "economic_value_usd": 46999488930000
+  },
+  "confidence": 0.5495329845690892,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

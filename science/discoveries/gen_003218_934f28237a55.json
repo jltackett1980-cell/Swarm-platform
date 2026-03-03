@@ -1,0 +1,32 @@
+{
+  "id": "934f28237a55",
+  "generation": 3218,
+  "created_at": "2026-03-02T06:10:22.088245",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "If Plasma confinement via magnetic mirror geometry is applied to ionic, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 5,
+    "estimated_cost_usd": 122384,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 451234529,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 25,
+    "economic_value_usd": 27074071740000
+  },
+  "confidence": 0.6471463805549541,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

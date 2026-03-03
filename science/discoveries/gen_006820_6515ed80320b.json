@@ -1,0 +1,32 @@
+{
+  "id": "6515ed80320b",
+  "generation": 6820,
+  "created_at": "2026-03-02T06:21:46.672696",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "The key to How to engineer materials that autonomously repair microcracks before failure? is Atomic layer deposition of conformal coating \u2014 specifically Atomic layer deposition \u2014 which would help 1,000,000,000 people affected.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 16,
+    "estimated_cost_usd": 265790,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 481941636,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 7,
+    "economic_value_usd": 28916498160000
+  },
+  "confidence": 0.5368110519906917,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

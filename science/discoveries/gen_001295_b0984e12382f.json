@@ -1,0 +1,32 @@
+{
+  "id": "b0984e12382f",
+  "generation": 1295,
+  "created_at": "2026-03-02T06:06:14.745261",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "Combining Small molecule inhibitor of enzyme active site with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 34,
+    "estimated_cost_usd": 1164985,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 17619218,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 9,
+    "economic_value_usd": 1409537440000
+  },
+  "confidence": 0.4202990903735795,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

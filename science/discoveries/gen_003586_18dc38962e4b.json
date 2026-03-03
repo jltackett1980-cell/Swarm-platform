@@ -1,0 +1,32 @@
+{
+  "id": "18dc38962e4b",
+  "generation": 3586,
+  "created_at": "2026-03-02T06:11:18.259146",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "What causes normal proteins to misfold into prions and spread through tissue? remains unsolved because previous research missed the role of Photodynamic. Photodynamic therapy targeting specific cell receptors directly addresses this.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 19,
+    "estimated_cost_usd": 780860,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 583274,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 18,
+    "economic_value_usd": 46661920000
+  },
+  "confidence": 0.5801938331360067,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

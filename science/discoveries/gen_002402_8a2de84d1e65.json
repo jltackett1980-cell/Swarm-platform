@@ -1,0 +1,32 @@
+{
+  "id": "8a2de84d1e65",
+  "generation": 2402,
+  "created_at": "2026-03-02T06:08:28.645576",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "How to store solar energy at grid scale without chemical battery degradation? remains unsolved because previous research missed the role of Acoustic. Acoustic levitation for contactless manipulation directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 7,
+    "estimated_cost_usd": 171189,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 633331227,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 24,
+    "economic_value_usd": 6333312270000
+  },
+  "confidence": 0.36460120194414386,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "54a693d13325",
+  "generation": 7655,
+  "created_at": "2026-03-02T06:25:23.770619",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "Nanoparticle delivery to cross blood-brain barrier may resolve Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway? by activating at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 18,
+    "estimated_cost_usd": 708672,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 424,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1184850,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 30,
+    "economic_value_usd": 94788000000
+  },
+  "confidence": 0.45177027552839516,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

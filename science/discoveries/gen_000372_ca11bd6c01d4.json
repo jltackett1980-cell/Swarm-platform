@@ -1,0 +1,32 @@
+{
+  "id": "ca11bd6c01d4",
+  "generation": 372,
+  "created_at": "2026-03-02T06:04:40.708048",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Spintronics for low-power data storage may resolve Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics by activating at the systems level.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 5,
+    "estimated_cost_usd": 114795,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3161837354,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 19,
+    "economic_value_usd": 31618373540000
+  },
+  "confidence": 0.33195554247950443,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

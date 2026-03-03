@@ -1,0 +1,32 @@
+{
+  "id": "9663dbfffea9",
+  "generation": 445,
+  "created_at": "2026-03-02T06:04:46.731539",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "Combining mRNA therapy to upregulate/downregulate gene expression with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 15,
+    "estimated_cost_usd": 635350,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8822853,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 29,
+    "economic_value_usd": 176457060000
+  },
+  "confidence": 0.6967716029115589,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

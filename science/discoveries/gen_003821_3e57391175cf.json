@@ -1,0 +1,32 @@
+{
+  "id": "3e57391175cf",
+  "generation": 3821,
+  "created_at": "2026-03-02T06:11:55.415596",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved remains unsolved because previous research missed the role of Casimir. Casimir effect between nanoscale surfaces directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 8,
+    "estimated_cost_usd": 146215,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 272008646,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 30,
+    "economic_value_usd": 10880345840000
+  },
+  "confidence": 0.6622908278327913,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

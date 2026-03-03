@@ -1,0 +1,32 @@
+{
+  "id": "0a1ac933c498",
+  "generation": 4275,
+  "created_at": "2026-03-02T06:13:11.381737",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "The key to Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? is Cortical spreading depression mechanism in migraine \u2014 specifically Cortical spreading depression \u2014 which would help 12,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 10,
+    "estimated_cost_usd": 347804,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8636460,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 13,
+    "economic_value_usd": 345458400000
+  },
+  "confidence": 0.67874547523018,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

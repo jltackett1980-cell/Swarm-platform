@@ -1,0 +1,32 @@
+{
+  "id": "9ff48b84b104",
+  "generation": 9253,
+  "created_at": "2026-03-02T06:33:16.406913",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "If Reservoir computing with physical substrate is applied to alphafold, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 12,
+    "estimated_cost_usd": 57390,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Security audit with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2907450658,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 17,
+    "economic_value_usd": 145372532900000
+  },
+  "confidence": 0.6610718738226243,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

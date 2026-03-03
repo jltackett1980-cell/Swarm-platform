@@ -1,0 +1,32 @@
+{
+  "id": "423be140a6f0",
+  "generation": 677,
+  "created_at": "2026-03-02T06:05:06.574310",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "Can addiction-related neural pathway changes be reversed without withdrawal? remains unsolved because previous research missed the role of Cortical. Cortical spreading depression mechanism in migraine directly addresses this.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 32,
+    "estimated_cost_usd": 807493,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 12731978,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 22,
+    "economic_value_usd": 127319780000
+  },
+  "confidence": 0.4196783453000423,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

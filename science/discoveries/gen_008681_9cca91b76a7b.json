@@ -1,0 +1,32 @@
+{
+  "id": "9cca91b76a7b",
+  "generation": 8681,
+  "created_at": "2026-03-02T06:30:02.376847",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "Combining Quantum tunneling through energy barrier with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 1,
+    "estimated_cost_usd": 24738,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 951032510,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 20,
+    "economic_value_usd": 28530975300000
+  },
+  "confidence": 0.5932071913359646,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

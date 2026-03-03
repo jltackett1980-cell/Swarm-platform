@@ -1,0 +1,32 @@
+{
+  "id": "f9b6baf2bef0",
+  "generation": 8921,
+  "created_at": "2026-03-02T06:31:32.791909",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "The key to How are long-term memories physically encoded in neural tissue? is Deep brain stimulation of subthalamic nucleus \u2014 specifically Deep brain stimulation \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 25,
+    "estimated_cost_usd": 640060,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1110784950,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 20,
+    "economic_value_usd": 11107849500000
+  },
+  "confidence": 0.41702543995730973,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

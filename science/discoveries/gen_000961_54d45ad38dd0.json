@@ -1,0 +1,32 @@
+{
+  "id": "54d45ad38dd0",
+  "generation": 961,
+  "created_at": "2026-03-02T06:05:37.041039",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "Can ocean acidification be safely reversed \u2014 what biochemical approach? remains unsolved because previous research missed the role of Electrocoagulation. Electrocoagulation for suspended particle removal directly addresses this.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 11,
+    "estimated_cost_usd": 114251,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 901606575,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 25,
+    "economic_value_usd": 9016065750000
+  },
+  "confidence": 0.6555830913023194,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

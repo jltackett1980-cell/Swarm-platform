@@ -1,0 +1,32 @@
+{
+  "id": "18f155230d6a",
+  "generation": 5722,
+  "created_at": "2026-03-02T06:17:43.788184",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "How to predict drug-receptor binding affinity from molecular structure without wet lab? remains unsolved because previous research missed the role of Homomorphic. Homomorphic encryption for private computation directly addresses this.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 3,
+    "estimated_cost_usd": 11564,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1089325440,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 22,
+    "economic_value_usd": 43573017600000
+  },
+  "confidence": 0.7773444773142903,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

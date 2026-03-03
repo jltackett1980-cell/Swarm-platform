@@ -1,0 +1,32 @@
+{
+  "id": "47e14ca71c86",
+  "generation": 6001,
+  "created_at": "2026-03-02T06:18:43.204958",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "Enzymatic depolymerization of specific polymer may resolve How to desalinate seawater at dramatically lower energy cost than reverse osmosis? by activating at the systems level.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 6,
+    "estimated_cost_usd": 76544,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 736014356,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 22,
+    "economic_value_usd": 14720287120000
+  },
+  "confidence": 0.480382444352961,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "33c4ff9efc9c",
+  "generation": 5125,
+  "created_at": "2026-03-02T06:15:44.958261",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Default mode network connectivity measurement via fMRI may resolve What physical process in the brain produces subjective conscious experience? by activating at the systems level.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 18,
+    "estimated_cost_usd": 583469,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 424,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1822912739,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 21,
+    "economic_value_usd": 91145636950000
+  },
+  "confidence": 0.7255577189039084,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

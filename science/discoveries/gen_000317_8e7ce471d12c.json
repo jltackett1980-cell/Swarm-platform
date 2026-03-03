@@ -1,0 +1,32 @@
+{
+  "id": "8e7ce471d12c",
+  "generation": 317,
+  "created_at": "2026-03-02T06:04:35.545844",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "If Topological insulator surface state conduction is applied to chemical, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 11,
+    "estimated_cost_usd": 205739,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1183478278,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 19,
+    "economic_value_usd": 71008696680000
+  },
+  "confidence": 0.7444917961432997,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "326f3b4e417e",
+  "generation": 3493,
+  "created_at": "2026-03-02T06:11:04.482685",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "The key to Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved is Monte Carlo tree search with learned heuristics \u2014 specifically Monte Carlo tree \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 8,
+    "estimated_cost_usd": 39429,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2274685124,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 13,
+    "economic_value_usd": 68240553720000
+  },
+  "confidence": 0.4620018712025137,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "1e4a424a1605",
+  "generation": 6225,
+  "created_at": "2026-03-02T06:19:32.020812",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "If Magnetohydrodynamic flow without moving parts is applied to chemical, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 1,
+    "estimated_cost_usd": 17936,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 669630037,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 6,
+    "economic_value_usd": 60266703330000
+  },
+  "confidence": 0.4959135519928693,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

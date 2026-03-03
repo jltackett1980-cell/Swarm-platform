@@ -1,0 +1,32 @@
+{
+  "id": "190cc3647c1d",
+  "generation": 2211,
+  "created_at": "2026-03-02T06:08:04.262861",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Can addiction-related neural pathway changes be reversed without withdrawal? remains unsolved because previous research missed the role of Default. Default mode network connectivity measurement via fMRI directly addresses this.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 26,
+    "estimated_cost_usd": 867848,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16607478,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 10,
+    "economic_value_usd": 166074780000
+  },
+  "confidence": 0.5340598624337345,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

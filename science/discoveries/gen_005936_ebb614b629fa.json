@@ -1,0 +1,32 @@
+{
+  "id": "ebb614b629fa",
+  "generation": 5936,
+  "created_at": "2026-03-02T06:18:29.093204",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "Transcranial magnetic stimulation of specific cortical area may resolve How does central sensitization maintain chronic pain without tissue damage? by activating at the systems level.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 30,
+    "estimated_cost_usd": 1011016,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 26017939,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 23,
+    "economic_value_usd": 260179390000
+  },
+  "confidence": 0.7760288057262912,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

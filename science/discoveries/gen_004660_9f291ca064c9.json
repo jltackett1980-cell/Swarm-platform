@@ -1,0 +1,32 @@
+{
+  "id": "9f291ca064c9",
+  "generation": 4660,
+  "created_at": "2026-03-02T06:14:18.845036",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "What material stores hydrogen fuel at high density without safety risk? remains unsolved because previous research missed the role of Hydrogel. Hydrogel swelling/shrinking response directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 26,
+    "estimated_cost_usd": 470564,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 984261649,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 9,
+    "economic_value_usd": 9842616490000
+  },
+  "confidence": 0.3172984769595984,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

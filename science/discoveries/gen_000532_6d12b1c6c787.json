@@ -1,0 +1,32 @@
+{
+  "id": "6d12b1c6c787",
+  "generation": 532,
+  "created_at": "2026-03-02T06:04:52.688324",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "Bioelectrochemical system for pollutant conversion may resolve How to restore depleted agricultural soil microbiome rapidly at scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 7,
+    "estimated_cost_usd": 95558,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 195064522,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 28,
+    "economic_value_usd": 17555806980000
+  },
+  "confidence": 0.3548129202174555,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,125 @@
+{
+  "device_id": "chronic_pain_pemf_magnetic_pendant",
+  "condition": "chronic_pain",
+  "physics_principle": "pemf_magnetic",
+  "form_factor": "pendant",
+  "generation": 23,
+  "parent_champion": "EmberRelief",
+  "generated_at": "2026-03-02T17:56:33",
+  "engineering": {
+    "mcu": {
+      "part": "STM32L4+",
+      "description": "ARM Cortex-M4 120MHz, ultra-low power",
+      "cost_usd": 3.8
+    },
+    "physics_implementation": {
+      "principle": "pemf_magnetic",
+      "proven": true,
+      "comparable_devices": {
+        "mcu": {
+          "part": "STM32H743",
+          "description": "Cortex-M7 480MHz \u2014 needed for real-time ultrasound processing",
+          "cost_usd": 8.5,
+          "datasheet": "st.com/en/microcontrollers-microprocessors/stm32h743.html"
+        },
+        "transducer": [
+          {
+            "part": "Piezo transducer 1MHz (custom)",
+            "function": "Ultrasound emission + receive",
+            "cost_usd": 12.0
+          },
+          {
+            "part": "TC6320 (Texas Instruments)",
+            "function": "Ultrasound AFE \u2014 TX/RX switch + TGC",
+            "cost_usd": 6.5
+          },
+          {
+            "part": "DAC80501",
+            "function": "16-bit DAC for waveform generation",
+            "cost_usd": 2.8
+          }
+        ],
+        "power": {
+          "battery": "Li-Po 1500mAh 3.7V + boost to 12V for TX",
+          "charger": "BQ25895 USB-C fast charge",
+          "boost": "TPS61230A 12V boost converter",
+          "estimated_life_hours": 8,
+          "cost_usd": 8.0
+        },
+        "pcb": {
+          "layers": 6,
+          "size_mm": "70x50",
+          "thickness_mm": 1.0,
+          "process": "ENIG \u2014 high frequency requires controlled impedance",
+          "estimated_cost_usd": 8.0
+        },
+        "enclosure": {
+          "material": "Medical-grade ABS + acoustic coupling window",
+          "ip_rating": "IP54",
+          "size_mm": "120x70x30",
+          "estimated_cost_usd": 12.0
+        },
+        "firmware": {
+          "rtos": "FreeRTOS",
+          "frequency_mhz": "1-3MHz programmable",
+          "modes": {
+            "therapeutic": "1MHz CW or pulsed, 0.5-2.0 W/cm\u00b2 SATA",
+            "diagnostic": "3MHz pulse-echo, A-mode imaging",
+            "phonophoresis": "Drug delivery enhancement 1MHz pulsed"
+          },
+          "safety": "BNR verification at startup. Thermal index monitoring. Max 10min continuous.",
+          "algorithm": "Pulse-echo time-of-flight for distance measurement. Doppler shift for flow detection."
+        },
+        "signal_processing": {
+          "tx_waveform": "DDS sine generation, 8-cycle bursts at PRF 1-10kHz",
+          "rx_processing": "TGC amplification, bandpass filter, envelope detection, log compression",
+          "imaging": "A-mode: time-domain waveform. No beamforming needed for point-of-care."
+        },
+        "fda_pathway": {
+          "device_class": "Class II",
+          "submission_type": "510(k)",
+          "predicate_devices": [
+            "Butterfly iQ+",
+            "Clarius L15 HD3",
+            "Sonosite SII"
+          ],
+          "estimated_timeline_months": 24,
+          "estimated_cost_usd": 200000
+        }
+      }
+    },
+    "power": {
+      "battery": "Li-Po 500mAh 3.7V",
+      "charger": "MCP73831 USB-C",
+      "regulator": "TPS62740 buck converter",
+      "estimated_life_hours": 36,
+      "cost_usd": 2.5
+    },
+    "pcb": {
+      "layers": 6,
+      "size_mm": "39x55",
+      "process": "ENIG",
+      "ip_rating": "IP67",
+      "cost_usd": 2.58
+    },
+    "firmware": {
+      "rtos": "NuttX",
+      "sampling_hz": 250,
+      "ml_model": "TensorFlow Lite Micro",
+      "connectivity": "BLE 5.0 AES-128",
+      "storage": "local only \u2014 no cloud"
+    }
+  },
+  "fda_pathway": {
+    "device_class": "II",
+    "submission_type": "510(k)",
+    "estimated_timeline_months": 10,
+    "estimated_cost_usd": 40000
+  },
+  "estimated_bom_cost_usd": 42.49,
+  "retail_price_target_usd": 194.59,
+  "peoples_charter": true,
+  "offline_first": true,
+  "no_cloud": true,
+  "wisdom_score": 100
+}

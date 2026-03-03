@@ -1,0 +1,39 @@
+{
+  "id": "920b1f51",
+  "name": "PulseGlucose",
+  "generation": 15,
+  "created_at": "2026-03-02T17:13:16.742733",
+  "pain": "diabetes_monitoring",
+  "population": 37000000,
+  "problem": "37M diabetics need glucose monitoring \u2014 devices cost $300+/month",
+  "physics": "rf_sensing",
+  "physics_desc": "Radio frequency for non-contact sensing",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Radar vital signs",
+    "Through-wall sensing"
+  ],
+  "form_factor": "wrist sensor",
+  "complexity": 4,
+  "specs": {
+    "power_watts": 0.0031,
+    "size_cm": 5.0,
+    "cost_usd": 141.95,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

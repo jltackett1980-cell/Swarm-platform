@@ -1,0 +1,32 @@
+{
+  "id": "afa39c4d057d",
+  "generation": 9639,
+  "created_at": "2026-03-02T06:35:13.164559",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "Combining Homomorphic encryption for private computation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 5,
+    "estimated_cost_usd": 18427,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 721988877,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 29,
+    "economic_value_usd": 28879555080000
+  },
+  "confidence": 0.6278900879122586,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

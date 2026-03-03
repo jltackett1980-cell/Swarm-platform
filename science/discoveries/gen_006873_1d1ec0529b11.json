@@ -1,0 +1,32 @@
+{
+  "id": "1d1ec0529b11",
+  "generation": 6873,
+  "created_at": "2026-03-02T06:21:59.639314",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "Combining mRNA therapy to upregulate/downregulate gene expression with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 3,
+    "estimated_cost_usd": 120579,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 140549613,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 5,
+    "economic_value_usd": 7027480650000
+  },
+  "confidence": 0.4473316618321771,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

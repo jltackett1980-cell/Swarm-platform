@@ -1,0 +1,32 @@
+{
+  "id": "d0af329b8e0c",
+  "generation": 2437,
+  "created_at": "2026-03-02T06:08:33.230021",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "If Synaptic plasticity modulation via NMDA receptor is applied to be, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 17,
+    "estimated_cost_usd": 564786,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 43708309,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 7,
+    "economic_value_usd": 3496664720000
+  },
+  "confidence": 0.6867307675929617,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

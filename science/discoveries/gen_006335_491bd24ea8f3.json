@@ -1,0 +1,32 @@
+{
+  "id": "491bd24ea8f3",
+  "generation": 6335,
+  "created_at": "2026-03-02T06:19:56.120495",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Liquid. Liquid crystal elastomer actuation directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 18,
+    "estimated_cost_usd": 306767,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7909420,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 28,
+    "economic_value_usd": 474565200000
+  },
+  "confidence": 0.30841114869258285,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "294c6b83c95f",
+  "generation": 4858,
+  "created_at": "2026-03-02T06:14:55.075524",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "If Ketamine-like NMDA antagonism without dissociation is applied to be, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 22,
+    "estimated_cost_usd": 622072,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 44513777,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 30,
+    "economic_value_usd": 4006239930000
+  },
+  "confidence": 0.6911901373813452,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

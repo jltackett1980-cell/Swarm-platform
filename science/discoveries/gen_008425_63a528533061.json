@@ -1,0 +1,32 @@
+{
+  "id": "63a528533061",
+  "generation": 8425,
+  "created_at": "2026-03-02T06:28:51.692964",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "Photocatalytic oxidation under visible light may resolve How to restore depleted agricultural soil microbiome rapidly at scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 9,
+    "estimated_cost_usd": 101028,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 166739049,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 17,
+    "economic_value_usd": 5002171470000
+  },
+  "confidence": 0.5442511278265656,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

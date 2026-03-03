@@ -1,0 +1,118 @@
+{
+  "device_id": "autism_sensory_noise_cancel_wearable_patch",
+  "condition": "autism_sensory",
+  "physics_principle": "noise_cancel",
+  "form_factor": "wearable_patch",
+  "generation": 6,
+  "parent_champion": "PulseSteady",
+  "generated_at": "2026-03-02T17:56:33",
+  "engineering": {
+    "mcu": {
+      "part": "STM32H743",
+      "description": "Cortex-M7 480MHz, DSP+FPU",
+      "cost_usd": 8.5
+    },
+    "physics_implementation": {
+      "principle": "noise_cancel",
+      "proven": true,
+      "comparable_devices": {
+        "mcu": {
+          "part": "STM32G031",
+          "description": "Cortex-M0+ \u2014 sufficient for thermal control PID loop",
+          "cost_usd": 1.2
+        },
+        "thermal_elements": [
+          {
+            "part": "Peltier TEC1-12706",
+            "function": "Thermoelectric cooler/heater",
+            "cost_usd": 3.5
+          },
+          {
+            "part": "DRV8871",
+            "function": "H-bridge motor driver for TEC control",
+            "cost_usd": 1.8
+          },
+          {
+            "part": "NTC 10K thermistor",
+            "function": "Skin temperature sensing x4",
+            "cost_usd": 0.4
+          },
+          {
+            "part": "MLX90614",
+            "function": "IR contactless temp verification",
+            "cost_usd": 4.5
+          }
+        ],
+        "power": {
+          "battery": "Li-Po 2000mAh 3.7V (TEC is power hungry)",
+          "charger": "BQ25895",
+          "estimated_life_hours": 4,
+          "cost_usd": 7.0
+        },
+        "pcb": {
+          "layers": 2,
+          "size_mm": "50x40",
+          "estimated_cost_usd": 2.0
+        },
+        "enclosure": {
+          "material": "Aluminum heatsink + silicone contact surface",
+          "ip_rating": "IP44",
+          "size_mm": "80x60x20",
+          "estimated_cost_usd": 8.0
+        },
+        "firmware": {
+          "algorithm": "PID thermal control loop. Setpoint \u00b10.5\u00b0C accuracy. Ramp rate 1\u00b0C/min.",
+          "safety": "Hardware cutoff at 42\u00b0C skin surface. Redundant thermistors.",
+          "protocols": {
+            "heat_therapy": "38-40\u00b0C, 20min session",
+            "cold_therapy": "10-15\u00b0C, 10min session",
+            "contrast": "Alternating hot/cold 2min cycles x5"
+          }
+        },
+        "fda_pathway": {
+          "device_class": "Class II",
+          "submission_type": "510(k)",
+          "predicate_devices": [
+            "Breg Polar Care",
+            "Game Ready GRPro"
+          ],
+          "estimated_timeline_months": 12,
+          "estimated_cost_usd": 35000
+        }
+      }
+    },
+    "power": {
+      "battery": "Li-Po 500mAh 3.7V",
+      "charger": "MCP73831 USB-C",
+      "regulator": "TPS62740 buck converter",
+      "estimated_life_hours": 220,
+      "cost_usd": 7.42
+    },
+    "pcb": {
+      "layers": 6,
+      "size_mm": "29x41",
+      "process": "ENIG",
+      "ip_rating": "IP68",
+      "cost_usd": 7.98
+    },
+    "firmware": {
+      "rtos": "RIOT OS",
+      "sampling_hz": 100,
+      "ml_model": "TensorFlow Lite Micro",
+      "connectivity": "BLE 5.0 AES-128",
+      "storage": "local only \u2014 no cloud"
+    }
+  },
+  "fda_pathway": {
+    "device_class": "II",
+    "submission_type": "510(k)",
+    "estimated_timeline_months": 10,
+    "estimated_cost_usd": 45000
+  },
+  "estimated_bom_cost_usd": 37.65,
+  "retail_price_target_usd": 185.75,
+  "peoples_charter": true,
+  "offline_first": true,
+  "no_cloud": true,
+  "wisdom_score": 100
+}

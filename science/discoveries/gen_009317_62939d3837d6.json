@@ -1,0 +1,32 @@
+{
+  "id": "62939d3837d6",
+  "generation": 9317,
+  "created_at": "2026-03-02T06:33:36.102545",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Combining Optical rectenna for direct photon-to-electron conversion with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 11,
+    "estimated_cost_usd": 213166,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3987499629,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 8,
+    "economic_value_usd": 159499985160000
+  },
+  "confidence": 0.7286725598797866,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "161348c7a915",
+  "generation": 8496,
+  "created_at": "2026-03-02T06:29:12.160394",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "The key to What causes normal proteins to misfold into prions and spread through tissue? is Epigenetic methylation/demethylation of regulatory region \u2014 specifically Epigenetic methylation/demethylation of \u2014 which would help 1,000,000 people affected.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 25,
+    "estimated_cost_usd": 1236009,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 778701,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 16,
+    "economic_value_usd": 46722060000
+  },
+  "confidence": 0.46696968529369265,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

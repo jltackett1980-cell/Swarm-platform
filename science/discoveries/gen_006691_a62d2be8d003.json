@@ -1,0 +1,32 @@
+{
+  "id": "a62d2be8d003",
+  "generation": 6691,
+  "created_at": "2026-03-02T06:21:16.232032",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "If Default mode network connectivity measurement via fMRI is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 5,
+    "estimated_cost_usd": 133523,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13849633,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 7,
+    "economic_value_usd": 553985320000
+  },
+  "confidence": 0.43920605601707435,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "be84b59df27a",
+  "generation": 4504,
+  "created_at": "2026-03-02T06:13:51.542170",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "The key to What material stores hydrogen fuel at high density without safety risk? is Carbon nanotube alignment in polymer matrix \u2014 specifically Carbon nanotube alignment \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 13,
+    "estimated_cost_usd": 214891,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1315540962,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 26,
+    "economic_value_usd": 92087867340000
+  },
+  "confidence": 0.45300026786409825,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

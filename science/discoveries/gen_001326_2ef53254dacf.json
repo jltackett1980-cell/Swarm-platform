@@ -1,0 +1,32 @@
+{
+  "id": "2ef53254dacf",
+  "generation": 1326,
+  "created_at": "2026-03-02T06:06:18.011057",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of Attention. Attention mechanism with linear complexity directly addresses this.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 6,
+    "estimated_cost_usd": 23151,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 629135926,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 24,
+    "economic_value_usd": 12582718520000
+  },
+  "confidence": 0.336171913270823,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

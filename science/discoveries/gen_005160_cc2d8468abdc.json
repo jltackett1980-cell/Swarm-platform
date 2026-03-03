@@ -1,0 +1,32 @@
+{
+  "id": "cc2d8468abdc",
+  "generation": 5160,
+  "created_at": "2026-03-02T06:15:51.475796",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "The key to What synthetic material perfectly mimics bone's mechanical and biological properties? is Two-dimensional material stacking (van der Waals heterostructure) \u2014 specifically Two-dimensional material stacking \u2014 which would help 10,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 26,
+    "estimated_cost_usd": 452991,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7334077,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 27,
+    "economic_value_usd": 586726160000
+  },
+  "confidence": 0.6959933982798876,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "1107f45de122",
+  "generation": 309,
+  "created_at": "2026-03-02T06:04:34.971995",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "What enzyme or organism efficiently degrades all plastic types at scale? remains unsolved because previous research missed the role of Two-dimensional. Two-dimensional material stacking (van der Waals heterostructure) directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 20,
+    "estimated_cost_usd": 385771,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 895884775,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 8,
+    "economic_value_usd": 17917695500000
+  },
+  "confidence": 0.5502333924843528,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

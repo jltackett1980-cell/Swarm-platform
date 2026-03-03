@@ -1,0 +1,32 @@
+{
+  "id": "30ca809935ee",
+  "generation": 3328,
+  "created_at": "2026-03-02T06:10:38.406118",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "Combining Bacteriophage surface display for targeting with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 32,
+    "estimated_cost_usd": 483495,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1836814527,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 7,
+    "economic_value_usd": 73472581080000
+  },
+  "confidence": 0.6412495254528489,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

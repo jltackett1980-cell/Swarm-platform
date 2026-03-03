@@ -1,0 +1,32 @@
+{
+  "id": "7b1de9209764",
+  "generation": 7809,
+  "created_at": "2026-03-02T06:26:03.296575",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "If Synaptic plasticity modulation via NMDA receptor is applied to reversed, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 16,
+    "estimated_cost_usd": 394437,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 400,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11069326,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 12,
+    "economic_value_usd": 553466300000
+  },
+  "confidence": 0.6405839626842407,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

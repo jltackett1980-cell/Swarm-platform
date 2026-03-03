@@ -1,0 +1,32 @@
+{
+  "id": "b265e0aff87c",
+  "generation": 8121,
+  "created_at": "2026-03-02T06:27:26.434314",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "The key to Can superconductivity be achieved at room temperature \u2014 what material structure? is Topological insulator surface state conduction \u2014 specifically Topological insulator surface \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 5,
+    "estimated_cost_usd": 87635,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1214369022,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 11,
+    "economic_value_usd": 24287380440000
+  },
+  "confidence": 0.7403501714054752,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

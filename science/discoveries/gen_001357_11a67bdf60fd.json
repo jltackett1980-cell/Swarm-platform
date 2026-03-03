@@ -1,0 +1,32 @@
+{
+  "id": "11a67bdf60fd",
+  "generation": 1357,
+  "created_at": "2026-03-02T06:06:21.644979",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? remains unsolved because previous research missed the role of Phytoremediation. Phytoremediation with hyperaccumulator plant species directly addresses this.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 3,
+    "estimated_cost_usd": 33394,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 169771528,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 21,
+    "economic_value_usd": 3395430560000
+  },
+  "confidence": 0.596277696872727,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "c46da4dee12c",
+  "generation": 5297,
+  "created_at": "2026-03-02T06:16:18.347752",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "Metal-organic framework with specific pore geometry may resolve What material is biocompatible, conductive, and flexible enough for long-term brain implants? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 30,
+    "estimated_cost_usd": 507099,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3364200,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 19,
+    "economic_value_usd": 235494000000
+  },
+  "confidence": 0.662512126598313,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

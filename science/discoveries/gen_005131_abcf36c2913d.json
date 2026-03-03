@@ -1,0 +1,32 @@
+{
+  "id": "abcf36c2913d",
+  "generation": 5131,
+  "created_at": "2026-03-02T06:15:45.518178",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "If Cortical spreading depression mechanism in migraine is applied to subjective, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 35,
+    "estimated_cost_usd": 974616,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2275896325,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 21,
+    "economic_value_usd": 159312742750000
+  },
+  "confidence": 0.31327218713160276,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

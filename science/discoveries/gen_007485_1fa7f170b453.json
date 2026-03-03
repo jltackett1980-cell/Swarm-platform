@@ -1,0 +1,32 @@
+{
+  "id": "1fa7f170b453",
+  "generation": 7485,
+  "created_at": "2026-03-02T06:24:39.438926",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "CRISPR gene editing targeting specific pathway may resolve Why do amyloid plaques form in Alzheimer's and can they be cleared? by activating at the molecular level.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 14,
+    "estimated_cost_usd": 670196,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 37111284,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 23,
+    "economic_value_usd": 742225680000
+  },
+  "confidence": 0.5164709602486239,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

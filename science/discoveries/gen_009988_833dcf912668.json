@@ -1,0 +1,32 @@
+{
+  "id": "833dcf912668",
+  "generation": 9988,
+  "created_at": "2026-03-02T06:37:06.463158",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "If Glial cell activation/suppression in target brain region is applied to what, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 12,
+    "estimated_cost_usd": 307640,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8642395,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 5,
+    "economic_value_usd": 518543700000
+  },
+  "confidence": 0.6639490058121577,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

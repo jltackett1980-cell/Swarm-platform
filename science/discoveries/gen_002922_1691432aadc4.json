@@ -1,0 +1,32 @@
+{
+  "id": "1691432aadc4",
+  "generation": 2922,
+  "created_at": "2026-03-02T06:09:38.711457",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "Combining Federated learning without data centralization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 10,
+    "estimated_cost_usd": 43271,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3207080468,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 20,
+    "economic_value_usd": 256566437440000
+  },
+  "confidence": 0.6722415335718767,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "bb91987e6c11",
+  "generation": 650,
+  "created_at": "2026-03-02T06:05:03.531533",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Casimir effect between nanoscale surfaces may resolve How to achieve sustained net-positive nuclear fusion at commercial scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 9,
+    "estimated_cost_usd": 169860,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 936279392,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 19,
+    "economic_value_usd": 37451175680000
+  },
+  "confidence": 0.42603151885333107,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "625caf821327",
+  "generation": 9291,
+  "created_at": "2026-03-02T06:33:26.788826",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "If Polymer crosslinking under specific stimulus is applied to microcracks, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 12,
+    "estimated_cost_usd": 167698,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 499050680,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 16,
+    "economic_value_usd": 9981013600000
+  },
+  "confidence": 0.6053506440765568,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6d79e360d8fe",
+  "generation": 8204,
+  "created_at": "2026-03-02T06:27:50.224774",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "Combining Perovskite crystal structure optimization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 19,
+    "estimated_cost_usd": 308917,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2544629931,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 25,
+    "economic_value_usd": 127231496550000
+  },
+  "confidence": 0.5212253652958889,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

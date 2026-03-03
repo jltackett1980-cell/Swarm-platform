@@ -1,0 +1,32 @@
+{
+  "id": "194a57ddd9a2",
+  "generation": 1130,
+  "created_at": "2026-03-02T06:05:55.222697",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "How does gut microbiome composition directly affect brain chemistry and mood? remains unsolved because previous research missed the role of Stem. Stem cell differentiation into target tissue type directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 31,
+    "estimated_cost_usd": 1142288,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 116790869,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 12,
+    "economic_value_usd": 9343269520000
+  },
+  "confidence": 0.61281317934198,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

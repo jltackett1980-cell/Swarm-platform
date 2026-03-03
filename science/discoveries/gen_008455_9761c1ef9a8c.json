@@ -1,0 +1,32 @@
+{
+  "id": "9761c1ef9a8c",
+  "generation": 8455,
+  "created_at": "2026-03-02T06:29:00.611786",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "If Self-assembled monolayer for surface functionalization is applied to instability, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 36,
+    "estimated_cost_usd": 572719,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 659878191,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 8,
+    "economic_value_usd": 6598781910000
+  },
+  "confidence": 0.6765585780873481,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

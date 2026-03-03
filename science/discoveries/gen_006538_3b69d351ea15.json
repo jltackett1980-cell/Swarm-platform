@@ -1,0 +1,32 @@
+{
+  "id": "3b69d351ea15",
+  "generation": 6538,
+  "created_at": "2026-03-02T06:20:41.571156",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "Constructed wetland for water filtration may resolve Can ocean acidification be safely reversed \u2014 what biochemical approach? by activating at the systems level.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 11,
+    "estimated_cost_usd": 143760,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 830732793,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 25,
+    "economic_value_usd": 8307327930000
+  },
+  "confidence": 0.6123331249504038,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

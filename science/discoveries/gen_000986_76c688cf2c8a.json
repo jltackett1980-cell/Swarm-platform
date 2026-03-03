@@ -1,0 +1,32 @@
+{
+  "id": "76c688cf2c8a",
+  "generation": 986,
+  "created_at": "2026-03-02T06:05:39.898963",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "If Nanoparticle delivery to cross blood-brain barrier is applied to what, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 33,
+    "estimated_cost_usd": 1133358,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 669653,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 7,
+    "economic_value_usd": 40179180000
+  },
+  "confidence": 0.6513054020786408,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

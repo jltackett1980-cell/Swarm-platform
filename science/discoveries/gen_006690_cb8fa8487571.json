@@ -1,0 +1,32 @@
+{
+  "id": "cb8fa8487571",
+  "generation": 6690,
+  "created_at": "2026-03-02T06:21:16.106115",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "Combining Biochar amendment for soil carbon sequestration with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 4,
+    "estimated_cost_usd": 43831,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 108967887,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 23,
+    "economic_value_usd": 9807109830000
+  },
+  "confidence": 0.5284238072904391,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

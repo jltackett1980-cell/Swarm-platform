@@ -1,0 +1,32 @@
+{
+  "id": "a8b6e4505c23",
+  "generation": 1043,
+  "created_at": "2026-03-02T06:05:46.550331",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "What enzyme or organism efficiently degrades all plastic types at scale? remains unsolved because previous research missed the role of Electrospun. Electrospun nanofiber scaffold for tissue engineering directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 30,
+    "estimated_cost_usd": 501952,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1532166493,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 18,
+    "economic_value_usd": 30643329860000
+  },
+  "confidence": 0.48437399517933805,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

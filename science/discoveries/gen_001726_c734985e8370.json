@@ -1,0 +1,32 @@
+{
+  "id": "c734985e8370",
+  "generation": 1726,
+  "created_at": "2026-03-02T06:07:06.427300",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "Combining Liquid crystal elastomer actuation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 12,
+    "estimated_cost_usd": 202334,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4524956,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 22,
+    "economic_value_usd": 271497360000
+  },
+  "confidence": 0.41538223894933446,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

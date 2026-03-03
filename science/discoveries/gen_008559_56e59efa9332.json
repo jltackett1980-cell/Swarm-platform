@@ -1,0 +1,32 @@
+{
+  "id": "56e59efa9332",
+  "generation": 8559,
+  "created_at": "2026-03-02T06:29:29.019326",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "The key to What causes normal proteins to misfold into prions and spread through tissue? is Telomerase activation/inhibition in target cells \u2014 specifically Telomerase activation/inhibition in \u2014 which would help 1,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 10,
+    "estimated_cost_usd": 437636,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 484224,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 23,
+    "economic_value_usd": 29053440000
+  },
+  "confidence": 0.4675698272844862,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

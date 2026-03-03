@@ -1,0 +1,32 @@
+{
+  "id": "b0d8f5064997",
+  "generation": 4345,
+  "created_at": "2026-03-02T06:13:23.913912",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "How are trauma and stress responses inherited epigenetically across generations? remains unsolved because previous research missed the role of Telomerase. Telomerase activation/inhibition in target cells directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 29,
+    "estimated_cost_usd": 1254754,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 186929854,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 7,
+    "economic_value_usd": 1869298540000
+  },
+  "confidence": 0.4018900288836139,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

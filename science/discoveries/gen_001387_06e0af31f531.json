@@ -1,0 +1,32 @@
+{
+  "id": "06e0af31f531",
+  "generation": 1387,
+  "created_at": "2026-03-02T06:06:24.913447",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "How to store solar energy at grid scale without chemical battery degradation? remains unsolved because previous research missed the role of Plasma. Plasma confinement via magnetic mirror geometry directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 3,
+    "estimated_cost_usd": 61785,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 876502714,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 30,
+    "economic_value_usd": 35060108560000
+  },
+  "confidence": 0.3352418617538631,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

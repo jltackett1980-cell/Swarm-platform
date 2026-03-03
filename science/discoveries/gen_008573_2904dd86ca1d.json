@@ -1,0 +1,32 @@
+{
+  "id": "2904dd86ca1d",
+  "generation": 8573,
+  "created_at": "2026-03-02T06:29:33.096520",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "If Casimir effect between nanoscale surfaces is applied to \u2014, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 11,
+    "estimated_cost_usd": 263948,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 974202741,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 12,
+    "economic_value_usd": 19484054820000
+  },
+  "confidence": 0.34574255092601025,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

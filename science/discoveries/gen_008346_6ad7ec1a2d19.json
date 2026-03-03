@@ -1,0 +1,32 @@
+{
+  "id": "6ad7ec1a2d19",
+  "generation": 8346,
+  "created_at": "2026-03-02T06:28:30.139440",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "The key to How to engineer materials that autonomously repair microcracks before failure? is Shape memory alloy phase transition \u2014 specifically Shape memory alloy \u2014 which would help 1,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 16,
+    "estimated_cost_usd": 250061,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 137918264,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 14,
+    "economic_value_usd": 12412643760000
+  },
+  "confidence": 0.6153404007282859,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

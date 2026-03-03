@@ -1,0 +1,32 @@
+{
+  "id": "5d1d8516046c",
+  "generation": 2470,
+  "created_at": "2026-03-02T06:08:37.464629",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "mRNA therapy to upregulate/downregulate gene expression may resolve What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 14,
+    "estimated_cost_usd": 586173,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11466495,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 15,
+    "economic_value_usd": 458659800000
+  },
+  "confidence": 0.5905913929316624,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2ea227e2f457",
+  "generation": 8476,
+  "created_at": "2026-03-02T06:29:05.932732",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Resonant inductive coupling for wireless power",
+  "hypothesis": "Combining Resonant inductive coupling for wireless power with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 6,
+    "estimated_cost_usd": 134187,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1927529621,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 9,
+    "economic_value_usd": 96376481050000
+  },
+  "confidence": 0.72153100029432,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

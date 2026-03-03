@@ -1,0 +1,32 @@
+{
+  "id": "6ca5036f806d",
+  "generation": 10171,
+  "created_at": "2026-03-02T07:24:57.374878",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "Can addiction-related neural pathway changes be reversed without withdrawal? remains unsolved because previous research missed the role of Psychedelic-induced. Psychedelic-induced neuroplasticity via 5-HT2A receptor directly addresses this.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 10,
+    "estimated_cost_usd": 332398,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13813991,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 17,
+    "economic_value_usd": 690699550000
+  },
+  "confidence": 0.47755540981448025,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

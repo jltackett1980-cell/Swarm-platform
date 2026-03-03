@@ -1,0 +1,32 @@
+{
+  "id": "1654d80d827d",
+  "generation": 4512,
+  "created_at": "2026-03-02T06:13:52.192825",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "The key to What enzyme or organism efficiently degrades all plastic types at scale? is Self-assembled monolayer for surface functionalization \u2014 specifically Self-assembled monolayer for \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 14,
+    "estimated_cost_usd": 277759,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1773050995,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 7,
+    "economic_value_usd": 17730509950000
+  },
+  "confidence": 0.46612834972709827,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "a56ec040345f",
+  "generation": 3107,
+  "created_at": "2026-03-02T06:10:05.834484",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "The key to Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway? is Microbiome modulation via targeted bacteriophage therapy \u2014 specifically Microbiome modulation via \u2014 which would help 2,100,000 people affected.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 36,
+    "estimated_cost_usd": 1290586,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 769027,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 14,
+    "economic_value_usd": 15380540000
+  },
+  "confidence": 0.3749983611051424,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

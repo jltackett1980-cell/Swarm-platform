@@ -1,0 +1,32 @@
+{
+  "id": "312680c79f44",
+  "generation": 2612,
+  "created_at": "2026-03-02T06:08:56.225856",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "Enzymatic depolymerization of specific polymer may resolve How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? by activating at the systems level.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 9,
+    "estimated_cost_usd": 121966,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 240932558,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 17,
+    "economic_value_usd": 12046627900000
+  },
+  "confidence": 0.5027220174349639,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

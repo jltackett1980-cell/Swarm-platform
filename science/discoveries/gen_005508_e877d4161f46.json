@@ -1,0 +1,32 @@
+{
+  "id": "e877d4161f46",
+  "generation": 5508,
+  "created_at": "2026-03-02T06:17:00.116894",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Spintronics for low-power data storage may resolve Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 6,
+    "estimated_cost_usd": 106961,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 411199164,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 17,
+    "economic_value_usd": 8223983280000
+  },
+  "confidence": 0.34322161798828626,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

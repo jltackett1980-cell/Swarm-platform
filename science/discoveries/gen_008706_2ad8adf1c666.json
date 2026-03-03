@@ -1,0 +1,32 @@
+{
+  "id": "2ad8adf1c666",
+  "generation": 8706,
+  "created_at": "2026-03-02T06:30:10.419062",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "Electrospun nanofiber scaffold for tissue engineering may resolve What material is biocompatible, conductive, and flexible enough for long-term brain implants? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 25,
+    "estimated_cost_usd": 352041,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2794756,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 18,
+    "economic_value_usd": 223580480000
+  },
+  "confidence": 0.36273029090938325,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

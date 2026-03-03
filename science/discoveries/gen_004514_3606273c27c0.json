@@ -1,0 +1,32 @@
+{
+  "id": "3606273c27c0",
+  "generation": 4514,
+  "created_at": "2026-03-02T06:13:53.178655",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "Combining Plasma confinement via magnetic mirror geometry with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 2,
+    "estimated_cost_usd": 48428,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1072853301,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 27,
+    "economic_value_usd": 75099731070000
+  },
+  "confidence": 0.5453057690165461,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

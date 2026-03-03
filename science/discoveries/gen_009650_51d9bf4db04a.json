@@ -1,0 +1,32 @@
+{
+  "id": "51d9bf4db04a",
+  "generation": 9650,
+  "created_at": "2026-03-02T06:35:18.174916",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Resonant inductive coupling for wireless power",
+  "hypothesis": "What is dark matter composed of \u2014 27% of universe is unknown remains unsolved because previous research missed the role of Resonant. Resonant inductive coupling for wireless power directly addresses this.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 1,
+    "estimated_cost_usd": 16905,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3518778865,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 13,
+    "economic_value_usd": 316690097850000
+  },
+  "confidence": 0.6580806880847964,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

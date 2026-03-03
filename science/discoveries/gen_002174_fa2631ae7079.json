@@ -1,0 +1,32 @@
+{
+  "id": "fa2631ae7079",
+  "generation": 2174,
+  "created_at": "2026-03-02T06:08:00.084561",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "Why do perovskite solar cells degrade \u2014 what material instability causes it? remains unsolved because previous research missed the role of Polymer. Polymer crosslinking under specific stimulus directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 15,
+    "estimated_cost_usd": 248403,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1194139940,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 20,
+    "economic_value_usd": 71648396400000
+  },
+  "confidence": 0.32142432500443285,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

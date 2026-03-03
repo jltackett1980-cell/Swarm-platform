@@ -1,0 +1,32 @@
+{
+  "id": "dbbbac739849",
+  "generation": 3233,
+  "created_at": "2026-03-02T06:10:24.555898",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "The key to What membrane material filters all contaminants from water at low energy cost? is Polymer crosslinking under specific stimulus \u2014 specifically Polymer crosslinking under \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 5,
+    "estimated_cost_usd": 87134,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 458832981,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 20,
+    "economic_value_usd": 4588329810000
+  },
+  "confidence": 0.5372809273434682,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

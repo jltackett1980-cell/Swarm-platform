@@ -1,0 +1,32 @@
+{
+  "id": "c62a897cd817",
+  "generation": 2049,
+  "created_at": "2026-03-02T06:07:44.616191",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "Shape memory alloy phase transition may resolve How to engineer materials that autonomously repair microcracks before failure? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 18,
+    "estimated_cost_usd": 253243,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 380750655,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 23,
+    "economic_value_usd": 26652545850000
+  },
+  "confidence": 0.43234624451510834,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

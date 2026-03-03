@@ -1,0 +1,32 @@
+{
+  "id": "48c9b9a016fc",
+  "generation": 6287,
+  "created_at": "2026-03-02T06:19:45.260248",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "The key to What material is biocompatible, conductive, and flexible enough for long-term brain implants? is Bacteriophage surface display for targeting \u2014 specifically Bacteriophage surface display \u2014 which would help 5,400,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 27,
+    "estimated_cost_usd": 376685,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2930621,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 9,
+    "economic_value_usd": 234449680000
+  },
+  "confidence": 0.7002084305211573,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

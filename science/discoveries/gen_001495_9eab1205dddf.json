@@ -1,0 +1,32 @@
+{
+  "id": "9eab1205dddf",
+  "generation": 1495,
+  "created_at": "2026-03-02T06:06:38.348780",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "Photonic bandgap manipulation in metamaterial may resolve Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear by activating at the systems level.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 12,
+    "estimated_cost_usd": 273326,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 960833387,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 17,
+    "economic_value_usd": 9608333870000
+  },
+  "confidence": 0.5338214109691828,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

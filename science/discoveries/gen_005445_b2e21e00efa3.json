@@ -1,0 +1,32 @@
+{
+  "id": "b2e21e00efa3",
+  "generation": 5445,
+  "created_at": "2026-03-02T06:16:47.770299",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "Combining Microbiome modulation via targeted bacteriophage therapy with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 12,
+    "estimated_cost_usd": 453194,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 459876,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 24,
+    "economic_value_usd": 22993800000
+  },
+  "confidence": 0.6475115143132064,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

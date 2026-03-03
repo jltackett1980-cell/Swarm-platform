@@ -1,0 +1,32 @@
+{
+  "id": "a9b4780177a2",
+  "generation": 8036,
+  "created_at": "2026-03-02T06:27:02.912246",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "If Monte Carlo tree search with learned heuristics is applied to vs, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 7,
+    "estimated_cost_usd": 24318,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Theoretical complexity proof with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3831664472,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 17,
+    "economic_value_usd": 344849802480000
+  },
+  "confidence": 0.3926693264048916,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2d8bb2519d26",
+  "generation": 8276,
+  "created_at": "2026-03-02T06:28:09.450148",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "Combining Shape memory alloy phase transition with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 17,
+    "estimated_cost_usd": 330281,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 456745213,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 24,
+    "economic_value_usd": 36539617040000
+  },
+  "confidence": 0.4352112169773812,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

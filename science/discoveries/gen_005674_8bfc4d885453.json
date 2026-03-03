@@ -1,0 +1,32 @@
+{
+  "id": "8bfc4d885453",
+  "generation": 5674,
+  "created_at": "2026-03-02T06:17:34.400797",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "If Photonic bandgap manipulation in metamaterial is applied to at, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 12,
+    "estimated_cost_usd": 297941,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3811843546,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 23,
+    "economic_value_usd": 38118435460000
+  },
+  "confidence": 0.5464939185769667,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

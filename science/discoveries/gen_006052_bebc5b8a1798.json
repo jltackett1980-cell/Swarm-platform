@@ -1,0 +1,32 @@
+{
+  "id": "bebc5b8a1798",
+  "generation": 6052,
+  "created_at": "2026-03-02T06:18:54.096117",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "Combining Autophagy activation to clear misfolded proteins with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 32,
+    "estimated_cost_usd": 1575630,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 35258431,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 10,
+    "economic_value_usd": 1057752930000
+  },
+  "confidence": 0.4187381468951544,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

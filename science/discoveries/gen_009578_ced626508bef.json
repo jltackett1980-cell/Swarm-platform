@@ -1,0 +1,32 @@
+{
+  "id": "ced626508bef",
+  "generation": 9578,
+  "created_at": "2026-03-02T06:34:54.984424",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "The key to How does central sensitization maintain chronic pain without tissue damage? is Cortical spreading depression mechanism in migraine \u2014 specifically Cortical spreading depression \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 17,
+    "estimated_cost_usd": 552926,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 21771865,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 22,
+    "economic_value_usd": 1088593250000
+  },
+  "confidence": 0.3442246343370146,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

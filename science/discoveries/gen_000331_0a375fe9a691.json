@@ -1,0 +1,32 @@
+{
+  "id": "0a375fe9a691",
+  "generation": 331,
+  "created_at": "2026-03-02T06:04:36.820555",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "What membrane material filters all contaminants from water at low energy cost? remains unsolved because previous research missed the role of Two-dimensional. Two-dimensional material stacking (van der Waals heterostructure) directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 15,
+    "estimated_cost_usd": 265851,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 534356528,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 27,
+    "economic_value_usd": 21374261120000
+  },
+  "confidence": 0.6954711720529327,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

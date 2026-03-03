@@ -1,0 +1,32 @@
+{
+  "id": "3db592875728",
+  "generation": 3326,
+  "created_at": "2026-03-02T06:10:38.283346",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "If Cortical spreading depression mechanism in migraine is applied to be, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 7,
+    "estimated_cost_usd": 191561,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 25471805,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 6,
+    "economic_value_usd": 509436100000
+  },
+  "confidence": 0.4141644806443471,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "72e286762342",
+  "generation": 4802,
+  "created_at": "2026-03-02T06:14:44.601586",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "The key to What material stores hydrogen fuel at high density without safety risk? is Perovskite crystal structure optimization \u2014 specifically Perovskite crystal structure \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 16,
+    "estimated_cost_usd": 290329,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1174248483,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 20,
+    "economic_value_usd": 35227454490000
+  },
+  "confidence": 0.5825619570133178,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

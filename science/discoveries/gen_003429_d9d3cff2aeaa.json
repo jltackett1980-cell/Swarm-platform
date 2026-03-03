@@ -1,0 +1,32 @@
+{
+  "id": "d9d3cff2aeaa",
+  "generation": 3429,
+  "created_at": "2026-03-02T06:10:53.784518",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "How does gut microbiome composition directly affect brain chemistry and mood? remains unsolved because previous research missed the role of Monoclonal. Monoclonal antibody blocking protein-protein interaction directly addresses this.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 14,
+    "estimated_cost_usd": 684077,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 148342163,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 23,
+    "economic_value_usd": 11867373040000
+  },
+  "confidence": 0.639466978093985,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

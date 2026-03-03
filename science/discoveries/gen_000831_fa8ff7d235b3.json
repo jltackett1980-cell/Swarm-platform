@@ -1,0 +1,32 @@
+{
+  "id": "fa8ff7d235b3",
+  "generation": 831,
+  "created_at": "2026-03-02T06:05:21.481086",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Lattice-based cryptography for quantum resistance",
+  "hypothesis": "Lattice-based cryptography for quantum resistance may resolve Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved by activating at the systems level.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 1,
+    "estimated_cost_usd": 4017,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Benchmark on standard dataset with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 909970112,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 22,
+    "economic_value_usd": 27299103360000
+  },
+  "confidence": 0.370170428788045,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

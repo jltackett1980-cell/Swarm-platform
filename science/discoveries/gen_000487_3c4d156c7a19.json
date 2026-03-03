@@ -1,0 +1,32 @@
+{
+  "id": "3c4d156c7a19",
+  "generation": 487,
+  "created_at": "2026-03-02T06:04:49.814458",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "If Spintronics for low-power data storage is applied to quantum, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 6,
+    "estimated_cost_usd": 148286,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1403594775,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 13,
+    "economic_value_usd": 56143791000000
+  },
+  "confidence": 0.32416341139811533,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

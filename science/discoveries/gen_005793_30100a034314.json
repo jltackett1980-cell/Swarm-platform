@@ -1,0 +1,32 @@
+{
+  "id": "30100a034314",
+  "generation": 5793,
+  "created_at": "2026-03-02T06:17:59.865070",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "Combining Photocatalytic oxidation under visible light with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 9,
+    "estimated_cost_usd": 95512,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 92007010,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 25,
+    "economic_value_usd": 4600350500000
+  },
+  "confidence": 0.45233178308081734,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

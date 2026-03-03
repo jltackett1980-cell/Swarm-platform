@@ -1,0 +1,32 @@
+{
+  "id": "d6cb63815e1f",
+  "generation": 6400,
+  "created_at": "2026-03-02T06:20:10.839010",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "If Ketamine-like NMDA antagonism without dissociation is applied to subjective, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 35,
+    "estimated_cost_usd": 1072267,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1895568981,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 13,
+    "economic_value_usd": 56867069430000
+  },
+  "confidence": 0.6763876745359756,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

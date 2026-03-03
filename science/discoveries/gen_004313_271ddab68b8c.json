@@ -1,0 +1,32 @@
+{
+  "id": "271ddab68b8c",
+  "generation": 4313,
+  "created_at": "2026-03-02T06:13:18.258134",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "If Microbiome modulation via targeted bacteriophage therapy is applied to in, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 24,
+    "estimated_cost_usd": 1013551,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 489,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 25912145,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 27,
+    "economic_value_usd": 1554728700000
+  },
+  "confidence": 0.35648880855837595,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

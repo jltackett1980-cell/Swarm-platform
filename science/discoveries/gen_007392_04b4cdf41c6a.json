@@ -1,0 +1,32 @@
+{
+  "id": "04b4cdf41c6a",
+  "generation": 7392,
+  "created_at": "2026-03-02T06:24:14.230403",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "If Glial cell activation/suppression in target brain region is applied to in, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 33,
+    "estimated_cost_usd": 1030741,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3715295471,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 19,
+    "economic_value_usd": 74305909420000
+  },
+  "confidence": 0.48477035849092326,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

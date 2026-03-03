@@ -1,0 +1,32 @@
+{
+  "id": "4120bf57f315",
+  "generation": 3809,
+  "created_at": "2026-03-02T06:11:53.781874",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale? remains unsolved because previous research missed the role of Quantum. Quantum tunneling through energy barrier directly addresses this.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 9,
+    "estimated_cost_usd": 216369,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2043827312,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 28,
+    "economic_value_usd": 20438273120000
+  },
+  "confidence": 0.5441849740914244,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

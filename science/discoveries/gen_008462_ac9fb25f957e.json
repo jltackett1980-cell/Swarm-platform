@@ -1,0 +1,32 @@
+{
+  "id": "ac9fb25f957e",
+  "generation": 8462,
+  "created_at": "2026-03-02T06:29:01.776482",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "Combining Piezoelectric coupling in novel crystal structure with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 2,
+    "estimated_cost_usd": 38878,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1332548366,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 26,
+    "economic_value_usd": 53301934640000
+  },
+  "confidence": 0.7444415398921154,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "94cdee696d63",
+  "generation": 9800,
+  "created_at": "2026-03-02T06:36:05.952479",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "Self-assembled monolayer for surface functionalization may resolve How to engineer materials that autonomously repair microcracks before failure? by activating at the molecular level.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 14,
+    "estimated_cost_usd": 239235,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 363657808,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 9,
+    "economic_value_usd": 3636578080000
+  },
+  "confidence": 0.5280392370939389,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

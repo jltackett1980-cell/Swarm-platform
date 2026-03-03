@@ -1,0 +1,32 @@
+{
+  "id": "0a19e49c6e3b",
+  "generation": 1513,
+  "created_at": "2026-03-02T06:06:40.628182",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "How to achieve sustained net-positive nuclear fusion at commercial scale? remains unsolved because previous research missed the role of Thermoelectric. Thermoelectric Seebeck coefficient maximization directly addresses this.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 8,
+    "estimated_cost_usd": 174703,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3224317272,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 14,
+    "economic_value_usd": 96729518160000
+  },
+  "confidence": 0.5000313312662161,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

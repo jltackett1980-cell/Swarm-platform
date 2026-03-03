@@ -1,0 +1,32 @@
+{
+  "id": "35335f907021",
+  "generation": 543,
+  "created_at": "2026-03-02T06:04:53.990410",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Self-assembled monolayer for surface functionalization \u2014 specifically Self-assembled monolayer for \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 20,
+    "estimated_cost_usd": 335075,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 197488147,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 17,
+    "economic_value_usd": 15799051760000
+  },
+  "confidence": 0.39822335675964965,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

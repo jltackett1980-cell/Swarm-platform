@@ -1,0 +1,32 @@
+{
+  "id": "4350a1c3893e",
+  "generation": 3038,
+  "created_at": "2026-03-02T06:09:55.403573",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Combining Default mode network connectivity measurement via fMRI with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 28,
+    "estimated_cost_usd": 694950,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2779566519,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 9,
+    "economic_value_usd": 194569656330000
+  },
+  "confidence": 0.4564942044790642,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

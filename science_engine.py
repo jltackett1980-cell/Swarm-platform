@@ -455,3 +455,8 @@ if __name__ == "__main__":
         elif arg == "--cycles" and len(sys.argv) > sys.argv.index(arg) + 1:
             cycles = int(sys.argv[sys.argv.index(arg) + 1])
     run(cycles=cycles)
+
+# ── FREEDOM PROBLEMS (added March 2, 2026) ─────────────
+    {"id":"survival_to_creation", "domain":"philosophy", "problem":"How do we remove survival fear so people can become fully creative?", "population":8_000_000_000, "urgency":1.0},
+    {"id":"creative_block_poverty", "domain":"psychology", "problem":"What psychological mechanisms link poverty to reduced creative output?", "population":3_000_000_000, "urgency":0.9},
+    {"id":"freedom_measurement", "domain":"computing", "problem":"How to measure whether a person has been freed from survival fear?", "population":8_000_000_000, "urgency":0.8},

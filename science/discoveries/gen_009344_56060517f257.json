@@ -1,0 +1,32 @@
+{
+  "id": "56060517f257",
+  "generation": 9344,
+  "created_at": "2026-03-02T06:33:45.646681",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "Combining Neuroinflammation reduction via microglial targeting with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 35,
+    "estimated_cost_usd": 1221553,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13846312,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 12,
+    "economic_value_usd": 830778720000
+  },
+  "confidence": 0.6440278866187189,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

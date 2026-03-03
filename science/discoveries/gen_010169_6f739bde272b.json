@@ -1,0 +1,32 @@
+{
+  "id": "6f739bde272b",
+  "generation": 10169,
+  "created_at": "2026-03-02T07:24:56.974341",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "If Psychedelic-induced neuroplasticity via 5-HT2A receptor is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 27,
+    "estimated_cost_usd": 938613,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 519,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6804570,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 9,
+    "economic_value_usd": 544365600000
+  },
+  "confidence": 0.4093626963429299,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

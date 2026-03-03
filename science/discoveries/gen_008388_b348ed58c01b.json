@@ -1,0 +1,32 @@
+{
+  "id": "b348ed58c01b",
+  "generation": 8388,
+  "created_at": "2026-03-02T06:28:40.735904",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "If Attention mechanism with linear complexity is applied to \u2014, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 12,
+    "estimated_cost_usd": 54393,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 782194890,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 8,
+    "economic_value_usd": 46931693400000
+  },
+  "confidence": 0.4233026458164874,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

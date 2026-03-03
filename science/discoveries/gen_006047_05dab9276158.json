@@ -1,0 +1,32 @@
+{
+  "id": "05dab9276158",
+  "generation": 6047,
+  "created_at": "2026-03-02T06:18:53.514757",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Atomic. Atomic layer deposition of conformal coating directly addresses this.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 18,
+    "estimated_cost_usd": 309448,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3697739,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 9,
+    "economic_value_usd": 258841730000
+  },
+  "confidence": 0.6299567426265344,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

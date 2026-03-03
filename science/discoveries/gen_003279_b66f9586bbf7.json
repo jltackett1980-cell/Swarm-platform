@@ -1,0 +1,32 @@
+{
+  "id": "b66f9586bbf7",
+  "generation": 3279,
+  "created_at": "2026-03-02T06:10:31.015123",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Thermoelectric Seebeck coefficient maximization may resolve How to achieve sustained net-positive nuclear fusion at commercial scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 6,
+    "estimated_cost_usd": 134414,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3872951246,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 21,
+    "economic_value_usd": 116188537380000
+  },
+  "confidence": 0.6500220315358274,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

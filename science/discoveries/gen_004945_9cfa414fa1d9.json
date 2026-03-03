@@ -1,0 +1,32 @@
+{
+  "id": "9cfa414fa1d9",
+  "generation": 4945,
+  "created_at": "2026-03-02T06:15:11.555976",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Combining Casimir effect between nanoscale surfaces with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 5,
+    "estimated_cost_usd": 93307,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 270555993,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 22,
+    "economic_value_usd": 10822239720000
+  },
+  "confidence": 0.5895184555735353,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

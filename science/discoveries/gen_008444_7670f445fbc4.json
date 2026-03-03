@@ -1,0 +1,32 @@
+{
+  "id": "7670f445fbc4",
+  "generation": 8444,
+  "created_at": "2026-03-02T06:28:57.863401",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "If Small molecule inhibitor of enzyme active site is applied to colonize, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 15,
+    "estimated_cost_usd": 640975,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6329437,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 30,
+    "economic_value_usd": 379766220000
+  },
+  "confidence": 0.45224374219308633,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

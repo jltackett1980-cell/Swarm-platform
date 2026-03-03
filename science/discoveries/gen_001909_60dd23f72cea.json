@@ -1,0 +1,32 @@
+{
+  "id": "60dd23f72cea",
+  "generation": 1909,
+  "created_at": "2026-03-02T06:07:27.712966",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "Plasma confinement via magnetic mirror geometry may resolve Why does quantum superposition collapse \u2014 can decoherence be prevented at scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 5,
+    "estimated_cost_usd": 105121,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3168542786,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 18,
+    "economic_value_usd": 285168850740000
+  },
+  "confidence": 0.421904064289365,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

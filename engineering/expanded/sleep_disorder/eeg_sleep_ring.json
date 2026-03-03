@@ -1,0 +1,138 @@
+{
+  "device_id": "sleep_disorder_eeg_sleep_ring",
+  "condition": "sleep_disorder",
+  "physics_principle": "eeg_sleep",
+  "form_factor": "ring",
+  "generation": 18,
+  "parent_champion": "NexusSleep",
+  "generated_at": "2026-03-02T17:56:33",
+  "engineering": {
+    "mcu": {
+      "part": "RP2040",
+      "description": "Dual Cortex-M0+ 133MHz, PIO",
+      "cost_usd": 1.0
+    },
+    "physics_implementation": {
+      "principle": "eeg_sleep",
+      "proven": true,
+      "comparable_devices": {
+        "mcu": {
+          "part": "STM32G031",
+          "description": "ARM Cortex-M0+ 64MHz, low cost, sufficient for LED drive control",
+          "cost_usd": 1.2,
+          "datasheet": "st.com/en/microcontrollers-microprocessors/stm32g031.html"
+        },
+        "light_source": [
+          {
+            "part": "660nm Red LED array (Epistar)",
+            "function": "Superficial tissue penetration 1-3mm",
+            "cost_usd": 2.8
+          },
+          {
+            "part": "850nm NIR LED array (Epistar)",
+            "function": "Deep tissue penetration 5-10mm",
+            "cost_usd": 3.2
+          },
+          {
+            "part": "IRLML6402 MOSFET",
+            "function": "PWM LED current control",
+            "cost_usd": 0.3
+          }
+        ],
+        "sensors": [
+          {
+            "part": "TSL2591",
+            "function": "Ambient light sensor \u2014 dark adaptation check",
+            "cost_usd": 1.5
+          },
+          {
+            "part": "LM35",
+            "function": "LED junction temperature monitor",
+            "cost_usd": 0.8
+          }
+        ],
+        "power": {
+          "battery": "Li-Po 600mAh 3.7V",
+          "charger": "MCP73831",
+          "regulator": "AP2112K 3.3V LDO",
+          "estimated_life_hours": 30,
+          "cost_usd": 3.5
+        },
+        "pcb": {
+          "layers": 2,
+          "size_mm": "50x30",
+          "thickness_mm": 1.0,
+          "process": "HASL",
+          "estimated_cost_usd": 1.5
+        },
+        "enclosure": {
+          "material": "Opaque ABS \u2014 light-sealed",
+          "ip_rating": "IP44",
+          "size_mm": "60x40x12",
+          "estimated_cost_usd": 3.5
+        },
+        "firmware": {
+          "rtos": "Bare metal",
+          "pwm_frequency_hz": 10000,
+          "duty_cycle_range": "1-100% programmable",
+          "irradiance_mw_cm2": "10-200 mW/cm\u00b2 at skin surface",
+          "protocols": {
+            "wound_healing": "660nm 50mW/cm\u00b2 10min 2x/day",
+            "depression": "810nm 250mW/cm\u00b2 20min/day transcranial",
+            "sleep": "660nm 10mW/cm\u00b2 30min before bed",
+            "pain": "660nm+850nm combined 100mW/cm\u00b2 15min"
+          },
+          "safety": "Max 20min session. Eye protection warning on startup. Temp cutoff 45C."
+        },
+        "signal_processing": {
+          "dose_calculation": "Joules/cm\u00b2 = Power(W/cm\u00b2) \u00d7 Time(s). Target 4-60 J/cm\u00b2 depending on condition.",
+          "feedback": "Photodiode monitors output power, adjusts PWM to maintain calibrated dose"
+        },
+        "fda_pathway": {
+          "device_class": "Class II",
+          "submission_type": "510(k)",
+          "predicate_devices": [
+            "Joovv Solo",
+            "PlatinumLED BioMax",
+            "Tendlite Red Light"
+          ],
+          "estimated_timeline_months": 12,
+          "estimated_cost_usd": 40000
+        }
+      }
+    },
+    "power": {
+      "battery": "Li-Po 500mAh 3.7V",
+      "charger": "MCP73831 USB-C",
+      "regulator": "TPS62740 buck converter",
+      "estimated_life_hours": 330,
+      "cost_usd": 4.09
+    },
+    "pcb": {
+      "layers": 4,
+      "size_mm": "51x53",
+      "process": "ENIG",
+      "ip_rating": "IP67",
+      "cost_usd": 7.21
+    },
+    "firmware": {
+      "rtos": "FreeRTOS",
+      "sampling_hz": 500,
+      "ml_model": "TensorFlow Lite Micro",
+      "connectivity": "BLE 5.0 AES-128",
+      "storage": "local only \u2014 no cloud"
+    }
+  },
+  "fda_pathway": {
+    "device_class": "II",
+    "submission_type": "510(k)",
+    "estimated_timeline_months": 8,
+    "estimated_cost_usd": 35000
+  },
+  "estimated_bom_cost_usd": 15.62,
+  "retail_price_target_usd": 41.86,
+  "peoples_charter": true,
+  "offline_first": true,
+  "no_cloud": true,
+  "wisdom_score": 100
+}

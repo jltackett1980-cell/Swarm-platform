@@ -1,0 +1,32 @@
+{
+  "id": "b17ad8a2362f",
+  "generation": 1608,
+  "created_at": "2026-03-02T06:06:52.370223",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "What substrate allows silicon-level performance in fully flexible electronics? remains unsolved because previous research missed the role of Polymer. Polymer crosslinking under specific stimulus directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 12,
+    "estimated_cost_usd": 163710,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 116228786,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 30,
+    "economic_value_usd": 3486863580000
+  },
+  "confidence": 0.7946963246242083,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

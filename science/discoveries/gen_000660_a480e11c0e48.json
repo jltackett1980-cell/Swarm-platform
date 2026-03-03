@@ -1,0 +1,32 @@
+{
+  "id": "a480e11c0e48",
+  "generation": 660,
+  "created_at": "2026-03-02T06:05:04.503882",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "How to engineer materials that autonomously repair microcracks before failure? remains unsolved because previous research missed the role of Bacteriophage. Bacteriophage surface display for targeting directly addresses this.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 17,
+    "estimated_cost_usd": 250096,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 114601382,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 27,
+    "economic_value_usd": 1146013820000
+  },
+  "confidence": 0.31100206024292004,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

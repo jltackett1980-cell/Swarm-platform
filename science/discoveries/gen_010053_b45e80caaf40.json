@@ -1,0 +1,32 @@
+{
+  "id": "b45e80caaf40",
+  "generation": 10053,
+  "created_at": "2026-03-02T07:06:09.386353",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "If Default mode network connectivity measurement via fMRI is applied to autism, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 22,
+    "estimated_cost_usd": 544976,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 56794329,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 13,
+    "economic_value_usd": 1703829870000
+  },
+  "confidence": 0.3000100023505276,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

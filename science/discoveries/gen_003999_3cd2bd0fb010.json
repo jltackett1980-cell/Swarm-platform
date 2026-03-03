@@ -1,0 +1,32 @@
+{
+  "id": "3cd2bd0fb010",
+  "generation": 3999,
+  "created_at": "2026-03-02T06:12:24.873888",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "If Enzymatic depolymerization of specific polymer is applied to rapidly, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 9,
+    "estimated_cost_usd": 131814,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 116882367,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 13,
+    "economic_value_usd": 3506471010000
+  },
+  "confidence": 0.7347413724894079,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

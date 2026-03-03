@@ -1,0 +1,32 @@
+{
+  "id": "94617e179390",
+  "generation": 5395,
+  "created_at": "2026-03-02T06:16:37.684573",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "Combining Hydrogel swelling/shrinking response with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 18,
+    "estimated_cost_usd": 339526,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7055376,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 23,
+    "economic_value_usd": 282215040000
+  },
+  "confidence": 0.5902633760347782,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

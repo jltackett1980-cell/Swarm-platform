@@ -1,0 +1,32 @@
+{
+  "id": "1896b1acdab1",
+  "generation": 6743,
+  "created_at": "2026-03-02T06:21:29.821670",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "If Deep brain stimulation of subthalamic nucleus is applied to without, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 16,
+    "estimated_cost_usd": 523039,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 400,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 18934878,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 19,
+    "economic_value_usd": 1514790240000
+  },
+  "confidence": 0.46661551143628505,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

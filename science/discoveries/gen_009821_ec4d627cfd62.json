@@ -1,0 +1,32 @@
+{
+  "id": "ec4d627cfd62",
+  "generation": 9821,
+  "created_at": "2026-03-02T06:36:11.792993",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "Monte Carlo tree search with learned heuristics may resolve What encryption survives quantum computer attacks \u2014 post-quantum cryptography by activating at the systems level.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 1,
+    "estimated_cost_usd": 4534,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Theoretical complexity proof with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1506911541,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 30,
+    "economic_value_usd": 45207346230000
+  },
+  "confidence": 0.5658378614135069,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "00b9f58c9c03",
+  "generation": 2432,
+  "created_at": "2026-03-02T06:08:32.240639",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "Combining Two-dimensional material stacking (van der Waals heterostructure) with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 32,
+    "estimated_cost_usd": 482809,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2995007251,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 24,
+    "economic_value_usd": 179700435060000
+  },
+  "confidence": 0.6986344166924543,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

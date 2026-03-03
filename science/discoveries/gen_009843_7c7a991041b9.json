@@ -1,0 +1,32 @@
+{
+  "id": "7c7a991041b9",
+  "generation": 9843,
+  "created_at": "2026-03-02T06:36:20.084826",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear remains unsolved because previous research missed the role of Photonic. Photonic bandgap manipulation in metamaterial directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 4,
+    "estimated_cost_usd": 80072,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3407785159,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 5,
+    "economic_value_usd": 170389257950000
+  },
+  "confidence": 0.6360752778783363,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

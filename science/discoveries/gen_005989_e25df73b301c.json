@@ -1,0 +1,32 @@
+{
+  "id": "e25df73b301c",
+  "generation": 5989,
+  "created_at": "2026-03-02T06:18:40.131496",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Perovskite crystal structure optimization \u2014 specifically Perovskite crystal structure \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 16,
+    "estimated_cost_usd": 238836,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 205159854,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 28,
+    "economic_value_usd": 6154795620000
+  },
+  "confidence": 0.3511661260333599,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

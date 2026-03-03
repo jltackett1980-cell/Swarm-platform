@@ -1,0 +1,32 @@
+{
+  "id": "54c0bfc1a3ad",
+  "generation": 8793,
+  "created_at": "2026-03-02T06:30:51.161478",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Combining Thermoelectric Seebeck coefficient maximization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 6,
+    "estimated_cost_usd": 133958,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3484032044,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 14,
+    "economic_value_usd": 278722563520000
+  },
+  "confidence": 0.6146225597783931,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

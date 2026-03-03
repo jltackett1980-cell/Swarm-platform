@@ -1,0 +1,32 @@
+{
+  "id": "eb94c9f452a8",
+  "generation": 3112,
+  "created_at": "2026-03-02T06:10:06.115987",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "The key to What causes normal proteins to misfold into prions and spread through tissue? is Optogenetic control of specific neuron populations \u2014 specifically Optogenetic control of \u2014 which would help 1,000,000 people affected.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 8,
+    "estimated_cost_usd": 285869,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 282,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 331465,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 29,
+    "economic_value_usd": 19887900000
+  },
+  "confidence": 0.6662760979744272,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

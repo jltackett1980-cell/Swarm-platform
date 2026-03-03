@@ -1,0 +1,32 @@
+{
+  "id": "c99889c0a297",
+  "generation": 10144,
+  "created_at": "2026-03-02T07:24:51.951591",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear remains unsolved because previous research missed the role of Optical. Optical rectenna for direct photon-to-electron conversion directly addresses this.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 12,
+    "estimated_cost_usd": 204455,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 268074197,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 23,
+    "economic_value_usd": 8042225910000
+  },
+  "confidence": 0.5937221136878467,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

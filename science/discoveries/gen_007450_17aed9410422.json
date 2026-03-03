@@ -1,0 +1,32 @@
+{
+  "id": "17aed9410422",
+  "generation": 7450,
+  "created_at": "2026-03-02T06:24:30.382811",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "How to achieve sustained net-positive nuclear fusion at commercial scale? remains unsolved because previous research missed the role of Acoustic. Acoustic levitation for contactless manipulation directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 2,
+    "estimated_cost_usd": 37746,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1160508330,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 23,
+    "economic_value_usd": 81235583100000
+  },
+  "confidence": 0.5058249197181862,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

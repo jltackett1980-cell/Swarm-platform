@@ -1,0 +1,32 @@
+{
+  "id": "f03a184c151a",
+  "generation": 6557,
+  "created_at": "2026-03-02T06:20:46.532234",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "Bacteriophage surface display for targeting may resolve What synthetic material perfectly mimics bone's mechanical and biological properties? by activating at the molecular level.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 21,
+    "estimated_cost_usd": 330129,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5451186,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 16,
+    "economic_value_usd": 436094880000
+  },
+  "confidence": 0.3988548591012753,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

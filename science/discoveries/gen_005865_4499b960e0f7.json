@@ -1,0 +1,32 @@
+{
+  "id": "4499b960e0f7",
+  "generation": 5865,
+  "created_at": "2026-03-02T06:18:14.492702",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "Ketamine-like NMDA antagonism without dissociation may resolve Why do all animals sleep \u2014 what is the essential biological function? by activating at the systems level.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 35,
+    "estimated_cost_usd": 857398,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 883798248,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 15,
+    "economic_value_usd": 35351929920000
+  },
+  "confidence": 0.5476301874607794,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

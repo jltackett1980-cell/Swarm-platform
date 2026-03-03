@@ -1,0 +1,32 @@
+{
+  "id": "f4114e479721",
+  "generation": 547,
+  "created_at": "2026-03-02T06:04:54.043890",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "Combining Autophagy activation to clear misfolded proteins with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 22,
+    "estimated_cost_usd": 1092216,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9036716,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 24,
+    "economic_value_usd": 813304440000
+  },
+  "confidence": 0.58096816562924,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

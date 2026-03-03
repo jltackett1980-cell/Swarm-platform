@@ -1,0 +1,32 @@
+{
+  "id": "517e8fea51dc",
+  "generation": 5971,
+  "created_at": "2026-03-02T06:18:36.403082",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "Combining Federated learning without data centralization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 4,
+    "estimated_cost_usd": 15683,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2818613898,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 28,
+    "economic_value_usd": 28186138980000
+  },
+  "confidence": 0.6499231315741882,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

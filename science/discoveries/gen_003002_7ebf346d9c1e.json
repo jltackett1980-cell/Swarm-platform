@@ -1,0 +1,32 @@
+{
+  "id": "7ebf346d9c1e",
+  "generation": 3002,
+  "created_at": "2026-03-02T06:09:50.295533",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Spintronics for low-power data storage may resolve Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 1,
+    "estimated_cost_usd": 19300,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2732866341,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 16,
+    "economic_value_usd": 136643317050000
+  },
+  "confidence": 0.609700325180708,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

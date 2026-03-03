@@ -1,0 +1,32 @@
+{
+  "id": "b99b2325657d",
+  "generation": 9222,
+  "created_at": "2026-03-02T06:33:05.108031",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "If BDNF upregulation to promote neurogenesis is applied to subjective, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 12,
+    "estimated_cost_usd": 367959,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 911772485,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 27,
+    "economic_value_usd": 72941798800000
+  },
+  "confidence": 0.4527560985190961,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

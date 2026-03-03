@@ -1,0 +1,32 @@
+{
+  "id": "878695ce4e43",
+  "generation": 8395,
+  "created_at": "2026-03-02T06:28:43.985121",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "Combining Photodynamic therapy targeting specific cell receptors with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 25,
+    "estimated_cost_usd": 1031560,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 745841,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 13,
+    "economic_value_usd": 37292050000
+  },
+  "confidence": 0.40594189040751416,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

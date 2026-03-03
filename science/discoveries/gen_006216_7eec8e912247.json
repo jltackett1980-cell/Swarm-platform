@@ -1,0 +1,32 @@
+{
+  "id": "7eec8e912247",
+  "generation": 6216,
+  "created_at": "2026-03-02T06:19:30.111733",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Optical rectenna for direct photon-to-electron conversion may resolve How to store solar energy at grid scale without chemical battery degradation? by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 2,
+    "estimated_cost_usd": 40754,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 324140644,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 26,
+    "economic_value_usd": 29172657960000
+  },
+  "confidence": 0.4481670883771078,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

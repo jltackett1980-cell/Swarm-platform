@@ -1,0 +1,32 @@
+{
+  "id": "7eaec09d2f3a",
+  "generation": 8024,
+  "created_at": "2026-03-02T06:27:00.119248",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "Combining Quantum tunneling through energy barrier with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 7,
+    "estimated_cost_usd": 174817,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2117419423,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 15,
+    "economic_value_usd": 148219359610000
+  },
+  "confidence": 0.46224611531171617,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

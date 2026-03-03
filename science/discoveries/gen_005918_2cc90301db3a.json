@@ -1,0 +1,32 @@
+{
+  "id": "2cc90301db3a",
+  "generation": 5918,
+  "created_at": "2026-03-02T06:18:25.410672",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "Microbiome modulation via targeted bacteriophage therapy may resolve How does gut microbiome composition directly affect brain chemistry and mood? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 19,
+    "estimated_cost_usd": 827727,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 56525390,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 14,
+    "economic_value_usd": 5087285100000
+  },
+  "confidence": 0.7305298691835834,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

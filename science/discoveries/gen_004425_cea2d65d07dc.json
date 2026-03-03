@@ -1,0 +1,32 @@
+{
+  "id": "cea2d65d07dc",
+  "generation": 4425,
+  "created_at": "2026-03-02T06:13:37.398416",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway? remains unsolved because previous research missed the role of Microbiome. Microbiome modulation via targeted bacteriophage therapy directly addresses this.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 6,
+    "estimated_cost_usd": 209645,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1135375,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 26,
+    "economic_value_usd": 79476250000
+  },
+  "confidence": 0.49078914231693255,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

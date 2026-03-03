@@ -1,0 +1,32 @@
+{
+  "id": "e69c637759a0",
+  "generation": 2297,
+  "created_at": "2026-03-02T06:08:15.582739",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "If Self-assembled monolayer for surface functionalization is applied to types, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 9,
+    "estimated_cost_usd": 160835,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1705977411,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 5,
+    "economic_value_usd": 85298870550000
+  },
+  "confidence": 0.7334394030051459,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "b3234424b71c",
+  "generation": 10216,
+  "created_at": "2026-03-02T07:25:06.480786",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "Combining Homomorphic encryption for private computation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 7,
+    "estimated_cost_usd": 28726,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3693758208,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 12,
+    "economic_value_usd": 258563074560000
+  },
+  "confidence": 0.4442678806487329,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

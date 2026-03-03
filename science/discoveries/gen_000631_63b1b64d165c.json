@@ -1,0 +1,32 @@
+{
+  "id": "63b1b64d165c",
+  "generation": 631,
+  "created_at": "2026-03-02T06:05:01.429557",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "Mitochondrial membrane potential modulation may resolve Why do amyloid plaques form in Alzheimer's and can they be cleared? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 25,
+    "estimated_cost_usd": 1020840,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 30079849,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 10,
+    "economic_value_usd": 1203193960000
+  },
+  "confidence": 0.6865983369935409,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

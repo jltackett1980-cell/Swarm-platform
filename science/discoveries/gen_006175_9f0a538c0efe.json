@@ -1,0 +1,32 @@
+{
+  "id": "9f0a538c0efe",
+  "generation": 6175,
+  "created_at": "2026-03-02T06:19:21.088644",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale? remains unsolved because previous research missed the role of Topological. Topological insulator surface state conduction directly addresses this.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 5,
+    "estimated_cost_usd": 114569,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2878846512,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 23,
+    "economic_value_usd": 259096186080000
+  },
+  "confidence": 0.33533511838555546,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

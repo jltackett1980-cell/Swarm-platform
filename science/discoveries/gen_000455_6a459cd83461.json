@@ -1,0 +1,32 @@
+{
+  "id": "6a459cd83461",
+  "generation": 455,
+  "created_at": "2026-03-02T06:04:47.573454",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "If Neuroinflammation reduction via microglial targeting is applied to be, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 10,
+    "estimated_cost_usd": 329840,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 70540448,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 19,
+    "economic_value_usd": 5643235840000
+  },
+  "confidence": 0.38240196752756994,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "095e2ebb",
+  "name": "AccordSteady",
+  "generation": 1119,
+  "created_at": "2026-03-02T17:14:35.652080",
+  "pain": "autism_sensory",
+  "population": 5400000,
+  "problem": "5.4M autistic adults \u2014 sensory overload has no wearable intervention",
+  "physics": "thermal",
+  "physics_desc": "Controlled heat and cold for therapeutic effect",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Targeted thermal therapy",
+    "Cryotherapy"
+  ],
+  "form_factor": "compression vest",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 10.01,
+    "size_cm": 27.1,
+    "cost_usd": 151.14,
+    "battery_hours": 1.0
+  },
+  "edge_deployable": false,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 85,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": false,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 85,
+  "peoples_charter": true
+}

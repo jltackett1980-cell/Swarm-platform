@@ -1,0 +1,32 @@
+{
+  "id": "061213adba44",
+  "generation": 7087,
+  "created_at": "2026-03-02T06:22:59.006599",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "Combining Hydrogel swelling/shrinking response with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 18,
+    "estimated_cost_usd": 280310,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1072895743,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 28,
+    "economic_value_usd": 85831659440000
+  },
+  "confidence": 0.5586348876208982,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "54d24b4111ab",
+  "generation": 1327,
+  "created_at": "2026-03-02T06:06:18.038198",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "What material is biocompatible, conductive, and flexible enough for long-term brain implants? remains unsolved because previous research missed the role of Electrospun. Electrospun nanofiber scaffold for tissue engineering directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 36,
+    "estimated_cost_usd": 581745,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1781119,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 12,
+    "economic_value_usd": 71244760000
+  },
+  "confidence": 0.3439612268665614,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

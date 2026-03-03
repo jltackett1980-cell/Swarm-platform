@@ -1,0 +1,32 @@
+{
+  "id": "96c4a50251f2",
+  "generation": 1925,
+  "created_at": "2026-03-02T06:07:29.767892",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Combining Thermoelectric Seebeck coefficient maximization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 8,
+    "estimated_cost_usd": 145199,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1783872707,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 11,
+    "economic_value_usd": 124871089490000
+  },
+  "confidence": 0.5206609475483399,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

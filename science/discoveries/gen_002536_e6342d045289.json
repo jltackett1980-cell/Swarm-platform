@@ -1,0 +1,32 @@
+{
+  "id": "e6342d045289",
+  "generation": 2536,
+  "created_at": "2026-03-02T06:08:46.371129",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Can superconductivity be achieved at room temperature \u2014 what material structure? remains unsolved because previous research missed the role of Thermoelectric. Thermoelectric Seebeck coefficient maximization directly addresses this.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 12,
+    "estimated_cost_usd": 221752,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1293795569,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 8,
+    "economic_value_usd": 25875911380000
+  },
+  "confidence": 0.3505915712370767,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

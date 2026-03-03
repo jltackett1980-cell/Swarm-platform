@@ -1,0 +1,32 @@
+{
+  "id": "bc37386f75b7",
+  "generation": 5752,
+  "created_at": "2026-03-02T06:17:50.386151",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Two-dimensional material stacking (van der Waals heterostructure) \u2014 specifically Two-dimensional material stacking \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 17,
+    "estimated_cost_usd": 267145,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 329500145,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 13,
+    "economic_value_usd": 29655013050000
+  },
+  "confidence": 0.43646624384574184,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

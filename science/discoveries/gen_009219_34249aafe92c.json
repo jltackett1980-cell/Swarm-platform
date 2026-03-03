@@ -1,0 +1,32 @@
+{
+  "id": "34249aafe92c",
+  "generation": 9219,
+  "created_at": "2026-03-02T06:33:04.510183",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "CRISPR gene editing targeting specific pathway may resolve What causes normal proteins to misfold into prions and spread through tissue? by activating at the molecular level.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 8,
+    "estimated_cost_usd": 359443,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 282,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 626588,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 23,
+    "economic_value_usd": 43861160000
+  },
+  "confidence": 0.6221528110075818,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

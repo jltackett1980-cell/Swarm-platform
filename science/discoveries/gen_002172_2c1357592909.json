@@ -1,0 +1,32 @@
+{
+  "id": "2c1357592909",
+  "generation": 2172,
+  "created_at": "2026-03-02T06:07:59.246493",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "How to produce defect-free large-area graphene at low cost? remains unsolved because previous research missed the role of Two-dimensional. Two-dimensional material stacking (van der Waals heterostructure) directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 30,
+    "estimated_cost_usd": 506818,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 853173915,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 12,
+    "economic_value_usd": 8531739150000
+  },
+  "confidence": 0.607607198880799,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

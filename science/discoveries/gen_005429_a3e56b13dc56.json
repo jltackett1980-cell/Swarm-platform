@@ -1,0 +1,32 @@
+{
+  "id": "a3e56b13dc56",
+  "generation": 5429,
+  "created_at": "2026-03-02T06:16:43.657121",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "Combining Perovskite crystal structure optimization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 6,
+    "estimated_cost_usd": 106618,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3758697,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 20,
+    "economic_value_usd": 263108790000
+  },
+  "confidence": 0.5477452608122033,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

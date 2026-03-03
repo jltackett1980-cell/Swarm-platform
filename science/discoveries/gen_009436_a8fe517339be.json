@@ -1,0 +1,32 @@
+{
+  "id": "a8fe517339be",
+  "generation": 9436,
+  "created_at": "2026-03-02T06:34:12.229646",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "Combining Acoustic levitation for contactless manipulation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 12,
+    "estimated_cost_usd": 297890,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2479528206,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 27,
+    "economic_value_usd": 123976410300000
+  },
+  "confidence": 0.7295050887713115,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "572ee5cee62f",
+  "generation": 2326,
+  "created_at": "2026-03-02T06:08:19.098614",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved remains unsolved because previous research missed the role of Attention. Attention mechanism with linear complexity directly addresses this.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 5,
+    "estimated_cost_usd": 18550,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Theoretical complexity proof with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3359563607,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 22,
+    "economic_value_usd": 201573816420000
+  },
+  "confidence": 0.6010266182287084,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

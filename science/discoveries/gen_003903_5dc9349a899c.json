@@ -1,0 +1,32 @@
+{
+  "id": "5dc9349a899c",
+  "generation": 3903,
+  "created_at": "2026-03-02T06:12:09.511025",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "What enzyme or organism efficiently degrades all plastic types at scale? remains unsolved because previous research missed the role of Atomic. Atomic layer deposition of conformal coating directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 8,
+    "estimated_cost_usd": 142681,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 943208301,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 27,
+    "economic_value_usd": 37728332040000
+  },
+  "confidence": 0.6749401122136593,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

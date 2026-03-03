@@ -1,0 +1,32 @@
+{
+  "id": "9d98f74765e3",
+  "generation": 9350,
+  "created_at": "2026-03-02T06:33:46.833917",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "Combining Fear memory reconsolidation interference via timing with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 14,
+    "estimated_cost_usd": 358531,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 107754614,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 21,
+    "economic_value_usd": 3232638420000
+  },
+  "confidence": 0.478818453850806,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

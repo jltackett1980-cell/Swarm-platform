@@ -1,0 +1,32 @@
+{
+  "id": "363321310751",
+  "generation": 7267,
+  "created_at": "2026-03-02T06:23:43.969229",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "Combining Atomic layer deposition of conformal coating with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 4,
+    "estimated_cost_usd": 66651,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 127579263,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 24,
+    "economic_value_usd": 1275792630000
+  },
+  "confidence": 0.4561198422870947,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

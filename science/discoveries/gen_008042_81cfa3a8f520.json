@@ -1,0 +1,32 @@
+{
+  "id": "81cfa3a8f520",
+  "generation": 8042,
+  "created_at": "2026-03-02T06:27:03.942378",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "What is the primary molecular cause of biological aging \u2014 can it be slowed? remains unsolved because previous research missed the role of Monoclonal. Monoclonal antibody blocking protein-protein interaction directly addresses this.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 17,
+    "estimated_cost_usd": 603787,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3103338706,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 30,
+    "economic_value_usd": 186200322360000
+  },
+  "confidence": 0.5427773382946035,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

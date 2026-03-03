@@ -1,0 +1,32 @@
+{
+  "id": "0a7206d72507",
+  "generation": 9095,
+  "created_at": "2026-03-02T06:32:26.168752",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "Combining Biochar amendment for soil carbon sequestration with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 2,
+    "estimated_cost_usd": 26811,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 905179669,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 11,
+    "economic_value_usd": 63362576830000
+  },
+  "confidence": 0.6157683802674241,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

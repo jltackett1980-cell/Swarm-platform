@@ -1,0 +1,32 @@
+{
+  "id": "000416907f5e",
+  "generation": 5397,
+  "created_at": "2026-03-02T06:16:37.892019",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "Polymer crosslinking under specific stimulus may resolve What enzyme or organism efficiently degrades all plastic types at scale? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 31,
+    "estimated_cost_usd": 458842,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1851548962,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 21,
+    "economic_value_usd": 18515489620000
+  },
+  "confidence": 0.30845468205439147,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

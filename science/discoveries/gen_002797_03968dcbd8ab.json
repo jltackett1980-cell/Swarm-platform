@@ -1,0 +1,32 @@
+{
+  "id": "03968dcbd8ab",
+  "generation": 2797,
+  "created_at": "2026-03-02T06:09:21.893500",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "Combining Plasma confinement via magnetic mirror geometry with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 11,
+    "estimated_cost_usd": 218051,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3886342495,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 18,
+    "economic_value_usd": 77726849900000
+  },
+  "confidence": 0.6386577464397495,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

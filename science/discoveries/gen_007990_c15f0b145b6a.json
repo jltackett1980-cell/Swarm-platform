@@ -1,0 +1,32 @@
+{
+  "id": "c15f0b145b6a",
+  "generation": 7990,
+  "created_at": "2026-03-02T06:26:50.227893",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "What enzyme or organism efficiently degrades all plastic types at scale? remains unsolved because previous research missed the role of Shape. Shape memory alloy phase transition directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 14,
+    "estimated_cost_usd": 195510,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1603766455,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 15,
+    "economic_value_usd": 80188322750000
+  },
+  "confidence": 0.3458031180182485,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

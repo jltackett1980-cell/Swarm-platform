@@ -1,0 +1,32 @@
+{
+  "id": "b6dfa6b626f2",
+  "generation": 6797,
+  "created_at": "2026-03-02T06:21:42.011765",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified remains unsolved because previous research missed the role of Monoclonal. Monoclonal antibody blocking protein-protein interaction directly addresses this.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 12,
+    "estimated_cost_usd": 494073,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6166408,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 11,
+    "economic_value_usd": 493312640000
+  },
+  "confidence": 0.6116688608533911,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

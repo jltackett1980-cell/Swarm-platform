@@ -1,0 +1,32 @@
+{
+  "id": "87eeb1e709e7",
+  "generation": 1243,
+  "created_at": "2026-03-02T06:06:08.796341",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear remains unsolved because previous research missed the role of Spintronics. Spintronics for low-power data storage directly addresses this.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 11,
+    "estimated_cost_usd": 211835,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2259140954,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 22,
+    "economic_value_usd": 67774228620000
+  },
+  "confidence": 0.3172021559624035,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

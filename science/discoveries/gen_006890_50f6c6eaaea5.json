@@ -1,0 +1,32 @@
+{
+  "id": "50f6c6eaaea5",
+  "generation": 6890,
+  "created_at": "2026-03-02T06:22:02.715041",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "Why does the immune system attack the body's own tissue in autoimmune disease? remains unsolved because previous research missed the role of Monoclonal. Monoclonal antibody blocking protein-protein interaction directly addresses this.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 30,
+    "estimated_cost_usd": 1054982,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 35186909,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 19,
+    "economic_value_usd": 351869090000
+  },
+  "confidence": 0.6250794758712629,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

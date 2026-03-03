@@ -1,0 +1,32 @@
+{
+  "id": "ae84dd78db57",
+  "generation": 7255,
+  "created_at": "2026-03-02T06:23:41.438302",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "Bioelectrochemical system for pollutant conversion may resolve How to desalinate seawater at dramatically lower energy cost than reverse osmosis? by activating at the systems level.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 1,
+    "estimated_cost_usd": 10107,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 537406225,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 18,
+    "economic_value_usd": 48366560250000
+  },
+  "confidence": 0.6575628279895689,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

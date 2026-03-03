@@ -1,0 +1,32 @@
+{
+  "id": "92a650a83469",
+  "generation": 851,
+  "created_at": "2026-03-02T06:05:23.698084",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Lattice-based cryptography for quantum resistance",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of Lattice-based. Lattice-based cryptography for quantum resistance directly addresses this.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 2,
+    "estimated_cost_usd": 7918,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 481512860,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 23,
+    "economic_value_usd": 4815128600000
+  },
+  "confidence": 0.4520652257112693,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

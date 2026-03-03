@@ -1,0 +1,32 @@
+{
+  "id": "c30b8d5f07ce",
+  "generation": 4028,
+  "created_at": "2026-03-02T06:12:29.356055",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "Why do all animals sleep \u2014 what is the essential biological function? remains unsolved because previous research missed the role of Deep. Deep brain stimulation of subthalamic nucleus directly addresses this.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 31,
+    "estimated_cost_usd": 806121,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3463221253,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 14,
+    "economic_value_usd": 173161062650000
+  },
+  "confidence": 0.7306943617544022,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "5874091c727a",
+  "generation": 7520,
+  "created_at": "2026-03-02T06:24:48.219224",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "The key to What encryption survives quantum computer attacks \u2014 post-quantum cryptography is Homomorphic encryption for private computation \u2014 specifically Homomorphic encryption for \u2014 which would help 4,000,000,000 people affected.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 8,
+    "estimated_cost_usd": 28367,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 721342428,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 13,
+    "economic_value_usd": 64920818520000
+  },
+  "confidence": 0.3657599431390462,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

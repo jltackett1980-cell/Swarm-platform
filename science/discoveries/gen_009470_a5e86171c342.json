@@ -1,0 +1,32 @@
+{
+  "id": "a5e86171c342",
+  "generation": 9470,
+  "created_at": "2026-03-02T06:34:22.455622",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "Glial cell activation/suppression in target brain region may resolve Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? by activating at the systems level.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 14,
+    "estimated_cost_usd": 448996,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11530930,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 7,
+    "economic_value_usd": 922474400000
+  },
+  "confidence": 0.582748129042302,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

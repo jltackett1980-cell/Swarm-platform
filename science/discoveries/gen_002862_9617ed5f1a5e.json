@@ -1,0 +1,32 @@
+{
+  "id": "9617ed5f1a5e",
+  "generation": 2862,
+  "created_at": "2026-03-02T06:09:30.347806",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "If Photocatalytic oxidation under visible light is applied to at, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 5,
+    "estimated_cost_usd": 52684,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3266581771,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 30,
+    "economic_value_usd": 195994906260000
+  },
+  "confidence": 0.689263736873162,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

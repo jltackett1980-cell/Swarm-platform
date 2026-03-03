@@ -1,0 +1,32 @@
+{
+  "id": "025ee59997d0",
+  "generation": 9231,
+  "created_at": "2026-03-02T06:33:07.834332",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "Combining Electrospun nanofiber scaffold for tissue engineering with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 4,
+    "estimated_cost_usd": 67306,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2758098,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 6,
+    "economic_value_usd": 193066860000
+  },
+  "confidence": 0.5611701594985101,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

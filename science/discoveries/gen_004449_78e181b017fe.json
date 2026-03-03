@@ -1,0 +1,32 @@
+{
+  "id": "78e181b017fe",
+  "generation": 4449,
+  "created_at": "2026-03-02T06:13:41.582206",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "If Atomic layer deposition of conformal coating is applied to formation, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 6,
+    "estimated_cost_usd": 83844,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 182642481,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 21,
+    "economic_value_usd": 7305699240000
+  },
+  "confidence": 0.5290275654101904,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

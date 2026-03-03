@@ -1,0 +1,32 @@
+{
+  "id": "717b539dfced",
+  "generation": 5008,
+  "created_at": "2026-03-02T06:15:22.934072",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "Hydrogel swelling/shrinking response may resolve How to produce defect-free large-area graphene at low cost? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 26,
+    "estimated_cost_usd": 490026,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 588492696,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 27,
+    "economic_value_usd": 5884926960000
+  },
+  "confidence": 0.344554931366902,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "d0e189b70f2b",
+  "generation": 6048,
+  "created_at": "2026-03-02T06:18:53.630264",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "Dopamine/serotonin reuptake inhibition with specificity may resolve Why do all animals sleep \u2014 what is the essential biological function? by blocking at the systems level.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 9,
+    "estimated_cost_usd": 267054,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2581450431,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 27,
+    "economic_value_usd": 232330538790000
+  },
+  "confidence": 0.35098986218825473,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

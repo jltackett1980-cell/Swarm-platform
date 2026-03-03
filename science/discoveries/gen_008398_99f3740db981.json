@@ -1,0 +1,32 @@
+{
+  "id": "99f3740db981",
+  "generation": 8398,
+  "created_at": "2026-03-02T06:28:44.484143",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "The key to What enzyme or organism efficiently degrades all plastic types at scale? is Atomic layer deposition of conformal coating \u2014 specifically Atomic layer deposition \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 9,
+    "estimated_cost_usd": 162278,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3034250118,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 8,
+    "economic_value_usd": 121370004720000
+  },
+  "confidence": 0.3377319068569876,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

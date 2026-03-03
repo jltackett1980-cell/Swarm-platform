@@ -1,0 +1,32 @@
+{
+  "id": "c155d6c53f26",
+  "generation": 6771,
+  "created_at": "2026-03-02T06:21:35.146104",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "If Piezoelectric coupling in novel crystal structure is applied to what, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 2,
+    "estimated_cost_usd": 40283,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3993782261,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 17,
+    "economic_value_usd": 279564758270000
+  },
+  "confidence": 0.5222354408239238,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

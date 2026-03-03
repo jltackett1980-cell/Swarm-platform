@@ -1,0 +1,32 @@
+{
+  "id": "cf76b6de2828",
+  "generation": 416,
+  "created_at": "2026-03-02T06:04:44.746315",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "Shape memory alloy phase transition may resolve How to produce defect-free large-area graphene at low cost? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 35,
+    "estimated_cost_usd": 680623,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1222440279,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 15,
+    "economic_value_usd": 97795222320000
+  },
+  "confidence": 0.7227351917516022,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

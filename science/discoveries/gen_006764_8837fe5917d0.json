@@ -1,0 +1,32 @@
+{
+  "id": "8837fe5917d0",
+  "generation": 6764,
+  "created_at": "2026-03-02T06:21:34.250347",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "Phytoremediation with hyperaccumulator plant species may resolve Can ocean acidification be safely reversed \u2014 what biochemical approach? by activating at the systems level.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 10,
+    "estimated_cost_usd": 125621,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 415442994,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 23,
+    "economic_value_usd": 8308859880000
+  },
+  "confidence": 0.6870052447871698,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

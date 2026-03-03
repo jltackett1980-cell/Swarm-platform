@@ -1,0 +1,32 @@
+{
+  "id": "542fe145be9d",
+  "generation": 2250,
+  "created_at": "2026-03-02T06:08:09.323263",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Optical rectenna for direct photon-to-electron conversion may resolve Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics by activating at the systems level.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 12,
+    "estimated_cost_usd": 254642,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1176555291,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 11,
+    "economic_value_usd": 94124423280000
+  },
+  "confidence": 0.5452849923631431,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

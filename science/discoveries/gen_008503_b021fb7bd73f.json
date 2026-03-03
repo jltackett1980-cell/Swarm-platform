@@ -1,0 +1,32 @@
+{
+  "id": "b021fb7bd73f",
+  "generation": 8503,
+  "created_at": "2026-03-02T06:29:14.173812",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "The key to Can superconductivity be achieved at room temperature \u2014 what material structure? is Plasma confinement via magnetic mirror geometry \u2014 specifically Plasma confinement via \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 8,
+    "estimated_cost_usd": 174298,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2692949680,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 19,
+    "economic_value_usd": 80788490400000
+  },
+  "confidence": 0.4956696560994896,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

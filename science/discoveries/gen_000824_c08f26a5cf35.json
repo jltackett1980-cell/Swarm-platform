@@ -1,0 +1,32 @@
+{
+  "id": "c08f26a5cf35",
+  "generation": 824,
+  "created_at": "2026-03-02T06:05:21.365321",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "Metal-organic framework with specific pore geometry may resolve What membrane material filters all contaminants from water at low energy cost? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 28,
+    "estimated_cost_usd": 465341,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 672603633,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 25,
+    "economic_value_usd": 13452072660000
+  },
+  "confidence": 0.351973329724721,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

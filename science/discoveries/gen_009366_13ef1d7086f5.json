@@ -1,0 +1,32 @@
+{
+  "id": "13ef1d7086f5",
+  "generation": 9366,
+  "created_at": "2026-03-02T06:33:51.865326",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "Dopamine/serotonin reuptake inhibition with specificity may resolve What physical process in the brain produces subjective conscious experience? by blocking at the systems level.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 33,
+    "estimated_cost_usd": 1097067,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3567780580,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 14,
+    "economic_value_usd": 35677805800000
+  },
+  "confidence": 0.3956757388503371,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

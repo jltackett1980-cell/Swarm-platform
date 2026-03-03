@@ -1,0 +1,32 @@
+{
+  "id": "e1acd2d5c4bc",
+  "generation": 9467,
+  "created_at": "2026-03-02T06:34:21.903162",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "Combining Transcranial magnetic stimulation of specific cortical area with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 3,
+    "estimated_cost_usd": 103215,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8246550,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 6,
+    "economic_value_usd": 494793000000
+  },
+  "confidence": 0.680239628136894,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

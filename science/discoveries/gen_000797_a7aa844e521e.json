@@ -1,0 +1,32 @@
+{
+  "id": "a7aa844e521e",
+  "generation": 797,
+  "created_at": "2026-03-02T06:05:18.604045",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "Hydrogel swelling/shrinking response may resolve Why do perovskite solar cells degrade \u2014 what material instability causes it? by activating at the molecular level.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 10,
+    "estimated_cost_usd": 155473,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 636822662,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 20,
+    "economic_value_usd": 50945812960000
+  },
+  "confidence": 0.3005381534190573,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "efebe72aa103",
+  "generation": 6131,
+  "created_at": "2026-03-02T06:19:10.881228",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "Combining Rhizobium inoculation for nitrogen fixation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 8,
+    "estimated_cost_usd": 92830,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2292949391,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 10,
+    "economic_value_usd": 183435951280000
+  },
+  "confidence": 0.5274240242882662,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

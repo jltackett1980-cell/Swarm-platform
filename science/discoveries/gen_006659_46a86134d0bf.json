@@ -1,0 +1,32 @@
+{
+  "id": "46a86134d0bf",
+  "generation": 6659,
+  "created_at": "2026-03-02T06:21:09.614689",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "Electrospun nanofiber scaffold for tissue engineering may resolve What enzyme or organism efficiently degrades all plastic types at scale? by activating at the molecular level.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 17,
+    "estimated_cost_usd": 230751,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3381243717,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 14,
+    "economic_value_usd": 202874623020000
+  },
+  "confidence": 0.608976174629277,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

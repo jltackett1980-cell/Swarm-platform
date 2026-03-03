@@ -1,0 +1,32 @@
+{
+  "id": "5e7683138e94",
+  "generation": 7667,
+  "created_at": "2026-03-02T06:25:26.463560",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "The key to What material is biocompatible, conductive, and flexible enough for long-term brain implants? is Two-dimensional material stacking (van der Waals heterostructure) \u2014 specifically Two-dimensional material stacking \u2014 which would help 5,400,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 34,
+    "estimated_cost_usd": 673152,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3246547,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 24,
+    "economic_value_usd": 227258290000
+  },
+  "confidence": 0.5023672855654915,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

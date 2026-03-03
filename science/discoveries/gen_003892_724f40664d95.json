@@ -1,0 +1,32 @@
+{
+  "id": "724f40664d95",
+  "generation": 3892,
+  "created_at": "2026-03-02T06:12:06.531317",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "Perovskite crystal structure optimization may resolve What material stores hydrogen fuel at high density without safety risk? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 19,
+    "estimated_cost_usd": 312473,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 761431856,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 29,
+    "economic_value_usd": 45685911360000
+  },
+  "confidence": 0.73934900982214,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

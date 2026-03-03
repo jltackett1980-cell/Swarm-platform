@@ -1,0 +1,32 @@
+{
+  "id": "c6c7ba94193e",
+  "generation": 10015,
+  "created_at": "2026-03-02T06:40:44.628094",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "If Self-assembled monolayer for surface functionalization is applied to long-term, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 13,
+    "estimated_cost_usd": 237084,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3013009,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 20,
+    "economic_value_usd": 271170810000
+  },
+  "confidence": 0.60141583451676,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

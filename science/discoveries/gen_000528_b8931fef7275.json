@@ -1,0 +1,32 @@
+{
+  "id": "b8931fef7275",
+  "generation": 528,
+  "created_at": "2026-03-02T06:04:52.639930",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "Combining Electrospun nanofiber scaffold for tissue engineering with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 24,
+    "estimated_cost_usd": 332012,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 198249575,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 21,
+    "economic_value_usd": 15859966000000
+  },
+  "confidence": 0.5608449005543494,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

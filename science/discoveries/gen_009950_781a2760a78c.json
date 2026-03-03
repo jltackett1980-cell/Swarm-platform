@@ -1,0 +1,32 @@
+{
+  "id": "781a2760a78c",
+  "generation": 9950,
+  "created_at": "2026-03-02T06:36:54.184206",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "What enzyme or organism efficiently degrades all plastic types at scale? remains unsolved because previous research missed the role of Bacteriophage. Bacteriophage surface display for targeting directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 16,
+    "estimated_cost_usd": 294395,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3690561830,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 5,
+    "economic_value_usd": 295244946400000
+  },
+  "confidence": 0.477506601132834,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

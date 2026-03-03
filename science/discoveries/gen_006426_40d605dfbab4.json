@@ -1,0 +1,32 @@
+{
+  "id": "40d605dfbab4",
+  "generation": 6426,
+  "created_at": "2026-03-02T06:20:16.587716",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "Liquid crystal elastomer actuation may resolve Why do perovskite solar cells degrade \u2014 what material instability causes it? by activating at the molecular level.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 19,
+    "estimated_cost_usd": 308872,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1384845249,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 25,
+    "economic_value_usd": 69242262450000
+  },
+  "confidence": 0.7624825128741486,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

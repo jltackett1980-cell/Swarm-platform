@@ -1,0 +1,32 @@
+{
+  "id": "2eef12484bab",
+  "generation": 4676,
+  "created_at": "2026-03-02T06:14:21.838036",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Bacteriophage. Bacteriophage surface display for targeting directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 34,
+    "estimated_cost_usd": 471165,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7872213,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 24,
+    "economic_value_usd": 393610650000
+  },
+  "confidence": 0.5406534848671124,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

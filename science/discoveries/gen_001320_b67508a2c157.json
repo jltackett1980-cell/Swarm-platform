@@ -1,0 +1,32 @@
+{
+  "id": "b67508a2c157",
+  "generation": 1320,
+  "created_at": "2026-03-02T06:06:17.037162",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "Sleep-dependent memory consolidation in hippocampus may resolve What physical process in the brain produces subjective conscious experience? by activating at the systems level.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 13,
+    "estimated_cost_usd": 325696,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 360,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2994548297,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 28,
+    "economic_value_usd": 119781931880000
+  },
+  "confidence": 0.5059034087460688,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

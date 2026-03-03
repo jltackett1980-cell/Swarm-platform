@@ -1,0 +1,32 @@
+{
+  "id": "77110c93c462",
+  "generation": 3712,
+  "created_at": "2026-03-02T06:11:37.960609",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "Why do amyloid plaques form in Alzheimer's and can they be cleared? remains unsolved because previous research missed the role of Photodynamic. Photodynamic therapy targeting specific cell receptors directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 9,
+    "estimated_cost_usd": 372869,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 17718481,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 15,
+    "economic_value_usd": 354369620000
+  },
+  "confidence": 0.7817659298780195,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "734b1abd03c3",
+  "generation": 8223,
+  "created_at": "2026-03-02T06:27:55.003468",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "The key to What material is biocompatible, conductive, and flexible enough for long-term brain implants? is Perovskite crystal structure optimization \u2014 specifically Perovskite crystal structure \u2014 which would help 5,400,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 17,
+    "estimated_cost_usd": 274701,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3597818,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 24,
+    "economic_value_usd": 215869080000
+  },
+  "confidence": 0.7960749223188943,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

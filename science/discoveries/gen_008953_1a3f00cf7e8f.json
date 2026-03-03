@@ -1,0 +1,32 @@
+{
+  "id": "1a3f00cf7e8f",
+  "generation": 8953,
+  "created_at": "2026-03-02T06:31:43.929578",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "Federated learning without data centralization may resolve What encryption survives quantum computer attacks \u2014 post-quantum cryptography by activating at the systems level.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 1,
+    "estimated_cost_usd": 3943,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1460623610,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 29,
+    "economic_value_usd": 14606236100000
+  },
+  "confidence": 0.6303999887302505,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "77b7f9901f10",
+  "generation": 965,
+  "created_at": "2026-03-02T06:05:37.913977",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "Combining Transcranial magnetic stimulation of specific cortical area with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 7,
+    "estimated_cost_usd": 243888,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5436318,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 18,
+    "economic_value_usd": 489268620000
+  },
+  "confidence": 0.31288779962361846,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

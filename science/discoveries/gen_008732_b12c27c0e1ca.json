@@ -1,0 +1,32 @@
+{
+  "id": "b12c27c0e1ca",
+  "generation": 8732,
+  "created_at": "2026-03-02T06:30:16.925295",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "Combining Sleep-dependent memory consolidation in hippocampus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 21,
+    "estimated_cost_usd": 718777,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 23063236,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 13,
+    "economic_value_usd": 691897080000
+  },
+  "confidence": 0.5408901416964949,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

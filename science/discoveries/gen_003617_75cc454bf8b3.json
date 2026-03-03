@@ -1,0 +1,32 @@
+{
+  "id": "75cc454bf8b3",
+  "generation": 3617,
+  "created_at": "2026-03-02T06:11:23.261945",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "Why do amyloid plaques form in Alzheimer's and can they be cleared? remains unsolved because previous research missed the role of mRNA. mRNA therapy to upregulate/downregulate gene expression directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 28,
+    "estimated_cost_usd": 1128859,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 39370959,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 27,
+    "economic_value_usd": 1181128770000
+  },
+  "confidence": 0.5208603768746285,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

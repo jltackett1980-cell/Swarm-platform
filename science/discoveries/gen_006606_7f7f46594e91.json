@@ -1,0 +1,32 @@
+{
+  "id": "7f7f46594e91",
+  "generation": 6606,
+  "created_at": "2026-03-02T06:20:57.782041",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Biochar. Biochar amendment for soil carbon sequestration directly addresses this.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 6,
+    "estimated_cost_usd": 69726,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 132042882,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 21,
+    "economic_value_usd": 1320428820000
+  },
+  "confidence": 0.3741701407170296,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

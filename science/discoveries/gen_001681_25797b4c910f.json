@@ -1,0 +1,32 @@
+{
+  "id": "25797b4c910f",
+  "generation": 1681,
+  "created_at": "2026-03-02T06:07:00.631879",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Combining Optical rectenna for direct photon-to-electron conversion with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 7,
+    "estimated_cost_usd": 118785,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2069892485,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 25,
+    "economic_value_usd": 103494624250000
+  },
+  "confidence": 0.5379721183466919,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

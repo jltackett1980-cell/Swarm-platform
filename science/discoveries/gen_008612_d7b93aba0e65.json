@@ -1,0 +1,32 @@
+{
+  "id": "d7b93aba0e65",
+  "generation": 8612,
+  "created_at": "2026-03-02T06:29:43.438838",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "What material surface coating prevents bacterial biofilm formation on implants? remains unsolved because previous research missed the role of Polymer. Polymer crosslinking under specific stimulus directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 20,
+    "estimated_cost_usd": 310379,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 134324543,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 14,
+    "economic_value_usd": 6716227150000
+  },
+  "confidence": 0.7712076817170712,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

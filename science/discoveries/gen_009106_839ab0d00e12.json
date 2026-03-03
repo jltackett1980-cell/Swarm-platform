@@ -1,0 +1,32 @@
+{
+  "id": "839ab0d00e12",
+  "generation": 9106,
+  "created_at": "2026-03-02T06:32:29.086085",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Quantum annealing for optimization problems",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of Quantum. Quantum annealing for optimization problems directly addresses this.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 8,
+    "estimated_cost_usd": 31946,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1359011992,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 20,
+    "economic_value_usd": 54360479680000
+  },
+  "confidence": 0.6072205167694662,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

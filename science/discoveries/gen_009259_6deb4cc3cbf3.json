@@ -1,0 +1,32 @@
+{
+  "id": "6deb4cc3cbf3",
+  "generation": 9259,
+  "created_at": "2026-03-02T06:33:17.606655",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "If Photonic bandgap manipulation in metamaterial is applied to ionic, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 3,
+    "estimated_cost_usd": 51656,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 306778497,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 7,
+    "economic_value_usd": 9203354910000
+  },
+  "confidence": 0.6691767416682778,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

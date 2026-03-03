@@ -1,0 +1,32 @@
+{
+  "id": "fcd7b860b72a",
+  "generation": 5020,
+  "created_at": "2026-03-02T06:15:24.821601",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "If Cortical spreading depression mechanism in migraine is applied to autism, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 31,
+    "estimated_cost_usd": 839648,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 29595468,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 28,
+    "economic_value_usd": 591909360000
+  },
+  "confidence": 0.7703749249555185,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

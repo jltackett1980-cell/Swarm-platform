@@ -1,0 +1,32 @@
+{
+  "id": "dd721f963bdb",
+  "generation": 5996,
+  "created_at": "2026-03-02T06:18:42.635894",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "Ketamine-like NMDA antagonism without dissociation may resolve Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? by activating at the systems level.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 34,
+    "estimated_cost_usd": 926546,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5784296,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 25,
+    "economic_value_usd": 231371840000
+  },
+  "confidence": 0.3346574991616947,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "666b356fc6ac",
+  "generation": 3640,
+  "created_at": "2026-03-02T06:11:26.359545",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Combining Default mode network connectivity measurement via fMRI with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 4,
+    "estimated_cost_usd": 120090,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11132430,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 11,
+    "economic_value_usd": 333972900000
+  },
+  "confidence": 0.5984705516071214,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

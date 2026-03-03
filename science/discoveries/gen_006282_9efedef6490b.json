@@ -1,0 +1,32 @@
+{
+  "id": "9efedef6490b",
+  "generation": 6282,
+  "created_at": "2026-03-02T06:19:43.820057",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "What physical process in the brain produces subjective conscious experience? remains unsolved because previous research missed the role of Glial. Glial cell activation/suppression in target brain region directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 4,
+    "estimated_cost_usd": 122151,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3290095044,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 23,
+    "economic_value_usd": 98702851320000
+  },
+  "confidence": 0.7121406217306976,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

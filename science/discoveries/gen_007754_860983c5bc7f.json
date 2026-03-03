@@ -1,0 +1,32 @@
+{
+  "id": "860983c5bc7f",
+  "generation": 7754,
+  "created_at": "2026-03-02T06:25:49.504418",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "How are long-term memories physically encoded in neural tissue? remains unsolved because previous research missed the role of Deep. Deep brain stimulation of subthalamic nucleus directly addresses this.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 21,
+    "estimated_cost_usd": 584579,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1849048113,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 26,
+    "economic_value_usd": 110942886780000
+  },
+  "confidence": 0.3862750372175055,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

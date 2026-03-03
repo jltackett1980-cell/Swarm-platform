@@ -1,0 +1,32 @@
+{
+  "id": "abcd91a6917f",
+  "generation": 1188,
+  "created_at": "2026-03-02T06:06:01.839558",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "Why do all animals sleep \u2014 what is the essential biological function? remains unsolved because previous research missed the role of Cortical. Cortical spreading depression mechanism in migraine directly addresses this.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 24,
+    "estimated_cost_usd": 808938,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 489,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3318320816,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 23,
+    "economic_value_usd": 232282457120000
+  },
+  "confidence": 0.3787808232930914,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

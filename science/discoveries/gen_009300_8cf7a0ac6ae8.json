@@ -1,0 +1,32 @@
+{
+  "id": "8cf7a0ac6ae8",
+  "generation": 9300,
+  "created_at": "2026-03-02T06:33:30.871315",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "Combining Autophagy activation to clear misfolded proteins with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 18,
+    "estimated_cost_usd": 646893,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 424,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 107784753,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 29,
+    "economic_value_usd": 3233542590000
+  },
+  "confidence": 0.6444538920755031,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

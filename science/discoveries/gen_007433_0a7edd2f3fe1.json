@@ -1,0 +1,32 @@
+{
+  "id": "0a7edd2f3fe1",
+  "generation": 7433,
+  "created_at": "2026-03-02T06:24:25.521752",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Combining Casimir effect between nanoscale surfaces with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 1,
+    "estimated_cost_usd": 21195,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 158122384,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 28,
+    "economic_value_usd": 12649790720000
+  },
+  "confidence": 0.4479958665797213,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "40efaf992b6b",
+  "generation": 7898,
+  "created_at": "2026-03-02T06:26:26.983703",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Combining Casimir effect between nanoscale surfaces with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 7,
+    "estimated_cost_usd": 116718,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 108230276,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 19,
+    "economic_value_usd": 4329211040000
+  },
+  "confidence": 0.44034593823026325,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

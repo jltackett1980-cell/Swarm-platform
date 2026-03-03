@@ -1,0 +1,32 @@
+{
+  "id": "d6a1f1ae8ad0",
+  "generation": 518,
+  "created_at": "2026-03-02T06:04:52.437316",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "How to store solar energy at grid scale without chemical battery degradation? remains unsolved because previous research missed the role of Bose-Einstein. Bose-Einstein condensate at higher temperature directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 8,
+    "estimated_cost_usd": 192271,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 950671665,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 15,
+    "economic_value_usd": 9506716650000
+  },
+  "confidence": 0.7621319020538254,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

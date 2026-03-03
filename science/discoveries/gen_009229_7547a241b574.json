@@ -1,0 +1,32 @@
+{
+  "id": "7547a241b574",
+  "generation": 9229,
+  "created_at": "2026-03-02T06:33:07.441801",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "If Bacteriophage surface display for targeting is applied to and, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 3,
+    "estimated_cost_usd": 52279,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3097934,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 22,
+    "economic_value_usd": 185876040000
+  },
+  "confidence": 0.45179179002165637,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -174,7 +174,7 @@
       "meaning": "Offline-first design \u2014 works without internet"
     },
     "today_focus": {
-      "count": 105,
+      "count": 107,
       "domains": [
         "accounting",
         "addiction_support",
@@ -196,6 +196,8 @@
         "confidence_builder",
         "construction",
         "credit_builder",
+        "criminal_defense_attorney",
+        "criminal_law",
         "crypto_exchange",
         "custom__c",
         "custom_build_me_a",
@@ -461,8 +463,10 @@
       "meaning": "No barrier \u2014 value delivered immediately"
     },
     "human_greeting": {
-      "count": 8,
+      "count": 10,
       "domains": [
+        "criminal_defense_attorney",
+        "criminal_law",
         "daycare",
         "disaster_prep",
         "home_repairs",
@@ -472,7 +476,7 @@
         "tenant_rights",
         "utility_assistance"
       ],
-      "avg_score_when_present": 576.1,
+      "avg_score_when_present": 575.7,
       "meaning": "Acknowledges the human using it"
     }
   },

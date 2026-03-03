@@ -1,0 +1,32 @@
+{
+  "id": "6bf5b3e15510",
+  "generation": 5792,
+  "created_at": "2026-03-02T06:17:58.098562",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Combining Telomerase activation/inhibition in target cells with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 20,
+    "estimated_cost_usd": 791106,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 108672854,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 17,
+    "economic_value_usd": 1086728540000
+  },
+  "confidence": 0.6504989819798646,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

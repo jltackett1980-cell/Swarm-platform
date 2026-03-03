@@ -1,0 +1,32 @@
+{
+  "id": "ae8fb69679df",
+  "generation": 284,
+  "created_at": "2026-03-02T06:04:33.281097",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "Biomimetic surface structure (lotus, shark skin, gecko) may resolve Why do perovskite solar cells degrade \u2014 what material instability causes it? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 34,
+    "estimated_cost_usd": 634972,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 307652138,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 18,
+    "economic_value_usd": 24612171040000
+  },
+  "confidence": 0.6379783646012537,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

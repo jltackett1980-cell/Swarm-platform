@@ -1,0 +1,32 @@
+{
+  "id": "a9dd1068fc2f",
+  "generation": 5660,
+  "created_at": "2026-03-02T06:17:31.222036",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Electromagnetic induction in moving biological tissue",
+  "hypothesis": "Electromagnetic induction in moving biological tissue may resolve Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear by activating at the systems level.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 4,
+    "estimated_cost_usd": 86665,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 515197242,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 12,
+    "economic_value_usd": 5151972420000
+  },
+  "confidence": 0.6868750334897569,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

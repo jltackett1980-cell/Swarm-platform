@@ -1,0 +1,32 @@
+{
+  "id": "e8aa51585509",
+  "generation": 6581,
+  "created_at": "2026-03-02T06:20:51.230021",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "If Aerogel porosity for thermal/acoustic insulation is applied to microcracks, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 25,
+    "estimated_cost_usd": 393409,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 447289534,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 26,
+    "economic_value_usd": 26837372040000
+  },
+  "confidence": 0.3875903401637986,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "4885b7225ddf",
+  "generation": 5698,
+  "created_at": "2026-03-02T06:17:39.494881",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved remains unsolved because previous research missed the role of Homomorphic. Homomorphic encryption for private computation directly addresses this.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 7,
+    "estimated_cost_usd": 24842,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3926048623,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 13,
+    "economic_value_usd": 314083889840000
+  },
+  "confidence": 0.31111329027421436,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

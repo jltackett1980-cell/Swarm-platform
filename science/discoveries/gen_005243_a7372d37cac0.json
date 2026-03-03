@@ -1,0 +1,32 @@
+{
+  "id": "a7372d37cac0",
+  "generation": 5243,
+  "created_at": "2026-03-02T06:16:08.212500",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "Combining Optogenetic control of specific neuron populations with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 23,
+    "estimated_cost_usd": 954553,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 32942145,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 27,
+    "economic_value_usd": 2305950150000
+  },
+  "confidence": 0.4395022207269678,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

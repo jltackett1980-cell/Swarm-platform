@@ -1,0 +1,32 @@
+{
+  "id": "d4d293812fd8",
+  "generation": 4828,
+  "created_at": "2026-03-02T06:14:49.291651",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved remains unsolved because previous research missed the role of Acoustic. Acoustic levitation for contactless manipulation directly addresses this.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 8,
+    "estimated_cost_usd": 181101,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 364036737,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 17,
+    "economic_value_usd": 10921102110000
+  },
+  "confidence": 0.30360208287750096,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

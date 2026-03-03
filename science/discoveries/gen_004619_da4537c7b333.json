@@ -1,0 +1,32 @@
+{
+  "id": "da4537c7b333",
+  "generation": 4619,
+  "created_at": "2026-03-02T06:14:11.380852",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Self-assembled monolayer for surface functionalization \u2014 specifically Self-assembled monolayer for \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 29,
+    "estimated_cost_usd": 517129,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 167769072,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 7,
+    "economic_value_usd": 13421525760000
+  },
+  "confidence": 0.7187549333322368,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

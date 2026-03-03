@@ -1,0 +1,32 @@
+{
+  "id": "0291f6b2e9bd",
+  "generation": 1435,
+  "created_at": "2026-03-02T06:06:30.714171",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "Combining Liquid crystal elastomer actuation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 5,
+    "estimated_cost_usd": 72943,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 784810583,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 29,
+    "economic_value_usd": 31392423320000
+  },
+  "confidence": 0.36759663312169977,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

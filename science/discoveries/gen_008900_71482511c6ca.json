@@ -1,0 +1,32 @@
+{
+  "id": "71482511c6ca",
+  "generation": 8900,
+  "created_at": "2026-03-02T06:31:26.846711",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "What material stores hydrogen fuel at high density without safety risk? remains unsolved because previous research missed the role of Two-dimensional. Two-dimensional material stacking (van der Waals heterostructure) directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 14,
+    "estimated_cost_usd": 214474,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 941609893,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 25,
+    "economic_value_usd": 18832197860000
+  },
+  "confidence": 0.4009893220546757,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

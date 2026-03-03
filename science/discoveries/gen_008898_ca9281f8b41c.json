@@ -1,0 +1,32 @@
+{
+  "id": "ca9281f8b41c",
+  "generation": 8898,
+  "created_at": "2026-03-02T06:31:26.475727",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "Polymer crosslinking under specific stimulus may resolve What substrate allows silicon-level performance in fully flexible electronics? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 11,
+    "estimated_cost_usd": 199965,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 138713843,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 8,
+    "economic_value_usd": 9709969010000
+  },
+  "confidence": 0.7075208579517389,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

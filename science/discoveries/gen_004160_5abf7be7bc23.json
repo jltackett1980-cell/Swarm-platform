@@ -1,0 +1,32 @@
+{
+  "id": "5abf7be7bc23",
+  "generation": 4160,
+  "created_at": "2026-03-02T06:12:51.539656",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "Combining Transcranial magnetic stimulation of specific cortical area with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 15,
+    "estimated_cost_usd": 522189,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 14937666,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 11,
+    "economic_value_usd": 746883300000
+  },
+  "confidence": 0.555187031920471,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

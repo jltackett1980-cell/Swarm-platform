@@ -1,0 +1,32 @@
+{
+  "id": "bd713a03db70",
+  "generation": 7358,
+  "created_at": "2026-03-02T06:24:06.806525",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Liquid crystal elastomer actuation \u2014 specifically Liquid crystal elastomer \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 36,
+    "estimated_cost_usd": 691944,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 344739228,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 17,
+    "economic_value_usd": 20684353680000
+  },
+  "confidence": 0.4752422542191805,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

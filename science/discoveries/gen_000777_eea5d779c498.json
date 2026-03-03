@@ -1,0 +1,32 @@
+{
+  "id": "eea5d779c498",
+  "generation": 777,
+  "created_at": "2026-03-02T06:05:16.412710",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "The key to Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? is Psychedelic-induced neuroplasticity via 5-HT2A receptor \u2014 specifically Psychedelic-induced neuroplasticity via \u2014 which would help 24,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 28,
+    "estimated_cost_usd": 757762,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13385811,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 14,
+    "economic_value_usd": 669290550000
+  },
+  "confidence": 0.46291072141518214,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

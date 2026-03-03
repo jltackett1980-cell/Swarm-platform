@@ -1,0 +1,39 @@
+{
+  "id": "3765c965",
+  "name": "NexusRelief",
+  "generation": 137,
+  "created_at": "2026-03-02T17:14:42.100268",
+  "pain": "chronic_pain",
+  "population": 50000000,
+  "problem": "50M Americans in daily pain with no affordable relief",
+  "physics": "acoustic_ultrasound",
+  "physics_desc": "Sound waves above 20kHz for tissue effects",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Therapeutic ultrasound",
+    "HIFU"
+  ],
+  "form_factor": "wearable patch",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 1.0705,
+    "size_cm": 8.0,
+    "cost_usd": 134.91,
+    "battery_hours": 8.5
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "PainLog",
+  "companion_domain": "chronic_pain",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

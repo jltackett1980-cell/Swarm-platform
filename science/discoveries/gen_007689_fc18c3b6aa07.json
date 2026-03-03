@@ -1,0 +1,32 @@
+{
+  "id": "fc18c3b6aa07",
+  "generation": 7689,
+  "created_at": "2026-03-02T06:25:31.509522",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "The key to Can ocean acidification be safely reversed \u2014 what biochemical approach? is Biochar amendment for soil carbon sequestration \u2014 specifically Biochar amendment for \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 8,
+    "estimated_cost_usd": 90867,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 949791415,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 25,
+    "economic_value_usd": 47489570750000
+  },
+  "confidence": 0.3654958368776008,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

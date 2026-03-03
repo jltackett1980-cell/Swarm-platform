@@ -1,0 +1,32 @@
+{
+  "id": "89bd0080af9e",
+  "generation": 4645,
+  "created_at": "2026-03-02T06:14:16.754590",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "The key to Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear is Quantum tunneling through energy barrier \u2014 specifically Quantum tunneling through \u2014 which would help 2,000,000,000 people affected.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 1,
+    "estimated_cost_usd": 22502,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 849202108,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 18,
+    "economic_value_usd": 25476063240000
+  },
+  "confidence": 0.32995873690824895,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

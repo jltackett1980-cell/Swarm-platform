@@ -1,0 +1,32 @@
+{
+  "id": "352969a1794b",
+  "generation": 6076,
+  "created_at": "2026-03-02T06:18:59.412429",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "How to produce defect-free large-area graphene at low cost? remains unsolved because previous research missed the role of Carbon. Carbon nanotube alignment in polymer matrix directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 18,
+    "estimated_cost_usd": 266619,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 953458352,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 30,
+    "economic_value_usd": 28603750560000
+  },
+  "confidence": 0.6295938856164975,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

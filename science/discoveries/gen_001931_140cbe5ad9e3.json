@@ -1,0 +1,32 @@
+{
+  "id": "140cbe5ad9e3",
+  "generation": 1931,
+  "created_at": "2026-03-02T06:07:29.982107",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "Photonic bandgap manipulation in metamaterial may resolve Can superconductivity be achieved at room temperature \u2014 what material structure? by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 9,
+    "estimated_cost_usd": 186095,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3846240245,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 21,
+    "economic_value_usd": 307699219600000
+  },
+  "confidence": 0.4564965362069788,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

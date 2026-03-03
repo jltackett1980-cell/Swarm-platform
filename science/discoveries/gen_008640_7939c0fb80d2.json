@@ -1,0 +1,32 @@
+{
+  "id": "7939c0fb80d2",
+  "generation": 8640,
+  "created_at": "2026-03-02T06:29:50.767017",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "If Bioelectrochemical system for pollutant conversion is applied to than, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 4,
+    "estimated_cost_usd": 46749,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 334701220,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 28,
+    "economic_value_usd": 10041036600000
+  },
+  "confidence": 0.44424345865202153,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

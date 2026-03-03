@@ -1,0 +1,32 @@
+{
+  "id": "423dae9a05d6",
+  "generation": 5025,
+  "created_at": "2026-03-02T06:15:26.096134",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "If Electrospun nanofiber scaffold for tissue engineering is applied to microcracks, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 18,
+    "estimated_cost_usd": 323418,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 291807963,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 11,
+    "economic_value_usd": 23344637040000
+  },
+  "confidence": 0.4432217913772289,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "b3cd70e76301",
+  "generation": 1266,
+  "created_at": "2026-03-02T06:06:11.035250",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "If Polymer crosslinking under specific stimulus is applied to types, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 15,
+    "estimated_cost_usd": 222543,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3136413200,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 22,
+    "economic_value_usd": 250913056000000
+  },
+  "confidence": 0.7061146613525243,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "705d3254f4fd",
+  "generation": 9426,
+  "created_at": "2026-03-02T06:34:09.481671",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient remains unsolved because previous research missed the role of Transcranial. Transcranial magnetic stimulation of specific cortical area directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 3,
+    "estimated_cost_usd": 95457,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 55399203,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 25,
+    "economic_value_usd": 4431936240000
+  },
+  "confidence": 0.7411855422896336,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

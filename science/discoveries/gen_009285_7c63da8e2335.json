@@ -1,0 +1,32 @@
+{
+  "id": "7c63da8e2335",
+  "generation": 9285,
+  "created_at": "2026-03-02T06:33:25.594971",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Metal-organic. Metal-organic framework with specific pore geometry directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 27,
+    "estimated_cost_usd": 458584,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5071322,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 22,
+    "economic_value_usd": 253566100000
+  },
+  "confidence": 0.35366399784356173,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

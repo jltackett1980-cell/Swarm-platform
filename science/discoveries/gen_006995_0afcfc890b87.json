@@ -1,0 +1,32 @@
+{
+  "id": "0afcfc890b87",
+  "generation": 6995,
+  "created_at": "2026-03-02T06:22:37.457992",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "If Bose-Einstein condensate at higher temperature is applied to ionic, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 2,
+    "estimated_cost_usd": 45760,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 441448410,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 30,
+    "economic_value_usd": 39730356900000
+  },
+  "confidence": 0.35854109843260734,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

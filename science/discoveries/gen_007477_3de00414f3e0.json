@@ -1,0 +1,32 @@
+{
+  "id": "3de00414f3e0",
+  "generation": 7477,
+  "created_at": "2026-03-02T06:24:37.399963",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "How does gut microbiome composition directly affect brain chemistry and mood? remains unsolved because previous research missed the role of mRNA. mRNA therapy to upregulate/downregulate gene expression directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 24,
+    "estimated_cost_usd": 831514,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 489,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 36831156,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 10,
+    "economic_value_usd": 1473246240000
+  },
+  "confidence": 0.3870652134272717,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

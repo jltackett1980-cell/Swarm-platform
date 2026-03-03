@@ -1,0 +1,32 @@
+{
+  "id": "9147f0ba716f",
+  "generation": 2135,
+  "created_at": "2026-03-02T06:07:55.104546",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "Bioelectrochemical system for pollutant conversion may resolve What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? by activating at the systems level.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 6,
+    "estimated_cost_usd": 86687,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2487816423,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 17,
+    "economic_value_usd": 24878164230000
+  },
+  "confidence": 0.5326212403079824,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

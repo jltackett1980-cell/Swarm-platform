@@ -1,0 +1,32 @@
+{
+  "id": "df7ff4137a8d",
+  "generation": 3380,
+  "created_at": "2026-03-02T06:10:46.078974",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "Phytoremediation with hyperaccumulator plant species may resolve How to restore depleted agricultural soil microbiome rapidly at scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 8,
+    "estimated_cost_usd": 98292,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 149245885,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 18,
+    "economic_value_usd": 8954753100000
+  },
+  "confidence": 0.3402804656473439,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

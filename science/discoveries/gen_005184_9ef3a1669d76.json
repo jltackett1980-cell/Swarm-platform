@@ -1,0 +1,32 @@
+{
+  "id": "9ef3a1669d76",
+  "generation": 5184,
+  "created_at": "2026-03-02T06:15:56.183212",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "Why do perovskite solar cells degrade \u2014 what material instability causes it? remains unsolved because previous research missed the role of Hydrogel. Hydrogel swelling/shrinking response directly addresses this.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 7,
+    "estimated_cost_usd": 114965,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 509101994,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 25,
+    "economic_value_usd": 40728159520000
+  },
+  "confidence": 0.7619585092208769,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

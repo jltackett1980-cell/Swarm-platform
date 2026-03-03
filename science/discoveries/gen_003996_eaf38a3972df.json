@@ -1,0 +1,32 @@
+{
+  "id": "eaf38a3972df",
+  "generation": 3996,
+  "created_at": "2026-03-02T06:12:24.656657",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "Neuroinflammation reduction via microglial targeting may resolve What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient by activating at the systems level.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 26,
+    "estimated_cost_usd": 767009,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 74123139,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 7,
+    "economic_value_usd": 1482462780000
+  },
+  "confidence": 0.3341266479128731,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

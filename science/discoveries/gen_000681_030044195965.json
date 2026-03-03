@@ -1,0 +1,32 @@
+{
+  "id": "030044195965",
+  "generation": 681,
+  "created_at": "2026-03-02T06:05:06.629544",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "Can addiction-related neural pathway changes be reversed without withdrawal? remains unsolved because previous research missed the role of Glial. Glial cell activation/suppression in target brain region directly addresses this.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 26,
+    "estimated_cost_usd": 683181,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 14861531,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 29,
+    "economic_value_usd": 148615310000
+  },
+  "confidence": 0.735647845091614,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

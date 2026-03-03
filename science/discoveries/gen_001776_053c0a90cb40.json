@@ -1,0 +1,32 @@
+{
+  "id": "053c0a90cb40",
+  "generation": 1776,
+  "created_at": "2026-03-02T06:07:12.227256",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "Bacteriophage surface display for targeting may resolve What material surface coating prevents bacterial biofilm formation on implants? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 11,
+    "estimated_cost_usd": 214548,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 309826887,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 13,
+    "economic_value_usd": 15491344350000
+  },
+  "confidence": 0.5250417737597455,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

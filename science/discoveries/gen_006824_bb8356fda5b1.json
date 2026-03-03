@@ -1,0 +1,32 @@
+{
+  "id": "bb8356fda5b1",
+  "generation": 6824,
+  "created_at": "2026-03-02T06:21:48.036239",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "The key to What limits adult neuroplasticity \u2014 can those limits be safely removed? is Cortical spreading depression mechanism in migraine \u2014 specifically Cortical spreading depression \u2014 which would help 200,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 4,
+    "estimated_cost_usd": 132699,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 44831993,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 23,
+    "economic_value_usd": 2241599650000
+  },
+  "confidence": 0.7828700975239009,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

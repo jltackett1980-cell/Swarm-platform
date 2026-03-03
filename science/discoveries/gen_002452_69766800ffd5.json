@@ -1,0 +1,32 @@
+{
+  "id": "69766800ffd5",
+  "generation": 2452,
+  "created_at": "2026-03-02T06:08:35.133909",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "If Biomimetic surface structure (lotus, shark skin, gecko) is applied to microcracks, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 9,
+    "estimated_cost_usd": 171196,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 203938063,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 8,
+    "economic_value_usd": 16315045040000
+  },
+  "confidence": 0.4656510280032164,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

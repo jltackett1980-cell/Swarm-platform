@@ -1,0 +1,32 @@
+{
+  "id": "ae48f9d6bee5",
+  "generation": 2309,
+  "created_at": "2026-03-02T06:08:16.844120",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? remains unsolved because previous research missed the role of BDNF. BDNF upregulation to promote neurogenesis directly addresses this.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 21,
+    "estimated_cost_usd": 502559,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7253299,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 14,
+    "economic_value_usd": 435197940000
+  },
+  "confidence": 0.5759147328764075,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

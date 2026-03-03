@@ -1,0 +1,32 @@
+{
+  "id": "9ff77fbc2246",
+  "generation": 9675,
+  "created_at": "2026-03-02T06:35:26.128259",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "The key to How are long-term memories physically encoded in neural tissue? is Transcranial magnetic stimulation of specific cortical area \u2014 specifically Transcranial magnetic stimulation \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 24,
+    "estimated_cost_usd": 662788,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 489,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3929492204,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 21,
+    "economic_value_usd": 117884766120000
+  },
+  "confidence": 0.4350249528243364,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

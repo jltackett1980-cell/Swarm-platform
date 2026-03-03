@@ -1,0 +1,32 @@
+{
+  "id": "c9d11fe709da",
+  "generation": 3696,
+  "created_at": "2026-03-02T06:11:36.098370",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "What material stores hydrogen fuel at high density without safety risk? remains unsolved because previous research missed the role of Electrospun. Electrospun nanofiber scaffold for tissue engineering directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 26,
+    "estimated_cost_usd": 426036,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 711284429,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 16,
+    "economic_value_usd": 28451377160000
+  },
+  "confidence": 0.3382140597651256,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

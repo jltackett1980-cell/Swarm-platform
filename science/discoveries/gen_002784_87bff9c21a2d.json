@@ -1,0 +1,32 @@
+{
+  "id": "87bff9c21a2d",
+  "generation": 2784,
+  "created_at": "2026-03-02T06:09:19.963318",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "The key to How does central sensitization maintain chronic pain without tissue damage? is Cortical spreading depression mechanism in migraine \u2014 specifically Cortical spreading depression \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 21,
+    "estimated_cost_usd": 517008,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 20140896,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 13,
+    "economic_value_usd": 1409862720000
+  },
+  "confidence": 0.7694735936050937,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

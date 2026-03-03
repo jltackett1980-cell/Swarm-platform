@@ -1,0 +1,32 @@
+{
+  "id": "cdbca7159fea",
+  "generation": 2997,
+  "created_at": "2026-03-02T06:09:50.021028",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "Enzymatic depolymerization of specific polymer may resolve How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? by activating at the systems level.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 9,
+    "estimated_cost_usd": 124720,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 78284685,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 12,
+    "economic_value_usd": 6262774800000
+  },
+  "confidence": 0.3989574261178974,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

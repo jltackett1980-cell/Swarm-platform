@@ -1,0 +1,32 @@
+{
+  "id": "5c26b008d00c",
+  "generation": 2897,
+  "created_at": "2026-03-02T06:09:35.818285",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "Biomimetic surface structure (lotus, shark skin, gecko) may resolve What enzyme or organism efficiently degrades all plastic types at scale? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 15,
+    "estimated_cost_usd": 236685,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3386787839,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 20,
+    "economic_value_usd": 33867878390000
+  },
+  "confidence": 0.3351772976594361,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

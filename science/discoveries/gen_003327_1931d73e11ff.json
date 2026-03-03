@@ -1,0 +1,32 @@
+{
+  "id": "1931d73e11ff",
+  "generation": 3327,
+  "created_at": "2026-03-02T06:10:38.345604",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved remains unsolved because previous research missed the role of Federated. Federated learning without data centralization directly addresses this.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 8,
+    "estimated_cost_usd": 39548,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Theoretical complexity proof with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2976268107,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 9,
+    "economic_value_usd": 59525362140000
+  },
+  "confidence": 0.4951715314104562,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

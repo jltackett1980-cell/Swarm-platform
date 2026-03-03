@@ -1,0 +1,32 @@
+{
+  "id": "0fbe35f2c475",
+  "generation": 9362,
+  "created_at": "2026-03-02T06:33:50.128194",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "Why do amyloid plaques form in Alzheimer's and can they be cleared? remains unsolved because previous research missed the role of Autophagy. Autophagy activation to clear misfolded proteins directly addresses this.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 17,
+    "estimated_cost_usd": 801260,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 18505226,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 5,
+    "economic_value_usd": 1480418080000
+  },
+  "confidence": 0.47663859436942974,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

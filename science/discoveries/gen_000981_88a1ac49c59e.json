@@ -1,0 +1,32 @@
+{
+  "id": "88a1ac49c59e",
+  "generation": 981,
+  "created_at": "2026-03-02T06:05:39.008913",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "Combining Monte Carlo tree search with learned heuristics with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 12,
+    "estimated_cost_usd": 52668,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1357967853,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 9,
+    "economic_value_usd": 13579678530000
+  },
+  "confidence": 0.6019492740618702,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

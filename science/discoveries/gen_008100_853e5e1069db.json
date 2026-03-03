@@ -1,0 +1,32 @@
+{
+  "id": "853e5e1069db",
+  "generation": 8100,
+  "created_at": "2026-03-02T06:27:21.292167",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "If Dopamine/serotonin reuptake inhibition with specificity is applied to alone, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 11,
+    "estimated_cost_usd": 321077,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 87833430,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 10,
+    "economic_value_usd": 7026674400000
+  },
+  "confidence": 0.4876660135903142,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

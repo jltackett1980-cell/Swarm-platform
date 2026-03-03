@@ -1,0 +1,32 @@
+{
+  "id": "3635496bd306",
+  "generation": 6065,
+  "created_at": "2026-03-02T06:18:57.312702",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "The key to What membrane material filters all contaminants from water at low energy cost? is Atomic layer deposition of conformal coating \u2014 specifically Atomic layer deposition \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 32,
+    "estimated_cost_usd": 496267,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 563995012,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 28,
+    "economic_value_usd": 45119600960000
+  },
+  "confidence": 0.43206667967785894,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

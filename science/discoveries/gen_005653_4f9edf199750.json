@@ -1,0 +1,32 @@
+{
+  "id": "4f9edf199750",
+  "generation": 5653,
+  "created_at": "2026-03-02T06:17:30.428558",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "Enzymatic depolymerization of specific polymer may resolve How to restore depleted agricultural soil microbiome rapidly at scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 9,
+    "estimated_cost_usd": 94589,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 138755721,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 26,
+    "economic_value_usd": 12488014890000
+  },
+  "confidence": 0.36840001959006885,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

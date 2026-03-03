@@ -1,0 +1,32 @@
+{
+  "id": "4764ef91c0b8",
+  "generation": 3464,
+  "created_at": "2026-03-02T06:10:59.722527",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "The key to What encryption survives quantum computer attacks \u2014 post-quantum cryptography is Federated learning without data centralization \u2014 specifically Federated learning without \u2014 which would help 4,000,000,000 people affected.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 3,
+    "estimated_cost_usd": 12774,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1115472687,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 28,
+    "economic_value_usd": 89237814960000
+  },
+  "confidence": 0.5694863923903506,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

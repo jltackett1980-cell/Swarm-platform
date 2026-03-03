@@ -1,0 +1,32 @@
+{
+  "id": "0f2c67b8156c",
+  "generation": 2037,
+  "created_at": "2026-03-02T06:07:42.977880",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Neuromorphic spike-timing dependent plasticity",
+  "hypothesis": "If Neuromorphic spike-timing dependent plasticity is applied to alphafold, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 5,
+    "estimated_cost_usd": 24406,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3637517414,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 17,
+    "economic_value_usd": 72750348280000
+  },
+  "confidence": 0.5439818814580051,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

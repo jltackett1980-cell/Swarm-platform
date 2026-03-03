@@ -1,0 +1,32 @@
+{
+  "id": "5d070aa8f13d",
+  "generation": 6819,
+  "created_at": "2026-03-02T06:21:46.544576",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "The key to Can addiction-related neural pathway changes be reversed without withdrawal? is Glial cell activation/suppression in target brain region \u2014 specifically Glial cell activation/suppression \u2014 which would help 21,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 35,
+    "estimated_cost_usd": 1211998,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7545208,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 20,
+    "economic_value_usd": 679068720000
+  },
+  "confidence": 0.5489017381074524,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

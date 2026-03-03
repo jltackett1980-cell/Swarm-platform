@@ -1,0 +1,32 @@
+{
+  "id": "8fb01fed607e",
+  "generation": 8925,
+  "created_at": "2026-03-02T06:31:34.484744",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "If Epigenetic methylation/demethylation of regulatory region is applied to it, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 33,
+    "estimated_cost_usd": 1118138,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2859341014,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 10,
+    "economic_value_usd": 57186820280000
+  },
+  "confidence": 0.5853254424778163,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

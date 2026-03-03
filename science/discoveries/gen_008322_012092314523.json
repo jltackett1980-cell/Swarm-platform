@@ -1,0 +1,32 @@
+{
+  "id": "012092314523",
+  "generation": 8322,
+  "created_at": "2026-03-02T06:28:21.976387",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "What substrate allows silicon-level performance in fully flexible electronics? remains unsolved because previous research missed the role of Self-assembled. Self-assembled monolayer for surface functionalization directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 30,
+    "estimated_cost_usd": 584223,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 151755570,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 14,
+    "economic_value_usd": 4552667100000
+  },
+  "confidence": 0.40250087702588894,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

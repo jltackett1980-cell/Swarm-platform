@@ -1,0 +1,32 @@
+{
+  "id": "c25cdb24756a",
+  "generation": 1345,
+  "created_at": "2026-03-02T06:06:20.511003",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "The key to Can superconductivity be achieved at room temperature \u2014 what material structure? is Piezoelectric coupling in novel crystal structure \u2014 specifically Piezoelectric coupling in \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 3,
+    "estimated_cost_usd": 66026,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2638951581,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 23,
+    "economic_value_usd": 211116126480000
+  },
+  "confidence": 0.6330622368558239,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

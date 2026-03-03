@@ -1,0 +1,32 @@
+{
+  "id": "ee180a6e9e50",
+  "generation": 4521,
+  "created_at": "2026-03-02T06:13:53.747738",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "If Rhizobium inoculation for nitrogen fixation is applied to rapidly, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 2,
+    "estimated_cost_usd": 26560,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 136677848,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 13,
+    "economic_value_usd": 9567449360000
+  },
+  "confidence": 0.7656146777221708,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

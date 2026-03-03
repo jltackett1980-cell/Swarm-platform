@@ -1,0 +1,39 @@
+{
+  "id": "f6451b99",
+  "name": "HavenVision",
+  "generation": 346,
+  "created_at": "2026-03-02T17:14:49.730110",
+  "pain": "vision_impairment",
+  "population": 12000000,
+  "problem": "12M with vision impairment lack affordable assistive tech",
+  "physics": "mechanical_haptic",
+  "physics_desc": "Vibration, pressure, mechanical force",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Haptic feedback",
+    "Vibrotactile devices"
+  ],
+  "form_factor": "glasses attachment",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.2026,
+    "size_cm": 26.0,
+    "cost_usd": 156.51,
+    "battery_hours": 92.9
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

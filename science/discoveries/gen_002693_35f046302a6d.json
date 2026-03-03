@@ -1,0 +1,32 @@
+{
+  "id": "35f046302a6d",
+  "generation": 2693,
+  "created_at": "2026-03-02T06:09:08.042839",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "If Shape memory alloy phase transition is applied to and, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 12,
+    "estimated_cost_usd": 175692,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6368486,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 19,
+    "economic_value_usd": 63684860000
+  },
+  "confidence": 0.41453561785413345,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

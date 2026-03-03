@@ -1,0 +1,32 @@
+{
+  "id": "e286a5794503",
+  "generation": 760,
+  "created_at": "2026-03-02T06:05:14.589070",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "Why does the immune system attack the body's own tissue in autoimmune disease? remains unsolved because previous research missed the role of Photodynamic. Photodynamic therapy targeting specific cell receptors directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 26,
+    "estimated_cost_usd": 1129048,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 30481071,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 26,
+    "economic_value_usd": 2743296390000
+  },
+  "confidence": 0.4550493032786117,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

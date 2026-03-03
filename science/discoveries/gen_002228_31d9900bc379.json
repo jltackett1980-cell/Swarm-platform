@@ -1,0 +1,32 @@
+{
+  "id": "31d9900bc379",
+  "generation": 2228,
+  "created_at": "2026-03-02T06:08:06.467291",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "The key to What material is biocompatible, conductive, and flexible enough for long-term brain implants? is Aerogel porosity for thermal/acoustic insulation \u2014 specifically Aerogel porosity for \u2014 which would help 5,400,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 16,
+    "estimated_cost_usd": 279116,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3431404,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 18,
+    "economic_value_usd": 102942120000
+  },
+  "confidence": 0.43287364494869207,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

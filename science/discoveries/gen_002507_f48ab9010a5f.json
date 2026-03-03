@@ -1,0 +1,32 @@
+{
+  "id": "f48ab9010a5f",
+  "generation": 2507,
+  "created_at": "2026-03-02T06:08:42.733352",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "What material stores hydrogen fuel at high density without safety risk? remains unsolved because previous research missed the role of Biomimetic. Biomimetic surface structure (lotus, shark skin, gecko) directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 35,
+    "estimated_cost_usd": 485764,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1477287990,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 6,
+    "economic_value_usd": 14772879900000
+  },
+  "confidence": 0.6702570549529784,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

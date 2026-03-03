@@ -1,0 +1,32 @@
+{
+  "id": "6c6244fd7ae6",
+  "generation": 8560,
+  "created_at": "2026-03-02T06:29:29.181727",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "Combining Two-dimensional material stacking (van der Waals heterostructure) with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 13,
+    "estimated_cost_usd": 217998,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 740899101,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 16,
+    "economic_value_usd": 7408991010000
+  },
+  "confidence": 0.3834917681957492,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

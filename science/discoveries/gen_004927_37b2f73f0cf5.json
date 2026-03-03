@@ -1,0 +1,32 @@
+{
+  "id": "37b2f73f0cf5",
+  "generation": 4927,
+  "created_at": "2026-03-02T06:15:07.570272",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "The key to How to restore depleted agricultural soil microbiome rapidly at scale? is Biochar amendment for soil carbon sequestration \u2014 specifically Biochar amendment for \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 5,
+    "estimated_cost_usd": 63890,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 209833383,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 12,
+    "economic_value_usd": 2098333830000
+  },
+  "confidence": 0.6006292057234314,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

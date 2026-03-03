@@ -1,0 +1,32 @@
+{
+  "id": "39bf3c7b90c5",
+  "generation": 6913,
+  "created_at": "2026-03-02T06:22:09.202396",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Electrospun. Electrospun nanofiber scaffold for tissue engineering directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 26,
+    "estimated_cost_usd": 347072,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7184469,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 21,
+    "economic_value_usd": 71844690000
+  },
+  "confidence": 0.6433679581546448,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

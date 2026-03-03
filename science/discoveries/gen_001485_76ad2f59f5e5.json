@@ -1,0 +1,32 @@
+{
+  "id": "76ad2f59f5e5",
+  "generation": 1485,
+  "created_at": "2026-03-02T06:06:36.735690",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "Combining Biochar amendment for soil carbon sequestration with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 8,
+    "estimated_cost_usd": 92975,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 841190062,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 16,
+    "economic_value_usd": 75707105580000
+  },
+  "confidence": 0.4630822951292854,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

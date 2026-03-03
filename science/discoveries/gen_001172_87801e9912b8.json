@@ -1,0 +1,32 @@
+{
+  "id": "87801e9912b8",
+  "generation": 1172,
+  "created_at": "2026-03-02T06:05:59.814379",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Forward. Forward osmosis using draw solution gradient directly addresses this.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 9,
+    "estimated_cost_usd": 92079,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 78649730,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 11,
+    "economic_value_usd": 3145989200000
+  },
+  "confidence": 0.6320440529771747,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

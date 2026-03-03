@@ -1,0 +1,32 @@
+{
+  "id": "800dd04e4737",
+  "generation": 5200,
+  "created_at": "2026-03-02T06:15:59.274789",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "The key to What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? is Bioelectrochemical system for pollutant conversion \u2014 specifically Bioelectrochemical system for \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 4,
+    "estimated_cost_usd": 50710,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2733451081,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 19,
+    "economic_value_usd": 246010597290000
+  },
+  "confidence": 0.7286581291460333,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

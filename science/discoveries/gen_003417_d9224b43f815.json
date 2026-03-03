@@ -1,0 +1,32 @@
+{
+  "id": "d9224b43f815",
+  "generation": 3417,
+  "created_at": "2026-03-02T06:10:52.227179",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "Combining BDNF upregulation to promote neurogenesis with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 21,
+    "estimated_cost_usd": 720479,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 42212125,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 15,
+    "economic_value_usd": 2110606250000
+  },
+  "confidence": 0.7259749322372768,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

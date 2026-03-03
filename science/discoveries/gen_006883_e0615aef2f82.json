@@ -1,0 +1,32 @@
+{
+  "id": "e0615aef2f82",
+  "generation": 6883,
+  "created_at": "2026-03-02T06:22:01.799200",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "If Perovskite crystal structure optimization is applied to fully, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 34,
+    "estimated_cost_usd": 510366,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 245840980,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 30,
+    "economic_value_usd": 14750458800000
+  },
+  "confidence": 0.7314856001839303,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "c247e6d9a410",
+  "generation": 9175,
+  "created_at": "2026-03-02T06:32:50.503937",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "The key to Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear is Topological insulator surface state conduction \u2014 specifically Topological insulator surface \u2014 which would help 2,000,000,000 people affected.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 1,
+    "estimated_cost_usd": 22088,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 373720362,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 23,
+    "economic_value_usd": 29897628960000
+  },
+  "confidence": 0.4436012084580399,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

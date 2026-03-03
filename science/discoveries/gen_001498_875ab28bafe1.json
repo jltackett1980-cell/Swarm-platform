@@ -1,0 +1,32 @@
+{
+  "id": "875ab28bafe1",
+  "generation": 1498,
+  "created_at": "2026-03-02T06:06:38.439550",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "Viral vector delivery of therapeutic gene may resolve How are trauma and stress responses inherited epigenetically across generations? by activating at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 6,
+    "estimated_cost_usd": 216036,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 194645386,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 13,
+    "economic_value_usd": 7785815440000
+  },
+  "confidence": 0.6701058018693442,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

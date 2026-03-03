@@ -1,0 +1,32 @@
+{
+  "id": "8335e5fb76fa",
+  "generation": 3320,
+  "created_at": "2026-03-02T06:10:37.149169",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "If Hydrogel swelling/shrinking response is applied to low, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 31,
+    "estimated_cost_usd": 568347,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 369973879,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 15,
+    "economic_value_usd": 11099216370000
+  },
+  "confidence": 0.7658502170627357,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

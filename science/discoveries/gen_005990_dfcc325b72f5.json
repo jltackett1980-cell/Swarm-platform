@@ -1,0 +1,32 @@
+{
+  "id": "dfcc325b72f5",
+  "generation": 5990,
+  "created_at": "2026-03-02T06:18:40.244972",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "What substrate allows silicon-level performance in fully flexible electronics? remains unsolved because previous research missed the role of Metal-organic. Metal-organic framework with specific pore geometry directly addresses this.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 3,
+    "estimated_cost_usd": 48981,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 230420083,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 24,
+    "economic_value_usd": 2304200830000
+  },
+  "confidence": 0.6592930653679687,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

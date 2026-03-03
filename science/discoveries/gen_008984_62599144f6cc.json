@@ -1,0 +1,32 @@
+{
+  "id": "62599144f6cc",
+  "generation": 8984,
+  "created_at": "2026-03-02T06:31:52.549149",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "How to predict drug-receptor binding affinity from molecular structure without wet lab? remains unsolved because previous research missed the role of Attention. Attention mechanism with linear complexity directly addresses this.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 7,
+    "estimated_cost_usd": 23478,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2793047882,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 5,
+    "economic_value_usd": 195513351740000
+  },
+  "confidence": 0.7459305309122122,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

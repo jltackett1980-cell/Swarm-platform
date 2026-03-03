@@ -1,0 +1,32 @@
+{
+  "id": "3bb1a64b811f",
+  "generation": 1256,
+  "created_at": "2026-03-02T06:06:09.965559",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "What neural connectivity differences cause autism spectrum characteristics? remains unsolved because previous research missed the role of Fear. Fear memory reconsolidation interference via timing directly addresses this.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 32,
+    "estimated_cost_usd": 991423,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 46236690,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 9,
+    "economic_value_usd": 1849467600000
+  },
+  "confidence": 0.6495890313980366,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

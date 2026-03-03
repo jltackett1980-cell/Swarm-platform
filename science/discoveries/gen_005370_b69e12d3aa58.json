@@ -1,0 +1,32 @@
+{
+  "id": "b69e12d3aa58",
+  "generation": 5370,
+  "created_at": "2026-03-02T06:16:31.946064",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "If Two-dimensional material stacking (van der Waals heterostructure) is applied to formation, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 21,
+    "estimated_cost_usd": 295218,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 87591550,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 28,
+    "economic_value_usd": 7883239500000
+  },
+  "confidence": 0.5375956349150681,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

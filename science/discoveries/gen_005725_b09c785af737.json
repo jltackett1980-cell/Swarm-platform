@@ -1,0 +1,32 @@
+{
+  "id": "b09c785af737",
+  "generation": 5725,
+  "created_at": "2026-03-02T06:17:44.956231",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? remains unsolved because previous research missed the role of Glial. Glial cell activation/suppression in target brain region directly addresses this.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 4,
+    "estimated_cost_usd": 115189,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13494786,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 15,
+    "economic_value_usd": 404843580000
+  },
+  "confidence": 0.38095063550728986,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

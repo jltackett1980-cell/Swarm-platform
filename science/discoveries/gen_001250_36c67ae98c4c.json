@@ -1,0 +1,32 @@
+{
+  "id": "36c67ae98c4c",
+  "generation": 1250,
+  "created_at": "2026-03-02T06:06:08.978832",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "Vagus nerve stimulation modulating brain-gut axis may resolve Why do all animals sleep \u2014 what is the essential biological function? by activating at the systems level.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 17,
+    "estimated_cost_usd": 402225,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1329496075,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 8,
+    "economic_value_usd": 13294960750000
+  },
+  "confidence": 0.5338088696499632,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

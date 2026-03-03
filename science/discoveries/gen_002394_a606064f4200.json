@@ -1,0 +1,32 @@
+{
+  "id": "a606064f4200",
+  "generation": 2394,
+  "created_at": "2026-03-02T06:08:28.295401",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "The key to What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? is Rhizobium inoculation for nitrogen fixation \u2014 specifically Rhizobium inoculation for \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 5,
+    "estimated_cost_usd": 73873,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2552288600,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 24,
+    "economic_value_usd": 153137316000000
+  },
+  "confidence": 0.3418345558620612,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

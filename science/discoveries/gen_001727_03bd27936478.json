@@ -1,0 +1,32 @@
+{
+  "id": "03bd27936478",
+  "generation": 1727,
+  "created_at": "2026-03-02T06:07:06.461718",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "If Casimir effect between nanoscale surfaces is applied to chemical, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 8,
+    "estimated_cost_usd": 191000,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 557411516,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 10,
+    "economic_value_usd": 39018806120000
+  },
+  "confidence": 0.38226109413262416,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

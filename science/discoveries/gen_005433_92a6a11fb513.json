@@ -1,0 +1,32 @@
+{
+  "id": "92a6a11fb513",
+  "generation": 5433,
+  "created_at": "2026-03-02T06:16:44.883215",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "Can addiction-related neural pathway changes be reversed without withdrawal? remains unsolved because previous research missed the role of Deep. Deep brain stimulation of subthalamic nucleus directly addresses this.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 19,
+    "estimated_cost_usd": 486363,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 10107961,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 13,
+    "economic_value_usd": 808636880000
+  },
+  "confidence": 0.6743672667666072,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

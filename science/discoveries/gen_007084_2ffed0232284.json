@@ -1,0 +1,32 @@
+{
+  "id": "2ffed0232284",
+  "generation": 7084,
+  "created_at": "2026-03-02T06:22:58.594129",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "The key to Why do amyloid plaques form in Alzheimer's and can they be cleared? is Microbiome modulation via targeted bacteriophage therapy \u2014 specifically Microbiome modulation via \u2014 which would help 55,000,000 people affected.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 34,
+    "estimated_cost_usd": 1470226,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 21235121,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 14,
+    "economic_value_usd": 1698809680000
+  },
+  "confidence": 0.5147884803343177,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

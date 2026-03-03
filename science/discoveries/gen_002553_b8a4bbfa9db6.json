@@ -1,0 +1,32 @@
+{
+  "id": "b8a4bbfa9db6",
+  "generation": 2553,
+  "created_at": "2026-03-02T06:08:49.128625",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "How to store solar energy at grid scale without chemical battery degradation? remains unsolved because previous research missed the role of Thermoelectric. Thermoelectric Seebeck coefficient maximization directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 5,
+    "estimated_cost_usd": 114392,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 716092724,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 23,
+    "economic_value_usd": 21482781720000
+  },
+  "confidence": 0.44880395104495174,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

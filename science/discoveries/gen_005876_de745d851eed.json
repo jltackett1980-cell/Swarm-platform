@@ -1,0 +1,32 @@
+{
+  "id": "de745d851eed",
+  "generation": 5876,
+  "created_at": "2026-03-02T06:18:16.543225",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "Carbon nanotube alignment in polymer matrix may resolve What material surface coating prevents bacterial biofilm formation on implants? by activating at the molecular level.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 5,
+    "estimated_cost_usd": 67437,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 199429680,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 30,
+    "economic_value_usd": 1994296800000
+  },
+  "confidence": 0.5760768911265246,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

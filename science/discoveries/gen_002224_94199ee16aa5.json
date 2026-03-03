@@ -1,0 +1,32 @@
+{
+  "id": "94199ee16aa5",
+  "generation": 2224,
+  "created_at": "2026-03-02T06:08:06.303541",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Quantum annealing for optimization problems",
+  "hypothesis": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost? remains unsolved because previous research missed the role of Quantum. Quantum annealing for optimization problems directly addresses this.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 3,
+    "estimated_cost_usd": 10873,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3675723847,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 23,
+    "economic_value_usd": 110271715410000
+  },
+  "confidence": 0.5238364037287153,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

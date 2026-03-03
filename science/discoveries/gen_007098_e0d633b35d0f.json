@@ -1,0 +1,32 @@
+{
+  "id": "e0d633b35d0f",
+  "generation": 7098,
+  "created_at": "2026-03-02T06:23:02.448190",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "If Photonic bandgap manipulation in metamaterial is applied to chemical, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 11,
+    "estimated_cost_usd": 190175,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 750157167,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 29,
+    "economic_value_usd": 67514145030000
+  },
+  "confidence": 0.7985850603370611,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

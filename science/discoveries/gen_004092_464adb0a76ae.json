@@ -1,0 +1,32 @@
+{
+  "id": "464adb0a76ae",
+  "generation": 4092,
+  "created_at": "2026-03-02T06:12:39.501970",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Quantum annealing for optimization problems",
+  "hypothesis": "If Quantum annealing for optimization problems is applied to without, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 7,
+    "estimated_cost_usd": 32485,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Security audit with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2352930587,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 19,
+    "economic_value_usd": 211763752830000
+  },
+  "confidence": 0.37464784927361555,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

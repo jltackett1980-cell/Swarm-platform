@@ -1,0 +1,116 @@
+{
+  "device_id": "diabetes_monitoring_rf_glucose_clothing_embedded",
+  "condition": "diabetes_monitoring",
+  "physics_principle": "rf_glucose",
+  "form_factor": "clothing_embedded",
+  "generation": 16,
+  "parent_champion": "PulseGlucose",
+  "generated_at": "2026-03-02T17:56:33",
+  "engineering": {
+    "mcu": {
+      "part": "MAX32660",
+      "description": "Cortex-M4F 96MHz, medical ultra-low",
+      "cost_usd": 2.6
+    },
+    "physics_implementation": {
+      "principle": "rf_glucose",
+      "proven": true,
+      "comparable_devices": {
+        "mcu": {
+          "part": "ESP32-S3",
+          "description": "Xtensa LX7 240MHz, WiFi+BLE, 8MB PSRAM for ML inference",
+          "cost_usd": 3.5,
+          "datasheet": "espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf"
+        },
+        "rf_module": [
+          {
+            "part": "BGT60TR13C (Infineon)",
+            "function": "60GHz FMCW radar \u2014 micro-motion detection",
+            "cost_usd": 8.5
+          },
+          {
+            "part": "HMC5883L",
+            "function": "Magnetometer for orientation",
+            "cost_usd": 1.2
+          }
+        ],
+        "power": {
+          "battery": "Li-Po 2000mAh 3.7V (mains powered option)",
+          "charger": "TP4056",
+          "regulator": "AMS1117-3.3",
+          "estimated_life_hours": 72,
+          "cost_usd": 6.0
+        },
+        "pcb": {
+          "layers": 4,
+          "size_mm": "55x45",
+          "thickness_mm": 0.8,
+          "process": "ENIG \u2014 RF requires tight impedance control",
+          "estimated_cost_usd": 4.5
+        },
+        "enclosure": {
+          "material": "ABS with RF-transparent window",
+          "ip_rating": "IP44",
+          "size_mm": "80x60x20",
+          "estimated_cost_usd": 6.0
+        },
+        "firmware": {
+          "rtos": "FreeRTOS + TensorFlow Lite Micro",
+          "radar_config": "FMCW 58-63.5GHz, range 0.2-5m, velocity \u00b13m/s",
+          "sampling_rate_hz": 25,
+          "algorithm": "Range-Doppler processing. Fall detection via sudden velocity spike + absence of periodic breathing motion post-event. Gait analysis via cadence extraction.",
+          "ml_model": "CNN trained on radar signatures of normal gait vs fall events. <200KB model.",
+          "alert": "BLE to phone + optional 4G via SIM800L module"
+        },
+        "signal_processing": {
+          "fmcw_processing": "FFT on I/Q samples \u2192 range profile \u2192 Doppler processing \u2192 micro-Doppler spectrogram",
+          "fall_detection": "Threshold: velocity > 1.5m/s + horizontal displacement + cessation of periodic motion for >5s",
+          "breathing_monitor": "0.1-0.5Hz chest movement extraction from static radar return"
+        },
+        "fda_pathway": {
+          "device_class": "Class II",
+          "submission_type": "510(k)",
+          "predicate_devices": [
+            "Google Nest Hub radar sleep",
+            "Vayyar Care fall detection"
+          ],
+          "estimated_timeline_months": 15,
+          "estimated_cost_usd": 60000
+        }
+      }
+    },
+    "power": {
+      "battery": "Li-Po 500mAh 3.7V",
+      "charger": "MCP73831 USB-C",
+      "regulator": "TPS62740 buck converter",
+      "estimated_life_hours": 42,
+      "cost_usd": 3.96
+    },
+    "pcb": {
+      "layers": 6,
+      "size_mm": "41x24",
+      "process": "ENIG",
+      "ip_rating": "IP54",
+      "cost_usd": 10.72
+    },
+    "firmware": {
+      "rtos": "RIOT OS",
+      "sampling_hz": 500,
+      "ml_model": "TensorFlow Lite Micro",
+      "connectivity": "BLE 5.0 AES-128",
+      "storage": "local only \u2014 no cloud"
+    }
+  },
+  "fda_pathway": {
+    "device_class": "I",
+    "submission_type": "Exempt",
+    "estimated_timeline_months": 3,
+    "estimated_cost_usd": 5000
+  },
+  "estimated_bom_cost_usd": 16.22,
+  "retail_price_target_usd": 49.07,
+  "peoples_charter": true,
+  "offline_first": true,
+  "no_cloud": true,
+  "wisdom_score": 100
+}

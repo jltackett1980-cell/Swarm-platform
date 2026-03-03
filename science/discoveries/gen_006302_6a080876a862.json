@@ -1,0 +1,32 @@
+{
+  "id": "6a080876a862",
+  "generation": 6302,
+  "created_at": "2026-03-02T06:19:48.780018",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "If Two-dimensional material stacking (van der Waals heterostructure) is applied to types, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 22,
+    "estimated_cost_usd": 392753,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3935582196,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 20,
+    "economic_value_usd": 157423287840000
+  },
+  "confidence": 0.4868972606395756,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

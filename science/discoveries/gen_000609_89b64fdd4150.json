@@ -1,0 +1,32 @@
+{
+  "id": "89b64fdd4150",
+  "generation": 609,
+  "created_at": "2026-03-02T06:04:59.562284",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "If Carbon nanotube alignment in polymer matrix is applied to and, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 31,
+    "estimated_cost_usd": 558088,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4997565,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 11,
+    "economic_value_usd": 149926950000
+  },
+  "confidence": 0.3583309114401225,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

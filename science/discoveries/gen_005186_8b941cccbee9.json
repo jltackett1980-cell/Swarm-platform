@@ -1,0 +1,32 @@
+{
+  "id": "8b941cccbee9",
+  "generation": 5186,
+  "created_at": "2026-03-02T06:15:56.369679",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "Constructed wetland for water filtration may resolve How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? by activating at the systems level.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 1,
+    "estimated_cost_usd": 11008,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 205673187,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 25,
+    "economic_value_usd": 16453854960000
+  },
+  "confidence": 0.30114290296134244,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

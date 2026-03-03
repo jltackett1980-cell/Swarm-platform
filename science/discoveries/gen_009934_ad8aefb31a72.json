@@ -1,0 +1,32 @@
+{
+  "id": "ad8aefb31a72",
+  "generation": 9934,
+  "created_at": "2026-03-02T06:36:48.165300",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "If Transcranial magnetic stimulation of specific cortical area is applied to in, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 12,
+    "estimated_cost_usd": 288628,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3412455476,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 21,
+    "economic_value_usd": 68249109520000
+  },
+  "confidence": 0.31551808571167345,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

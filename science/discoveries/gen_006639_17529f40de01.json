@@ -1,0 +1,32 @@
+{
+  "id": "17529f40de01",
+  "generation": 6639,
+  "created_at": "2026-03-02T06:21:04.443216",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Combining Telomerase activation/inhibition in target cells with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 15,
+    "estimated_cost_usd": 542605,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 26494332,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 9,
+    "economic_value_usd": 1059773280000
+  },
+  "confidence": 0.6928273246346988,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

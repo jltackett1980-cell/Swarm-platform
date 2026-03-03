@@ -1,0 +1,32 @@
+{
+  "id": "792b3d669dbb",
+  "generation": 5889,
+  "created_at": "2026-03-02T06:18:18.827090",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "If Small molecule inhibitor of enzyme active site is applied to or, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 28,
+    "estimated_cost_usd": 1319300,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 10447518,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 22,
+    "economic_value_usd": 731326260000
+  },
+  "confidence": 0.42241513453779145,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

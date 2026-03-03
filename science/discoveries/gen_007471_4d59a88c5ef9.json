@@ -1,0 +1,32 @@
+{
+  "id": "4d59a88c5ef9",
+  "generation": 7471,
+  "created_at": "2026-03-02T06:24:35.624237",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway? remains unsolved because previous research missed the role of Viral. Viral vector delivery of therapeutic gene directly addresses this.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 21,
+    "estimated_cost_usd": 1019693,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 786577,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 28,
+    "economic_value_usd": 47194620000
+  },
+  "confidence": 0.4849468244347659,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

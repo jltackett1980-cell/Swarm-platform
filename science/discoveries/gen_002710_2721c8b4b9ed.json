@@ -1,0 +1,32 @@
+{
+  "id": "2721c8b4b9ed",
+  "generation": 2710,
+  "created_at": "2026-03-02T06:09:09.635569",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "Can ocean acidification be safely reversed \u2014 what biochemical approach? remains unsolved because previous research missed the role of Phytoremediation. Phytoremediation with hyperaccumulator plant species directly addresses this.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 10,
+    "estimated_cost_usd": 143516,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 810995306,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 27,
+    "economic_value_usd": 32439812240000
+  },
+  "confidence": 0.5052934962242135,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

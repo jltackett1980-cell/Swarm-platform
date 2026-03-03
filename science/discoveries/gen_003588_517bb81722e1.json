@@ -1,0 +1,32 @@
+{
+  "id": "517bb81722e1",
+  "generation": 3588,
+  "created_at": "2026-03-02T06:11:18.387487",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "How does gut microbiome composition directly affect brain chemistry and mood? remains unsolved because previous research missed the role of Epigenetic. Epigenetic methylation/demethylation of regulatory region directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 12,
+    "estimated_cost_usd": 415705,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 145250940,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 18,
+    "economic_value_usd": 2905018800000
+  },
+  "confidence": 0.7904934055670991,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

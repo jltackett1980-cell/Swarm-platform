@@ -1,0 +1,32 @@
+{
+  "id": "32863466f759",
+  "generation": 6550,
+  "created_at": "2026-03-02T06:20:44.835070",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "Combining Deep brain stimulation of subthalamic nucleus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 25,
+    "estimated_cost_usd": 693174,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8353385,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 5,
+    "economic_value_usd": 751804650000
+  },
+  "confidence": 0.4508990644439623,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

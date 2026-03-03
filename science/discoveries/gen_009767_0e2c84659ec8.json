@@ -1,0 +1,32 @@
+{
+  "id": "0e2c84659ec8",
+  "generation": 9767,
+  "created_at": "2026-03-02T06:35:55.664956",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "Metal-organic framework with specific pore geometry may resolve How to produce defect-free large-area graphene at low cost? by activating at the molecular level.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 23,
+    "estimated_cost_usd": 413303,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1022477903,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 10,
+    "economic_value_usd": 92023011270000
+  },
+  "confidence": 0.6985890423457617,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

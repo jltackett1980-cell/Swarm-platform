@@ -1,0 +1,32 @@
+{
+  "id": "8bbf248f367c",
+  "generation": 6843,
+  "created_at": "2026-03-02T06:21:53.168401",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "The key to Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear is Photonic bandgap manipulation in metamaterial \u2014 specifically Photonic bandgap manipulation \u2014 which would help 2,000,000,000 people affected.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 11,
+    "estimated_cost_usd": 249923,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 404482457,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 8,
+    "economic_value_usd": 20224122850000
+  },
+  "confidence": 0.40394732006432416,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

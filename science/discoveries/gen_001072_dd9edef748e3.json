@@ -1,0 +1,32 @@
+{
+  "id": "dd9edef748e3",
+  "generation": 1072,
+  "created_at": "2026-03-02T06:05:48.790702",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "If Stem cell differentiation into target tissue type is applied to neural, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 20,
+    "estimated_cost_usd": 816626,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 35563870,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 6,
+    "economic_value_usd": 711277400000
+  },
+  "confidence": 0.48529256368716533,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

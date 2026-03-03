@@ -1,0 +1,32 @@
+{
+  "id": "4c0a0ff6330b",
+  "generation": 9541,
+  "created_at": "2026-03-02T06:34:43.186414",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "If Optogenetic control of specific neuron populations is applied to chemistry, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 23,
+    "estimated_cost_usd": 1040885,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 138958189,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 9,
+    "economic_value_usd": 1389581890000
+  },
+  "confidence": 0.5477513003236436,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

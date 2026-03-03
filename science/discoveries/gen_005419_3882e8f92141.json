@@ -1,0 +1,32 @@
+{
+  "id": "3882e8f92141",
+  "generation": 5419,
+  "created_at": "2026-03-02T06:16:41.807260",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Combining Casimir effect between nanoscale surfaces with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 11,
+    "estimated_cost_usd": 213821,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1966623254,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 14,
+    "economic_value_usd": 19666232540000
+  },
+  "confidence": 0.38428364507283436,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

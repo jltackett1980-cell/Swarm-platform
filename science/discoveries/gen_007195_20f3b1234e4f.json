@@ -1,0 +1,32 @@
+{
+  "id": "20f3b1234e4f",
+  "generation": 7195,
+  "created_at": "2026-03-02T06:23:26.812656",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "Piezoelectric coupling in novel crystal structure may resolve Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics by activating at the systems level.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 1,
+    "estimated_cost_usd": 22455,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 821988530,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 17,
+    "economic_value_usd": 49319311800000
+  },
+  "confidence": 0.6101519911396014,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

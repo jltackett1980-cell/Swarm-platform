@@ -1,0 +1,32 @@
+{
+  "id": "dde04ebd084d",
+  "generation": 3674,
+  "created_at": "2026-03-02T06:11:32.407184",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Combining Thermoelectric Seebeck coefficient maximization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 7,
+    "estimated_cost_usd": 141350,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2736670319,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 13,
+    "economic_value_usd": 109466812760000
+  },
+  "confidence": 0.3056064780008797,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

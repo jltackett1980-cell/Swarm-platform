@@ -1,0 +1,32 @@
+{
+  "id": "ac1af999b773",
+  "generation": 3540,
+  "created_at": "2026-03-02T06:11:10.725098",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "Small molecule inhibitor of enzyme active site may resolve Why does acute pain become chronic in some people \u2014 what neural change occurs? by blocking at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 17,
+    "estimated_cost_usd": 593439,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 24694563,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 21,
+    "economic_value_usd": 493891260000
+  },
+  "confidence": 0.3518953179961249,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

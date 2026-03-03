@@ -1,0 +1,32 @@
+{
+  "id": "5e0afb038dfe",
+  "generation": 6247,
+  "created_at": "2026-03-02T06:19:37.237214",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "If Electrocoagulation for suspended particle removal is applied to rapidly, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 1,
+    "estimated_cost_usd": 10376,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 171674395,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 10,
+    "economic_value_usd": 6866975800000
+  },
+  "confidence": 0.3702745349526507,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

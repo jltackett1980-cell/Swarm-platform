@@ -1,0 +1,32 @@
+{
+  "id": "0aa08d0bbcc9",
+  "generation": 9893,
+  "created_at": "2026-03-02T06:36:35.599610",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "The key to Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? is Glial cell activation/suppression in target brain region \u2014 specifically Glial cell activation/suppression \u2014 which would help 24,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 36,
+    "estimated_cost_usd": 1196170,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7419225,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 9,
+    "economic_value_usd": 370961250000
+  },
+  "confidence": 0.7869377318496487,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

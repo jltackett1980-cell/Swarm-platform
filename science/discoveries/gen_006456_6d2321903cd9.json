@@ -1,0 +1,32 @@
+{
+  "id": "6d2321903cd9",
+  "generation": 6456,
+  "created_at": "2026-03-02T06:20:23.672328",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Can addiction-related neural pathway changes be reversed without withdrawal? remains unsolved because previous research missed the role of Default. Default mode network connectivity measurement via fMRI directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 36,
+    "estimated_cost_usd": 861068,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9366827,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 16,
+    "economic_value_usd": 843014430000
+  },
+  "confidence": 0.43617610852315897,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

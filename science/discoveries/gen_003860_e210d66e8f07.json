@@ -1,0 +1,32 @@
+{
+  "id": "e210d66e8f07",
+  "generation": 3860,
+  "created_at": "2026-03-02T06:12:01.879688",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "Monte Carlo tree search with learned heuristics may resolve How to predict drug-receptor binding affinity from molecular structure without wet lab? by activating at the systems level.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 6,
+    "estimated_cost_usd": 21237,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2552372722,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 21,
+    "economic_value_usd": 153142363320000
+  },
+  "confidence": 0.35693215978826853,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

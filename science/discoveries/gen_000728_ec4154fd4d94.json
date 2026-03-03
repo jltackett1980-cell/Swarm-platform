@@ -1,0 +1,32 @@
+{
+  "id": "ec4154fd4d94",
+  "generation": 728,
+  "created_at": "2026-03-02T06:05:11.486779",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear remains unsolved because previous research missed the role of Casimir. Casimir effect between nanoscale surfaces directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 3,
+    "estimated_cost_usd": 60304,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 603732685,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 16,
+    "economic_value_usd": 24149307400000
+  },
+  "confidence": 0.7219407362682884,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

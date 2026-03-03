@@ -1,0 +1,32 @@
+{
+  "id": "3ef907845516",
+  "generation": 4137,
+  "created_at": "2026-03-02T06:12:47.538018",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "If Liquid crystal elastomer actuation is applied to formation, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 30,
+    "estimated_cost_usd": 544523,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 254217306,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 27,
+    "economic_value_usd": 5084346120000
+  },
+  "confidence": 0.5946267972773895,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

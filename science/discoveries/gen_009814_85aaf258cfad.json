@@ -1,0 +1,32 @@
+{
+  "id": "85aaf258cfad",
+  "generation": 9814,
+  "created_at": "2026-03-02T06:36:10.452515",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "Transcranial magnetic stimulation of specific cortical area may resolve Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? by activating at the systems level.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 15,
+    "estimated_cost_usd": 385380,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4027363,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 21,
+    "economic_value_usd": 80547260000
+  },
+  "confidence": 0.4234036667696487,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

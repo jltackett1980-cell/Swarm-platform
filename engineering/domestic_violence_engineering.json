@@ -1,108 +1,107 @@
 {
-  "device_name": "SolaceSignal",
+  "device_name": "NexusSignal",
   "condition": "domestic_violence",
   "score": 0,
-  "generation": 3,
-  "generated_at": "2026-02-28T20:57:40.603863",
-  "physics_principle": "biofeedback_neural",
+  "generation": 7,
+  "generated_at": "2026-03-02T13:12:14.455185",
+  "physics_principle": "mechanical_haptic",
   "engineering": {
     "mcu": {
-      "part": "Nordic nRF52840",
-      "description": "ARM Cortex-M4F 64MHz, BLE 5.0, 1MB Flash, 256KB RAM",
-      "cost_usd": 4.2,
-      "datasheet": "infocenter.nordicsemi.com/topic/struct_nrf52/struct/nrf52840.html"
+      "part": "Nordic nRF52832",
+      "description": "Cortex-M4F 64MHz, BLE 5.0 \u2014 proven wearable platform",
+      "cost_usd": 3.2,
+      "datasheet": "infocenter.nordicsemi.com/topic/struct_nrf52/struct/nrf52832.html"
     },
-    "sensors": [
+    "actuators": [
       {
-        "part": "AD8232",
-        "function": "Single-lead ECG / heart rate",
-        "cost_usd": 2.8
+        "part": "DRV2605L",
+        "function": "Haptic driver \u2014 ERM/LRA control",
+        "cost_usd": 1.4
       },
       {
-        "part": "MAX30102",
-        "function": "PPG pulse oximetry + SpO2",
+        "part": "Precision Microdrives 310-101",
+        "function": "LRA vibration motor 175Hz resonance",
         "cost_usd": 3.5
       },
       {
-        "part": "GSR Grove Sensor",
-        "function": "Galvanic skin response (stress)",
-        "cost_usd": 1.9
-      },
-      {
         "part": "ICM-42688-P",
-        "function": "6-axis IMU accelerometer+gyro",
+        "function": "IMU \u2014 motion tracking + tremor measurement",
         "cost_usd": 2.1
       }
     ],
-    "output": {
-      "part": "DRV2605L",
-      "function": "Haptic feedback driver \u2014 vibrotactile response",
-      "cost_usd": 1.4
-    },
+    "sensors": [
+      {
+        "part": "FSR 402",
+        "function": "Force sensing resistor \u2014 contact detection",
+        "cost_usd": 1.8
+      },
+      {
+        "part": "MAX30102",
+        "function": "PPG \u2014 confirm device worn",
+        "cost_usd": 3.5
+      }
+    ],
     "power": {
-      "battery": "Li-Po 500mAh 3.7V",
-      "charger": "MCP73831 single-cell charger",
-      "regulator": "TPS62740 ultra-low-power buck",
-      "estimated_life_hours": 168,
-      "cost_usd": 3.2
+      "battery": "Li-Po 400mAh 3.7V",
+      "charger": "MCP73831",
+      "regulator": "TPS62740",
+      "estimated_life_hours": 72,
+      "cost_usd": 3.0
     },
     "pcb": {
       "layers": 4,
-      "size_mm": "28x18",
+      "size_mm": "25x20",
       "thickness_mm": 0.8,
-      "process": "ENIG (Electroless Nickel Immersion Gold)",
-      "estimated_cost_usd": 2.5
+      "process": "ENIG",
+      "estimated_cost_usd": 2.2
     },
     "enclosure": {
-      "material": "Medical-grade silicone overmold + ABS shell",
+      "material": "TPU flexible overmold + hard ABS core",
       "ip_rating": "IP67",
-      "size_mm": "45x30x8",
-      "estimated_cost_usd": 4.0
+      "size_mm": "40x35x10",
+      "estimated_cost_usd": 5.5
     },
     "firmware": {
       "rtos": "Zephyr RTOS",
-      "sampling_rate_hz": 250,
-      "algorithm": "HRV analysis via time-domain RMSSD + frequency-domain LF/HF ratio. Skin conductance threshold detection. IMU gesture recognition via edge ML (TensorFlow Lite Micro).",
-      "ml_model": "TensorFlow Lite Micro \u2014 stress/calm classifier, <50KB model size",
-      "data_protocol": "BLE GATT custom profile, AES-128 encrypted, local storage only"
+      "tremor_detection": "Accelerometer FFT \u2192 peak frequency 4-12Hz = pathological tremor",
+      "compensation": "Counter-phase vibration at detected tremor frequency via LRA",
+      "algorithm": "Adaptive notch filter at tremor frequency. Phase-locked loop tracks tremor drift. Vibrotactile stimulation at 100-300Hz competes with tremor pathway via proprioceptive interference.",
+      "calibration": "Auto-calibrates to individual tremor signature in first 60 seconds"
     },
     "signal_processing": {
-      "ecg_filter": "Bandpass 0.5-40Hz, notch 50/60Hz",
-      "ppg_filter": "Low-pass 10Hz, DC removal",
-      "hrv_window": "5-minute rolling window, R-R interval detection via Pan-Tompkins algorithm",
-      "stress_detection": "SVM classifier trained on HRV + GSR + accelerometer fusion"
+      "tremor_analysis": "FFT 256-point on 1-second window. Peak detection 3-12Hz band. Amplitude threshold >0.5g = treatment trigger.",
+      "compensation_waveform": "Sinusoidal counter-vibration, phase-inverted to tremor signal",
+      "efficacy_monitor": "Continuous tremor amplitude tracking. Session log stored locally."
     },
     "fda_pathway": {
       "device_class": "Class II",
-      "submission_type": "510(k) Premarket Notification",
+      "submission_type": "510(k)",
       "predicate_devices": [
-        "Garmin HRV Status",
-        "Whoop Strap",
-        "Polar H10"
+        "Cala Health kIQ tremor therapy",
+        "GyroGlove"
       ],
-      "estimated_timeline_months": 12,
-      "estimated_cost_usd": 50000
+      "estimated_timeline_months": 18,
+      "estimated_cost_usd": 80000
     }
   },
   "firmware_notes": {
     "rtos": "Zephyr RTOS",
-    "sampling_rate_hz": 250,
-    "algorithm": "HRV analysis via time-domain RMSSD + frequency-domain LF/HF ratio. Skin conductance threshold detection. IMU gesture recognition via edge ML (TensorFlow Lite Micro).",
-    "ml_model": "TensorFlow Lite Micro \u2014 stress/calm classifier, <50KB model size",
-    "data_protocol": "BLE GATT custom profile, AES-128 encrypted, local storage only"
+    "tremor_detection": "Accelerometer FFT \u2192 peak frequency 4-12Hz = pathological tremor",
+    "compensation": "Counter-phase vibration at detected tremor frequency via LRA",
+    "algorithm": "Adaptive notch filter at tremor frequency. Phase-locked loop tracks tremor drift. Vibrotactile stimulation at 100-300Hz competes with tremor pathway via proprioceptive interference.",
+    "calibration": "Auto-calibrates to individual tremor signature in first 60 seconds"
   },
   "fda_pathway": {
     "device_class": "Class II",
-    "submission_type": "510(k) Premarket Notification",
+    "submission_type": "510(k)",
     "predicate_devices": [
-      "Garmin HRV Status",
-      "Whoop Strap",
-      "Polar H10"
+      "Cala Health kIQ tremor therapy",
+      "GyroGlove"
     ],
-    "estimated_timeline_months": 12,
-    "estimated_cost_usd": 50000
+    "estimated_timeline_months": 18,
+    "estimated_cost_usd": 80000
   },
-  "estimated_bom_cost_usd": 25.6,
+  "estimated_bom_cost_usd": 19.2,
   "assembly_notes": [
     "IPC-A-610 Class 2 assembly",
     "Conformal coating required for moisture resistance",

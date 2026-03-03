@@ -1,0 +1,32 @@
+{
+  "id": "ecb310cba074",
+  "generation": 4497,
+  "created_at": "2026-03-02T06:13:50.158774",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Liquid. Liquid crystal elastomer actuation directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 19,
+    "estimated_cost_usd": 367020,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5892502,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 19,
+    "economic_value_usd": 235700080000
+  },
+  "confidence": 0.5538774687325955,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

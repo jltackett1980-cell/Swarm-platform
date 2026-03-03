@@ -1,0 +1,32 @@
+{
+  "id": "e42c5295b1c5",
+  "generation": 7019,
+  "created_at": "2026-03-02T06:22:42.474590",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "The key to How to desalinate seawater at dramatically lower energy cost than reverse osmosis? is Rhizobium inoculation for nitrogen fixation \u2014 specifically Rhizobium inoculation for \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 8,
+    "estimated_cost_usd": 110167,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 497872749,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 8,
+    "economic_value_usd": 9957454980000
+  },
+  "confidence": 0.4715224551980029,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

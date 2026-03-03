@@ -1,0 +1,32 @@
+{
+  "id": "d77ae3e796ba",
+  "generation": 1237,
+  "created_at": "2026-03-02T06:06:07.493881",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved remains unsolved because previous research missed the role of Magnetohydrodynamic. Magnetohydrodynamic flow without moving parts directly addresses this.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 6,
+    "estimated_cost_usd": 101116,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 324566884,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 16,
+    "economic_value_usd": 19474013040000
+  },
+  "confidence": 0.30577083592777643,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

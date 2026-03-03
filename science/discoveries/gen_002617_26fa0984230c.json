@@ -1,0 +1,32 @@
+{
+  "id": "26fa0984230c",
+  "generation": 2617,
+  "created_at": "2026-03-02T06:08:57.240857",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "How does gut microbiome composition directly affect brain chemistry and mood? remains unsolved because previous research missed the role of CRISPR. CRISPR gene editing targeting specific pathway directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 24,
+    "estimated_cost_usd": 823021,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 489,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 64556340,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 9,
+    "economic_value_usd": 3873380400000
+  },
+  "confidence": 0.43258940520991596,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

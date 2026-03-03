@@ -1,0 +1,32 @@
+{
+  "id": "70dd30d783af",
+  "generation": 6655,
+  "created_at": "2026-03-02T06:21:09.106072",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified remains unsolved because previous research missed the role of Stem. Stem cell differentiation into target tissue type directly addresses this.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 12,
+    "estimated_cost_usd": 416215,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6592539,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 9,
+    "economic_value_usd": 65925390000
+  },
+  "confidence": 0.5683177028561284,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

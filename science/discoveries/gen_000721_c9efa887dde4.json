@@ -1,0 +1,32 @@
+{
+  "id": "c9efa887dde4",
+  "generation": 721,
+  "created_at": "2026-03-02T06:05:10.611053",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "Combining Deep brain stimulation of subthalamic nucleus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 32,
+    "estimated_cost_usd": 1023615,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 18054227,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 18,
+    "economic_value_usd": 361084540000
+  },
+  "confidence": 0.4445940961841299,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

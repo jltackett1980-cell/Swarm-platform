@@ -1,0 +1,32 @@
+{
+  "id": "467863aa1fc4",
+  "generation": 9507,
+  "created_at": "2026-03-02T06:34:34.200805",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Combining Optical rectenna for direct photon-to-electron conversion with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 2,
+    "estimated_cost_usd": 39940,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 582719026,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 8,
+    "economic_value_usd": 23308761040000
+  },
+  "confidence": 0.3421874686661257,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

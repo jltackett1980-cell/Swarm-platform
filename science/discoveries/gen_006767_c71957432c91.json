@@ -1,0 +1,32 @@
+{
+  "id": "c71957432c91",
+  "generation": 6767,
+  "created_at": "2026-03-02T06:21:34.635093",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "If Aerogel porosity for thermal/acoustic insulation is applied to microcracks, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 9,
+    "estimated_cost_usd": 171817,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 182065668,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 9,
+    "economic_value_usd": 1820656680000
+  },
+  "confidence": 0.6586286683878972,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

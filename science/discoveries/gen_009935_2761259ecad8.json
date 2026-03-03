@@ -1,0 +1,32 @@
+{
+  "id": "2761259ecad8",
+  "generation": 9935,
+  "created_at": "2026-03-02T06:36:48.379253",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "The key to What neural connectivity differences cause autism spectrum characteristics? is Transcranial magnetic stimulation of specific cortical area \u2014 specifically Transcranial magnetic stimulation \u2014 which would help 75,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 14,
+    "estimated_cost_usd": 403660,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 36099501,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 16,
+    "economic_value_usd": 1443980040000
+  },
+  "confidence": 0.622663550056334,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

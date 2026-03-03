@@ -1,0 +1,32 @@
+{
+  "id": "59ae0c52567a",
+  "generation": 8840,
+  "created_at": "2026-03-02T06:31:04.464218",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "If Electrocoagulation for suspended particle removal is applied to than, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 9,
+    "estimated_cost_usd": 91309,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1092601865,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 21,
+    "economic_value_usd": 65556111900000
+  },
+  "confidence": 0.5423907112816675,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

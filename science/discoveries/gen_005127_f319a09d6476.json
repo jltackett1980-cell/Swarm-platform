@@ -1,0 +1,32 @@
+{
+  "id": "f319a09d6476",
+  "generation": 5127,
+  "created_at": "2026-03-02T06:15:45.145326",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "Why do amyloid plaques form in Alzheimer's and can they be cleared? remains unsolved because previous research missed the role of Optogenetic. Optogenetic control of specific neuron populations directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 12,
+    "estimated_cost_usd": 437562,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 19955167,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 20,
+    "economic_value_usd": 1396861690000
+  },
+  "confidence": 0.4547253153179106,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

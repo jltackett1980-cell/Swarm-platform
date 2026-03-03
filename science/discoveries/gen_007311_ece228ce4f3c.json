@@ -1,0 +1,32 @@
+{
+  "id": "ece228ce4f3c",
+  "generation": 7311,
+  "created_at": "2026-03-02T06:23:54.784195",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "Viral vector delivery of therapeutic gene may resolve What causes normal proteins to misfold into prions and spread through tissue? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 9,
+    "estimated_cost_usd": 336300,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 338591,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 29,
+    "economic_value_usd": 16929550000
+  },
+  "confidence": 0.7763692913060559,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

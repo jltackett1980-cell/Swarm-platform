@@ -1,0 +1,32 @@
+{
+  "id": "1b174b01661a",
+  "generation": 7070,
+  "created_at": "2026-03-02T06:22:54.900057",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "Combining Quantum tunneling through energy barrier with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 11,
+    "estimated_cost_usd": 226408,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3729272074,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 10,
+    "economic_value_usd": 111878162220000
+  },
+  "confidence": 0.788027178112729,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

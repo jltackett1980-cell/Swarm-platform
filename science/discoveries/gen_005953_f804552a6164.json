@@ -1,0 +1,32 @@
+{
+  "id": "f804552a6164",
+  "generation": 5953,
+  "created_at": "2026-03-02T06:18:33.515023",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics remains unsolved because previous research missed the role of Bose-Einstein. Bose-Einstein condensate at higher temperature directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 11,
+    "estimated_cost_usd": 231469,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1942885849,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 6,
+    "economic_value_usd": 77715433960000
+  },
+  "confidence": 0.3750777018625626,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

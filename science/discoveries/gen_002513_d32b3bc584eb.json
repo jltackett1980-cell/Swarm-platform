@@ -1,0 +1,32 @@
+{
+  "id": "d32b3bc584eb",
+  "generation": 2513,
+  "created_at": "2026-03-02T06:08:43.778155",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "The key to What material stores hydrogen fuel at high density without safety risk? is Liquid crystal elastomer actuation \u2014 specifically Liquid crystal elastomer \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 8,
+    "estimated_cost_usd": 155194,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1127954284,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 21,
+    "economic_value_usd": 22559085680000
+  },
+  "confidence": 0.37596283618129334,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

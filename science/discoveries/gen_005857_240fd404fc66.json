@@ -1,0 +1,32 @@
+{
+  "id": "240fd404fc66",
+  "generation": 5857,
+  "created_at": "2026-03-02T06:18:12.780342",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "If Topological insulator surface state conduction is applied to at, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 7,
+    "estimated_cost_usd": 148037,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 857231419,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 20,
+    "economic_value_usd": 8572314190000
+  },
+  "confidence": 0.7719596384739598,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

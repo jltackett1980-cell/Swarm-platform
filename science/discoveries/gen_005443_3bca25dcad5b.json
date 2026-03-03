@@ -1,0 +1,32 @@
+{
+  "id": "3bca25dcad5b",
+  "generation": 5443,
+  "created_at": "2026-03-02T06:16:47.555564",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "If Bose-Einstein condensate at higher temperature is applied to \u2014, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 1,
+    "estimated_cost_usd": 20260,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 442798896,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 26,
+    "economic_value_usd": 4427988960000
+  },
+  "confidence": 0.5276294868222898,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

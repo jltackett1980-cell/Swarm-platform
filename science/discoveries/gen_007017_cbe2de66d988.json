@@ -1,0 +1,32 @@
+{
+  "id": "cbe2de66d988",
+  "generation": 7017,
+  "created_at": "2026-03-02T06:22:42.202988",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "Combining Neuroinflammation reduction via microglial targeting with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 6,
+    "estimated_cost_usd": 167778,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 36967647,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 26,
+    "economic_value_usd": 1109029410000
+  },
+  "confidence": 0.6936501012432998,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

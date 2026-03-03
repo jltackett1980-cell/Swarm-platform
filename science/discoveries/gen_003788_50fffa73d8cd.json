@@ -1,0 +1,32 @@
+{
+  "id": "50fffa73d8cd",
+  "generation": 3788,
+  "created_at": "2026-03-02T06:11:50.120422",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "If Stem cell differentiation into target tissue type is applied to colonize, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 5,
+    "estimated_cost_usd": 243172,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8249071,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 29,
+    "economic_value_usd": 494944260000
+  },
+  "confidence": 0.4176699572374699,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "c8af96e1",
+  "name": "SolaceHold",
+  "generation": 3,
+  "created_at": "2026-03-02T17:04:17.209515",
+  "pain": "addiction_craving",
+  "population": 21000000,
+  "problem": "21M with substance disorders \u2014 craving triggers go undetected",
+  "physics": "electromagnetic",
+  "physics_desc": "Pulsed electric/magnetic fields",
+  "physics_proven": true,
+  "comparable_devices": [
+    "TENS units",
+    "PEMF therapy"
+  ],
+  "form_factor": "wrist band",
+  "complexity": 1,
+  "specs": {
+    "power_watts": 0.0013,
+    "size_cm": 1.4,
+    "cost_usd": 79.76,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "OneMoreDay",
+  "companion_domain": "addiction_support",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

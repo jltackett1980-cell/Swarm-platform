@@ -1,0 +1,32 @@
+{
+  "id": "b99bb07b9702",
+  "generation": 4605,
+  "created_at": "2026-03-02T06:14:09.400566",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "Electrocoagulation for suspended particle removal may resolve Can ocean acidification be safely reversed \u2014 what biochemical approach? by activating at the systems level.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 3,
+    "estimated_cost_usd": 39238,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 703218946,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 18,
+    "economic_value_usd": 21096568380000
+  },
+  "confidence": 0.4463686898653754,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

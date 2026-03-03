@@ -1,0 +1,32 @@
+{
+  "id": "de1c8461ab80",
+  "generation": 7693,
+  "created_at": "2026-03-02T06:25:34.034231",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "If Quantum tunneling through energy barrier is applied to chemical, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 6,
+    "estimated_cost_usd": 127660,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 809539327,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 26,
+    "economic_value_usd": 72858539430000
+  },
+  "confidence": 0.5964492458177404,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

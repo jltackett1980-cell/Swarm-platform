@@ -1,0 +1,32 @@
+{
+  "id": "aff70bbbcb20",
+  "generation": 7879,
+  "created_at": "2026-03-02T06:26:21.239744",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "The key to How to desalinate seawater at dramatically lower energy cost than reverse osmosis? is Enzymatic depolymerization of specific polymer \u2014 specifically Enzymatic depolymerization of \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 6,
+    "estimated_cost_usd": 85292,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 231452501,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 14,
+    "economic_value_usd": 16201675070000
+  },
+  "confidence": 0.7130363080206639,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

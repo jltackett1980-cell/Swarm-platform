@@ -1,0 +1,32 @@
+{
+  "id": "16b7cf4bd149",
+  "generation": 1898,
+  "created_at": "2026-03-02T06:07:26.556160",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "Combining Self-assembled monolayer for surface functionalization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 7,
+    "estimated_cost_usd": 93954,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1264794229,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 24,
+    "economic_value_usd": 50591769160000
+  },
+  "confidence": 0.631506137332112,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

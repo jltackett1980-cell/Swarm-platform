@@ -1,0 +1,32 @@
+{
+  "id": "4e32abf8d379",
+  "generation": 4610,
+  "created_at": "2026-03-02T06:14:09.824908",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "Bacteriophage surface display for targeting may resolve What material surface coating prevents bacterial biofilm formation on implants? by activating at the molecular level.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 7,
+    "estimated_cost_usd": 122371,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 150650917,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 25,
+    "economic_value_usd": 1506509170000
+  },
+  "confidence": 0.7093651799326207,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

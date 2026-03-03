@@ -1,0 +1,32 @@
+{
+  "id": "8a66024c73d6",
+  "generation": 9094,
+  "created_at": "2026-03-02T06:32:25.985018",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "Liquid crystal elastomer actuation may resolve How to produce defect-free large-area graphene at low cost? by activating at the molecular level.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 13,
+    "estimated_cost_usd": 211416,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 744045145,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 7,
+    "economic_value_usd": 59523611600000
+  },
+  "confidence": 0.30128698810765125,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

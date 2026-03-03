@@ -1,0 +1,32 @@
+{
+  "id": "f2780b65a172",
+  "generation": 4510,
+  "created_at": "2026-03-02T06:13:52.027558",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "How to engineer materials that autonomously repair microcracks before failure? remains unsolved because previous research missed the role of Liquid. Liquid crystal elastomer actuation directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 33,
+    "estimated_cost_usd": 584104,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 433376655,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 12,
+    "economic_value_usd": 30336365850000
+  },
+  "confidence": 0.44211640103972627,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

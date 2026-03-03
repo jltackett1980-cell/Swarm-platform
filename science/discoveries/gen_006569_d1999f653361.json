@@ -1,0 +1,32 @@
+{
+  "id": "d1999f653361",
+  "generation": 6569,
+  "created_at": "2026-03-02T06:20:48.876087",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "Self-assembled monolayer for surface functionalization may resolve What enzyme or organism efficiently degrades all plastic types at scale? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 16,
+    "estimated_cost_usd": 246402,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1256714452,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 12,
+    "economic_value_usd": 113104300680000
+  },
+  "confidence": 0.5518105249906946,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

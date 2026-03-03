@@ -1,0 +1,32 @@
+{
+  "id": "357f8b04d979",
+  "generation": 5174,
+  "created_at": "2026-03-02T06:15:54.427129",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "Combining Self-assembled monolayer for surface functionalization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 10,
+    "estimated_cost_usd": 136630,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 270852576,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 16,
+    "economic_value_usd": 2708525760000
+  },
+  "confidence": 0.6934457190168395,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

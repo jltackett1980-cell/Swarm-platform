@@ -1,0 +1,32 @@
+{
+  "id": "48602df305f9",
+  "generation": 3184,
+  "created_at": "2026-03-02T06:10:17.254163",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "The key to What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified is Epigenetic methylation/demethylation of regulatory region \u2014 specifically Epigenetic methylation/demethylation of \u2014 which would help 17,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 17,
+    "estimated_cost_usd": 651692,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5279270,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 29,
+    "economic_value_usd": 263963500000
+  },
+  "confidence": 0.30007322912783435,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

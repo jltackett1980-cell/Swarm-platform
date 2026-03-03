@@ -1,0 +1,32 @@
+{
+  "id": "dca9457e0ce7",
+  "generation": 10032,
+  "created_at": "2026-03-02T06:41:33.278235",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "The key to How to store solar energy at grid scale without chemical battery degradation? is Photonic bandgap manipulation in metamaterial \u2014 specifically Photonic bandgap manipulation \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 8,
+    "estimated_cost_usd": 174959,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 809917631,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 26,
+    "economic_value_usd": 40495881550000
+  },
+  "confidence": 0.38991726746459504,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

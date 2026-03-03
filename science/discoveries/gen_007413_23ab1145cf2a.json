@@ -1,0 +1,32 @@
+{
+  "id": "23ab1145cf2a",
+  "generation": 7413,
+  "created_at": "2026-03-02T06:24:20.815786",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "Combining Epigenetic methylation/demethylation of regulatory region with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 12,
+    "estimated_cost_usd": 482780,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 41341565,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 12,
+    "economic_value_usd": 1240246950000
+  },
+  "confidence": 0.3170447945075472,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

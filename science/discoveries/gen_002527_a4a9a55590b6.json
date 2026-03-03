@@ -1,0 +1,32 @@
+{
+  "id": "a4a9a55590b6",
+  "generation": 2527,
+  "created_at": "2026-03-02T06:08:45.192250",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "If Nanoparticle delivery to cross blood-brain barrier is applied to in, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 36,
+    "estimated_cost_usd": 1447519,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 34773943,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 15,
+    "economic_value_usd": 1738697150000
+  },
+  "confidence": 0.30498347223409006,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

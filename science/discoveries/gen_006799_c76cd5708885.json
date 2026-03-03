@@ -1,0 +1,32 @@
+{
+  "id": "c76cd5708885",
+  "generation": 6799,
+  "created_at": "2026-03-02T06:21:42.271389",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "The key to What neural connectivity differences cause autism spectrum characteristics? is Default mode network connectivity measurement via fMRI \u2014 specifically Default mode network \u2014 which would help 75,000,000 people affected.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 7,
+    "estimated_cost_usd": 212731,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 31133157,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 9,
+    "economic_value_usd": 933994710000
+  },
+  "confidence": 0.5588922204638971,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

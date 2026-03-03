@@ -1,0 +1,32 @@
+{
+  "id": "dc720f703ca8",
+  "generation": 8080,
+  "created_at": "2026-03-02T06:27:15.091972",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "Combining Bose-Einstein condensate at higher temperature with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 11,
+    "estimated_cost_usd": 195653,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2247431781,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 14,
+    "economic_value_usd": 89897271240000
+  },
+  "confidence": 0.41588508072925806,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

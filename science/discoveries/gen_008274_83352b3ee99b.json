@@ -1,0 +1,32 @@
+{
+  "id": "83352b3ee99b",
+  "generation": 8274,
+  "created_at": "2026-03-02T06:28:09.132288",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "Fear memory reconsolidation interference via timing may resolve What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient by activating at the systems level.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 14,
+    "estimated_cost_usd": 426065,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 66708200,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 19,
+    "economic_value_usd": 6003738000000
+  },
+  "confidence": 0.5288591173773343,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

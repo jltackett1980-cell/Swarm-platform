@@ -1,0 +1,32 @@
+{
+  "id": "1141387f28b9",
+  "generation": 7863,
+  "created_at": "2026-03-02T06:26:17.880806",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "Plasma confinement via magnetic mirror geometry may resolve How to store solar energy at grid scale without chemical battery degradation? by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 2,
+    "estimated_cost_usd": 45628,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 929971773,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 18,
+    "economic_value_usd": 74397741840000
+  },
+  "confidence": 0.7192084198887571,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

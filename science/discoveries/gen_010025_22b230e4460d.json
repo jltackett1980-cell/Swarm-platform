@@ -1,0 +1,32 @@
+{
+  "id": "22b230e4460d",
+  "generation": 10025,
+  "created_at": "2026-03-02T06:41:14.944552",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "Combining Liquid crystal elastomer actuation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 8,
+    "estimated_cost_usd": 134769,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 141012806,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 28,
+    "economic_value_usd": 9870896420000
+  },
+  "confidence": 0.4006260392390304,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

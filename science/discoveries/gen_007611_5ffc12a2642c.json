@@ -1,0 +1,32 @@
+{
+  "id": "5ffc12a2642c",
+  "generation": 7611,
+  "created_at": "2026-03-02T06:25:11.525903",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "Bacteriophage surface display for targeting may resolve How to engineer materials that autonomously repair microcracks before failure? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 29,
+    "estimated_cost_usd": 405140,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 330555050,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 29,
+    "economic_value_usd": 19833303000000
+  },
+  "confidence": 0.538128121484074,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

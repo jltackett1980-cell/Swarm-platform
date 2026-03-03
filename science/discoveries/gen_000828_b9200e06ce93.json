@@ -1,0 +1,32 @@
+{
+  "id": "b9200e06ce93",
+  "generation": 828,
+  "created_at": "2026-03-02T06:05:21.431440",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "The key to Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear is Thermoelectric Seebeck coefficient maximization \u2014 specifically Thermoelectric Seebeck coefficient \u2014 which would help 2,000,000,000 people affected.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 12,
+    "estimated_cost_usd": 230155,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 925453140,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 9,
+    "economic_value_usd": 64781719800000
+  },
+  "confidence": 0.4158127793570821,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

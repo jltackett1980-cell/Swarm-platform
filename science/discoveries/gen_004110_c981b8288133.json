@@ -1,0 +1,32 @@
+{
+  "id": "c981b8288133",
+  "generation": 4110,
+  "created_at": "2026-03-02T06:12:43.110144",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "What material surface coating prevents bacterial biofilm formation on implants? remains unsolved because previous research missed the role of Biomimetic. Biomimetic surface structure (lotus, shark skin, gecko) directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 26,
+    "estimated_cost_usd": 366823,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 281379507,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 10,
+    "economic_value_usd": 2813795070000
+  },
+  "confidence": 0.7687924046558616,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

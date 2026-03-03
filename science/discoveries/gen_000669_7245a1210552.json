@@ -1,0 +1,32 @@
+{
+  "id": "7245a1210552",
+  "generation": 669,
+  "created_at": "2026-03-02T06:05:05.675484",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "The key to How to produce defect-free large-area graphene at low cost? is Biomimetic surface structure (lotus, shark skin, gecko) \u2014 specifically Biomimetic surface structure \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 11,
+    "estimated_cost_usd": 171382,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1418758787,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 19,
+    "economic_value_usd": 113500702960000
+  },
+  "confidence": 0.3718627089190006,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "18bbc1f8cdf0",
+  "generation": 3368,
+  "created_at": "2026-03-02T06:10:44.553427",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics remains unsolved because previous research missed the role of Quantum. Quantum tunneling through energy barrier directly addresses this.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 10,
+    "estimated_cost_usd": 174249,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1061398425,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 10,
+    "economic_value_usd": 10613984250000
+  },
+  "confidence": 0.7277422564292915,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

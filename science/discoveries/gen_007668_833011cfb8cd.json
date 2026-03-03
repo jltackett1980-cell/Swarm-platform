@@ -1,0 +1,32 @@
+{
+  "id": "833011cfb8cd",
+  "generation": 7668,
+  "created_at": "2026-03-02T06:25:26.615996",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "If Stem cell differentiation into target tissue type is applied to or, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 30,
+    "estimated_cost_usd": 1044948,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5625687,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 11,
+    "economic_value_usd": 450054960000
+  },
+  "confidence": 0.47041329941234217,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

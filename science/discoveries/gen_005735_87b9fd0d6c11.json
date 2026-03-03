@@ -1,0 +1,32 @@
+{
+  "id": "87b9fd0d6c11",
+  "generation": 5735,
+  "created_at": "2026-03-02T06:17:46.864872",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "If Perovskite crystal structure optimization is applied to fully, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 28,
+    "estimated_cost_usd": 548051,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 152599789,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 22,
+    "economic_value_usd": 6103991560000
+  },
+  "confidence": 0.6660025764808555,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

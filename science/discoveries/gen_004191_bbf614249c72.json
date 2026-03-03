@@ -1,0 +1,32 @@
+{
+  "id": "bbf614249c72",
+  "generation": 4191,
+  "created_at": "2026-03-02T06:12:56.276808",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "Optogenetic control of specific neuron populations may resolve Why do amyloid plaques form in Alzheimer's and can they be cleared? by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 5,
+    "estimated_cost_usd": 196610,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 32704608,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 14,
+    "economic_value_usd": 327046080000
+  },
+  "confidence": 0.7674277070935447,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

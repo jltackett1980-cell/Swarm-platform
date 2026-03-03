@@ -1,0 +1,32 @@
+{
+  "id": "57fd3022f43b",
+  "generation": 2426,
+  "created_at": "2026-03-02T06:08:31.977001",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "Combining BDNF upregulation to promote neurogenesis with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 36,
+    "estimated_cost_usd": 1248672,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1856935434,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 30,
+    "economic_value_usd": 18569354340000
+  },
+  "confidence": 0.3088542609881451,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

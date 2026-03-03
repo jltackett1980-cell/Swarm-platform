@@ -1,0 +1,32 @@
+{
+  "id": "e7c81eb240fd",
+  "generation": 5972,
+  "created_at": "2026-03-02T06:18:36.516468",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Electrocoagulation. Electrocoagulation for suspended particle removal directly addresses this.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 1,
+    "estimated_cost_usd": 12127,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 168738808,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 23,
+    "economic_value_usd": 6749552320000
+  },
+  "confidence": 0.352035435136047,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

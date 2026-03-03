@@ -1,0 +1,32 @@
+{
+  "id": "a8cdefce9854",
+  "generation": 6242,
+  "created_at": "2026-03-02T06:19:34.914366",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "Small molecule inhibitor of enzyme active site may resolve Why does the immune system attack the body's own tissue in autoimmune disease? by blocking at the molecular level.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 20,
+    "estimated_cost_usd": 855206,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 32113043,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 20,
+    "economic_value_usd": 1605652150000
+  },
+  "confidence": 0.5275890369155906,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "3b1209e5eec5",
+  "generation": 2235,
+  "created_at": "2026-03-02T06:08:07.508178",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale? remains unsolved because previous research missed the role of Piezoelectric. Piezoelectric coupling in novel crystal structure directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 9,
+    "estimated_cost_usd": 222054,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1509681937,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 21,
+    "economic_value_usd": 60387277480000
+  },
+  "confidence": 0.49290446608027266,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

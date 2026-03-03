@@ -1,0 +1,32 @@
+{
+  "id": "4275ccaaff67",
+  "generation": 6565,
+  "created_at": "2026-03-02T06:20:48.376332",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "Combining Constructed wetland for water filtration with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 2,
+    "estimated_cost_usd": 24610,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 472393417,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 27,
+    "economic_value_usd": 23619670850000
+  },
+  "confidence": 0.600565441103615,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

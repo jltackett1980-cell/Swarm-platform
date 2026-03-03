@@ -1,0 +1,32 @@
+{
+  "id": "af4c751489eb",
+  "generation": 7546,
+  "created_at": "2026-03-02T06:24:55.725955",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "Sleep-dependent memory consolidation in hippocampus may resolve What neural connectivity differences cause autism spectrum characteristics? by activating at the systems level.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 14,
+    "estimated_cost_usd": 401877,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 23283886,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 17,
+    "economic_value_usd": 931355440000
+  },
+  "confidence": 0.3374649219143916,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

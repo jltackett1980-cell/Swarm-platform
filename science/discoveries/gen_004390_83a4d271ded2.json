@@ -1,0 +1,32 @@
+{
+  "id": "83a4d271ded2",
+  "generation": 4390,
+  "created_at": "2026-03-02T06:13:30.700711",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "Reservoir computing with physical substrate may resolve How to predict drug-receptor binding affinity from molecular structure without wet lab? by activating at the systems level.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 11,
+    "estimated_cost_usd": 47796,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3435250870,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 13,
+    "economic_value_usd": 68705017400000
+  },
+  "confidence": 0.7080244579713129,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

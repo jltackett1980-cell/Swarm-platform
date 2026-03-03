@@ -1,0 +1,32 @@
+{
+  "id": "76e05b4df3d0",
+  "generation": 1680,
+  "created_at": "2026-03-02T06:07:00.593975",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "Photonic bandgap manipulation in metamaterial may resolve Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear by activating at the systems level.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 3,
+    "estimated_cost_usd": 53425,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3758092003,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 27,
+    "economic_value_usd": 300647360240000
+  },
+  "confidence": 0.694385465111538,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "8afc46f1e660",
+  "generation": 7092,
+  "created_at": "2026-03-02T06:22:59.699270",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Nanoparticle delivery to cross blood-brain barrier",
+  "hypothesis": "Nanoparticle delivery to cross blood-brain barrier may resolve How does gut microbiome composition directly affect brain chemistry and mood? by activating at the molecular level.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 20,
+    "estimated_cost_usd": 954527,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 72014203,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 26,
+    "economic_value_usd": 1440284060000
+  },
+  "confidence": 0.48576073438958384,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

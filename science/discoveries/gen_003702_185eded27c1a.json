@@ -1,0 +1,32 @@
+{
+  "id": "185eded27c1a",
+  "generation": 3702,
+  "created_at": "2026-03-02T06:11:36.507101",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "The key to How to achieve sustained net-positive nuclear fusion at commercial scale? is Optical rectenna for direct photon-to-electron conversion \u2014 specifically Optical rectenna for \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 6,
+    "estimated_cost_usd": 107186,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1929178636,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 17,
+    "economic_value_usd": 173626077240000
+  },
+  "confidence": 0.6765590779045911,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

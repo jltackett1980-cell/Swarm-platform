@@ -1,0 +1,32 @@
+{
+  "id": "288ae387361a",
+  "generation": 3556,
+  "created_at": "2026-03-02T06:11:13.949744",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "If Epigenetic methylation/demethylation of regulatory region is applied to colonize, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 14,
+    "estimated_cost_usd": 536252,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 10001767,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 8,
+    "economic_value_usd": 300053010000
+  },
+  "confidence": 0.6016987725562508,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

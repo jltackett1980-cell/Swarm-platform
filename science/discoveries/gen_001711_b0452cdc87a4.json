@@ -1,0 +1,32 @@
+{
+  "id": "b0452cdc87a4",
+  "generation": 1711,
+  "created_at": "2026-03-02T06:07:04.372688",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "What substrate allows silicon-level performance in fully flexible electronics? remains unsolved because previous research missed the role of Perovskite. Perovskite crystal structure optimization directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 9,
+    "estimated_cost_usd": 179900,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 178424131,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 21,
+    "economic_value_usd": 7136965240000
+  },
+  "confidence": 0.6619079103856773,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

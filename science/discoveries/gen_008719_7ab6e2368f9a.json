@@ -1,0 +1,32 @@
+{
+  "id": "7ab6e2368f9a",
+  "generation": 8719,
+  "created_at": "2026-03-02T06:30:13.641338",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "What is dark matter composed of \u2014 27% of universe is unknown remains unsolved because previous research missed the role of Casimir. Casimir effect between nanoscale surfaces directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 8,
+    "estimated_cost_usd": 176985,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1278412693,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 27,
+    "economic_value_usd": 89488888510000
+  },
+  "confidence": 0.5575444309969866,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

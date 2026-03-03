@@ -1,0 +1,32 @@
+{
+  "id": "2b85bf1d6297",
+  "generation": 10256,
+  "created_at": "2026-03-02T11:48:41.503836",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "If Enzymatic depolymerization of specific polymer is applied to what, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 6,
+    "estimated_cost_usd": 70786,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 626916318,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 12,
+    "economic_value_usd": 56422468620000
+  },
+  "confidence": 0.6079440911657752,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

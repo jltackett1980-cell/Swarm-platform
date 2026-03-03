@@ -1,0 +1,32 @@
+{
+  "id": "2eedbb511fd7",
+  "generation": 4800,
+  "created_at": "2026-03-02T06:14:44.426720",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "Combining Forward osmosis using draw solution gradient with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 4,
+    "estimated_cost_usd": 49227,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 220666132,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 27,
+    "economic_value_usd": 19859951880000
+  },
+  "confidence": 0.5425691925870397,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

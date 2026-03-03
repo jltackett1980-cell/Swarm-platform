@@ -1,0 +1,32 @@
+{
+  "id": "55fb5010051b",
+  "generation": 7293,
+  "created_at": "2026-03-02T06:23:51.303170",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "The key to How to achieve sustained net-positive nuclear fusion at commercial scale? is Magnetohydrodynamic flow without moving parts \u2014 specifically Magnetohydrodynamic flow without \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 11,
+    "estimated_cost_usd": 258150,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1649817625,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 9,
+    "economic_value_usd": 65992705000000
+  },
+  "confidence": 0.4239728740840472,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

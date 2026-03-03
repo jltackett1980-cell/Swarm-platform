@@ -1,0 +1,32 @@
+{
+  "id": "d7c591e1b723",
+  "generation": 4267,
+  "created_at": "2026-03-02T06:13:09.941625",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "Biomimetic surface structure (lotus, shark skin, gecko) may resolve What material is biocompatible, conductive, and flexible enough for long-term brain implants? by activating at the molecular level.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 31,
+    "estimated_cost_usd": 454679,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2975589,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 10,
+    "economic_value_usd": 267803010000
+  },
+  "confidence": 0.6197459251841286,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

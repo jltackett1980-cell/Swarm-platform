@@ -1,0 +1,32 @@
+{
+  "id": "662b148abda2",
+  "generation": 4971,
+  "created_at": "2026-03-02T06:15:15.561169",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "If Electrospun nanofiber scaffold for tissue engineering is applied to formation, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 5,
+    "estimated_cost_usd": 80124,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 236299880,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 18,
+    "economic_value_usd": 14177992800000
+  },
+  "confidence": 0.5523311661141445,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "d71e9f01fec1",
+  "generation": 4639,
+  "created_at": "2026-03-02T06:14:14.706124",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "Combining Polymer crosslinking under specific stimulus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 13,
+    "estimated_cost_usd": 192377,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6228760,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 6,
+    "economic_value_usd": 373725600000
+  },
+  "confidence": 0.6949618646303135,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

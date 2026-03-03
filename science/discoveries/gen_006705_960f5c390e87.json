@@ -1,0 +1,32 @@
+{
+  "id": "960f5c390e87",
+  "generation": 6705,
+  "created_at": "2026-03-02T06:21:20.649146",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "If Synaptic plasticity modulation via NMDA receptor is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 19,
+    "estimated_cost_usd": 659308,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16125447,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 15,
+    "economic_value_usd": 806272350000
+  },
+  "confidence": 0.4811772015162331,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

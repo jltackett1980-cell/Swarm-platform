@@ -1,0 +1,32 @@
+{
+  "id": "8616a84b1dde",
+  "generation": 8165,
+  "created_at": "2026-03-02T06:27:39.235109",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved remains unsolved because previous research missed the role of Bose-Einstein. Bose-Einstein condensate at higher temperature directly addresses this.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 3,
+    "estimated_cost_usd": 58486,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 425001041,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 14,
+    "economic_value_usd": 38250093690000
+  },
+  "confidence": 0.7797165618268098,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

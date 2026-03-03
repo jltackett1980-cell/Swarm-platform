@@ -1,0 +1,32 @@
+{
+  "id": "3e772f233aa1",
+  "generation": 7409,
+  "created_at": "2026-03-02T06:24:19.401856",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "Microbiome modulation via targeted bacteriophage therapy may resolve What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified by activating at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 34,
+    "estimated_cost_usd": 1428139,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6714854,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 28,
+    "economic_value_usd": 134297080000
+  },
+  "confidence": 0.5298050399335597,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

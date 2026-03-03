@@ -1,0 +1,32 @@
+{
+  "id": "b320357dba4b",
+  "generation": 8818,
+  "created_at": "2026-03-02T06:30:58.198809",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Combining Default mode network connectivity measurement via fMRI with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 20,
+    "estimated_cost_usd": 517418,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 58037166,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 10,
+    "economic_value_usd": 2321486640000
+  },
+  "confidence": 0.472678719415849,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ceb889a9e7ae",
+  "generation": 1456,
+  "created_at": "2026-03-02T06:06:33.405574",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "Combining Mitochondrial membrane potential modulation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 16,
+    "estimated_cost_usd": 751313,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 400,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 20236760,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 6,
+    "economic_value_usd": 1214205600000
+  },
+  "confidence": 0.7771523568117895,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

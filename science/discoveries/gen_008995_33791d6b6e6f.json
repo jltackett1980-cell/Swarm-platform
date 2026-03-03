@@ -1,0 +1,32 @@
+{
+  "id": "33791d6b6e6f",
+  "generation": 8995,
+  "created_at": "2026-03-02T06:31:56.626543",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "Two-dimensional material stacking (van der Waals heterostructure) may resolve What material surface coating prevents bacterial biofilm formation on implants? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 5,
+    "estimated_cost_usd": 97111,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 71458260,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 9,
+    "economic_value_usd": 5002078200000
+  },
+  "confidence": 0.4773372311541838,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

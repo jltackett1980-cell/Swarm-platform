@@ -1,0 +1,32 @@
+{
+  "id": "b439be93d1b5",
+  "generation": 3321,
+  "created_at": "2026-03-02T06:10:37.210061",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "What material stores hydrogen fuel at high density without safety risk? remains unsolved because previous research missed the role of Carbon. Carbon nanotube alignment in polymer matrix directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 18,
+    "estimated_cost_usd": 319073,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 632834982,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 24,
+    "economic_value_usd": 37970098920000
+  },
+  "confidence": 0.5907669482131008,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

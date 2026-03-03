@@ -1,0 +1,32 @@
+{
+  "id": "d697a2688e52",
+  "generation": 1689,
+  "created_at": "2026-03-02T06:07:01.659904",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Mycorrhizal network enhancement for nutrient cycling",
+  "hypothesis": "If Mycorrhizal network enhancement for nutrient cycling is applied to to, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 9,
+    "estimated_cost_usd": 128068,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 112600756,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 20,
+    "economic_value_usd": 3378022680000
+  },
+  "confidence": 0.7758168356566025,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

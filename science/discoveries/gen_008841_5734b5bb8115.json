@@ -1,0 +1,32 @@
+{
+  "id": "5734b5bb8115",
+  "generation": 8841,
+  "created_at": "2026-03-02T06:31:04.652613",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "If Phytoremediation with hyperaccumulator plant species is applied to than, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 8,
+    "estimated_cost_usd": 115303,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 710606125,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 24,
+    "economic_value_usd": 63954551250000
+  },
+  "confidence": 0.3273715116030039,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "e139ebe39e89",
+  "generation": 4658,
+  "created_at": "2026-03-02T06:14:18.673982",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "How are trauma and stress responses inherited epigenetically across generations? remains unsolved because previous research missed the role of CRISPR. CRISPR gene editing targeting specific pathway directly addresses this.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 31,
+    "estimated_cost_usd": 1465222,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 153112987,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 17,
+    "economic_value_usd": 9186779220000
+  },
+  "confidence": 0.5748131551862359,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "e695f29eafed",
+  "generation": 10093,
+  "created_at": "2026-03-02T07:18:10.189164",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "Combining Psychedelic-induced neuroplasticity via 5-HT2A receptor with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 8,
+    "estimated_cost_usd": 217719,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 282,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 28792115,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 19,
+    "economic_value_usd": 2591290350000
+  },
+  "confidence": 0.47065526514521866,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

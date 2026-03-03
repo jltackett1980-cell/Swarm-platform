@@ -1,0 +1,32 @@
+{
+  "id": "c20d012e61c8",
+  "generation": 4865,
+  "created_at": "2026-03-02T06:14:56.524997",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "How to achieve sustained net-positive nuclear fusion at commercial scale? remains unsolved because previous research missed the role of Acoustic. Acoustic levitation for contactless manipulation directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 6,
+    "estimated_cost_usd": 143825,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3556225019,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 28,
+    "economic_value_usd": 213373501140000
+  },
+  "confidence": 0.722031212256919,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

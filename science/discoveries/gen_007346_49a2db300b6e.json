@@ -1,0 +1,32 @@
+{
+  "id": "49a2db300b6e",
+  "generation": 7346,
+  "created_at": "2026-03-02T06:24:04.238691",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "What material is biocompatible, conductive, and flexible enough for long-term brain implants? remains unsolved because previous research missed the role of Polymer. Polymer crosslinking under specific stimulus directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 23,
+    "estimated_cost_usd": 416407,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4299932,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 12,
+    "economic_value_usd": 128997960000
+  },
+  "confidence": 0.30422149329008835,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

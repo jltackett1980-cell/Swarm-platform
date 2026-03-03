@@ -1,0 +1,32 @@
+{
+  "id": "199a4004597e",
+  "generation": 2486,
+  "created_at": "2026-03-02T06:08:39.727386",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Combining Thermoelectric Seebeck coefficient maximization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 11,
+    "estimated_cost_usd": 250834,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 965328979,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 21,
+    "economic_value_usd": 48266448950000
+  },
+  "confidence": 0.5080139502564102,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

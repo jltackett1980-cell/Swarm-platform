@@ -1,0 +1,32 @@
+{
+  "id": "f683e23a5bb7",
+  "generation": 4577,
+  "created_at": "2026-03-02T06:14:03.885151",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics remains unsolved because previous research missed the role of Magnetohydrodynamic. Magnetohydrodynamic flow without moving parts directly addresses this.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 2,
+    "estimated_cost_usd": 49880,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Calorimetric measurement with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2889383430,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 6,
+    "economic_value_usd": 86681502900000
+  },
+  "confidence": 0.41197584345045085,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

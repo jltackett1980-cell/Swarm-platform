@@ -1,0 +1,32 @@
+{
+  "id": "ae35a29ec112",
+  "generation": 5483,
+  "created_at": "2026-03-02T06:16:55.033484",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "What triggers cancer cells to leave primary tumor and colonize new tissue? remains unsolved because previous research missed the role of Photodynamic. Photodynamic therapy targeting specific cell receptors directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 22,
+    "estimated_cost_usd": 796233,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 12630996,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 13,
+    "economic_value_usd": 505239840000
+  },
+  "confidence": 0.649407828977085,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "64d3a9ff2eb9",
+  "generation": 9565,
+  "created_at": "2026-03-02T06:34:51.632058",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "What material surface coating prevents bacterial biofilm formation on implants? remains unsolved because previous research missed the role of Metal-organic. Metal-organic framework with specific pore geometry directly addresses this.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 6,
+    "estimated_cost_usd": 96089,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 112386089,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 10,
+    "economic_value_usd": 10114748010000
+  },
+  "confidence": 0.5445816118531138,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "3f0c22e50fe0",
+  "generation": 6435,
+  "created_at": "2026-03-02T06:20:18.528541",
+  "problem_id": "gravity_quantum",
+  "problem": "How does gravity behave at quantum scales \u2014 quantum gravity unresolved",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "Bose-Einstein condensate at higher temperature may resolve How does gravity behave at quantum scales \u2014 quantum gravity unresolved by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 9,
+    "estimated_cost_usd": 150543,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3525178463,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 21,
+    "economic_value_usd": 246762492410000
+  },
+  "confidence": 0.5651222083315379,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

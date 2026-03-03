@@ -1,0 +1,32 @@
+{
+  "id": "b3d93b9b9c58",
+  "generation": 2801,
+  "created_at": "2026-03-02T06:09:22.099166",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "If Biochar amendment for soil carbon sequestration is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 1,
+    "estimated_cost_usd": 10675,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 723790104,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 26,
+    "economic_value_usd": 50665307280000
+  },
+  "confidence": 0.7282295767948803,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

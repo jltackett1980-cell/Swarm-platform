@@ -1,0 +1,32 @@
+{
+  "id": "294562d16015",
+  "generation": 4418,
+  "created_at": "2026-03-02T06:13:36.018348",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? remains unsolved because previous research missed the role of Vagus. Vagus nerve stimulation modulating brain-gut axis directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 21,
+    "estimated_cost_usd": 721925,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9021665,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 14,
+    "economic_value_usd": 360866600000
+  },
+  "confidence": 0.46711009506851636,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

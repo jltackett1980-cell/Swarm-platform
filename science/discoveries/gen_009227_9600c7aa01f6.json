@@ -1,0 +1,32 @@
+{
+  "id": "9600c7aa01f6",
+  "generation": 9227,
+  "created_at": "2026-03-02T06:33:07.053290",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "If Topological insulator surface state conduction is applied to \u2014, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 2,
+    "estimated_cost_usd": 34991,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3227523748,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 14,
+    "economic_value_usd": 290477137320000
+  },
+  "confidence": 0.5109218404859355,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

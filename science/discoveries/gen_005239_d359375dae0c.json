@@ -1,0 +1,32 @@
+{
+  "id": "d359375dae0c",
+  "generation": 5239,
+  "created_at": "2026-03-02T06:16:06.280153",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "Combining Sleep-dependent memory consolidation in hippocampus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 28,
+    "estimated_cost_usd": 669309,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9526175,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 27,
+    "economic_value_usd": 571570500000
+  },
+  "confidence": 0.35267830037342646,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "7772240b4f58",
+  "generation": 2788,
+  "created_at": "2026-03-02T06:09:20.163064",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? remains unsolved because previous research missed the role of Electrocoagulation. Electrocoagulation for suspended particle removal directly addresses this.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 3,
+    "estimated_cost_usd": 42457,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1291993592,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 20,
+    "economic_value_usd": 25839871840000
+  },
+  "confidence": 0.7001083820105856,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

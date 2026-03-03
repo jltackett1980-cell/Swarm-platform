@@ -1,0 +1,32 @@
+{
+  "id": "f368c9823977",
+  "generation": 975,
+  "created_at": "2026-03-02T06:05:38.890561",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "Combining Monte Carlo tree search with learned heuristics with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 7,
+    "estimated_cost_usd": 24904,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Theoretical complexity proof with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1642347975,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 26,
+    "economic_value_usd": 147811317750000
+  },
+  "confidence": 0.3311342398470075,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

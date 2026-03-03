@@ -1,0 +1,32 @@
+{
+  "id": "a878fc80d61e",
+  "generation": 1405,
+  "created_at": "2026-03-02T06:06:27.436380",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "The key to What triggers cancer cells to leave primary tumor and colonize new tissue? is Monoclonal antibody blocking protein-protein interaction \u2014 specifically Monoclonal antibody blocking \u2014 which would help 19,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 12,
+    "estimated_cost_usd": 403106,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8510120,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 10,
+    "economic_value_usd": 680809600000
+  },
+  "confidence": 0.38882649097461125,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

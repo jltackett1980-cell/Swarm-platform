@@ -1,108 +1,95 @@
 {
-  "device_name": "PhoenixSteady",
+  "device_name": "PulseSteady",
   "condition": "autism_sensory",
   "score": 0,
-  "generation": 20,
-  "generated_at": "2026-02-28T20:57:40.611952",
-  "physics_principle": "biofeedback_neural",
+  "generation": 5,
+  "generated_at": "2026-03-02T13:12:14.454537",
+  "physics_principle": "thermal",
   "engineering": {
     "mcu": {
-      "part": "Nordic nRF52840",
-      "description": "ARM Cortex-M4F 64MHz, BLE 5.0, 1MB Flash, 256KB RAM",
-      "cost_usd": 4.2,
-      "datasheet": "infocenter.nordicsemi.com/topic/struct_nrf52/struct/nrf52840.html"
+      "part": "STM32G031",
+      "description": "Cortex-M0+ \u2014 sufficient for thermal control PID loop",
+      "cost_usd": 1.2
     },
-    "sensors": [
+    "thermal_elements": [
       {
-        "part": "AD8232",
-        "function": "Single-lead ECG / heart rate",
-        "cost_usd": 2.8
-      },
-      {
-        "part": "MAX30102",
-        "function": "PPG pulse oximetry + SpO2",
+        "part": "Peltier TEC1-12706",
+        "function": "Thermoelectric cooler/heater",
         "cost_usd": 3.5
       },
       {
-        "part": "GSR Grove Sensor",
-        "function": "Galvanic skin response (stress)",
-        "cost_usd": 1.9
+        "part": "DRV8871",
+        "function": "H-bridge motor driver for TEC control",
+        "cost_usd": 1.8
       },
       {
-        "part": "ICM-42688-P",
-        "function": "6-axis IMU accelerometer+gyro",
-        "cost_usd": 2.1
+        "part": "NTC 10K thermistor",
+        "function": "Skin temperature sensing x4",
+        "cost_usd": 0.4
+      },
+      {
+        "part": "MLX90614",
+        "function": "IR contactless temp verification",
+        "cost_usd": 4.5
       }
     ],
-    "output": {
-      "part": "DRV2605L",
-      "function": "Haptic feedback driver \u2014 vibrotactile response",
-      "cost_usd": 1.4
-    },
     "power": {
-      "battery": "Li-Po 500mAh 3.7V",
-      "charger": "MCP73831 single-cell charger",
-      "regulator": "TPS62740 ultra-low-power buck",
-      "estimated_life_hours": 168,
-      "cost_usd": 3.2
+      "battery": "Li-Po 2000mAh 3.7V (TEC is power hungry)",
+      "charger": "BQ25895",
+      "estimated_life_hours": 4,
+      "cost_usd": 7.0
     },
     "pcb": {
-      "layers": 4,
-      "size_mm": "28x18",
-      "thickness_mm": 0.8,
-      "process": "ENIG (Electroless Nickel Immersion Gold)",
-      "estimated_cost_usd": 2.5
+      "layers": 2,
+      "size_mm": "50x40",
+      "estimated_cost_usd": 2.0
     },
     "enclosure": {
-      "material": "Medical-grade silicone overmold + ABS shell",
-      "ip_rating": "IP67",
-      "size_mm": "45x30x8",
-      "estimated_cost_usd": 4.0
+      "material": "Aluminum heatsink + silicone contact surface",
+      "ip_rating": "IP44",
+      "size_mm": "80x60x20",
+      "estimated_cost_usd": 8.0
     },
     "firmware": {
-      "rtos": "Zephyr RTOS",
-      "sampling_rate_hz": 250,
-      "algorithm": "HRV analysis via time-domain RMSSD + frequency-domain LF/HF ratio. Skin conductance threshold detection. IMU gesture recognition via edge ML (TensorFlow Lite Micro).",
-      "ml_model": "TensorFlow Lite Micro \u2014 stress/calm classifier, <50KB model size",
-      "data_protocol": "BLE GATT custom profile, AES-128 encrypted, local storage only"
-    },
-    "signal_processing": {
-      "ecg_filter": "Bandpass 0.5-40Hz, notch 50/60Hz",
-      "ppg_filter": "Low-pass 10Hz, DC removal",
-      "hrv_window": "5-minute rolling window, R-R interval detection via Pan-Tompkins algorithm",
-      "stress_detection": "SVM classifier trained on HRV + GSR + accelerometer fusion"
+      "algorithm": "PID thermal control loop. Setpoint \u00b10.5\u00b0C accuracy. Ramp rate 1\u00b0C/min.",
+      "safety": "Hardware cutoff at 42\u00b0C skin surface. Redundant thermistors.",
+      "protocols": {
+        "heat_therapy": "38-40\u00b0C, 20min session",
+        "cold_therapy": "10-15\u00b0C, 10min session",
+        "contrast": "Alternating hot/cold 2min cycles x5"
+      }
     },
     "fda_pathway": {
       "device_class": "Class II",
-      "submission_type": "510(k) Premarket Notification",
+      "submission_type": "510(k)",
       "predicate_devices": [
-        "Garmin HRV Status",
-        "Whoop Strap",
-        "Polar H10"
+        "Breg Polar Care",
+        "Game Ready GRPro"
       ],
       "estimated_timeline_months": 12,
-      "estimated_cost_usd": 50000
+      "estimated_cost_usd": 35000
     }
   },
   "firmware_notes": {
-    "rtos": "Zephyr RTOS",
-    "sampling_rate_hz": 250,
-    "algorithm": "HRV analysis via time-domain RMSSD + frequency-domain LF/HF ratio. Skin conductance threshold detection. IMU gesture recognition via edge ML (TensorFlow Lite Micro).",
-    "ml_model": "TensorFlow Lite Micro \u2014 stress/calm classifier, <50KB model size",
-    "data_protocol": "BLE GATT custom profile, AES-128 encrypted, local storage only"
+    "algorithm": "PID thermal control loop. Setpoint \u00b10.5\u00b0C accuracy. Ramp rate 1\u00b0C/min.",
+    "safety": "Hardware cutoff at 42\u00b0C skin surface. Redundant thermistors.",
+    "protocols": {
+      "heat_therapy": "38-40\u00b0C, 20min session",
+      "cold_therapy": "10-15\u00b0C, 10min session",
+      "contrast": "Alternating hot/cold 2min cycles x5"
+    }
   },
   "fda_pathway": {
     "device_class": "Class II",
-    "submission_type": "510(k) Premarket Notification",
+    "submission_type": "510(k)",
     "predicate_devices": [
-      "Garmin HRV Status",
-      "Whoop Strap",
-      "Polar H10"
+      "Breg Polar Care",
+      "Game Ready GRPro"
     ],
     "estimated_timeline_months": 12,
-    "estimated_cost_usd": 50000
+    "estimated_cost_usd": 35000
   },
-  "estimated_bom_cost_usd": 25.6,
+  "estimated_bom_cost_usd": 18.2,
   "assembly_notes": [
     "IPC-A-610 Class 2 assembly",
     "Conformal coating required for moisture resistance",

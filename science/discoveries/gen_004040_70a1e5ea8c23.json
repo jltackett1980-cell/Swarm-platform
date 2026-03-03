@@ -1,0 +1,32 @@
+{
+  "id": "70a1e5ea8c23",
+  "generation": 4040,
+  "created_at": "2026-03-02T06:12:31.032882",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "Perovskite crystal structure optimization may resolve How to produce defect-free large-area graphene at low cost? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 11,
+    "estimated_cost_usd": 163855,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 892620655,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 29,
+    "economic_value_usd": 62483445850000
+  },
+  "confidence": 0.36204145488770906,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

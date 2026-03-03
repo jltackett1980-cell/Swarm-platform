@@ -1,0 +1,32 @@
+{
+  "id": "f71b46ad86ce",
+  "generation": 1703,
+  "created_at": "2026-03-02T06:07:04.096345",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "How to engineer materials that autonomously repair microcracks before failure? remains unsolved because previous research missed the role of Self-assembled. Self-assembled monolayer for surface functionalization directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 29,
+    "estimated_cost_usd": 479832,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 470856714,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 7,
+    "economic_value_usd": 28251402840000
+  },
+  "confidence": 0.6137098173839026,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

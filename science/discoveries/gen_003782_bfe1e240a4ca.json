@@ -1,0 +1,32 @@
+{
+  "id": "bfe1e240a4ca",
+  "generation": 3782,
+  "created_at": "2026-03-02T06:11:48.930471",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "What is the primary molecular cause of biological aging \u2014 can it be slowed? remains unsolved because previous research missed the role of Viral. Viral vector delivery of therapeutic gene directly addresses this.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 12,
+    "estimated_cost_usd": 537443,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3008689470,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 21,
+    "economic_value_usd": 90260684100000
+  },
+  "confidence": 0.7528078188633462,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

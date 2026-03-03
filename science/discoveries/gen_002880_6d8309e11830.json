@@ -1,0 +1,32 @@
+{
+  "id": "6d8309e11830",
+  "generation": 2880,
+  "created_at": "2026-03-02T06:09:32.845658",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "Optical rectenna for direct photon-to-electron conversion may resolve Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 5,
+    "estimated_cost_usd": 117119,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 486646852,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 14,
+    "economic_value_usd": 29198811120000
+  },
+  "confidence": 0.5332639042768684,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

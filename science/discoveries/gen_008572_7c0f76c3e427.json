@@ -1,0 +1,32 @@
+{
+  "id": "7c0f76c3e427",
+  "generation": 8572,
+  "created_at": "2026-03-02T06:29:32.056889",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis? remains unsolved because previous research missed the role of Rhizobium. Rhizobium inoculation for nitrogen fixation directly addresses this.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 4,
+    "estimated_cost_usd": 52046,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 855089239,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 20,
+    "economic_value_usd": 68407139120000
+  },
+  "confidence": 0.41177325948041893,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "a7c64890242e",
+  "generation": 9986,
+  "created_at": "2026-03-02T06:37:06.062398",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "Combining Photodynamic therapy targeting specific cell receptors with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 23,
+    "estimated_cost_usd": 953124,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8599854,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 10,
+    "economic_value_usd": 429992700000
+  },
+  "confidence": 0.6280791307060426,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

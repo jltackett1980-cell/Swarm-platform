@@ -1,0 +1,32 @@
+{
+  "id": "669b20edbb0a",
+  "generation": 6199,
+  "created_at": "2026-03-02T06:19:26.444997",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "Sleep-dependent memory consolidation in hippocampus may resolve Why do all animals sleep \u2014 what is the essential biological function? by activating at the systems level.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 8,
+    "estimated_cost_usd": 279954,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 282,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1645833328,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 9,
+    "economic_value_usd": 115208332960000
+  },
+  "confidence": 0.7314995906358227,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

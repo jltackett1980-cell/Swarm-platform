@@ -1,0 +1,32 @@
+{
+  "id": "5a9ec0cfdc2a",
+  "generation": 4219,
+  "created_at": "2026-03-02T06:13:01.526039",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "Small molecule inhibitor of enzyme active site may resolve How are trauma and stress responses inherited epigenetically across generations? by blocking at the molecular level.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 20,
+    "estimated_cost_usd": 863244,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 234199885,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 17,
+    "economic_value_usd": 9367995400000
+  },
+  "confidence": 0.5205275337968953,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

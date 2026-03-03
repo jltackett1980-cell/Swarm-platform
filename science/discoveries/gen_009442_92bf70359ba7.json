@@ -1,0 +1,32 @@
+{
+  "id": "92bf70359ba7",
+  "generation": 9442,
+  "created_at": "2026-03-02T06:34:13.331481",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "Combining Photocatalytic oxidation under visible light with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 7,
+    "estimated_cost_usd": 100175,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 956120059,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 5,
+    "economic_value_usd": 9561200590000
+  },
+  "confidence": 0.7896549572305742,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

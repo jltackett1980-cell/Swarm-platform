@@ -1,0 +1,32 @@
+{
+  "id": "4b40cf0be65e",
+  "generation": 10220,
+  "created_at": "2026-03-02T07:25:07.283403",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "The key to How to achieve sustained net-positive nuclear fusion at commercial scale? is Bose-Einstein condensate at higher temperature \u2014 specifically Bose-Einstein condensate at \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 7,
+    "estimated_cost_usd": 134073,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3589992233,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 22,
+    "economic_value_usd": 179499611650000
+  },
+  "confidence": 0.59664733487939,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

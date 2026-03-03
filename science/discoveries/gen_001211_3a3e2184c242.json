@@ -1,0 +1,32 @@
+{
+  "id": "3a3e2184c242",
+  "generation": 1211,
+  "created_at": "2026-03-02T06:06:04.371969",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Carbon nanotube alignment in polymer matrix \u2014 specifically Carbon nanotube alignment \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 34,
+    "estimated_cost_usd": 573015,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 244524161,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 29,
+    "economic_value_usd": 2445241610000
+  },
+  "confidence": 0.5050806816525037,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

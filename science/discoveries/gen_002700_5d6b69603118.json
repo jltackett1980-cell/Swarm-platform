@@ -1,7 +1,7 @@
 {
   "id": "5d6b69603118",
   "generation": 2700,
-  "created_at": "2026-03-01T05:26:23.307448",
+  "created_at": "2026-03-02T06:09:08.386990",
   "problem_id": "memory_storage",
   "problem": "How are long-term memories physically encoded in neural tissue?",
   "domain": "neuroscience",
@@ -10,23 +10,23 @@
   "mechanism": "Deep brain stimulation of subthalamic nucleus",
   "hypothesis": "Combining Deep brain stimulation of subthalamic nucleus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
   "experiment": {
-    "type": "Optogenetic mouse model",
-    "duration_months": 6,
-    "estimated_cost_usd": 174779,
+    "type": "Longitudinal patient cohort",
+    "duration_months": 16,
+    "estimated_cost_usd": 463591,
     "falsifiable": true,
     "control_required": true,
     "blinding": "double-blind",
-    "sample_size": 244,
-    "outcome_measure": "quantitative biomarker",
-    "protocol": "Optogenetic mouse model with 6 month follow-up. Control group receives placebo/sham."
+    "sample_size": 400,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 16 month follow-up. Control group receives placebo/sham."
   },
   "impact": {
-    "lives_impacted": 2742388418,
-    "quality_of_life_gain_pct": 70,
-    "years_of_benefit": 13,
-    "economic_value_usd": 191967189260000
+    "lives_impacted": 874290640,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 11,
+    "economic_value_usd": 34971625600000
   },
-  "confidence": 0.7122808944714685,
-  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "confidence": 0.33963122279309477,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
   "status": "proposed"
 }

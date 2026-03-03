@@ -1,0 +1,32 @@
+{
+  "id": "db9c60a07c01",
+  "generation": 3438,
+  "created_at": "2026-03-02T06:10:55.140318",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "If Quantum tunneling through energy barrier is applied to at, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 7,
+    "estimated_cost_usd": 141155,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2161433709,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 6,
+    "economic_value_usd": 43228674180000
+  },
+  "confidence": 0.3939045898381088,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

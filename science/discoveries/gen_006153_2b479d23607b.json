@@ -1,0 +1,32 @@
+{
+  "id": "2b479d23607b",
+  "generation": 6153,
+  "created_at": "2026-03-02T06:19:16.834816",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "What material surface coating prevents bacterial biofilm formation on implants? remains unsolved because previous research missed the role of Aerogel. Aerogel porosity for thermal/acoustic insulation directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 32,
+    "estimated_cost_usd": 482796,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 180671344,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 16,
+    "economic_value_usd": 3613426880000
+  },
+  "confidence": 0.42775263942713015,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

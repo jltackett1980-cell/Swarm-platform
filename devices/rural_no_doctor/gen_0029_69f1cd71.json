@@ -1,0 +1,39 @@
+{
+  "id": "69f1cd71",
+  "name": "AccordDiagnose",
+  "generation": 29,
+  "created_at": "2026-03-02T17:09:20.776264",
+  "pain": "rural_no_doctor",
+  "population": 60000000,
+  "problem": "60M in rural areas \u2014 no nearby physician, diagnosis delayed",
+  "physics": "rf_sensing",
+  "physics_desc": "Radio frequency for non-contact sensing",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Radar vital signs",
+    "Through-wall sensing"
+  ],
+  "form_factor": "handheld diagnostic",
+  "complexity": 6,
+  "specs": {
+    "power_watts": 0.0016,
+    "size_cm": 14.6,
+    "cost_usd": 55.74,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "TeleHealth",
+  "companion_domain": "telehealth",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

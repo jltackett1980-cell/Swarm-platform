@@ -1,0 +1,32 @@
+{
+  "id": "b2e80c823e39",
+  "generation": 2511,
+  "created_at": "2026-03-02T06:08:42.919661",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Thermoelectric Seebeck coefficient maximization",
+  "hypothesis": "Combining Thermoelectric Seebeck coefficient maximization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 2,
+    "estimated_cost_usd": 49415,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1918761535,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 21,
+    "economic_value_usd": 153500922800000
+  },
+  "confidence": 0.670064328674925,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

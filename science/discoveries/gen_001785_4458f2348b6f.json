@@ -1,0 +1,32 @@
+{
+  "id": "4458f2348b6f",
+  "generation": 1785,
+  "created_at": "2026-03-02T06:07:13.276925",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "What neural connectivity differences cause autism spectrum characteristics? remains unsolved because previous research missed the role of Vagus. Vagus nerve stimulation modulating brain-gut axis directly addresses this.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 32,
+    "estimated_cost_usd": 889047,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 25495521,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 7,
+    "economic_value_usd": 2294596890000
+  },
+  "confidence": 0.7573806219115266,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

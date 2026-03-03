@@ -1,0 +1,32 @@
+{
+  "id": "0532818776f6",
+  "generation": 2290,
+  "created_at": "2026-03-02T06:08:14.069720",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "Fear memory reconsolidation interference via timing may resolve What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient by activating at the systems level.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 29,
+    "estimated_cost_usd": 949248,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 55727253,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 16,
+    "economic_value_usd": 5015452770000
+  },
+  "confidence": 0.5095503673557196,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

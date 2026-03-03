@@ -1,0 +1,32 @@
+{
+  "id": "dca5be033ea6",
+  "generation": 4561,
+  "created_at": "2026-03-02T06:14:00.925773",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Hydrogel. Hydrogel swelling/shrinking response directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 12,
+    "estimated_cost_usd": 207383,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7107005,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 26,
+    "economic_value_usd": 284280200000
+  },
+  "confidence": 0.6406123786952944,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

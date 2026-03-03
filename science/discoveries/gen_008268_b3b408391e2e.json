@@ -1,0 +1,32 @@
+{
+  "id": "b3b408391e2e",
+  "generation": 8268,
+  "created_at": "2026-03-02T06:28:07.295285",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "Biomimetic surface structure (lotus, shark skin, gecko) may resolve What material stores hydrogen fuel at high density without safety risk? by activating at the molecular level.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 30,
+    "estimated_cost_usd": 541597,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 808514390,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 22,
+    "economic_value_usd": 72766295100000
+  },
+  "confidence": 0.4237915442230668,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

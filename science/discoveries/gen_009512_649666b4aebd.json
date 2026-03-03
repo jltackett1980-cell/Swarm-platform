@@ -1,0 +1,32 @@
+{
+  "id": "649666b4aebd",
+  "generation": 9512,
+  "created_at": "2026-03-02T06:34:35.136323",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Optical neural network for speed-of-light inference",
+  "hypothesis": "Combining Optical neural network for speed-of-light inference with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 2,
+    "estimated_cost_usd": 7314,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1356670033,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 9,
+    "economic_value_usd": 108533602640000
+  },
+  "confidence": 0.49971249017178737,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

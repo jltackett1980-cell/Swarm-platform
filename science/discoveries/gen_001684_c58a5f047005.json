@@ -1,0 +1,32 @@
+{
+  "id": "c58a5f047005",
+  "generation": 1684,
+  "created_at": "2026-03-02T06:07:01.488189",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "Combining Spintronics for low-power data storage with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 6,
+    "estimated_cost_usd": 117165,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3620639957,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 23,
+    "economic_value_usd": 181031997850000
+  },
+  "confidence": 0.6582874469131084,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

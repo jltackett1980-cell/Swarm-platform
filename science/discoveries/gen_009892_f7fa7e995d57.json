@@ -1,0 +1,32 @@
+{
+  "id": "f7fa7e995d57",
+  "generation": 9892,
+  "created_at": "2026-03-02T06:36:33.203405",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "How does central sensitization maintain chronic pain without tissue damage? remains unsolved because previous research missed the role of Transcranial. Transcranial magnetic stimulation of specific cortical area directly addresses this.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 10,
+    "estimated_cost_usd": 234894,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 29184351,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 23,
+    "economic_value_usd": 2334748080000
+  },
+  "confidence": 0.4746096368389354,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

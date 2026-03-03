@@ -1,0 +1,32 @@
+{
+  "id": "634457fd63e1",
+  "generation": 5726,
+  "created_at": "2026-03-02T06:17:45.065697",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "The key to What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? is Enzymatic depolymerization of specific polymer \u2014 specifically Enzymatic depolymerization of \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 1,
+    "estimated_cost_usd": 12569,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3533941532,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 25,
+    "economic_value_usd": 247375907240000
+  },
+  "confidence": 0.5549330253047469,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

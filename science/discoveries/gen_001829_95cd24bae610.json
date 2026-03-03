@@ -1,0 +1,32 @@
+{
+  "id": "95cd24bae610",
+  "generation": 1829,
+  "created_at": "2026-03-02T06:07:18.089279",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "If Polymer crosslinking under specific stimulus is applied to and, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 28,
+    "estimated_cost_usd": 400927,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6745740,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 29,
+    "economic_value_usd": 134914800000
+  },
+  "confidence": 0.627422159613396,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

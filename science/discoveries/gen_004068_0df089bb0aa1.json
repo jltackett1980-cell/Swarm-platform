@@ -1,0 +1,32 @@
+{
+  "id": "0df089bb0aa1",
+  "generation": 4068,
+  "created_at": "2026-03-02T06:12:36.117666",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "Vagus nerve stimulation modulating brain-gut axis may resolve What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient by activating at the systems level.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 10,
+    "estimated_cost_usd": 304244,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 98431363,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 30,
+    "economic_value_usd": 5905881780000
+  },
+  "confidence": 0.6617606568472536,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

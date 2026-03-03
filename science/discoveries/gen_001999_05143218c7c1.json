@@ -1,0 +1,32 @@
+{
+  "id": "05143218c7c1",
+  "generation": 1999,
+  "created_at": "2026-03-02T06:07:38.547752",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "If Acoustic levitation for contactless manipulation is applied to chemical, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 4,
+    "estimated_cost_usd": 97747,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1334114827,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 23,
+    "economic_value_usd": 40023444810000
+  },
+  "confidence": 0.5419594554188315,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

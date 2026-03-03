@@ -1,0 +1,32 @@
+{
+  "id": "6690c91b6160",
+  "generation": 4032,
+  "created_at": "2026-03-02T06:12:29.651912",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "Combining Acoustic levitation for contactless manipulation with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 1,
+    "estimated_cost_usd": 17721,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2793493446,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 5,
+    "economic_value_usd": 111739737840000
+  },
+  "confidence": 0.47932958774701795,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

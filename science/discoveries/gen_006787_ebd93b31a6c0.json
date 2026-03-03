@@ -1,0 +1,32 @@
+{
+  "id": "ebd93b31a6c0",
+  "generation": 6787,
+  "created_at": "2026-03-02T06:21:38.900791",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "If Polymer crosslinking under specific stimulus is applied to low, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 23,
+    "estimated_cost_usd": 365152,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 514419923,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 19,
+    "economic_value_usd": 25720996150000
+  },
+  "confidence": 0.7630257541915451,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

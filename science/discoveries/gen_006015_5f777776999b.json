@@ -1,0 +1,32 @@
+{
+  "id": "5f777776999b",
+  "generation": 6015,
+  "created_at": "2026-03-02T06:18:46.459576",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "If Atomic layer deposition of conformal coating is applied to low, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 11,
+    "estimated_cost_usd": 214608,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 574311315,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 18,
+    "economic_value_usd": 34458678900000
+  },
+  "confidence": 0.5178125926665091,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "e9b220624e16",
+  "generation": 9752,
+  "created_at": "2026-03-02T06:35:50.973028",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "If Electrospun nanofiber scaffold for tissue engineering is applied to at, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 32,
+    "estimated_cost_usd": 510247,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 521270866,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 16,
+    "economic_value_usd": 15638125980000
+  },
+  "confidence": 0.30032600046578745,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

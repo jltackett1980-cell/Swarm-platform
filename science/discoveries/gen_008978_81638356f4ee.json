@@ -1,0 +1,32 @@
+{
+  "id": "81638356f4ee",
+  "generation": 8978,
+  "created_at": "2026-03-02T06:31:50.520576",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "The key to Can superconductivity be achieved at room temperature \u2014 what material structure? is Acoustic levitation for contactless manipulation \u2014 specifically Acoustic levitation for \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 1,
+    "estimated_cost_usd": 19772,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3198972260,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 17,
+    "economic_value_usd": 127958890400000
+  },
+  "confidence": 0.3655167088302034,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

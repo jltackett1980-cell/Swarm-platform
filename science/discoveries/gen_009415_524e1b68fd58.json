@@ -1,0 +1,32 @@
+{
+  "id": "524e1b68fd58",
+  "generation": 9415,
+  "created_at": "2026-03-02T06:34:06.546818",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "Combining Microbiome modulation via targeted bacteriophage therapy with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 14,
+    "estimated_cost_usd": 577274,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 122838132,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 8,
+    "economic_value_usd": 8598669240000
+  },
+  "confidence": 0.3764214837339882,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

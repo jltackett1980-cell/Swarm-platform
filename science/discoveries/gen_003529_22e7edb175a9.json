@@ -1,0 +1,32 @@
+{
+  "id": "22e7edb175a9",
+  "generation": 3529,
+  "created_at": "2026-03-02T06:11:09.202420",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Mitochondrial membrane potential modulation",
+  "hypothesis": "Mitochondrial membrane potential modulation may resolve What causes normal proteins to misfold into prions and spread through tissue? by activating at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 9,
+    "estimated_cost_usd": 305733,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 419167,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 22,
+    "economic_value_usd": 25150020000
+  },
+  "confidence": 0.7820933476247474,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

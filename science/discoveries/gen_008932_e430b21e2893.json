@@ -1,0 +1,32 @@
+{
+  "id": "e430b21e2893",
+  "generation": 8932,
+  "created_at": "2026-03-02T06:31:35.813590",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "Epigenetic methylation/demethylation of regulatory region may resolve What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 35,
+    "estimated_cost_usd": 1670079,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 10709334,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 16,
+    "economic_value_usd": 107093340000
+  },
+  "confidence": 0.3706989802777427,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

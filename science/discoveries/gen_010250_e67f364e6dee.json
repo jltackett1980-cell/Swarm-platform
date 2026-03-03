@@ -1,0 +1,32 @@
+{
+  "id": "e67f364e6dee",
+  "generation": 10250,
+  "created_at": "2026-03-02T11:48:40.338103",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "If Attention mechanism with linear complexity is applied to alphafold, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 8,
+    "estimated_cost_usd": 30136,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3743807587,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 20,
+    "economic_value_usd": 74876151740000
+  },
+  "confidence": 0.6449185098825939,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

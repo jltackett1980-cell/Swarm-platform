@@ -1,0 +1,32 @@
+{
+  "id": "4149ac37eaca",
+  "generation": 4996,
+  "created_at": "2026-03-02T06:15:21.031024",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "If Rhizobium inoculation for nitrogen fixation is applied to to, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 12,
+    "estimated_cost_usd": 179662,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 198922679,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 21,
+    "economic_value_usd": 17903041110000
+  },
+  "confidence": 0.32324619300488666,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

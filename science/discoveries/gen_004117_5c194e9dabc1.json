@@ -1,0 +1,32 @@
+{
+  "id": "5c194e9dabc1",
+  "generation": 4117,
+  "created_at": "2026-03-02T06:12:44.434982",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "If Stem cell differentiation into target tissue type is applied to it, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 10,
+    "estimated_cost_usd": 338035,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3607001707,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 13,
+    "economic_value_usd": 180350085350000
+  },
+  "confidence": 0.621554370551326,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

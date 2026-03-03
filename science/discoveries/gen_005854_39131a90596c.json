@@ -1,0 +1,32 @@
+{
+  "id": "39131a90596c",
+  "generation": 5854,
+  "created_at": "2026-03-02T06:18:12.446709",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "If Cortical spreading depression mechanism in migraine is applied to essential, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 29,
+    "estimated_cost_usd": 1007200,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 983879573,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 15,
+    "economic_value_usd": 19677591460000
+  },
+  "confidence": 0.5953886561087814,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

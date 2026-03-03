@@ -1,0 +1,32 @@
+{
+  "id": "07f368e58f2a",
+  "generation": 679,
+  "created_at": "2026-03-02T06:05:06.602528",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "What material stores hydrogen fuel at high density without safety risk? remains unsolved because previous research missed the role of Two-dimensional. Two-dimensional material stacking (van der Waals heterostructure) directly addresses this.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 22,
+    "estimated_cost_usd": 353084,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1487436593,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 14,
+    "economic_value_usd": 89246195580000
+  },
+  "confidence": 0.3056561288898839,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

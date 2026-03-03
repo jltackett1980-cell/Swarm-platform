@@ -1,0 +1,32 @@
+{
+  "id": "34a17714f821",
+  "generation": 9704,
+  "created_at": "2026-03-02T06:35:36.613299",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Rhizobium. Rhizobium inoculation for nitrogen fixation directly addresses this.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 10,
+    "estimated_cost_usd": 107397,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 174777657,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 24,
+    "economic_value_usd": 13982212560000
+  },
+  "confidence": 0.7634061845955729,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

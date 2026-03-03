@@ -1,0 +1,32 @@
+{
+  "id": "120917468fbd",
+  "generation": 1560,
+  "created_at": "2026-03-02T06:06:45.880444",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? remains unsolved because previous research missed the role of Ketamine-like. Ketamine-like NMDA antagonism without dissociation directly addresses this.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 3,
+    "estimated_cost_usd": 70500,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6002346,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 21,
+    "economic_value_usd": 540211140000
+  },
+  "confidence": 0.7932238056546113,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

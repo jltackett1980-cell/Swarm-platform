@@ -1,0 +1,32 @@
+{
+  "id": "af9d4e8be2e0",
+  "generation": 1706,
+  "created_at": "2026-03-02T06:07:04.201418",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "What limits adult neuroplasticity \u2014 can those limits be safely removed? remains unsolved because previous research missed the role of Neuroinflammation. Neuroinflammation reduction via microglial targeting directly addresses this.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 12,
+    "estimated_cost_usd": 359243,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 42610997,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 14,
+    "economic_value_usd": 2130549850000
+  },
+  "confidence": 0.4290679861999776,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

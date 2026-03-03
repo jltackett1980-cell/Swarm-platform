@@ -1,0 +1,32 @@
+{
+  "id": "cd5314368e2c",
+  "generation": 5016,
+  "created_at": "2026-03-02T06:15:24.459837",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "What limits adult neuroplasticity \u2014 can those limits be safely removed? remains unsolved because previous research missed the role of Glial. Glial cell activation/suppression in target brain region directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 35,
+    "estimated_cost_usd": 1176904,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 26938977,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 19,
+    "economic_value_usd": 1885728390000
+  },
+  "confidence": 0.3444003337994639,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

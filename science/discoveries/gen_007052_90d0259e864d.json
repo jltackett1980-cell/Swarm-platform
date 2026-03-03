@@ -1,0 +1,32 @@
+{
+  "id": "90d0259e864d",
+  "generation": 7052,
+  "created_at": "2026-03-02T06:22:50.645938",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "Combining Self-assembled monolayer for surface functionalization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 15,
+    "estimated_cost_usd": 280364,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 275393703,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 30,
+    "economic_value_usd": 8261811090000
+  },
+  "confidence": 0.6184931214193876,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

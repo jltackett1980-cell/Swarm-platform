@@ -1,0 +1,32 @@
+{
+  "id": "ae22be4b1cfd",
+  "generation": 1116,
+  "created_at": "2026-03-02T06:05:54.116981",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "Why do perovskite solar cells degrade \u2014 what material instability causes it? remains unsolved because previous research missed the role of Self-assembled. Self-assembled monolayer for surface functionalization directly addresses this.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 13,
+    "estimated_cost_usd": 186818,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 792265172,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 18,
+    "economic_value_usd": 15845303440000
+  },
+  "confidence": 0.4348133230529517,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

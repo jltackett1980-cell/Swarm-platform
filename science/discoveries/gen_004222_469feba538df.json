@@ -1,0 +1,32 @@
+{
+  "id": "469feba538df",
+  "generation": 4222,
+  "created_at": "2026-03-02T06:13:01.759109",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "Can ocean acidification be safely reversed \u2014 what biochemical approach? remains unsolved because previous research missed the role of Forward. Forward osmosis using draw solution gradient directly addresses this.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 1,
+    "estimated_cost_usd": 13402,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1427869321,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 8,
+    "economic_value_usd": 14278693210000
+  },
+  "confidence": 0.6454217789875669,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

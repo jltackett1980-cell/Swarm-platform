@@ -1,0 +1,32 @@
+{
+  "id": "62938b5c9bb2",
+  "generation": 8006,
+  "created_at": "2026-03-02T06:26:55.586472",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "The key to Can addiction-related neural pathway changes be reversed without withdrawal? is Ketamine-like NMDA antagonism without dissociation \u2014 specifically Ketamine-like NMDA antagonism \u2014 which would help 21,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 11,
+    "estimated_cost_usd": 309998,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 7195612,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 13,
+    "economic_value_usd": 647605080000
+  },
+  "confidence": 0.6427140996605328,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

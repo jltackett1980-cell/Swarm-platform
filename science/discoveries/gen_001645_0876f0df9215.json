@@ -1,0 +1,32 @@
+{
+  "id": "0876f0df9215",
+  "generation": 1645,
+  "created_at": "2026-03-02T06:06:57.114101",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "If Enzymatic depolymerization of specific polymer is applied to at, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 2,
+    "estimated_cost_usd": 23352,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1251949229,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 29,
+    "economic_value_usd": 75116953740000
+  },
+  "confidence": 0.5288143180981246,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

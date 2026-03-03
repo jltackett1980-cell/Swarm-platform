@@ -1,0 +1,32 @@
+{
+  "id": "7bfd89588ed9",
+  "generation": 4545,
+  "created_at": "2026-03-02T06:13:58.816663",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "Why does the immune system attack the body's own tissue in autoimmune disease? remains unsolved because previous research missed the role of Autophagy. Autophagy activation to clear misfolded proteins directly addresses this.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 22,
+    "estimated_cost_usd": 883728,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 22364605,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 29,
+    "economic_value_usd": 1341876300000
+  },
+  "confidence": 0.4546525288478171,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

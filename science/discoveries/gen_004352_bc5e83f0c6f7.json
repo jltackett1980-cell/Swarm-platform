@@ -1,0 +1,32 @@
+{
+  "id": "bc5e83f0c6f7",
+  "generation": 4352,
+  "created_at": "2026-03-02T06:13:24.482025",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "What membrane material filters all contaminants from water at low energy cost? remains unsolved because previous research missed the role of Biomimetic. Biomimetic surface structure (lotus, shark skin, gecko) directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 3,
+    "estimated_cost_usd": 42117,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 355734432,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 10,
+    "economic_value_usd": 17786721600000
+  },
+  "confidence": 0.7296786701773119,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

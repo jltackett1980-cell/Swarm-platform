@@ -1,0 +1,32 @@
+{
+  "id": "f121d2477e80",
+  "generation": 7314,
+  "created_at": "2026-03-02T06:23:56.077068",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "If Optogenetic control of specific neuron populations is applied to they, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 18,
+    "estimated_cost_usd": 657812,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 424,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 17952828,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 23,
+    "economic_value_usd": 718113120000
+  },
+  "confidence": 0.4316370960872103,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

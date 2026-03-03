@@ -1,0 +1,32 @@
+{
+  "id": "43deaecd3c21",
+  "generation": 2136,
+  "created_at": "2026-03-02T06:07:55.142868",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? remains unsolved because previous research missed the role of Electrocoagulation. Electrocoagulation for suspended particle removal directly addresses this.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 1,
+    "estimated_cost_usd": 13736,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1367477483,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 30,
+    "economic_value_usd": 68373874150000
+  },
+  "confidence": 0.740899458749817,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

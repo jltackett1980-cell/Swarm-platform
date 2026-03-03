@@ -1,32 +1,32 @@
 {
   "id": "76c677a5eda7",
   "generation": 664,
-  "created_at": "2026-03-01T05:19:58.465398",
+  "created_at": "2026-03-02T06:05:05.604033",
   "problem_id": "graphene_production",
   "problem": "How to produce defect-free large-area graphene at low cost?",
   "domain": "materials",
   "population": 3000000000,
   "urgency": 0.8,
   "mechanism": "Perovskite crystal structure optimization",
-  "hypothesis": "If Perovskite crystal structure optimization is applied to at, then function improves will occur because prior evidence supports this pathway.",
+  "hypothesis": "Combining Perovskite crystal structure optimization with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
   "experiment": {
-    "type": "Accelerated degradation study",
-    "duration_months": 32,
-    "estimated_cost_usd": 619668,
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 18,
+    "estimated_cost_usd": 243357,
     "falsifiable": true,
     "control_required": true,
     "blinding": "single-blind",
     "sample_size": null,
-    "outcome_measure": "quantitative biomarker",
-    "protocol": "Accelerated degradation study with 32 month follow-up. Control group receives placebo/sham."
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 18 month follow-up. Control group receives placebo/sham."
   },
   "impact": {
-    "lives_impacted": 918542361,
-    "quality_of_life_gain_pct": 40,
-    "years_of_benefit": 28,
-    "economic_value_usd": 36741694440000
+    "lives_impacted": 676575360,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 8,
+    "economic_value_usd": 54126028800000
   },
-  "confidence": 0.38058929441492806,
+  "confidence": 0.6762724806613039,
   "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
   "status": "proposed"
 }

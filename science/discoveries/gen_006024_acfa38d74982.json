@@ -1,0 +1,32 @@
+{
+  "id": "acfa38d74982",
+  "generation": 6024,
+  "created_at": "2026-03-02T06:18:48.324952",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "Epigenetic methylation/demethylation of regulatory region may resolve Why does acute pain become chronic in some people \u2014 what neural change occurs? by activating at the molecular level.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 36,
+    "estimated_cost_usd": 1549263,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16588988,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 14,
+    "economic_value_usd": 165889880000
+  },
+  "confidence": 0.49030004902631036,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

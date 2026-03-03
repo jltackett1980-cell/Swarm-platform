@@ -1,0 +1,32 @@
+{
+  "id": "0f2791db5d30",
+  "generation": 2582,
+  "created_at": "2026-03-02T06:08:51.999446",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "Autophagy activation to clear misfolded proteins may resolve Why does acute pain become chronic in some people \u2014 what neural change occurs? by activating at the molecular level.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 21,
+    "estimated_cost_usd": 1040400,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 26682559,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 29,
+    "economic_value_usd": 2134604720000
+  },
+  "confidence": 0.531722230851913,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

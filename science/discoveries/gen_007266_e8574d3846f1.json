@@ -1,0 +1,32 @@
+{
+  "id": "e8574d3846f1",
+  "generation": 7266,
+  "created_at": "2026-03-02T06:23:43.831290",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "Fear memory reconsolidation interference via timing may resolve Can addiction-related neural pathway changes be reversed without withdrawal? by activating at the systems level.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 19,
+    "estimated_cost_usd": 475985,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 12327411,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 20,
+    "economic_value_usd": 369822330000
+  },
+  "confidence": 0.6109636831656743,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

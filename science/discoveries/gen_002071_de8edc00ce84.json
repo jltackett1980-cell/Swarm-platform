@@ -1,0 +1,32 @@
+{
+  "id": "de8edc00ce84",
+  "generation": 2071,
+  "created_at": "2026-03-02T06:07:46.922270",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "Viral vector delivery of therapeutic gene may resolve Why do amyloid plaques form in Alzheimer's and can they be cleared? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 28,
+    "estimated_cost_usd": 1291785,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 20444358,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 6,
+    "economic_value_usd": 408887160000
+  },
+  "confidence": 0.5711624243177773,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

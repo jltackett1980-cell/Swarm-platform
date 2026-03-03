@@ -1,0 +1,32 @@
+{
+  "id": "a729c239532a",
+  "generation": 4958,
+  "created_at": "2026-03-02T06:15:13.546711",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "If Viral vector delivery of therapeutic gene is applied to what, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 5,
+    "estimated_cost_usd": 224066,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1048503,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 10,
+    "economic_value_usd": 52425150000
+  },
+  "confidence": 0.3451053960022254,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

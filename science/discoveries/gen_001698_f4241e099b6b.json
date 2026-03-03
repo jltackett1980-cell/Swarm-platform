@@ -1,0 +1,32 @@
+{
+  "id": "f4241e099b6b",
+  "generation": 1698,
+  "created_at": "2026-03-02T06:07:03.157127",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "Photocatalytic oxidation under visible light may resolve Can ocean acidification be safely reversed \u2014 what biochemical approach? by activating at the systems level.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 8,
+    "estimated_cost_usd": 112122,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 695643781,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 6,
+    "economic_value_usd": 34782189050000
+  },
+  "confidence": 0.6757016688167983,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

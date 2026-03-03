@@ -1,0 +1,32 @@
+{
+  "id": "dfb7f719741f",
+  "generation": 9407,
+  "created_at": "2026-03-02T06:34:04.177233",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "The key to What material stores hydrogen fuel at high density without safety risk? is Carbon nanotube alignment in polymer matrix \u2014 specifically Carbon nanotube alignment \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 23,
+    "estimated_cost_usd": 425358,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1052464391,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 14,
+    "economic_value_usd": 94721795190000
+  },
+  "confidence": 0.7827771436937718,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

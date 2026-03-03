@@ -1,0 +1,32 @@
+{
+  "id": "f61c605e0d67",
+  "generation": 5111,
+  "created_at": "2026-03-02T06:15:42.024501",
+  "problem_id": "dark_matter_nature",
+  "problem": "What is dark matter composed of \u2014 27% of universe is unknown",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.5,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "What is dark matter composed of \u2014 27% of universe is unknown remains unsolved because previous research missed the role of Casimir. Casimir effect between nanoscale surfaces directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 6,
+    "estimated_cost_usd": 137420,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1100285038,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 26,
+    "economic_value_usd": 99025653420000
+  },
+  "confidence": 0.5581909719875244,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

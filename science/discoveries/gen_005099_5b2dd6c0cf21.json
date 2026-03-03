@@ -1,0 +1,32 @@
+{
+  "id": "5b2dd6c0cf21",
+  "generation": 5099,
+  "created_at": "2026-03-02T06:15:40.110232",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "Combining Phytoremediation with hyperaccumulator plant species with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 12,
+    "estimated_cost_usd": 169088,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2945685289,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 10,
+    "economic_value_usd": 88370558670000
+  },
+  "confidence": 0.47126455307588044,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

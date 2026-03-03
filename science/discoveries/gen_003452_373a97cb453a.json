@@ -1,0 +1,32 @@
+{
+  "id": "373a97cb453a",
+  "generation": 3452,
+  "created_at": "2026-03-02T06:10:57.372696",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "Combining Biomimetic surface structure (lotus, shark skin, gecko) with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 7,
+    "estimated_cost_usd": 122839,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 735213593,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 8,
+    "economic_value_usd": 58817087440000
+  },
+  "confidence": 0.42502425153245627,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

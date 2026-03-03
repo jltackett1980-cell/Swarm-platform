@@ -1,0 +1,32 @@
+{
+  "id": "bbf2f6b53011",
+  "generation": 5167,
+  "created_at": "2026-03-02T06:15:52.932994",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "Photonic bandgap manipulation in metamaterial may resolve Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics by activating at the systems level.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 12,
+    "estimated_cost_usd": 288953,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2731595948,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 24,
+    "economic_value_usd": 191211716360000
+  },
+  "confidence": 0.43835218464446896,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

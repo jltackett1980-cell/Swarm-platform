@@ -1,0 +1,32 @@
+{
+  "id": "ff2a6d7ea6d1",
+  "generation": 3757,
+  "created_at": "2026-03-02T06:11:45.593647",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "The key to Why does the immune system attack the body's own tissue in autoimmune disease? is Autophagy activation to clear misfolded proteins \u2014 specifically Autophagy activation to \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 29,
+    "estimated_cost_usd": 1443874,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 26648558,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 25,
+    "economic_value_usd": 799456740000
+  },
+  "confidence": 0.5793533948830645,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

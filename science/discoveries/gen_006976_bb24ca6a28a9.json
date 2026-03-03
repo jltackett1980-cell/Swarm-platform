@@ -1,0 +1,32 @@
+{
+  "id": "bb24ca6a28a9",
+  "generation": 6976,
+  "created_at": "2026-03-02T06:22:31.990327",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "How to predict drug-receptor binding affinity from molecular structure without wet lab? remains unsolved because previous research missed the role of Reservoir. Reservoir computing with physical substrate directly addresses this.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 4,
+    "estimated_cost_usd": 15832,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2936946053,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 16,
+    "economic_value_usd": 88108381590000
+  },
+  "confidence": 0.6641197782040091,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

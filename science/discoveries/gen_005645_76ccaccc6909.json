@@ -1,0 +1,32 @@
+{
+  "id": "76ccaccc6909",
+  "generation": 5645,
+  "created_at": "2026-03-02T06:17:28.711313",
+  "problem_id": "turbulence_math",
+  "problem": "Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved",
+  "domain": "physics",
+  "population": 1000000000,
+  "urgency": 0.65,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "Plasma confinement via magnetic mirror geometry may resolve Why is turbulent fluid flow mathematically unpredictable \u2014 Navier-Stokes unsolved by activating at the systems level.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 12,
+    "estimated_cost_usd": 247437,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 158533263,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 5,
+    "economic_value_usd": 11097328410000
+  },
+  "confidence": 0.583202116439719,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

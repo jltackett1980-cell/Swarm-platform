@@ -1,0 +1,32 @@
+{
+  "id": "50b9844b3041",
+  "generation": 5420,
+  "created_at": "2026-03-02T06:16:41.911337",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "If Small molecule inhibitor of enzyme active site is applied to neural, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 21,
+    "estimated_cost_usd": 817614,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 34180302,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 6,
+    "economic_value_usd": 2050818120000
+  },
+  "confidence": 0.31169040105461737,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

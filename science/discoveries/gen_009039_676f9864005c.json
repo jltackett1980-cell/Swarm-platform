@@ -1,32 +1,32 @@
 {
   "id": "676f9864005c",
   "generation": 9039,
-  "created_at": "2026-03-01T05:41:14.053906",
+  "created_at": "2026-03-02T06:32:08.377864",
   "problem_id": "cryptography_quantum",
   "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
   "domain": "computing",
   "population": 4000000000,
   "urgency": 0.9,
   "mechanism": "DNA computing for massively parallel search",
-  "hypothesis": "Combining DNA computing for massively parallel search with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of DNA. DNA computing for massively parallel search directly addresses this.",
   "experiment": {
     "type": "Benchmark on standard dataset",
-    "duration_months": 12,
-    "estimated_cost_usd": 43329,
+    "duration_months": 2,
+    "estimated_cost_usd": 8506,
     "falsifiable": true,
     "control_required": true,
     "blinding": "single-blind",
     "sample_size": null,
     "outcome_measure": "validated scale",
-    "protocol": "Benchmark on standard dataset with 12 month follow-up. Control group receives placebo/sham."
+    "protocol": "Benchmark on standard dataset with 2 month follow-up. Control group receives placebo/sham."
   },
   "impact": {
-    "lives_impacted": 1915638780,
-    "quality_of_life_gain_pct": 90,
-    "years_of_benefit": 26,
-    "economic_value_usd": 172407490200000
+    "lives_impacted": 1680053870,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 29,
+    "economic_value_usd": 134404309600000
   },
-  "confidence": 0.5857062796079235,
-  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "confidence": 0.7923299560796047,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
   "status": "proposed"
 }

@@ -1,0 +1,32 @@
+{
+  "id": "eaeff5c16312",
+  "generation": 6404,
+  "created_at": "2026-03-02T06:20:12.182530",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "The key to What membrane material filters all contaminants from water at low energy cost? is Carbon nanotube alignment in polymer matrix \u2014 specifically Carbon nanotube alignment \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 20,
+    "estimated_cost_usd": 269769,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 383954461,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 12,
+    "economic_value_usd": 7679089220000
+  },
+  "confidence": 0.35016539577327116,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

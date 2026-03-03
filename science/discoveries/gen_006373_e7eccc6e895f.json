@@ -1,0 +1,32 @@
+{
+  "id": "e7eccc6e895f",
+  "generation": 6373,
+  "created_at": "2026-03-02T06:20:04.903725",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "Carbon nanotube alignment in polymer matrix may resolve Why do perovskite solar cells degrade \u2014 what material instability causes it? by activating at the molecular level.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 19,
+    "estimated_cost_usd": 332151,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1366232227,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 29,
+    "economic_value_usd": 40986966810000
+  },
+  "confidence": 0.5040358429489797,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

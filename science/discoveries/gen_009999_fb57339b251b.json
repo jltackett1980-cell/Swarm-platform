@@ -1,0 +1,32 @@
+{
+  "id": "fb57339b251b",
+  "generation": 9999,
+  "created_at": "2026-03-02T06:39:57.678062",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "If Atomic layer deposition of conformal coating is applied to long-term, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 33,
+    "estimated_cost_usd": 630366,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3931210,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 30,
+    "economic_value_usd": 78624200000
+  },
+  "confidence": 0.6191083956990259,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

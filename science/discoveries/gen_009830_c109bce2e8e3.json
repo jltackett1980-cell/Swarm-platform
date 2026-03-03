@@ -1,0 +1,32 @@
+{
+  "id": "c109bce2e8e3",
+  "generation": 9830,
+  "created_at": "2026-03-02T06:36:14.443673",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "Combining Polymer crosslinking under specific stimulus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 29,
+    "estimated_cost_usd": 531558,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 230977218,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 17,
+    "economic_value_usd": 6929316540000
+  },
+  "confidence": 0.6621537927147096,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

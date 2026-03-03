@@ -1,0 +1,32 @@
+{
+  "id": "cdcff1718561",
+  "generation": 7484,
+  "created_at": "2026-03-02T06:24:39.288722",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "The key to What enzyme or organism efficiently degrades all plastic types at scale? is Biomimetic surface structure (lotus, shark skin, gecko) \u2014 specifically Biomimetic surface structure \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 23,
+    "estimated_cost_usd": 377807,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1857577428,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 11,
+    "economic_value_usd": 130030419960000
+  },
+  "confidence": 0.4504565882173815,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

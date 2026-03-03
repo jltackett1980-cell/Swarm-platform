@@ -1,0 +1,32 @@
+{
+  "id": "0df5d32e0d1a",
+  "generation": 1385,
+  "created_at": "2026-03-02T06:06:24.859419",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "If Two-dimensional material stacking (van der Waals heterostructure) is applied to without, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 9,
+    "estimated_cost_usd": 126964,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1078307777,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 11,
+    "economic_value_usd": 43132311080000
+  },
+  "confidence": 0.32791727091002737,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

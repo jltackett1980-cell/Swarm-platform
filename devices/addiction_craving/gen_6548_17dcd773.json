@@ -1,0 +1,39 @@
+{
+  "id": "17dcd773",
+  "name": "LumenHold",
+  "generation": 6548,
+  "created_at": "2026-03-02T17:24:10.508958",
+  "pain": "addiction_craving",
+  "population": 21000000,
+  "problem": "21M with substance disorders \u2014 craving triggers go undetected",
+  "physics": "electromagnetic",
+  "physics_desc": "Pulsed electric/magnetic fields",
+  "physics_proven": true,
+  "comparable_devices": [
+    "TENS units",
+    "PEMF therapy"
+  ],
+  "form_factor": "wrist band",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0104,
+    "size_cm": 4.8,
+    "cost_usd": 271.08,
+    "battery_hours": 112.2
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "OneMoreDay",
+  "companion_domain": "addiction_support",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

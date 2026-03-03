@@ -1,0 +1,32 @@
+{
+  "id": "2607ae017930",
+  "generation": 2009,
+  "created_at": "2026-03-02T06:07:39.665157",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "If Forward osmosis using draw solution gradient is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 12,
+    "estimated_cost_usd": 132340,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1098269990,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 7,
+    "economic_value_usd": 98844299100000
+  },
+  "confidence": 0.5521853241303831,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

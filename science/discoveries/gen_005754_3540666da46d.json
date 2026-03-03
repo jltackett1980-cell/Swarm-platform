@@ -1,0 +1,32 @@
+{
+  "id": "3540666da46d",
+  "generation": 5754,
+  "created_at": "2026-03-02T06:17:51.440552",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Electromagnetic induction in moving biological tissue",
+  "hypothesis": "If Electromagnetic induction in moving biological tissue is applied to chemical, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 2,
+    "estimated_cost_usd": 43672,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1442308456,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 25,
+    "economic_value_usd": 28846169120000
+  },
+  "confidence": 0.3863074954315827,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

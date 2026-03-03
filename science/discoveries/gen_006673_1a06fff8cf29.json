@@ -1,0 +1,32 @@
+{
+  "id": "1a06fff8cf29",
+  "generation": 6673,
+  "created_at": "2026-03-02T06:21:13.092537",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Perovskite. Perovskite crystal structure optimization directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 6,
+    "estimated_cost_usd": 80283,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4011222,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 22,
+    "economic_value_usd": 120336660000
+  },
+  "confidence": 0.770463648721118,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

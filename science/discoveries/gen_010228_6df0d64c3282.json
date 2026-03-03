@@ -1,0 +1,32 @@
+{
+  "id": "6df0d64c3282",
+  "generation": 10228,
+  "created_at": "2026-03-02T11:48:36.076082",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different? remains unsolved because previous research missed the role of Reservoir. Reservoir computing with physical substrate directly addresses this.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 3,
+    "estimated_cost_usd": 10103,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Theoretical complexity proof with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1205038527,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 19,
+    "economic_value_usd": 72302311620000
+  },
+  "confidence": 0.552416785730095,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "4a7c29d2011a",
+  "generation": 1691,
+  "created_at": "2026-03-02T06:07:01.727419",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? remains unsolved because previous research missed the role of Default. Default mode network connectivity measurement via fMRI directly addresses this.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 5,
+    "estimated_cost_usd": 174456,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 10306758,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 29,
+    "economic_value_usd": 927608220000
+  },
+  "confidence": 0.6862142266550684,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

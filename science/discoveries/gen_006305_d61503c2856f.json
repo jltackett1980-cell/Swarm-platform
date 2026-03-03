@@ -1,0 +1,32 @@
+{
+  "id": "d61503c2856f",
+  "generation": 6305,
+  "created_at": "2026-03-02T06:19:49.987531",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Quantum annealing for optimization problems",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of Quantum. Quantum annealing for optimization problems directly addresses this.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 4,
+    "estimated_cost_usd": 15379,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Benchmark on standard dataset with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1170909833,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 5,
+    "economic_value_usd": 70254589980000
+  },
+  "confidence": 0.33292724734249285,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

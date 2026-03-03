@@ -1,0 +1,32 @@
+{
+  "id": "eaa098a4c905",
+  "generation": 4019,
+  "created_at": "2026-03-02T06:12:27.910985",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "The key to What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified is Autophagy activation to clear misfolded proteins \u2014 specifically Autophagy activation to \u2014 which would help 17,000,000 people affected.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 32,
+    "estimated_cost_usd": 1470341,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11323024,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 24,
+    "economic_value_usd": 1019072160000
+  },
+  "confidence": 0.6720848253258704,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ed6d47d78590",
+  "generation": 1924,
+  "created_at": "2026-03-02T06:07:29.732724",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "The key to How does central sensitization maintain chronic pain without tissue damage? is Vagus nerve stimulation modulating brain-gut axis \u2014 specifically Vagus nerve stimulation \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 15,
+    "estimated_cost_usd": 466047,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 387,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 21124593,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 5,
+    "economic_value_usd": 1056229650000
+  },
+  "confidence": 0.4399821102192033,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

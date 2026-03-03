@@ -1,0 +1,113 @@
+{
+  "device_id": "depression_hrv_biofeedback_ring",
+  "condition": "depression",
+  "physics_principle": "hrv_biofeedback",
+  "form_factor": "ring",
+  "generation": 22,
+  "parent_champion": "ForgeLight",
+  "generated_at": "2026-03-02T17:56:33",
+  "engineering": {
+    "mcu": {
+      "part": "STM32L4+",
+      "description": "ARM Cortex-M4 120MHz, ultra-low power",
+      "cost_usd": 3.8
+    },
+    "physics_implementation": {
+      "principle": "hrv_biofeedback",
+      "proven": true,
+      "comparable_devices": {
+        "mcu": {
+          "part": "STM32F103",
+          "description": "Cortex-M3 72MHz \u2014 proven in PEMF devices",
+          "cost_usd": 1.5
+        },
+        "coil_driver": [
+          {
+            "part": "IRF540N MOSFET",
+            "function": "High current coil switching",
+            "cost_usd": 0.6
+          },
+          {
+            "part": "Custom Helmholtz coil",
+            "function": "Uniform magnetic field generation",
+            "cost_usd": 5.0
+          },
+          {
+            "part": "ACS712",
+            "function": "Current monitoring for coil",
+            "cost_usd": 1.2
+          }
+        ],
+        "power": {
+          "battery": "Li-Po 1000mAh 3.7V",
+          "estimated_life_hours": 24,
+          "cost_usd": 4.5
+        },
+        "pcb": {
+          "layers": 2,
+          "size_mm": "45x35",
+          "estimated_cost_usd": 1.8
+        },
+        "enclosure": {
+          "material": "ABS \u2014 non-ferromagnetic required",
+          "ip_rating": "IP44",
+          "size_mm": "90x70x25",
+          "estimated_cost_usd": 5.0
+        },
+        "firmware": {
+          "frequency_range_hz": "1-100Hz programmable",
+          "pulse_width_us": "100-1000",
+          "field_strength_mt": "0.1-2.0",
+          "protocols": {
+            "bone_healing": "75Hz, 200\u03bcs, 1.5mT, 30min/day",
+            "pain": "10Hz, 400\u03bcs, 0.5mT, 20min BID",
+            "depression": "1Hz, 500\u03bcs, 1.0mT, 40min/day"
+          }
+        },
+        "fda_pathway": {
+          "device_class": "Class II",
+          "submission_type": "510(k)",
+          "predicate_devices": [
+            "Neuralieve",
+            "eNeura SpringTMS"
+          ],
+          "estimated_timeline_months": 18,
+          "estimated_cost_usd": 85000
+        }
+      }
+    },
+    "power": {
+      "battery": "Li-Po 500mAh 3.7V",
+      "charger": "MCP73831 USB-C",
+      "regulator": "TPS62740 buck converter",
+      "estimated_life_hours": 309,
+      "cost_usd": 2.89
+    },
+    "pcb": {
+      "layers": 4,
+      "size_mm": "34x54",
+      "process": "ENIG",
+      "ip_rating": "IP67",
+      "cost_usd": 3.89
+    },
+    "firmware": {
+      "rtos": "Mbed OS",
+      "sampling_hz": 1000,
+      "ml_model": "TensorFlow Lite Micro",
+      "connectivity": "BLE 5.0 AES-128",
+      "storage": "local only \u2014 no cloud"
+    }
+  },
+  "fda_pathway": {
+    "device_class": "II",
+    "submission_type": "510(k)",
+    "estimated_timeline_months": 8,
+    "estimated_cost_usd": 35000
+  },
+  "estimated_bom_cost_usd": 47.81,
+  "retail_price_target_usd": 203.29,
+  "peoples_charter": true,
+  "offline_first": true,
+  "no_cloud": true,
+  "wisdom_score": 100
+}

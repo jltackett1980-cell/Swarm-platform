@@ -1,0 +1,32 @@
+{
+  "id": "f2077421da99",
+  "generation": 4383,
+  "created_at": "2026-03-02T06:13:30.130245",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "The key to How to restore depleted agricultural soil microbiome rapidly at scale? is Electrocoagulation for suspended particle removal \u2014 specifically Electrocoagulation for suspended \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 12,
+    "estimated_cost_usd": 137530,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 152161902,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 9,
+    "economic_value_usd": 1521619020000
+  },
+  "confidence": 0.3591519971703971,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

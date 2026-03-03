@@ -1,0 +1,32 @@
+{
+  "id": "677ae5be8e8e",
+  "generation": 335,
+  "created_at": "2026-03-02T06:04:36.900933",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "Why does acute pain become chronic in some people \u2014 what neural change occurs? remains unsolved because previous research missed the role of Monoclonal. Monoclonal antibody blocking protein-protein interaction directly addresses this.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 10,
+    "estimated_cost_usd": 370283,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 15674813,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 12,
+    "economic_value_usd": 1097236910000
+  },
+  "confidence": 0.7891646237827582,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

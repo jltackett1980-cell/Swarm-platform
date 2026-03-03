@@ -1,0 +1,32 @@
+{
+  "id": "50059aef4a46",
+  "generation": 4540,
+  "created_at": "2026-03-02T06:13:56.923758",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "If Bacteriophage surface display for targeting is applied to low, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 33,
+    "estimated_cost_usd": 565417,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 271749440,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 26,
+    "economic_value_usd": 21739955200000
+  },
+  "confidence": 0.4311639645820892,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

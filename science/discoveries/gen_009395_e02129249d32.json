@@ -1,0 +1,32 @@
+{
+  "id": "e02129249d32",
+  "generation": 9395,
+  "created_at": "2026-03-02T06:34:01.091005",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "Combining Atomic layer deposition of conformal coating with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 35,
+    "estimated_cost_usd": 604068,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 339005336,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 9,
+    "economic_value_usd": 13560213440000
+  },
+  "confidence": 0.516466102099683,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

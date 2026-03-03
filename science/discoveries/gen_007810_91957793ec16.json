@@ -1,0 +1,32 @@
+{
+  "id": "91957793ec16",
+  "generation": 7810,
+  "created_at": "2026-03-02T06:26:03.444951",
+  "problem_id": "fusion_ignition",
+  "problem": "How to achieve sustained net-positive nuclear fusion at commercial scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Piezoelectric coupling in novel crystal structure",
+  "hypothesis": "How to achieve sustained net-positive nuclear fusion at commercial scale? remains unsolved because previous research missed the role of Piezoelectric. Piezoelectric coupling in novel crystal structure directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 2,
+    "estimated_cost_usd": 40341,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2500903821,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 10,
+    "economic_value_usd": 125045191050000
+  },
+  "confidence": 0.36093022599427504,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

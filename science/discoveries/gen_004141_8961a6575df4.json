@@ -1,0 +1,32 @@
+{
+  "id": "8961a6575df4",
+  "generation": 4141,
+  "created_at": "2026-03-02T06:12:47.843067",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "The key to Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? is Glial cell activation/suppression in target brain region \u2014 specifically Glial cell activation/suppression \u2014 which would help 12,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 21,
+    "estimated_cost_usd": 703752,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6702285,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 25,
+    "economic_value_usd": 402137100000
+  },
+  "confidence": 0.3608473758024491,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

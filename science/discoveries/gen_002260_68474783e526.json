@@ -1,0 +1,32 @@
+{
+  "id": "68474783e526",
+  "generation": 2260,
+  "created_at": "2026-03-02T06:08:10.514156",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "If Dopamine/serotonin reuptake inhibition with specificity is applied to subjective, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 23,
+    "estimated_cost_usd": 788505,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2413582888,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 11,
+    "economic_value_usd": 72407486640000
+  },
+  "confidence": 0.420156823548985,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

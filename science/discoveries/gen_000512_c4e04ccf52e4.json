@@ -1,0 +1,32 @@
+{
+  "id": "c4e04ccf52e4",
+  "generation": 512,
+  "created_at": "2026-03-02T06:04:51.564745",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "The key to Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? is Dopamine/serotonin reuptake inhibition with specificity \u2014 specifically Dopamine/serotonin reuptake inhibition \u2014 which would help 24,000,000 people affected.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 27,
+    "estimated_cost_usd": 732060,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 519,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8949278,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 24,
+    "economic_value_usd": 805435020000
+  },
+  "confidence": 0.47477419326258186,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "7924afd8006c",
+  "generation": 5091,
+  "created_at": "2026-03-02T06:15:37.796833",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "If Autophagy activation to clear misfolded proteins is applied to they, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 3,
+    "estimated_cost_usd": 109334,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "validated scale",
+    "protocol": "Mouse model knockout study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 21216754,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 5,
+    "economic_value_usd": 1060837700000
+  },
+  "confidence": 0.7373649845809831,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

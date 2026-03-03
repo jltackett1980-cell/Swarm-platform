@@ -1,0 +1,32 @@
+{
+  "id": "6382afb738f5",
+  "generation": 5553,
+  "created_at": "2026-03-02T06:17:09.820650",
+  "problem_id": "graphene_production",
+  "problem": "How to produce defect-free large-area graphene at low cost?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.8,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "Combining Atomic layer deposition of conformal coating with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 24,
+    "estimated_cost_usd": 332220,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 24 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1394947374,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 26,
+    "economic_value_usd": 69747368700000
+  },
+  "confidence": 0.6819261026726562,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

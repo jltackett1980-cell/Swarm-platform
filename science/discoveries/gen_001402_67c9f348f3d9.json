@@ -1,0 +1,32 @@
+{
+  "id": "67c9f348f3d9",
+  "generation": 1402,
+  "created_at": "2026-03-02T06:06:26.549995",
+  "problem_id": "zero_point_energy",
+  "problem": "Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "Topological insulator surface state conduction may resolve Is zero-point vacuum energy extractable as usable power \u2014 quantum thermodynamics unclear by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 5,
+    "estimated_cost_usd": 89138,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1388735076,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 21,
+    "economic_value_usd": 97211455320000
+  },
+  "confidence": 0.41285592324608145,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

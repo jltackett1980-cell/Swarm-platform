@@ -1,0 +1,32 @@
+{
+  "id": "fe8d6b20ea41",
+  "generation": 6333,
+  "created_at": "2026-03-02T06:19:55.873964",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Ketamine-like NMDA antagonism without dissociation",
+  "hypothesis": "Ketamine-like NMDA antagonism without dissociation may resolve How does central sensitization maintain chronic pain without tissue damage? by activating at the systems level.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 22,
+    "estimated_cost_usd": 630210,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 24254062,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 28,
+    "economic_value_usd": 1940324960000
+  },
+  "confidence": 0.4082714112892278,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

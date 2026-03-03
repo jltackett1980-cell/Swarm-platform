@@ -1,0 +1,32 @@
+{
+  "id": "cff930b5456a",
+  "generation": 2048,
+  "created_at": "2026-03-02T06:07:44.576409",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Phytoremediation with hyperaccumulator plant species",
+  "hypothesis": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis? remains unsolved because previous research missed the role of Phytoremediation. Phytoremediation with hyperaccumulator plant species directly addresses this.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 12,
+    "estimated_cost_usd": 153675,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 955646000,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 19,
+    "economic_value_usd": 28669380000000
+  },
+  "confidence": 0.3072754811981133,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "34782ebfdd87",
+  "generation": 2331,
+  "created_at": "2026-03-02T06:08:19.309836",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Carbon nanotube alignment in polymer matrix \u2014 specifically Carbon nanotube alignment \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 21,
+    "estimated_cost_usd": 368221,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 279237249,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 5,
+    "economic_value_usd": 11169489960000
+  },
+  "confidence": 0.5619823493567058,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

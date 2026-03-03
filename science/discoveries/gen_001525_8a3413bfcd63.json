@@ -1,0 +1,32 @@
+{
+  "id": "8a3413bfcd63",
+  "generation": 1525,
+  "created_at": "2026-03-02T06:06:41.837041",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient remains unsolved because previous research missed the role of Transcranial. Transcranial magnetic stimulation of specific cortical area directly addresses this.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 33,
+    "estimated_cost_usd": 877697,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 47008619,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 12,
+    "economic_value_usd": 4230775710000
+  },
+  "confidence": 0.4021590452981215,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

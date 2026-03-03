@@ -1,0 +1,32 @@
+{
+  "id": "629755da19e6",
+  "generation": 5712,
+  "created_at": "2026-03-02T06:17:41.864933",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "Can superconductivity be achieved at room temperature \u2014 what material structure? remains unsolved because previous research missed the role of Photonic. Photonic bandgap manipulation in metamaterial directly addresses this.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 7,
+    "estimated_cost_usd": 161098,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3459509602,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 19,
+    "economic_value_usd": 172975480100000
+  },
+  "confidence": 0.641205563118743,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

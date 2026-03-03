@@ -1,0 +1,32 @@
+{
+  "id": "ad6319e06d03",
+  "generation": 3888,
+  "created_at": "2026-03-02T06:12:06.244766",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "Autophagy activation to clear misfolded proteins may resolve Why does acute pain become chronic in some people \u2014 what neural change occurs? by activating at the molecular level.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 28,
+    "estimated_cost_usd": 1169942,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 37406771,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 29,
+    "economic_value_usd": 748135420000
+  },
+  "confidence": 0.5987016220761406,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

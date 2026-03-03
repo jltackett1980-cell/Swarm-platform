@@ -1,0 +1,32 @@
+{
+  "id": "385d94e63905",
+  "generation": 1524,
+  "created_at": "2026-03-02T06:06:41.806521",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "Can superconductivity be achieved at room temperature \u2014 what material structure? remains unsolved because previous research missed the role of Magnetohydrodynamic. Magnetohydrodynamic flow without moving parts directly addresses this.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 12,
+    "estimated_cost_usd": 269041,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1431141027,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 20,
+    "economic_value_usd": 42934230810000
+  },
+  "confidence": 0.34222988188275294,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "fc862bc87b31",
+  "generation": 8961,
+  "created_at": "2026-03-02T06:31:45.455766",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "Cortical spreading depression mechanism in migraine may resolve Why do all animals sleep \u2014 what is the essential biological function? by activating at the systems level.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 23,
+    "estimated_cost_usd": 718596,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1254769756,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 28,
+    "economic_value_usd": 112929278040000
+  },
+  "confidence": 0.43439369892393576,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

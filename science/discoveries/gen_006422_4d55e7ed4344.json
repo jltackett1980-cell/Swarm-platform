@@ -1,0 +1,32 @@
+{
+  "id": "4d55e7ed4344",
+  "generation": 6422,
+  "created_at": "2026-03-02T06:20:15.231722",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "If Glial cell activation/suppression in target brain region is applied to essential, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 9,
+    "estimated_cost_usd": 230522,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2162058092,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 22,
+    "economic_value_usd": 21620580920000
+  },
+  "confidence": 0.42263970040545185,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

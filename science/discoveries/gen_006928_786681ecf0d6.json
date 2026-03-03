@@ -1,0 +1,32 @@
+{
+  "id": "786681ecf0d6",
+  "generation": 6928,
+  "created_at": "2026-03-02T06:22:12.082981",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "The key to Can ocean acidification be safely reversed \u2014 what biochemical approach? is Biochar amendment for soil carbon sequestration \u2014 specifically Biochar amendment for \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 9,
+    "estimated_cost_usd": 122584,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1151382476,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 27,
+    "economic_value_usd": 57569123800000
+  },
+  "confidence": 0.4485326528486965,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

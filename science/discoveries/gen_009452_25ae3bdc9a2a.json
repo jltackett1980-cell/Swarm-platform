@@ -1,0 +1,32 @@
+{
+  "id": "25ae3bdc9a2a",
+  "generation": 9452,
+  "created_at": "2026-03-02T06:34:17.329510",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "Combining Transcranial magnetic stimulation of specific cortical area with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 19,
+    "estimated_cost_usd": 610706,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 435,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 19 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1027710488,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 7,
+    "economic_value_usd": 92493943920000
+  },
+  "confidence": 0.35864234318865185,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

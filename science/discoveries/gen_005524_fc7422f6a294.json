@@ -1,0 +1,32 @@
+{
+  "id": "fc7422f6a294",
+  "generation": 5524,
+  "created_at": "2026-03-02T06:17:03.485321",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Liquid crystal elastomer actuation",
+  "hypothesis": "Liquid crystal elastomer actuation may resolve What material stores hydrogen fuel at high density without safety risk? by activating at the molecular level.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 27,
+    "estimated_cost_usd": 415156,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 384991687,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 18,
+    "economic_value_usd": 19249584350000
+  },
+  "confidence": 0.5174353510766603,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

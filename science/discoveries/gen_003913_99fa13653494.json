@@ -1,0 +1,32 @@
+{
+  "id": "99fa13653494",
+  "generation": 3913,
+  "created_at": "2026-03-02T06:12:11.009432",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? remains unsolved because previous research missed the role of Electrocoagulation. Electrocoagulation for suspended particle removal directly addresses this.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 3,
+    "estimated_cost_usd": 40227,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 166119110,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 9,
+    "economic_value_usd": 4983573300000
+  },
+  "confidence": 0.7740042168554182,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "46e09ec3f2b5",
+  "generation": 4630,
+  "created_at": "2026-03-02T06:14:13.136665",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "The key to Why does the immune system attack the body's own tissue in autoimmune disease? is Photodynamic therapy targeting specific cell receptors \u2014 specifically Photodynamic therapy targeting \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 8,
+    "estimated_cost_usd": 370075,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 282,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 37852148,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 22,
+    "economic_value_usd": 2271128880000
+  },
+  "confidence": 0.5669106082002457,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

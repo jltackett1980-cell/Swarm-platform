@@ -1,0 +1,32 @@
+{
+  "id": "bffd200042cf",
+  "generation": 5344,
+  "created_at": "2026-03-02T06:16:27.774860",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "How to engineer materials that autonomously repair microcracks before failure? remains unsolved because previous research missed the role of Carbon. Carbon nanotube alignment in polymer matrix directly addresses this.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 12,
+    "estimated_cost_usd": 213144,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 455680998,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 29,
+    "economic_value_usd": 22784049900000
+  },
+  "confidence": 0.43021315073275596,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

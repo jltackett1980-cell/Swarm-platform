@@ -1,0 +1,32 @@
+{
+  "id": "6c6ea627e57e",
+  "generation": 3291,
+  "created_at": "2026-03-02T06:10:32.497254",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "If Rhizobium inoculation for nitrogen fixation is applied to than, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 6,
+    "estimated_cost_usd": 87809,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 908684488,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 27,
+    "economic_value_usd": 63607914160000
+  },
+  "confidence": 0.3256530096576841,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

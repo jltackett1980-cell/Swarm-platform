@@ -1,0 +1,32 @@
+{
+  "id": "cd3e91a45288",
+  "generation": 9984,
+  "created_at": "2026-03-02T06:37:05.645786",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "Dopamine/serotonin reuptake inhibition with specificity may resolve What limits adult neuroplasticity \u2014 can those limits be safely removed? by blocking at the systems level.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 10,
+    "estimated_cost_usd": 283338,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 45221644,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 15,
+    "economic_value_usd": 3165515080000
+  },
+  "confidence": 0.576129196476902,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "061a7576bdf6",
+  "generation": 5362,
+  "created_at": "2026-03-02T06:16:30.334789",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Microbiome modulation via targeted bacteriophage therapy",
+  "hypothesis": "If Microbiome modulation via targeted bacteriophage therapy is applied to they, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 7,
+    "estimated_cost_usd": 335683,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 25820371,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 23,
+    "economic_value_usd": 1291018550000
+  },
+  "confidence": 0.7154412531887973,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "a1ca5496a6a2",
+  "generation": 4111,
+  "created_at": "2026-03-02T06:12:43.185962",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "What enzyme or organism efficiently degrades all plastic types at scale? remains unsolved because previous research missed the role of Metal-organic. Metal-organic framework with specific pore geometry directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 9,
+    "estimated_cost_usd": 136951,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3865122258,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 14,
+    "economic_value_usd": 77302445160000
+  },
+  "confidence": 0.36180452824410314,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

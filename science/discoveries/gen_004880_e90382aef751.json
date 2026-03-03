@@ -1,0 +1,32 @@
+{
+  "id": "e90382aef751",
+  "generation": 4880,
+  "created_at": "2026-03-02T06:14:58.653259",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "Biomimetic surface structure (lotus, shark skin, gecko) may resolve What substrate allows silicon-level performance in fully flexible electronics? by activating at the molecular level.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 6,
+    "estimated_cost_usd": 95322,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 104531305,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 21,
+    "economic_value_usd": 4181252200000
+  },
+  "confidence": 0.3380026187708987,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

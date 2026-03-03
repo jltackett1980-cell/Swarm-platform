@@ -1,0 +1,32 @@
+{
+  "id": "55e96e2ece37",
+  "generation": 8687,
+  "created_at": "2026-03-02T06:30:04.277868",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "If Hydrogel swelling/shrinking response is applied to and, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 10,
+    "estimated_cost_usd": 198089,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3616929,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 18,
+    "economic_value_usd": 289354320000
+  },
+  "confidence": 0.5909617065076677,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

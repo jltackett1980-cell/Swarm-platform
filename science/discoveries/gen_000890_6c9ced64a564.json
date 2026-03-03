@@ -1,0 +1,32 @@
+{
+  "id": "6c9ced64a564",
+  "generation": 890,
+  "created_at": "2026-03-02T06:05:27.504924",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Combining Default mode network connectivity measurement via fMRI with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 30,
+    "estimated_cost_usd": 1021195,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 29627039,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 7,
+    "economic_value_usd": 2073892730000
+  },
+  "confidence": 0.4021789707692675,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

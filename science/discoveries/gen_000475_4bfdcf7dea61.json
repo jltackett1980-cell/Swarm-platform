@@ -1,0 +1,32 @@
+{
+  "id": "4bfdcf7dea61",
+  "generation": 475,
+  "created_at": "2026-03-02T06:04:48.887066",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Mycorrhizal network enhancement for nutrient cycling",
+  "hypothesis": "Combining Mycorrhizal network enhancement for nutrient cycling with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 3,
+    "estimated_cost_usd": 32417,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 920882371,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 13,
+    "economic_value_usd": 82879413390000
+  },
+  "confidence": 0.4629920955112535,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

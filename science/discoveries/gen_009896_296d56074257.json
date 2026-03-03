@@ -1,0 +1,32 @@
+{
+  "id": "296d56074257",
+  "generation": 9896,
+  "created_at": "2026-03-02T06:36:36.198243",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "Can addiction-related neural pathway changes be reversed without withdrawal? remains unsolved because previous research missed the role of Fear. Fear memory reconsolidation interference via timing directly addresses this.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 9,
+    "estimated_cost_usd": 231827,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6416459,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 20,
+    "economic_value_usd": 577481310000
+  },
+  "confidence": 0.7894662990982408,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

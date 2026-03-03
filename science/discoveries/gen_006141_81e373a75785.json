@@ -1,0 +1,32 @@
+{
+  "id": "81e373a75785",
+  "generation": 6141,
+  "created_at": "2026-03-02T06:19:12.893983",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Combining Default mode network connectivity measurement via fMRI with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 14,
+    "estimated_cost_usd": 483486,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 374,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 14 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3706992057,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 26,
+    "economic_value_usd": 74139841140000
+  },
+  "confidence": 0.3823719531384801,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

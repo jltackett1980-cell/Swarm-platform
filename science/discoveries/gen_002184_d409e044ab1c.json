@@ -1,0 +1,32 @@
+{
+  "id": "d409e044ab1c",
+  "generation": 2184,
+  "created_at": "2026-03-02T06:08:01.233034",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "The key to Why do all animals sleep \u2014 what is the essential biological function? is Vagus nerve stimulation modulating brain-gut axis \u2014 specifically Vagus nerve stimulation \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 9,
+    "estimated_cost_usd": 278651,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2651258098,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 6,
+    "economic_value_usd": 53025161960000
+  },
+  "confidence": 0.35411395401131807,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

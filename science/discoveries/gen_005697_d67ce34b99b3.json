@@ -1,0 +1,32 @@
+{
+  "id": "d67ce34b99b3",
+  "generation": 5697,
+  "created_at": "2026-03-02T06:17:39.387626",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? remains unsolved because previous research missed the role of Synaptic. Synaptic plasticity modulation via NMDA receptor directly addresses this.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 3,
+    "estimated_cost_usd": 80153,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5728559,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 5,
+    "economic_value_usd": 114571180000
+  },
+  "confidence": 0.4719295595294138,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

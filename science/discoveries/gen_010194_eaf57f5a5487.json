@@ -1,0 +1,32 @@
+{
+  "id": "eaf57f5a5487",
+  "generation": 10194,
+  "created_at": "2026-03-02T07:25:02.017596",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "The key to How to desalinate seawater at dramatically lower energy cost than reverse osmosis? is Electrocoagulation for suspended particle removal \u2014 specifically Electrocoagulation for suspended \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 4,
+    "estimated_cost_usd": 53136,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 963677222,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 17,
+    "economic_value_usd": 38547088880000
+  },
+  "confidence": 0.6292413757274878,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

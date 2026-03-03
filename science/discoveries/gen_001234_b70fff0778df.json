@@ -1,0 +1,32 @@
+{
+  "id": "b70fff0778df",
+  "generation": 1234,
+  "created_at": "2026-03-02T06:06:07.418354",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "DNA computing for massively parallel search",
+  "hypothesis": "Combining DNA computing for massively parallel search with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Theoretical complexity proof",
+    "duration_months": 4,
+    "estimated_cost_usd": 17647,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Theoretical complexity proof with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3862108972,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 27,
+    "economic_value_usd": 115863269160000
+  },
+  "confidence": 0.6480493812446506,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "68ca43b9a919",
+  "generation": 5790,
+  "created_at": "2026-03-02T06:17:57.877997",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "The key to Can superconductivity be achieved at room temperature \u2014 what material structure? is Magnetohydrodynamic flow without moving parts \u2014 specifically Magnetohydrodynamic flow without \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 8,
+    "estimated_cost_usd": 154666,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1105932861,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 11,
+    "economic_value_usd": 66355971660000
+  },
+  "confidence": 0.35915953028368863,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

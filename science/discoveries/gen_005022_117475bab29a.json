@@ -1,0 +1,32 @@
+{
+  "id": "117475bab29a",
+  "generation": 5022,
+  "created_at": "2026-03-02T06:15:25.005831",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Mycorrhizal network enhancement for nutrient cycling",
+  "hypothesis": "Can ocean acidification be safely reversed \u2014 what biochemical approach? remains unsolved because previous research missed the role of Mycorrhizal. Mycorrhizal network enhancement for nutrient cycling directly addresses this.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 9,
+    "estimated_cost_usd": 102460,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1487792267,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 29,
+    "economic_value_usd": 29755845340000
+  },
+  "confidence": 0.46290476904118627,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

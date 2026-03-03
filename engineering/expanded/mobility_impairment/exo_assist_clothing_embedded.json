@@ -1,0 +1,134 @@
+{
+  "device_id": "mobility_impairment_exo_assist_clothing_embedded",
+  "condition": "mobility_impairment",
+  "physics_principle": "exo_assist",
+  "form_factor": "clothing_embedded",
+  "generation": 10,
+  "parent_champion": "AccordMotion",
+  "generated_at": "2026-03-02T17:56:33",
+  "engineering": {
+    "mcu": {
+      "part": "STM32H743",
+      "description": "Cortex-M7 480MHz, DSP+FPU",
+      "cost_usd": 8.5
+    },
+    "physics_implementation": {
+      "principle": "exo_assist",
+      "proven": true,
+      "comparable_devices": {
+        "mcu": {
+          "part": "STM32L476RG",
+          "description": "ARM Cortex-M4 80MHz, ultra-low power, 1MB Flash",
+          "cost_usd": 3.8,
+          "datasheet": "st.com/resource/en/datasheet/stm32l476rg.pdf"
+        },
+        "drive_circuit": [
+          {
+            "part": "DRV8835",
+            "function": "Dual H-bridge motor/coil driver",
+            "cost_usd": 1.2
+          },
+          {
+            "part": "INA219",
+            "function": "Current sense for coil monitoring",
+            "cost_usd": 0.9
+          },
+          {
+            "part": "Custom air-core coil",
+            "function": "PEMF generation 1-100Hz",
+            "cost_usd": 3.5
+          }
+        ],
+        "sensors": [
+          {
+            "part": "MLX90393",
+            "function": "3-axis magnetometer for field verification",
+            "cost_usd": 2.2
+          },
+          {
+            "part": "LM35",
+            "function": "Temperature monitor \u2014 safety cutoff",
+            "cost_usd": 0.8
+          }
+        ],
+        "power": {
+          "battery": "Li-Po 800mAh 3.7V",
+          "charger": "TP4056 with protection",
+          "regulator": "XC6220 LDO 3.3V",
+          "estimated_life_hours": 48,
+          "cost_usd": 4.5
+        },
+        "pcb": {
+          "layers": 2,
+          "size_mm": "40x25",
+          "thickness_mm": 1.0,
+          "process": "HASL lead-free",
+          "estimated_cost_usd": 1.8
+        },
+        "enclosure": {
+          "material": "ABS medical grade",
+          "ip_rating": "IP54",
+          "size_mm": "80x50x15",
+          "estimated_cost_usd": 5.0
+        },
+        "firmware": {
+          "rtos": "FreeRTOS",
+          "frequency_range_hz": "1-100Hz programmable",
+          "waveform": "Sinusoidal, square, sawtooth \u2014 programmable",
+          "intensity_mt": "0.1-2.0 mT field strength at skin surface",
+          "safety": "Auto-shutoff at 40C skin temp. Max 20min session. 4hr lockout.",
+          "algorithm": "PEMF protocol library: bone healing (75Hz), pain (10Hz), sleep (delta 0.5-4Hz), inflammation (50Hz)"
+        },
+        "signal_processing": {
+          "field_verification": "Magnetometer feedback loop confirms field strength within 5%",
+          "thermal_monitor": "PID temperature controller limits coil current if skin temp exceeds 38C",
+          "session_timer": "Hardware watchdog enforces session limits"
+        },
+        "fda_pathway": {
+          "device_class": "Class II",
+          "submission_type": "510(k)",
+          "predicate_devices": [
+            "Orthofix Physio-Stim",
+            "EarthPulse PEMF",
+            "Bioelectronics ActiPatch"
+          ],
+          "estimated_timeline_months": 18,
+          "estimated_cost_usd": 75000
+        }
+      }
+    },
+    "power": {
+      "battery": "Li-Po 500mAh 3.7V",
+      "charger": "MCP73831 USB-C",
+      "regulator": "TPS62740 buck converter",
+      "estimated_life_hours": 46,
+      "cost_usd": 7.83
+    },
+    "pcb": {
+      "layers": 6,
+      "size_mm": "66x59",
+      "process": "ENIG",
+      "ip_rating": "IP68",
+      "cost_usd": 4.71
+    },
+    "firmware": {
+      "rtos": "FreeRTOS",
+      "sampling_hz": 250,
+      "ml_model": "TensorFlow Lite Micro",
+      "connectivity": "BLE 5.0 AES-128",
+      "storage": "local only \u2014 no cloud"
+    }
+  },
+  "fda_pathway": {
+    "device_class": "I",
+    "submission_type": "Exempt",
+    "estimated_timeline_months": 3,
+    "estimated_cost_usd": 5000
+  },
+  "estimated_bom_cost_usd": 21.14,
+  "retail_price_target_usd": 118.24,
+  "peoples_charter": true,
+  "offline_first": true,
+  "no_cloud": true,
+  "wisdom_score": 100
+}

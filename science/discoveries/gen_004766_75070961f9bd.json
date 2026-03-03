@@ -1,0 +1,32 @@
+{
+  "id": "75070961f9bd",
+  "generation": 4766,
+  "created_at": "2026-03-02T06:14:38.286161",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "Federated learning without data centralization may resolve Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different? by activating at the systems level.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 6,
+    "estimated_cost_usd": 20577,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3941739735,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 29,
+    "economic_value_usd": 197086986750000
+  },
+  "confidence": 0.407818849338721,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "38b46e96f52d",
+  "generation": 1810,
+  "created_at": "2026-03-02T06:07:15.958909",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "BDNF upregulation to promote neurogenesis",
+  "hypothesis": "The key to What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient is BDNF upregulation to promote neurogenesis \u2014 specifically BDNF upregulation to \u2014 which would help 280,000,000 people affected.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 23,
+    "estimated_cost_usd": 643363,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 33562724,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 16,
+    "economic_value_usd": 2013763440000
+  },
+  "confidence": 0.6015136561069654,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

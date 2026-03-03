@@ -1,0 +1,32 @@
+{
+  "id": "bdbe168bd6e7",
+  "generation": 5432,
+  "created_at": "2026-03-02T06:16:43.968488",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "Combining Constructed wetland for water filtration with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 6,
+    "estimated_cost_usd": 70169,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 223519554,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 20,
+    "economic_value_usd": 4470391080000
+  },
+  "confidence": 0.739280846734943,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

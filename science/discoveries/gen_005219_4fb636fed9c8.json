@@ -1,0 +1,32 @@
+{
+  "id": "4fb636fed9c8",
+  "generation": 5219,
+  "created_at": "2026-03-02T06:16:02.712009",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "If Glial cell activation/suppression in target brain region is applied to reversed, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 22,
+    "estimated_cost_usd": 574170,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16467512,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 9,
+    "economic_value_usd": 1482076080000
+  },
+  "confidence": 0.6566929957156251,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

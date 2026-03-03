@@ -1,0 +1,39 @@
+{
+  "id": "e606fde1",
+  "name": "ForgePure",
+  "generation": 7191,
+  "created_at": "2026-03-02T17:24:46.767653",
+  "pain": "clean_water",
+  "population": 2200000,
+  "problem": "2.2M Americans lack access to safe drinking water",
+  "physics": "electrostatic",
+  "physics_desc": "Static fields for air/water purification and drug delivery",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Air purifiers",
+    "Electrospray"
+  ],
+  "form_factor": "inline sensor",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0049,
+    "size_cm": 24.2,
+    "cost_usd": 259.25,
+    "battery_hours": 60.4
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

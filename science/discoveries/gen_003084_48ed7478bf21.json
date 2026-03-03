@@ -1,0 +1,32 @@
+{
+  "id": "48ed7478bf21",
+  "generation": 3084,
+  "created_at": "2026-03-02T06:10:02.412829",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "DNA computing for massively parallel search",
+  "hypothesis": "If DNA computing for massively parallel search is applied to \u2014, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 11,
+    "estimated_cost_usd": 49391,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1940396786,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 20,
+    "economic_value_usd": 97019839300000
+  },
+  "confidence": 0.6803764614639738,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

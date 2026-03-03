@@ -1,0 +1,32 @@
+{
+  "id": "f91f9816daaf",
+  "generation": 9472,
+  "created_at": "2026-03-02T06:34:22.824896",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Combining Casimir effect between nanoscale surfaces with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 4,
+    "estimated_cost_usd": 91428,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1071009327,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 17,
+    "economic_value_usd": 21420186540000
+  },
+  "confidence": 0.5400524492997912,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

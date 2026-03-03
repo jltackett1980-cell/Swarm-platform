@@ -1,0 +1,32 @@
+{
+  "id": "c3fa8d1a1b00",
+  "generation": 7103,
+  "created_at": "2026-03-02T06:23:04.012624",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "Combining Glial cell activation/suppression in target brain region with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 5,
+    "estimated_cost_usd": 158886,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9422926,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 23,
+    "economic_value_usd": 282687780000
+  },
+  "confidence": 0.7687902098595281,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

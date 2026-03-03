@@ -1,0 +1,32 @@
+{
+  "id": "bb0ff5552502",
+  "generation": 971,
+  "created_at": "2026-03-02T06:05:38.029870",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "The key to How to restore depleted agricultural soil microbiome rapidly at scale? is Rhizobium inoculation for nitrogen fixation \u2014 specifically Rhizobium inoculation for \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 12,
+    "estimated_cost_usd": 168629,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 210005533,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 27,
+    "economic_value_usd": 18900497970000
+  },
+  "confidence": 0.7208532098515483,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

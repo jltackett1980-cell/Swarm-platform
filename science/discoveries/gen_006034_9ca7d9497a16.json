@@ -1,0 +1,32 @@
+{
+  "id": "9ca7d9497a16",
+  "generation": 6034,
+  "created_at": "2026-03-02T06:18:50.332325",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "What triggers cancer cells to leave primary tumor and colonize new tissue? remains unsolved because previous research missed the role of mRNA. mRNA therapy to upregulate/downregulate gene expression directly addresses this.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 9,
+    "estimated_cost_usd": 416666,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9467407,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 19,
+    "economic_value_usd": 284022210000
+  },
+  "confidence": 0.3395976404387957,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

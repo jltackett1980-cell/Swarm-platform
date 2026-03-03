@@ -1,0 +1,32 @@
+{
+  "id": "d17ec4a0e145",
+  "generation": 2590,
+  "created_at": "2026-03-02T06:08:53.146459",
+  "problem_id": "ptsd_memory_lock",
+  "problem": "Why do traumatic memories become locked and intrusive \u2014 what neural mechanism?",
+  "domain": "neuroscience",
+  "population": 12000000,
+  "urgency": 0.85,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "The key to Why do traumatic memories become locked and intrusive \u2014 what neural mechanism? is Sleep-dependent memory consolidation in hippocampus \u2014 specifically Sleep-dependent memory consolidation \u2014 which would help 12,000,000 people affected.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 11,
+    "estimated_cost_usd": 350752,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 6603017,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 17,
+    "economic_value_usd": 396181020000
+  },
+  "confidence": 0.4900584059606452,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

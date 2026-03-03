@@ -1,0 +1,32 @@
+{
+  "id": "610488817883",
+  "generation": 737,
+  "created_at": "2026-03-02T06:05:12.397287",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "Combining Fear memory reconsolidation interference via timing with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 36,
+    "estimated_cost_usd": 1256679,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 32073029,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 11,
+    "economic_value_usd": 1603651450000
+  },
+  "confidence": 0.5150369416617178,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

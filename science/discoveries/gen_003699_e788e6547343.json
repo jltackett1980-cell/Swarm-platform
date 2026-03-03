@@ -1,0 +1,32 @@
+{
+  "id": "e788e6547343",
+  "generation": 3699,
+  "created_at": "2026-03-02T06:11:36.302190",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography remains unsolved because previous research missed the role of Attention. Attention mechanism with linear complexity directly addresses this.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 8,
+    "estimated_cost_usd": 34354,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1108203952,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 24,
+    "economic_value_usd": 44328158080000
+  },
+  "confidence": 0.632792647323319,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "8825edff43fc",
+  "generation": 6880,
+  "created_at": "2026-03-02T06:22:00.559311",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Mycorrhizal network enhancement for nutrient cycling",
+  "hypothesis": "If Mycorrhizal network enhancement for nutrient cycling is applied to rapidly, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 2,
+    "estimated_cost_usd": 24146,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Sensor network monitoring with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 158329854,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 12,
+    "economic_value_usd": 1583298540000
+  },
+  "confidence": 0.3370855500444382,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

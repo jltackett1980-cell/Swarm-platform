@@ -1,0 +1,32 @@
+{
+  "id": "7aa553adb9cd",
+  "generation": 5664,
+  "created_at": "2026-03-02T06:17:32.499037",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "If Hydrogel swelling/shrinking response is applied to long-term, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 5,
+    "estimated_cost_usd": 85132,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4125755,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 30,
+    "economic_value_usd": 371317950000
+  },
+  "confidence": 0.670723681562486,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

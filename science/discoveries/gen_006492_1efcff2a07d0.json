@@ -1,0 +1,32 @@
+{
+  "id": "1efcff2a07d0",
+  "generation": 6492,
+  "created_at": "2026-03-02T06:20:30.661873",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "Can superconductivity be achieved at room temperature \u2014 what material structure? remains unsolved because previous research missed the role of Quantum. Quantum tunneling through energy barrier directly addresses this.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 5,
+    "estimated_cost_usd": 115192,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1681086982,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 10,
+    "economic_value_usd": 50432609460000
+  },
+  "confidence": 0.7766350275233925,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

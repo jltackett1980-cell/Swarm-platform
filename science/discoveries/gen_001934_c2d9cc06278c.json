@@ -1,0 +1,32 @@
+{
+  "id": "c2d9cc06278c",
+  "generation": 1934,
+  "created_at": "2026-03-02T06:07:30.831286",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "Combining Viral vector delivery of therapeutic gene with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 12,
+    "estimated_cost_usd": 545872,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 346,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 23069849,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 15,
+    "economic_value_usd": 692095470000
+  },
+  "confidence": 0.5977632497346345,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

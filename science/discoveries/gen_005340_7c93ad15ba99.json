@@ -1,0 +1,32 @@
+{
+  "id": "7c93ad15ba99",
+  "generation": 5340,
+  "created_at": "2026-03-02T06:16:25.807086",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Hydrogel swelling/shrinking response \u2014 specifically Hydrogel swelling/shrinking response \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 16,
+    "estimated_cost_usd": 271535,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 115650547,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 15,
+    "economic_value_usd": 3469516410000
+  },
+  "confidence": 0.621543252267094,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "dc71bcbac43d",
+  "generation": 10033,
+  "created_at": "2026-03-02T06:41:39.054580",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "Combining Neuroinflammation reduction via microglial targeting with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 30,
+    "estimated_cost_usd": 745263,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 547,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "fMRI connectivity study with 30 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 86911274,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 25,
+    "economic_value_usd": 2607338220000
+  },
+  "confidence": 0.6312383111959088,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

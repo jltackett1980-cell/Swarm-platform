@@ -1,0 +1,32 @@
+{
+  "id": "138ce225f0d3",
+  "generation": 3250,
+  "created_at": "2026-03-02T06:10:26.927764",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "Combining Shape memory alloy phase transition with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 18,
+    "estimated_cost_usd": 327785,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 89077744,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 23,
+    "economic_value_usd": 3563109760000
+  },
+  "confidence": 0.4329489217114978,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

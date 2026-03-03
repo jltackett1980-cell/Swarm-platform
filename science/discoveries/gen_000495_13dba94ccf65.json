@@ -1,0 +1,32 @@
+{
+  "id": "13dba94ccf65",
+  "generation": 495,
+  "created_at": "2026-03-02T06:04:50.629851",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Electromagnetic induction in moving biological tissue",
+  "hypothesis": "Combining Electromagnetic induction in moving biological tissue with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 11,
+    "estimated_cost_usd": 215645,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 976819507,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 8,
+    "economic_value_usd": 58609170420000
+  },
+  "confidence": 0.6837832975304522,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

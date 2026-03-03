@@ -1,0 +1,32 @@
+{
+  "id": "10f6dd4e80ac",
+  "generation": 1463,
+  "created_at": "2026-03-02T06:06:34.422959",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "The key to What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified is CRISPR gene editing targeting specific pathway \u2014 specifically CRISPR gene editing \u2014 which would help 17,000,000 people affected.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 21,
+    "estimated_cost_usd": 963169,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11644209,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 18,
+    "economic_value_usd": 232884180000
+  },
+  "confidence": 0.7833383990252454,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "03d77640c403",
+  "generation": 674,
+  "created_at": "2026-03-02T06:05:06.529533",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? remains unsolved because previous research missed the role of Neuroinflammation. Neuroinflammation reduction via microglial targeting directly addresses this.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 4,
+    "estimated_cost_usd": 124418,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 8653488,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 22,
+    "economic_value_usd": 778813920000
+  },
+  "confidence": 0.53254983436007,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

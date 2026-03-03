@@ -1,0 +1,32 @@
+{
+  "id": "a13fb7275e3f",
+  "generation": 9835,
+  "created_at": "2026-03-02T06:36:16.323161",
+  "problem_id": "cancer_metastasis",
+  "problem": "What triggers cancer cells to leave primary tumor and colonize new tissue?",
+  "domain": "biology",
+  "population": 19000000,
+  "urgency": 0.95,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "What triggers cancer cells to leave primary tumor and colonize new tissue? remains unsolved because previous research missed the role of Autophagy. Autophagy activation to clear misfolded proteins directly addresses this.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 4,
+    "estimated_cost_usd": 134801,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 200,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 5781300,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 25,
+    "economic_value_usd": 346878000000
+  },
+  "confidence": 0.7145782006419183,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

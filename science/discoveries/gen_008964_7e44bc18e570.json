@@ -1,0 +1,32 @@
+{
+  "id": "7e44bc18e570",
+  "generation": 8964,
+  "created_at": "2026-03-02T06:31:46.935618",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Lattice-based cryptography for quantum resistance",
+  "hypothesis": "If Lattice-based cryptography for quantum resistance is applied to \u2014, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 1,
+    "estimated_cost_usd": 4260,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1412586171,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 24,
+    "economic_value_usd": 28251723420000
+  },
+  "confidence": 0.7571551758636823,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

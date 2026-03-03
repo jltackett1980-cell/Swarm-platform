@@ -1,0 +1,32 @@
+{
+  "id": "01898d5c155d",
+  "generation": 7352,
+  "created_at": "2026-03-02T06:24:05.114965",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "Combining Biochar amendment for soil carbon sequestration with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 9,
+    "estimated_cost_usd": 110716,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Field pilot deployment with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 62481606,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 6,
+    "economic_value_usd": 624816060000
+  },
+  "confidence": 0.37129249238145084,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

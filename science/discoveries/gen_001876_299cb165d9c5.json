@@ -1,0 +1,32 @@
+{
+  "id": "299cb165d9c5",
+  "generation": 1876,
+  "created_at": "2026-03-02T06:07:23.906245",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "The key to What material stores hydrogen fuel at high density without safety risk? is Electrospun nanofiber scaffold for tissue engineering \u2014 specifically Electrospun nanofiber scaffold \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 35,
+    "estimated_cost_usd": 681883,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 594303672,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 29,
+    "economic_value_usd": 35658220320000
+  },
+  "confidence": 0.5938289663987657,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

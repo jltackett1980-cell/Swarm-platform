@@ -1,0 +1,32 @@
+{
+  "id": "9c35c3cdf692",
+  "generation": 4393,
+  "created_at": "2026-03-02T06:13:32.411545",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "Combining Cortical spreading depression mechanism in migraine with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 22,
+    "estimated_cost_usd": 679425,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 17774084,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 9,
+    "economic_value_usd": 1599667560000
+  },
+  "confidence": 0.55538451559377,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

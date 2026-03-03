@@ -1,0 +1,32 @@
+{
+  "id": "90412d562c2d",
+  "generation": 7946,
+  "created_at": "2026-03-02T06:26:39.787208",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "The key to What physical process in the brain produces subjective conscious experience? is Synaptic plasticity modulation via NMDA receptor \u2014 specifically Synaptic plasticity modulation \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 9,
+    "estimated_cost_usd": 242194,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2764361952,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 28,
+    "economic_value_usd": 82930858560000
+  },
+  "confidence": 0.37789894372242466,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

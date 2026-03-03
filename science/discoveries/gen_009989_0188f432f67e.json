@@ -1,0 +1,32 @@
+{
+  "id": "0188f432f67e",
+  "generation": 9989,
+  "created_at": "2026-03-02T06:37:06.672620",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "The key to What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? is Photocatalytic oxidation under visible light \u2014 specifically Photocatalytic oxidation under \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 4,
+    "estimated_cost_usd": 40300,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1961190564,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 26,
+    "economic_value_usd": 98059528200000
+  },
+  "confidence": 0.5172015199093828,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

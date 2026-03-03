@@ -1,0 +1,32 @@
+{
+  "id": "61c1c8512a45",
+  "generation": 5050,
+  "created_at": "2026-03-02T06:15:30.779974",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "If Acoustic levitation for contactless manipulation is applied to ionic, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 8,
+    "estimated_cost_usd": 167741,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 395305520,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 8,
+    "economic_value_usd": 7906110400000
+  },
+  "confidence": 0.7066852874351429,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

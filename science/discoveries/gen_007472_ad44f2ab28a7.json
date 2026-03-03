@@ -1,0 +1,32 @@
+{
+  "id": "ad44f2ab28a7",
+  "generation": 7472,
+  "created_at": "2026-03-02T06:24:35.771710",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Optical rectenna for direct photon-to-electron conversion",
+  "hypothesis": "If Optical rectenna for direct photon-to-electron conversion is applied to ionic, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 7,
+    "estimated_cost_usd": 168847,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 386406933,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 11,
+    "economic_value_usd": 23184415980000
+  },
+  "confidence": 0.3645407392317049,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

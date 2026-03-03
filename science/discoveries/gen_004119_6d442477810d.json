@@ -1,0 +1,32 @@
+{
+  "id": "6d442477810d",
+  "generation": 4119,
+  "created_at": "2026-03-02T06:12:44.587462",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Metal-organic framework with specific pore geometry",
+  "hypothesis": "Combining Metal-organic framework with specific pore geometry with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 27,
+    "estimated_cost_usd": 484448,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 845879552,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 17,
+    "economic_value_usd": 76129159680000
+  },
+  "confidence": 0.7170649906113853,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

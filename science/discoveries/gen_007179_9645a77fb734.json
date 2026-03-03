@@ -1,0 +1,32 @@
+{
+  "id": "9645a77fb734",
+  "generation": 7179,
+  "created_at": "2026-03-02T06:23:21.798357",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "The key to What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified is Viral vector delivery of therapeutic gene \u2014 specifically Viral vector delivery \u2014 which would help 17,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 10,
+    "estimated_cost_usd": 465646,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 316,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11035877,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 18,
+    "economic_value_usd": 441435080000
+  },
+  "confidence": 0.40770482903656985,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

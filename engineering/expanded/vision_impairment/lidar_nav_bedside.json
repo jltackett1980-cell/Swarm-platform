@@ -1,0 +1,132 @@
+{
+  "device_id": "vision_impairment_lidar_nav_bedside",
+  "condition": "vision_impairment",
+  "physics_principle": "lidar_nav",
+  "form_factor": "bedside",
+  "generation": 2,
+  "parent_champion": "ForgeVision",
+  "generated_at": "2026-03-02T17:56:33",
+  "engineering": {
+    "mcu": {
+      "part": "MAX32660",
+      "description": "Cortex-M4F 96MHz, medical ultra-low",
+      "cost_usd": 2.6
+    },
+    "physics_implementation": {
+      "principle": "lidar_nav",
+      "proven": true,
+      "comparable_devices": {
+        "mcu": {
+          "part": "Nordic nRF52832",
+          "description": "Cortex-M4F 64MHz, BLE 5.0 \u2014 proven wearable platform",
+          "cost_usd": 3.2,
+          "datasheet": "infocenter.nordicsemi.com/topic/struct_nrf52/struct/nrf52832.html"
+        },
+        "actuators": [
+          {
+            "part": "DRV2605L",
+            "function": "Haptic driver \u2014 ERM/LRA control",
+            "cost_usd": 1.4
+          },
+          {
+            "part": "Precision Microdrives 310-101",
+            "function": "LRA vibration motor 175Hz resonance",
+            "cost_usd": 3.5
+          },
+          {
+            "part": "ICM-42688-P",
+            "function": "IMU \u2014 motion tracking + tremor measurement",
+            "cost_usd": 2.1
+          }
+        ],
+        "sensors": [
+          {
+            "part": "FSR 402",
+            "function": "Force sensing resistor \u2014 contact detection",
+            "cost_usd": 1.8
+          },
+          {
+            "part": "MAX30102",
+            "function": "PPG \u2014 confirm device worn",
+            "cost_usd": 3.5
+          }
+        ],
+        "power": {
+          "battery": "Li-Po 400mAh 3.7V",
+          "charger": "MCP73831",
+          "regulator": "TPS62740",
+          "estimated_life_hours": 72,
+          "cost_usd": 3.0
+        },
+        "pcb": {
+          "layers": 4,
+          "size_mm": "25x20",
+          "thickness_mm": 0.8,
+          "process": "ENIG",
+          "estimated_cost_usd": 2.2
+        },
+        "enclosure": {
+          "material": "TPU flexible overmold + hard ABS core",
+          "ip_rating": "IP67",
+          "size_mm": "40x35x10",
+          "estimated_cost_usd": 5.5
+        },
+        "firmware": {
+          "rtos": "Zephyr RTOS",
+          "tremor_detection": "Accelerometer FFT \u2192 peak frequency 4-12Hz = pathological tremor",
+          "compensation": "Counter-phase vibration at detected tremor frequency via LRA",
+          "algorithm": "Adaptive notch filter at tremor frequency. Phase-locked loop tracks tremor drift. Vibrotactile stimulation at 100-300Hz competes with tremor pathway via proprioceptive interference.",
+          "calibration": "Auto-calibrates to individual tremor signature in first 60 seconds"
+        },
+        "signal_processing": {
+          "tremor_analysis": "FFT 256-point on 1-second window. Peak detection 3-12Hz band. Amplitude threshold >0.5g = treatment trigger.",
+          "compensation_waveform": "Sinusoidal counter-vibration, phase-inverted to tremor signal",
+          "efficacy_monitor": "Continuous tremor amplitude tracking. Session log stored locally."
+        },
+        "fda_pathway": {
+          "device_class": "Class II",
+          "submission_type": "510(k)",
+          "predicate_devices": [
+            "Cala Health kIQ tremor therapy",
+            "GyroGlove"
+          ],
+          "estimated_timeline_months": 18,
+          "estimated_cost_usd": 80000
+        }
+      }
+    },
+    "power": {
+      "battery": "Li-Po 500mAh 3.7V",
+      "charger": "MCP73831 USB-C",
+      "regulator": "TPS62740 buck converter",
+      "estimated_life_hours": 187,
+      "cost_usd": 4.57
+    },
+    "pcb": {
+      "layers": 6,
+      "size_mm": "41x35",
+      "process": "ENIG",
+      "ip_rating": "IP54",
+      "cost_usd": 10.77
+    },
+    "firmware": {
+      "rtos": "Zephyr RTOS",
+      "sampling_hz": 50,
+      "ml_model": "TensorFlow Lite Micro",
+      "connectivity": "BLE 5.0 AES-128",
+      "storage": "local only \u2014 no cloud"
+    }
+  },
+  "fda_pathway": {
+    "device_class": "II",
+    "submission_type": "510(k)",
+    "estimated_timeline_months": 16,
+    "estimated_cost_usd": 60000
+  },
+  "estimated_bom_cost_usd": 21.54,
+  "retail_price_target_usd": 69.23,
+  "peoples_charter": true,
+  "offline_first": true,
+  "no_cloud": true,
+  "wisdom_score": 100
+}

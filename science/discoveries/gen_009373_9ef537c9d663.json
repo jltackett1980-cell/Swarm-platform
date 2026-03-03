@@ -1,0 +1,32 @@
+{
+  "id": "9ef537c9d663",
+  "generation": 9373,
+  "created_at": "2026-03-02T06:33:54.040967",
+  "problem_id": "electromagnetic_thrust",
+  "problem": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "Can electromagnetic fields generate sustained thrust without propellant \u2014 EmDrive physics remains unsolved because previous research missed the role of Quantum. Quantum tunneling through energy barrier directly addresses this.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 2,
+    "estimated_cost_usd": 38908,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Bench-top proof of concept with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1295267872,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 21,
+    "economic_value_usd": 38858036160000
+  },
+  "confidence": 0.4443045176428933,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

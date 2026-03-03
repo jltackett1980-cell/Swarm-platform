@@ -1,0 +1,32 @@
+{
+  "id": "abfbdd110879",
+  "generation": 1532,
+  "created_at": "2026-03-02T06:06:42.056694",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "The key to What limits adult neuroplasticity \u2014 can those limits be safely removed? is Synaptic plasticity modulation via NMDA receptor \u2014 specifically Synaptic plasticity modulation \u2014 which would help 200,000,000 people affected.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 22,
+    "estimated_cost_usd": 587438,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 469,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 32646029,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 21,
+    "economic_value_usd": 1632301450000
+  },
+  "confidence": 0.6657830301912011,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

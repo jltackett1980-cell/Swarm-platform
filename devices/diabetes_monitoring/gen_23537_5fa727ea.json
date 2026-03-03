@@ -1,0 +1,39 @@
+{
+  "id": "5fa727ea",
+  "name": "NexusGlucose",
+  "generation": 23537,
+  "created_at": "2026-03-02T16:56:00.147149",
+  "pain": "diabetes_monitoring",
+  "population": 37000000,
+  "problem": "37M diabetics need glucose monitoring \u2014 devices cost $300+/month",
+  "physics": "rf_sensing",
+  "physics_desc": "Radio frequency for non-contact sensing",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Radar vital signs",
+    "Through-wall sensing"
+  ],
+  "form_factor": "wrist sensor",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0052,
+    "size_cm": 25.3,
+    "cost_usd": 186.58,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

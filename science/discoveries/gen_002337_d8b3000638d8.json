@@ -1,0 +1,32 @@
+{
+  "id": "d8b3000638d8",
+  "generation": 2337,
+  "created_at": "2026-03-02T06:08:20.337529",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "What is the primary molecular cause of biological aging \u2014 can it be slowed? remains unsolved because previous research missed the role of Viral. Viral vector delivery of therapeutic gene directly addresses this.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 11,
+    "estimated_cost_usd": 491122,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 331,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1899314661,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 27,
+    "economic_value_usd": 18993146610000
+  },
+  "confidence": 0.6697179489690435,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

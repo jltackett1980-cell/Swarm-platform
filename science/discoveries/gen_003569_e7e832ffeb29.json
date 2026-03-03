@@ -1,0 +1,32 @@
+{
+  "id": "e7e832ffeb29",
+  "generation": 3569,
+  "created_at": "2026-03-02T06:11:15.585893",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Lattice-based cryptography for quantum resistance",
+  "hypothesis": "Combining Lattice-based cryptography for quantum resistance with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 5,
+    "estimated_cost_usd": 16875,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2388503941,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 16,
+    "economic_value_usd": 71655118230000
+  },
+  "confidence": 0.4800627893729559,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "022878cd",
+  "name": "HavenSignal",
+  "generation": 26,
+  "created_at": "2026-03-02T17:09:00.074073",
+  "pain": "domestic_violence",
+  "population": 10000000,
+  "problem": "10M DV victims yearly \u2014 no discreet wearable alert system",
+  "physics": "rf_sensing",
+  "physics_desc": "Radio frequency for non-contact sensing",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Radar vital signs",
+    "Through-wall sensing"
+  ],
+  "form_factor": "discreet wearable clip",
+  "complexity": 6,
+  "specs": {
+    "power_watts": 0.0043,
+    "size_cm": 15.6,
+    "cost_usd": 127.78,
+    "battery_hours": 90.3
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "SafeStep",
+  "companion_domain": "domestic_violence_shelter",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

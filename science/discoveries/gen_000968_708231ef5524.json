@@ -1,32 +1,32 @@
 {
   "id": "708231ef5524",
   "generation": 968,
-  "created_at": "2026-03-01T05:20:03.790870",
+  "created_at": "2026-03-02T06:05:37.971706",
   "problem_id": "np_vs_p",
   "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
   "domain": "computing",
   "population": 8000000000,
   "urgency": 0.55,
   "mechanism": "Homomorphic encryption for private computation",
-  "hypothesis": "If Homomorphic encryption for private computation is applied to vs, then function improves will occur because the mechanism targets the root cause directly.",
+  "hypothesis": "Homomorphic encryption for private computation may resolve Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved by activating at the systems level.",
   "experiment": {
     "type": "Comparative ablation study",
-    "duration_months": 12,
-    "estimated_cost_usd": 50677,
+    "duration_months": 6,
+    "estimated_cost_usd": 24619,
     "falsifiable": true,
     "control_required": true,
     "blinding": "single-blind",
     "sample_size": null,
     "outcome_measure": "quantitative biomarker",
-    "protocol": "Comparative ablation study with 12 month follow-up. Control group receives placebo/sham."
+    "protocol": "Comparative ablation study with 6 month follow-up. Control group receives placebo/sham."
   },
   "impact": {
-    "lives_impacted": 3654182039,
-    "quality_of_life_gain_pct": 60,
-    "years_of_benefit": 28,
-    "economic_value_usd": 219250922340000
+    "lives_impacted": 3315394414,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 22,
+    "economic_value_usd": 265231553120000
   },
-  "confidence": 0.7346783860322837,
+  "confidence": 0.30043805044123023,
   "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
   "status": "proposed"
 }

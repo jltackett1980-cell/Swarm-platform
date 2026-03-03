@@ -1,0 +1,32 @@
+{
+  "id": "a9de4dda4647",
+  "generation": 6169,
+  "created_at": "2026-03-02T06:19:19.568038",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "If Carbon nanotube alignment in polymer matrix is applied to fully, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 17,
+    "estimated_cost_usd": 250073,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mechanical testing (tensile, fatigue) with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 106684253,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 6,
+    "economic_value_usd": 8534740240000
+  },
+  "confidence": 0.6953933500141283,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

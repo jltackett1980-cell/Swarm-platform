@@ -1,0 +1,32 @@
+{
+  "id": "5192bf06402b",
+  "generation": 1228,
+  "created_at": "2026-03-02T06:06:06.436027",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "If Default mode network connectivity measurement via fMRI is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 33,
+    "estimated_cost_usd": 981785,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 574,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 18611618,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 15,
+    "economic_value_usd": 1302813260000
+  },
+  "confidence": 0.5809499571973307,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

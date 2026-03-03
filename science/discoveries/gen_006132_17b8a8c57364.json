@@ -1,0 +1,32 @@
+{
+  "id": "17b8a8c57364",
+  "generation": 6132,
+  "created_at": "2026-03-02T06:19:10.999466",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "If Synaptic plasticity modulation via NMDA receptor is applied to essential, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 18,
+    "estimated_cost_usd": 523881,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 424,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 18 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3805024891,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 7,
+    "economic_value_usd": 152200995640000
+  },
+  "confidence": 0.4073087526393939,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

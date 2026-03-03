@@ -1,0 +1,32 @@
+{
+  "id": "01eb1f32abde",
+  "generation": 6192,
+  "created_at": "2026-03-02T06:19:23.903498",
+  "problem_id": "consciousness_basis",
+  "problem": "What physical process in the brain produces subjective conscious experience?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.6,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "What physical process in the brain produces subjective conscious experience? remains unsolved because previous research missed the role of Synaptic. Synaptic plasticity modulation via NMDA receptor directly addresses this.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 32,
+    "estimated_cost_usd": 1034518,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1184269354,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 9,
+    "economic_value_usd": 11842693540000
+  },
+  "confidence": 0.7596231260072728,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "42789e15b7d0",
+  "generation": 3283,
+  "created_at": "2026-03-02T06:10:32.017896",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Shape memory alloy phase transition",
+  "hypothesis": "Why do perovskite solar cells degrade \u2014 what material instability causes it? remains unsolved because previous research missed the role of Shape. Shape memory alloy phase transition directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 22,
+    "estimated_cost_usd": 389586,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 22 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 725938878,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 21,
+    "economic_value_usd": 65334499020000
+  },
+  "confidence": 0.31007723393337344,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

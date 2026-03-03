@@ -1,0 +1,32 @@
+{
+  "id": "32bcd742426e",
+  "generation": 8465,
+  "created_at": "2026-03-02T06:29:03.191105",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Quantum tunneling through energy barrier",
+  "hypothesis": "Combining Quantum tunneling through energy barrier with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Bench-top proof of concept",
+    "duration_months": 7,
+    "estimated_cost_usd": 163746,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Bench-top proof of concept with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1288054430,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 10,
+    "economic_value_usd": 25761088600000
+  },
+  "confidence": 0.5843833221959029,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

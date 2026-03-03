@@ -1,0 +1,32 @@
+{
+  "id": "6a7bc83fc91c",
+  "generation": 9768,
+  "created_at": "2026-03-02T06:35:55.854391",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different? remains unsolved because previous research missed the role of Monte. Monte Carlo tree search with learned heuristics directly addresses this.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 6,
+    "estimated_cost_usd": 28242,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Security audit with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2224237060,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 30,
+    "economic_value_usd": 66727111800000
+  },
+  "confidence": 0.46012471913008623,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

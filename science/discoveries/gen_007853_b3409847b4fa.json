@@ -1,0 +1,32 @@
+{
+  "id": "b3409847b4fa",
+  "generation": 7853,
+  "created_at": "2026-03-02T06:26:15.468168",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "What material surface coating prevents bacterial biofilm formation on implants? remains unsolved because previous research missed the role of Hydrogel. Hydrogel swelling/shrinking response directly addresses this.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 6,
+    "estimated_cost_usd": 110382,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 286909660,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 17,
+    "economic_value_usd": 11476386400000
+  },
+  "confidence": 0.6490975753575458,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

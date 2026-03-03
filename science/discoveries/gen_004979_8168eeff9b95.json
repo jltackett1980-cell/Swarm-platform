@@ -1,0 +1,32 @@
+{
+  "id": "8168eeff9b95",
+  "generation": 4979,
+  "created_at": "2026-03-02T06:15:17.088819",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Mycorrhizal network enhancement for nutrient cycling",
+  "hypothesis": "If Mycorrhizal network enhancement for nutrient cycling is applied to rapidly, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 7,
+    "estimated_cost_usd": 91337,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 146568563,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 5,
+    "economic_value_usd": 10259799410000
+  },
+  "confidence": 0.38394368884617563,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "0ca87a8531d9",
+  "generation": 1123,
+  "created_at": "2026-03-02T06:05:55.051677",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Rhizobium inoculation for nitrogen fixation",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Rhizobium. Rhizobium inoculation for nitrogen fixation directly addresses this.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 8,
+    "estimated_cost_usd": 81838,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 249562429,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 12,
+    "economic_value_usd": 19964994320000
+  },
+  "confidence": 0.37392457240863053,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

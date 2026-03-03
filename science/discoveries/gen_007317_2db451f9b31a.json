@@ -1,0 +1,32 @@
+{
+  "id": "2db451f9b31a",
+  "generation": 7317,
+  "created_at": "2026-03-02T06:23:56.503196",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "If Glial cell activation/suppression in target brain region is applied to essential, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "fMRI connectivity study",
+    "duration_months": 20,
+    "estimated_cost_usd": 479089,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "fMRI connectivity study with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1740665579,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 8,
+    "economic_value_usd": 139253246320000
+  },
+  "confidence": 0.6134738029508499,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

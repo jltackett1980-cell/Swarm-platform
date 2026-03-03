@@ -1,0 +1,32 @@
+{
+  "id": "f860401a52d5",
+  "generation": 933,
+  "created_at": "2026-03-02T06:05:33.738293",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "The key to What is the primary molecular cause of biological aging \u2014 can it be slowed? is mRNA therapy to upregulate/downregulate gene expression \u2014 specifically mRNA therapy to \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 31,
+    "estimated_cost_usd": 1511957,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3072322164,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 17,
+    "economic_value_usd": 153616108200000
+  },
+  "confidence": 0.7402897430409251,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

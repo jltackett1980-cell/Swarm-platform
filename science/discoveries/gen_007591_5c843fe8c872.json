@@ -1,0 +1,32 @@
+{
+  "id": "5c843fe8c872",
+  "generation": 7591,
+  "created_at": "2026-03-02T06:25:05.796798",
+  "problem_id": "antibiotic_resistance",
+  "problem": "What material surface coating prevents bacterial biofilm formation on implants?",
+  "domain": "materials",
+  "population": 700000000,
+  "urgency": 0.9,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "The key to What material surface coating prevents bacterial biofilm formation on implants? is Atomic layer deposition of conformal coating \u2014 specifically Atomic layer deposition \u2014 which would help 700,000,000 people affected.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 13,
+    "estimated_cost_usd": 196047,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 335052983,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 15,
+    "economic_value_usd": 16752649150000
+  },
+  "confidence": 0.6904750626607334,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

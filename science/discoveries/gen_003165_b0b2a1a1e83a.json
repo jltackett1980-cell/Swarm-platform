@@ -1,0 +1,32 @@
+{
+  "id": "b0b2a1a1e83a",
+  "generation": 3165,
+  "created_at": "2026-03-02T06:10:14.616429",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "Combining Bose-Einstein condensate at higher temperature with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 9,
+    "estimated_cost_usd": 177844,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 663553372,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 29,
+    "economic_value_usd": 59719803480000
+  },
+  "confidence": 0.34389579299523537,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

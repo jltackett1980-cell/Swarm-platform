@@ -1,0 +1,32 @@
+{
+  "id": "6bd897c33193",
+  "generation": 874,
+  "created_at": "2026-03-02T06:05:26.446319",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "Combining Attention mechanism with linear complexity with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 3,
+    "estimated_cost_usd": 10311,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Comparative ablation study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 906425113,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 26,
+    "economic_value_usd": 81578260170000
+  },
+  "confidence": 0.3725682196135957,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

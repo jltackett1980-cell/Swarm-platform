@@ -1,0 +1,39 @@
+{
+  "id": "67a66c55",
+  "name": "SolaceSignal",
+  "generation": 23,
+  "created_at": "2026-03-02T17:13:56.475769",
+  "pain": "domestic_violence",
+  "population": 10000000,
+  "problem": "10M DV victims yearly \u2014 no discreet wearable alert system",
+  "physics": "biofeedback_neural",
+  "physics_desc": "Reads body signals, responds in real time",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Neurofeedback",
+    "Vagus nerve stimulation"
+  ],
+  "form_factor": "discreet wearable clip",
+  "complexity": 5,
+  "specs": {
+    "power_watts": 0.002,
+    "size_cm": 2.1,
+    "cost_usd": 57.38,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "SafeStep",
+  "companion_domain": "domestic_violence_shelter",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

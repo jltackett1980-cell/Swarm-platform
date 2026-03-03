@@ -1,0 +1,32 @@
+{
+  "id": "8408883f5d48",
+  "generation": 521,
+  "created_at": "2026-03-02T06:04:52.476693",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Photonic bandgap manipulation in metamaterial",
+  "hypothesis": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale? remains unsolved because previous research missed the role of Photonic. Photonic bandgap manipulation in metamaterial directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 9,
+    "estimated_cost_usd": 165562,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2193768272,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 18,
+    "economic_value_usd": 21937682720000
+  },
+  "confidence": 0.7041255761089283,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "e1a7aa18c193",
+  "generation": 2206,
+  "created_at": "2026-03-02T06:08:04.061682",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Carbon nanotube alignment in polymer matrix",
+  "hypothesis": "Combining Carbon nanotube alignment in polymer matrix with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 12,
+    "estimated_cost_usd": 211230,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 431649447,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 11,
+    "economic_value_usd": 38848450230000
+  },
+  "confidence": 0.6048832820805248,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

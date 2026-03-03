@@ -1,0 +1,32 @@
+{
+  "id": "cf677ff278cd",
+  "generation": 6536,
+  "created_at": "2026-03-02T06:20:41.321320",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "If Small molecule inhibitor of enzyme active site is applied to epigenetically, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Mouse model knockout study",
+    "duration_months": 16,
+    "estimated_cost_usd": 607224,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 400,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mouse model knockout study with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 107416628,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 17,
+    "economic_value_usd": 2148332560000
+  },
+  "confidence": 0.4684670542421743,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

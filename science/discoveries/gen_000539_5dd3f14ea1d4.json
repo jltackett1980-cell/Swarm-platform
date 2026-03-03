@@ -1,0 +1,32 @@
+{
+  "id": "5dd3f14ea1d4",
+  "generation": 539,
+  "created_at": "2026-03-02T06:04:53.752855",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "Combining Attention mechanism with linear complexity with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 10,
+    "estimated_cost_usd": 45117,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Benchmark on standard dataset with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2273788533,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 15,
+    "economic_value_usd": 181903082640000
+  },
+  "confidence": 0.5014611200261985,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

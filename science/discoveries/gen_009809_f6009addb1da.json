@@ -1,0 +1,32 @@
+{
+  "id": "f6009addb1da",
+  "generation": 9809,
+  "created_at": "2026-03-02T06:36:08.591908",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Default mode network connectivity measurement via fMRI",
+  "hypothesis": "Why do all animals sleep \u2014 what is the essential biological function? remains unsolved because previous research missed the role of Default. Default mode network connectivity measurement via fMRI directly addresses this.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 3,
+    "estimated_cost_usd": 96564,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 173,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1337954932,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 27,
+    "economic_value_usd": 53518197280000
+  },
+  "confidence": 0.3251208870312863,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

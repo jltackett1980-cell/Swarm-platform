@@ -1,0 +1,32 @@
+{
+  "id": "74da96c5479e",
+  "generation": 4741,
+  "created_at": "2026-03-02T06:14:32.950640",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Neuromorphic spike-timing dependent plasticity",
+  "hypothesis": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different? remains unsolved because previous research missed the role of Neuromorphic. Neuromorphic spike-timing dependent plasticity directly addresses this.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 3,
+    "estimated_cost_usd": 12331,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Benchmark on standard dataset with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1970113824,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 15,
+    "economic_value_usd": 177310244160000
+  },
+  "confidence": 0.7764189584068737,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

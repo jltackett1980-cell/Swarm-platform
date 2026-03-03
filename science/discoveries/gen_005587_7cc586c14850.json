@@ -1,0 +1,32 @@
+{
+  "id": "7cc586c14850",
+  "generation": 5587,
+  "created_at": "2026-03-02T06:17:15.939134",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "Combining CRISPR gene editing targeting specific pathway with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 17,
+    "estimated_cost_usd": 656099,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Retrospective cohort analysis with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3832063176,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 6,
+    "economic_value_usd": 344885685840000
+  },
+  "confidence": 0.7038208074866477,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ae0548d364d8",
+  "generation": 9277,
+  "created_at": "2026-03-02T06:33:23.003829",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "Glial cell activation/suppression in target brain region may resolve Why do all animals sleep \u2014 what is the essential biological function? by activating at the systems level.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 5,
+    "estimated_cost_usd": 124616,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 904644199,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 20,
+    "economic_value_usd": 45232209950000
+  },
+  "confidence": 0.602376289126607,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

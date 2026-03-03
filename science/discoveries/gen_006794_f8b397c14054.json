@@ -1,0 +1,32 @@
+{
+  "id": "f8b397c14054",
+  "generation": 6794,
+  "created_at": "2026-03-02T06:21:41.621109",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "Glial cell activation/suppression in target brain region may resolve How does central sensitization maintain chronic pain without tissue damage? by activating at the systems level.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 27,
+    "estimated_cost_usd": 737760,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 519,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 20522942,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 22,
+    "economic_value_usd": 1641835360000
+  },
+  "confidence": 0.7037918931151881,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

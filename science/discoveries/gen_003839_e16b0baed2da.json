@@ -1,0 +1,32 @@
+{
+  "id": "e16b0baed2da",
+  "generation": 3839,
+  "created_at": "2026-03-02T06:11:58.225772",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "Reservoir computing with physical substrate may resolve Can protein structure be predicted from sequence in real time without AlphaFold compute cost? by activating at the systems level.",
+  "experiment": {
+    "type": "Comparative ablation study",
+    "duration_months": 4,
+    "estimated_cost_usd": 16196,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Comparative ablation study with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2456663077,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 30,
+    "economic_value_usd": 98266523080000
+  },
+  "confidence": 0.349009165182514,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

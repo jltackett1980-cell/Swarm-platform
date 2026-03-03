@@ -1,0 +1,32 @@
+{
+  "id": "2d439128d6b4",
+  "generation": 3278,
+  "created_at": "2026-03-02T06:10:30.955330",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Mycorrhizal network enhancement for nutrient cycling",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Mycorrhizal. Mycorrhizal network enhancement for nutrient cycling directly addresses this.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 6,
+    "estimated_cost_usd": 63638,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 235214928,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 22,
+    "economic_value_usd": 4704298560000
+  },
+  "confidence": 0.3409635186290524,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

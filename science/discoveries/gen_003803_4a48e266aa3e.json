@@ -1,0 +1,32 @@
+{
+  "id": "4a48e266aa3e",
+  "generation": 3803,
+  "created_at": "2026-03-02T06:11:53.360536",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Acoustic levitation for contactless manipulation",
+  "hypothesis": "Acoustic levitation for contactless manipulation may resolve Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 3,
+    "estimated_cost_usd": 53818,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 912603534,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 24,
+    "economic_value_usd": 63882247380000
+  },
+  "confidence": 0.6746978101317604,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

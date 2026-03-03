@@ -1,0 +1,32 @@
+{
+  "id": "2020f72328ba",
+  "generation": 1325,
+  "created_at": "2026-03-02T06:06:17.984273",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Monoclonal antibody blocking protein-protein interaction",
+  "hypothesis": "If Monoclonal antibody blocking protein-protein interaction is applied to in, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 20,
+    "estimated_cost_usd": 971967,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 28896107,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 30,
+    "economic_value_usd": 1155844280000
+  },
+  "confidence": 0.6225195574174189,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

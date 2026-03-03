@@ -1,0 +1,32 @@
+{
+  "id": "476fa2827dbb",
+  "generation": 8781,
+  "created_at": "2026-03-02T06:30:45.268648",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "The key to What synthetic material perfectly mimics bone's mechanical and biological properties? is Electrospun nanofiber scaffold for tissue engineering \u2014 specifically Electrospun nanofiber scaffold \u2014 which would help 10,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 15,
+    "estimated_cost_usd": 287882,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 15 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 4780140,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 9,
+    "economic_value_usd": 143404200000
+  },
+  "confidence": 0.4579947668508656,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "3643afd957bd",
+  "generation": 4363,
+  "created_at": "2026-03-02T06:13:26.932792",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Electromagnetic induction in moving biological tissue",
+  "hypothesis": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear remains unsolved because previous research missed the role of Electromagnetic. Electromagnetic induction in moving biological tissue directly addresses this.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 9,
+    "estimated_cost_usd": 177315,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 339741930,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 9,
+    "economic_value_usd": 30576773700000
+  },
+  "confidence": 0.6474083482048001,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

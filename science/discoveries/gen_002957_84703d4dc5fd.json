@@ -1,0 +1,32 @@
+{
+  "id": "84703d4dc5fd",
+  "generation": 2957,
+  "created_at": "2026-03-02T06:09:44.228662",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "Bose-Einstein condensate at higher temperature may resolve How to store solar energy at grid scale without chemical battery degradation? by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 3,
+    "estimated_cost_usd": 65275,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Computational simulation with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1342448998,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 17,
+    "economic_value_usd": 67122449900000
+  },
+  "confidence": 0.45581230938564926,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "742d18f3aa97",
+  "generation": 6007,
+  "created_at": "2026-03-02T06:18:44.705085",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Transcranial magnetic stimulation of specific cortical area",
+  "hypothesis": "Transcranial magnetic stimulation of specific cortical area may resolve How does central sensitization maintain chronic pain without tissue damage? by activating at the systems level.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 32,
+    "estimated_cost_usd": 758513,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 37304855,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 15,
+    "economic_value_usd": 2238291300000
+  },
+  "confidence": 0.327542269425341,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

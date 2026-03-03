@@ -1,0 +1,32 @@
+{
+  "id": "ffd33b4b72db",
+  "generation": 6567,
+  "created_at": "2026-03-02T06:20:48.627183",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Atomic layer deposition of conformal coating",
+  "hypothesis": "The key to What substrate allows silicon-level performance in fully flexible electronics? is Atomic layer deposition of conformal coating \u2014 specifically Atomic layer deposition \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 6,
+    "estimated_cost_usd": 103420,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 132657364,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 14,
+    "economic_value_usd": 9286015480000
+  },
+  "confidence": 0.5614890815239665,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

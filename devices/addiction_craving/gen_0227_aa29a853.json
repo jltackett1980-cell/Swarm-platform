@@ -1,0 +1,39 @@
+{
+  "id": "aa29a853",
+  "name": "NexusHold",
+  "generation": 227,
+  "created_at": "2026-03-02T16:59:08.226533",
+  "pain": "addiction_craving",
+  "population": 21000000,
+  "problem": "21M with substance disorders \u2014 craving triggers go undetected",
+  "physics": "biofeedback_neural",
+  "physics_desc": "Reads body signals, responds in real time",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Neurofeedback",
+    "Vagus nerve stimulation"
+  ],
+  "form_factor": "wrist band",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0021,
+    "size_cm": 3.1,
+    "cost_usd": 128.53,
+    "battery_hours": 128.2
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "OneMoreDay",
+  "companion_domain": "addiction_support",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

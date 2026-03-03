@@ -1,0 +1,32 @@
+{
+  "id": "c64ab64ecb4f",
+  "generation": 2482,
+  "created_at": "2026-03-02T06:08:38.782758",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "Combining Small molecule inhibitor of enzyme active site with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 23,
+    "estimated_cost_usd": 1111877,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 479,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 23 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 31661020,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 11,
+    "economic_value_usd": 2849491800000
+  },
+  "confidence": 0.4007499954240613,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

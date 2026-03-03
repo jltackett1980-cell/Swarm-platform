@@ -1,0 +1,32 @@
+{
+  "id": "510b23365113",
+  "generation": 8690,
+  "created_at": "2026-03-02T06:30:04.775716",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "If Biochar amendment for soil carbon sequestration is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 7,
+    "estimated_cost_usd": 82219,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 584024645,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 7,
+    "economic_value_usd": 52562218050000
+  },
+  "confidence": 0.6794420565062971,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "74f07d16b5c5",
+  "generation": 3772,
+  "created_at": "2026-03-02T06:11:47.433593",
+  "problem_id": "flexible_electronics",
+  "problem": "What substrate allows silicon-level performance in fully flexible electronics?",
+  "domain": "materials",
+  "population": 500000000,
+  "urgency": 0.75,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "The key to What substrate allows silicon-level performance in fully flexible electronics? is Aerogel porosity for thermal/acoustic insulation \u2014 specifically Aerogel porosity for \u2014 which would help 500,000,000 people affected.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 16,
+    "estimated_cost_usd": 315790,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 179791443,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 26,
+    "economic_value_usd": 5393743290000
+  },
+  "confidence": 0.40716399403422865,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

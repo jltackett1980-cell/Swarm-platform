@@ -1,0 +1,32 @@
+{
+  "id": "247690ad5ec6",
+  "generation": 374,
+  "created_at": "2026-03-02T06:04:41.180258",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "mRNA therapy to upregulate/downregulate gene expression",
+  "hypothesis": "If mRNA therapy to upregulate/downregulate gene expression is applied to spread, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 35,
+    "estimated_cost_usd": 1219026,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 618190,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 13,
+    "economic_value_usd": 37091400000
+  },
+  "confidence": 0.6309446448093976,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

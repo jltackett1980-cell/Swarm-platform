@@ -1,0 +1,32 @@
+{
+  "id": "feeb0758d678",
+  "generation": 3554,
+  "created_at": "2026-03-02T06:11:13.820789",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "If Forward osmosis using draw solution gradient is applied to than, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 8,
+    "estimated_cost_usd": 80281,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Microbial community sequencing with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 897416098,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 27,
+    "economic_value_usd": 35896643920000
+  },
+  "confidence": 0.309556943025051,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

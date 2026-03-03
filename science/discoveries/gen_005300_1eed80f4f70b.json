@@ -1,0 +1,32 @@
+{
+  "id": "1eed80f4f70b",
+  "generation": 5300,
+  "created_at": "2026-03-02T06:16:18.632717",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "If Vagus nerve stimulation modulating brain-gut axis is applied to reversed, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 9,
+    "estimated_cost_usd": 232246,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 300,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human TMS-EEG study with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 12946300,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 26,
+    "economic_value_usd": 258926000000
+  },
+  "confidence": 0.4760352178591488,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

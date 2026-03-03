@@ -1,0 +1,32 @@
+{
+  "id": "5ccd86b1fbe7",
+  "generation": 8977,
+  "created_at": "2026-03-02T06:31:50.333564",
+  "problem_id": "addiction_rewiring",
+  "problem": "Can addiction-related neural pathway changes be reversed without withdrawal?",
+  "domain": "neuroscience",
+  "population": 21000000,
+  "urgency": 0.9,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "The key to Can addiction-related neural pathway changes be reversed without withdrawal? is Dopamine/serotonin reuptake inhibition with specificity \u2014 specifically Dopamine/serotonin reuptake inhibition \u2014 which would help 21,000,000 people affected.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 28,
+    "estimated_cost_usd": 745199,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13588545,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 12,
+    "economic_value_usd": 951198150000
+  },
+  "confidence": 0.5132351545838014,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

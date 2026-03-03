@@ -1,0 +1,32 @@
+{
+  "id": "a0936164b52c",
+  "generation": 9868,
+  "created_at": "2026-03-02T06:36:26.768903",
+  "problem_id": "solar_cell_efficiency",
+  "problem": "Why do perovskite solar cells degrade \u2014 what material instability causes it?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Self-assembled monolayer for surface functionalization",
+  "hypothesis": "Self-assembled monolayer for surface functionalization may resolve Why do perovskite solar cells degrade \u2014 what material instability causes it? by activating at the molecular level.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 7,
+    "estimated_cost_usd": 122863,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 309865597,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 28,
+    "economic_value_usd": 15493279850000
+  },
+  "confidence": 0.7879023411165478,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

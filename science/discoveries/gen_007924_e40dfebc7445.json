@@ -1,0 +1,32 @@
+{
+  "id": "e40dfebc7445",
+  "generation": 7924,
+  "created_at": "2026-03-02T06:26:33.602873",
+  "problem_id": "self_healing_material",
+  "problem": "How to engineer materials that autonomously repair microcracks before failure?",
+  "domain": "materials",
+  "population": 1000000000,
+  "urgency": 0.75,
+  "mechanism": "Biomimetic surface structure (lotus, shark skin, gecko)",
+  "hypothesis": "The key to How to engineer materials that autonomously repair microcracks before failure? is Biomimetic surface structure (lotus, shark skin, gecko) \u2014 specifically Biomimetic surface structure \u2014 which would help 1,000,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 8,
+    "estimated_cost_usd": 129617,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 176742379,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 27,
+    "economic_value_usd": 12371966530000
+  },
+  "confidence": 0.522331925373182,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

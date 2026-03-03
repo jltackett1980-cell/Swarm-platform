@@ -1,0 +1,32 @@
+{
+  "id": "1f17ee35f4e3",
+  "generation": 7072,
+  "created_at": "2026-03-02T06:22:55.177873",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Why do amyloid plaques form in Alzheimer's and can they be cleared? remains unsolved because previous research missed the role of Telomerase. Telomerase activation/inhibition in target cells directly addresses this.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 32,
+    "estimated_cost_usd": 1130868,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 565,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 33160886,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 12,
+    "economic_value_usd": 1658044300000
+  },
+  "confidence": 0.5321431889469164,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

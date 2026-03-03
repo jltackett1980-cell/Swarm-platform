@@ -1,0 +1,32 @@
+{
+  "id": "ef9592c7c963",
+  "generation": 1941,
+  "created_at": "2026-03-02T06:07:31.081806",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "What material stores hydrogen fuel at high density without safety risk? remains unsolved because previous research missed the role of Hydrogel. Hydrogel swelling/shrinking response directly addresses this.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 27,
+    "estimated_cost_usd": 362717,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Accelerated degradation study with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 386696867,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 18,
+    "economic_value_usd": 27068780690000
+  },
+  "confidence": 0.7395980256548875,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "70081318b3c9",
+  "generation": 944,
+  "created_at": "2026-03-02T06:05:35.753219",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "Electrocoagulation for suspended particle removal may resolve How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? by activating at the systems level.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 4,
+    "estimated_cost_usd": 52807,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 249507791,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 13,
+    "economic_value_usd": 17465545370000
+  },
+  "confidence": 0.4187433077701692,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

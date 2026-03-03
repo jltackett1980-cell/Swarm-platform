@@ -1,0 +1,32 @@
+{
+  "id": "5e449f4f3525",
+  "generation": 9891,
+  "created_at": "2026-03-02T06:36:33.011672",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "DNA computing for massively parallel search",
+  "hypothesis": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost? remains unsolved because previous research missed the role of DNA. DNA computing for massively parallel search directly addresses this.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 6,
+    "estimated_cost_usd": 21442,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2897881761,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 8,
+    "economic_value_usd": 57957635220000
+  },
+  "confidence": 0.4754525802636279,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

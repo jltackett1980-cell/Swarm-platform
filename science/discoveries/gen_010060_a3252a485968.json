@@ -1,0 +1,32 @@
+{
+  "id": "a3252a485968",
+  "generation": 10060,
+  "created_at": "2026-03-02T07:06:10.817526",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "Combining Dopamine/serotonin reuptake inhibition with specificity with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 25,
+    "estimated_cost_usd": 840903,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 500,
+    "outcome_measure": "validated scale",
+    "protocol": "Optogenetic mouse model with 25 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 26973804,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 12,
+    "economic_value_usd": 1618428240000
+  },
+  "confidence": 0.4244263173070452,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

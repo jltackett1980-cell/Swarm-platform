@@ -1,0 +1,32 @@
+{
+  "id": "d76024d3f9cd",
+  "generation": 6046,
+  "created_at": "2026-03-02T06:18:53.399795",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "The key to What membrane material filters all contaminants from water at low energy cost? is Polymer crosslinking under specific stimulus \u2014 specifically Polymer crosslinking under \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 21,
+    "estimated_cost_usd": 352187,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 775123752,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 11,
+    "economic_value_usd": 38756187600000
+  },
+  "confidence": 0.6261143505615823,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

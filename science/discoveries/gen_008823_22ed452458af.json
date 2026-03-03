@@ -1,0 +1,32 @@
+{
+  "id": "22ed452458af",
+  "generation": 8823,
+  "created_at": "2026-03-02T06:31:00.041781",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "Forward osmosis using draw solution gradient may resolve How to restore depleted agricultural soil microbiome rapidly at scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 5,
+    "estimated_cost_usd": 72208,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 98766303,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 12,
+    "economic_value_usd": 5925978180000
+  },
+  "confidence": 0.42194600198768956,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

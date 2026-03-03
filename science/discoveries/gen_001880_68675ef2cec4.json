@@ -1,0 +1,32 @@
+{
+  "id": "68675ef2cec4",
+  "generation": 1880,
+  "created_at": "2026-03-02T06:07:24.051051",
+  "problem_id": "hydrogen_storage",
+  "problem": "What material stores hydrogen fuel at high density without safety risk?",
+  "domain": "materials",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Electrospun nanofiber scaffold for tissue engineering",
+  "hypothesis": "If Electrospun nanofiber scaffold for tissue engineering is applied to without, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Accelerated degradation study",
+    "duration_months": 33,
+    "estimated_cost_usd": 554806,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Accelerated degradation study with 33 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 482397535,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 19,
+    "economic_value_usd": 33767827450000
+  },
+  "confidence": 0.657639582664632,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

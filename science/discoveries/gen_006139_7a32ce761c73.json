@@ -1,0 +1,32 @@
+{
+  "id": "7a32ce761c73",
+  "generation": 6139,
+  "created_at": "2026-03-02T06:19:12.659343",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "If Optogenetic control of specific neuron populations is applied to spread, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 6,
+    "estimated_cost_usd": 261976,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 628532,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 14,
+    "economic_value_usd": 56567880000
+  },
+  "confidence": 0.34955013493527287,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

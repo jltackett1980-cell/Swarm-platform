@@ -1,0 +1,32 @@
+{
+  "id": "183212f1061c",
+  "generation": 8750,
+  "created_at": "2026-03-02T06:30:36.538738",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Quantum annealing for optimization problems",
+  "hypothesis": "The key to Can protein structure be predicted from sequence in real time without AlphaFold compute cost? is Quantum annealing for optimization problems \u2014 specifically Quantum annealing for \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 6,
+    "estimated_cost_usd": 29761,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Benchmark on standard dataset with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2412158488,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 20,
+    "economic_value_usd": 192972679040000
+  },
+  "confidence": 0.7691052154057834,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

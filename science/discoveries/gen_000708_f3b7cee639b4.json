@@ -1,0 +1,32 @@
+{
+  "id": "f3b7cee639b4",
+  "generation": 708,
+  "created_at": "2026-03-02T06:05:09.640284",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "Constructed wetland for water filtration may resolve How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer? by activating at the systems level.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 3,
+    "estimated_cost_usd": 34855,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Life cycle assessment with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 83256722,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 17,
+    "economic_value_usd": 6660537760000
+  },
+  "confidence": 0.459893365524708,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

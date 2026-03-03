@@ -1,0 +1,32 @@
+{
+  "id": "507d1de7c330",
+  "generation": 742,
+  "created_at": "2026-03-02T06:05:12.472989",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "If Perovskite crystal structure optimization is applied to types, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 21,
+    "estimated_cost_usd": 366119,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro biocompatibility assay with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3323559481,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 26,
+    "economic_value_usd": 265884758480000
+  },
+  "confidence": 0.6466883215267865,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

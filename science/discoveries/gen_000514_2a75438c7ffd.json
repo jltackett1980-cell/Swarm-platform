@@ -1,0 +1,32 @@
+{
+  "id": "2a75438c7ffd",
+  "generation": 514,
+  "created_at": "2026-03-02T06:04:51.588518",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Neuroinflammation reduction via microglial targeting",
+  "hypothesis": "Neuroinflammation reduction via microglial targeting may resolve What limits adult neuroplasticity \u2014 can those limits be safely removed? by activating at the systems level.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 7,
+    "estimated_cost_usd": 198384,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 28297948,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 12,
+    "economic_value_usd": 1980856360000
+  },
+  "confidence": 0.3362540687863125,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

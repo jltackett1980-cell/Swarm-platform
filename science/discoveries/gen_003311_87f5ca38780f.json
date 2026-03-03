@@ -1,0 +1,32 @@
+{
+  "id": "87f5ca38780f",
+  "generation": 3311,
+  "created_at": "2026-03-02T06:10:35.828898",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Psychedelic-induced neuroplasticity via 5-HT2A receptor",
+  "hypothesis": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? remains unsolved because previous research missed the role of Psychedelic-induced. Psychedelic-induced neuroplasticity via 5-HT2A receptor directly addresses this.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 21,
+    "estimated_cost_usd": 711485,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 458,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 21 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 13943176,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 23,
+    "economic_value_usd": 139431760000
+  },
+  "confidence": 0.4096479131941222,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

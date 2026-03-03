@@ -1,0 +1,32 @@
+{
+  "id": "0e1079d05edf",
+  "generation": 1998,
+  "created_at": "2026-03-02T06:07:38.512053",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "Combining Stem cell differentiation into target tissue type with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 36,
+    "estimated_cost_usd": 1543956,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 600,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 36 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 175483046,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 13,
+    "economic_value_usd": 5264491380000
+  },
+  "confidence": 0.5733304908655267,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

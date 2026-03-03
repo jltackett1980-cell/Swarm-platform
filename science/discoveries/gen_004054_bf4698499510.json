@@ -1,0 +1,32 @@
+{
+  "id": "bf4698499510",
+  "generation": 4054,
+  "created_at": "2026-03-02T06:12:34.280302",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Bose-Einstein condensate at higher temperature",
+  "hypothesis": "Combining Bose-Einstein condensate at higher temperature with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 8,
+    "estimated_cost_usd": 155062,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Spectroscopic analysis with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 378745066,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 7,
+    "economic_value_usd": 3787450660000
+  },
+  "confidence": 0.6160051491950955,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

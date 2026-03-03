@@ -1,0 +1,32 @@
+{
+  "id": "ecf9f5b9a682",
+  "generation": 1704,
+  "created_at": "2026-03-02T06:07:04.133780",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Forward osmosis using draw solution gradient",
+  "hypothesis": "The key to How to desalinate seawater at dramatically lower energy cost than reverse osmosis? is Forward osmosis using draw solution gradient \u2014 specifically Forward osmosis using \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 4,
+    "estimated_cost_usd": 53473,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 309024856,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 28,
+    "economic_value_usd": 18541491360000
+  },
+  "confidence": 0.7320740761322593,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

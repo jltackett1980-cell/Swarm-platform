@@ -1,0 +1,32 @@
+{
+  "id": "bfec336b5990",
+  "generation": 3741,
+  "created_at": "2026-03-02T06:11:42.333051",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "If Photodynamic therapy targeting specific cell receptors is applied to chemistry, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 29,
+    "estimated_cost_usd": 1424950,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "In vitro cell culture assay with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 44991594,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 24,
+    "economic_value_usd": 2699495640000
+  },
+  "confidence": 0.5434854440294078,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

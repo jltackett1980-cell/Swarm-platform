@@ -1,0 +1,32 @@
+{
+  "id": "9d1df65ea26d",
+  "generation": 3152,
+  "created_at": "2026-03-02T06:10:12.095721",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Polymer crosslinking under specific stimulus",
+  "hypothesis": "The key to What enzyme or organism efficiently degrades all plastic types at scale? is Polymer crosslinking under specific stimulus \u2014 specifically Polymer crosslinking under \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 35,
+    "estimated_cost_usd": 641303,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3732285124,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 18,
+    "economic_value_usd": 186614256200000
+  },
+  "confidence": 0.6118176959451969,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

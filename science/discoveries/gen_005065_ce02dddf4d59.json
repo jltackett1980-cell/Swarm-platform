@@ -1,0 +1,32 @@
+{
+  "id": "ce02dddf4d59",
+  "generation": 5065,
+  "created_at": "2026-03-02T06:15:33.785966",
+  "problem_id": "bone_scaffold_material",
+  "problem": "What synthetic material perfectly mimics bone's mechanical and biological properties?",
+  "domain": "materials",
+  "population": 10000000,
+  "urgency": 0.85,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "What synthetic material perfectly mimics bone's mechanical and biological properties? remains unsolved because previous research missed the role of Aerogel. Aerogel porosity for thermal/acoustic insulation directly addresses this.",
+  "experiment": {
+    "type": "In vitro biocompatibility assay",
+    "duration_months": 27,
+    "estimated_cost_usd": 485948,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro biocompatibility assay with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3882091,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 23,
+    "economic_value_usd": 232925460000
+  },
+  "confidence": 0.530677562428097,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

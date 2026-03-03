@@ -1,0 +1,32 @@
+{
+  "id": "e1a251a9eb29",
+  "generation": 5805,
+  "created_at": "2026-03-02T06:18:02.032080",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "Telomerase activation/inhibition in target cells may resolve Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway? by blocking at the molecular level.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 26,
+    "estimated_cost_usd": 1056636,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1342153,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 20,
+    "economic_value_usd": 93950710000
+  },
+  "confidence": 0.7677834977566558,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

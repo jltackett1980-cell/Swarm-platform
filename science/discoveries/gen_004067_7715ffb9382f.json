@@ -1,0 +1,32 @@
+{
+  "id": "7715ffb9382f",
+  "generation": 4067,
+  "created_at": "2026-03-02T06:12:36.043168",
+  "problem_id": "microbiome_brain",
+  "problem": "How does gut microbiome composition directly affect brain chemistry and mood?",
+  "domain": "biology",
+  "population": 300000000,
+  "urgency": 0.8,
+  "mechanism": "Optogenetic control of specific neuron populations",
+  "hypothesis": "If Optogenetic control of specific neuron populations is applied to chemistry, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 13,
+    "estimated_cost_usd": 445271,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 360,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 13 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 109174491,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 13,
+    "economic_value_usd": 8733959280000
+  },
+  "confidence": 0.6333697837650631,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

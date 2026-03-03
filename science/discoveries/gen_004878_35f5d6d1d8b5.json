@@ -1,0 +1,32 @@
+{
+  "id": "35f5d6d1d8b5",
+  "generation": 4878,
+  "created_at": "2026-03-02T06:14:58.475721",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Autophagy activation to clear misfolded proteins",
+  "hypothesis": "The key to Why does the immune system attack the body's own tissue in autoimmune disease? is Autophagy activation to clear misfolded proteins \u2014 specifically Autophagy activation to \u2014 which would help 50,000,000 people affected.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 20,
+    "estimated_cost_usd": 919338,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 447,
+    "outcome_measure": "validated scale",
+    "protocol": "Human organoid model with 20 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 38308772,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 26,
+    "economic_value_usd": 1915438600000
+  },
+  "confidence": 0.46085517967727396,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

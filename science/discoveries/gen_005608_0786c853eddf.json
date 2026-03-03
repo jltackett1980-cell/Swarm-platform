@@ -1,0 +1,32 @@
+{
+  "id": "0786c853eddf",
+  "generation": 5608,
+  "created_at": "2026-03-02T06:17:20.647834",
+  "problem_id": "autoimmune_trigger",
+  "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.85,
+  "mechanism": "Epigenetic methylation/demethylation of regulatory region",
+  "hypothesis": "Epigenetic methylation/demethylation of regulatory region may resolve Why does the immune system attack the body's own tissue in autoimmune disease? by activating at the molecular level.",
+  "experiment": {
+    "type": "Retrospective cohort analysis",
+    "duration_months": 34,
+    "estimated_cost_usd": 1552172,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "validated scale",
+    "protocol": "Retrospective cohort analysis with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 33204694,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 19,
+    "economic_value_usd": 1328187760000
+  },
+  "confidence": 0.6755054690155395,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

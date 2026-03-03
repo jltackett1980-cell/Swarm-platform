@@ -1,0 +1,32 @@
+{
+  "id": "7c48024d1255",
+  "generation": 489,
+  "created_at": "2026-03-02T06:04:49.942039",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Electrocoagulation for suspended particle removal",
+  "hypothesis": "Can ocean acidification be safely reversed \u2014 what biochemical approach? remains unsolved because previous research missed the role of Electrocoagulation. Electrocoagulation for suspended particle removal directly addresses this.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 5,
+    "estimated_cost_usd": 54813,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 319978132,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 6,
+    "economic_value_usd": 15998906600000
+  },
+  "confidence": 0.467088569066298,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

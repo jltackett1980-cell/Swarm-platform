@@ -1,0 +1,32 @@
+{
+  "id": "6becb487f114",
+  "generation": 7170,
+  "created_at": "2026-03-02T06:23:19.665110",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Biochar amendment for soil carbon sequestration",
+  "hypothesis": "How to restore depleted agricultural soil microbiome rapidly at scale? remains unsolved because previous research missed the role of Biochar. Biochar amendment for soil carbon sequestration directly addresses this.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 5,
+    "estimated_cost_usd": 73049,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Mesocosm controlled study with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 247825264,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 13,
+    "economic_value_usd": 17347768480000
+  },
+  "confidence": 0.7235643112258139,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "8e5883cc00ce",
+  "generation": 3097,
+  "created_at": "2026-03-02T06:10:04.492021",
+  "problem_id": "cryptography_quantum",
+  "problem": "What encryption survives quantum computer attacks \u2014 post-quantum cryptography",
+  "domain": "computing",
+  "population": 4000000000,
+  "urgency": 0.9,
+  "mechanism": "Monte Carlo tree search with learned heuristics",
+  "hypothesis": "Monte Carlo tree search with learned heuristics may resolve What encryption survives quantum computer attacks \u2014 post-quantum cryptography by activating at the systems level.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 6,
+    "estimated_cost_usd": 25627,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Security audit with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 856811292,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 27,
+    "economic_value_usd": 25704338760000
+  },
+  "confidence": 0.4597372728448607,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

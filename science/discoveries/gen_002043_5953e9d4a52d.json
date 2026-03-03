@@ -1,0 +1,32 @@
+{
+  "id": "5953e9d4a52d",
+  "generation": 2043,
+  "created_at": "2026-03-02T06:07:44.387016",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Bacteriophage surface display for targeting",
+  "hypothesis": "If Bacteriophage surface display for targeting is applied to types, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Mechanical testing (tensile, fatigue)",
+    "duration_months": 32,
+    "estimated_cost_usd": 604829,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mechanical testing (tensile, fatigue) with 32 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3707119706,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 7,
+    "economic_value_usd": 111213591180000
+  },
+  "confidence": 0.7750984785957269,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

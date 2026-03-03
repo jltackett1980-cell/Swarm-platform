@@ -1,0 +1,39 @@
+{
+  "id": "b44266eb",
+  "name": "PhoenixVision",
+  "generation": 0,
+  "created_at": "2026-03-02T17:13:55.755094",
+  "pain": "vision_impairment",
+  "population": 12000000,
+  "problem": "12M with vision impairment lack affordable assistive tech",
+  "physics": "mechanical_haptic",
+  "physics_desc": "Vibration, pressure, mechanical force",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Haptic feedback",
+    "Vibrotactile devices"
+  ],
+  "form_factor": "glasses attachment",
+  "complexity": 1,
+  "specs": {
+    "power_watts": 0.1178,
+    "size_cm": 5.6,
+    "cost_usd": 81.79,
+    "battery_hours": 78.3
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

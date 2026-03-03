@@ -1,0 +1,32 @@
+{
+  "id": "b4482ddc305e",
+  "generation": 8356,
+  "created_at": "2026-03-02T06:28:32.637603",
+  "problem_id": "prion_folding",
+  "problem": "What causes normal proteins to misfold into prions and spread through tissue?",
+  "domain": "biology",
+  "population": 1000000,
+  "urgency": 0.85,
+  "mechanism": "Viral vector delivery of therapeutic gene",
+  "hypothesis": "Viral vector delivery of therapeutic gene may resolve What causes normal proteins to misfold into prions and spread through tissue? by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 34,
+    "estimated_cost_usd": 1514032,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 729347,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 25,
+    "economic_value_usd": 65641230000
+  },
+  "confidence": 0.7610088378800327,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

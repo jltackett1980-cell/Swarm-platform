@@ -1,0 +1,32 @@
+{
+  "id": "776c31443f92",
+  "generation": 2494,
+  "created_at": "2026-03-02T06:08:41.350339",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Sleep-dependent memory consolidation in hippocampus",
+  "hypothesis": "Combining Sleep-dependent memory consolidation in hippocampus with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 31,
+    "estimated_cost_usd": 1050677,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 556,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Longitudinal patient cohort with 31 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 9656825,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 5,
+    "economic_value_usd": 772546000000
+  },
+  "confidence": 0.7952258724186101,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

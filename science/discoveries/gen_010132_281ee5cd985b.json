@@ -1,0 +1,32 @@
+{
+  "id": "281ee5cd985b",
+  "generation": 10132,
+  "created_at": "2026-03-02T07:24:49.559316",
+  "problem_id": "epigenetic_inheritance",
+  "problem": "How are trauma and stress responses inherited epigenetically across generations?",
+  "domain": "biology",
+  "population": 500000000,
+  "urgency": 0.7,
+  "mechanism": "Stem cell differentiation into target tissue type",
+  "hypothesis": "If Stem cell differentiation into target tissue type is applied to epigenetically, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "In vitro cell culture assay",
+    "duration_months": 28,
+    "estimated_cost_usd": 1231411,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "validated scale",
+    "protocol": "In vitro cell culture assay with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 53808360,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 20,
+    "economic_value_usd": 3228501600000
+  },
+  "confidence": 0.5466368422158783,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

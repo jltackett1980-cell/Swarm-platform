@@ -1,0 +1,32 @@
+{
+  "id": "2720657a1d97",
+  "generation": 9520,
+  "created_at": "2026-03-02T06:34:37.522405",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "The key to How to desalinate seawater at dramatically lower energy cost than reverse osmosis? is Enzymatic depolymerization of specific polymer \u2014 specifically Enzymatic depolymerization of \u2014 which would help 2,200,000,000 people affected.",
+  "experiment": {
+    "type": "Field pilot deployment",
+    "duration_months": 11,
+    "estimated_cost_usd": 129308,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Field pilot deployment with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 416923121,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 6,
+    "economic_value_usd": 29184618470000
+  },
+  "confidence": 0.47026439023494127,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

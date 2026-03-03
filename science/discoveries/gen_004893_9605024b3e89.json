@@ -1,0 +1,32 @@
+{
+  "id": "9605024b3e89",
+  "generation": 4893,
+  "created_at": "2026-03-02T06:15:02.120066",
+  "problem_id": "water_filtration_membrane",
+  "problem": "What membrane material filters all contaminants from water at low energy cost?",
+  "domain": "materials",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Perovskite crystal structure optimization",
+  "hypothesis": "What membrane material filters all contaminants from water at low energy cost? remains unsolved because previous research missed the role of Perovskite. Perovskite crystal structure optimization directly addresses this.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 17,
+    "estimated_cost_usd": 276425,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Synthesis and characterization with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 993040289,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 17,
+    "economic_value_usd": 29791208670000
+  },
+  "confidence": 0.3468671139940751,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

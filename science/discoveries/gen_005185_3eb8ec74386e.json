@@ -1,0 +1,32 @@
+{
+  "id": "3eb8ec74386e",
+  "generation": 5185,
+  "created_at": "2026-03-02T06:15:56.276819",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "Attention mechanism with linear complexity may resolve Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved by activating at the systems level.",
+  "experiment": {
+    "type": "Security audit",
+    "duration_months": 4,
+    "estimated_cost_usd": 15033,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Security audit with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1464890577,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 7,
+    "economic_value_usd": 131840151930000
+  },
+  "confidence": 0.7856877380720952,
+  "wisdom": "The art of science is asking the right question, not answering. \u2014 Max Planck paraphrase",
+  "status": "proposed"
+}

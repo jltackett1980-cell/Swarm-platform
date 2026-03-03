@@ -1,0 +1,32 @@
+{
+  "id": "d6f8f53b94c6",
+  "generation": 8590,
+  "created_at": "2026-03-02T06:29:36.821202",
+  "problem_id": "quantum_decoherence",
+  "problem": "Why does quantum superposition collapse \u2014 can decoherence be prevented at scale?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "Plasma confinement via magnetic mirror geometry may resolve Why does quantum superposition collapse \u2014 can decoherence be prevented at scale? by activating at the systems level.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 5,
+    "estimated_cost_usd": 85759,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2951852364,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 18,
+    "economic_value_usd": 177111141840000
+  },
+  "confidence": 0.5588936058122198,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

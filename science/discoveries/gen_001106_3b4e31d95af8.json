@@ -1,0 +1,32 @@
+{
+  "id": "3b4e31d95af8",
+  "generation": 1106,
+  "created_at": "2026-03-02T06:05:53.084007",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Hydrogel swelling/shrinking response",
+  "hypothesis": "Combining Hydrogel swelling/shrinking response with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 34,
+    "estimated_cost_usd": 466524,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Prototype device testing with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3601269,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 28,
+    "economic_value_usd": 108038070000
+  },
+  "confidence": 0.583334806117157,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

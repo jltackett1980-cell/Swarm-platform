@@ -1,0 +1,32 @@
+{
+  "id": "7368838b3716",
+  "generation": 6961,
+  "created_at": "2026-03-02T06:22:28.272509",
+  "problem_id": "autism_connectivity",
+  "problem": "What neural connectivity differences cause autism spectrum characteristics?",
+  "domain": "neuroscience",
+  "population": 75000000,
+  "urgency": 0.75,
+  "mechanism": "Glial cell activation/suppression in target brain region",
+  "hypothesis": "Glial cell activation/suppression in target brain region may resolve What neural connectivity differences cause autism spectrum characteristics? by activating at the systems level.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 7,
+    "estimated_cost_usd": 205773,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 264,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 36459770,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 18,
+    "economic_value_usd": 1822988500000
+  },
+  "confidence": 0.3688770348036779,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

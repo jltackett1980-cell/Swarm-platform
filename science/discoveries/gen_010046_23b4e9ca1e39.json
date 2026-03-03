@@ -1,0 +1,32 @@
+{
+  "id": "23b4e9ca1e39",
+  "generation": 10046,
+  "created_at": "2026-03-02T06:42:16.965736",
+  "problem_id": "alzheimers_mechanism",
+  "problem": "Why do amyloid plaques form in Alzheimer's and can they be cleared?",
+  "domain": "biology",
+  "population": 55000000,
+  "urgency": 0.95,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "The key to Why do amyloid plaques form in Alzheimer's and can they be cleared? is Small molecule inhibitor of enzyme active site \u2014 specifically Small molecule inhibitor \u2014 which would help 55,000,000 people affected.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 34,
+    "estimated_cost_usd": 1473806,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "validated scale",
+    "protocol": "Randomized controlled trial Phase I with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 22810764,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 20,
+    "economic_value_usd": 1140538200000
+  },
+  "confidence": 0.7649827075331234,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

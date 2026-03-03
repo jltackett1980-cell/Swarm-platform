@@ -1,0 +1,32 @@
+{
+  "id": "4990223fec0a",
+  "generation": 3682,
+  "created_at": "2026-03-02T06:11:32.940959",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Enzymatic depolymerization of specific polymer",
+  "hypothesis": "If Enzymatic depolymerization of specific polymer is applied to to, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 3,
+    "estimated_cost_usd": 40428,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 3 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 155526990,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 30,
+    "economic_value_usd": 10886889300000
+  },
+  "confidence": 0.638384545655158,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "3a7429696ca2",
+  "generation": 303,
+  "created_at": "2026-03-02T06:04:34.917132",
+  "problem_id": "room_temp_superconductor",
+  "problem": "Can superconductivity be achieved at room temperature \u2014 what material structure?",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Casimir effect between nanoscale surfaces",
+  "hypothesis": "Can superconductivity be achieved at room temperature \u2014 what material structure? remains unsolved because previous research missed the role of Casimir. Casimir effect between nanoscale surfaces directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 9,
+    "estimated_cost_usd": 156922,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 9 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1914648881,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 23,
+    "economic_value_usd": 114878932860000
+  },
+  "confidence": 0.30509178419121846,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

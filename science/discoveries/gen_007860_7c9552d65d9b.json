@@ -1,0 +1,32 @@
+{
+  "id": "7c9552d65d9b",
+  "generation": 7860,
+  "created_at": "2026-03-02T06:26:16.551326",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "If Cortical spreading depression mechanism in migraine is applied to in, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Longitudinal patient cohort",
+    "duration_months": 34,
+    "estimated_cost_usd": 1054285,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 583,
+    "outcome_measure": "validated scale",
+    "protocol": "Longitudinal patient cohort with 34 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3850503816,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 11,
+    "economic_value_usd": 192525190800000
+  },
+  "confidence": 0.30680236177519093,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "745a5e9b65c7",
+  "generation": 4862,
+  "created_at": "2026-03-02T06:14:55.433335",
+  "problem_id": "protein_folding_speed",
+  "problem": "Can protein structure be predicted from sequence in real time without AlphaFold compute cost?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.8,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "The key to Can protein structure be predicted from sequence in real time without AlphaFold compute cost? is Attention mechanism with linear complexity \u2014 specifically Attention mechanism with \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 6,
+    "estimated_cost_usd": 28305,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3866999302,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 10,
+    "economic_value_usd": 270689951140000
+  },
+  "confidence": 0.6856249661643878,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

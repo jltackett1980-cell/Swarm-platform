@@ -1,0 +1,32 @@
+{
+  "id": "009fe621cd48",
+  "generation": 1864,
+  "created_at": "2026-03-02T06:07:22.720684",
+  "problem_id": "neural_interface_material",
+  "problem": "What material is biocompatible, conductive, and flexible enough for long-term brain implants?",
+  "domain": "materials",
+  "population": 5400000,
+  "urgency": 0.9,
+  "mechanism": "Two-dimensional material stacking (van der Waals heterostructure)",
+  "hypothesis": "If Two-dimensional material stacking (van der Waals heterostructure) is applied to long-term, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Prototype device testing",
+    "duration_months": 7,
+    "estimated_cost_usd": 105242,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Prototype device testing with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1845917,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 21,
+    "economic_value_usd": 18459170000
+  },
+  "confidence": 0.771482649530078,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

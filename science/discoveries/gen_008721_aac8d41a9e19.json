@@ -1,0 +1,32 @@
+{
+  "id": "aac8d41a9e19",
+  "generation": 8721,
+  "created_at": "2026-03-02T06:30:13.985723",
+  "problem_id": "chronic_fatigue_cause",
+  "problem": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified",
+  "domain": "biology",
+  "population": 17000000,
+  "urgency": 0.8,
+  "mechanism": "Small molecule inhibitor of enzyme active site",
+  "hypothesis": "What causes chronic fatigue syndrome \u2014 no biomarker or mechanism identified remains unsolved because previous research missed the role of Small. Small molecule inhibitor of enzyme active site directly addresses this.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 8,
+    "estimated_cost_usd": 326797,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 282,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 11894307,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 25,
+    "economic_value_usd": 713658420000
+  },
+  "confidence": 0.5399271413883282,
+  "wisdom": "In the beginner's mind there are many possibilities. In the expert's mind there are few. \u2014 Shunryu Suzuki",
+  "status": "proposed"
+}

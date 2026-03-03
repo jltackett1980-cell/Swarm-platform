@@ -1,0 +1,32 @@
+{
+  "id": "a911b61669a3",
+  "generation": 393,
+  "created_at": "2026-03-02T06:04:43.031731",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Spintronics for low-power data storage",
+  "hypothesis": "The key to How to store solar energy at grid scale without chemical battery degradation? is Spintronics for low-power data storage \u2014 specifically Spintronics for low-power \u2014 which would help 3,000,000,000 people affected.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 5,
+    "estimated_cost_usd": 101828,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Materials characterization (XRD, SEM) with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 820267065,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 26,
+    "economic_value_usd": 65621365200000
+  },
+  "confidence": 0.36428172009661813,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

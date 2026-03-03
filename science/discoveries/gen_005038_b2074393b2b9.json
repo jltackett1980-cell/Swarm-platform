@@ -1,0 +1,32 @@
+{
+  "id": "b2074393b2b9",
+  "generation": 5038,
+  "created_at": "2026-03-02T06:15:28.093792",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "The key to How are long-term memories physically encoded in neural tissue? is Synaptic plasticity modulation via NMDA receptor \u2014 specifically Synaptic plasticity modulation \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 35,
+    "estimated_cost_usd": 845391,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 591,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 35 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1345925992,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 14,
+    "economic_value_usd": 80755559520000
+  },
+  "confidence": 0.6833866935703694,
+  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "status": "proposed"
+}

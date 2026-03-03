@@ -1,0 +1,32 @@
+{
+  "id": "fbbe11aded21",
+  "generation": 7135,
+  "created_at": "2026-03-02T06:23:11.065958",
+  "problem_id": "nitrogen_fixation",
+  "problem": "How to achieve biological nitrogen fixation in non-legume crops to eliminate fertilizer?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "Combining Constructed wetland for water filtration with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Mesocosm controlled study",
+    "duration_months": 10,
+    "estimated_cost_usd": 149707,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Mesocosm controlled study with 10 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 59232620,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 25,
+    "economic_value_usd": 1184652400000
+  },
+  "confidence": 0.7067649742359907,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

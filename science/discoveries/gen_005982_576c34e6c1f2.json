@@ -1,0 +1,32 @@
+{
+  "id": "576c34e6c1f2",
+  "generation": 5982,
+  "created_at": "2026-03-02T06:18:38.504715",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Federated learning without data centralization",
+  "hypothesis": "If Federated learning without data centralization is applied to what, then function improves will occur because the mechanism targets the root cause directly.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 11,
+    "estimated_cost_usd": 52444,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1515511371,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 8,
+    "economic_value_usd": 60620454840000
+  },
+  "confidence": 0.5788576180552323,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

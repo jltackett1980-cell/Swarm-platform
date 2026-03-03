@@ -1,0 +1,32 @@
+{
+  "id": "e0e09c9b71bc",
+  "generation": 6322,
+  "created_at": "2026-03-02T06:19:52.861038",
+  "problem_id": "plastic_biodegradation",
+  "problem": "What enzyme or organism efficiently degrades all plastic types at scale?",
+  "domain": "materials",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Aerogel porosity for thermal/acoustic insulation",
+  "hypothesis": "What enzyme or organism efficiently degrades all plastic types at scale? remains unsolved because previous research missed the role of Aerogel. Aerogel porosity for thermal/acoustic insulation directly addresses this.",
+  "experiment": {
+    "type": "Synthesis and characterization",
+    "duration_months": 28,
+    "estimated_cost_usd": 412675,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Synthesis and characterization with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2980478648,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 18,
+    "economic_value_usd": 208633505360000
+  },
+  "confidence": 0.33743690568960255,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

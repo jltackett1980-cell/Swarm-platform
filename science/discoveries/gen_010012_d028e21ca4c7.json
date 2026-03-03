@@ -1,0 +1,32 @@
+{
+  "id": "d028e21ca4c7",
+  "generation": 10012,
+  "created_at": "2026-03-02T06:40:33.093976",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Topological insulator surface state conduction",
+  "hypothesis": "Topological insulator surface state conduction may resolve How to store solar energy at grid scale without chemical battery degradation? by activating at the systems level.",
+  "experiment": {
+    "type": "Spectroscopic analysis",
+    "duration_months": 11,
+    "estimated_cost_usd": 200666,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Spectroscopic analysis with 11 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1364114797,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 20,
+    "economic_value_usd": 95488035790000
+  },
+  "confidence": 0.5383966375264151,
+  "wisdom": "What we observe is not nature itself but nature exposed to our method of questioning. \u2014 Heisenberg",
+  "status": "proposed"
+}

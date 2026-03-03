@@ -1,0 +1,32 @@
+{
+  "id": "beb5ae6efa59",
+  "generation": 9837,
+  "created_at": "2026-03-02T06:36:16.712364",
+  "problem_id": "solar_energy_storage",
+  "problem": "How to store solar energy at grid scale without chemical battery degradation?",
+  "domain": "physics",
+  "population": 3000000000,
+  "urgency": 0.9,
+  "mechanism": "Resonant inductive coupling for wireless power",
+  "hypothesis": "Resonant inductive coupling for wireless power may resolve How to store solar energy at grid scale without chemical battery degradation? by activating at the systems level.",
+  "experiment": {
+    "type": "Calorimetric measurement",
+    "duration_months": 5,
+    "estimated_cost_usd": 113027,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Calorimetric measurement with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 355372173,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 22,
+    "economic_value_usd": 14214886920000
+  },
+  "confidence": 0.5174674746923369,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "3d6b37b0aa24",
+  "generation": 10235,
+  "created_at": "2026-03-02T11:48:37.435854",
+  "problem_id": "gravity_quantum",
+  "problem": "How does gravity behave at quantum scales \u2014 quantum gravity unresolved",
+  "domain": "physics",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Magnetohydrodynamic flow without moving parts",
+  "hypothesis": "How does gravity behave at quantum scales \u2014 quantum gravity unresolved remains unsolved because previous research missed the role of Magnetohydrodynamic. Magnetohydrodynamic flow without moving parts directly addresses this.",
+  "experiment": {
+    "type": "Computational simulation",
+    "duration_months": 12,
+    "estimated_cost_usd": 247846,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Computational simulation with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3880256459,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 10,
+    "economic_value_usd": 194012822950000
+  },
+  "confidence": 0.43418810043865413,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

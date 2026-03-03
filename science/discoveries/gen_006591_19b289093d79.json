@@ -1,0 +1,32 @@
+{
+  "id": "19b289093d79",
+  "generation": 6591,
+  "created_at": "2026-03-02T06:20:53.306712",
+  "problem_id": "pain_chronification",
+  "problem": "Why does acute pain become chronic in some people \u2014 what neural change occurs?",
+  "domain": "biology",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Telomerase activation/inhibition in target cells",
+  "hypothesis": "If Telomerase activation/inhibition in target cells is applied to neural, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 6,
+    "estimated_cost_usd": 203467,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 244,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 6 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 23908379,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 8,
+    "economic_value_usd": 956335160000
+  },
+  "confidence": 0.3227242364143888,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

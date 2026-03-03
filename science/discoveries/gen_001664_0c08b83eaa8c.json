@@ -1,0 +1,32 @@
+{
+  "id": "0c08b83eaa8c",
+  "generation": 1664,
+  "created_at": "2026-03-02T06:06:59.280401",
+  "problem_id": "depression_neurobiology",
+  "problem": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient",
+  "domain": "neuroscience",
+  "population": 280000000,
+  "urgency": 0.9,
+  "mechanism": "Synaptic plasticity modulation via NMDA receptor",
+  "hypothesis": "What is the actual neurobiological mechanism of depression \u2014 serotonin alone is insufficient remains unsolved because previous research missed the role of Synaptic. Synaptic plasticity modulation via NMDA receptor directly addresses this.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 28,
+    "estimated_cost_usd": 708355,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 529,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 28 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 47841891,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 19,
+    "economic_value_usd": 956837820000
+  },
+  "confidence": 0.46454894894056026,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

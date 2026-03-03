@@ -1,0 +1,39 @@
+{
+  "id": "24c7b5ae",
+  "name": "PulseRelief",
+  "generation": 35,
+  "created_at": "2026-03-02T17:08:39.097889",
+  "pain": "chronic_pain",
+  "population": 50000000,
+  "problem": "50M Americans in daily pain with no affordable relief",
+  "physics": "electromagnetic",
+  "physics_desc": "Pulsed electric/magnetic fields",
+  "physics_proven": true,
+  "comparable_devices": [
+    "TENS units",
+    "PEMF therapy"
+  ],
+  "form_factor": "wearable patch",
+  "complexity": 8,
+  "specs": {
+    "power_watts": 0.0011,
+    "size_cm": 2.6,
+    "cost_usd": 177.87,
+    "battery_hours": 111.6
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "PainLog",
+  "companion_domain": "chronic_pain",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

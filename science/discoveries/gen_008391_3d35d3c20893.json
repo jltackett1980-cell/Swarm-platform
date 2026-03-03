@@ -1,32 +1,32 @@
 {
   "id": "3d35d3c20893",
   "generation": 8391,
-  "created_at": "2026-03-01T05:38:37.110706",
+  "created_at": "2026-03-02T06:28:41.235047",
   "problem_id": "autoimmune_trigger",
   "problem": "Why does the immune system attack the body's own tissue in autoimmune disease?",
   "domain": "biology",
   "population": 50000000,
   "urgency": 0.85,
   "mechanism": "CRISPR gene editing targeting specific pathway",
-  "hypothesis": "Combining CRISPR gene editing targeting specific pathway with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "hypothesis": "Why does the immune system attack the body's own tissue in autoimmune disease? remains unsolved because previous research missed the role of CRISPR. CRISPR gene editing targeting specific pathway directly addresses this.",
   "experiment": {
-    "type": "Randomized controlled trial Phase I",
-    "duration_months": 17,
-    "estimated_cost_usd": 788028,
+    "type": "Mouse model knockout study",
+    "duration_months": 35,
+    "estimated_cost_usd": 1377516,
     "falsifiable": true,
     "control_required": true,
     "blinding": "double-blind",
-    "sample_size": 412,
+    "sample_size": 591,
     "outcome_measure": "validated scale",
-    "protocol": "Randomized controlled trial Phase I with 17 month follow-up. Control group receives placebo/sham."
+    "protocol": "Mouse model knockout study with 35 month follow-up. Control group receives placebo/sham."
   },
   "impact": {
-    "lives_impacted": 25782890,
-    "quality_of_life_gain_pct": 90,
-    "years_of_benefit": 19,
-    "economic_value_usd": 2320460100000
+    "lives_impacted": 23400711,
+    "quality_of_life_gain_pct": 10,
+    "years_of_benefit": 28,
+    "economic_value_usd": 234007110000
   },
-  "confidence": 0.7401010965262694,
-  "wisdom": "Real knowledge is to know the extent of one's ignorance. \u2014 Confucius",
+  "confidence": 0.49400828458974083,
+  "wisdom": "The impediment to action advances action. What stands in the way becomes the way. \u2014 Marcus Aurelius",
   "status": "proposed"
 }

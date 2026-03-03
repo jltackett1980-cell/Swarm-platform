@@ -1,0 +1,32 @@
+{
+  "id": "d6d22c7cce0c",
+  "generation": 9294,
+  "created_at": "2026-03-02T06:33:29.684324",
+  "problem_id": "neuroplasticity_limit",
+  "problem": "What limits adult neuroplasticity \u2014 can those limits be safely removed?",
+  "domain": "neuroscience",
+  "population": 200000000,
+  "urgency": 0.75,
+  "mechanism": "Vagus nerve stimulation modulating brain-gut axis",
+  "hypothesis": "Combining Vagus nerve stimulation modulating brain-gut axis with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 16,
+    "estimated_cost_usd": 486995,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 400,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 16 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 88509126,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 26,
+    "economic_value_usd": 2655273780000
+  },
+  "confidence": 0.4438397605514575,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

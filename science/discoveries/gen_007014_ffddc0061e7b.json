@@ -1,0 +1,32 @@
+{
+  "id": "ffddc0061e7b",
+  "generation": 7014,
+  "created_at": "2026-03-02T06:22:41.796844",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "Homomorphic encryption for private computation",
+  "hypothesis": "Homomorphic encryption for private computation may resolve How to predict drug-receptor binding affinity from molecular structure without wet lab? by activating at the systems level.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 2,
+    "estimated_cost_usd": 8507,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Hardware prototype with 2 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3063178681,
+    "quality_of_life_gain_pct": 40,
+    "years_of_benefit": 5,
+    "economic_value_usd": 122527147240000
+  },
+  "confidence": 0.4795209847392097,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

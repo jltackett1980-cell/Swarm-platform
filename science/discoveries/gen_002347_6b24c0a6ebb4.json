@@ -1,0 +1,32 @@
+{
+  "id": "6b24c0a6ebb4",
+  "generation": 2347,
+  "created_at": "2026-03-02T06:08:21.987082",
+  "problem_id": "aging_mechanism",
+  "problem": "What is the primary molecular cause of biological aging \u2014 can it be slowed?",
+  "domain": "biology",
+  "population": 8000000000,
+  "urgency": 0.7,
+  "mechanism": "Photodynamic therapy targeting specific cell receptors",
+  "hypothesis": "Photodynamic therapy targeting specific cell receptors may resolve What is the primary molecular cause of biological aging \u2014 can it be slowed? by activating at the molecular level.",
+  "experiment": {
+    "type": "Randomized controlled trial Phase I",
+    "duration_months": 29,
+    "estimated_cost_usd": 1292209,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 538,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Randomized controlled trial Phase I with 29 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1858797705,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 15,
+    "economic_value_usd": 37175954100000
+  },
+  "confidence": 0.3174320094246065,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

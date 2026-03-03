@@ -1,0 +1,32 @@
+{
+  "id": "3acc247d0490",
+  "generation": 3918,
+  "created_at": "2026-03-02T06:12:11.369809",
+  "problem_id": "sleep_function",
+  "problem": "Why do all animals sleep \u2014 what is the essential biological function?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Cortical spreading depression mechanism in migraine",
+  "hypothesis": "The key to Why do all animals sleep \u2014 what is the essential biological function? is Cortical spreading depression mechanism in migraine \u2014 specifically Cortical spreading depression \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 17,
+    "estimated_cost_usd": 451509,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 412,
+    "outcome_measure": "validated scale",
+    "protocol": "EEG/MEG signal analysis with 17 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3082230050,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 23,
+    "economic_value_usd": 246578404000000
+  },
+  "confidence": 0.35663660318064583,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

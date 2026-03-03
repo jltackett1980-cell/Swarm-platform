@@ -1,0 +1,32 @@
+{
+  "id": "25e823baaf0e",
+  "generation": 5175,
+  "created_at": "2026-03-02T06:15:54.522488",
+  "problem_id": "ocean_acidification",
+  "problem": "Can ocean acidification be safely reversed \u2014 what biochemical approach?",
+  "domain": "environment",
+  "population": 3000000000,
+  "urgency": 0.85,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "Combining Bioelectrochemical system for pollutant conversion with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Microbial community sequencing",
+    "duration_months": 12,
+    "estimated_cost_usd": 139391,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Microbial community sequencing with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 692761648,
+    "quality_of_life_gain_pct": 70,
+    "years_of_benefit": 11,
+    "economic_value_usd": 48493315360000
+  },
+  "confidence": 0.6222567671113466,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

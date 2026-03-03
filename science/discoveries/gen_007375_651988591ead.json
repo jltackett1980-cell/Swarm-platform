@@ -1,0 +1,32 @@
+{
+  "id": "651988591ead",
+  "generation": 7375,
+  "created_at": "2026-03-02T06:24:10.963756",
+  "problem_id": "schizophrenia_dopamine",
+  "problem": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary?",
+  "domain": "neuroscience",
+  "population": 24000000,
+  "urgency": 0.85,
+  "mechanism": "Fear memory reconsolidation interference via timing",
+  "hypothesis": "Is dopamine dysregulation cause or effect in schizophrenia \u2014 what is primary? remains unsolved because previous research missed the role of Fear. Fear memory reconsolidation interference via timing directly addresses this.",
+  "experiment": {
+    "type": "EEG/MEG signal analysis",
+    "duration_months": 26,
+    "estimated_cost_usd": 789031,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "EEG/MEG signal analysis with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16141042,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 18,
+    "economic_value_usd": 484231260000
+  },
+  "confidence": 0.47868832073607825,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

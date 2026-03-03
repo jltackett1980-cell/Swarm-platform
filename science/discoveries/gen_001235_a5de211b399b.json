@@ -1,0 +1,32 @@
+{
+  "id": "a5de211b399b",
+  "generation": 1235,
+  "created_at": "2026-03-02T06:06:07.443824",
+  "problem_id": "chronic_pain_central",
+  "problem": "How does central sensitization maintain chronic pain without tissue damage?",
+  "domain": "neuroscience",
+  "population": 50000000,
+  "urgency": 0.9,
+  "mechanism": "Dopamine/serotonin reuptake inhibition with specificity",
+  "hypothesis": "Dopamine/serotonin reuptake inhibition with specificity may resolve How does central sensitization maintain chronic pain without tissue damage? by blocking at the systems level.",
+  "experiment": {
+    "type": "Optogenetic mouse model",
+    "duration_months": 5,
+    "estimated_cost_usd": 162491,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 223,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Optogenetic mouse model with 5 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 16680735,
+    "quality_of_life_gain_pct": 80,
+    "years_of_benefit": 9,
+    "economic_value_usd": 1334458800000
+  },
+  "confidence": 0.557817124712536,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

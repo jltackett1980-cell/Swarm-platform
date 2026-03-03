@@ -1,0 +1,32 @@
+{
+  "id": "8a1c0650d103",
+  "generation": 9842,
+  "created_at": "2026-03-02T06:36:17.671547",
+  "problem_id": "ai_energy_efficiency",
+  "problem": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.85,
+  "mechanism": "Attention mechanism with linear complexity",
+  "hypothesis": "Why does biological neural computation use 20W while AI uses megawatts \u2014 what is different? remains unsolved because previous research missed the role of Attention. Attention mechanism with linear complexity directly addresses this.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 7,
+    "estimated_cost_usd": 28095,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 7 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3432516464,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 15,
+    "economic_value_usd": 68650329280000
+  },
+  "confidence": 0.5921796895185911,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

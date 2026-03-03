@@ -1,0 +1,32 @@
+{
+  "id": "880f80da35d3",
+  "generation": 952,
+  "created_at": "2026-03-02T06:05:35.929608",
+  "problem_id": "soil_microbiome_restore",
+  "problem": "How to restore depleted agricultural soil microbiome rapidly at scale?",
+  "domain": "environment",
+  "population": 500000000,
+  "urgency": 0.9,
+  "mechanism": "Constructed wetland for water filtration",
+  "hypothesis": "Combining Constructed wetland for water filtration with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 8,
+    "estimated_cost_usd": 107896,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 166121218,
+    "quality_of_life_gain_pct": 90,
+    "years_of_benefit": 8,
+    "economic_value_usd": 14950909620000
+  },
+  "confidence": 0.762361147889101,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}

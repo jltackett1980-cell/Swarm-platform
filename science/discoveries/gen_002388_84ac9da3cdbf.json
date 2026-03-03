@@ -1,0 +1,32 @@
+{
+  "id": "84ac9da3cdbf",
+  "generation": 2388,
+  "created_at": "2026-03-02T06:08:26.815544",
+  "problem_id": "memory_storage",
+  "problem": "How are long-term memories physically encoded in neural tissue?",
+  "domain": "neuroscience",
+  "population": 8000000000,
+  "urgency": 0.65,
+  "mechanism": "Deep brain stimulation of subthalamic nucleus",
+  "hypothesis": "The key to How are long-term memories physically encoded in neural tissue? is Deep brain stimulation of subthalamic nucleus \u2014 specifically Deep brain stimulation \u2014 which would help 8,000,000,000 people affected.",
+  "experiment": {
+    "type": "Human TMS-EEG study",
+    "duration_months": 27,
+    "estimated_cost_usd": 842722,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 519,
+    "outcome_measure": "validated scale",
+    "protocol": "Human TMS-EEG study with 27 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2686702184,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 29,
+    "economic_value_usd": 53734043680000
+  },
+  "confidence": 0.35467400153337475,
+  "wisdom": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. \u2014 Tesla",
+  "status": "proposed"
+}

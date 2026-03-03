@@ -1,0 +1,32 @@
+{
+  "id": "48469228b995",
+  "generation": 6558,
+  "created_at": "2026-03-02T06:20:46.654542",
+  "problem_id": "np_vs_p",
+  "problem": "Are NP-complete problems solvable in polynomial time \u2014 P vs NP unsolved",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.55,
+  "mechanism": "Reservoir computing with physical substrate",
+  "hypothesis": "If Reservoir computing with physical substrate is applied to vs, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Benchmark on standard dataset",
+    "duration_months": 12,
+    "estimated_cost_usd": 46548,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Benchmark on standard dataset with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 2823752503,
+    "quality_of_life_gain_pct": 20,
+    "years_of_benefit": 9,
+    "economic_value_usd": 56475050060000
+  },
+  "confidence": 0.5387698393302203,
+  "wisdom": "Nature uses only the longest threads to weave her patterns. \u2014 Richard Feynman",
+  "status": "proposed"
+}

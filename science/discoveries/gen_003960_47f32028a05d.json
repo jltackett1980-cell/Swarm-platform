@@ -1,0 +1,32 @@
+{
+  "id": "47f32028a05d",
+  "generation": 3960,
+  "created_at": "2026-03-02T06:12:18.169768",
+  "problem_id": "drug_discovery_speed",
+  "problem": "How to predict drug-receptor binding affinity from molecular structure without wet lab?",
+  "domain": "computing",
+  "population": 8000000000,
+  "urgency": 0.9,
+  "mechanism": "DNA computing for massively parallel search",
+  "hypothesis": "Combining DNA computing for massively parallel search with current standard of care could unlock function improves by addressing existing therapies only treat symptoms.",
+  "experiment": {
+    "type": "Hardware prototype",
+    "duration_months": 1,
+    "estimated_cost_usd": 3367,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "validated scale",
+    "protocol": "Hardware prototype with 1 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1091087258,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 18,
+    "economic_value_usd": 65465235480000
+  },
+  "confidence": 0.6141364308512132,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "88a6d7e0cae9",
+  "generation": 2589,
+  "created_at": "2026-03-02T06:08:53.100229",
+  "problem_id": "wound_regeneration",
+  "problem": "Why can salamanders regenerate limbs but humans cannot \u2014 what gene pathway?",
+  "domain": "biology",
+  "population": 2100000,
+  "urgency": 0.75,
+  "mechanism": "CRISPR gene editing targeting specific pathway",
+  "hypothesis": "If CRISPR gene editing targeting specific pathway is applied to what, then function improves will occur because prior evidence supports this pathway.",
+  "experiment": {
+    "type": "Human organoid model",
+    "duration_months": 26,
+    "estimated_cost_usd": 916450,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "double-blind",
+    "sample_size": 509,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Human organoid model with 26 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 1288202,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 20,
+    "economic_value_usd": 77292120000
+  },
+  "confidence": 0.33909922397622316,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}

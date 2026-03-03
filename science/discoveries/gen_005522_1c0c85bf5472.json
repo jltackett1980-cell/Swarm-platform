@@ -1,0 +1,32 @@
+{
+  "id": "1c0c85bf5472",
+  "generation": 5522,
+  "created_at": "2026-03-02T06:17:02.433210",
+  "problem_id": "water_desalination_energy",
+  "problem": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis?",
+  "domain": "environment",
+  "population": 2200000000,
+  "urgency": 0.95,
+  "mechanism": "Bioelectrochemical system for pollutant conversion",
+  "hypothesis": "How to desalinate seawater at dramatically lower energy cost than reverse osmosis? remains unsolved because previous research missed the role of Bioelectrochemical. Bioelectrochemical system for pollutant conversion directly addresses this.",
+  "experiment": {
+    "type": "Sensor network monitoring",
+    "duration_months": 8,
+    "estimated_cost_usd": 89860,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Sensor network monitoring with 8 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 796789809,
+    "quality_of_life_gain_pct": 50,
+    "years_of_benefit": 15,
+    "economic_value_usd": 39839490450000
+  },
+  "confidence": 0.44521709873931686,
+  "wisdom": "We cannot solve problems with the same thinking that created them. \u2014 Einstein paraphrase",
+  "status": "proposed"
+}
