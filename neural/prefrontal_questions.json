@@ -193,9 +193,21 @@
       "priority": "medium",
       "type": "philosophical",
       "generated_at": "2026-02-28T11:38:28.725656"
+    },
+    {
+      "question": "Why does salon score 590 \u2014 specifically what is 'unknown' doing for the user?",
+      "source": "dopamine",
+      "priority": "high",
+      "context": {
+        "domain": "salon",
+        "score": 590,
+        "why": "wu_wei_no_friction"
+      },
+      "type": "understand_success",
+      "generated_at": "2026-03-02T18:55:36.293111"
     }
   ],
   "answered": [],
-  "generated": 235470,
+  "generated": 235518,
   "questions": []
 }

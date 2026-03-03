@@ -1,9 +1,9 @@
 {
   "current_phase": "emergency",
-  "phase_generation": 32,
-  "total_generation": 4606,
+  "phase_generation": 33,
+  "total_generation": 4607,
   "last_best_score": 574.0,
-  "stagnation_counter": 31,
+  "stagnation_counter": 32,
   "rest_cycles_done": 0,
   "phase_history": [
     {
@@ -278,11 +278,6 @@
     }
   ],
   "score_history": [
-    {
-      "score": 549,
-      "gen": 4406,
-      "timestamp": "2026-03-02T17:26:09.691604"
-    },
     {
       "score": 549,
       "gen": 4407,
@@ -1277,6 +1272,11 @@
       "score": 549,
       "gen": 4605,
       "timestamp": "2026-03-02T17:38:40.690004"
+    },
+    {
+      "score": 574,
+      "gen": 4606,
+      "timestamp": "2026-03-02T18:55:36.286643"
     }
   ]
 }

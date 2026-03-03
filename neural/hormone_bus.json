@@ -1,6 +1,6 @@
 {
   "generation": 393,
-  "active_count": 139,
+  "active_count": 141,
   "signals": [
     {
       "id": "growth_hormone_1772494521875",
@@ -3689,33 +3689,57 @@
       "emitted_at": "2026-03-02T17:38:40.715219",
       "consumed_by": [],
       "active": true
+    },
+    {
+      "id": "oxytocin_1772499336472",
+      "type": "oxytocin",
+      "color": "\ud83d\udc97",
+      "meaning": "Empathy \u2014 deep human connection found, share across domains",
+      "source": "amygdala",
+      "targets": [
+        "corpus_callosum",
+        "hippocampus"
+      ],
+      "intensity": 0.7875000000000001,
+      "duration": 8,
+      "effect": "amplify_cross_domain_insight_transfer",
+      "context": {
+        "domain": "accounting",
+        "pattern": "immediate_relief",
+        "feeling": "relief \u2014 it knew what I needed before I asked",
+        "insight": "accounting knows how to make people feel safe",
+        "action": "Transfer accounting connection pattern to struggling domains"
+      },
+      "emitted_at": "2026-03-02T18:55:36.472362",
+      "consumed_by": [],
+      "active": true
+    },
+    {
+      "id": "oxytocin_1772499336489",
+      "type": "oxytocin",
+      "color": "\ud83d\udc97",
+      "meaning": "Empathy \u2014 deep human connection found, share across domains",
+      "source": "amygdala",
+      "targets": [
+        "corpus_callosum",
+        "hippocampus"
+      ],
+      "intensity": 0.7875000000000001,
+      "duration": 8,
+      "effect": "amplify_cross_domain_insight_transfer",
+      "context": {
+        "domain": "autonomous_vehicle",
+        "pattern": "immediate_relief",
+        "feeling": "relief \u2014 it knew what I needed before I asked",
+        "insight": "autonomous_vehicle knows how to make people feel safe",
+        "action": "Transfer autonomous_vehicle connection pattern to struggling domains"
+      },
+      "emitted_at": "2026-03-02T18:55:36.489935",
+      "consumed_by": [],
+      "active": true
     }
   ],
   "history": [
-    {
-      "generation": 347,
-      "type": "testosterone",
-      "source": "prefrontal",
-      "intensity": 0.47,
-      "context": {
-        "exploring": "score_gap_salon_vs_law",
-        "gap": 47,
-        "action": "Evolve law using salon patterns"
-      },
-      "time": "2026-03-02T17:35:33.628530"
-    },
-    {
-      "generation": 347,
-      "type": "testosterone",
-      "source": "prefrontal",
-      "intensity": 0.9,
-      "context": {
-        "exploring": "domestic_violence_shelter",
-        "reason": "High human pain, unbuilt domain",
-        "action": "Build domestic_violence_shelter \u2014 design from fear outward"
-      },
-      "time": "2026-03-02T17:35:33.648444"
-    },
     {
       "generation": 347,
       "type": "serotonin",
@@ -11854,7 +11878,35 @@
         "action": "Expand platform \u2014 build next high-pain domain"
       },
       "time": "2026-03-02T17:38:40.715219"
+    },
+    {
+      "generation": 393,
+      "type": "oxytocin",
+      "source": "amygdala",
+      "intensity": 0.7875000000000001,
+      "context": {
+        "domain": "accounting",
+        "pattern": "immediate_relief",
+        "feeling": "relief \u2014 it knew what I needed before I asked",
+        "insight": "accounting knows how to make people feel safe",
+        "action": "Transfer accounting connection pattern to struggling domains"
+      },
+      "time": "2026-03-02T18:55:36.472362"
+    },
+    {
+      "generation": 393,
+      "type": "oxytocin",
+      "source": "amygdala",
+      "intensity": 0.7875000000000001,
+      "context": {
+        "domain": "autonomous_vehicle",
+        "pattern": "immediate_relief",
+        "feeling": "relief \u2014 it knew what I needed before I asked",
+        "insight": "autonomous_vehicle knows how to make people feel safe",
+        "action": "Transfer autonomous_vehicle connection pattern to struggling domains"
+      },
+      "time": "2026-03-02T18:55:36.489935"
     }
   ],
-  "saved_at": "2026-03-02T17:38:40.743545"
+  "saved_at": "2026-03-02T18:55:36.490456"
 }

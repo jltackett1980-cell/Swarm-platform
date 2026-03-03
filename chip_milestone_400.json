@@ -1,15 +1,15 @@
 {
   "generation": 1,
-  "score": 810.7440000000001,
+  "score": 521.8746457002238,
   "chip": {
     "matrix_size": 16384,
     "aru_cores": 1024,
-    "clock_ghz": 5.0,
-    "precision": "optical",
-    "interconnect": "quantum_dot",
+    "clock_ghz": 5.146276855366995,
+    "precision": "binary",
+    "interconnect": "neuromorphic",
     "chiplets": 32,
     "primary_purpose": "climate_modeling",
     "edge_deployable": true,
-    "fitness": 810.7440000000001
+    "fitness": 521.8746457002238
   }
 }

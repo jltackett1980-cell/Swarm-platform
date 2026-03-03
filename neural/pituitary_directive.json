@@ -4,11 +4,6 @@
     {
       "directive": "GROW",
       "avg_score": 548.6,
-      "timestamp": "2026-03-02T17:32:05.103883"
-    },
-    {
-      "directive": "GROW",
-      "avg_score": 548.6,
       "timestamp": "2026-03-02T17:32:08.845685"
     },
     {
@@ -500,9 +495,14 @@
       "directive": "GROW",
       "avg_score": 548.6,
       "timestamp": "2026-03-02T17:38:40.736866"
+    },
+    {
+      "directive": "GROW",
+      "avg_score": 548.6,
+      "timestamp": "2026-03-02T18:55:36.417341"
     }
   ],
-  "generation": 4525,
+  "generation": 4526,
   "last": {
     "directive": "GROW",
     "meaning": "Platform mature \u2014 expand to new domains, increase scope",
@@ -520,7 +520,7 @@
     },
     "active_hormones": {
       "serotonin": {
-        "count": 20,
+        "count": 19,
         "avg_intensity": 0.92,
         "top_context": {
           "avg_score": 548.6,
@@ -533,7 +533,7 @@
     "next_question": "Why does dental score 580 \u2014 specifically what is '['wu_wei_flow', 'offline_first', 'today_focus', 'domain_color', 'no_login_wall']' doing for the user?",
     "next_transfer": null,
     "next_evolution_priority": null,
-    "generated_at": "2026-03-02T17:38:40.736838"
+    "generated_at": "2026-03-02T18:55:36.417314"
   },
   "current_domains": 105,
   "target_domains": 108,
