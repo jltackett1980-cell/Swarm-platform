@@ -1,0 +1,30 @@
+{
+  "domains": [
+    "quantum_biology",
+    "longevity_genetics",
+    "neuroplasticity",
+    "microbiome_mental",
+    "epigenetics_trauma",
+    "photobiomodulation",
+    "piezoelectric_healing",
+    "circadian_medicine",
+    "psychedelic_therapy",
+    "vagus_nerve"
+  ],
+  "mutations": {
+    "cross_domain_splice": {
+      "weight": 0.3
+    },
+    "ancient_wisdom_inject": {
+      "weight": 0.2
+    },
+    "failure_learn": {
+      "weight": 0.25
+    },
+    "convergence_detect": {
+      "weight": 0.25
+    }
+  },
+  "cycles": 100,
+  "priority": "human_suffering_reduction"
+}

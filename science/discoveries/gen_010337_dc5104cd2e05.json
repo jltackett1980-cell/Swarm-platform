@@ -1,0 +1,32 @@
+{
+  "id": "dc5104cd2e05",
+  "generation": 10337,
+  "created_at": "2026-03-03T09:44:44.056346",
+  "problem_id": "high_temp_battery",
+  "problem": "Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear",
+  "domain": "physics",
+  "population": 2000000000,
+  "urgency": 0.85,
+  "mechanism": "Plasma confinement via magnetic mirror geometry",
+  "hypothesis": "The key to Why do lithium batteries degrade at high temperature \u2014 ionic mechanism unclear is Plasma confinement via magnetic mirror geometry \u2014 specifically Plasma confinement via \u2014 which would help 2,000,000,000 people affected.",
+  "experiment": {
+    "type": "Materials characterization (XRD, SEM)",
+    "duration_months": 4,
+    "estimated_cost_usd": 87990,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Materials characterization (XRD, SEM) with 4 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 923470727,
+    "quality_of_life_gain_pct": 30,
+    "years_of_benefit": 25,
+    "economic_value_usd": 27704121810000
+  },
+  "confidence": 0.30654799311318165,
+  "wisdom": "The important thing is not to stop questioning. \u2014 Einstein",
+  "status": "proposed"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "05f8eb80e41c",
+  "generation": 10343,
+  "created_at": "2026-03-03T09:44:47.444240",
+  "problem_id": "co2_capture_catalyst",
+  "problem": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions?",
+  "domain": "environment",
+  "population": 8000000000,
+  "urgency": 0.95,
+  "mechanism": "Photocatalytic oxidation under visible light",
+  "hypothesis": "What catalyst efficiently converts atmospheric CO2 to useful compounds at ambient conditions? remains unsolved because previous research missed the role of Photocatalytic. Photocatalytic oxidation under visible light directly addresses this.",
+  "experiment": {
+    "type": "Life cycle assessment",
+    "duration_months": 12,
+    "estimated_cost_usd": 146016,
+    "falsifiable": true,
+    "control_required": true,
+    "blinding": "single-blind",
+    "sample_size": null,
+    "outcome_measure": "quantitative biomarker",
+    "protocol": "Life cycle assessment with 12 month follow-up. Control group receives placebo/sham."
+  },
+  "impact": {
+    "lives_impacted": 3702056562,
+    "quality_of_life_gain_pct": 60,
+    "years_of_benefit": 29,
+    "economic_value_usd": 222123393720000
+  },
+  "confidence": 0.3838247180834909,
+  "wisdom": "To know that you do not know is the best. \u2014 Lao Tzu",
+  "status": "proposed"
+}
