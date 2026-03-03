@@ -1,0 +1,39 @@
+{
+  "id": "1e015588",
+  "name": "EmberSignal",
+  "generation": 45102,
+  "created_at": "2026-03-03T11:29:24.259512",
+  "pain": "domestic_violence",
+  "population": 10000000,
+  "problem": "10M DV victims yearly \u2014 no discreet wearable alert system",
+  "physics": "rf_sensing",
+  "physics_desc": "Radio frequency for non-contact sensing",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Radar vital signs",
+    "Through-wall sensing"
+  ],
+  "form_factor": "discreet wearable clip",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0078,
+    "size_cm": 18.3,
+    "cost_usd": 149.8,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "SafeStep",
+  "companion_domain": "domestic_violence_shelter",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
