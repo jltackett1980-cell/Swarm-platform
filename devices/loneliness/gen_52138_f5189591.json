@@ -1,0 +1,39 @@
+{
+  "id": "f5189591",
+  "name": "LumenConnect",
+  "generation": 52138,
+  "created_at": "2026-03-03T11:52:51.472000",
+  "pain": "loneliness",
+  "population": 61000000,
+  "problem": "61M with severe loneliness \u2014 linked to early death, no device addresses this",
+  "physics": "mechanical_haptic",
+  "physics_desc": "Vibration, pressure, mechanical force",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Haptic feedback",
+    "Vibrotactile devices"
+  ],
+  "form_factor": "wrist band",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.5485,
+    "size_cm": 27.1,
+    "cost_usd": 242.51,
+    "battery_hours": 17.4
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "WithYou",
+  "companion_domain": "grief_support",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
