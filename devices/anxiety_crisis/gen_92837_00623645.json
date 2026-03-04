@@ -1,0 +1,39 @@
+{
+  "id": "00623645",
+  "name": "NexusCalm",
+  "generation": 92837,
+  "created_at": "2026-03-04T07:46:19.367046",
+  "pain": "anxiety_crisis",
+  "population": 40000000,
+  "problem": "40M with anxiety \u2014 panic attacks have no real-time wearable intervention",
+  "physics": "thermal",
+  "physics_desc": "Controlled heat and cold for therapeutic effect",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Targeted thermal therapy",
+    "Cryotherapy"
+  ],
+  "form_factor": "wrist band",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 5.2741,
+    "size_cm": 11.0,
+    "cost_usd": 112.89,
+    "battery_hours": 1.3
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "MindSpace",
+  "companion_domain": "mental_wellness",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
