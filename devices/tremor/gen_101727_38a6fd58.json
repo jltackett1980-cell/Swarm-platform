@@ -1,0 +1,39 @@
+{
+  "id": "38a6fd58",
+  "name": "NexusStill",
+  "generation": 101727,
+  "created_at": "2026-03-04T08:50:09.607067",
+  "pain": "tremor",
+  "population": 10000000,
+  "problem": "10M with essential tremor can't hold a pen or eat without spilling",
+  "physics": "electromagnetic",
+  "physics_desc": "Pulsed electric/magnetic fields",
+  "physics_proven": true,
+  "comparable_devices": [
+    "TENS units",
+    "PEMF therapy"
+  ],
+  "form_factor": "wrist stabilizer",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0103,
+    "size_cm": 4.6,
+    "cost_usd": 145.52,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
