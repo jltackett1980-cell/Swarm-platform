@@ -1,0 +1,39 @@
+{
+  "id": "bcee8bc3",
+  "name": "NexusRestore",
+  "generation": 79247,
+  "created_at": "2026-03-04T06:23:42.805027",
+  "pain": "traumatic_brain",
+  "population": 5300000,
+  "problem": "5.3M living with TBI \u2014 limited affordable recovery tools",
+  "physics": "photobiomodulation",
+  "physics_desc": "Specific light wavelengths stimulate cell function",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Red light therapy",
+    "Laser therapy"
+  ],
+  "form_factor": "headband",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.027,
+    "size_cm": 4.6,
+    "cost_usd": 92.92,
+    "battery_hours": 42.5
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
