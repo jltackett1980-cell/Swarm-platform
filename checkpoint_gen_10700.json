@@ -1,0 +1,19 @@
+{
+  "generation": 10700,
+  "best_score": 426.6615153114065,
+  "best_genome": null,
+  "mutation_rate": 0.7,
+  "tournament_size": 3,
+  "crossover_rate": 0.6,
+  "elitism": 10,
+  "stagnation_counter": 61,
+  "recovery_attempts": 11,
+  "recovery_modes_used": [
+    "recovery_random_immigrants",
+    "recovery_hyper_mutation",
+    "recovery_diversity_injection",
+    "recovery_tournament_shrink",
+    "recovery_random_immigrants"
+  ],
+  "timestamp": "2026-03-04T09:14:38.284960"
+}
