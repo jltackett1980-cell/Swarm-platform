@@ -308,3 +308,68 @@ if __name__ == "__main__":
     print("🔥 Phoenix Forge — 600-point wisdom scoring complete")
     print("   The first AI platform scored on ancient human wisdom.")
     print("=" * 70)
+
+    "sun_tzu": {
+        "name": "Sun Tzu — The Art of Shield",
+        "source": "The Art of War: 'To subdue the enemy without fighting is the supreme excellence.'",
+        "principle": "The best defense prevents the fight entirely. The best shield makes the sword unnecessary.",
+        "max": 25,
+        "checks": {
+            "prevents_conflict":    (8, "Prevents problems before they occur"),
+            "protects_without_fighting": (7, "Cannot be weaponized — pure shield"),
+            "strengthens_weak":     (5, "Empowers the vulnerable"),
+            "silent_defense":       (5, "Protects without being noticed"),
+        }
+    },
+
+    "jesus": {
+        "name": "Jesus — The Sermon on the Mount",
+        "source": "Gospel of Matthew: 'Blessed are the merciful, for they shall obtain mercy.'",
+        "principle": "Compassion, mercy, and love for the least of these.",
+        "max": 25,
+        "checks": {
+            "mercy":                (8, "Shows mercy to those who have done wrong"),
+            "love_enemy":           (7, "Loves those who would do harm — transforms them"),
+            "heal_sick":            (5, "Heals the sick without condition"),
+            "comfort_mourning":     (5, "Comforts those who grieve"),
+        }
+    },
+
+    "muhammad": {
+        "name": "Muhammad — Mercy to Mankind",
+        "source": "Quran: 'We have sent you only as a mercy to the worlds.'",
+        "principle": "Compassion, justice, and care for the orphan and widow.",
+        "max": 25,
+        "checks": {
+            "mercy_to_worlds":      (8, "Extends mercy to all creation"),
+            "justice_for_orphan":   (7, "Defends those who cannot defend themselves"),
+            "care_for_widow":       (5, "Provides for the vulnerable"),
+            "community_support":    (5, "Strengthens community bonds"),
+        }
+    },
+
+    "moses": {
+        "name": "Moses — The Law and Liberation",
+        "source": "Torah: 'You shall not wrong a stranger or oppress him, for you were strangers in the land of Egypt.'",
+        "principle": "Justice, law, and liberation from oppression.",
+        "max": 25,
+        "checks": {
+            "protect_stranger":     (8, "Protects the stranger and foreigner"),
+            "liberate_oppressed":   (7, "Frees people from bondage"),
+            "just_laws":            (5, "Creates fair systems that protect the weak"),
+            "remember_suffering":   (5, "Never forgets what it was like to suffer"),
+        }
+    },
+
+    "i_ching": {
+        "name": "I Ching — The Book of Changes",
+        "source": "The I Ching: 'Change is constant. Wisdom is knowing how to flow with it.'",
+        "principle": "Adaptation, harmony, and reading the patterns of change.",
+        "max": 25,
+        "checks": {
+            "adapts_to_change":     (8, "Adapts gracefully to changing circumstances"),
+            "reads_patterns":       (7, "Recognizes patterns before they fully emerge"),
+            "harmonious_integration": (5, "Creates harmony between opposing forces"),
+            "timely_action":        (5, "Acts at exactly the right moment — neither early nor late"),
+        }
+    },
