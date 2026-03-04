@@ -1,0 +1,39 @@
+{
+  "id": "800811fe",
+  "name": "ForgeSleep",
+  "generation": 69601,
+  "created_at": "2026-03-04T05:36:54.245284",
+  "pain": "sleep_disorder",
+  "population": 70000000,
+  "problem": "70M with sleep disorders \u2014 existing devices expensive or ineffective",
+  "physics": "photobiomodulation",
+  "physics_desc": "Specific light wavelengths stimulate cell function",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Red light therapy",
+    "Laser therapy"
+  ],
+  "form_factor": "sleep headband",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0545,
+    "size_cm": 11.0,
+    "cost_usd": 167.3,
+    "battery_hours": 155.3
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "SleepWell",
+  "companion_domain": "sleep_better",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
