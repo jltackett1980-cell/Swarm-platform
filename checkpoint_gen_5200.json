@@ -1,13 +1,13 @@
 {
   "generation": 5200,
-  "best_score": 355.92858217490317,
+  "best_score": 407.55629214892645,
   "best_genome": null,
   "mutation_rate": 0.6,
   "tournament_size": 5,
   "crossover_rate": 0.7,
   "elitism": 10,
-  "stagnation_counter": 8,
-  "recovery_attempts": 0,
+  "stagnation_counter": 203,
+  "recovery_attempts": 153,
   "recovery_modes_used": [
     "recovery_diversity_injection",
     "recovery_tournament_shrink",
@@ -15,5 +15,5 @@
     "recovery_hyper_mutation",
     "recovery_diversity_injection"
   ],
-  "timestamp": "2026-02-25T08:52:22.751596"
+  "timestamp": "2026-03-04T09:01:03.900715"
 }
