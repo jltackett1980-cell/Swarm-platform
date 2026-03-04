@@ -1,0 +1,39 @@
+{
+  "id": "bbd9d0e5",
+  "name": "EmberRestore",
+  "generation": 110832,
+  "created_at": "2026-03-04T09:55:08.927796",
+  "pain": "traumatic_brain",
+  "population": 5300000,
+  "problem": "5.3M living with TBI \u2014 limited affordable recovery tools",
+  "physics": "electromagnetic",
+  "physics_desc": "Pulsed electric/magnetic fields",
+  "physics_proven": true,
+  "comparable_devices": [
+    "TENS units",
+    "PEMF therapy"
+  ],
+  "form_factor": "headband",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0018,
+    "size_cm": 5.2,
+    "cost_usd": 265.86,
+    "battery_hours": 168
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}

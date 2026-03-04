@@ -1,19 +1,19 @@
 {
   "generation": 8400,
-  "best_score": 420.0221368911211,
+  "best_score": 416.6216520542992,
   "best_genome": null,
-  "mutation_rate": 0.6,
-  "tournament_size": 5,
+  "mutation_rate": 0.8,
+  "tournament_size": 3,
   "crossover_rate": 0.7,
   "elitism": 10,
-  "stagnation_counter": 55,
-  "recovery_attempts": 5,
+  "stagnation_counter": 32,
+  "recovery_attempts": 0,
   "recovery_modes_used": [
+    "recovery_hyper_mutation",
     "recovery_diversity_injection",
     "recovery_tournament_shrink",
     "recovery_random_immigrants",
-    "recovery_hyper_mutation",
-    "recovery_diversity_injection"
+    "recovery_hyper_mutation"
   ],
-  "timestamp": "2026-03-04T09:13:22.670218"
+  "timestamp": "2026-03-04T09:58:11.246386"
 }
