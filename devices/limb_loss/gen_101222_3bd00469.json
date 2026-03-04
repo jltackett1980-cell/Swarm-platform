@@ -1,0 +1,39 @@
+{
+  "id": "3bd00469",
+  "name": "EmberReach",
+  "generation": 101222,
+  "created_at": "2026-03-04T08:45:19.864451",
+  "pain": "limb_loss",
+  "population": 2100000,
+  "problem": "2.1M with limb loss \u2014 prosthetics with sensation cost $100,000+",
+  "physics": "biofeedback_neural",
+  "physics_desc": "Reads body signals, responds in real time",
+  "physics_proven": true,
+  "comparable_devices": [
+    "Neurofeedback",
+    "Vagus nerve stimulation"
+  ],
+  "form_factor": "socket sensor",
+  "complexity": 10,
+  "specs": {
+    "power_watts": 0.0026,
+    "size_cm": 4.3,
+    "cost_usd": 195.32,
+    "battery_hours": 88.1
+  },
+  "edge_deployable": true,
+  "chip_note": "Phoenix chip (131072x131072, neuromorphic) enables on-device AI inference at 20.0GHz. No cloud. Fully private.",
+  "companion_app": "Patient Management",
+  "companion_domain": "healthcare",
+  "wisdom_score": 100,
+  "wisdom_criteria": {
+    "proven_physics": true,
+    "affordable": true,
+    "reaches_millions": true,
+    "edge_deployable": true,
+    "has_companion_app": true,
+    "chip_enhanced": true
+  },
+  "total_score": 100,
+  "peoples_charter": true
+}
